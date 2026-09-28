@@ -186,3 +186,46 @@ Details and measurements in `notes/ui-polish.md`. Requests and things other owne
   new reducer messages `trace-reset`, `trace-connection`, `ledger` in `app/lib/flow.ts`.
 - The ledger table, About page live figures and the actions captions all show replayed calls as replayed; no cache
   savings are claimed anywhere (0 cache hits in every recording).
+
+---
+
+# Copy truth pass (app/ owner, 2026-09-28)
+
+Fixes to what the UI claimed, verified in Chromium (Playwright for Python) against `QB_MODE=mock QB_DATA_DIR=.data next dev
+--port 4000` at 390 and 1336 px; 66 browser checks, screens `notes/screens/{about,plans}-truth-<w>.png`,
+`plans-codebuilt-<w>.png` (hand-made run: a `code-built` plan plus a `not-offered` violation carrying `evidence`, written to
+`.data/runs/` and removed after), `deleted-truth-1336.png`.
+
+- About: model table rows now say what each model does (Lightning drafts the three plans in parallel, thinking off, prefix
+  cached; answers "why not"; reads a paste the parser could not. Super repairs from the code-computed menu. Ultra stress-tests
+  on click at reasoning effort high); no offering-row extraction, no Super cache claim; "about 2.5 cents per student, 27 s at
+  the median" from `eval/results.md`; cache hits stated as measured only on Lightning. "How it works" no longer says you only
+  see how many drafts were rejected.
+- PlanFlow hint: "Live planning usually takes ten to forty seconds; a recorded run replays in about ten seconds."
+- `app/lib/trace.ts`: `stepTier` no longer maps `plan|draft|verif|repair` to Super; for the plan step `inFlight` takes the
+  badge from the last `model` event of that step (Lightning while drafting, Super while repairing), else the last model seen;
+  `stress|critic` → Ultra and `explain|intake|extract` → Lightning stay word-based. Before the first model call of a run the
+  in-flight row has no badge. With the 2026-09-27 recordings still in `fixtures/` the browser can only show Super here; the
+  Lightning → Super hand-off is pinned by `trace.test.ts`.
+- Privacy copy (PasteForm, ActionsPanel, About): "Your record is kept only as part of this plan and only until you delete it;
+  Save adds a share link." About adds that the run record is written when Re-plan starts and removed, with trace, approvals
+  and saved copy, by "Delete my data".
+- Delete is reachable from the impact step on: a "Delete my data" button sits next to "Re-planned below" once the trace has
+  ended (`runId && traceDone`, so it never races the planner's read-merge-write), including on a saved `/plan/<qb_id>` view.
+  The reducer's `deleted` now drops the run and every step below it (impact kept), so nothing on the page reads a deleted run;
+  `plan-start`/`select` clear the flag. `ActionsPanel` lost its `deleted` prop (unreachable now) and keeps Save + Delete.
+- RejectedDrafts: a violation with `evidence` renders the row as a quote with source host link and fetch date instead of the
+  message (which for `not-offered` repeats the quote as prose); no evidence → the message. `fetchedAt` is guarded.
+- PlanColumns: `label === 'code-built'` (engine's `FALLBACK_LABEL`) gets the neutral tag "Built by the verifier’s rules" and
+  one sentence; Recommended/Refused styling unchanged. Render tests via `react-dom/server` in
+  `app/components/{PlanColumns,RejectedDrafts}.test.ts` (no new packages).
+- Footer: "Runs on Nebius Token Factory with NVIDIA Nemotron 3.5 Lightning, 3 Super and 3 Ultra."; the Start page line says
+  the same; the About table carries the three exact ids.
+
+Requests / drift for other owners:
+- **engine (`lib/types.ts`)** — still reading `Violation.evidence` structurally; add `evidence?: OfferingEvidence` when the
+  verifier emits it and the cast in `RejectedDrafts.tsx` can go.
+- **devpost** — `GALLERY.md` (frame 1) and `VIDEO.md` (0:12–0:28) quote the old Start page lines "Processed in memory. Stored
+  only if you choose Save" and "Runs on Nebius Token Factory with NVIDIA Nemotron." verbatim; the live copy is the privacy
+  sentence above and "… with NVIDIA Nemotron 3.5 Lightning, 3 Super and 3 Ultra. Every model call is shown …".
+- **DESIGN.md "Storage"** already matches the new privacy copy (run written when planning starts; Save copies; Delete removes).

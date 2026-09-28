@@ -292,12 +292,17 @@ export function PlanFlow({ demo, initialCourse = null, initialKind = 'drop', sav
             <section aria-labelledby="step-2">
               <StepHeading n={2} id="step-2" title="Impact" hint="Computed from your record, the catalog and department pages. No model involved." />
               {s.impact && !s.impactLoading ? <ImpactCard impact={s.impact} deadlines={deadlines} /> : <ImpactSkeleton />}
-              {!s.readOnly && s.impact && !s.impactLoading && (
+              {s.impact && !s.impactLoading && (
                 <div className="mt-4 flex flex-wrap items-center gap-3">
-                  <button type="button" onClick={replan} disabled={s.planning || !!runId} className={btn.primary}>
-                    {runId ? 'Re-planned below' : 'Re-plan the next three quarters'}
-                  </button>
-                  {!runId && <span className="text-xs text-ink-3">Proposes up to three plans and checks each one. Live planning takes two to three minutes; a recorded run replays in about ten seconds.</span>}
+                  {!s.readOnly && (
+                    <button type="button" onClick={replan} disabled={s.planning || !!runId} className={btn.primary}>
+                      {runId ? 'Re-planned below' : 'Re-plan the next three quarters'}
+                    </button>
+                  )}
+                  {!s.readOnly && !runId && !s.deleted && <span className="text-xs text-ink-3">Proposes up to three plans and checks each one. Live planning usually takes ten to forty seconds; a recorded run replays in about ten seconds.</span>}
+                  {/* The run record (with the parsed record) exists from Re-plan on, so Delete is reachable from here on — once the planner has stopped writing it. */}
+                  {runId && traceDone && <button type="button" onClick={remove} disabled={s.busy} className={btn.danger}>Delete my data</button>}
+                  {s.deleted && <Notice tone="neutral">Your data has been deleted. Nothing about this session is kept.</Notice>}
                 </div>
               )}
             </section>
@@ -445,7 +450,6 @@ export function PlanFlow({ demo, initialCourse = null, initialKind = 'drop', sav
                     currentTerm={student.currentTerm}
                     saved={s.saved}
                     busy={s.busy}
-                    deleted={s.deleted}
                     onSave={save}
                     onDelete={remove}
                   />

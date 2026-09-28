@@ -24,9 +24,11 @@ export async function POST(req: Request) {
     throw e;
   }
   const plan = run.plans.find((p) => p.id === planId)!;
+  // A demo student or a replayed run links to the staging mirror: production tritonplan.com needs a ucsd.edu sign-in.
+  const demo = run.state.source === 'demo' || run.mode !== 'live';
   let importUrl: string;
   try {
-    importUrl = buildImportUrl(importPayload(record, plan));
+    importUrl = buildImportUrl(importPayload(record, plan), { demo });
   } catch (e) {
     return NextResponse.json({ error: `Approved, but the TritonPlan link could not be signed: ${e instanceof Error ? e.message : String(e)}` }, { status: 500 });
   }

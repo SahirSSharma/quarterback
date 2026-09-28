@@ -55,7 +55,7 @@ describe('renderPaste', () => {
     expect(pdf).toContain('\t');
     expect(pdf).toMatch(/page \d+ of \d+/);
     const got = fromAcademicHistory(wrapped, { currentTerm: TERM });
-    expect(got.courses.length).toBeLessThan(s.courses.length); // the parser needs one row per line: a measured limitation
+    expect(scoreIntake(s, got)).toMatchObject({ recall: 1, precision: 1 }); // joinWrappedRows() re-joins the wrapped rows before the parser
   });
 
   it('writes a second Major: line and a transfer block the parser reads back', () => {
@@ -88,7 +88,7 @@ describe('makeCases / runCase / summarize', () => {
     const all = summary.find((s) => s.layout === 'all')!;
     expect(all.pastes).toBe(12);
     expect(all.rows).toBe(rows.reduce((n, r) => n + r.expectedRows, 0));
-    expect(all.recall).toBeLessThan(100); // the wrapped layout loses rows
+    expect(summary.find((s) => s.layout === 'wrapped')!.recall).toBe(100); // the pre-normalizer recovers every wrapped row
     expect(summary.find((s) => s.layout === 'web')!.recall).toBe(100);
     const md = renderE4(rows, { mode: 'mock', at: 'now', jsonl: 'x.jsonl', spent: 0 });
     expect(md).toContain('| Layout | Pastes |');

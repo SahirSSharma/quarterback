@@ -1,7 +1,7 @@
 // Pure helpers behind the trace panel. Events arrive as a flat stream of TraceEvents; the panel shows them as
 // rows with elapsed time, each tool call folded together with its result, and a spinner for the call in flight.
 // Nothing here knows the planner's step names: new steps render from their message, and the model badge for
-// the call in flight is guessed from the step name's words, else from the last model call seen.
+// the call in flight is guessed from the step name's words, else from the last model call seen in that step.
 import type { TraceEvent } from '@/lib/types';
 import { modelTier, type ModelTier } from './models';
 
@@ -47,10 +47,12 @@ export function formatElapsed(ms: number): string {
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 }
 
-/** Which Nemotron tier a step name points at, by its words; null when the name says nothing. */
+/**
+ * Which Nemotron tier a step name points at, by its words; null when the name says nothing. The planner's 'plan'
+ * step is deliberately unmapped: it runs Lightning drafts and then Super repairs, so its badge follows the calls.
+ */
 export function stepTier(step: string): ModelTier | null {
   const s = step.toLowerCase();
-  if (/plan|draft|verif|repair/.test(s)) return 'Super';
   if (/stress|critic/.test(s)) return 'Ultra';
   if (/explain|intake|extract/.test(s)) return 'Lightning';
   return null;
@@ -61,11 +63,13 @@ export function inFlight(events: TraceEvent[], live: boolean): { step: string; t
   if (!live) return null;
   const last = events[events.length - 1];
   if (last && (last.type === 'done' || last.type === 'error')) return null;
-  let lastModel: string | null = null;
-  for (let i = events.length - 1; i >= 0 && lastModel === null; i--) {
-    const e = events[i];
-    if (e.type === 'model') lastModel = e.entry.model;
-  }
   const step = last?.step ?? 'plan';
-  return { step, tier: stepTier(step) ?? (lastModel ? modelTier(lastModel) : null) };
+  let tier = stepTier(step);
+  if (tier === null) {
+    // The last model call in this step (Lightning while drafting, Super while repairing), else the last one anywhere.
+    const models = events.filter((e): e is Extract<TraceEvent, { type: 'model' }> => e.type === 'model');
+    const m = models.findLast((e) => e.step === step) ?? models[models.length - 1];
+    if (m) tier = modelTier(m.entry.model);
+  }
+  return { step, tier };
 }

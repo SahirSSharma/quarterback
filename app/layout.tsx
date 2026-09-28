@@ -60,7 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </a>{' '}
               · Not affiliated with UC San Diego. Confirm anything that matters with your college advisor.
             </p>
-            <p>Runs on Nebius Token Factory with NVIDIA Nemotron.</p>
+            <p>Runs on Nebius Token Factory with NVIDIA Nemotron 3.5 Lightning, 3 Super and 3 Ultra.</p>
           </div>
         </footer>
       </body>

@@ -8,7 +8,8 @@
 //   importPayload(record, plan)           → ImportPayload for the token
 //   signImportToken(payload, key?)        → token; `key` is the PKCS8 base64 private key, default QB_SIGNING_KEY
 //   verifyImportToken(token, spkiBase64)  → the payload, or null when the signature or shape is wrong
-//   buildImportUrl(payload, key?)         → https://tritonplan.com/tools/quarterback-import?plan=<token>
+//   buildImportUrl(payload, {demo, key})  → <base>?plan=<token>; base is IMPORT_BASE, or IMPORT_BASE_STAGING when `demo`
+//                                           (a demo student or a replayed run), or QB_IMPORT_BASE when set
 //   planHash(plan)                        → sha256 hex of the plan's canonical JSON (sorted keys)
 //
 // Token format: `base64url(JSON.stringify(payload)) + '.' + base64url(signature)`. The signature is ECDSA
@@ -27,6 +28,8 @@ import { store } from './blob';
 import { shortId, updateRun } from './runs';
 
 export const IMPORT_BASE = 'https://tritonplan.com/tools/quarterback-import';
+/** Production tritonplan.com needs a ucsd.edu sign-in, so a demo or replayed run links to the public mirror of the same page. */
+export const IMPORT_BASE_STAGING = 'https://sahirssharma.github.io/tritonplan-staging/tools/quarterback-import';
 export const OVERRIDE_PHRASE = 'I understand';
 
 export type StoredApproval = ApprovalRecord & { runId: string };
@@ -113,8 +116,14 @@ export async function verifyImportToken(token: string, spkiBase64: string): Prom
   }
 }
 
-export function buildImportUrl(payload: ImportPayload, privateKeyPkcs8Base64?: string): string {
-  return `${IMPORT_BASE}?plan=${encodeURIComponent(signImportToken(payload, privateKeyPkcs8Base64))}`;
+export function buildImportUrl(payload: ImportPayload, opts: { demo?: boolean; key?: string } = {}): string {
+  return `${importBase(opts.demo === true)}?plan=${encodeURIComponent(signImportToken(payload, opts.key))}`;
+}
+
+/** QB_IMPORT_BASE (a preview of the import page, say) overrides both targets. */
+export function importBase(demo: boolean): string {
+  loadEnv();
+  return process.env.QB_IMPORT_BASE || (demo ? IMPORT_BASE_STAGING : IMPORT_BASE);
 }
 
 function signingKey(): string {

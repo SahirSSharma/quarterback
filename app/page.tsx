@@ -54,7 +54,7 @@ export default function Start() {
           <p className="mt-auto pt-2 text-xs text-ink-3">Demo records are synthetic. No real student is shown.</p>
         </Card>
         <p className="text-sm text-ink-2 lg:col-span-2">
-          Runs on <span className="font-medium text-ink">Nebius Token Factory</span> with <span className="font-medium text-ink">NVIDIA Nemotron</span>. Every model call is shown in the trace with its time, tokens and cost.
+          Runs on <span className="font-medium text-ink">Nebius Token Factory</span> with <span className="font-medium text-ink">NVIDIA Nemotron</span> 3.5 Lightning, 3 Super and 3 Ultra. Every model call is shown in the trace with its time, tokens and cost.
         </p>
       </section>
 

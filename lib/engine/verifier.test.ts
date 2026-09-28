@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import type { Plan, PlanTerm } from '../types';
 import { offeringsRows } from './data';
+import { offeringStatus } from './offerings';
 import { demoStudents } from './student';
 import { verify } from './verifier';
 
@@ -67,14 +68,31 @@ describe('verify: each rule', () => {
     const v = r.violations.find((x) => x.rule === 'not-offered')!;
     expect(v).toMatchObject({ severity: 'error', course: found.code, term: found.term });
     expect(v.message).toContain(found.quote);
+    // The row the rule read rides along, exactly as offeringStatus() returned it.
+    expect(v.evidence).toEqual(offeringStatus(found.code, found.term));
+    expect(v.evidence).toMatchObject({ status: 'not_offered', quote: found.quote, source: 'department-page' });
     expect(r.ok).toBe(false);
   });
-  it('assumed-offered is a warning, not an error', () => {
+  it('assumed-offered is a warning, not an error, and carries the evidence row it read', () => {
     const r = verify(plan([{ term: 'WI27', courses: ['HUM 4', 'HUM 5', 'MATH 18', 'CSE 21'], units: 16 }]), demoA(), { now: NOW });
     const w = r.violations.filter((v) => v.rule === 'assumed-offered');
     expect(w.length).toBeGreaterThan(0);
     expect(w.every((v) => v.severity === 'warning')).toBe(true);
+    for (const v of w) expect(v.evidence).toEqual(offeringStatus(v.course!, v.term!));
+    expect(w.every((v) => v.evidence?.status === 'unknown')).toBe(true);
     expect(r.ok).toBe(true);
+  });
+  it('attaches evidence only to the two offering rules', () => {
+    const r = verify(plan([
+      { term: 'WI27', courses: ['CSE 12', 'CSE 100', 'CSE 30'], units: 8 },
+      { term: 'SP27', courses: ['CSE 30'], units: 4 },
+    ], 'WI27'), demoA(), { now: NOW });
+    const rules = new Set(r.violations.map((v) => v.rule));
+    for (const rule of ['already-earned', 'prereq-unsatisfied', 'unit-floor', 'duplicate', 'graduation-infeasible']) expect(rules.has(rule), rule).toBe(true);
+    for (const v of r.violations) {
+      if (v.rule === 'not-offered' || v.rule === 'assumed-offered') expect(v.evidence).toBeDefined();
+      else expect(v.evidence, v.rule).toBeUndefined();
+    }
   });
   it('unit-floor unless the term is marked part-time', () => {
     expect(rules(plan([{ term: 'WI27', courses: ['CSE 21', 'CSE 30'], units: 8 }]), 'error')).toContain('unit-floor');

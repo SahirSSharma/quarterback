@@ -45,3 +45,4 @@ next-env.d.ts
 .env.hackathon
 eval/results/*.jsonl
 notes/screens/
+notes/verify/

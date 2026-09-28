@@ -1,6 +1,6 @@
 {
   "demo": "b",
-  "recordedAt": "2026-09-28T04:18:17.321Z",
+  "recordedAt": "2026-09-28T07:43:36.915Z",
   "now": "2026-10-01T12:00:00-07:00",
   "state": {
     "college": "Thurgood Marshall College",
@@ -545,7 +545,7 @@
   },
   "plans": [
     {
-      "id": "p-fastest",
+      "id": "p-fastest-2",
       "label": "fastest",
       "terms": [
         {
@@ -554,143 +554,684 @@
             "COGS 109",
             "COGS 112",
             "COGS 115",
-            "AAS 10",
-            "COGS 193"
+            "COGS 160",
+            "COGS 163"
           ],
-          "units": 18
+          "units": 20
         },
         {
           "term": "SP27",
           "courses": [
             "COGS 107C",
-            "COGS 160",
-            "COGS 171",
-            "COGS 151"
+            "COGS 151",
+            "CSE 6R",
+            "AAS 10",
+            "ANTH 10"
           ],
-          "units": 16
+          "units": 20
         },
         {
           "term": "FA27",
           "courses": [
-            "ANTH 10",
-            "COGS 119",
-            "COGS 163"
+            "COGS 101C",
+            "COGS 171",
+            "COGS 177",
+            "AAS 11",
+            "PHYS 10"
           ],
-          "units": 12
+          "units": 20
         }
       ],
-      "rationale": "Front-loads major electives to finish sooner; assumes offered status for unknown courses is acceptable.",
+      "rationale": "This plan completes all remaining major and college requirements in three quarters while maintaining full-time enrollment. It assumes all courses are offered as indicated in the eligibility lists and that prerequisites are satisfied by prior coursework or planned earlier quarters.",
       "graduationTerm": "FA27"
     },
     {
-      "id": "p-balanced",
+      "id": "p-balanced-2",
       "label": "balanced",
       "terms": [
         {
           "term": "WI27",
           "courses": [
             "COGS 109",
-            "COGS 112",
-            "AAS 10"
+            "AAS 10",
+            "ANTH 10",
+            "MATH 10B"
           ],
-          "units": 12
+          "units": 16
         },
         {
           "term": "SP27",
           "courses": [
-            "COGS 107C",
             "COGS 160",
-            "COGS 151"
+            "ETHN 1R",
+            "COGS 107C",
+            "COGS 171"
           ],
-          "units": 12
+          "units": 16
         },
         {
           "term": "FA27",
           "courses": [
-            "ANTH 10",
-            "COGS 119",
-            "COGS 163",
-            "COGS 156"
+            "COGS 151",
+            "GLBH 120",
+            "PHYS 10",
+            "COGS 177"
           ],
           "units": 16
         }
       ],
-      "rationale": "Evenly spreads load while meeting requirements; assumes unknown offerings are permissible.",
+      "rationale": "This plan satisfies all remaining requirements while keeping a balanced load of four courses (~16 units) each quarter. It assumes all courses are offered as indicated by the evidence and that prerequisites are satisfied by prior coursework or planned earlier quarters.",
       "graduationTerm": "FA27"
     },
     {
-      "id": "p-lightest",
+      "id": "p-lightest-2",
       "label": "lightest",
       "terms": [
         {
           "term": "WI27",
           "courses": [
             "COGS 109",
-            "COGS 112",
-            "COGS 115"
+            "AAS 10",
+            "ANTH 10"
           ],
           "units": 12
         },
         {
           "term": "SP27",
           "courses": [
-            "COGS 107C",
-            "COGS 160",
-            "COGS 171"
+            "COGS 151",
+            "AAS 11",
+            "ENVR 30"
           ],
           "units": 12
         },
         {
           "term": "FA27",
           "courses": [
-            "ANTH 10",
-            "COGS 119",
-            "COGS 163"
+            "COGS 115",
+            "COGS 160",
+            "COGS 171"
           ],
           "units": 12
         }
       ],
-      "rationale": "Keeps each quarter at the 12‑unit minimum; relies on unknown offerings for some courses.",
+      "rationale": "This plan completes the remaining upper-division electives, humanities, and climate change requirements while maintaining full-time enrollment. It assumes all courses are offered as indicated in the eligibility lists and avoids any conflicts with completed or in-progress work.",
       "graduationTerm": "FA27"
     }
   ],
   "reports": [
     {
       "planId": "p-fastest",
-      "ok": true,
+      "ok": false,
       "violations": [
         {
-          "rule": "assumed-offered",
-          "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+          "rule": "unit-cap",
+          "message": "WI27 has 20 units, above the 19.5-unit standard enrollment cap.",
           "severity": "warning",
-          "course": "AAS 10",
           "term": "WI27"
         },
         {
           "rule": "assumed-offered",
-          "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+          "message": "AAS 10 in SP27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 10",
+          "term": "SP27",
+          "evidence": {
+            "course": "AAS 10",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ANTH 10 in SP27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
           "severity": "warning",
           "course": "ANTH 10",
+          "term": "SP27",
+          "evidence": {
+            "course": "ANTH 10",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "SP27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
+          "term": "SP27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 101C in FA27 has no offering evidence: COGS 101C: last CAPE-evaluated offering WI23; 34 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 101C",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 101C",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 101C: last CAPE-evaluated offering WI23; 34 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 171 in FA27 has no offering evidence: COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 171",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 171",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 177 in FA27 has no offering evidence: COGS 177: last CAPE-evaluated offering S222; 7 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 177",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 177",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 177: last CAPE-evaluated offering S222; 7 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "already-earned",
+          "message": "DOC 1 is already earned (B+, FA24).",
+          "severity": "error",
+          "course": "DOC 1",
           "term": "FA27"
         },
         {
           "rule": "assumed-offered",
-          "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+          "message": "DOC 1 in FA27 has no offering evidence: DOC 1: last CAPE-evaluated offering FA22; 17 quarters on record.",
           "severity": "warning",
-          "course": "COGS 119",
-          "term": "FA27"
+          "course": "DOC 1",
+          "term": "FA27",
+          "evidence": {
+            "course": "DOC 1",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "DOC 1: last CAPE-evaluated offering FA22; 17 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+          "message": "PHYS 10 in FA27 has no offering evidence: PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record.",
           "severity": "warning",
-          "course": "COGS 163",
+          "course": "PHYS 10",
+          "term": "FA27",
+          "evidence": {
+            "course": "PHYS 10",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "FA27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
           "term": "FA27"
         }
       ]
     },
     {
       "planId": "p-balanced",
+      "ok": false,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 10",
+          "term": "WI27",
+          "evidence": {
+            "course": "AAS 10",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ANTH 10 in WI27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+          "severity": "warning",
+          "course": "ANTH 10",
+          "term": "WI27",
+          "evidence": {
+            "course": "ANTH 10",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "not-offered",
+          "message": "COGS 112 is not offered in SP27: \"COGS 112,,Walker,,,\" (https://cogsci.ucsd.edu/undergraduates/courses/index.html, fetched 2026-09-28T02:31:26.168Z).",
+          "severity": "error",
+          "course": "COGS 112",
+          "term": "SP27",
+          "evidence": {
+            "course": "COGS 112",
+            "term": "SP27",
+            "status": "not_offered",
+            "quote": "COGS 112,,Walker,,,",
+            "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+            "fetchedAt": "2026-09-28T02:31:26.168Z",
+            "source": "department-page"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ETHN 1R in SP27 has no offering evidence: ETHN 1R: no source found — no department page row, no SP27 section, no CAPE history.",
+          "severity": "warning",
+          "course": "ETHN 1R",
+          "term": "SP27",
+          "evidence": {
+            "course": "ETHN 1R",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "ETHN 1R: no source found — no department page row, no SP27 section, no CAPE history",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "prereq-unsatisfied",
+          "message": "CHEM 12 in SP27 still needs CHEM 11.",
+          "severity": "error",
+          "course": "CHEM 12",
+          "term": "SP27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CHEM 12 in SP27 has no offering evidence: CHEM 12: last CAPE-evaluated offering WI22; 19 quarters on record.",
+          "severity": "warning",
+          "course": "CHEM 12",
+          "term": "SP27",
+          "evidence": {
+            "course": "CHEM 12",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "CHEM 12: last CAPE-evaluated offering WI22; 19 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 151 in FA27 has no offering evidence: COGS 151: last CAPE-evaluated offering WI21; 15 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 151",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 151",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 151: last CAPE-evaluated offering WI21; 15 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "GLBH 120 in FA27 has no offering evidence: GLBH 120: no source found — no department page row, no FA27 section, no CAPE history.",
+          "severity": "warning",
+          "course": "GLBH 120",
+          "term": "FA27",
+          "evidence": {
+            "course": "GLBH 120",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "GLBH 120: no source found — no department page row, no FA27 section, no CAPE history",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "PHYS 10 in FA27 has no offering evidence: PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record.",
+          "severity": "warning",
+          "course": "PHYS 10",
+          "term": "FA27",
+          "evidence": {
+            "course": "PHYS 10",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 177 in FA27 has no offering evidence: COGS 177: last CAPE-evaluated offering S222; 7 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 177",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 177",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 177: last CAPE-evaluated offering S222; 7 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        }
+      ]
+    },
+    {
+      "planId": "p-lightest",
+      "ok": false,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 10",
+          "term": "WI27",
+          "evidence": {
+            "course": "AAS 10",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ANTH 10 in WI27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+          "severity": "warning",
+          "course": "ANTH 10",
+          "term": "WI27",
+          "evidence": {
+            "course": "ANTH 10",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "not-offered",
+          "message": "COGS 112 is not offered in SP27: \"COGS 112,,Walker,,,\" (https://cogsci.ucsd.edu/undergraduates/courses/index.html, fetched 2026-09-28T02:31:26.168Z).",
+          "severity": "error",
+          "course": "COGS 112",
+          "term": "SP27",
+          "evidence": {
+            "course": "COGS 112",
+            "term": "SP27",
+            "status": "not_offered",
+            "quote": "COGS 112,,Walker,,,",
+            "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+            "fetchedAt": "2026-09-28T02:31:26.168Z",
+            "source": "department-page"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "AAS 11 in SP27 has no offering evidence: AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 11",
+          "term": "SP27",
+          "evidence": {
+            "course": "AAS 11",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ENVR 30 in SP27 has no offering evidence: ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record.",
+          "severity": "warning",
+          "course": "ENVR 30",
+          "term": "SP27",
+          "evidence": {
+            "course": "ENVR 30",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 115 in FA27 has no offering evidence: COGS 115: last CAPE-evaluated offering WI23; 18 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 115",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 115",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 115: last CAPE-evaluated offering WI23; 18 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 160 in FA27 has no offering evidence: COGS 160: last CAPE-evaluated offering WI23; 48 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 160",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 160",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 160: last CAPE-evaluated offering WI23; 48 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 171 in FA27 has no offering evidence: COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 171",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 171",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        }
+      ]
+    },
+    {
+      "planId": "p-fastest-2",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "unit-cap",
+          "message": "WI27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
+          "term": "WI27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "AAS 10 in SP27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 10",
+          "term": "SP27",
+          "evidence": {
+            "course": "AAS 10",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ANTH 10 in SP27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+          "severity": "warning",
+          "course": "ANTH 10",
+          "term": "SP27",
+          "evidence": {
+            "course": "ANTH 10",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "SP27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
+          "term": "SP27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 101C in FA27 has no offering evidence: COGS 101C: last CAPE-evaluated offering WI23; 34 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 101C",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 101C",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 101C: last CAPE-evaluated offering WI23; 34 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 171 in FA27 has no offering evidence: COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 171",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 171",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 177 in FA27 has no offering evidence: COGS 177: last CAPE-evaluated offering S222; 7 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 177",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 177",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 177: last CAPE-evaluated offering S222; 7 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "AAS 11 in FA27 has no offering evidence: AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 11",
+          "term": "FA27",
+          "evidence": {
+            "course": "AAS 11",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "PHYS 10 in FA27 has no offering evidence: PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record.",
+          "severity": "warning",
+          "course": "PHYS 10",
+          "term": "FA27",
+          "evidence": {
+            "course": "PHYS 10",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "FA27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
+          "term": "FA27"
+        }
+      ]
+    },
+    {
+      "planId": "p-balanced-2",
       "ok": true,
       "violations": [
         {
@@ -698,1637 +1239,716 @@
           "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
           "severity": "warning",
           "course": "AAS 10",
-          "term": "WI27"
+          "term": "WI27",
+          "evidence": {
+            "course": "AAS 10",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+          "message": "ANTH 10 in WI27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
           "severity": "warning",
           "course": "ANTH 10",
-          "term": "FA27"
+          "term": "WI27",
+          "evidence": {
+            "course": "ANTH 10",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+          "message": "ETHN 1R in SP27 has no offering evidence: ETHN 1R: no source found — no department page row, no SP27 section, no CAPE history.",
           "severity": "warning",
-          "course": "COGS 119",
-          "term": "FA27"
+          "course": "ETHN 1R",
+          "term": "SP27",
+          "evidence": {
+            "course": "ETHN 1R",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "ETHN 1R: no source found — no department page row, no SP27 section, no CAPE history",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+          "message": "COGS 151 in FA27 has no offering evidence: COGS 151: last CAPE-evaluated offering WI21; 15 quarters on record.",
           "severity": "warning",
-          "course": "COGS 163",
-          "term": "FA27"
+          "course": "COGS 151",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 151",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 151: last CAPE-evaluated offering WI21; 15 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "COGS 156 in FA27 has no offering evidence: COGS 156: last CAPE-evaluated offering WI23; 13 quarters on record.",
+          "message": "GLBH 120 in FA27 has no offering evidence: GLBH 120: no source found — no department page row, no FA27 section, no CAPE history.",
           "severity": "warning",
-          "course": "COGS 156",
-          "term": "FA27"
+          "course": "GLBH 120",
+          "term": "FA27",
+          "evidence": {
+            "course": "GLBH 120",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "GLBH 120: no source found — no department page row, no FA27 section, no CAPE history",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "PHYS 10 in FA27 has no offering evidence: PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record.",
+          "severity": "warning",
+          "course": "PHYS 10",
+          "term": "FA27",
+          "evidence": {
+            "course": "PHYS 10",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 177 in FA27 has no offering evidence: COGS 177: last CAPE-evaluated offering S222; 7 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 177",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 177",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 177: last CAPE-evaluated offering S222; 7 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         }
       ]
     },
     {
-      "planId": "p-lightest",
+      "planId": "p-lightest-2",
       "ok": true,
       "violations": [
         {
           "rule": "assumed-offered",
-          "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+          "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 10",
+          "term": "WI27",
+          "evidence": {
+            "course": "AAS 10",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ANTH 10 in WI27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
           "severity": "warning",
           "course": "ANTH 10",
-          "term": "FA27"
+          "term": "WI27",
+          "evidence": {
+            "course": "ANTH 10",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+          "message": "AAS 11 in SP27 has no offering evidence: AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record.",
           "severity": "warning",
-          "course": "COGS 119",
-          "term": "FA27"
+          "course": "AAS 11",
+          "term": "SP27",
+          "evidence": {
+            "course": "AAS 11",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+          "message": "ENVR 30 in SP27 has no offering evidence: ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record.",
           "severity": "warning",
-          "course": "COGS 163",
-          "term": "FA27"
+          "course": "ENVR 30",
+          "term": "SP27",
+          "evidence": {
+            "course": "ENVR 30",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 115 in FA27 has no offering evidence: COGS 115: last CAPE-evaluated offering WI23; 18 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 115",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 115",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 115: last CAPE-evaluated offering WI23; 18 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 160 in FA27 has no offering evidence: COGS 160: last CAPE-evaluated offering WI23; 48 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 160",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 160",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 160: last CAPE-evaluated offering WI23; 48 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 171 in FA27 has no offering evidence: COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 171",
+          "term": "FA27",
+          "evidence": {
+            "course": "COGS 171",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         }
       ]
     }
   ],
-  "rejectedDrafts": 0,
-  "rounds": 1,
+  "rejectedDrafts": 3,
+  "rounds": 2,
   "verdict": {
-    "recommend": "p-fastest",
+    "recommend": "p-fastest-2",
     "refused": [],
     "risks": [
-      "p-balanced: AAS 10 in WI27, ANTH 10 in FA27, COGS 119 in FA27, COGS 163 in FA27, and COGS 156 in FA27 have no offering evidence beyond historical records; re-check the Schedule of Classes for these quarters.",
-      "p-lightest: ANTH 10 in FA27, COGS 119 in FA27, and COGS 163 in FA27 have no offering evidence beyond historical records; re-check the Schedule of Classes for these quarters."
+      "p-balanced-2 places COGS 151, GLBH 120, PHYS 10, and COGS 177 in FA27 with no offering evidence (all plain 'unknown' beyond published pages or departments with no page); also places ETHN 1R in SP27, AAS 10 and ANTH 10 in WI27 with plain 'unknown' status.",
+      "p-lightest-2 places COGS 115, COGS 160, and COGS 171 in FA27 with plain 'unknown' status; also places AAS 10 and ANTH 10 in WI27 and AAS 11 and ENVR 30 in SP27 with plain 'unknown' status."
     ],
-    "summary": "All three plans avoid quarters where a course is confirmed not offered or absent from a department page that covers that quarter. p-fastest has the most placements with direct department-page evidence (eight offered courses across WI27 and SP27), so it is the strongest bet for graduating in FA27. The remaining plans carry risk on several FA27 electives that only have historical offering records; verify those in the next Schedule of Classes."
+    "summary": "All three plans avoid quarters where department pages explicitly show a course as not offered or absent; p-fastest-2 has the strongest evidence with eight courses confirmed offered in their planned quarters (five in WI27, three in SP27). The main risk for any plan is the FA27 quarter, which falls beyond the COGS department's published schedule and for which several non-COGN departments publish no offerings page. You should re-check FA27 offerings for COGS 101C, COGS 151, COGS 160, COGS 171, COGS 177, PHYS 10, AAS 11, and GLBH 120 when the Schedule of Classes is released."
   },
   "ledger": [
     {
-      "at": "2026-09-28T04:17:01.984Z",
+      "at": "2026-09-28T07:43:27.069Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 13300,
-      "promptTokens": 12015,
-      "completionTokens": 2533,
-      "reasoningTokens": 2233,
-      "cacheHitTokens": 0,
-      "usd": 0.005884200000000001,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 1178,
+      "promptTokens": 12344,
+      "completionTokens": 29,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 8384,
+      "usd": 0.0007476000000000001,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:17:09.016Z",
+      "at": "2026-09-28T07:43:27.088Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 7026,
-      "promptTokens": 12547,
-      "completionTokens": 1436,
-      "reasoningTokens": 489,
-      "cacheHitTokens": 0,
-      "usd": 0.0050565,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 1188,
+      "promptTokens": 12328,
+      "completionTokens": 29,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 8384,
+      "usd": 0.00074664,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:17:14.148Z",
+      "at": "2026-09-28T07:43:27.185Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 5127,
-      "promptTokens": 14225,
-      "completionTokens": 610,
-      "reasoningTokens": 445,
-      "cacheHitTokens": 0,
-      "usd": 0.0048165,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 1285,
+      "promptTokens": 12346,
+      "completionTokens": 64,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 8384,
+      "usd": 0.00075612,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:17:28.399Z",
+      "at": "2026-09-28T07:43:28.522Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 14247,
-      "promptTokens": 14861,
-      "completionTokens": 2788,
-      "reasoningTokens": 2349,
-      "cacheHitTokens": 0,
-      "usd": 0.0069675,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 1441,
+      "promptTokens": 12515,
+      "completionTokens": 319,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 8384,
+      "usd": 0.00082746,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:17:54.268Z",
+      "at": "2026-09-28T07:43:29.976Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 25866,
-      "promptTokens": 15563,
-      "completionTokens": 5490,
-      "reasoningTokens": 4564,
-      "cacheHitTokens": 0,
-      "usd": 0.0096099,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 2883,
+      "promptTokens": 12499,
+      "completionTokens": 301,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 8384,
+      "usd": 0.0008221799999999999,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:18:04.930Z",
+      "at": "2026-09-28T07:43:31.055Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 10641,
-      "promptTokens": 17127,
-      "completionTokens": 1824,
-      "reasoningTokens": 962,
-      "cacheHitTokens": 0,
-      "usd": 0.0067797,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 3862,
+      "promptTokens": 12552,
+      "completionTokens": 220,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 8384,
+      "usd": 0.00080592,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:18:17.290Z",
+      "at": "2026-09-28T07:43:33.073Z",
       "step": "plan",
       "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 12340,
-      "promptTokens": 18038,
-      "completionTokens": 2418,
-      "reasoningTokens": 1784,
+      "ms": 1985,
+      "promptTokens": 12040,
+      "completionTokens": 264,
+      "reasoningTokens": 0,
       "cacheHitTokens": 0,
-      "usd": 0.007587600000000001,
+      "usd": 0.0038496,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:18:29.003Z",
+      "at": "2026-09-28T07:43:35.094Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 4005,
+      "promptTokens": 12267,
+      "completionTokens": 244,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 0,
+      "usd": 0.0038997,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T07:43:36.898Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 5809,
+      "promptTokens": 12115,
+      "completionTokens": 218,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 0,
+      "usd": 0.0038307,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T07:44:02.466Z",
       "step": "stress-test",
       "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-      "ms": 11677,
-      "promptTokens": 5543,
-      "completionTokens": 4399,
-      "reasoningTokens": 4146,
+      "ms": 25545,
+      "promptTokens": 7643,
+      "completionTokens": 9709,
+      "reasoningTokens": 9338,
       "cacheHitTokens": 0,
-      "usd": 0.01874,
+      "usd": 0.03677,
       "replayed": false
     }
   ],
   "events": [
     {
-      "t": 57,
+      "t": 101,
       "event": {
         "type": "step",
         "step": "plan",
-        "at": "2026-09-28T04:16:48.683Z",
-        "message": "Context pack built: 102 courses in the table across WI27, SP27, FA27; shared prefix ≈ 4.6k tokens, student suffix ≈ 1.6k tokens."
+        "at": "2026-09-28T07:43:25.890Z",
+        "message": "Context pack built: 102 courses in the table across WI27, SP27, FA27; shared prefix ≈ 4.6k tokens, student suffix ≈ 1.6k tokens. Drafting 3 plans in parallel on Nemotron 3.5 Lightning (thinking off), one lookup round allowed before submit_plan."
       }
     },
     {
-      "t": 13359,
+      "t": 1284,
       "event": {
         "type": "model",
         "step": "plan",
-        "at": "2026-09-28T04:17:01.984Z",
+        "at": "2026-09-28T07:43:27.069Z",
         "entry": {
-          "at": "2026-09-28T04:17:01.984Z",
+          "at": "2026-09-28T07:43:27.069Z",
           "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 13300,
-          "promptTokens": 12015,
-          "completionTokens": 2533,
-          "reasoningTokens": 2233,
-          "cacheHitTokens": 0,
-          "usd": 0.005884200000000001,
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 1178,
+          "promptTokens": 12344,
+          "completionTokens": 29,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 8384,
+          "usd": 0.0007476000000000001,
           "replayed": false
         }
       }
     },
     {
-      "t": 13360,
+      "t": 1284,
       "event": {
         "type": "tool_call",
         "step": "plan",
-        "at": "2026-09-28T04:17:01.986Z",
-        "name": "unit_check",
+        "at": "2026-09-28T07:43:27.073Z",
+        "name": "eligible_courses",
         "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "COGS 115",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 171",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 193",
-                "COGS 119"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 13362,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:01.988Z",
-        "name": "unit_check",
-        "ms": 2,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":10,\"floor\":\"below the 12-unit"
-      }
-    },
-    {
-      "t": 13362,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:01.988Z",
-        "name": "requirement_progress",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "COGS 115",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 171",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 193",
-                "COGS 119"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 13364,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:01.990Z",
-        "name": "requirement_progress",
-        "ms": 2,
-        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
-      }
-    },
-    {
-      "t": 20392,
-      "event": {
-        "type": "model",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.016Z",
-        "entry": {
-          "at": "2026-09-28T04:17:09.016Z",
-          "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 7026,
-          "promptTokens": 12547,
-          "completionTokens": 1436,
-          "reasoningTokens": 489,
-          "cacheHitTokens": 0,
-          "usd": 0.0050565,
-          "replayed": false
-        }
-      }
-    },
-    {
-      "t": 20392,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.018Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 109",
-          "term": "WI27",
-          "planned": []
-        }
-      }
-    },
-    {
-      "t": 20393,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.019Z",
-        "name": "check_prereqs",
-        "ms": 1,
-        "summary": "{\"code\":\"COGS 109\",\"term\":\"WI27\",\"satisfied\":true,\"prereqs\":[[\"COGS 14B\"],[\"MATH 18\",\"MATH 31AH\"],[\"COGS 18\",\"CSE 7\",\"CSE 8A\",\"CSE 11\"]],\"missing\":[],\"prereqText\":\"COGS 14B, MATH 18 or MATH 31AH, and "
-      }
-    },
-    {
-      "t": 20393,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.019Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 112",
-          "term": "WI27",
-          "planned": []
-        }
-      }
-    },
-    {
-      "t": 20393,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.019Z",
-        "name": "check_prereqs",
-        "ms": 0,
-        "summary": "{\"code\":\"COGS 112\",\"term\":\"WI27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"upper-division standing.\"}"
-      }
-    },
-    {
-      "t": 20393,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.019Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 115",
-          "term": "WI27",
-          "planned": []
-        }
-      }
-    },
-    {
-      "t": 20393,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.019Z",
-        "name": "check_prereqs",
-        "ms": 0,
-        "summary": "{\"code\":\"COGS 115\",\"term\":\"WI27\",\"satisfied\":true,\"prereqs\":[[\"BILD 10\",\"BILD 12\",\"COGS 107A\",\"COGS 107B\",\"COGS 17\"]],\"missing\":[],\"prereqText\":\"BILD 10 or BILD 12 or COGS 107A or COGS 107B or COGS 17"
-      }
-    },
-    {
-      "t": 20393,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.019Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 107C",
-          "term": "SP27",
-          "planned": [
-            "COGS 109",
-            "COGS 112",
-            "COGS 115",
-            "AAS 10"
-          ]
-        }
-      }
-    },
-    {
-      "t": 20393,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.019Z",
-        "name": "check_prereqs",
-        "ms": 0,
-        "summary": "{\"code\":\"COGS 107C\",\"term\":\"SP27\",\"satisfied\":true,\"prereqs\":[[\"COGS 107B\"]],\"missing\":[],\"prereqText\":\"COGS 107B and its prerequisites.\"}"
-      }
-    },
-    {
-      "t": 20393,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.019Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 160",
-          "term": "SP27",
-          "planned": [
-            "COGS 109",
-            "COGS 112",
-            "COGS 115",
-            "AAS 10"
-          ]
-        }
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "ms": 1,
-        "summary": "{\"code\":\"COGS 160\",\"term\":\"SP27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"department approval.\"}"
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 171",
-          "term": "SP27",
-          "planned": [
-            "COGS 109",
-            "COGS 112",
-            "COGS 115",
-            "AAS 10"
-          ]
-        }
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "ms": 0,
-        "summary": "{\"code\":\"COGS 171\",\"term\":\"SP27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"upper-division standing.\"}"
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 151",
-          "term": "SP27",
-          "planned": [
-            "COGS 109",
-            "COGS 112",
-            "COGS 115",
-            "AAS 10"
-          ]
-        }
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "ms": 0,
-        "summary": "{\"code\":\"COGS 151\",\"term\":\"SP27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"upper-division standing.\"}"
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "ANTH 10",
-          "term": "FA27",
-          "planned": [
-            "COGS 109",
-            "COGS 112",
-            "COGS 115",
-            "AAS 10",
-            "COGS 107C",
-            "COGS 160",
-            "COGS 171",
-            "COGS 151"
-          ]
-        }
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "ms": 0,
-        "summary": "{\"code\":\"ANTH 10\",\"term\":\"FA27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":null}"
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 193",
-          "term": "FA27",
-          "planned": [
-            "COGS 109",
-            "COGS 112",
-            "COGS 115",
-            "AAS 10",
-            "COGS 107C",
-            "COGS 160",
-            "COGS 171",
-            "COGS 151"
-          ]
-        }
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "ms": 0,
-        "summary": "{\"code\":\"COGS 193\",\"term\":\"FA27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"junior and senior standing.\"}"
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 119",
-          "term": "FA27",
-          "planned": [
-            "COGS 109",
-            "COGS 112",
-            "COGS 115",
-            "AAS 10",
-            "COGS 107C",
-            "COGS 160",
-            "COGS 171",
-            "COGS 151"
-          ]
-        }
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "ms": 0,
-        "summary": "{\"code\":\"COGS 119\",\"term\":\"FA27\",\"satisfied\":true,\"prereqs\":[[\"COGS 14B\",\"MATH 11\",\"PSYC 60\"]],\"missing\":[],\"prereqText\":\"COGS 14B or MATH 11 or PSYC 60.\"}"
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "args": {
-          "code": "COGS 163",
-          "term": "FA27",
-          "planned": [
-            "COGS 109",
-            "COGS 112",
-            "COGS 115",
-            "AAS 10",
-            "COGS 107C",
-            "COGS 160",
-            "COGS 171",
-            "COGS 151"
-          ]
-        }
-      }
-    },
-    {
-      "t": 20394,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:09.020Z",
-        "name": "check_prereqs",
-        "ms": 0,
-        "summary": "{\"code\":\"COGS 163\",\"term\":\"FA27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"upper-division standing.\"}"
-      }
-    },
-    {
-      "t": 25525,
-      "event": {
-        "type": "model",
-        "step": "plan",
-        "at": "2026-09-28T04:17:14.148Z",
-        "entry": {
-          "at": "2026-09-28T04:17:14.148Z",
-          "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 5127,
-          "promptTokens": 14225,
-          "completionTokens": 610,
-          "reasoningTokens": 445,
-          "cacheHitTokens": 0,
-          "usd": 0.0048165,
-          "replayed": false
-        }
-      }
-    },
-    {
-      "t": 25525,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:14.151Z",
-        "name": "offering_status",
-        "args": {
-          "code": "AAS 10",
           "term": "WI27"
         }
       }
     },
     {
-      "t": 25525,
+      "t": 1291,
       "event": {
         "type": "tool_result",
         "step": "plan",
-        "at": "2026-09-28T04:17:14.151Z",
-        "name": "offering_status",
-        "ms": 0,
-        "summary": "{\"id\":\"ev_AAS10_WI27\",\"course\":\"AAS 10\",\"term\":\"WI27\",\"status\":\"unknown\",\"quote\":\"AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record\",\"url\":\"https://classplanner.apps.ucsd.edu\",\"fetchedA"
+        "at": "2026-09-28T07:43:27.080Z",
+        "name": "eligible_courses",
+        "ms": 7,
+        "summary": "{\"term\":\"WI27\",\"horizon\":[\"WI27\",\"SP27\",\"FA27\"],\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"remaining\":\"5 courses\",\"eligible\":[{\"code\":\"COGS 109\",\"units\":4,\"status\":\"offered\"},{\"cod"
       }
     },
     {
-      "t": 25525,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:14.151Z",
-        "name": "offering_status",
-        "args": {
-          "code": "ANTH 10",
-          "term": "FA27"
-        }
-      }
-    },
-    {
-      "t": 25525,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:14.151Z",
-        "name": "offering_status",
-        "ms": 0,
-        "summary": "{\"id\":\"ev_ANTH10_FA27\",\"course\":\"ANTH 10\",\"term\":\"FA27\",\"status\":\"unknown\",\"quote\":\"ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record\",\"url\":\"https://classplanner.apps.ucsd.edu\",\"fetche"
-      }
-    },
-    {
-      "t": 25526,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:14.152Z",
-        "name": "offering_status",
-        "args": {
-          "code": "COGS 193",
-          "term": "FA27"
-        }
-      }
-    },
-    {
-      "t": 25526,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:14.152Z",
-        "name": "offering_status",
-        "ms": 0,
-        "summary": "{\"id\":\"ev_COGS193_FA27\",\"course\":\"COGS 193\",\"term\":\"FA27\",\"status\":\"unknown\",\"quote\":\"COGS 193: no source found — no department page row, no FA27 section, no CAPE history\",\"url\":\"https://classplanner."
-      }
-    },
-    {
-      "t": 25526,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:14.152Z",
-        "name": "offering_status",
-        "args": {
-          "code": "COGS 119",
-          "term": "FA27"
-        }
-      }
-    },
-    {
-      "t": 25526,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:14.152Z",
-        "name": "offering_status",
-        "ms": 0,
-        "summary": "{\"id\":\"ev_COGS119_FA27\",\"course\":\"COGS 119\",\"term\":\"FA27\",\"status\":\"unknown\",\"quote\":\"COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record\",\"url\":\"https://classplanner.apps.ucsd.edu\",\"fet"
-      }
-    },
-    {
-      "t": 39775,
+      "t": 1300,
       "event": {
         "type": "model",
         "step": "plan",
-        "at": "2026-09-28T04:17:28.399Z",
+        "at": "2026-09-28T07:43:27.088Z",
         "entry": {
-          "at": "2026-09-28T04:17:28.399Z",
+          "at": "2026-09-28T07:43:27.088Z",
           "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 14247,
-          "promptTokens": 14861,
-          "completionTokens": 2788,
-          "reasoningTokens": 2349,
-          "cacheHitTokens": 0,
-          "usd": 0.0069675,
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 1188,
+          "promptTokens": 12328,
+          "completionTokens": 29,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 8384,
+          "usd": 0.00074664,
           "replayed": false
         }
       }
     },
     {
-      "t": 39775,
+      "t": 1301,
       "event": {
         "type": "tool_call",
         "step": "plan",
-        "at": "2026-09-28T04:17:28.401Z",
-        "name": "unit_check",
+        "at": "2026-09-28T07:43:27.090Z",
+        "name": "eligible_courses",
         "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "COGS 115",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 171",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 193",
-                "COGS 119",
-                "COGS 163"
-              ]
-            }
-          ]
+          "term": "WI27"
         }
       }
     },
     {
-      "t": 39775,
+      "t": 1303,
       "event": {
         "type": "tool_result",
         "step": "plan",
-        "at": "2026-09-28T04:17:28.401Z",
-        "name": "unit_check",
-        "ms": 0,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":14,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+        "at": "2026-09-28T07:43:27.092Z",
+        "name": "eligible_courses",
+        "ms": 2,
+        "summary": "{\"term\":\"WI27\",\"horizon\":[\"WI27\",\"SP27\",\"FA27\"],\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"remaining\":\"5 courses\",\"eligible\":[{\"code\":\"COGS 109\",\"units\":4,\"status\":\"offered\"},{\"cod"
       }
     },
     {
-      "t": 39775,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:28.401Z",
-        "name": "unit_check",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 193",
-                "COGS 119",
-                "COGS 156"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 39775,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:28.401Z",
-        "name": "unit_check",
-        "ms": 0,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":14,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
-      }
-    },
-    {
-      "t": 39775,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:28.401Z",
-        "name": "unit_check",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 193",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 39775,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:28.401Z",
-        "name": "unit_check",
-        "ms": 0,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":14,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
-      }
-    },
-    {
-      "t": 65646,
+      "t": 1398,
       "event": {
         "type": "model",
         "step": "plan",
-        "at": "2026-09-28T04:17:54.268Z",
+        "at": "2026-09-28T07:43:27.185Z",
         "entry": {
-          "at": "2026-09-28T04:17:54.268Z",
+          "at": "2026-09-28T07:43:27.185Z",
           "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 25866,
-          "promptTokens": 15563,
-          "completionTokens": 5490,
-          "reasoningTokens": 4564,
-          "cacheHitTokens": 0,
-          "usd": 0.0096099,
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 1285,
+          "promptTokens": 12346,
+          "completionTokens": 64,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 8384,
+          "usd": 0.00075612,
           "replayed": false
         }
       }
     },
     {
-      "t": 65646,
+      "t": 1398,
       "event": {
         "type": "tool_call",
         "step": "plan",
-        "at": "2026-09-28T04:17:54.272Z",
-        "name": "unit_check",
+        "at": "2026-09-28T07:43:27.187Z",
+        "name": "eligible_courses",
         "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "COGS 115",
-                "AAS 10",
-                "COGS 193"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 171",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163",
-                "COGS 156"
-              ]
-            }
+          "term": "WI27",
+          "planned": [
+            "COGS 100",
+            "COGS 107B",
+            "COGS 101C"
           ]
         }
       }
     },
     {
-      "t": 65647,
+      "t": 1403,
       "event": {
         "type": "tool_result",
         "step": "plan",
-        "at": "2026-09-28T04:17:54.273Z",
-        "name": "unit_check",
-        "ms": 1,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":5,\"units\":18,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
-      }
-    },
-    {
-      "t": 65647,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.273Z",
-        "name": "requirement_progress",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "COGS 115",
-                "AAS 10",
-                "COGS 193"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 171",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163",
-                "COGS 156"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 65653,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.279Z",
-        "name": "requirement_progress",
-        "ms": 6,
-        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
-      }
-    },
-    {
-      "t": 65653,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.279Z",
-        "name": "unit_check",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "AAS 10",
-                "COGS 156",
-                "COGS 193"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 171",
-                "COGS 115"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163",
-                "COGS 151"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 65653,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.279Z",
-        "name": "unit_check",
-        "ms": 0,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":5,\"units\":18,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
-      }
-    },
-    {
-      "t": 65653,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.279Z",
-        "name": "requirement_progress",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "AAS 10",
-                "COGS 156",
-                "COGS 193"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 171",
-                "COGS 115"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163",
-                "COGS 151"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 65658,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.284Z",
-        "name": "requirement_progress",
+        "at": "2026-09-28T07:43:27.192Z",
+        "name": "eligible_courses",
         "ms": 5,
-        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
+        "summary": "{\"term\":\"WI27\",\"horizon\":[\"WI27\",\"SP27\",\"FA27\"],\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"remaining\":\"5 courses\",\"eligible\":[{\"code\":\"COGS 109\",\"units\":4,\"status\":\"offered\"},{\"cod"
       }
     },
     {
-      "t": 65658,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.284Z",
-        "name": "unit_check",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "COGS 119",
-                "ANTH 10",
-                "COGS 163"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 65659,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.285Z",
-        "name": "unit_check",
-        "ms": 1,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
-      }
-    },
-    {
-      "t": 65659,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.285Z",
-        "name": "requirement_progress",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "COGS 119",
-                "ANTH 10",
-                "COGS 163"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 65662,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:17:54.288Z",
-        "name": "requirement_progress",
-        "ms": 3,
-        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
-      }
-    },
-    {
-      "t": 76308,
+      "t": 2735,
       "event": {
         "type": "model",
         "step": "plan",
-        "at": "2026-09-28T04:18:04.930Z",
+        "at": "2026-09-28T07:43:28.522Z",
         "entry": {
-          "at": "2026-09-28T04:18:04.930Z",
+          "at": "2026-09-28T07:43:28.522Z",
           "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 10641,
-          "promptTokens": 17127,
-          "completionTokens": 1824,
-          "reasoningTokens": 962,
-          "cacheHitTokens": 0,
-          "usd": 0.0067797,
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 1441,
+          "promptTokens": 12515,
+          "completionTokens": 319,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 8384,
+          "usd": 0.00082746,
           "replayed": false
         }
       }
     },
     {
-      "t": 76309,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.935Z",
-        "name": "unit_check",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "COGS 115",
-                "AAS 10",
-                "COGS 193"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 171",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 76309,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.935Z",
-        "name": "unit_check",
-        "ms": 0,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":5,\"units\":18,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
-      }
-    },
-    {
-      "t": 76309,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.935Z",
-        "name": "requirement_progress",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "COGS 115",
-                "AAS 10",
-                "COGS 193"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 171",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 76314,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.940Z",
-        "name": "requirement_progress",
-        "ms": 5,
-        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
-      }
-    },
-    {
-      "t": 76315,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.941Z",
-        "name": "unit_check",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 76315,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.941Z",
-        "name": "unit_check",
-        "ms": 0,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
-      }
-    },
-    {
-      "t": 76315,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.941Z",
-        "name": "requirement_progress",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "COGS 112",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 76318,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.944Z",
-        "name": "requirement_progress",
-        "ms": 3,
-        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
-      }
-    },
-    {
-      "t": 76318,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.944Z",
-        "name": "unit_check",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "AAS 10",
-                "COGS 193",
-                "COGS 112"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 76318,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.944Z",
-        "name": "unit_check",
-        "ms": 0,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":14,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
-      }
-    },
-    {
-      "t": 76318,
-      "event": {
-        "type": "tool_call",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.944Z",
-        "name": "requirement_progress",
-        "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "COGS 109",
-                "AAS 10",
-                "COGS 193",
-                "COGS 112"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "COGS 107C",
-                "COGS 160",
-                "COGS 151"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "ANTH 10",
-                "COGS 119",
-                "COGS 163"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "t": 76321,
-      "event": {
-        "type": "tool_result",
-        "step": "plan",
-        "at": "2026-09-28T04:18:04.947Z",
-        "name": "requirement_progress",
-        "ms": 3,
-        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
-      }
-    },
-    {
-      "t": 88673,
+      "t": 4188,
       "event": {
         "type": "model",
         "step": "plan",
-        "at": "2026-09-28T04:18:17.290Z",
+        "at": "2026-09-28T07:43:29.976Z",
         "entry": {
-          "at": "2026-09-28T04:18:17.290Z",
+          "at": "2026-09-28T07:43:29.976Z",
           "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 12340,
-          "promptTokens": 18038,
-          "completionTokens": 2418,
-          "reasoningTokens": 1784,
-          "cacheHitTokens": 0,
-          "usd": 0.007587600000000001,
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 2883,
+          "promptTokens": 12499,
+          "completionTokens": 301,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 8384,
+          "usd": 0.0008221799999999999,
           "replayed": false
         }
       }
     },
     {
-      "t": 88683,
+      "t": 5267,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T07:43:31.055Z",
+        "entry": {
+          "at": "2026-09-28T07:43:31.055Z",
+          "step": "plan",
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 3862,
+          "promptTokens": 12552,
+          "completionTokens": 220,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 8384,
+          "usd": 0.00080592,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 5278,
       "event": {
         "type": "verifier",
         "step": "plan",
-        "at": "2026-09-28T04:18:17.309Z",
+        "at": "2026-09-28T07:43:31.067Z",
         "report": {
           "planId": "p-fastest",
-          "ok": true,
+          "ok": false,
           "violations": [
             {
-              "rule": "assumed-offered",
-              "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+              "rule": "unit-cap",
+              "message": "WI27 has 20 units, above the 19.5-unit standard enrollment cap.",
               "severity": "warning",
-              "course": "AAS 10",
               "term": "WI27"
             },
             {
               "rule": "assumed-offered",
-              "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+              "message": "AAS 10 in SP27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 10",
+              "term": "SP27",
+              "evidence": {
+                "course": "AAS 10",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ANTH 10 in SP27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
               "severity": "warning",
               "course": "ANTH 10",
+              "term": "SP27",
+              "evidence": {
+                "course": "ANTH 10",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "SP27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
+              "term": "SP27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 101C in FA27 has no offering evidence: COGS 101C: last CAPE-evaluated offering WI23; 34 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 101C",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 101C",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 101C: last CAPE-evaluated offering WI23; 34 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 171 in FA27 has no offering evidence: COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 171",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 171",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 177 in FA27 has no offering evidence: COGS 177: last CAPE-evaluated offering S222; 7 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 177",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 177",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 177: last CAPE-evaluated offering S222; 7 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "already-earned",
+              "message": "DOC 1 is already earned (B+, FA24).",
+              "severity": "error",
+              "course": "DOC 1",
               "term": "FA27"
             },
             {
               "rule": "assumed-offered",
-              "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+              "message": "DOC 1 in FA27 has no offering evidence: DOC 1: last CAPE-evaluated offering FA22; 17 quarters on record.",
               "severity": "warning",
-              "course": "COGS 119",
-              "term": "FA27"
+              "course": "DOC 1",
+              "term": "FA27",
+              "evidence": {
+                "course": "DOC 1",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "DOC 1: last CAPE-evaluated offering FA22; 17 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+              "message": "PHYS 10 in FA27 has no offering evidence: PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record.",
               "severity": "warning",
-              "course": "COGS 163",
+              "course": "PHYS 10",
+              "term": "FA27",
+              "evidence": {
+                "course": "PHYS 10",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "FA27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
               "term": "FA27"
             }
           ]
@@ -2336,150 +1956,856 @@
       }
     },
     {
-      "t": 88689,
+      "t": 5281,
       "event": {
         "type": "verifier",
         "step": "plan",
-        "at": "2026-09-28T04:18:17.315Z",
+        "at": "2026-09-28T07:43:31.070Z",
         "report": {
           "planId": "p-balanced",
-          "ok": true,
+          "ok": false,
           "violations": [
             {
               "rule": "assumed-offered",
               "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
               "severity": "warning",
               "course": "AAS 10",
-              "term": "WI27"
+              "term": "WI27",
+              "evidence": {
+                "course": "AAS 10",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+              "message": "ANTH 10 in WI27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
               "severity": "warning",
               "course": "ANTH 10",
-              "term": "FA27"
+              "term": "WI27",
+              "evidence": {
+                "course": "ANTH 10",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "not-offered",
+              "message": "COGS 112 is not offered in SP27: \"COGS 112,,Walker,,,\" (https://cogsci.ucsd.edu/undergraduates/courses/index.html, fetched 2026-09-28T02:31:26.168Z).",
+              "severity": "error",
+              "course": "COGS 112",
+              "term": "SP27",
+              "evidence": {
+                "course": "COGS 112",
+                "term": "SP27",
+                "status": "not_offered",
+                "quote": "COGS 112,,Walker,,,",
+                "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+                "fetchedAt": "2026-09-28T02:31:26.168Z",
+                "source": "department-page"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+              "message": "ETHN 1R in SP27 has no offering evidence: ETHN 1R: no source found — no department page row, no SP27 section, no CAPE history.",
               "severity": "warning",
-              "course": "COGS 119",
-              "term": "FA27"
+              "course": "ETHN 1R",
+              "term": "SP27",
+              "evidence": {
+                "course": "ETHN 1R",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "ETHN 1R: no source found — no department page row, no SP27 section, no CAPE history",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "prereq-unsatisfied",
+              "message": "CHEM 12 in SP27 still needs CHEM 11.",
+              "severity": "error",
+              "course": "CHEM 12",
+              "term": "SP27"
             },
             {
               "rule": "assumed-offered",
-              "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+              "message": "CHEM 12 in SP27 has no offering evidence: CHEM 12: last CAPE-evaluated offering WI22; 19 quarters on record.",
               "severity": "warning",
-              "course": "COGS 163",
-              "term": "FA27"
+              "course": "CHEM 12",
+              "term": "SP27",
+              "evidence": {
+                "course": "CHEM 12",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "CHEM 12: last CAPE-evaluated offering WI22; 19 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "COGS 156 in FA27 has no offering evidence: COGS 156: last CAPE-evaluated offering WI23; 13 quarters on record.",
+              "message": "COGS 151 in FA27 has no offering evidence: COGS 151: last CAPE-evaluated offering WI21; 15 quarters on record.",
               "severity": "warning",
-              "course": "COGS 156",
-              "term": "FA27"
+              "course": "COGS 151",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 151",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 151: last CAPE-evaluated offering WI21; 15 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "GLBH 120 in FA27 has no offering evidence: GLBH 120: no source found — no department page row, no FA27 section, no CAPE history.",
+              "severity": "warning",
+              "course": "GLBH 120",
+              "term": "FA27",
+              "evidence": {
+                "course": "GLBH 120",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "GLBH 120: no source found — no department page row, no FA27 section, no CAPE history",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "PHYS 10 in FA27 has no offering evidence: PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record.",
+              "severity": "warning",
+              "course": "PHYS 10",
+              "term": "FA27",
+              "evidence": {
+                "course": "PHYS 10",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 177 in FA27 has no offering evidence: COGS 177: last CAPE-evaluated offering S222; 7 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 177",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 177",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 177: last CAPE-evaluated offering S222; 7 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             }
           ]
         }
       }
     },
     {
-      "t": 88695,
+      "t": 5285,
       "event": {
         "type": "verifier",
         "step": "plan",
-        "at": "2026-09-28T04:18:17.321Z",
+        "at": "2026-09-28T07:43:31.074Z",
         "report": {
           "planId": "p-lightest",
-          "ok": true,
+          "ok": false,
           "violations": [
             {
               "rule": "assumed-offered",
-              "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+              "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 10",
+              "term": "WI27",
+              "evidence": {
+                "course": "AAS 10",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ANTH 10 in WI27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
               "severity": "warning",
               "course": "ANTH 10",
-              "term": "FA27"
+              "term": "WI27",
+              "evidence": {
+                "course": "ANTH 10",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "not-offered",
+              "message": "COGS 112 is not offered in SP27: \"COGS 112,,Walker,,,\" (https://cogsci.ucsd.edu/undergraduates/courses/index.html, fetched 2026-09-28T02:31:26.168Z).",
+              "severity": "error",
+              "course": "COGS 112",
+              "term": "SP27",
+              "evidence": {
+                "course": "COGS 112",
+                "term": "SP27",
+                "status": "not_offered",
+                "quote": "COGS 112,,Walker,,,",
+                "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+                "fetchedAt": "2026-09-28T02:31:26.168Z",
+                "source": "department-page"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+              "message": "AAS 11 in SP27 has no offering evidence: AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record.",
               "severity": "warning",
-              "course": "COGS 119",
-              "term": "FA27"
+              "course": "AAS 11",
+              "term": "SP27",
+              "evidence": {
+                "course": "AAS 11",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+              "message": "ENVR 30 in SP27 has no offering evidence: ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record.",
               "severity": "warning",
-              "course": "COGS 163",
-              "term": "FA27"
+              "course": "ENVR 30",
+              "term": "SP27",
+              "evidence": {
+                "course": "ENVR 30",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 115 in FA27 has no offering evidence: COGS 115: last CAPE-evaluated offering WI23; 18 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 115",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 115",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 115: last CAPE-evaluated offering WI23; 18 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 160 in FA27 has no offering evidence: COGS 160: last CAPE-evaluated offering WI23; 48 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 160",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 160",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 160: last CAPE-evaluated offering WI23; 48 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 171 in FA27 has no offering evidence: COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 171",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 171",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             }
           ]
         }
       }
     },
     {
-      "t": 88695,
+      "t": 5290,
       "event": {
         "type": "step",
         "step": "plan",
-        "at": "2026-09-28T04:18:17.321Z",
-        "message": "3 plans passed the verifier; 0 drafts rejected."
+        "at": "2026-09-28T07:43:31.079Z",
+        "message": "Drafted 3 plans in 5,184 ms: 0 passed the verifier, 3 rejected."
       }
     },
     {
-      "t": 88695,
-      "event": {
-        "type": "done",
-        "step": "plan",
-        "at": "2026-09-28T04:18:17.321Z"
-      }
-    },
-    {
-      "t": 88697,
+      "t": 5291,
       "event": {
         "type": "step",
-        "step": "stress-test",
-        "at": "2026-09-28T04:18:17.323Z",
-        "message": "Stress-testing 3 plans against 39 evidence rows."
+        "step": "plan",
+        "at": "2026-09-28T07:43:31.080Z",
+        "message": "Round 1: the verifier rejected 3 of 3 drafts; repairing fastest, balanced, lightest on Nemotron 3 Super (thinking off)."
       }
     },
     {
-      "t": 100379,
+      "t": 7286,
       "event": {
         "type": "model",
-        "step": "stress-test",
-        "at": "2026-09-28T04:18:29.003Z",
+        "step": "plan",
+        "at": "2026-09-28T07:43:33.073Z",
         "entry": {
-          "at": "2026-09-28T04:18:29.003Z",
-          "step": "stress-test",
-          "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-          "ms": 11677,
-          "promptTokens": 5543,
-          "completionTokens": 4399,
-          "reasoningTokens": 4146,
+          "at": "2026-09-28T07:43:33.073Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 1985,
+          "promptTokens": 12040,
+          "completionTokens": 264,
+          "reasoningTokens": 0,
           "cacheHitTokens": 0,
-          "usd": 0.01874,
+          "usd": 0.0038496,
           "replayed": false
         }
       }
     },
     {
-      "t": 100380,
+      "t": 9306,
       "event": {
-        "type": "step",
-        "step": "stress-test",
-        "at": "2026-09-28T04:18:29.005Z",
-        "message": "Recommends p-fastest; refused 0; 2 risks."
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T07:43:35.094Z",
+        "entry": {
+          "at": "2026-09-28T07:43:35.094Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 4005,
+          "promptTokens": 12267,
+          "completionTokens": 244,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 0,
+          "usd": 0.0038997,
+          "replayed": false
+        }
       }
     },
     {
-      "t": 100380,
+      "t": 11110,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T07:43:36.898Z",
+        "entry": {
+          "at": "2026-09-28T07:43:36.898Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 5809,
+          "promptTokens": 12115,
+          "completionTokens": 218,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 0,
+          "usd": 0.0038307,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 11115,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T07:43:36.904Z",
+        "report": {
+          "planId": "p-fastest-2",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "unit-cap",
+              "message": "WI27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
+              "term": "WI27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "AAS 10 in SP27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 10",
+              "term": "SP27",
+              "evidence": {
+                "course": "AAS 10",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ANTH 10 in SP27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+              "severity": "warning",
+              "course": "ANTH 10",
+              "term": "SP27",
+              "evidence": {
+                "course": "ANTH 10",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "SP27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
+              "term": "SP27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 101C in FA27 has no offering evidence: COGS 101C: last CAPE-evaluated offering WI23; 34 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 101C",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 101C",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 101C: last CAPE-evaluated offering WI23; 34 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 171 in FA27 has no offering evidence: COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 171",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 171",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 177 in FA27 has no offering evidence: COGS 177: last CAPE-evaluated offering S222; 7 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 177",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 177",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 177: last CAPE-evaluated offering S222; 7 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "AAS 11 in FA27 has no offering evidence: AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 11",
+              "term": "FA27",
+              "evidence": {
+                "course": "AAS 11",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "PHYS 10 in FA27 has no offering evidence: PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record.",
+              "severity": "warning",
+              "course": "PHYS 10",
+              "term": "FA27",
+              "evidence": {
+                "course": "PHYS 10",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "FA27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 11120,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T07:43:36.909Z",
+        "report": {
+          "planId": "p-balanced-2",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 10",
+              "term": "WI27",
+              "evidence": {
+                "course": "AAS 10",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ANTH 10 in WI27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+              "severity": "warning",
+              "course": "ANTH 10",
+              "term": "WI27",
+              "evidence": {
+                "course": "ANTH 10",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ETHN 1R in SP27 has no offering evidence: ETHN 1R: no source found — no department page row, no SP27 section, no CAPE history.",
+              "severity": "warning",
+              "course": "ETHN 1R",
+              "term": "SP27",
+              "evidence": {
+                "course": "ETHN 1R",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "ETHN 1R: no source found — no department page row, no SP27 section, no CAPE history",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 151 in FA27 has no offering evidence: COGS 151: last CAPE-evaluated offering WI21; 15 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 151",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 151",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 151: last CAPE-evaluated offering WI21; 15 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "GLBH 120 in FA27 has no offering evidence: GLBH 120: no source found — no department page row, no FA27 section, no CAPE history.",
+              "severity": "warning",
+              "course": "GLBH 120",
+              "term": "FA27",
+              "evidence": {
+                "course": "GLBH 120",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "GLBH 120: no source found — no department page row, no FA27 section, no CAPE history",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "PHYS 10 in FA27 has no offering evidence: PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record.",
+              "severity": "warning",
+              "course": "PHYS 10",
+              "term": "FA27",
+              "evidence": {
+                "course": "PHYS 10",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "PHYS 10: last CAPE-evaluated offering WI22; 16 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 177 in FA27 has no offering evidence: COGS 177: last CAPE-evaluated offering S222; 7 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 177",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 177",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 177: last CAPE-evaluated offering S222; 7 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 11125,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T07:43:36.914Z",
+        "report": {
+          "planId": "p-lightest-2",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 10",
+              "term": "WI27",
+              "evidence": {
+                "course": "AAS 10",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ANTH 10 in WI27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+              "severity": "warning",
+              "course": "ANTH 10",
+              "term": "WI27",
+              "evidence": {
+                "course": "ANTH 10",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "AAS 11 in SP27 has no offering evidence: AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 11",
+              "term": "SP27",
+              "evidence": {
+                "course": "AAS 11",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "AAS 11: last CAPE-evaluated offering WI23; 1 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ENVR 30 in SP27 has no offering evidence: ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record.",
+              "severity": "warning",
+              "course": "ENVR 30",
+              "term": "SP27",
+              "evidence": {
+                "course": "ENVR 30",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 115 in FA27 has no offering evidence: COGS 115: last CAPE-evaluated offering WI23; 18 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 115",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 115",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 115: last CAPE-evaluated offering WI23; 18 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 160 in FA27 has no offering evidence: COGS 160: last CAPE-evaluated offering WI23; 48 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 160",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 160",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 160: last CAPE-evaluated offering WI23; 48 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 171 in FA27 has no offering evidence: COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 171",
+              "term": "FA27",
+              "evidence": {
+                "course": "COGS 171",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "COGS 171: last CAPE-evaluated offering SP21; 7 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 11125,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T07:43:36.914Z",
+        "message": "Repair round 1 done in 5,834 ms: 3 passed, 0 still failing."
+      }
+    },
+    {
+      "t": 11126,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T07:43:36.915Z",
+        "message": "3 plans passed the verifier in 11,041 ms; 3 drafts rejected."
+      }
+    },
+    {
+      "t": 11126,
+      "event": {
+        "type": "done",
+        "step": "plan",
+        "at": "2026-09-28T07:43:36.915Z"
+      }
+    },
+    {
+      "t": 11128,
+      "event": {
+        "type": "step",
+        "step": "stress-test",
+        "at": "2026-09-28T07:43:36.917Z",
+        "message": "Stress-testing 3 plans against 57 evidence rows."
+      }
+    },
+    {
+      "t": 36679,
+      "event": {
+        "type": "model",
+        "step": "stress-test",
+        "at": "2026-09-28T07:44:02.466Z",
+        "entry": {
+          "at": "2026-09-28T07:44:02.466Z",
+          "step": "stress-test",
+          "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+          "ms": 25545,
+          "promptTokens": 7643,
+          "completionTokens": 9709,
+          "reasoningTokens": 9338,
+          "cacheHitTokens": 0,
+          "usd": 0.03677,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 36679,
+      "event": {
+        "type": "step",
+        "step": "stress-test",
+        "at": "2026-09-28T07:44:02.468Z",
+        "message": "Recommends p-fastest-2; refused 0; 2 risks."
+      }
+    },
+    {
+      "t": 36679,
       "event": {
         "type": "done",
         "step": "stress-test",
-        "at": "2026-09-28T04:18:29.006Z"
+        "at": "2026-09-28T07:44:02.468Z"
       }
     }
   ],

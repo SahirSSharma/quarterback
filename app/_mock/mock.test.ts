@@ -75,14 +75,20 @@ describe.each(demoIds)('recorded demo %s', (id) => {
       expect(e.promptTokens).toBeGreaterThan(0);
       expect(e.ms).toBeGreaterThan(0);
     }
-    expect(f.ledger.filter((e) => e.step === 'plan').every((e) => /super/i.test(e.model))).toBe(true);
+    // Lightning drafts, Super repairs only when a draft fails (lib/agents/planner.ts DEFAULT_OPTIONS).
+    const plan = f.ledger.filter((e) => e.step === 'plan');
+    expect(plan.every((e) => /lightning|super/i.test(e.model))).toBe(true);
+    expect(plan.some((e) => /lightning/i.test(e.model))).toBe(true);
     expect(f.ledger.filter((e) => e.step === 'stress-test').map((e) => e.model)).toEqual([expect.stringMatching(/ultra/i)]);
   });
 
-  it('recorded a planner trace that starts with a step, calls tools, verifies every draft and ends with done', () => {
+  it('recorded a planner trace that starts with a step, verifies every draft and ends with done', () => {
     const plan = f.events.filter((e) => e.event.step === 'plan');
     expect(plan[0].event.type).toBe('step');
-    expect(plan.some((e) => e.event.type === 'tool_call')).toBe(true);
+    // A Lightning draft may submit without a lookup; any lookup it makes is one of the planner's tools and is answered.
+    const calls = plan.filter((e) => e.event.type === 'tool_call');
+    for (const c of calls) expect(['eligible_courses', 'check_prereqs', 'offering_status']).toContain((c.event as { name: string }).name);
+    expect(plan.filter((e) => e.event.type === 'tool_result')).toHaveLength(calls.length);
     expect(plan.filter((e) => e.event.type === 'verifier')).toHaveLength(f.reports.length);
     expect(plan.filter((e) => e.event.type === 'done')).toHaveLength(1);
     expect(plan.at(-1)!.event.type).toBe('done');

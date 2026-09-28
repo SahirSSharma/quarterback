@@ -271,18 +271,39 @@ describe('planRun: repair phase', () => {
     expect(events.at(-1)).toMatchObject({ type: 'done' });
   });
 
-  it('never repairs when maxRepairRounds is 0, and says so when nothing passes', async () => {
+  it('never repairs when maxRepairRounds is 0, and never adds the code-built plan while a draft passed', async () => {
     const { tf, calls } = fakeTf({ submissions: { fastest: [BAD], balanced: [GOOD], lightest: [GOOD] } });
     const { out } = await run(tf, { options: { maxRepairRounds: 0 } });
     expect(calls.filter((c) => c.fn === 'forcedTool')).toHaveLength(0);
     expect(out).toMatchObject({ rejectedDrafts: 1, rounds: 1 });
     expect(out.plans.map((p) => p.id)).toEqual(['p-balanced', 'p-lightest']);
+  });
 
+  it('falls back to the engine’s code-built plan, verified like a draft, when no model draft passes', async () => {
     const none = fakeTf({ submissions: { fastest: [BAD], balanced: [BAD], lightest: [BAD] } });
-    const { out: empty, events } = await run(none.tf, { options: { maxRepairRounds: 0 } });
+    const { out, events } = await run(none.tf, { options: { maxRepairRounds: 0 } });
+    expect(out.plans.map((p) => [p.id, p.label])).toEqual([['p-code-built', 'code-built']]);
+    expect(out.plans[0].terms.map((t) => t.term)).toEqual(['WI27', 'SP27', 'FA27']);
+    expect(out.plans[0].rationale).toMatch(/^Built by rule/);
+    // Its report is in the list (the approval gate reads it) and the drafts still count as rejected.
+    expect(out.reports.map((r) => [r.planId, r.ok])).toEqual([['p-fastest', false], ['p-balanced', false], ['p-lightest', false], ['p-code-built', true]]);
+    expect(out.rejectedDrafts).toBe(3);
+    expect(verify(out.plans[0], after).ok).toBe(true);
+    expect(steps(events).slice(-2)).toEqual([
+      'No model draft passed the verifier; adding the code-built plan.',
+      expect.stringMatching(/^1 plan passed the verifier in [\d,]+ ms; 3 drafts rejected\.$/),
+    ]);
+    expect(events.slice(-4).map((e) => e.type)).toEqual(['step', 'verifier', 'step', 'done']);
+    expect(events.at(-3)).toMatchObject({ type: 'verifier', report: { planId: 'p-code-built', ok: true } });
+    expect(out.ledger).toHaveLength(3); // the fallback is code, not a model call
+
+    // With nothing to plan (no requirement files) the fallback has no eligible course, and the run ends with no plans as before.
+    const bare: StudentState = { ...demoA, majorFile: null, collegeFile: null };
+    const { out: empty, events: bareEvents } = await run(fakeTf({ submissions: { fastest: [BAD], balanced: [BAD], lightest: [BAD] } }).tf, { state: bare, impact: impact(bare, drop, NOW), options: { maxRepairRounds: 0 } });
     expect(empty.plans).toEqual([]);
     expect(empty.rejectedDrafts).toBe(3);
-    expect(steps(events).at(-1)).toMatch(/^No plan passed the verifier in 1 round \([\d,]+ ms\); 3 drafts rejected\.$/);
+    expect(steps(bareEvents).at(-1)).toMatch(/^No plan passed the verifier in 1 round \([\d,]+ ms\); 3 drafts rejected\.$/);
+    expect(steps(bareEvents)).not.toContain('No model draft passed the verifier; adding the code-built plan.');
   });
 
   it('counts a draft whose repair call fails as rejected with a model-error report, and keeps going', async () => {

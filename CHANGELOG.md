@@ -4,7 +4,7 @@ All notable changes to Quarterback are recorded here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); entries are dated (UTC, the stamp the result files
 carry) rather than versioned until the first tagged release.
 
-## 2026-09-28 — in the working tree, not yet committed
+## 2026-09-28
 
 ### Changed
 
@@ -35,6 +35,13 @@ carry) rather than versioned until the first tagged release.
   lines before the vendored parser; E4 wrapped-layout row recall 40.8% → 100%, overall 87.2% → 95.7%.
 - Eval (`eval/e1.ts`): the shipped E1 row runs `planRun`'s defaults; other cells still force one model and one
   thinking setting on every call.
+- Demo recordings: the three demos re-recorded live with the shipped planner (07:42–07:45 UTC, $0.15 kept; (a) 3
+  plans / 1 rejected draft / $0.0541, (b) 3 / 3 / $0.0531, (c) 3 / 1 / $0.0445; every verdict recommends the repaired
+  fastest plan, no refusal, no code-built fallback); `fixtures/tf` is the five probe fixtures plus the 28 new ones;
+  the mock replay matches bit for bit. The critic's `max_tokens` went 8192 → 16384 after a first attempt at (a) had
+  Ultra run to the cap with no verdict (9,133–9,338 reasoning tokens on two of the three kept verdicts). Tests that
+  read the recordings (`eval/e1.test.ts`, `app/_mock/mock.test.ts`, `app/lib/flow.test.ts`) now compute their
+  expectations from the fixtures; `eval/e4.test.ts` asserts the wrapped-row recall the pre-normalizer delivers.
 - Docs truth pass: README, DESIGN, PROGRESS, this file, `devpost/*`, `notes/stage1-checklist.md` and
   `eval/README.md` rewritten to describe the code and data as they are (planner shape, no Lightning in the
   offerings pipeline, Super's prompt cache never hits while Lightning's does, `reasoning_budget` advisory,
@@ -48,21 +55,8 @@ carry) rather than versioned until the first tagged release.
   (`e4-2026-09-28T05-19-02Z.jsonl` before the fix, `e4-2026-09-28T05-24-41Z.jsonl` after).
 - `lib/engine/fixtures/academic-history-demo-wrapped.txt` golden fixture; tests for the pre-normalizer and for
   every new UI helper (`app/lib/trace.ts`, `deadlineHeadline`, `icsCoverage`).
-- `notes/ui-polish.md` and 82 browser screenshots under `notes/screens/` (51 MB; whether they belong in git
+- `notes/ui-polish.md` and 89 browser screenshots under `notes/screens/` (53 MB, git-ignored; whether they belong in git
   is an open question).
-
-### Known issues
-
-- The three demo recordings (`fixtures/runs/demo-*.json`, `fixtures/tf/`) still come from the 2026-09-27
-  Super planner. Replay and mock mode, and demo students in production, show that trace (Super on every
-  planning call, tools `unit_check` / `requirement_progress` / `submit_plans`). `lib/agents/demo-replay.test.ts`
-  and the `eval/e1.test.ts` replay assertion fail with `MissingFixtureError` until
-  `QB_MODE=live QB_RECORD=1 QB_FIXTURES_DIR=<scratch dir> node --import ./scripts/node-ts.ts scripts/record-demos.ts`
-  (≈ $0.10–0.15) is run and the new fixtures replace the old set (keeping the five probe fixtures).
-- `eval/e4.test.ts:58` and `:91` assert the wrapped-row limitation the pre-normalizer removed; replacements are
-  written in `notes/engine.md`. `npm test` stays red (4 failures of 435) until both items above land.
-- `app/_mock/mock.test.ts` asserts "plan-step ledger entries are all Super" and "the trace calls tools"; both
-  need updating once the demos are re-recorded with Lightning drafts.
 
 ## 2026-09-27
 

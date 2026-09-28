@@ -1,6 +1,6 @@
 {
   "demo": "c",
-  "recordedAt": "2026-09-28T04:20:20.705Z",
+  "recordedAt": "2026-09-28T07:44:26.875Z",
   "now": "2026-10-01T12:00:00-07:00",
   "state": {
     "college": "Sixth College",
@@ -562,7 +562,7 @@
   },
   "plans": [
     {
-      "id": "p-fastest",
+      "id": "p-fastest-2",
       "label": "fastest",
       "terms": [
         {
@@ -570,34 +570,37 @@
           "courses": [
             "CSE 101",
             "MATH 170B",
-            "MATH 158",
-            "CAT 1"
+            "MATH 180B",
+            "COGS 1",
+            "ANTH 1"
           ],
-          "units": 16
+          "units": 20
         },
         {
           "term": "SP27",
           "courses": [
             "CSE 107",
-            "MATH 170C",
-            "CSE 110",
-            "CAT 2"
+            "MATH 181A",
+            "MATH 163",
+            "CSE 132A",
+            "CAT 1"
           ],
-          "units": 18
+          "units": 20
         },
         {
           "term": "FA27",
           "courses": [
-            "MATH 140A",
-            "MATH 163",
-            "COGS 1",
-            "DSGN 1"
+            "AAS 10",
+            "MATH 160A",
+            "MATH 142A",
+            "DSGN 1",
+            "ENVR 30"
           ],
-          "units": 16
+          "units": 20
         }
       ],
-      "rationale": "This plan front-loads major requirements to keep the student on track for the core CS/Math sequence while beginning the CAT writing sequence. It assumes all listed courses are offered as indicated by the department pages or Schedule of Classes.",
-      "graduationTerm": null
+      "rationale": "This plan completes all remaining major requirements while satisfying college GE requirements as early as possible. It assumes all listed courses are offered in the quarters shown based on current eligibility data.",
+      "graduationTerm": "FA27"
     },
     {
       "id": "p-balanced",
@@ -607,34 +610,34 @@
           "term": "WI27",
           "courses": [
             "CSE 101",
-            "MATH 170B",
+            "MATH 180B",
             "CAT 1",
-            "COGS 17"
+            "ANTH 5"
           ],
           "units": 16
         },
         {
           "term": "SP27",
           "courses": [
+            "MATH 170B",
             "CSE 107",
-            "MATH 170C",
-            "CAT 2",
-            "COGS 1"
+            "COGS 1",
+            "MATH 183"
           ],
-          "units": 18
+          "units": 16
         },
         {
           "term": "FA27",
           "courses": [
-            "MATH 140A",
-            "MATH 163",
-            "DSGN 1",
-            "MUS 1A"
+            "MATH 158",
+            "CSE 132A",
+            "CAT 2",
+            "ANTH 1"
           ],
-          "units": 16
+          "units": 18
         }
       ],
-      "rationale": "Balances major progress with college requirements each quarter, completing the CAT sequence and starting natural science and art-making requirements. It assumes the listed courses are offered according to the department evidence.",
+      "rationale": "This balanced plan spreads major prerequisites and college sequences across three quarters, ensuring each quarter carries 16 units with four courses. CSE 101 fulfills Design and Analysis of Algorithms; MATH 180B and MATH 158 continue the applied math chain; CAT 1 and CAT 2 progress the writing sequence; ANTH 5 and ANTH 1 satisfy natural sciences and social analysis. Prerequisites are met from prior record or earlier quarters in the plan.",
       "graduationTerm": null
     },
     {
@@ -646,7 +649,7 @@
           "courses": [
             "CSE 101",
             "MATH 170B",
-            "CAT 1"
+            "ANTH 1"
           ],
           "units": 12
         },
@@ -654,70 +657,181 @@
           "term": "SP27",
           "courses": [
             "CSE 107",
-            "MATH 170C",
-            "CAT 2"
+            "MATH 180B",
+            "COGS 1"
           ],
-          "units": 14
+          "units": 12
         },
         {
           "term": "FA27",
           "courses": [
-            "MATH 140A",
-            "MATH 163",
-            "DSGN 1"
+            "CSE 110",
+            "MATH 184",
+            "AAS 10"
           ],
           "units": 12
         }
       ],
-      "rationale": "Keeps the load at the minimum full-time level while satisfying prerequisites and advancing major and CAT requirements. It assumes the courses are offered as shown in the department tables.",
+      "rationale": "This lightest plan of three 4-unit courses per quarter prioritizes the major chain first, filling the one remaining Design and Analysis of Algorithms slot with CSE 101 in WI27. Applied mathematics elective MATH 170B and Social Analysis ANTH 1 complete college requirements early. Subsequent quarters continue the major chain with CSE 107 and MATH 180B, then CSE 110 and MATH 184, accumulating the computational and general CS electives needed for graduation.",
       "graduationTerm": null
     }
   ],
   "reports": [
     {
       "planId": "p-fastest",
-      "ok": true,
+      "ok": false,
       "violations": [
         {
           "rule": "assumed-offered",
-          "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+          "message": "ANTH 1 in WI27 has no offering evidence: ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record.",
           "severity": "warning",
-          "course": "CAT 1",
+          "course": "ANTH 1",
+          "term": "WI27",
+          "evidence": {
+            "course": "ANTH 1",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "WI27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
           "term": "WI27"
         },
         {
+          "rule": "not-offered",
+          "message": "MATH 158 is not offered in SP27: \"MATH 158 | Extremal Combinatorics & Graph Theory | 001 |  | Verstraete, Jacques | \" (https://math.ucsd.edu/students/planned-course-offerings?year=2026-2027, fetched 2026-09-28T02:19:25.729Z).",
+          "severity": "error",
+          "course": "MATH 158",
+          "term": "SP27",
+          "evidence": {
+            "course": "MATH 158",
+            "term": "SP27",
+            "status": "not_offered",
+            "quote": "MATH 158 | Extremal Combinatorics & Graph Theory | 001 |  | Verstraete, Jacques | ",
+            "url": "https://math.ucsd.edu/students/planned-course-offerings?year=2026-2027",
+            "fetchedAt": "2026-09-28T02:19:25.729Z",
+            "source": "department-page"
+          }
+        },
+        {
           "rule": "assumed-offered",
-          "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+          "message": "CAT 1 in SP27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
           "severity": "warning",
-          "course": "CAT 2",
+          "course": "CAT 1",
+          "term": "SP27",
+          "evidence": {
+            "course": "CAT 1",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "CAT 1: last CAPE-evaluated offering S122; 18 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "SP27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
           "term": "SP27"
         },
         {
-          "rule": "assumed-offered",
-          "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
-          "severity": "warning",
-          "course": "MATH 140A",
+          "rule": "prereq-unsatisfied",
+          "message": "CSE 127 in FA27 still needs CSE 120 or CSE 123 or CSE 124 or ECE 158A or ECE 158B.",
+          "severity": "error",
+          "course": "CSE 127",
           "term": "FA27"
         },
         {
           "rule": "assumed-offered",
-          "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+          "message": "CSE 127 in FA27 has no offering evidence: CSE 127: last CAPE-evaluated offering SP23; 35 quarters on record.",
           "severity": "warning",
-          "course": "MATH 163",
-          "term": "FA27"
+          "course": "CSE 127",
+          "term": "FA27",
+          "evidence": {
+            "course": "CSE 127",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "CSE 127: last CAPE-evaluated offering SP23; 35 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "COGS 1 in FA27 has no offering evidence: COGS 1: last CAPE-evaluated offering SP23; 48 quarters on record.",
+          "message": "MATH 160A in FA27 has no offering evidence: MATH 160A: last CAPE-evaluated offering FA22; 5 quarters on record.",
           "severity": "warning",
-          "course": "COGS 1",
-          "term": "FA27"
+          "course": "MATH 160A",
+          "term": "FA27",
+          "evidence": {
+            "course": "MATH 160A",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "MATH 160A: last CAPE-evaluated offering FA22; 5 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 142A in FA27 has no offering evidence: MATH 142A: last CAPE-evaluated offering WI23; 45 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 142A",
+          "term": "FA27",
+          "evidence": {
+            "course": "MATH 142A",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "MATH 142A: last CAPE-evaluated offering WI23; 45 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
           "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
           "severity": "warning",
           "course": "DSGN 1",
+          "term": "FA27",
+          "evidence": {
+            "course": "DSGN 1",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ENVR 30 in FA27 has no offering evidence: ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record.",
+          "severity": "warning",
+          "course": "ENVR 30",
+          "term": "FA27",
+          "evidence": {
+            "course": "ENVR 30",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "FA27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
           "term": "FA27"
         }
       ]
@@ -731,42 +845,96 @@
           "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
           "severity": "warning",
           "course": "CAT 1",
-          "term": "WI27"
+          "term": "WI27",
+          "evidence": {
+            "course": "CAT 1",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "CAT 1: last CAPE-evaluated offering S122; 18 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+          "message": "ANTH 5 in WI27 has no offering evidence: ANTH 5: last CAPE-evaluated offering WI23; 3 quarters on record.",
+          "severity": "warning",
+          "course": "ANTH 5",
+          "term": "WI27",
+          "evidence": {
+            "course": "ANTH 5",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "ANTH 5: last CAPE-evaluated offering WI23; 3 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 158 in FA27 has no offering evidence: MATH 158: last CAPE-evaluated offering WI23; 4 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 158",
+          "term": "FA27",
+          "evidence": {
+            "course": "MATH 158",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "MATH 158: last CAPE-evaluated offering WI23; 4 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CSE 132A in FA27 has no offering evidence: CSE 132A: last CAPE-evaluated offering WI23; 36 quarters on record.",
+          "severity": "warning",
+          "course": "CSE 132A",
+          "term": "FA27",
+          "evidence": {
+            "course": "CSE 132A",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "CSE 132A: last CAPE-evaluated offering WI23; 36 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CAT 2 in FA27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
           "severity": "warning",
           "course": "CAT 2",
-          "term": "SP27"
+          "term": "FA27",
+          "evidence": {
+            "course": "CAT 2",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+          "message": "ANTH 1 in FA27 has no offering evidence: ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record.",
           "severity": "warning",
-          "course": "MATH 140A",
-          "term": "FA27"
-        },
-        {
-          "rule": "assumed-offered",
-          "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
-          "severity": "warning",
-          "course": "MATH 163",
-          "term": "FA27"
-        },
-        {
-          "rule": "assumed-offered",
-          "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
-          "severity": "warning",
-          "course": "DSGN 1",
-          "term": "FA27"
-        },
-        {
-          "rule": "assumed-offered",
-          "message": "MUS 1A in FA27 has no offering evidence: MUS 1A: last CAPE-evaluated offering S122; 18 quarters on record.",
-          "severity": "warning",
-          "course": "MUS 1A",
-          "term": "FA27"
+          "course": "ANTH 1",
+          "term": "FA27",
+          "evidence": {
+            "course": "ANTH 1",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         }
       ]
     },
@@ -776,333 +944,716 @@
       "violations": [
         {
           "rule": "assumed-offered",
-          "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+          "message": "ANTH 1 in WI27 has no offering evidence: ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record.",
           "severity": "warning",
-          "course": "CAT 1",
+          "course": "ANTH 1",
+          "term": "WI27",
+          "evidence": {
+            "course": "ANTH 1",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CSE 110 in FA27 has no offering evidence: CSE 110: last CAPE-evaluated offering SP23; 49 quarters on record.",
+          "severity": "warning",
+          "course": "CSE 110",
+          "term": "FA27",
+          "evidence": {
+            "course": "CSE 110",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "CSE 110: last CAPE-evaluated offering SP23; 49 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 184 in FA27 has no offering evidence: MATH 184: last CAPE-evaluated offering WI23; 11 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 184",
+          "term": "FA27",
+          "evidence": {
+            "course": "MATH 184",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "MATH 184: last CAPE-evaluated offering WI23; 11 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "AAS 10 in FA27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 10",
+          "term": "FA27",
+          "evidence": {
+            "course": "AAS 10",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        }
+      ]
+    },
+    {
+      "planId": "p-fastest-2",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "ANTH 1 in WI27 has no offering evidence: ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record.",
+          "severity": "warning",
+          "course": "ANTH 1",
+          "term": "WI27",
+          "evidence": {
+            "course": "ANTH 1",
+            "term": "WI27",
+            "status": "unknown",
+            "quote": "ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "WI27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
           "term": "WI27"
         },
         {
           "rule": "assumed-offered",
-          "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+          "message": "CAT 1 in SP27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
           "severity": "warning",
-          "course": "CAT 2",
+          "course": "CAT 1",
+          "term": "SP27",
+          "evidence": {
+            "course": "CAT 1",
+            "term": "SP27",
+            "status": "unknown",
+            "quote": "CAT 1: last CAPE-evaluated offering S122; 18 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "SP27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
           "term": "SP27"
         },
         {
           "rule": "assumed-offered",
-          "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+          "message": "AAS 10 in FA27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
           "severity": "warning",
-          "course": "MATH 140A",
-          "term": "FA27"
+          "course": "AAS 10",
+          "term": "FA27",
+          "evidence": {
+            "course": "AAS 10",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
-          "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+          "message": "MATH 160A in FA27 has no offering evidence: MATH 160A: last CAPE-evaluated offering FA22; 5 quarters on record.",
           "severity": "warning",
-          "course": "MATH 163",
-          "term": "FA27"
+          "course": "MATH 160A",
+          "term": "FA27",
+          "evidence": {
+            "course": "MATH 160A",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "MATH 160A: last CAPE-evaluated offering FA22; 5 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 142A in FA27 has no offering evidence: MATH 142A: last CAPE-evaluated offering WI23; 45 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 142A",
+          "term": "FA27",
+          "evidence": {
+            "course": "MATH 142A",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "MATH 142A: last CAPE-evaluated offering WI23; 45 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
         },
         {
           "rule": "assumed-offered",
           "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
           "severity": "warning",
           "course": "DSGN 1",
+          "term": "FA27",
+          "evidence": {
+            "course": "DSGN 1",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ENVR 30 in FA27 has no offering evidence: ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record.",
+          "severity": "warning",
+          "course": "ENVR 30",
+          "term": "FA27",
+          "evidence": {
+            "course": "ENVR 30",
+            "term": "FA27",
+            "status": "unknown",
+            "quote": "ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record",
+            "url": "https://classplanner.apps.ucsd.edu",
+            "fetchedAt": "2026-08-13T00:00:00.000Z",
+            "source": "cape-history"
+          }
+        },
+        {
+          "rule": "unit-cap",
+          "message": "FA27 has 20 units, above the 19.5-unit standard enrollment cap.",
+          "severity": "warning",
           "term": "FA27"
         }
       ]
     }
   ],
-  "rejectedDrafts": 0,
-  "rounds": 1,
+  "rejectedDrafts": 1,
+  "rounds": 2,
   "verdict": {
-    "recommend": "p-balanced",
+    "recommend": "p-fastest-2",
     "refused": [],
     "risks": [
-      "p-fastest: CAT 1 in WI27 (ev_CAT1_WI27), CAT 2 in SP27 (ev_CAT2_SP27), MATH 140A in FA27 (ev_MATH140A_FA27), MATH 163 in FA27 (ev_MATH163_FA27), COGS 1 in FA27 (ev_COGS1_FA27), and DSGN 1 in FA27 (ev_DSGN1_FA27) have no offering evidence beyond historical CAPE records; re-check when the Schedule of Classes publishes.",
-      "p-lightest: CAT 1 in WI27 (ev_CAT1_WI27), CAT 2 in SP27 (ev_CAT2_SP27), MATH 140A in FA27 (ev_MATH140A_FA27), MATH 163 in FA27 (ev_MATH163_FA27), and DSGN 1 in FA27 (ev_DSGN1_FA27) have no offering evidence beyond historical CAPE records; re-check when the Schedule of Classes publishes.",
-      "p-balanced: CAT 1 in WI27 (ev_CAT1_WI27), CAT 2 in SP27 (ev_CAT2_SP27), MATH 140A in FA27 (ev_MATH140A_FA27), MATH 163 in FA27 (ev_MATH163_FA27), DSGN 1 in FA27 (ev_DSGN1_FA27), and MUS 1A in FA27 (ev_MUS1A_FA27) have no offering evidence beyond historical CAPE records; re-check when the Schedule of Classes publishes."
+      "p-balanced: CAT 1 in WI27 has no offering evidence (plain unknown from CAPE history), and it is a prerequisite for CAT 2 in FA27.",
+      "p-lightest: ANTH 1 in WI27 and CSE 110, MATH 184, AAS 10 in FA27 have no offering evidence (plain unknown from CAPE history)."
     ],
-    "summary": "All three plans place core CS and math courses in quarters where department pages confirm offerings, so none are refused. The balanced plan (p-balanced) is recommended because it ties for the most evidenced placements and better distributes college requirements across quarters. The student should verify the CAT writing sequence, MATH 140A, MATH 163, DSGN 1, and MUS 1A in FA27 when the Schedule of Classes is published."
+    "summary": "p-fastest-2 has the most courses with confirmed department-page offerings (8 of 15), but it runs 20 units each quarter, above the standard 19.5-unit enrollment cap. The other plans carry lighter loads but have more courses with only historical-offering records. Check the next Schedule of Classes for CAT 1, ANTH 1, AAS 10, and the FA27 math and CS electives before committing."
   },
   "ledger": [
     {
-      "at": "2026-09-28T04:18:42.538Z",
+      "at": "2026-09-28T07:44:19.629Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 13254,
-      "promptTokens": 19195,
-      "completionTokens": 2128,
-      "reasoningTokens": 1941,
-      "cacheHitTokens": 0,
-      "usd": 0.0076736999999999994,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 1388,
+      "promptTokens": 20028,
+      "completionTokens": 39,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 16768,
+      "usd": 0.00121104,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:19:15.335Z",
+      "at": "2026-09-28T07:44:19.984Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 32789,
-      "promptTokens": 19483,
-      "completionTokens": 6330,
-      "reasoningTokens": 6311,
-      "cacheHitTokens": 0,
-      "usd": 0.011541899999999999,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 1742,
+      "promptTokens": 20046,
+      "completionTokens": 135,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 16768,
+      "usd": 0.0012351600000000001,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:19:53.505Z",
+      "at": "2026-09-28T07:44:20.258Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 38166,
-      "promptTokens": 19523,
-      "completionTokens": 8192,
-      "reasoningTokens": 8192,
-      "cacheHitTokens": 0,
-      "usd": 0.0132297,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 2027,
+      "promptTokens": 20044,
+      "completionTokens": 219,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 16768,
+      "usd": 0.0012551999999999997,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:20:20.651Z",
+      "at": "2026-09-28T07:44:21.769Z",
       "step": "plan",
-      "model": "nvidia/nemotron-3-super-120b-a12b",
-      "ms": 27139,
-      "promptTokens": 18942,
-      "completionTokens": 5354,
-      "reasoningTokens": 4672,
-      "cacheHitTokens": 0,
-      "usd": 0.0105012,
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 2116,
+      "promptTokens": 21920,
+      "completionTokens": 309,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 18864,
+      "usd": 0.00138936,
       "replayed": false
     },
     {
-      "at": "2026-09-28T04:20:40.476Z",
+      "at": "2026-09-28T07:44:23.039Z",
+      "step": "plan",
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 3027,
+      "promptTokens": 22034,
+      "completionTokens": 282,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 16768,
+      "usd": 0.00138972,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T07:44:24.299Z",
+      "step": "plan",
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 4021,
+      "promptTokens": 22116,
+      "completionTokens": 262,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 16768,
+      "usd": 0.00138984,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T07:44:26.842Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 2460,
+      "promptTokens": 20060,
+      "completionTokens": 269,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 0,
+      "usd": 0.0062601,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T07:44:45.278Z",
       "step": "stress-test",
       "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-      "ms": 19768,
-      "promptTokens": 6877,
-      "completionTokens": 7434,
-      "reasoningTokens": 6905,
+      "ms": 18398,
+      "promptTokens": 8906,
+      "completionTokens": 7140,
+      "reasoningTokens": 6916,
       "cacheHitTokens": 0,
-      "usd": 0.029179,
+      "usd": 0.030326,
       "replayed": false
     }
   ],
   "events": [
     {
-      "t": 122,
+      "t": 132,
       "event": {
         "type": "step",
         "step": "plan",
-        "at": "2026-09-28T04:18:29.282Z",
-        "message": "Context pack built: 164 courses in the table across WI27, SP27, FA27; shared prefix ≈ 7.3k tokens, student suffix ≈ 2.2k tokens."
+        "at": "2026-09-28T07:44:18.231Z",
+        "message": "Context pack built: 164 courses in the table across WI27, SP27, FA27; shared prefix ≈ 7.3k tokens, student suffix ≈ 2.6k tokens. Drafting 3 plans in parallel on Nemotron 3.5 Lightning (thinking off), one lookup round allowed before submit_plan."
       }
     },
     {
-      "t": 13382,
+      "t": 1533,
       "event": {
         "type": "model",
         "step": "plan",
-        "at": "2026-09-28T04:18:42.538Z",
+        "at": "2026-09-28T07:44:19.629Z",
         "entry": {
-          "at": "2026-09-28T04:18:42.538Z",
+          "at": "2026-09-28T07:44:19.629Z",
           "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 13254,
-          "promptTokens": 19195,
-          "completionTokens": 2128,
-          "reasoningTokens": 1941,
-          "cacheHitTokens": 0,
-          "usd": 0.0076736999999999994,
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 1388,
+          "promptTokens": 20028,
+          "completionTokens": 39,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 16768,
+          "usd": 0.00121104,
           "replayed": false
         }
       }
     },
     {
-      "t": 13383,
+      "t": 1533,
       "event": {
         "type": "tool_call",
         "step": "plan",
-        "at": "2026-09-28T04:18:42.543Z",
-        "name": "unit_check",
+        "at": "2026-09-28T07:44:19.632Z",
+        "name": "eligible_courses",
         "args": {
-          "plan": [
-            {
-              "term": "WI27",
-              "courses": [
-                "CSE 101",
-                "MATH 170B",
-                "MATH 158",
-                "MATH 102"
-              ]
-            },
-            {
-              "term": "SP27",
-              "courses": [
-                "CAT 1",
-                "CAT 2",
-                "CSE 107",
-                "AAS 10"
-              ]
-            },
-            {
-              "term": "FA27",
-              "courses": [
-                "CSE 110",
-                "MATH 110",
-                "COGS 1",
-                "DSGN 1",
-                "MUS 1A",
-                "CAT 124",
-                "AAS 10R",
-                "ECON 158",
-                "ANTH 10"
-              ]
-            }
+          "term": "WI27",
+          "planned": []
+        }
+      }
+    },
+    {
+      "t": 1553,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T07:44:19.652Z",
+        "name": "eligible_courses",
+        "ms": 19,
+        "summary": "{\"term\":\"WI27\",\"horizon\":[\"WI27\",\"SP27\",\"FA27\"],\"buckets\":[{\"band\":\"major\",\"label\":\"Design and Analysis of Algorithms\",\"remaining\":\"1 courses\",\"eligible\":[{\"code\":\"CSE 101\",\"units\":4,\"status\":\"offered"
+      }
+    },
+    {
+      "t": 1888,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T07:44:19.984Z",
+        "entry": {
+          "at": "2026-09-28T07:44:19.984Z",
+          "step": "plan",
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 1742,
+          "promptTokens": 20046,
+          "completionTokens": 135,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 16768,
+          "usd": 0.0012351600000000001,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 1889,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T07:44:19.988Z",
+        "name": "eligible_courses",
+        "args": {
+          "term": "WI27",
+          "planned": [
+            "CSE 20",
+            "MATH 20D",
+            "CSE 21",
+            "MATH 20E",
+            "CSE 30",
+            "MATH 103A",
+            "MATH 154",
+            "CSE 105",
+            "CSE 100",
+            "MATH 103B",
+            "MATH 180A",
+            "MATH 170A"
           ]
         }
       }
     },
     {
-      "t": 13386,
+      "t": 1912,
       "event": {
         "type": "tool_result",
         "step": "plan",
-        "at": "2026-09-28T04:18:42.546Z",
-        "name": "unit_check",
-        "ms": 3,
-        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":18,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":9,\"units\":36,\"floor\":\"ok\",\"cap\":\"above "
+        "at": "2026-09-28T07:44:20.011Z",
+        "name": "eligible_courses",
+        "ms": 23,
+        "summary": "{\"term\":\"WI27\",\"horizon\":[\"WI27\",\"SP27\",\"FA27\"],\"buckets\":[{\"band\":\"major\",\"label\":\"Design and Analysis of Algorithms\",\"remaining\":\"1 courses\",\"eligible\":[{\"code\":\"CSE 101\",\"units\":4,\"status\":\"offered"
       }
     },
     {
-      "t": 46178,
+      "t": 2161,
       "event": {
         "type": "model",
         "step": "plan",
-        "at": "2026-09-28T04:19:15.335Z",
+        "at": "2026-09-28T07:44:20.258Z",
         "entry": {
-          "at": "2026-09-28T04:19:15.335Z",
+          "at": "2026-09-28T07:44:20.258Z",
           "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 32789,
-          "promptTokens": 19483,
-          "completionTokens": 6330,
-          "reasoningTokens": 6311,
-          "cacheHitTokens": 0,
-          "usd": 0.011541899999999999,
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 2027,
+          "promptTokens": 20044,
+          "completionTokens": 219,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 16768,
+          "usd": 0.0012551999999999997,
           "replayed": false
         }
       }
     },
     {
-      "t": 46178,
+      "t": 2161,
       "event": {
         "type": "tool_call",
         "step": "plan",
-        "at": "2026-09-28T04:19:15.338Z",
-        "name": "submit_plans",
-        "args": {}
+        "at": "2026-09-28T07:44:20.260Z",
+        "name": "eligible_courses",
+        "args": {
+          "term": "WI27",
+          "planned": [
+            "MATH 103B",
+            "MATH 180A",
+            "MATH 170A",
+            "CSE 20",
+            "MATH 20D",
+            "CSE 21",
+            "MATH 109",
+            "CSE 30",
+            "MATH 20E",
+            "CSE 100",
+            "MATH 103A",
+            "MATH 154",
+            "MATH 184",
+            "MATH 105",
+            "CSE 105",
+            "CSE 11",
+            "CSE 12",
+            "CSE 29",
+            "CAT 125",
+            "CSE 11",
+            "CSE 12",
+            "MATH 103B",
+            "MATH 180A"
+          ]
+        }
       }
     },
     {
-      "t": 46178,
+      "t": 2178,
       "event": {
         "type": "tool_result",
         "step": "plan",
-        "at": "2026-09-28T04:19:15.338Z",
-        "name": "submit_plans",
-        "ms": 0,
-        "summary": "Error: unknown tool submit_plans"
+        "at": "2026-09-28T07:44:20.277Z",
+        "name": "eligible_courses",
+        "ms": 17,
+        "summary": "{\"term\":\"WI27\",\"horizon\":[\"WI27\",\"SP27\",\"FA27\"],\"buckets\":[{\"band\":\"major\",\"label\":\"Design and Analysis of Algorithms\",\"remaining\":\"1 courses\",\"eligible\":[{\"code\":\"CSE 101\",\"units\":4,\"status\":\"offered"
       }
     },
     {
-      "t": 84349,
+      "t": 3673,
       "event": {
         "type": "model",
         "step": "plan",
-        "at": "2026-09-28T04:19:53.505Z",
+        "at": "2026-09-28T07:44:21.769Z",
         "entry": {
-          "at": "2026-09-28T04:19:53.505Z",
+          "at": "2026-09-28T07:44:21.769Z",
           "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 38166,
-          "promptTokens": 19523,
-          "completionTokens": 8192,
-          "reasoningTokens": 8192,
-          "cacheHitTokens": 0,
-          "usd": 0.0132297,
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 2116,
+          "promptTokens": 21920,
+          "completionTokens": 309,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 18864,
+          "usd": 0.00138936,
           "replayed": false
         }
       }
     },
     {
-      "t": 111498,
+      "t": 4941,
       "event": {
         "type": "model",
         "step": "plan",
-        "at": "2026-09-28T04:20:20.651Z",
+        "at": "2026-09-28T07:44:23.039Z",
         "entry": {
-          "at": "2026-09-28T04:20:20.651Z",
+          "at": "2026-09-28T07:44:23.039Z",
           "step": "plan",
-          "model": "nvidia/nemotron-3-super-120b-a12b",
-          "ms": 27139,
-          "promptTokens": 18942,
-          "completionTokens": 5354,
-          "reasoningTokens": 4672,
-          "cacheHitTokens": 0,
-          "usd": 0.0105012,
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 3027,
+          "promptTokens": 22034,
+          "completionTokens": 282,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 16768,
+          "usd": 0.00138972,
           "replayed": false
         }
       }
     },
     {
-      "t": 111522,
+      "t": 6203,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T07:44:24.299Z",
+        "entry": {
+          "at": "2026-09-28T07:44:24.299Z",
+          "step": "plan",
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 4021,
+          "promptTokens": 22116,
+          "completionTokens": 262,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 16768,
+          "usd": 0.00138984,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 6238,
       "event": {
         "type": "verifier",
         "step": "plan",
-        "at": "2026-09-28T04:20:20.682Z",
+        "at": "2026-09-28T07:44:24.337Z",
         "report": {
           "planId": "p-fastest",
-          "ok": true,
+          "ok": false,
           "violations": [
             {
               "rule": "assumed-offered",
-              "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+              "message": "ANTH 1 in WI27 has no offering evidence: ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record.",
               "severity": "warning",
-              "course": "CAT 1",
+              "course": "ANTH 1",
+              "term": "WI27",
+              "evidence": {
+                "course": "ANTH 1",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "WI27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
               "term": "WI27"
             },
             {
+              "rule": "not-offered",
+              "message": "MATH 158 is not offered in SP27: \"MATH 158 | Extremal Combinatorics & Graph Theory | 001 |  | Verstraete, Jacques | \" (https://math.ucsd.edu/students/planned-course-offerings?year=2026-2027, fetched 2026-09-28T02:19:25.729Z).",
+              "severity": "error",
+              "course": "MATH 158",
+              "term": "SP27",
+              "evidence": {
+                "course": "MATH 158",
+                "term": "SP27",
+                "status": "not_offered",
+                "quote": "MATH 158 | Extremal Combinatorics & Graph Theory | 001 |  | Verstraete, Jacques | ",
+                "url": "https://math.ucsd.edu/students/planned-course-offerings?year=2026-2027",
+                "fetchedAt": "2026-09-28T02:19:25.729Z",
+                "source": "department-page"
+              }
+            },
+            {
               "rule": "assumed-offered",
-              "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+              "message": "CAT 1 in SP27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
               "severity": "warning",
-              "course": "CAT 2",
+              "course": "CAT 1",
+              "term": "SP27",
+              "evidence": {
+                "course": "CAT 1",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "CAT 1: last CAPE-evaluated offering S122; 18 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "SP27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
               "term": "SP27"
             },
             {
-              "rule": "assumed-offered",
-              "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
-              "severity": "warning",
-              "course": "MATH 140A",
+              "rule": "prereq-unsatisfied",
+              "message": "CSE 127 in FA27 still needs CSE 120 or CSE 123 or CSE 124 or ECE 158A or ECE 158B.",
+              "severity": "error",
+              "course": "CSE 127",
               "term": "FA27"
             },
             {
               "rule": "assumed-offered",
-              "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+              "message": "CSE 127 in FA27 has no offering evidence: CSE 127: last CAPE-evaluated offering SP23; 35 quarters on record.",
               "severity": "warning",
-              "course": "MATH 163",
-              "term": "FA27"
+              "course": "CSE 127",
+              "term": "FA27",
+              "evidence": {
+                "course": "CSE 127",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "CSE 127: last CAPE-evaluated offering SP23; 35 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "COGS 1 in FA27 has no offering evidence: COGS 1: last CAPE-evaluated offering SP23; 48 quarters on record.",
+              "message": "MATH 160A in FA27 has no offering evidence: MATH 160A: last CAPE-evaluated offering FA22; 5 quarters on record.",
               "severity": "warning",
-              "course": "COGS 1",
-              "term": "FA27"
+              "course": "MATH 160A",
+              "term": "FA27",
+              "evidence": {
+                "course": "MATH 160A",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "MATH 160A: last CAPE-evaluated offering FA22; 5 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 142A in FA27 has no offering evidence: MATH 142A: last CAPE-evaluated offering WI23; 45 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 142A",
+              "term": "FA27",
+              "evidence": {
+                "course": "MATH 142A",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "MATH 142A: last CAPE-evaluated offering WI23; 45 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
               "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
               "severity": "warning",
               "course": "DSGN 1",
+              "term": "FA27",
+              "evidence": {
+                "course": "DSGN 1",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ENVR 30 in FA27 has no offering evidence: ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record.",
+              "severity": "warning",
+              "course": "ENVR 30",
+              "term": "FA27",
+              "evidence": {
+                "course": "ENVR 30",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "FA27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
               "term": "FA27"
             }
           ]
@@ -1110,11 +1661,11 @@
       }
     },
     {
-      "t": 111534,
+      "t": 6247,
       "event": {
         "type": "verifier",
         "step": "plan",
-        "at": "2026-09-28T04:20:20.694Z",
+        "at": "2026-09-28T07:44:24.346Z",
         "report": {
           "planId": "p-balanced",
           "ok": true,
@@ -1124,90 +1675,355 @@
               "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
               "severity": "warning",
               "course": "CAT 1",
-              "term": "WI27"
+              "term": "WI27",
+              "evidence": {
+                "course": "CAT 1",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "CAT 1: last CAPE-evaluated offering S122; 18 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+              "message": "ANTH 5 in WI27 has no offering evidence: ANTH 5: last CAPE-evaluated offering WI23; 3 quarters on record.",
+              "severity": "warning",
+              "course": "ANTH 5",
+              "term": "WI27",
+              "evidence": {
+                "course": "ANTH 5",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "ANTH 5: last CAPE-evaluated offering WI23; 3 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 158 in FA27 has no offering evidence: MATH 158: last CAPE-evaluated offering WI23; 4 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 158",
+              "term": "FA27",
+              "evidence": {
+                "course": "MATH 158",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "MATH 158: last CAPE-evaluated offering WI23; 4 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CSE 132A in FA27 has no offering evidence: CSE 132A: last CAPE-evaluated offering WI23; 36 quarters on record.",
+              "severity": "warning",
+              "course": "CSE 132A",
+              "term": "FA27",
+              "evidence": {
+                "course": "CSE 132A",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "CSE 132A: last CAPE-evaluated offering WI23; 36 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CAT 2 in FA27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
               "severity": "warning",
               "course": "CAT 2",
-              "term": "SP27"
+              "term": "FA27",
+              "evidence": {
+                "course": "CAT 2",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+              "message": "ANTH 1 in FA27 has no offering evidence: ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record.",
               "severity": "warning",
-              "course": "MATH 140A",
-              "term": "FA27"
-            },
-            {
-              "rule": "assumed-offered",
-              "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
-              "severity": "warning",
-              "course": "MATH 163",
-              "term": "FA27"
-            },
-            {
-              "rule": "assumed-offered",
-              "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
-              "severity": "warning",
-              "course": "DSGN 1",
-              "term": "FA27"
-            },
-            {
-              "rule": "assumed-offered",
-              "message": "MUS 1A in FA27 has no offering evidence: MUS 1A: last CAPE-evaluated offering S122; 18 quarters on record.",
-              "severity": "warning",
-              "course": "MUS 1A",
-              "term": "FA27"
+              "course": "ANTH 1",
+              "term": "FA27",
+              "evidence": {
+                "course": "ANTH 1",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             }
           ]
         }
       }
     },
     {
-      "t": 111545,
+      "t": 6255,
       "event": {
         "type": "verifier",
         "step": "plan",
-        "at": "2026-09-28T04:20:20.705Z",
+        "at": "2026-09-28T07:44:24.354Z",
         "report": {
           "planId": "p-lightest",
           "ok": true,
           "violations": [
             {
               "rule": "assumed-offered",
-              "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+              "message": "ANTH 1 in WI27 has no offering evidence: ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record.",
               "severity": "warning",
-              "course": "CAT 1",
+              "course": "ANTH 1",
+              "term": "WI27",
+              "evidence": {
+                "course": "ANTH 1",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CSE 110 in FA27 has no offering evidence: CSE 110: last CAPE-evaluated offering SP23; 49 quarters on record.",
+              "severity": "warning",
+              "course": "CSE 110",
+              "term": "FA27",
+              "evidence": {
+                "course": "CSE 110",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "CSE 110: last CAPE-evaluated offering SP23; 49 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 184 in FA27 has no offering evidence: MATH 184: last CAPE-evaluated offering WI23; 11 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 184",
+              "term": "FA27",
+              "evidence": {
+                "course": "MATH 184",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "MATH 184: last CAPE-evaluated offering WI23; 11 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "AAS 10 in FA27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 10",
+              "term": "FA27",
+              "evidence": {
+                "course": "AAS 10",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 6260,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T07:44:24.359Z",
+        "message": "Drafted 3 plans in 6,123 ms: 2 passed the verifier, 1 rejected."
+      }
+    },
+    {
+      "t": 6260,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T07:44:24.359Z",
+        "message": "Round 1: the verifier rejected 1 of 3 drafts; repairing fastest on Nemotron 3 Super (thinking off)."
+      }
+    },
+    {
+      "t": 8744,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T07:44:26.842Z",
+        "entry": {
+          "at": "2026-09-28T07:44:26.842Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 2460,
+          "promptTokens": 20060,
+          "completionTokens": 269,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 0,
+          "usd": 0.0062601,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 8776,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T07:44:26.875Z",
+        "report": {
+          "planId": "p-fastest-2",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "ANTH 1 in WI27 has no offering evidence: ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record.",
+              "severity": "warning",
+              "course": "ANTH 1",
+              "term": "WI27",
+              "evidence": {
+                "course": "ANTH 1",
+                "term": "WI27",
+                "status": "unknown",
+                "quote": "ANTH 1: last CAPE-evaluated offering S122; 28 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "WI27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
               "term": "WI27"
             },
             {
               "rule": "assumed-offered",
-              "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+              "message": "CAT 1 in SP27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
               "severity": "warning",
-              "course": "CAT 2",
+              "course": "CAT 1",
+              "term": "SP27",
+              "evidence": {
+                "course": "CAT 1",
+                "term": "SP27",
+                "status": "unknown",
+                "quote": "CAT 1: last CAPE-evaluated offering S122; 18 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "SP27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
               "term": "SP27"
             },
             {
               "rule": "assumed-offered",
-              "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+              "message": "AAS 10 in FA27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
               "severity": "warning",
-              "course": "MATH 140A",
-              "term": "FA27"
+              "course": "AAS 10",
+              "term": "FA27",
+              "evidence": {
+                "course": "AAS 10",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
-              "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+              "message": "MATH 160A in FA27 has no offering evidence: MATH 160A: last CAPE-evaluated offering FA22; 5 quarters on record.",
               "severity": "warning",
-              "course": "MATH 163",
-              "term": "FA27"
+              "course": "MATH 160A",
+              "term": "FA27",
+              "evidence": {
+                "course": "MATH 160A",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "MATH 160A: last CAPE-evaluated offering FA22; 5 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 142A in FA27 has no offering evidence: MATH 142A: last CAPE-evaluated offering WI23; 45 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 142A",
+              "term": "FA27",
+              "evidence": {
+                "course": "MATH 142A",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "MATH 142A: last CAPE-evaluated offering WI23; 45 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
             },
             {
               "rule": "assumed-offered",
               "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
               "severity": "warning",
               "course": "DSGN 1",
+              "term": "FA27",
+              "evidence": {
+                "course": "DSGN 1",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ENVR 30 in FA27 has no offering evidence: ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record.",
+              "severity": "warning",
+              "course": "ENVR 30",
+              "term": "FA27",
+              "evidence": {
+                "course": "ENVR 30",
+                "term": "FA27",
+                "status": "unknown",
+                "quote": "ENVR 30: last CAPE-evaluated offering FA22; 16 quarters on record",
+                "url": "https://classplanner.apps.ucsd.edu",
+                "fetchedAt": "2026-08-13T00:00:00.000Z",
+                "source": "cape-history"
+              }
+            },
+            {
+              "rule": "unit-cap",
+              "message": "FA27 has 20 units, above the 19.5-unit standard enrollment cap.",
+              "severity": "warning",
               "term": "FA27"
             }
           ]
@@ -1215,66 +2031,75 @@
       }
     },
     {
-      "t": 111545,
+      "t": 8776,
       "event": {
         "type": "step",
         "step": "plan",
-        "at": "2026-09-28T04:20:20.705Z",
-        "message": "3 plans passed the verifier; 0 drafts rejected."
+        "at": "2026-09-28T07:44:26.875Z",
+        "message": "Repair round 1 done in 2,516 ms: 1 passed, 0 still failing."
       }
     },
     {
-      "t": 111545,
+      "t": 8776,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T07:44:26.875Z",
+        "message": "3 plans passed the verifier in 8,680 ms; 1 draft rejected."
+      }
+    },
+    {
+      "t": 8776,
       "event": {
         "type": "done",
         "step": "plan",
-        "at": "2026-09-28T04:20:20.705Z"
+        "at": "2026-09-28T07:44:26.875Z"
       }
     },
     {
-      "t": 111546,
+      "t": 8778,
       "event": {
         "type": "step",
         "step": "stress-test",
-        "at": "2026-09-28T04:20:20.706Z",
-        "message": "Stress-testing 3 plans against 42 evidence rows."
+        "at": "2026-09-28T07:44:26.877Z",
+        "message": "Stress-testing 3 plans against 63 evidence rows."
       }
     },
     {
-      "t": 131316,
+      "t": 27182,
       "event": {
         "type": "model",
         "step": "stress-test",
-        "at": "2026-09-28T04:20:40.476Z",
+        "at": "2026-09-28T07:44:45.278Z",
         "entry": {
-          "at": "2026-09-28T04:20:40.476Z",
+          "at": "2026-09-28T07:44:45.278Z",
           "step": "stress-test",
           "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-          "ms": 19768,
-          "promptTokens": 6877,
-          "completionTokens": 7434,
-          "reasoningTokens": 6905,
+          "ms": 18398,
+          "promptTokens": 8906,
+          "completionTokens": 7140,
+          "reasoningTokens": 6916,
           "cacheHitTokens": 0,
-          "usd": 0.029179,
+          "usd": 0.030326,
           "replayed": false
         }
       }
     },
     {
-      "t": 131316,
+      "t": 27183,
       "event": {
         "type": "step",
         "step": "stress-test",
-        "at": "2026-09-28T04:20:40.476Z",
-        "message": "Recommends p-balanced; refused 0; 3 risks."
+        "at": "2026-09-28T07:44:45.282Z",
+        "message": "Recommends p-fastest-2; refused 0; 2 risks."
       }
     },
     {
-      "t": 131316,
+      "t": 27183,
       "event": {
         "type": "done",
         "step": "stress-test",
-        "at": "2026-09-28T04:20:40.476Z"
+        "at": "2026-09-28T07:44:45.282Z"
       }
     }
   ],

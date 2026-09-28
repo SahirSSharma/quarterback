@@ -111,7 +111,7 @@ Endpoint under test: `https://api.tokenfactory.nebius.com/v1` (OpenAI-compatible
 
 - **Saw.** Lightning and Nano $0.06 / $0.24; Super $0.30 / $0.90; Ultra $1.00 / $3.00 per 1M tokens in / out.
   Measured per student with the shipped planner: $0.0249 mean over 12 students, $0.014–0.020 on the three
-  demos; the recorded stress-test calls cost $0.019–0.029 each.
+  demos; the recorded stress-test calls cost $0.030–0.037 each on the 2026-09-28 recordings ($0.019–0.029 on the first, 2026-09-27, recordings).
 - **Changed.** The ledger computes dollars per call from the registry prices. Ultra runs only behind a click
   (Stress-test), once per run, cached per plan set and capped at 20 live calls a day. Daily and total spend
   caps flip a demo student to its recording with a banner.

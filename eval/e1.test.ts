@@ -1,12 +1,14 @@
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import type { OfferingEvidence, Plan, TraceEvent, Verdict, VerifierReport } from '../lib/types';
+import type { LedgerEntry, OfferingEvidence, Plan, TraceEvent, Verdict, VerifierReport } from '../lib/types';
+import { applyAction, horizonTerms } from '../lib/agents/context';
 import type { PlannerTF } from '../lib/agents/planner';
 import { deps } from '../lib/tf/client';
 import { MemoryLedger, setLedgerSink } from '../lib/tf/ledger';
 import { LIGHTNING, SUPER, ULTRA } from '../lib/tf/models';
 import { MATRIX, type E1Row, SHIPPED_BUDGET, configName, firstPassFromEvents, fixtureStudents, parseArgs, plantOutcome, plannerTf, renderE1, runOne, summarize } from './e1';
+import { optimum, planProgress } from './optimum';
 
 describe('matrix', () => {
   it('covers planner × critic × budget plus the shipped baseline, with unique names', () => {
@@ -117,7 +119,9 @@ describe('metrics', () => {
   });
 });
 
-const recorded = existsSync(path.join(process.cwd(), 'fixtures/runs/demo-a.json'));
+const demoFile = path.join(process.cwd(), 'fixtures/runs/demo-a.json');
+const recorded = existsSync(demoFile);
+interface RecordedRun { plans: Plan[]; reports: VerifierReport[]; rejectedDrafts: number; verdict: Verdict; ledger: LedgerEntry[]; events: { event: TraceEvent }[] }
 describe.skipIf(!recorded)('runOne in mock mode with the network disabled', () => {
   const originalFetch = deps.fetch;
   let sink: MemoryLedger;
@@ -135,26 +139,40 @@ describe.skipIf(!recorded)('runOne in mock mode with the network disabled', () =
     deps.fetch = originalFetch;
   });
 
-  it('replays the shipped config for demo (a) at $0 and marks every other config no-fixture without a network call', async () => {
+  it('replays the shipped config for demo (a) at $0 with the recorded result, and marks every other config no-fixture without a network call', async () => {
     const student = fixtureStudents().find((s) => s.id === 'demo-a')!;
+    // The recording is the oracle: what it stored is what a replay must reproduce, whatever the numbers are.
+    const run = JSON.parse(readFileSync(demoFile, 'utf8')) as RecordedRun;
     const ok = await runOne(student, MATRIX.find((c) => c.name === 'super-b4096+critic')!, sink);
     expect(ok.status).toBe('ok');
-    expect(ok.plans).toBe(2);
-    expect(ok.rejectedDrafts).toBe(1);
-    expect(ok.firstPass).toEqual({ drafts: 3, ok: 2 });
+    expect(ok.plans).toBeGreaterThanOrEqual(1);
+    expect(ok.plans).toBe(run.plans.length);
+    expect(ok.drafts).toBe(run.reports.length);
+    expect(ok.rejectedDrafts).toBe(run.rejectedDrafts);
+    expect(ok.firstPass).toEqual(firstPassFromEvents(run.events.map((e) => e.event)));
+    expect(ok.firstPass.drafts).toBe(3);
     expect(ok.validAfter).toBe(true);
-    expect(ok.progress).toMatchObject({ best: 12, optimum: 17 });
-    expect(ok.progress?.perTerm.map((t) => t.term)).toEqual(['WI27', 'SP27', 'FA27']);
-    expect(ok.progress?.perTerm.reduce((n, t) => n + t.plan, 0)).toBe(12);
-    expect(ok.progress?.perTerm.reduce((n, t) => n + t.optimum, 0)).toBe(17);
-    expect(ok.verdict).toMatchObject({ recommend: 'p-balanced', refused: 0 });
+    const after = applyAction(student.state, student.action);
+    const terms = horizonTerms(student.state);
+    const best = Math.max(...run.plans.map((p) => planProgress(after, p).total));
+    const opt = optimum(after, terms).total;
+    expect(ok.progress).toMatchObject({ best, optimum: opt });
+    expect(ok.progress?.perTerm.map((t) => t.term)).toEqual(terms);
+    expect(ok.progress?.perTerm.reduce((n, t) => n + t.plan, 0)).toBe(best);
+    expect(ok.progress?.perTerm.reduce((n, t) => n + t.optimum, 0)).toBe(opt);
+    expect(ok.verdict).toMatchObject({ recommend: run.verdict.recommend, refused: run.verdict.refused.length, risks: run.verdict.risks.length });
     expect(ok.replayed).toBe(true);
-    expect(ok.calls).toBeGreaterThanOrEqual(8);
-    expect(ok.usd).toBeGreaterThan(0.05); // what the recording cost, carried on the fixture
+    // planRun's calls plus the critic's, each carrying the USD and latency of the original recording.
+    const replayed = run.ledger.filter((e) => e.step === 'plan' || e.step === 'stress-test');
+    expect(ok.calls).toBe(replayed.length);
+    expect(ok.calls).toBeGreaterThanOrEqual(4); // three drafts and the critic at the very least
+    expect(ok.usd).toBeCloseTo(replayed.reduce((n, e) => n + e.usd, 0), 6);
+    expect(ok.usd).toBeGreaterThan(0);
     expect(sink.spent()).toBe(0); // and nothing spent now
     expect(sink.entries.some((e) => e.model === ULTRA)).toBe(true);
-    expect(ok.toolCalls).toBe(6);
-    expect(ok.toolCallsOk).toBe(6);
+    const results = run.events.filter((e) => e.event.type === 'tool_result').map((e) => e.event as { summary: string });
+    expect(ok.toolCalls).toBe(results.length);
+    expect(ok.toolCallsOk).toBe(results.filter((r) => !r.summary.startsWith('Error')).length);
 
     const missing = await runOne(student, MATRIX.find((c) => c.name === 'super-b2048')!, sink);
     expect(missing.status).toBe('no-fixture');

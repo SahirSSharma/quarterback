@@ -69,9 +69,12 @@ _2026-09-28: the planner was restructured (parallel drafts → verify → repair
 
 - **app (`app/_mock/mock.test.ts`)** — two assertions no longer hold for the re-recorded demos: "plan-step ledger entries
   are all Super" (they are Lightning plus Super repairs) and "the planner trace calls tools" (Lightning may submit
-  directly; the recordings do call `eligible_courses`, but do not rely on it). Reported, not fixed.
+  directly; the recordings do call `eligible_courses`, but do not rely on it). Fixed with the re-recording: the test
+  now asserts Lightning (with Super allowed) on the plan step and that every tool call is a planner tool with a result.
 - **eval (`eval/e1.test.ts`)** — the replay test's recorded numbers for demo (a) (plans 2 / rejected 1 / first pass 3→2 /
-  6 tool calls / progress 12 of 17 / ≥ 8 calls) belong to the old recording. `eval/e1.ts` got one knob plumbed: the
+  6 tool calls / progress 12 of 17 / ≥ 8 calls) belong to the old recording. Fixed with the re-recording: the test
+  now computes every expected number from `fixtures/runs/demo-a.json` (plans, reports, first pass from the recorded
+  events, progress against `optimum()`, verdict counts, calls and USD from the recorded ledger, tool results). `eval/e1.ts` got one knob plumbed: the
   shipped row (`super-b4096…`) now passes `base` through, i.e. runs `planRun`'s defaults, which is what the fixtures
   replay; the other cells still force one model and one thinking setting on every call (they now override the draft
   and the repair alike). The `MATRIX` names ("b4096") describe the old planner; renaming is the eval owner's call.
@@ -134,12 +137,28 @@ Token Factory behaviour measured on the way (2026-09-28, live, $0.59 before the 
   synthetic set. Every draft spent its one lookup round on `eligible_courses(WI27)` (1.4–1.9 s), then submitted in
   1.5–4.9 s; a draft is 2 Lightning calls, ≈ $0.003, and the phase is ≈ 6 s.
 
-**Status (2026-09-28, end of this pass):** the three demos have **not** been re-recorded with the new planner yet;
-`fixtures/runs/demo-*.json` and `fixtures/tf` still hold the 2026-09-27 Super recordings, so `lib/agents/demo-replay.test.ts`
-and the E1 replay test fail with `MissingFixtureError` until `QB_MODE=live QB_RECORD=1 QB_FIXTURES_DIR=<new dir>
-node --import ./scripts/node-ts.ts scripts/record-demos.ts` is run (≈ $0.10–0.15), the five probe fixtures
-(`0460c550`, `122ce1f0`, `88ca93ae`, `c2d72fa8`, `f5c2bca5`) plus the new set replace the old `fixtures/tf`, and
-`node --import ./scripts/node-ts.ts scripts/record-demos.ts` (mock) prints "replay matches" for all three.
+**Status (2026-09-28, re-recorded):** the three demos were re-recorded with the shipped planner at 07:42–07:45 UTC
+(`QB_MODE=live QB_RECORD=1 QB_FIXTURES_DIR=<scratch dir> QB_TOTAL_CAP_USD=0.075 node --import ./scripts/node-ts.ts
+scripts/record-demos.ts --demo a|b|c`, one demo per invocation so a failure never spends the others' budget).
+`fixtures/tf` now holds exactly 33 fixtures: the five probe fixtures (`0460c550`, `122ce1f0`, `88ca93ae`, `c2d72fa8`,
+`f5c2bca5`) plus the 28 the three runs made (a 10 = 6 Lightning drafts + 1 Super repair + 1 Ultra + explain + intake;
+b 10 = 6 + 3 Super + 1 Ultra; c 8 = 6 + 1 + 1); 21 fixtures of the 2026-09-27 Super planner are gone, and the
+explain and intake fixtures (`6e50ff7b`, `89d4c0db`: same prompts, same keys) carry the new responses.
+`node --import ./scripts/node-ts.ts scripts/record-demos.ts` (mock) prints "replay matches" for a, b and c, and
+`lib/agents/demo-replay.test.ts`, `eval/e1.test.ts` and `app/api/explain/route.test.ts` replay them at $0.
+
+| Demo | Plans | Rejected drafts | Rounds | Plans at | Verdict at | Entries | $ | Verdict |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| (a) drop CSE 29 | 3 | 1 (fastest: `prereq-unsatisfied` CSE 55 SP27; its 20-unit quarters are `unit-cap` warnings) | 2 | 10.7 s | 34.9 s | 9 | $0.0541 | recommends `p-fastest-2`, 3 risks, 0 refused |
+| (b) drop COGS 109 | 3 | 3 (all first drafts; balanced and lightest carry `not-offered` COGS 112 SP27 with the COGS row as `evidence`) | 2 | 11.1 s | 36.7 s | 10 | $0.0531 | recommends `p-fastest-2`, 2 risks, 0 refused |
+| (c) drop CSE 101 | 3 | 1 (fastest: `not-offered` MATH 158 SP27, `prereq-unsatisfied` CSE 127) | 2 | 8.8 s | 27.2 s | 8 | $0.0445 | recommends `p-fastest-2`, 2 risks, 0 refused |
+
+The code-built fallback was not needed on any demo. Lightning's cache hit on every draft call (8,384–23,056 tokens);
+Super repaired 5 of 5 failing drafts in one round. Ultra spent 6,916–9,338 reasoning tokens per verdict — above the
+critic's old `max_tokens: 8192`: the first attempt at (a) ($0.0665, discarded, fixtures not kept) ran to `finish_reason:
+length` with no `submit_verdict` and the correction retry produced a verdict claiming no plans were supplied.
+`lib/agents/critic.ts` `MAX_TOKENS` is 16384 since (DESIGN/README model tables updated); nothing else in the prompts
+changed, so no other fixture key moved. Live spend of the pass: $0.2185 including the discarded attempt.
 
 ## Design notes (still true, from 2026-09-27, plus what changed)
 

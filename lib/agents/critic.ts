@@ -22,10 +22,11 @@ import { applyAction, evidenceId, parseEvidenceId, statusText } from './context'
 
 export const CRITIC_STEP = 'stress-test';
 // Ultra with reasoning_effort 'high' and no budget deliberated past 6000 tokens over 45 evidence rows and never
-// reached the forced call (recorded 2026-09-27: finish_reason 'length', reasoning in `content`). The budget makes
-// it conclude; max_tokens leaves room for the verdict after it.
+// reached the forced call (recorded 2026-09-27: finish_reason 'length', reasoning in `content`). The budget is
+// advisory (4,146–6,905 reasoning tokens on the two-plan sets recorded 2026-09-27); a three-plan set over 54
+// evidence rows ran to 8,192 reasoning tokens with no call (2026-09-28), so max_tokens leaves twice that room.
 const THINKING = { enable: true, effort: 'high', budget: 3072 } as const;
-const MAX_TOKENS = 8192;
+const MAX_TOKENS = 16384;
 const QUOTE_CHARS = 200;
 
 export const submitVerdictSchema = z.object({

@@ -46,15 +46,28 @@ describe('elapsed time', () => {
 });
 
 describe('the call in flight', () => {
-  it('reads the tier from the step name, so renamed planner steps still get a badge', () => {
-    expect(stepTier('plan')).toBe('Super');
-    expect(stepTier('drafting')).toBe('Super');
-    expect(stepTier('verifying')).toBe('Super');
-    expect(stepTier('repairing')).toBe('Super');
+  it('reads the tier from the step name for the single-model steps and leaves the planner step to its calls', () => {
     expect(stepTier('stress-test')).toBe('Ultra');
+    expect(stepTier('critic')).toBe('Ultra');
     expect(stepTier('explain')).toBe('Lightning');
     expect(stepTier('intake')).toBe('Lightning');
+    expect(stepTier('plan')).toBeNull();
     expect(stepTier('something-new')).toBeNull();
+  });
+
+  it('follows the last model call of the plan step: Lightning while drafting, Super while repairing', () => {
+    const events: TraceEvent[] = [
+      { type: 'step', step: 'plan', at: at(0), message: 'Context pack built' },
+    ];
+    expect(inFlight(events, true)).toEqual({ step: 'plan', tier: null });
+    events.push({ type: 'model', step: 'plan', at: at(1), entry: entry('nvidia/Nemotron-3_5-Lightning') });
+    events.push({ type: 'verifier', step: 'plan', at: at(2), report: { planId: 'p-fastest', ok: false, violations: [] } });
+    expect(inFlight(events, true)).toEqual({ step: 'plan', tier: 'Lightning' });
+    events.push({ type: 'model', step: 'plan', at: at(3), entry: entry('nvidia/nemotron-3-super-120b-a12b') });
+    expect(inFlight(events, true)).toEqual({ step: 'plan', tier: 'Super' });
+    // A later single-model step keeps its word-based badge regardless of the calls before it.
+    events.push({ type: 'step', step: 'stress-test', at: at(4), message: 'Stress-testing 2 plans' });
+    expect(inFlight(events, true)).toEqual({ step: 'stress-test', tier: 'Ultra' });
   });
 
   it('is null once the trace is done or errored, or when not live', () => {
@@ -65,7 +78,7 @@ describe('the call in flight', () => {
   });
 
   it('names the last step and falls back to the last model seen for an unknown step', () => {
-    expect(inFlight([], true)).toEqual({ step: 'plan', tier: 'Super' });
+    expect(inFlight([], true)).toEqual({ step: 'plan', tier: null });
     const events: TraceEvent[] = [
       { type: 'model', step: 'plan', at: at(1), entry: entry('nvidia/nemotron-3-super-120b-a12b') },
       { type: 'step', step: 'mystery', at: at(2), message: 'Doing something new · 1,200 ms' },

@@ -339,7 +339,10 @@ export function repairBrief(label: Strategy, plan: Plan, report: VerifierReport,
   const badIn = (term: string) => errors.filter((v) => v.term === term && v.course).map((v) => v.course as CourseCode);
   const lines = errors.map((v) => {
     const where = v.term ? String(v.term).toUpperCase() : '';
-    const head = `- [${v.rule}]${v.course ? ` ${v.course}` : ''}${where ? ` in ${where}` : ''}: ${v.message}`;
+    // An offering violation carries the row it read: status, the quote (cut at 200 characters, one line) and the URL —
+    // the fetch time in the message is noise to the repairer.
+    const what = v.evidence ? `${v.evidence.status} — "${v.evidence.quote.replace(/\s+/g, ' ').slice(0, 200)}" (${v.evidence.url})` : v.message;
+    const head = `- [${v.rule}]${v.course ? ` ${v.course}` : ''}${where ? ` in ${where}` : ''}: ${what}`;
     if (v.rule === 'unit-cap') return `${head} → remove courses from ${where} until it has five or fewer.`;
     if (v.rule === 'unit-floor') return `${head} → add to ${where} one of: ${menuText(replacementMenu(state, plan, where))}.`;
     if (v.rule === 'graduation-infeasible') return `${head} → set graduationTerm later, or null.`;

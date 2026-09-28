@@ -28,7 +28,7 @@ export default function About() {
         <ol className="mt-4 list-decimal space-y-3 pl-5 leading-7 text-ink-2">
           <li>Your Academic History is parsed into courses, terms, units and grades, then matched to your major and college requirement files.</li>
           <li>The <strong className="text-ink">impact</strong> is computed from the prerequisite graph, department offering pages, the registrar calendar and your requirement progress. No model is involved and it costs nothing.</li>
-          <li>A planner proposes up to three re-plans. A deterministic <strong className="text-ink">verifier</strong> checks every one: prerequisites by the term they are needed, offering status, unit floor and cap, duplicates, courses already earned, double counting and whether graduation is still feasible. A plan that fails is never shown; you only see how many were rejected.</li>
+          <li>A planner proposes up to three re-plans. A deterministic <strong className="text-ink">verifier</strong> checks every one: prerequisites by the term they are needed, offering status, unit floor and cap, duplicates, courses already earned, double counting and whether graduation is still feasible. A plan that fails is never shown; the rejected drafts are listed with the rule that failed and, for an offering rule, the department page’s own row.</li>
           <li>A <strong className="text-ink">stress-test</strong> reads the surviving plans against the offering evidence and either recommends one or refuses one, quoting the department page line, its URL and when it was fetched. Overriding a refusal means typing “I understand” and a reason, and it is recorded.</li>
           <li>You <strong className="text-ink">approve</strong>. Only then can a plan be sent to TritonPlan, downloaded as a calendar file, or drafted into an advisor email.</li>
         </ol>
@@ -37,7 +37,9 @@ export default function About() {
       <section className="mt-12">
         <h2 className="text-xl font-semibold tracking-tight">Which model does what, and why</h2>
         <p className="mt-3 leading-7 text-ink-2">
-          Three NVIDIA Nemotron models run on Nebius Token Factory. The trace panel and ledger name each call, with its time, tokens, cost and cache hits.
+          Three NVIDIA Nemotron models run on Nebius Token Factory. The trace panel and ledger name each call with its time, tokens, cost and
+          cache hits; cache hits were measured only on Lightning, whose shared prompt prefix is served from the cache. Measured live, a re-plan
+          costs about 2.5 cents per student and takes 27 seconds at the median.
         </p>
         <div className="mt-4 overflow-x-auto rounded-xl border border-line">
           <table className="w-full min-w-[36rem] text-sm">
@@ -45,9 +47,9 @@ export default function About() {
               <tr><th className="px-4 py-2 font-medium">Role</th><th className="px-4 py-2 font-medium">Model</th><th className="px-4 py-2 font-medium">Why</th></tr>
             </thead>
             <tbody className="divide-y divide-line text-ink-2">
-              <tr><td className="px-4 py-3 font-medium text-ink">Read and explain</td><td className="px-4 py-3 font-mono text-xs">nvidia/Nemotron-3_5-Lightning</td><td className="px-4 py-3">Extracts offering rows from department pages and answers “why not this course?” in under half a second, with reasoning off so the JSON is always valid.</td></tr>
-              <tr><td className="px-4 py-3 font-medium text-ink">Plan</td><td className="px-4 py-3 font-mono text-xs">nvidia/nemotron-3-super-120b-a12b</td><td className="px-4 py-3">Weighs trade-offs across quarters with tool calls into the deterministic engine; a two-round plan costs a few cents and its prompt cache hits on the shared prefix.</td></tr>
-              <tr><td className="px-4 py-3 font-medium text-ink">Stress-test</td><td className="px-4 py-3 font-mono text-xs">nvidia/Nemotron-3-Ultra-550b-a55b</td><td className="px-4 py-3">Judges cross-quarter feasibility under uncertainty. It is the only expensive call, so it runs once, on your click.</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-ink">Draft, read and explain</td><td className="px-4 py-3 font-mono text-xs">nvidia/Nemotron-3_5-Lightning</td><td className="px-4 py-3">Drafts the three plans in parallel with reasoning off, so its tool calls are always valid and the shared prompt prefix is served from the cache; answers “why not this course?” in about a second; reads a pasted record the parser could not.</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-ink">Repair</td><td className="px-4 py-3 font-mono text-xs">nvidia/nemotron-3-super-120b-a12b</td><td className="px-4 py-3">Repairs a draft the verifier rejected, with reasoning off, choosing replacements from a menu the code computed under the verifier’s own rules.</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-ink">Stress-test</td><td className="px-4 py-3 font-mono text-xs">nvidia/Nemotron-3-Ultra-550b-a55b</td><td className="px-4 py-3">Judges cross-quarter feasibility under uncertainty with reasoning effort set high. It is the only expensive call, so it runs once, on your click.</td></tr>
             </tbody>
           </table>
         </div>
@@ -87,9 +89,10 @@ export default function About() {
       <section className="mt-12">
         <h2 className="text-xl font-semibold tracking-tight">Privacy</h2>
         <p className="mt-3 leading-7 text-ink-2">
-          What you paste is processed in memory and discarded when you leave, unless you choose Save. Saving gives you a
-          random link and a Delete button that removes everything behind it. No accounts, no tracking of individuals, and the
-          public repository contains only public data.
+          Your record is kept only as part of this plan and only until you delete it; Save adds a share link. The plan’s run
+          record, with your parsed record inside it, is written when Re-plan starts; “Delete my data” removes it along with its
+          trace, its approvals and any saved copy. No accounts, no tracking of individuals, and the public repository contains
+          only public data.
         </p>
       </section>
 

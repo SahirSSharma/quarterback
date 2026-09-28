@@ -62,11 +62,11 @@ export type Msg =
 /** Everything that depends on the chosen course and action; changing either wipes it. */
 const downstream = {
   impact: null, impactLoading: false, runId: null, planning: false, trace: [], traceDone: false, traceReconnecting: false, run: null,
-  verdict: null, stressing: false, selectedPlanId: null, overrides: [], approving: false, approval: null, saved: null, error: null,
+  verdict: null, stressing: false, selectedPlanId: null, overrides: [], approving: false, approval: null, saved: null, deleted: false, error: null,
 } satisfies Partial<Flow>;
 
 export const initial: Flow = {
-  student: null, loadError: null, readOnly: false, course: null, kind: 'drop', titles: {}, busy: false, deleted: false, ...downstream,
+  student: null, loadError: null, readOnly: false, course: null, kind: 'drop', titles: {}, busy: false, ...downstream,
 };
 
 export function currentCourses(state: StudentState) {
@@ -100,7 +100,7 @@ export function reduce(s: Flow, m: Msg): Flow {
     case 'impact':
       return { ...s, impact: m.impact, impactLoading: false };
     case 'plan-start':
-      return { ...s, runId: m.runId, planning: true, trace: [], traceDone: false, traceReconnecting: false, run: null, verdict: null, selectedPlanId: null, overrides: [], approval: null, saved: null, error: null };
+      return { ...s, runId: m.runId, planning: true, trace: [], traceDone: false, traceReconnecting: false, run: null, verdict: null, selectedPlanId: null, overrides: [], approval: null, saved: null, deleted: false, error: null };
     case 'trace':
       return { ...s, trace: [...s.trace, m.event], traceDone: s.traceDone || m.event.type === 'done' || m.event.type === 'error' };
     case 'trace-reset':
@@ -136,7 +136,9 @@ export function reduce(s: Flow, m: Msg): Flow {
     case 'saved':
       return { ...s, saved: m.saved, busy: false };
     case 'deleted':
-      return { ...s, deleted: true, busy: false };
+      // The run is gone from the store, so everything that would read it goes too. The impact stays: it was never
+      // stored, and its effect only refetches when the situation changes.
+      return { ...s, ...downstream, impact: s.impact, impactLoading: s.impactLoading, deleted: true, busy: false };
     case 'error':
       return { ...s, error: m.message, impactLoading: false, planning: false, stressing: false, approving: false, busy: false };
   }

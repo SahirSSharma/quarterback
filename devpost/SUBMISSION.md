@@ -97,7 +97,7 @@ calls, verifier reports.
   validating. The fix was structural: thinking off for every Lightning call (the client forces both switches),
   and structured answers from thinking-on calls always through a forced tool call.
 - `reasoning_budget` is advisory on Token Factory. Super with a 4,096 budget spent 2,016–6,013 reasoning tokens
-  per call in our first recorded demo, and Ultra with 3,072 spent 6,865. `reasoning_effort:"low"` did not bound
+  per call in our first recorded demo (2026-09-27), and Ultra with 3,072 spent 6,865 then, and 6,916–9,338 on the shipped 2026-09-28 recordings. `reasoning_effort:"low"` did not bound
   it either: 19 of 19 Super calls ran to the 1,200-token cap with no tool call. `reasoning_effort:"none"` gives
   0 reasoning tokens every time, so the planner runs Super with thinking off and puts the judgment into the
   context pack and a code-computed repair menu instead.
@@ -120,7 +120,7 @@ calls, verifier reports.
 - Intake accuracy (E4, 30 synthetic Academic History pastes in six layouts): row precision 100% on every
   layout, recall 100% on five layouts and 95.7% overall after a pre-normalizer that re-joins wrapped rows
   (40.8% → 100% on the wrapped layout).
-- 435 deterministic tests at $0 in mock mode (430 passing on 2026-09-28; 4 known failures wait on re-recording
+- 454 deterministic tests at $0 in mock mode (453 passing on 2026-09-28, one gated live test skipped; the three demos were re-recorded with the shipped planner and replay bit-for-bit
   the demos), plus a docs consistency test that keeps the model ids identical everywhere.
 - `[n]` students used Quarterback from inside TritonPlan before the Oct 23 deadline; `[n]` plans approved;
   `[n]` refusals shown, `[n]` overridden. `[Replace with E5 numbers; no soft launch yet.]`
@@ -144,7 +144,6 @@ calls, verifier reports.
 
 ### What's next
 
-- Re-record the three demos with the new planner so the replayed trace shows what the code does live.
 - Winter 2027: the same flow against the Winter schedule when it publishes in November, with the Jan 29 and
   Feb 12 deadlines.
 - More departments in the offerings pipeline; grade projection from public syllabi (the stretch Tavily use).

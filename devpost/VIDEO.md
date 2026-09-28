@@ -10,7 +10,7 @@ components in `app/`; the trace lines are the planner's step messages as the cod
 
 - [ ] The three demos are re-recorded with the shipped planner (`QB_MODE=live QB_RECORD=1 QB_FIXTURES_DIR=<dir>
       node --import ./scripts/node-ts.ts scripts/record-demos.ts`, ≈ $0.10–0.15) and the mock replay prints
-      "replay matches" for a, b and c. Until then a replayed trace shows the old Super-only planner.
+      "replay matches" for a, b and c. Done on 2026-09-28: the replayed trace shows Lightning drafts, the verifier and Super repair.
 - [ ] Production is promoted (Sahir's OK) and `https://quarterback-delta.vercel.app` serves the product; a
       demo student replays there at $0 and loads in under two seconds.
 - [ ] Pick the demo student whose re-recorded run best shows the moment: at least one rejected draft in

@@ -52,7 +52,7 @@ export function PasteForm() {
         className="min-h-40 w-full flex-1 resize-y rounded-lg border border-line-2 bg-surface px-3 py-2 font-mono text-[13px] leading-5 text-ink placeholder:text-ink-3 focus:border-accent"
       />
       <p className="text-xs leading-5 text-ink-3">
-        Processed in memory. Stored only if you choose Save, and you can delete it any time.
+        Your record is kept only as part of this plan and only until you delete it; Save adds a share link.
       </p>
       {error && <Notice tone="danger">{error}</Notice>}
       <button type="submit" disabled={busy || text.trim().length === 0} className={`${btn.primary} self-start`}>

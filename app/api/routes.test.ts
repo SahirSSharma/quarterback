@@ -8,7 +8,7 @@ import path from 'node:path';
 import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 import { buildEvidenceIndex, horizonTerms } from '@/lib/agents/context';
 import { verdictCacheKey } from '@/lib/agents/critic';
-import { IMPORT_BASE, verifyImportToken } from '@/lib/store/approval';
+import { IMPORT_BASE, IMPORT_BASE_STAGING, verifyImportToken } from '@/lib/store/approval';
 import { createStore, setStore, store } from '@/lib/store/blob';
 import { createRun, getRun } from '@/lib/store/runs';
 import * as fx from '@/lib/store/test-fixture';
@@ -65,6 +65,7 @@ beforeEach(() => {
   vi.stubEnv('QB_DAILY_CAP_USD', '');
   vi.stubEnv('QB_TOTAL_CAP_USD', '');
   vi.stubEnv('QB_SIGNING_KEY', PKCS8);
+  vi.stubEnv('QB_IMPORT_BASE', '');
   deps.sleep = async () => {};
   tf.fetch = vi.fn(async () => { throw new Error('network call in a $0 test'); });
 });
@@ -149,8 +150,9 @@ describe.each(demoIds)('demo %s through the routes in mock mode', (id) => {
     expect(approval.approvalId).toMatch(/^apr_[0-9a-f]{12}$/);
     expect(approval.icsUrl).toBe(`/api/ics/${approval.approvalId}`);
     expect(approval.mailto).toMatch(/^mailto:\?subject=/);
-    expect(approval.importUrl.startsWith(`${IMPORT_BASE}?plan=`)).toBe(true);
-    const token = decodeURIComponent(approval.importUrl.slice(`${IMPORT_BASE}?plan=`.length));
+    // A demo student's link opens the staging mirror; production tritonplan.com needs a ucsd.edu sign-in.
+    expect(approval.importUrl.startsWith(`${IMPORT_BASE_STAGING}?plan=`)).toBe(true);
+    const token = decodeURIComponent(approval.importUrl.slice(`${IMPORT_BASE_STAGING}?plan=`.length));
     const payload = (await verifyImportToken(token, SPKI)) as ImportPayload;
     expect(payload).toMatchObject({ v: 1, approvalId: approval.approvalId, label: f.plans.find((p) => p.id === planId)!.label });
     expect(payload.plan).toEqual(f.plans.find((p) => p.id === planId)!.terms.map((t) => ({ term: t.term, courses: t.courses })));
@@ -201,6 +203,14 @@ describe('the approval gate', () => {
     const res = await json<ApproveResponse>(await post(approve, { runId, planId: 'p-fastest', overrides: [override] }));
     expect(res.approvalId).toMatch(/^apr_/);
     expect((await getRun(runId))!.approval).toMatchObject({ planId: 'p-fastest', overrides: [override] });
+  });
+
+  it('links a pasted record planned live to production TritonPlan, and a replayed one to the staging mirror', async () => {
+    const init = { state: { ...fx.state, source: 'paste' as const }, action: fx.impact.action, impact: fx.impact, plans: fx.plans, reports: fx.reports, verdict: fx.verdict };
+    const live = await json<ApproveResponse>(await post(approve, { runId: await createRun({ ...init, mode: 'live' }), planId: 'p-balanced', overrides: [] }));
+    expect(live.importUrl.startsWith(`${IMPORT_BASE}?plan=`)).toBe(true);
+    const replayed = await json<ApproveResponse>(await post(approve, { runId: await createRun({ ...init, mode: 'replay' }), planId: 'p-balanced', overrides: [] }));
+    expect(replayed.importUrl.startsWith(`${IMPORT_BASE_STAGING}?plan=`)).toBe(true);
   });
 
   it('reports a missing signing key instead of an unsigned link', async () => {

@@ -85,7 +85,8 @@ describe.skipIf(!enabled)('live demo (a) end to end', () => {
     const planId = verdict.recommend ?? run.plans.find((p) => !verdict.refused.some((r) => r.planId === p.id))!.id;
     const approval = (await (await post(approve, { runId, planId, overrides: [] })).json()) as ApproveResponse;
     expect(approval.approvalId).toMatch(/^apr_/);
-    expect(approval.importUrl).toMatch(/^https:\/\/tritonplan\.com\/tools\/quarterback-import\?plan=/);
+    // A demo student links to the staging mirror even when planned live (production tritonplan.com needs a ucsd.edu sign-in).
+    expect(approval.importUrl).toMatch(/^https:\/\/sahirssharma\.github\.io\/tritonplan-staging\/tools\/quarterback-import\?plan=/);
     const cal = await param(ics, 'approvalId', approval.approvalId);
     expect(cal.status).toBe(200);
     expect(await cal.text()).toContain('BEGIN:VCALENDAR');

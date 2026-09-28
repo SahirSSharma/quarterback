@@ -30,6 +30,8 @@ export function PlanColumns({
           const overridden = overrides.some((o) => o.refusalPlanId === plan.id);
           const selectable = !refused || overridden;
           const selected = selectedPlanId === plan.id;
+          // The engine's fallback when no proposed plan passes: assembled by the verifier's rules, not drafted.
+          const codeBuilt = plan.label === 'code-built';
           const inputId = `plan-${plan.id}`;
           return (
             <article
@@ -62,9 +64,13 @@ export function PlanColumns({
                   {recommended && <Tag tone="accent">Recommended</Tag>}
                   {refused && <Tag tone="danger">Refused</Tag>}
                   {overridden && <Tag tone="warn">Override recorded</Tag>}
+                  {codeBuilt && <Tag>Built by the verifier’s rules</Tag>}
                   {report && report.violations.length > 0 && <Tag tone="warn">{report.violations.length} note{report.violations.length === 1 ? '' : 's'}</Tag>}
                 </div>
               </div>
+              {codeBuilt && (
+                <p className="mt-3 text-sm leading-6 text-ink-2">None of the proposed plans passed every check, so this one was put together by the same rules that check them.</p>
+              )}
 
               <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
                 {plan.terms.map((t) => (

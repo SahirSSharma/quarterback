@@ -20,11 +20,11 @@ three NVIDIA Nemotron models, with Tavily discovering the department pages the o
 impact → plans → stress-test → approve → TritonPlan link / .ics / advisor email → save / delete), and ran live
 against Token Factory between 2026-09-27 and 2026-09-28 UTC (the recorded demos, a Vercel preview, one measured
 run through the routes, the planner measurement).
-The planner was restructured on 2026-09-28 after a live measurement (table below). Not done yet: the three demo
-recordings still come from the previous planner, so what a judge sees in replay mode is not what the shipped
-code does live; the production alias is not promoted; the TritonPlan import page is a pull request on the
-TritonPlan repository; E1 has only run against the old recordings, and E2, E3 and E5 have not run. Every
-number in this file is either measured (with its source) or marked as a target.
+The planner was restructured on 2026-09-28 after a live measurement (table below) and the three demos were
+re-recorded with it the same day (07:42–07:45 UTC, $0.15 for the three runs kept), so replay mode shows what the
+shipped code does live. Not done yet: the production alias is not promoted; the TritonPlan import page is a pull
+request on the TritonPlan repository; the E1 table has only run against the 2026-09-27 recordings, and E2, E3
+and E5 have not run. Every number in this file is either measured (with its source) or marked as a target.
 
 ## The problem
 
@@ -99,7 +99,7 @@ Settings are exactly as sent in the request body.
 |---|---|---|---|
 | Drafts, extraction, explanation | `nvidia/Nemotron-3_5-Lightning` | `chat_template_kwargs:{enable_thinking:false}` + `reasoning_effort:"none"` on every call (the client forces both for this role); `response_format: json_schema` for the intake fallback; tools + terminal `submit_plan` for the three parallel plan drafts | 1,048,576-token context, $0.06 / $0.24 per 1M tokens in / out, 600 RPM / 400k TPM on our key. With thinking off every json_schema and tool-call reply we made was valid; with thinking on its reasoning leaks into `content` and json_schema collapses. Its prompt cache engages on the planner's byte-identical prefix (table below), so three concurrent drafts cost ≈ $0.003 each. Fallback `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B` (same price, 262,144 context, 100 RPM / 800k TPM). |
 | Repair | `nvidia/nemotron-3-super-120b-a12b` | Thinking **off** (`enable_thinking:false` + `reasoning_effort:"none"`), forced `submit_plan` tool call, `max_tokens: 1200`, a fresh request per repair carrying the rejected attempt, its violations and a code-computed replacement menu | 262,144-token context, $0.30 / $0.90 per 1M. Repairs from the menu passed 5/5 on the demos; Lightning as the repairer resubmits the same plan. Thinking on is not used: `reasoning_effort:"low"` (with or without `reasoning_budget: 512`) ran every one of 19 calls to the 1,200-token cap with no tool call, and its prompt cache never hit (0 cached tokens across 23 calls with a byte-identical 22k prefix). Fallback Ultra (the same request on the fallback model). |
-| Critic (Stress-test) | `nvidia/Nemotron-3-Ultra-550b-a55b` | `enable_thinking:true`, `reasoning_effort:"high"`, `reasoning_budget: 3072` (advisory: the recorded demo (a) call spent 6,865 reasoning tokens), forced `submit_verdict`, `max_tokens: 8192` | Cross-quarter feasibility under uncertainty; 1,048,576-token context; the only place the $1.00 / $3.00 per 1M model is spent, so it runs on a click, once per run, cached per plan set, at most 20 live calls a day. Fallback Super. |
+| Critic (Stress-test) | `nvidia/Nemotron-3-Ultra-550b-a55b` | `enable_thinking:true`, `reasoning_effort:"high"`, `reasoning_budget: 3072` (advisory: the recorded demo calls spent 6,916–9,338 reasoning tokens; one call ran to the earlier 8,192 `max_tokens` with no verdict, hence the cap), forced `submit_verdict`, `max_tokens: 16384` | Cross-quarter feasibility under uncertainty; 1,048,576-token context; the only place the $1.00 / $3.00 per 1M model is spent, so it runs on a click, once per run, cached per plan set, at most 20 live calls a day. Fallback Super. |
 
 Two rules follow from the day-one measurements and are enforced by tests: thinking is off on every
 extraction-role request (the client sets both switches itself), and a structured answer from a thinking-on
@@ -111,9 +111,9 @@ Token Factory behaviour measured with our key (2026-09-27 and 2026-09-28; source
 
 | What | Measured |
 |---|---|
-| Lightning prompt cache | 33,536 of 37,732 prompt tokens served from cache on the second call with an identical prefix; latency 1,653 → ≈ 590 ms. In the planner, once the prefix is warm and including across the three concurrent drafts: 16,768–23,056 cached of 22,034–31,570 prompt tokens per draft on demo (a), 8,384 of ≈ 12.3k on demo (b), 10,480–16,768 of ≈ 20–22k on demo (c); the first ever call of a prefix misses. Config A: 733,600 cache-hit tokens over 12 students, every run with hits. |
+| Lightning prompt cache | 33,536 of 37,732 prompt tokens served from cache on the second call with an identical prefix; latency 1,653 → ≈ 590 ms. In the planner, once the prefix is warm and including across the three concurrent drafts: 20,960–23,056 cached of 24,033–31,238 prompt tokens per draft on demo (a), 8,384 of ≈ 12.3k on demo (b), 16,768–18,864 of 20,028–22,116 on demo (c) in the shipped recordings; the first ever call of a prefix misses. Config A: 733,600 cache-hit tokens over 12 students, every run with hits. |
 | Super prompt cache | 0 cached tokens across 23 calls with a byte-identical 22k-token prefix, with and without `prompt_cache_key`; 0 in every recording. |
-| `reasoning_budget` | Advisory, not a cap: Super with `reasoning_budget: 4096` spent 2,016–6,013 reasoning tokens per call in recorded demo (a) (4 of 7 calls over budget); Ultra with 3072 spent 6,865. |
+| `reasoning_budget` | Advisory, not a cap: Super with `reasoning_budget: 4096` spent 2,016–6,013 reasoning tokens per call in the 2026-09-27 recording of demo (a) (4 of 7 calls over budget); Ultra with 3072 spent 6,916–9,338 per recorded verdict and once ran to an 8,192-token `max_tokens` with no verdict. |
 | `reasoning_effort:"none"` | 0 reasoning tokens on every call (60+ Super calls, every Lightning call). |
 | `reasoning_effort:"low"` on Super | 19 of 19 calls ran to the 1,200-token `max_tokens` with 1,200 reasoning tokens and no tool call (6.3–7.0 s alone, 12.4–14.3 s with three in flight); `reasoning_budget: 512` added changed nothing. |
 | Super, thinking off, `tool_choice: auto` | 2 of 3 draft calls produced 1,200 tokens of prose before the forced submit; a `submit_plan` call itself is 194–330 completion tokens in 2.0–2.5 s alone. |
@@ -151,14 +151,18 @@ A and B are within noise on validity at this n; B is 2.2× slower and 2× the co
 under A: (a) 3 plans, 8.5 s, $0.0169; (b) 2 plans of 7 drafts, 14.1 s, $0.0203; (c) 3 plans, 8.0 s, $0.0140.
 The synthetic students (unfamiliar majors, five courses a quarter) are what push the mean to 24 s.
 
-**Recorded demos vs shipped code.** `fixtures/runs/demo-{a,b,c}.json` were recorded on 2026-09-28 04:13–04:20
-UTC with the previous planner (Super, thinking on with `reasoning_budget: 4096`, tools `unit_check` /
-`requirement_progress` / `check_prereqs` / `offering_status`, forced `submit_plans`). Replay and mock mode,
-and a demo student in production, serve those recordings: (a) 2 plans, 1 rejected draft, 9 calls (7 Super,
-1 Ultra, 1 Lightning), 165.4 s, 166.3k tokens in, 35.3k out, 33.7k reasoning, 0 cache hits, $0.1009;
-(b) 3 plans, 8 calls, 100.2 s, $0.0654; (c) 3 plans, 5 calls, 131.1 s, $0.0721. Re-recording with the new
-planner (`scripts/record-demos.ts`, ≈ $0.10–0.15) is the next step; until then a replayed trace shows the old
-tool names and Super on every planning call.
+**Recorded demos.** `fixtures/runs/demo-{a,b,c}.json` were recorded on 2026-09-28 07:42–07:45 UTC with the
+shipped planner (`scripts/record-demos.ts`: Lightning drafts in parallel, Super repair from the code-computed
+menu, Ultra stress-test, Lightning "why not" and intake on demo (a)). Replay and mock mode, and a demo student in
+production, serve those recordings: (a) 3 plans, 1 rejected draft, 2 rounds, plans in 10.7 s and the verdict at
+34.9 s; 9 ledger entries (7 Lightning, 1 Super, 1 Ultra), $0.0541; (b) 3 plans, 3 rejected drafts (all three
+first drafts, two placing COGS 112 in SP27 against the COGS page's `not-offered` row; all repaired in one round),
+plans in 11.1 s, verdict at 36.7 s, 10 entries, $0.0531; (c) 3 plans, 1 rejected draft, plans in 8.8 s, verdict
+at 27.2 s, 8 entries, $0.0445. Each verdict recommends the repaired fastest plan (`p-fastest-2`) with 2–3 risks
+and no refusal; the code-built fallback was not needed. Lightning's prompt cache hit on every draft call
+(8,384–23,056 tokens); Ultra spent 6,916–9,338 reasoning tokens per verdict. A first attempt at (a) ($0.0665,
+discarded) had Ultra run to the then 8,192-token `max_tokens` with no verdict; the cap is 16384 since.
+`node --import ./scripts/node-ts.ts scripts/record-demos.ts` (mock) prints "replay matches" for all three.
 
 ### The deterministic veto
 
@@ -269,17 +273,16 @@ Status of each planned eval; losing configurations stay in the tables. Results a
 | Eval | Question | Status | Result |
 |---|---|---|---|
 | Planner configuration | Which draft / repair model mix gives the most valid plans for the time and money? | Measured live 2026-09-28 (12 students × 4 configs, $1.04) | Table above; A shipped |
-| E1 Plan validity and optimality | Valid, near-optimal plans across synthetic students and planted risks; refusal precision / recall | Mock run only (2026-09-28), replaying the three old recordings: the shipped config 100% valid after ≤ 3 rounds, progress 0.80 of the greedy optimum, 0 refusals; every other cell `no-fixture`. Live E1 not run; the replay test fails until the demos are re-recorded | `[E1 live: to be measured]` |
+| E1 Plan validity and optimality | Valid, near-optimal plans across synthetic students and planted risks; refusal precision / recall | Mock run only (2026-09-28, before the re-recording), replaying the 2026-09-27 recordings: the `super-b4096` row (the previous planner) 100% valid after ≤ 3 rounds, progress 0.80 of the greedy optimum, 0 refusals; every other cell `no-fixture`. Live E1 not run; `eval/e1.test.ts` replays the 2026-09-28 recording of demo (a) at $0 | `[E1 live: to be measured]` |
 | E2 Recall by context length | Is whole-slice reading good enough, or does retrieval win? | Not run | `[to be measured]` |
 | E3 Tavily ablation | Do plans with offering evidence avoid not-offered quarters more often than plans without it? | Not run | `[to be measured]` |
 | E4 Intake accuracy | Does the deterministic parser read real Academic History pastes? | Measured 2026-09-28, mock, 30 synthetic pastes in six layouts, $0 | Row precision 100% on every layout; recall 100% on web, wrapped, pdf, double-major and transfer, 76.0% on reordered (one paste: a transfer block before the quarters; documented upstream parser state), 95.7% overall; major file 96.7% (one ambiguous index entry) |
 | E5 Live telemetry | What happened with real students? | Not started (no soft launch yet) | `[to be measured]` |
 
-Deterministic tests (Vitest, `npm test`, $0 in mock mode): 435 tests in 50 files as of 2026-09-28 — 430
-pass, 1 skipped (the gated live end-to-end run), 4 fail for known reasons: `lib/agents/demo-replay.test.ts`
-and `eval/e1.test.ts` replay the old demo recordings against the new planner's prompts (they pass once the
-demos are re-recorded), and two `eval/e4.test.ts` assertions still encode the wrapped-row limitation the
-pre-normalizer removed. `npx tsc --noEmit` is clean. Coverage by module: engine (prerequisite graph, impact,
+Deterministic tests (Vitest, `npm test`, $0 in mock mode): 454 tests in 53 files as of 2026-09-28 — 453
+pass, 1 skipped (the gated live end-to-end run), 0 fail; `lib/agents/demo-replay.test.ts`, `eval/e1.test.ts`,
+`app/api/explain/route.test.ts` and `app/_mock/mock.test.ts` run against the 2026-09-28 recordings.
+`npx tsc --noEmit`, `npx eslint app lib eval scripts` and `npx next build` are clean. Coverage by module: engine (prerequisite graph, impact,
 requirements, verifier, offerings, terms, paste normalizer, demo golden impact), Token Factory client
 (fixtures, fallback, retries, forced tool and tool loop, thinking switches), offerings parsers and discovery,
 Tavily client, store (runs, approvals and token signing, ledger sink, .ics, mailto), agents (context prefix

@@ -1,6 +1,6 @@
 // verify(plan, state): the deterministic veto over every proposed plan. Rules run in a fixed order — per term
 // chronologically, per course in listed order, then plan-wide — so two runs over the same input are identical.
-import type { Plan, StudentState, VerifierReport, Violation } from '../types';
+import type { OfferingEvidence, Plan, StudentState, VerifierReport, Violation } from '../types';
 import { catalogByCode, catalogUnits, normalizeCode } from './data';
 import { offeringStatus } from './offerings';
 import { missingGroups } from './prereqs';
@@ -16,8 +16,8 @@ export const UNIT_CAP_WARNING = 19.5;
 
 export function verify(plan: Plan, state: StudentState, _opts: { now?: Date | string } = {}): VerifierReport {
   const violations: Violation[] = [];
-  const add = (rule: string, severity: Violation['severity'], message: string, course?: string, term?: string) =>
-    violations.push({ rule, message, severity, ...(course ? { course } : {}), ...(term ? { term } : {}) });
+  const add = (rule: string, severity: Violation['severity'], message: string, course?: string, term?: string, evidence?: OfferingEvidence) =>
+    violations.push({ rule, message, severity, ...(course ? { course } : {}), ...(term ? { term } : {}), ...(evidence ? { evidence } : {}) });
 
   const earned = earnedCodes(state);
   const earnedRow = (code: string) => state.courses.find((c) => c.code === code && c.status === 'earned');
@@ -39,10 +39,11 @@ export function verify(plan: Plan, state: StudentState, _opts: { now?: Date | st
         add('prereq-unsatisfied', 'error', `${code} in ${term} still needs ${missing.map((g) => g.join(' or ')).join('; and ')}.`, code, term);
       }
       const ev = offeringStatus(code, term);
+      // The row itself rides along so the UI can show the quote, link and fetch date without parsing the message.
       if (ev.status === 'not_offered') {
-        add('not-offered', 'error', `${code} is not offered in ${term}: "${ev.quote}" (${ev.url}, fetched ${ev.fetchedAt}).`, code, term);
+        add('not-offered', 'error', `${code} is not offered in ${term}: "${ev.quote}" (${ev.url}, fetched ${ev.fetchedAt}).`, code, term, ev);
       } else if (ev.status === 'unknown') {
-        add('assumed-offered', 'warning', `${code} in ${term} has no offering evidence: ${ev.quote}.`, code, term);
+        add('assumed-offered', 'warning', `${code} in ${term} has no offering evidence: ${ev.quote}.`, code, term, ev);
       }
     }
     // Units come from the catalog whenever every course has one fixed value; the plan's own number is trusted

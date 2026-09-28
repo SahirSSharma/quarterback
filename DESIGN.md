@@ -37,9 +37,9 @@ accounts on, only after the student clicks approve.
 
 | Role | Model id | Settings | Why (measured) |
 |---|---|---|---|
-| Drafts, extraction, explanation (`extract`) | `nvidia/Nemotron-3_5-Lightning` | `chat_template_kwargs:{enable_thinking:false}` + `reasoning_effort:"none"` forced by the client for this role; `response_format: json_schema` for the intake fallback; tools + terminal `submit_plan` for the three parallel plan drafts | 1M context, $0.06/$0.24 per 1M, 600 RPM / 400k TPM. Thinking off is schema- and tool-call-valid in every run made; with thinking on its reasoning leaks into `content` on Token Factory and json_schema collapses. Its prompt cache engages on the shared prefix (33,536 of 37,732 tokens cached on the second identical-prefix call, 1,653 → ≈ 590 ms; 16,768–23,056 of ≈ 22–32k per draft on demo (a) once warm, 8,384 of ≈ 12k on demo (b); hits on 12/12 measured runs). Fallback `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`. |
-| Repair (`plan`) | `nvidia/nemotron-3-super-120b-a12b` | Thinking **off** (`enable_thinking:false` + `reasoning_effort:"none"`), forced `submit_plan`, `max_tokens: 1200`; a fresh request per repair with the rejected attempt, its violations and a code-computed replacement menu | $0.30/$0.90 per 1M; 5/5 repairs on the demos from the menu, 2.0–2.5 s per call alone. Thinking on is not used here: `reasoning_effort:"low"`, with or without `reasoning_budget: 512`, ran 19 of 19 calls to the 1,200-token cap with no tool call; `reasoning_budget` is advisory (4096 → 2,016–6,013 reasoning tokens per call in the recorded demo). Super's prompt cache never hit (0 of 23 calls with a byte-identical 22k prefix). Fallback Ultra (same request on the fallback model). |
-| Critic ("Stress-test", `critic`) | `nvidia/Nemotron-3-Ultra-550b-a55b` | `enable_thinking:true`, `reasoning_effort:"high"`, `reasoning_budget: 3072` (advisory: the recorded demo (a) call spent 6,865 reasoning tokens), forced `submit_verdict`, `max_tokens: 8192` | Cross-quarter feasibility under uncertainty; the only place the $1/$3 model is spent: click-gated, one live call per run, cached per plan set (`critic-cache/`), 20 live calls a day. Fallback Super. |
+| Drafts, extraction, explanation (`extract`) | `nvidia/Nemotron-3_5-Lightning` | `chat_template_kwargs:{enable_thinking:false}` + `reasoning_effort:"none"` forced by the client for this role; `response_format: json_schema` for the intake fallback; tools + terminal `submit_plan` for the three parallel plan drafts | 1M context, $0.06/$0.24 per 1M, 600 RPM / 400k TPM. Thinking off is schema- and tool-call-valid in every run made; with thinking on its reasoning leaks into `content` on Token Factory and json_schema collapses. Its prompt cache engages on the shared prefix (33,536 of 37,732 tokens cached on the second identical-prefix call, 1,653 → ≈ 590 ms; 20,960–23,056 of ≈ 24–31k per draft on demo (a) once warm, 8,384 of ≈ 12k on demo (b), 16,768–18,864 of ≈ 20–22k on demo (c) in the shipped recordings; hits on 12/12 measured runs). Fallback `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`. |
+| Repair (`plan`) | `nvidia/nemotron-3-super-120b-a12b` | Thinking **off** (`enable_thinking:false` + `reasoning_effort:"none"`), forced `submit_plan`, `max_tokens: 1200`; a fresh request per repair with the rejected attempt, its violations and a code-computed replacement menu | $0.30/$0.90 per 1M; 5/5 repairs on the demos from the menu, 2.0–2.5 s per call alone. Thinking on is not used here: `reasoning_effort:"low"`, with or without `reasoning_budget: 512`, ran 19 of 19 calls to the 1,200-token cap with no tool call; `reasoning_budget` is advisory (4096 → 2,016–6,013 reasoning tokens per call in the 2026-09-27 recording). Super's prompt cache never hit (0 of 23 calls with a byte-identical 22k prefix). Fallback Ultra (same request on the fallback model). |
+| Critic ("Stress-test", `critic`) | `nvidia/Nemotron-3-Ultra-550b-a55b` | `enable_thinking:true`, `reasoning_effort:"high"`, `reasoning_budget: 3072` (advisory: the recorded demo calls spent 6,916–9,338 reasoning tokens; one call ran to the earlier 8,192 `max_tokens` with no verdict, hence the cap), forced `submit_verdict`, `max_tokens: 16384` | Cross-quarter feasibility under uncertainty; the only place the $1/$3 model is spent: click-gated, one live call per run, cached per plan set (`critic-cache/`), 20 live calls a day. Fallback Super. |
 
 Verified on 2026-09-27 with our key: tool calling round-trips (thinking on/off), streamed tool-call deltas,
 json_schema with thinking off, `chat_template_kwargs` pass-through, `reasoning_effort:"none"`, 600 RPM /
@@ -83,8 +83,9 @@ Nebius removed three `nvidia/` models from serverless on Aug 31 with little noti
      and on confirm writes it into the Degree Planner store with a restore of the previous plan. The private
      key lives only in the server env (`QB_SIGNING_KEY`). Target: production tritonplan.com requires a ucsd.edu
      sign-in, so demo and replay runs should point at the staging mirror
-     (https://sahirssharma.github.io/tritonplan-staging/tools/quarterback-import); today `IMPORT_BASE` is the
-     production host.
+     (https://sahirssharma.github.io/tritonplan-staging/tools/quarterback-import). `buildImportUrl` does exactly
+     that: demo and replayed runs get the staging mirror, live pasted runs get tritonplan.com; `QB_IMPORT_BASE`
+     overrides both.
    - *Download .ics*: the current term's deadlines and one all-day event per planned course on each dated
      term's first day of instruction; a term the calendar does not cover is named in an `X-QB-NOTE` line.
    - *Draft advisor email*: `mailto:` with no recipient, body under 1,500 characters; the student sends it.
@@ -226,7 +227,8 @@ notes/              module owners' hand-offs and requests
 - **E1 plan validity and optimality** — target: synthetic students from the 124 high-confidence major files ×
   8 colleges plus planted-risk cases (not-offered, unknown-on-page, heavy load). Metrics: validity first pass
   and after repair, rounds, progress per quarter vs a greedy optimum, refusal precision and plant recall,
-  tool-call success, cache hits, $ and latency. Run so far: mock only, replaying the three old recordings.
+  tool-call success, cache hits, $ and latency. Run so far: mock only; the table in `eval/results.md` replays the
+  2026-09-27 recordings, the replay test in `eval/e1.test.ts` the 2026-09-28 ones.
 - **E2 recall by context length** — target: whole-slice reads on Lightning vs a RAG arm
   (`Qwen/Qwen3-Embedding-8B`, top-20 chunks) with the same judge. Not run.
 - **E3 Tavily ablation** — target: plans with vs without offering evidence; share placing a course in a
@@ -237,9 +239,9 @@ notes/              module owners' hand-offs and requests
 - **E5 live telemetry** — target: sessions, plans approved, verifier rejections, refusals shown / overridden,
   cache-hit rate, total spend. Aggregate only. Not started.
 
-Deterministic tests (Vitest, CI at $0 in mock mode): 435 tests in 50 files on 2026-09-28 (430 pass, 1 skipped
-gated live run, 4 known failures pending the demo re-recording and two stale E4 assertions), plus
-`devpost/docs.test.ts`. `npx tsc --noEmit` clean.
+Deterministic tests (Vitest, CI at $0 in mock mode): 454 tests in 53 files on 2026-09-28 (453 pass, 1 skipped
+gated live run, 0 failures; the demo-replay, E1 replay, explain-route and recorded-demo tests run against the
+2026-09-28 recordings), plus `devpost/docs.test.ts` (8). `npx tsc --noEmit`, eslint and `next build` clean.
 
 ## Stage 1 compliance
 

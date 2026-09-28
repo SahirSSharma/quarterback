@@ -205,6 +205,10 @@ describe('repairBrief', () => {
     const text = repairBrief('fastest', plan, report, after);
     expect(text).toMatch(/^## Previous fastest attempt — REJECTED by the verifier\nWI27 \(16u\): CSE 21, MATH 18, HUM 4, CSE 194/);
     expect(text).toMatch(/\[not-offered\] CSE 194 in WI27: .* → replace CSE 194 in WI27 with one of: .*; or move it to FA27; or drop it if WI27 keeps 12\+ units\./); // not offered in SP27 either
+    // The offering row is rendered compactly — status, quote, URL — never the message's fetch time or the evidence JSON.
+    const ev = offeringStatus('CSE 194', 'WI27');
+    expect(text).toContain(`[not-offered] CSE 194 in WI27: not_offered — "${ev.quote.replace(/\s+/g, ' ').slice(0, 200)}" (${ev.url})`);
+    expect(text).not.toMatch(/fetched 20|fetchedAt|"status":/);
     expect(text).toMatch(/\[not-offered\] COGS 9 in SP27: .* → replace COGS 9 in SP27 with one of: (?:[A-Z]+ \d+[A-Z]* \(4u\), ){4}/); // 4-unit picks come first
     expect(text).toMatch(/\[prereq-unsatisfied\] CSE 100 in SP27: .* → replace CSE 100 in SP27 with one of: /);
     expect(text).toMatch(/\[already-earned\] COGS 9 in SP27: .* → replace COGS 9 in SP27 with one of: /);

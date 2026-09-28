@@ -135,7 +135,8 @@ export interface PlanTerm {
 
 export interface Plan {
   id: string;
-  label: 'fastest' | 'balanced' | 'lightest' | string;
+  /** A model strategy, or 'code-built' for the engine's greedy fallback plan (shown only when no draft passed). */
+  label: 'fastest' | 'balanced' | 'lightest' | 'code-built' | string;
   terms: PlanTerm[];
   rationale: string;
   graduationTerm: TermCode | null;
@@ -148,6 +149,8 @@ export interface Violation {
   course?: CourseCode;
   term?: TermCode;
   severity: 'error' | 'warning';
+  /** The offering row the rule read, on 'not-offered' and 'assumed-offered' (the message quotes it as prose). */
+  evidence?: OfferingEvidence;
 }
 
 export interface VerifierReport {

@@ -4,6 +4,7 @@ import type { RunRecord } from './contracts';
 import { demo } from '@/app/api/_lib/mock';
 
 const f = demo('a');
+if (!f.verdict.recommend) throw new Error('the recorded demo (a) verdict recommends no plan; the reducer tests below need one');
 const impact = { ...f.impact, deadlines: [] };
 const run: RunRecord = {
   runId: 'run_1', state: f.state, action: { kind: 'drop', course: 'CSE 29' }, impact, plans: f.plans, reports: f.reports,
@@ -27,7 +28,7 @@ describe('plan flow reducer', () => {
       { type: 'override', override: { refusalPlanId: 'p-fastest', reason: 'ok', phrase: 'I understand' } },
       { type: 'approval', approval: { approvalId: 'apr_1', importUrl: 'u', icsUrl: 'i', mailto: 'm' }, run: null },
     ]);
-    expect(deep).toMatchObject({ runId: 'run_1', traceDone: true, selectedPlanId: 'p-balanced', overrides: [{ refusalPlanId: 'p-fastest' }] });
+    expect(deep).toMatchObject({ runId: 'run_1', traceDone: true, selectedPlanId: f.verdict.recommend, overrides: [{ refusalPlanId: 'p-fastest' }] });
     expect(deep.approval?.approvalId).toBe('apr_1');
 
     const same = reduce(deep, { type: 'select', course: 'CSE 29' });
@@ -41,7 +42,7 @@ describe('plan flow reducer', () => {
   it('hydrates a saved run read-only, selecting the recommendation or else the approved plan', () => {
     const approval = { id: 'apr_9', at: 'now', planHash: 'deadbeef', planId: 'p-lightest', overrides: [], ledger: [] };
     const withVerdict = reduce(initial, { type: 'hydrate', run: { ...run, verdict: f.verdict, approval, state: { ...f.state, id: 'qb_1' } } });
-    expect(withVerdict).toMatchObject({ readOnly: true, traceDone: true, course: 'CSE 29', kind: 'drop', selectedPlanId: 'p-balanced', saved: { id: 'qb_1', url: '/plan/qb_1' } });
+    expect(withVerdict).toMatchObject({ readOnly: true, traceDone: true, course: 'CSE 29', kind: 'drop', selectedPlanId: f.verdict.recommend, saved: { id: 'qb_1', url: '/plan/qb_1' } });
     const noVerdict = reduce(initial, { type: 'hydrate', run: { ...run, approval } });
     expect(noVerdict.selectedPlanId).toBe('p-lightest');
     expect(noVerdict.saved).toBeNull();
@@ -59,6 +60,24 @@ describe('plan flow reducer', () => {
     s = reduce(s, { type: 'select-plan', planId: 'p-lightest' });
     s = reduce(s, { type: 'run', run: { ...run, verdict: f.verdict } });
     expect(s.selectedPlanId).toBe('p-lightest');
+  });
+
+  it('drops the run and everything below it on delete, keeps the impact, and clears the flag on the next re-plan', () => {
+    const deep = play([
+      { type: 'student', state: f.state, course: 'CSE 29', kind: 'drop' },
+      { type: 'impact', impact },
+      { type: 'plan-start', runId: 'run_1' },
+      { type: 'trace', event: { type: 'done', step: 'plan', at: 'now' } },
+      { type: 'run', run: { ...run, verdict: f.verdict } },
+      { type: 'approval', approval: { approvalId: 'apr_1', importUrl: 'u', icsUrl: 'i', mailto: 'm' }, run: null },
+      { type: 'busy' },
+    ]);
+    const gone = reduce(deep, { type: 'deleted' });
+    expect(gone).toMatchObject({ deleted: true, busy: false, runId: null, run: null, trace: [], traceDone: false, verdict: null, approval: null, saved: null, selectedPlanId: null });
+    expect(gone.impact).toBe(deep.impact);
+    expect(gone.student).toBe(deep.student);
+    expect(reduce(gone, { type: 'plan-start', runId: 'run_2' })).toMatchObject({ deleted: false, runId: 'run_2' });
+    expect(reduce(gone, { type: 'select', kind: 'pnp' }).deleted).toBe(false);
   });
 
   it('clears every busy flag on error', () => {

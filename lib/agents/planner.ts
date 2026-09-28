@@ -14,6 +14,8 @@
 //            otherwise) as a fresh request carrying the rejected attempt, its violations and a replacement menu code
 //            computed for each bad slot, at most maxRepairRounds times; a draft still failing counts in
 //            rejectedDrafts and its report (ok:false) is kept so the UI can say what the code rejected.
+//   FALLBACK — when no draft survives, the engine's greedyPlan() (label 'code-built', id 'p-code-built') is verified like a
+//            draft and shown, so a student never leaves with nothing; when it cannot fill a quarter either, no plans.
 //
 // Options: draftRole, repairRole, reasoningEffort, maxRepairRounds, horizonTerms; env QB_DRAFT_ROLE and
 // QB_REPAIR_EFFORT override the defaults, which come from the measurement in eval/results.md ("Planner
@@ -26,6 +28,7 @@
 import { z } from 'zod';
 import type { Action, Impact, LedgerEntry, ModelRole, Plan, StudentState, TraceEvent, VerifierReport } from '../types';
 import { catalogByCode, catalogUnits, normalizeCode } from '../engine/data';
+import { greedyPlan } from '../engine/fallback-plan';
 import { verify } from '../engine/verifier';
 import { BudgetExceededError } from '../tf/budget';
 import type { ChatMessage, ReasoningEffort } from '../tf/client';
@@ -256,8 +259,19 @@ export async function planRun(input: PlanRunInput): Promise<PlanRunResult> {
       step(`Repair round ${round} done in ${ms(tRepair)}: ${judged - failing.length} passed, ${failing.length} still failing.`);
     }
 
-    const rejectedDrafts = reports.filter((r) => !r.ok).length;
     const ordered = STRATEGIES.flatMap((label) => (plans.has(label) ? [plans.get(label) as Plan] : []));
+    // FALLBACK: verified like any draft — the approval gate needs an ok report for the plan it is asked to approve.
+    if (!ordered.length) {
+      const fallback = greedyPlan(state, action, { horizonTerms: terms.length });
+      if (fallback) {
+        step('No model draft passed the verifier; adding the code-built plan.');
+        const report = verify(fallback, after);
+        emit({ type: 'verifier', step: PLAN_STEP, at: now(), report });
+        reports.push(report);
+        if (report.ok) ordered.push(fallback);
+      }
+    }
+    const rejectedDrafts = reports.filter((r) => !r.ok).length;
     step(
       ordered.length
         ? `${n(ordered.length, 'plan')} passed the verifier in ${ms(t0)}; ${n(rejectedDrafts, 'draft')} rejected.`

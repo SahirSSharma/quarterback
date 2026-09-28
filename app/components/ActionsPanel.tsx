@@ -5,14 +5,14 @@ import type { TermCode } from '@/lib/types';
 import type { ApproveResponse, SaveResponse } from '@/app/lib/contracts';
 import { icsCoverage } from '@/app/lib/deadlines';
 import { termName } from '@/app/lib/format';
-import { btn, Card, Notice } from './ui';
+import { btn, Card } from './ui';
 
 const list = (terms: TermCode[]) => {
   const names = terms.map(termName);
   return names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}` : names.join('');
 };
 
-export function ActionsPanel({ approval, planHash, planTerms, currentTerm, saved, busy, deleted, onSave, onDelete }: {
+export function ActionsPanel({ approval, planHash, planTerms, currentTerm, saved, busy, onSave, onDelete }: {
   approval: ApproveResponse;
   /** The approval record's fingerprint (sha256 of the plan), shown as its first eight characters. */
   planHash: string | null;
@@ -20,15 +20,11 @@ export function ActionsPanel({ approval, planHash, planTerms, currentTerm, saved
   currentTerm: TermCode;
   saved: SaveResponse | null;
   busy: boolean;
-  deleted: boolean;
   onSave: () => void;
   onDelete: () => void;
 }) {
   // Save disables itself once saved, which would drop keyboard focus; the link it produced takes it.
   useEffect(() => { if (saved) document.getElementById('share-link')?.focus({ preventScroll: true }); }, [saved]);
-  if (deleted) {
-    return <Notice tone="neutral">Your data has been deleted. Nothing about this session is kept.</Notice>;
-  }
   const shareUrl = saved ? `${typeof window !== 'undefined' ? window.location.origin : ''}${saved.url}` : null;
   const importHost = (() => { try { return new URL(approval.importUrl).host; } catch { return approval.importUrl; } })();
   const { dated, undated } = icsCoverage(planTerms);
@@ -64,7 +60,7 @@ export function ActionsPanel({ approval, planHash, planTerms, currentTerm, saved
             Shareable link: <a id="share-link" href={saved!.url} className="break-all font-mono text-xs text-accent underline-offset-2 hover:underline">{shareUrl}</a>
           </p>
         )}
-        {!saved && <p className="text-xs text-ink-3">Nothing is stored until you save.</p>}
+        <p className="text-xs text-ink-3">Your record is kept only as part of this plan and only until you delete it; Save adds a share link.</p>
       </div>
     </Card>
   );

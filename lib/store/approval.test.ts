@@ -5,7 +5,7 @@ import path from 'node:path';
 import { loadEnv } from '../env';
 import type { ImportPayload } from '../types';
 import {
-  ApprovalError, IMPORT_BASE, approve, buildImportUrl, getApproval, importPayload, planHash, signImportToken, verifyImportToken,
+  ApprovalError, IMPORT_BASE, IMPORT_BASE_STAGING, approve, buildImportUrl, getApproval, importPayload, planHash, signImportToken, verifyImportToken,
 } from './approval';
 import { createRun, getRun } from './runs';
 import { impact, plans, reports, sampleRun, state, tempStore, verdict } from './test-fixture';
@@ -134,11 +134,32 @@ describe('import token', () => {
   });
 
   it('buildImportUrl points at the TritonPlan import page with the token as the plan parameter', async () => {
-    const url = buildImportUrl(payload, keys.priv);
-    expect(url.startsWith(`${IMPORT_BASE}?plan=`)).toBe(true);
-    const token = new URL(url).searchParams.get('plan')!;
-    expect(url.endsWith(token)).toBe(true); // nothing needed percent-encoding
-    expect(await verifyImportToken(token, keys.pub)).toEqual(payload);
+    vi.stubEnv('QB_IMPORT_BASE', '');
+    try {
+      const url = buildImportUrl(payload, { key: keys.priv });
+      expect(url.startsWith(`${IMPORT_BASE}?plan=`)).toBe(true);
+      const token = new URL(url).searchParams.get('plan')!;
+      expect(url.endsWith(token)).toBe(true); // nothing needed percent-encoding
+      expect(await verifyImportToken(token, keys.pub)).toEqual(payload);
+    } finally {
+      vi.unstubAllEnvs();
+    }
+  });
+
+  it('a demo or replayed run gets the staging mirror (no ucsd.edu sign-in), and QB_IMPORT_BASE overrides both', async () => {
+    vi.stubEnv('QB_IMPORT_BASE', '');
+    try {
+      expect(IMPORT_BASE_STAGING).toBe('https://sahirssharma.github.io/tritonplan-staging/tools/quarterback-import');
+      const staging = buildImportUrl(payload, { demo: true, key: keys.priv });
+      expect(staging.startsWith(`${IMPORT_BASE_STAGING}?plan=`)).toBe(true);
+      expect(await verifyImportToken(new URL(staging).searchParams.get('plan')!, keys.pub)).toEqual(payload); // same token either way
+      expect(buildImportUrl(payload, { demo: false, key: keys.priv }).startsWith(`${IMPORT_BASE}?plan=`)).toBe(true);
+      vi.stubEnv('QB_IMPORT_BASE', 'http://localhost:4173/tools/quarterback-import');
+      expect(buildImportUrl(payload, { demo: true, key: keys.priv }).startsWith('http://localhost:4173/tools/quarterback-import?plan=')).toBe(true);
+      expect(buildImportUrl(payload, { key: keys.priv }).startsWith('http://localhost:4173/tools/quarterback-import?plan=')).toBe(true);
+    } finally {
+      vi.unstubAllEnvs();
+    }
   });
 
   it('the shipped public key is a P-256 SPKI WebCrypto can import', async () => {
