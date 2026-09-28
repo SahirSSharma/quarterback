@@ -1,0 +1,89 @@
+{
+ "program": {
+  "major": "Marine Biology",
+  "degree": "B.S.",
+  "department": "Scripps Institution of Oceanography"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Transcribed from the General Catalog Scripps Institution of Oceanography program page. Lower division offers the 10- or 20-series calculus and the 1- or 2-series physics; both alternatives are listed, and `needed` counts the courses actually required, not the size of the list.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/SIO-ug.html",
+  "https://catalog.ucsd.edu/courses/SIO.html"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["MATH 10A", "MATH 10B", "MATH 10C", "MATH 20A", "MATH 20B", "MATH 20C"],
+   "note": "MATH 10A-B-C or MATH 20A-B-C."
+  },
+  {
+   "label": "Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": ["CHEM 6A", "CHEM 6B", "CHEM 6C", "CHEM 7L"],
+   "note": "All four required."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["PHYS 1A", "PHYS 1AL", "PHYS 1B", "PHYS 1BL", "PHYS 1C", "PHYS 1CL", "PHYS 2A", "PHYS 2B", "PHYS 2C"],
+   "note": "PHYS 1A/1AL, 1B/1BL and 1C/1CL, or PHYS 2A-B-C."
+  },
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["BILD 1", "BILD 2", "BILD 3"],
+   "note": "All three required."
+  },
+  {
+   "label": "Introduction to Marine Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": ["SIO 90"],
+   "note": "Required."
+  },
+  {
+   "label": "Marine Biology Core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": ["SIO 132", "SIO 134", "SIO 136", "SIO 139", "SIO 181"],
+   "note": "All five required."
+  },
+  {
+   "label": "Biology Core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": ["SIO 187", "BICD 100"],
+   "note": "Both required."
+  },
+  {
+   "label": "Ocean Physics and Chemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": ["SIO 119"],
+   "note": "Required."
+  },
+  {
+   "label": "Restricted Electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": ["SIO 101", "SIO 104", "SIO 148", "SIO 121-129", "SIO 131", "SIO 133", "SIO 137", "SIO 138", "SIO 145", "SIO 146", "SIO 147", "SIO 183-189", "BIBC 102", "BIBC 103", "BIEB 102", "BIEB 150", "SIO 199"],
+   "note": "At least five, of which two must be laboratory courses. The lab-course condition is not checkable here — confirm your two labs with a Scripps adviser."
+  }
+ ]
+}

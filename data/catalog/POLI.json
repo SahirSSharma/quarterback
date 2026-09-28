@@ -1,0 +1,3495 @@
+{
+ "page": "POLI",
+ "name": "Political Science",
+ "courses": [
+  {
+   "code": "POLI 40",
+   "subject": "POLI",
+   "num": "40",
+   "title": "Introduction to Law and Society",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "This course is designed as a broad introduction to the study of law as a social institution and its relations to other institutions in society. The focus will be less on the substance of law (legal doctrine and judicial opinions) than on the process of law\u2013how legal rules both reflect and shape basic social values and their relation to social, political, and economic conflicts within society.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 87",
+   "subject": "POLI",
+   "num": "87",
+   "title": "First-year Student Seminar",
+   "units": "1",
+   "level": "Lower Division",
+   "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students. May not be used to fulfill any major or minor requirements in political science.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 90",
+   "subject": "POLI",
+   "num": "90",
+   "title": "Undergraduate Seminar",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "Selected topics to introduce students to current issues and trends in political science. May not be used to fulfill any major or minor requirements in political science. P/NP grades only. May be taken for credit four times.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 99H",
+   "subject": "POLI",
+   "num": "99H",
+   "title": "Independent Study",
+   "units": "1",
+   "level": "Lower Division",
+   "description": "Independent study or research under direction of a member of the faculty.",
+   "prereqText": "student must be of first-year class standing, and a Regents Scholar; approved Special Studies form.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100A",
+   "subject": "POLI",
+   "num": "100A",
+   "title": "The Presidency",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The role of the presidency in American politics. Topics will include nomination and election politics, relations with Congress, party leadership, presidential control of the bureaucracy, international political role, and presidential psychology.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100B",
+   "subject": "POLI",
+   "num": "100B",
+   "title": "The U.S. Congress",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will examine the nomination and election of congressmen, constituent relationships, the development of the institution, formal and informal structures, leadership, comparisons of House with Senate, lobbying, and relationship with the executive branch.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100C",
+   "subject": "POLI",
+   "num": "100C",
+   "title": "American Political Parties",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the development of the two major parties from 1789 to the present. Considers the nature of party coalitions, the role of leaders, activists, organizers, and voters, and the performance of parties in government.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100DA",
+   "subject": "POLI",
+   "num": "100DA",
+   "title": "Voting, Campaigning, and Elections",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A consideration of the nature of public opinion and voting in American government. Studies of voting behavior are examined from the viewpoints of both citizens and candidates, and attention is devoted to recent efforts to develop models of electoral behavior for the study of campaigns. The role of mass media and money also will be examined.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100E",
+   "subject": "POLI",
+   "num": "100E",
+   "title": "Interest Group Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The theory and practice of interest group politics in the United States. Theories of pluralism and collective action, the behavior and influence of lobbies, the role of political action committees, and other important aspects of group action in politics are examined.",
+   "prereqText": "sophomore standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100F",
+   "subject": "POLI",
+   "num": "100F",
+   "title": "Social Networks",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This class explores the many ways in which face-to-face social networks have a powerful effect on a wide range of human behaviors. With a foundation in understanding real-world networks, we can then consider how these networks function online.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100G",
+   "subject": "POLI",
+   "num": "100G",
+   "title": "How to Win or Lose an Election",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores the various aspects of a political campaign including campaign organization, vote targeting, political parties, social media, fundraising, polling, media interactions, and more. These areas are examined citing specific examples from federal, state, and local campaigns.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100H",
+   "subject": "POLI",
+   "num": "100H",
+   "title": "Race and Ethnicity in American Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the processes by which racial and ethnic groups have/have not been incorporated into the American political system. The course focuses on the political experiences of European immigrant groups, blacks, Latinos, and Asians.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100I",
+   "subject": "POLI",
+   "num": "100I",
+   "title": "Participation and Inequality",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the causes and consequences of the unequal participation and representation of groups in U.S. politics.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100J",
+   "subject": "POLI",
+   "num": "100J",
+   "title": "Race in American Political Development",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Readings examine how the multiracial character of the United States has shaped the broad outlines of American politics. Cases include the founding/the Constitution, southern politics, social organization in formerly Mexican regions, the New Deal, consequences of limited suffrage.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100K",
+   "subject": "POLI",
+   "num": "100K",
+   "title": "Railroads and American Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The railroads transformed the economy and politics of the United States in the nineteenth century. The railroads were the first big businesses, and their sheer size led inevitably to conflict with governments at all levels. This conflict shaped modern politics.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100M",
+   "subject": "POLI",
+   "num": "100M",
+   "title": "Political Psychology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "We begin with hypotheses about how people develop political attitudes, and methods to test those hypotheses. The second half focuses on emerging cognitive neuroscience insights, including brain imaging, and asks how these inform theories of political cognition, affect, and behavior.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100N",
+   "subject": "POLI",
+   "num": "100N",
+   "title": "Politics in Washington",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines Washington as a political community, its institutions, culture, and history. In addition to its elected officeholders and senior government officials, it examines Washington\u2019s subcommunities: the national news industry, diplomatic service, the representation of interests.",
+   "prereqText": "department approval is required.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100O",
+   "subject": "POLI",
+   "num": "100O",
+   "title": "Perspectives on Race",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course looks at race in American politics from a variety of perspectives. We may consider psychological, genetic, neuroscience, economic, political, sociological, and legal views of what drives powerful dynamics of race in our country.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100P",
+   "subject": "POLI",
+   "num": "100P",
+   "title": "Economic Entrepreneurs and American Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course is concerned with the interaction between representative democracy and capitalism in American political history. The key to understanding this interaction is the role of the entrepreneur in the economy and how unexpected economic change shapes politics.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100Q",
+   "subject": "POLI",
+   "num": "100Q",
+   "title": "Advanced Topics in Racial Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores how race shapes outcomes in American democracy through in-depth exploration of key issues in American politics. Topics include race in the voting booth, immigration, discrimination, and inter-minority conflict.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100T",
+   "subject": "POLI",
+   "num": "100T",
+   "title": "Business and Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course uses the tools of political science and economics to study how corporations affect and are affected by politics. We will cover a broad range of issues, including regulation, lawmaking, mass media, interest group mobilization, and corporate social responsibility.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100U",
+   "subject": "POLI",
+   "num": "100U",
+   "title": "Games, Strategy, and Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course provides an introduction to game theory with an emphasis on applications in economics, political science, and business. Game theory uses simple mathematical models to understand social phenomena. The required mathematical background is minimal (high school algebra).",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100V",
+   "subject": "POLI",
+   "num": "100V",
+   "title": "Organized Interests",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course provides a theoretical and practical examination of political parties, interest groups, and social movements in the United States.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 100W",
+   "subject": "POLI",
+   "num": "100W",
+   "title": "Politics, Policy, and Educational Inequality",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Education is often thought of as \u201cthe great equalizer\u201d but in the US and around the world, many governments fail to ensure that all citizens have access to high-quality educational opportunities. Why? This course will give students the conceptual tools to understand who shapes education policy decisions, through what channels, and how those policy decisions affect the quality and equity of education. Emphasis is on the US, but analyzed in comparative perspective.",
+   "prereqText": "POLI 30 or POLI 30D.",
+   "prereqs": [
+    [
+     "POLI 30",
+     "POLI 30D"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 100X",
+   "subject": "POLI",
+   "num": "100X",
+   "title": "Data Analysis and United States Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines U.S. politics from a computational point of view. Through in-class work and hands-on assignments, we will use data analysis tools to collect, analyze, and visualize data related to various facets of federal level politics in the US. Students will develop statistical and computational skills that will assist them in advanced analyses of elections, legislative outcomes, lobbying, and other dynamics of the lawmaking process in Congress.",
+   "prereqText": "POLI 5D/POLI 5D/ECON 5 or POLI 30D.",
+   "prereqs": [
+    [
+     "POLI 5D",
+     "ECON 5",
+     "POLI 30D"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 100Y",
+   "subject": "POLI",
+   "num": "100Y",
+   "title": "Asian American Politics in the United States",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This class is a survey of historical and contemporary issues in Asian American politics in the US; race and ethnicity in the context of U.S. politics; comparisons of racial and ethnic group experiences in the US with those experienced by racial and ethnic groups elsewhere; Asian American access to the political system through political participation.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 101A",
+   "subject": "POLI",
+   "num": "101A",
+   "title": "Black Politics in the US",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Course will provide a comprehensive overview of Black politics in the United States by examining prominent racial social movements, Black public opinion and political behavior, the challenges and opportunities for Black elected officials, the significance of Black representation in government, and how race intersects with gender, age, and class to influence the salience of identity and the political behavior of African Americans.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 101E",
+   "subject": "POLI",
+   "num": "101E",
+   "title": "The Politics of Race, Ethnicity, and Immigration",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the interplay between racial/ethnic identity and politics. How do race and ethnicity become politicized? What role does ethnic or racial identity play in political behavior and decision-making processes? To what extent do political institutions and institutional design reinforce the salience of ethnic or racial identity in politics? We will be taking a comparative approach to this topic, and cover readings in both American politics and comparative politics literature.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 102C",
+   "subject": "POLI",
+   "num": "102C",
+   "title": "American Political Development",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines selected issues and moments in the political history of the United States, comparing competing explanations and analyses of U.S. politics. Likely topics include the founding, \u201cAmerican exceptionalism,\u201d change in the party system, race in U.S. politics, the \u201cnew institutionalism.\u201d",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 102D",
+   "subject": "POLI",
+   "num": "102D",
+   "title": "Voting Rights Act: Fifty Years Later",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The Voting Rights Act (VRA) is one of the most significant and controversial acts in American history. We will examine the environment that led to its introduction, the legislative process, executive implementation, and the political ramifications and subsequent state government and court decisions.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 102E",
+   "subject": "POLI",
+   "num": "102E",
+   "title": "Urban Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as USP107) This survey course focuses upon the following six topics: the evolution of urban politics since the mid-nineteenth century; the urban fiscal crisis; federal/urban relationships; the \u201cnew\u201d ethnic politics; urban power structure and leadership; and selected contemporary policy issues such as downtown redevelopment, poverty, and race.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 102F",
+   "subject": "POLI",
+   "num": "102F",
+   "title": "Mass Media and Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will explore both the role played by mass media in political institutions, processes and behaviors, and reciprocally, the roles played by political systems in guiding communication processes.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 102G",
+   "subject": "POLI",
+   "num": "102G",
+   "title": "Special Topics in American Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An undergraduate course designed to cover various aspects of American politics. May be repeated for credit two times, provided each course is a separate topic, for a maximum of twelve units.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 102J",
+   "subject": "POLI",
+   "num": "102J",
+   "title": "Advanced Topics in Urban Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as USP 110) Building upon the introductory urban politics course, the advanced topics course explores issues such as community power, minority empowerment, and the politics of growth. A research paper is required. Students may not receive credit for both POLI 102J and USP 110.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 102K",
+   "subject": "POLI",
+   "num": "102K",
+   "title": "The Urban Underclass",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The lives of individuals living in ghetto poverty in the United States. Causes and consequences of ghetto poverty. Political debates surrounding the underclass and different possible solutions.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 102L",
+   "subject": "POLI",
+   "num": "102L",
+   "title": "The Politics of Regulation",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Politics and policy-making issues in regulation. Themes: regulation versus legislation; general versus specific grants of regulatory power; market versus command mechanisms; private property; and risk assessment. Emphasis on American regulatory policy, examples from current regulatory debates (e.g., health care and environment).",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 103A",
+   "subject": "POLI",
+   "num": "103A",
+   "title": "California Government and Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This survey course explores six topics: 1) the state\u2019s political history; 2) campaigning, the mass media, and elections; 3) actors and institutions in the making of state policy; 4) local government; 5) contemporary policy issues; e.g., Proposition 13, school desegregation, crime, housing and land use, transportation, water; 6) California\u2019s role in national politics.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 103B",
+   "subject": "POLI",
+   "num": "103B",
+   "title": "Politics and Policymaking in Los Angeles",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as USP 113) This course examines politics and policymaking in the five-county Los Angeles region. It explores the historical development of the city, suburbs, and region; politics, power, and governance; and major policy challenges facing the city and metropolitan area.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 103C",
+   "subject": "POLI",
+   "num": "103C",
+   "title": "Politics and Policymaking in San Diego",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as USP 115) This course examines how major policy decisions are made in San Diego. It analyzes the region\u2019s power structure (including the roles of nongovernmental organizations and the media), governance systems and reform efforts, and the politics of major infrastructure projects.",
+   "prereqText": "upper-division standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 103D",
+   "subject": "POLI",
+   "num": "103D",
+   "title": "California Local Government: Finance and Administration",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as USP 116) This course surveys public finance and administration. It focuses upon California local governments\u2014cities, counties, and special districts\u2014and also examines state and federal relationships. Topics explored include revenue, expenditure, indebtedness, policy responsibilities, and administrative organization and processes.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104A",
+   "subject": "POLI",
+   "num": "104A",
+   "title": "The Supreme Court and the Constitution",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An introduction to the study of the Supreme Court and constitutional doctrine. Topics will include the nature of judicial review, federalism, race, and equal protection. The relation of judicial and legislative power will also be examined.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104B",
+   "subject": "POLI",
+   "num": "104B",
+   "title": "Civil Liberties\u2014Fundamental Rights",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will examine issues of civil liberties from both legal and political perspectives. Topics will include the First Amendment rights of speech, press, assembly, and religion; other \u201cfundamental\u201d rights, such as the right to privacy; and some issues in equal protection. Conflicts between governmental powers and individual rights will be examined.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104C",
+   "subject": "POLI",
+   "num": "104C",
+   "title": "Civil Liberties\u2014The Rights of the Accused and Minorities",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines the legal issues surrounding the rights of criminal suspects, as well as the rights of \u201cmarginal\u201d groups such as aliens, illegal immigrants, and the mentally ill. Also includes a discussion of the nature of discrimination in American society.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104D",
+   "subject": "POLI",
+   "num": "104D",
+   "title": "Judicial Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Introduction to the study of law and courts as political institutions and judges as political actors, including the role of the judiciary in our constitutional system and decision making both within the Supreme Court and within the judicial hierarchy.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104E",
+   "subject": "POLI",
+   "num": "104E",
+   "title": "Environmental Law and Policy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The course is an introduction to U.S. environmental law at the federal level. It emphasizes issues and current controversies involving natural resources, such as wilderness, biodiversity, water, and climate change.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104F",
+   "subject": "POLI",
+   "num": "104F",
+   "title": "Constitutional Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course provides an intensive examination of a major issue in constitutional law. Students will be required to do legal research on a topic, write a legal brief, and argue a case to the class.",
+   "prereqText": "POLI 104A-B.",
+   "prereqs": [
+    [
+     "POLI 104A"
+    ],
+    [
+     "POLI 104B"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 104G",
+   "subject": "POLI",
+   "num": "104G",
+   "title": "Election Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A detailed analysis of the legislative and judicial history of election related topics including registration laws, election administration, candidate requirements, voting rights, party organizational rules, nomination procedures, redistricting, and campaign finance.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104I",
+   "subject": "POLI",
+   "num": "104I",
+   "title": "Law and Politics\u2014Courts and Political Controversy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will examine the role of the courts in dealing with issues of great political controversy, with attention to the rights of speech and assembly during wartime, questions of internal security, and the expression of controversial views on race and religion. The conflict between opposing Supreme Court doctrines on these issues will be explored in the context of the case studies drawn from different historical periods.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104J",
+   "subject": "POLI",
+   "num": "104J",
+   "title": "Introduction to Legal Reasoning",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The ability to write and argue is one of the noted benefits of a legal education. Students will learn the basics of legal research and reasoning by learning to read and brief case law and write persuasive and objective memorandums.",
+   "prereqText": "POLI 104A or 104B, upper-division standing.",
+   "prereqs": [
+    [
+     "POLI 104A",
+     "POLI 104B"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 104K",
+   "subject": "POLI",
+   "num": "104K",
+   "title": "Legal Argument Formulation",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the role that legal arguments have in the U.S. court system. Students will utilize legal reasoning and research skills to craft arguments in both written and oral formats, and then participate in a moot court final.",
+   "prereqText": "POLI 104J.",
+   "prereqs": [
+    [
+     "POLI 104J"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 104L",
+   "subject": "POLI",
+   "num": "104L",
+   "title": "Positive Political Theory of Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "We will discuss modern theories of the origins of law and legal behavior.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104M",
+   "subject": "POLI",
+   "num": "104M",
+   "title": "Law and Sex",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "How law regulates and impacts sexuality and orientation with focus on constitutional law in areas of privacy, free speech, association, regulation of sexual conduct under criminal law pornography, procreation, reproductive rights, and regulation of family status.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104N",
+   "subject": "POLI",
+   "num": "104N",
+   "title": "Race and Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Has the law helped end or contributed to racism in the United States? This course will explore the law of Slavery, Segregation, and Immigration, and study Equal Protection, Affirmative Action, and Criminal Justice (including hate crimes and First Amendment implications).",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104P",
+   "subject": "POLI",
+   "num": "104P",
+   "title": "Science, Technology, and the Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Science advances exponentially. The law is slower to follow. This course examines legal issues created by today\u2019s scientific breakthroughs and explores what future legal challenges might await tomorrow\u2019s scientific discoveries, from privacy on the internet to the meaning of life.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104T",
+   "subject": "POLI",
+   "num": "104T",
+   "title": "Survey in Evidence, Civil Procedure, and Criminal Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course offers a survey of criminal law, civil procedure, and evidence law. The course will use a text with both a civil case file and a criminal case file, where students will be assigned to be the state/plaintiff in one matter and the defendant in the other. Each class will have students arguing as if they were in the courtroom setting to teach the rules of civil procedure, rules of evidence, and criminal law.",
+   "prereqText": "upper-division standing and POLI 104J.",
+   "prereqs": [
+    [
+     "POLI 104J"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 104U",
+   "subject": "POLI",
+   "num": "104U",
+   "title": "Introduction to Business Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course aims to introduce students to popular topics in business law. Structured as a survey course, this course will introduce students to the nature of business entities, contract formation, drafting, negotiations, negligence, and torts, as well as topics in intellectual property and employment law. The course will be structured as a lecture course, but will also provide students with ample opportunity for hands-on interactive practice.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 104V",
+   "subject": "POLI",
+   "num": "104V",
+   "title": "Public Law: Special Topics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course is an opportunity for students to engage with and examine various topics on the theory, practice, and application of law. The content will vary according to recent developments in the field, as well as the particular research interests of the instructor.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 105A",
+   "subject": "POLI",
+   "num": "105A",
+   "title": "Latino Politics in the US",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines contemporary issues in Latino politics in the US; comparisons of racial and ethnic group experiences in the US; Latino access to the political system through political participation.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 108",
+   "subject": "POLI",
+   "num": "108",
+   "title": "Politics of Multiculturalism",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will examine central issues in debates about race, ethnicity, and multiculturalism in the United States. It will look at relations not only between whites and minorities, but also at those among racial and ethnic communities.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 109",
+   "subject": "POLI",
+   "num": "109",
+   "title": "Congressional Simulation",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course is designed to help students better understand the legislative process through active learning. Students will be assigned a U.S. house representative and be asked to learn about them, their district, and their priorities. Based on this research, students will draft legislation, issue press releases and tweets, collaborate with colleagues, build coalitions, participate in committee hearings, and vote on different bills in hopes of making a positive difference for their constituents.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110A",
+   "subject": "POLI",
+   "num": "110A",
+   "title": "Citizens and Saints: Political Thought from Plato to Augustine",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course focuses on the development of politics and political thought in ancient Greece, its evolution through Rome and the rise of Christianity. Readings from Plato, Aristotle, Augustine, Machiavelli, and others.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110B",
+   "subject": "POLI",
+   "num": "110B",
+   "title": "Sovereigns, Subjects, and the Modern State: Political Thought from Machiavelli to Rousseau",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The course deals with the period that marks the rise and triumph of the modern state. Central topics include the gradual emergence of human rights and the belief in individual autonomy. Readings from Machiavelli, Hobbes, Locke, Rousseau, and others.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110C",
+   "subject": "POLI",
+   "num": "110C",
+   "title": "Revolution and Reaction: Political Thought from Kant to Nietzsche",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The course deals with the period that marks the triumph and critique of the modern state. Central topics include the development of the idea of class, of the irrational, of the unconscious, and of rationalized authority as they affect politics. Readings drawn from Rousseau, Kant, Hegel, Marx, Nietzsche, and others.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110DA",
+   "subject": "POLI",
+   "num": "110DA",
+   "title": "Freedom and Discipline: Political Thought in the Twentieth Century",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course addresses certain problems that are characteristic of the political experience of the twentieth century. Topics considered are revolution, availability of tradition, and the problems of the rationalization of social and political relations. Readings from Nietzsche, Weber, Freud, Lenin, Gramsci, Dewey, Oakeshott, Arendt, Merleau-Ponty.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110EA",
+   "subject": "POLI",
+   "num": "110EA",
+   "title": "American Political Thought from Revolution to Civil War",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The first quarter examines the origins and development of American political thought from the revolutionary period to the end of the nineteenth century with special emphasis on the formative role of eighteenth-century liberalism and the tensions between \u201cprogressive\u201d and \u201cconservative\u201d wings of the liberal consensus.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110EB",
+   "subject": "POLI",
+   "num": "110EB",
+   "title": "American Political Thought from Civil War to Civil Rights",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The second quarter examines some of the major themes of American political thought in the twentieth century including controversies over the meaning of democracy, equality, and distributive justice, the nature of \u201cneoconservatism,\u201d and America\u2019s role as a world power.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110EC",
+   "subject": "POLI",
+   "num": "110EC",
+   "title": "American Political Thought: Contemporary Debates",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores contemporary issues in American political thought. Topics may include liberalism and rights, gender and sexuality, race and ethnicity, cultural diversity, and the boundaries of modern citizenship. Readings include political pamphlets, philosophical treatises, court decisions, and works of literature.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110ED",
+   "subject": "POLI",
+   "num": "110ED",
+   "title": "Seminar in American Political Thought",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This seminar explores debates over ideals, institutions, and identities in American political thought. Themes and topics will vary. Readings will include political pamphlets, philosophical treatises, court decisions, and works of literature.",
+   "prereqText": "upper-division standing; department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110G",
+   "subject": "POLI",
+   "num": "110G",
+   "title": "International Political Thought",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110H",
+   "subject": "POLI",
+   "num": "110H",
+   "title": "Democracy and Its Critics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will examine the historical development of the ideal of democracy from Periclean Athens to the present in the light of criticism by such thinkers as Plato, Tocqueville, and Mosca and difficulties encountered in efforts to realize the ideal.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110J",
+   "subject": "POLI",
+   "num": "110J",
+   "title": "Power in American Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines how power has been conceived and contested during the course of American history. The course explores the changes that have occurred in political rhetoric and strategies as America has moved from a relatively isolated agrarian and commercial republic to a military and industrial empire.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110K",
+   "subject": "POLI",
+   "num": "110K",
+   "title": "Liberty and Equality",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Leading political theories of liberal democracy since 1950. What is the meaning of political liberty? Political equality is the equality of what? Course will consider thinkers such as J.S. Mill, Berlin, Rawls, Dworkin, Taylor, Sen, Nussbaum, G. Cohen, Petit.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110M",
+   "subject": "POLI",
+   "num": "110M",
+   "title": "Green Political Thought",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Leading theories of environmental justice, ethics, and politics since 1960. Thinkers such as Dauvergne, Dobson, Dryzek, Eckersley, Latour, Plumwood, and Simon on ecosystems, climate change, sustainability, preservation, human welfare, nonhuman animals, place, feminism, state, market, and green political movements.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110N",
+   "subject": "POLI",
+   "num": "110N",
+   "title": "Theories of Nationalism",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Nationalist ideologies. Examination of the rhetoric of nationalist mobilization. Theories about the relationship between nationalist movements and democracy, capitalism, warfare, and the state.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 110T",
+   "subject": "POLI",
+   "num": "110T",
+   "title": "Modern Political Ideologies",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An examination of some of the ideas and values associated with major social and political movements in Europe and the United States since the French Revolution. Topics will vary and may include liberalism, populism, democracy, communism, nationalism, fascism, and feminism.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 111B",
+   "subject": "POLI",
+   "num": "111B",
+   "title": "Global Justice in Theory and Action",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Discuss the idea of justice from multiple perspectives: theory, philosophy, institutions, markets, social mobilization, politics, and environment. Examine the assets and capabilities of diverse justice-seeking organizations and movements aimed at improving quality of life and place locally, regionally, and globally.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 111D",
+   "subject": "POLI",
+   "num": "111D",
+   "title": "Changing Harmful Social Norms",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Study of types of social norms and practices, and how to change them. Illustrated with development examples such as the end of footbinding, female genital cutting, urban violence in Colombia, Serbian student revolution, early marriage, and other adverse gender norms.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 112A",
+   "subject": "POLI",
+   "num": "112A",
+   "title": "Economic Theories of Political Behavior",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An introduction to theories of political behavior developed with the assumptions and methods of economics. General emphasis will be upon theories linking individual behavior to institutional patterns. Specific topics to be covered will include collective action, leadership, voting, and bargaining.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 112B",
+   "subject": "POLI",
+   "num": "112B",
+   "title": "Game Theory in Political Science I",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course introduces students to game theory and its uses in political science. Topics covered include the concepts of Nash equilibrium, dominant strategies, subgame perfection and backwards induction, and the applications of those concepts to the study of voting, electoral competition, public goods provision, legislatures, and collective action. An emphasis is placed on developing students\u2019 analytical reasoning and problem-solving skills through weekly problem sets and in-class exercises.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 112C",
+   "subject": "POLI",
+   "num": "112C",
+   "title": "Political Theory and Artistic Vision",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The course explores the modes of political thinking found in arts, especially in drama and literature. It may include ends and means, political leadership, and political economy. Students may not receive credit for both POLI 112CS and POLI 112C.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 112D",
+   "subject": "POLI",
+   "num": "112D",
+   "title": "Game Theory in Political Science II",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines applications of game theory to electoral systems, political accountability, collective action problems, and legislative behavior, among other topics. It introduces advanced game theoretic concepts including repeated games and Bayesian equilibria. Through problem sets and analytical exercises, students will develop their ability to model complex political interactions and institutional dynamics using game theoretic tools.",
+   "prereqText": "upper-division standing and POLI 112B or POLI 118.",
+   "prereqs": [
+    [
+     "POLI 112B",
+     "POLI 118"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 113A",
+   "subject": "POLI",
+   "num": "113A",
+   "title": "East Asian Thought in Comparative Perspective",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the major traditions of East Asian thought in comparative perspective. Topics include Confucianism, Taoism, Buddhism, and contemporary nationalist and East Asian political thought. Throughout, focused comparisons and contrasts will be made between western and eastern thought.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 113B",
+   "subject": "POLI",
+   "num": "113B",
+   "title": "Chinese and Japanese Political Thought I",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines philosophical traditions of ancient and modern China and Japan, to understand how these have been reflected in Chinese and Japanese development. Course will be in English; however, students with Chinese or Japanese language skills will have opportunity to use these. Graduate students will be required to complete a seminar-length research paper; undergraduate students will write a paper.",
+   "prereqText": "upper-division standing for POLI 113B.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 113C",
+   "subject": "POLI",
+   "num": "113C",
+   "title": "Chinese and Japanese Political Thought II",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A continuation of 113B, which follows political philosophical themes in China and Japan through the twentieth century. Important topics include Buddhism and Confucianism as they changed in each context in response to internal and external stimuli.",
+   "prereqText": "POLI 113B.",
+   "prereqs": [
+    [
+     "POLI 113B"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 114B",
+   "subject": "POLI",
+   "num": "114B",
+   "title": "Marxist Political Thought",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An introduction to Marxist thought from its roots in the Western tradition through its development in non-Western contexts. Emphasis is placed on how adaptations were made in Marxism to accommodate the specific challenges of each environment.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 115A",
+   "subject": "POLI",
+   "num": "115A",
+   "title": "Gender and Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Our understanding of politics, power, conflict, and quality continue to be challenged and transformed by considering gender as it intersects with nationality, race, class, and ethnicity. We will consider the importance of gender in each of the subfields of political science.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 116A",
+   "subject": "POLI",
+   "num": "116A",
+   "title": "Feminist Theory",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Readings in historical and contemporary feminist theory; development of gender as a category of political analysis; alternative perspectives on core concepts and categories in feminist thought.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 117",
+   "subject": "POLI",
+   "num": "117",
+   "title": "Bending the Curve: Solutions to Climate Change",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as SIO 109.) Climate change is an urgent global problem affecting the lives of hundreds of millions of people, now and for the foreseeable future. This course will empower students to confront climate change as critical actors to innovate creative cross-disciplinary solutions. Students may not receive credit for POLI 117 and SIO 109.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 117R",
+   "subject": "POLI",
+   "num": "117R",
+   "title": "Bending the Curve (Online): Solutions to Climate Change",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Cross-listed with SIO 109R.) This online course focuses on developing urgent climate change solutions that integrate technology, policy and governance, finance, land use, and social/educational dimensions. Students may only receive credit for one of the following: POLI 117, POLI 117R, SIO 109, or SIO 109R.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 118B",
+   "subject": "POLI",
+   "num": "118B",
+   "title": "The Political Theory of Liberation Theology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A comparative study of liberation theologies, including continental, Latin American, South African, and East Asian.",
+   "prereqText": "upper-division standing and POLI 13 or POLI 13D.",
+   "prereqs": [
+    [
+     "POLI 13",
+     "POLI 13D"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 119A",
+   "subject": "POLI",
+   "num": "119A",
+   "title": "Special Topics in Political Theory",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An undergraduate course designed to cover various aspects of political theory. May be repeated for credit two times, provided each course is a separate topic, for a maximum of twelve units.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120",
+   "subject": "POLI",
+   "num": "120",
+   "title": "The Politics of Refuge",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This class examines the determinants and consequences of refugee politics in a comparative context. It surveys comparative refugee policies, the politics of refugee camps, public opinion toward refugees, and the factors that shape refugee integration in their host societies.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120A",
+   "subject": "POLI",
+   "num": "120A",
+   "title": "Political Development of Western Europe",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An examination of various paths of European political development through consideration of the conflicts that shaped these political systems: the commercialization of agriculture; religion and the role of the church; the army and the state bureaucracy; and industrialization. Stress will be on alternative paradigms and on theorists.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120B",
+   "subject": "POLI",
+   "num": "120B",
+   "title": "The German Political System",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An analysis of the political system of the Federal Republic of Germany with an emphasis on the party system, elections, executive-legislative relations, and federalism. Comparisons will be made with other West European democracies and the Weimar Republic.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120C",
+   "subject": "POLI",
+   "num": "120C",
+   "title": "Politics in France",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will examine the consequences of social and economic change in France. Specific topics will include institutional development under a semi-presidential system, parties, and elections.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120D",
+   "subject": "POLI",
+   "num": "120D",
+   "title": "Germany: Before, During, and After Division",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Consideration of political, economic, and security factors that have kept Germany at the center of European developments for more than a century.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120E",
+   "subject": "POLI",
+   "num": "120E",
+   "title": "Scandinavian Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Introduction to the politics and societies of the Scandinavian states (Denmark, Finland, Norway, and Sweden). Focuses on historical development, political culture, constitutional arrangements, political institutions, parties and interest groups, the Scandinavian welfare states, and foreign policy.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120F",
+   "subject": "POLI",
+   "num": "120F",
+   "title": "Europe as a Political Model",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Political debates often invoke the \u201cEuropean model,\u201d with the left extolling its political virtues as the right derides it as \u201cunworkable.\u201d Although these discussions frequently tie into political reform debates, they offer little discussion of what the \u201cEuropean political model\u201d entails. This course is designed to identify the economic, institutional, and cultural components of the \u201cEuropean political model,\u201d examining whether it provides insights for reform outside of the European context.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120G",
+   "subject": "POLI",
+   "num": "120G",
+   "title": "British Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Emphasis will be placed on the interaction between British political institutions and processes and contemporary policy problems: the economy, social policy, foreign affairs. The course assumes no prior knowledge of British politics and comparisons with the United States will be drawn.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120H",
+   "subject": "POLI",
+   "num": "120H",
+   "title": "European Integration",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course reviews the origins and development of the European Community/European Union and its institutions, theories of integration and the challenges inherent in the creation of a supranational political regime.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120I",
+   "subject": "POLI",
+   "num": "120I",
+   "title": "Politics in Italy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will provide a comparative perspective on the development and functioning of the Italian political system. It includes analysis of political institutions, ideological traditions, parties and elections, political elites in the policy process, and the evolving importance of Italy within European integration.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120J",
+   "subject": "POLI",
+   "num": "120J",
+   "title": "Politics and Revolution I: The Politics of the French Revolution",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Coscheduled with POLI 220J.) A comparative historical study of the origins, dynamics, and outcomes of the French Revolution. After overview of social-scientific theories and approaches to understanding revolution, the course will evaluate these in light of the concrete experience of the events that gave birth to the term revolution itself. Only undergraduates will have a final examination; graduate students will be required to do additional reading for the course as well as complete a seminar-length research paper.",
+   "prereqText": "for POLI 120J, one lower-division political science course; for POLI 220J, graduate standing.",
+   "prereqs": [
+    [
+     "POLI 220J"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 120K",
+   "subject": "POLI",
+   "num": "120K",
+   "title": "Comparative Legislatures",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines how legislatures shape policy-making in the United States, France, and United Kingdom. We will pay particular attention to how political parties, institutional structures, and legislator incentives impact representation and policy-making within and across cases. A substantial portion of the course will require participation in a simulation which will ask students to apply theoretical insights learned in the course to advance legislation in a simulated legislature.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120N",
+   "subject": "POLI",
+   "num": "120N",
+   "title": "Contention and Conflict in Africa",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course offers a systematic study of civil wars, electoral violence, anti-immigrant violence, genocides, coups, riots, and rebel groups in sub-Saharan Africa. It will explore why some regions experience certain types of violence and others do not.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120P",
+   "subject": "POLI",
+   "num": "120P",
+   "title": "Africa\u2019s Success Stories",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines reasons why we can be cautiously optimistic about development, growth, peace and democratization in Africa. Sample cases include Botswana\u2019s resource blessing, postconflict reconstruction in Uganda, and democratization in Ghana, Benin, and Niger.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 120Q",
+   "subject": "POLI",
+   "num": "120Q",
+   "title": "Ethnic Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course introduces students to the comparative study of ethnic politics. It examines the relationships between ethnicity on one hand, and mobilization, political contestation, violence, trust, and pork on the other. It draws from analysis from a variety of contexts and regions, such as sub-Saharan Africa, Eastern Europe, North America, South Asia, and Western Europe.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 121",
+   "subject": "POLI",
+   "num": "121",
+   "title": "Government and Politics of the Middle East",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines general themes affecting the region (social structure and regime type, religion and modernization, bonds and tensions), the character of major states, and efforts to resolve the conflict between Israel and its Arab and Islamic neighbors.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 121B",
+   "subject": "POLI",
+   "num": "121B",
+   "title": "Politics in Israel",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An interdisciplinary study of Israel as both a unique and yet a common example of a modern democratic nation-state. We will examine Israel\u2019s history, its political, economic, and legal systems, social structure and multicultural tensions, the relation between state and religion, national security, and international relations.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 121D",
+   "subject": "POLI",
+   "num": "121D",
+   "title": "Digital Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This class will delve into the nexus of digital technology and politics. Specific topics include the impact of social media on elections and public opinion, and the use of digital tools in political spaces ranging from activism to public service provision to repression.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 122",
+   "subject": "POLI",
+   "num": "122",
+   "title": "Politics of Human Rights",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "What do we mean by \u201cinternational human rights\u201d? Are they universal? This course examines human rights abuse and redress over time, and across different regions of the world. From this empirically grounded perspective, we critically evaluate contemporary human rights debates.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 122D",
+   "subject": "POLI",
+   "num": "122D",
+   "title": "Abuse of Power",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Power, a crucial part of politics, can be, and often is, abused. This course discusses the nature of power and surveys a variety of abuses, including agenda manipulation, rent extraction, fraud, extortion, corruption, exploitation, and gross political oppression.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 123",
+   "subject": "POLI",
+   "num": "123",
+   "title": "Politics of Empire in Comparative Perspective",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "In between \u201crises\u201d and \u201cdeclines,\u201d empires are political entities with highly heterogeneous populations that must be governed. The course examines the similarities and differences in imperial governance, comparing the internal and external political dynamics of traditional (Roman, Ottoman), modernizing (Habsburg), and modern (British) empires.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 124",
+   "subject": "POLI",
+   "num": "124",
+   "title": "Israeli-Palestinian Conflict",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as SOCI 188I.) In this course, we will examine the national and colonial dimensions of this long-lasting conflict and then turn our attention to the legal, governmental/political, and everyday aspects of the Israeli occupation of the West Bank and Gaza following the 1967 war.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 124A",
+   "subject": "POLI",
+   "num": "124A",
+   "title": "Political Consequences of Electoral Systems",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A comparative survey of the major dimensions of the electoral systems used in contemporary democracies (including plurality and majority systems, proportional representation, and districting methods) and of their effects on party competition.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 125",
+   "subject": "POLI",
+   "num": "125",
+   "title": "Gender, Politics, and Globalization",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "What have been the effects of globalization on gender, and how has gender shaped conceptions and processes of globalization? Through case studies drawn from the global north and south, this course critically assesses contemporary theoretical debates on global gender justice.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 125A",
+   "subject": "POLI",
+   "num": "125A",
+   "title": "Communities and the Environment",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A popular new idea in environmental protection is to include local communities in conservation efforts. But what are these communities? What challenges do they face in governing their own resources? This course uses both theory and case studies to explore the political economy of community-based conservations.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 125B",
+   "subject": "POLI",
+   "num": "125B",
+   "title": "The Politics of Food in a Global Economy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores emerging issues in production and consumption of food in a global economy. On production side, we discuss issues such as famine, overproduction of commercial crops, and sustainability. On consumption side, we explore issues such as fair trade, ethical consumption, and public health consequences (such as obesity). Then we discuss the roles of governments, international organizations, and communities to address these issues.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 125D",
+   "subject": "POLI",
+   "num": "125D",
+   "title": "Corruption in Developing Countries",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores corruption in developing countries. It examines various types of corruption in areas including health care, elections, natural resources, development projects, and international business. The course investigates causes and consequences of corruption, with an emphasis on political and economic factors. It also explores successes and failures of anti-corruption policies enacted by domestic and international actors. The course draws on examples from Africa, Asia, and Latin America.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 125E",
+   "subject": "POLI",
+   "num": "125E",
+   "title": "The Politics of Conservation in Developing Countries",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Conservation in developing countries concerns resources that are extremely important to policymakers, militaries, environmental organizations, communities, and individuals. This course examines these groups\u2019 struggle for control over wildlife and forests\u2014from the capital to the village\u2014on several continents.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 126",
+   "subject": "POLI",
+   "num": "126",
+   "title": "Political Economy of Development",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Why are some countries rich and others poor? This course examines how political and economic factors shape development trajectories, focusing on Africa, Asia, and Latin America. Topics include the impact of democracy, corruption, oil, and foreign aid on economic development.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 126AA",
+   "subject": "POLI",
+   "num": "126AA",
+   "title": "Fundamentals of Political Economy: Modern Capitalism",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores how economic factors affect political institutions and how political action affects economic behavior in the United States and Western Europe. Particular attention is given to relations between business and labor, economic policy choices, and the impact of international trade.",
+   "prereqText": "POLI 11 or consent of instructor.",
+   "prereqs": [
+    [
+     "POLI 11"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 126AB",
+   "subject": "POLI",
+   "num": "126AB",
+   "title": "Politics and Economics in Eastern Europe",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores the interrelationship of politics and economics in Eastern Europe, analyzing the historic evolution of the area, the socialist period, and contemporary political and economic change there.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 127",
+   "subject": "POLI",
+   "num": "127",
+   "title": "Politics of Developing Countries",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course critically examines central concepts and theories of development, and assesses their utility in understanding political, economic, and social change in the developing world. Central case studies are drawn from three regions: Latin America, Sub-Saharan Africa, and Southeast Asia.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 128",
+   "subject": "POLI",
+   "num": "128",
+   "title": "Autocracy, Democracy, and Prosperity",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course considers the interplay between factor endowments, political institutions, and economic performance. It focuses on the connection between representative political institutions and the emergence and expansion of markets.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 129",
+   "subject": "POLI",
+   "num": "129",
+   "title": "How to Steal an Election",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examine the role of elections in new and fragile democracies, explore how politicians construct elections to suppress increased levels of democracy, the techniques used to undermine free and fair elections, and the strategic responses to these actions by domestic/international actors.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 130",
+   "subject": "POLI",
+   "num": "130",
+   "title": "Politics of Violence",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines why some people, places, and times experience more violence than others. Drawing on anthropology, psychology, and political science, we focus on the role that institutions and inequality play in shaping how people experience and engage in violence.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 130AA",
+   "subject": "POLI",
+   "num": "130AA",
+   "title": "The Soviet Successor States",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An overview of the historical background and contemporary politics of the fifteen successor states of the Soviet Union.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 130AD",
+   "subject": "POLI",
+   "num": "130AD",
+   "title": "The Politics of the Russian Revolution",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An examination of the dynamics of the Russian Revolution from 1905 through the Stalinist period and recent years in light of theories of revolutionary change. Emphasis is placed on the significance of political thought, socioeconomic stratification, and cultural-historical conditions.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 130B",
+   "subject": "POLI",
+   "num": "130B",
+   "title": "Politics in the People\u2019s Republic of China",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course analyzes the political system of China since 1949, including political institutions, the policy-making process, and the relationship between politics and economics. The main focus is on the post-Mao era of reform beginning in 1978.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 130G",
+   "subject": "POLI",
+   "num": "130G",
+   "title": "Politics of Modern India",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The course gives an overview of Indian politics since 1947. It addresses the following: (1) To what extent is India a full-fledged democracy in which all citizens enjoy political equality? (2) Why has political violence occurred in some parts of India, and at certain times, but not others? (3) How well have the country\u2019s institutions fared in alleviating poverty?",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 131",
+   "subject": "POLI",
+   "num": "131",
+   "title": "Muslim Integration and Exclusion",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Is there a Muslim challenge to immigrant integration in Christian-heritage societies? This course asks if and why Muslim immigrants integrate into their host societies, and evaluates the various solutions put forth by politicians and scholars.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 131C",
+   "subject": "POLI",
+   "num": "131C",
+   "title": "The Chinese Revolution",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An analysis of the dynamics of the Chinese Revolution from the fall of the Qing Dynasty (1644\u20131911) to the present. Emphasis is placed on the relationship between political thought and the dynamics of the revolutionary process.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 132",
+   "subject": "POLI",
+   "num": "132",
+   "title": "Political Development and Modern China",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 133",
+   "subject": "POLI",
+   "num": "133",
+   "title": "Democracy, Development, and Conflict in South Asia",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This class introduces core topics in the study of South Asian politics. It uses evidence from India, Pakistan, Bangladesh, and Sri Lanka to shed light on key questions in the study of comparative politics. We examine (a) why these nations\u2019 regime trajectories have diverged; (b) violent civil conflict, as well as nuclear weapons\u2019 contribution to regional stability; and (c) human and economic development, including corruption, caste, gender, poverty alleviation, liberalization, and growth.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 133A",
+   "subject": "POLI",
+   "num": "133A",
+   "title": "Japanese Politics: A Developmental Perspective",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will analyze the political systems of modern Japan in comparative-historical perspective.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 133D",
+   "subject": "POLI",
+   "num": "133D",
+   "title": "Political Institutions of East Asian Countries",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course discusses the following major topics in three East Asian countries (Japan, South Korea, and the Philippines) from a comparative perspective: (a) economic and political development; (b) political institutions; and (c) policies.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 133G",
+   "subject": "POLI",
+   "num": "133G",
+   "title": "Postwar US-Japan Relations",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The relationship between the United States and Japan has been described as \u201cthe most important in the world, bar none.\u201d This course will examine US-Japan security and economic relations in the postwar period from the Occupation and Cold War alliance through the severe bilateral trade friction of the 1980s and 1990s to the present relationship and how it is being transformed by the forces of globalization, regionalization, and multilateralism.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 133J",
+   "subject": "POLI",
+   "num": "133J",
+   "title": "Korean Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course is primarily about the politics and political economy of South Korea, but will also briefly look at politics and political economy of North Korea as well as foreign and unification policies of the two Koreas.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 134",
+   "subject": "POLI",
+   "num": "134",
+   "title": "Political Parties/Development",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Political parties are fundamental to almost every democratic regime, and many authoritarian ones too. This class examines their role in developing countries. Where do parties come from? What part do they play in nationalist liberation struggles? How do they win support? Do extremist parties stoke ethnic violence? Can stable party systems boost economic growth? The class canvasses key political science theories and draws on both quantitative and case-study evidence from across the Global South.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 134AA",
+   "subject": "POLI",
+   "num": "134AA",
+   "title": "Comparative Politics of Latin America",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Comparative analysis of contemporary political systems and developmental profiles of selected Latin American countries, with special reference to the ways in which revolutionary and counter-revolutionary movements have affected the political, economic, and social structures observable in these countries today. Analyzes the performance of \u201crevolutionary\u201d governments in dealing with problems of domestic political management, reducing external economic dependency, redistributing wealth, creating employment, and extending social services. Introduction to general theoretical works on Latin American politics and development.",
+   "prereqText": "POLI 11 or consent of instructor.",
+   "prereqs": [
+    [
+     "POLI 11"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 134B",
+   "subject": "POLI",
+   "num": "134B",
+   "title": "Politics in Mexico",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "General survey of the Mexican political system as it operates today. Emphasis on factors promoting the breakdown of Mexico\u2019s authoritarian regime and the transition to a more democratic political system. Changing relationship between the state and various segments of Mexico society (economic elites, peasants, urban labor, and the Church). New patterns of civil-military relations.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 134D",
+   "subject": "POLI",
+   "num": "134D",
+   "title": "Selected Topics in Latin American Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A comparative analysis of contemporary political issues in Latin America. Material to be drawn from two or three countries. Among the topics: development, nationalism, neoimperialism, political change. May be taken for credit two times.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 134I",
+   "subject": "POLI",
+   "num": "134I",
+   "title": "Politics in the Southern Cone of Latin America",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course is a comparative analysis of twentieth-century political developments and issues in the southern cone of Latin America: Argentina, Chile, and Uruguay. The course will also examine the social and economic content and results of contrasting political experiments.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 134J",
+   "subject": "POLI",
+   "num": "134J",
+   "title": "Cuba: Revolution and Reform",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Students will study the origins and direction of the Cuban revolution and the actions and personality of Castro. Additional topics will include the Cuban economy today, Cuban political organizations and public opinion, important social issues including health care and public education, and Cuban foreign policy and relations between the US and Cuba. The class will instruct students on Cuban contemporary social media and conclude with an examination of alternative scenarios for Cuba\u2019s future.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 135",
+   "subject": "POLI",
+   "num": "135",
+   "title": "Comparative LGBT Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course is designed to expose students to the study of LGBT politics, focusing specifically on the formation of LGBT movements, the presence (or absence) of political opportunities to advance their desired goals, as well as their political success (or lack thereof). Although the course will initially examine the U.S. LGBT movement, the course will also examine the formation (and political success/failure) of LGBT movements in other democratic political systems.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 136",
+   "subject": "POLI",
+   "num": "136",
+   "title": "Religion and Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The political impact of major religious traditions\u2014including Christianity, Islam, Hinduism, and Confucianism\u2014around the world.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 136A",
+   "subject": "POLI",
+   "num": "136A",
+   "title": "Nationalism and Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An examination of nationalist politics as practiced by opposition movements and governments in power. Appropriate case studies from around the world will be selected.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 137",
+   "subject": "POLI",
+   "num": "137",
+   "title": "A Sports Analytics Approach to the Social Sciences",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Sports analytics is a fast-growing field. It uses data and statistical methods to measure performance in competitive sports. The approach\u2019s popularity has generated a wealth of data that can be used to shed light on social science questions in interesting ways. We will focus on topics such as violent behavior, discrimination, cultural/ethnic diversity, corruption, and cognitive biases using examples from baseball, basketball, figure skating, football, hockey, soccer, and sumo wrestling.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 137A",
+   "subject": "POLI",
+   "num": "137A",
+   "title": "Comparative Political Parties and Interest Groups",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course serves as an introduction to the comparative study of political parties and interest groups as well as an analytical introduction to parties, interest groups, and their role in democratic representation.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 138D",
+   "subject": "POLI",
+   "num": "138D",
+   "title": "Special Topics in Comparative Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An undergraduate course designed to cover various aspects of comparative politics. May be repeated for credit three times, provided each course is a separate topic, for a maximum of twelve units.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 140A",
+   "subject": "POLI",
+   "num": "140A",
+   "title": "International Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "International law is central to the efforts to create a world order to limit armed conflict, regulate world economy, and set minimum standards for human rights. This course introduces international law and explains theories advanced by academic analysts and practitioners to explain its role.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 140B",
+   "subject": "POLI",
+   "num": "140B",
+   "title": "Concepts and Aspects of Revolution",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Introduction to the analytical and comparative study of revolutionary movements and related forms of political violence. Topics include the classical paradigm, types of revolutionary episodes, psychological theories, ideology and belief systems, coups, insurgencies, civil wars, and terrorism and revolutionary outcomes.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 140C",
+   "subject": "POLI",
+   "num": "140C",
+   "title": "International Crisis Diplomacy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A survey of international peacekeeping and peace enforcement in civil conflicts with a simulation of international diplomacy.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 140D",
+   "subject": "POLI",
+   "num": "140D",
+   "title": "International Human Rights Law: Migrant Populations",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "International migration creates a distinct set of human rights challenges. This course examines the conflict between international legal obligations and domestic politics of citizenship, human rights, asylum, and human trafficking.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142A",
+   "subject": "POLI",
+   "num": "142A",
+   "title": "United States Foreign Policy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "United States foreign policy from the colonial period to the present era. Systematic analysis of competing explanations for U.S. policies\u2014strategic interests, economic requirements, or the vicissitudes of domestic politics. Interaction between the US, foreign states (particularly allies), and transnational actors are examined.",
+   "prereqText": "POLI 12 or consent of instructor.",
+   "prereqs": [
+    [
+     "POLI 12"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 142D",
+   "subject": "POLI",
+   "num": "142D",
+   "title": "Weapons of Mass Destruction",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course provides an overview of the challenges posed by chemical, biological, radiological, and nuclear weapons. Students will learn about how these weapons work, why states seek them, and attempts to prevent proliferation. We will delve into technical and policy challenges related to these weapons, and address how CBRN weapons shape national and regional security dynamics. Efforts to restrict the proliferation of these weapons will be discussed. We will also analyze CBRN terrorism.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142I",
+   "subject": "POLI",
+   "num": "142I",
+   "title": "National and International Security",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A survey of theories of defense policies and international security.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142J",
+   "subject": "POLI",
+   "num": "142J",
+   "title": "National Security Strategy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A survey of American strategies for national defense. Topics may include deterrence, coercive diplomacy, limited war, and unconventional warfare.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142K",
+   "subject": "POLI",
+   "num": "142K",
+   "title": "Politics and Warfare",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course offers an exploration of general theories of the origins of warfare; the impact of the state on war in the modern world; and the microfoundations of combat and compliance in the context of the costs of war and military mobilization. The course should be of special interest to students in international relations and comparative politics.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142L",
+   "subject": "POLI",
+   "num": "142L",
+   "title": "Insurgency and Terrorism",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "\u201cTerrorism\u201d uses \u201cillegitimate\u201d violence to achieve political goals. This course uses philosophical, historical, and contemporary material from distinct cultures to understand which actions are defined as \u201cterrorist,\u201d who uses them, why, and when, as well as the determinants of their effectiveness.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142M",
+   "subject": "POLI",
+   "num": "142M",
+   "title": "U.S. Foreign Policy/Regional Security",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Lectures and readings examine U.S. foreign policy in Europe, Latin America, and East Asia with attention to current problems with specific nations (e.g., Bosnia) and issues (e.g., terrorism). This course integrates historical, comparative, and foreign perspectives on regional security dynamics.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142N",
+   "subject": "POLI",
+   "num": "142N",
+   "title": "American Defense Policy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An introduction to analytic techniques for assessing policy options in the field of national security.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142O",
+   "subject": "POLI",
+   "num": "142O",
+   "title": "International Terrorism",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as SOCI 177.) This course covers the definitions, history, and internationalization of terrorism; the interrelation of religion, politics, and terror; and the representation of terrorism in the media. A number of organizations and their activities in Europe and the Middle East are examined.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142P",
+   "subject": "POLI",
+   "num": "142P",
+   "title": "Crisis Areas in World Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the most critical areas in contemporary world politics. While the emphasis will be placed on American involvement in each crisis, an effort will be made to acquaint the student with its historical and political background.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 142Q",
+   "subject": "POLI",
+   "num": "142Q",
+   "title": "Cold War",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores the way in which the international rivalry between the Soviet Union and the United States affected relationships between the two powers, their allies, the Third World, and above all, their internal domestic affairs and development.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 143",
+   "subject": "POLI",
+   "num": "143",
+   "title": "New Modes of International Conflict: Cyber, Space, and Robots",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "New technologies are transforming the nature of competition and conflict in international relations. Drones allow nations to engage in \u201cbloodless\u201d warfare though the weak and vulnerable continue to be targeted. Cyber space blurs the lines on maps and between civilian and military. New strategies are developing to enact and resist new modes of warfare. This course equips students to better understand and operate in this brave new technological world and to interpret politics in the twenty-first century.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 143A",
+   "subject": "POLI",
+   "num": "143A",
+   "title": "War and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "How has warfighting evolved over the centuries? How has it varied across cultures? What has war been like for soldiers and civilians? How do societies mobilize for war, and how do they change in the short and long term from fighting?",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 144",
+   "subject": "POLI",
+   "num": "144",
+   "title": "International Political Economy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course serves as an introduction to the study of international political economy. We will examine the evolution of international economic relations in trade, finance, and economic development and discuss different explanations for its likely causes and consequences.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 144AB",
+   "subject": "POLI",
+   "num": "144AB",
+   "title": "Selected Topics in International Political Economy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will consider major theories purporting to explain and predict the workings of the international order from the point of view of political economy. An extended discussion of one aspect of the economic order (e.g., the multinational corporation) will serve as the test case. One quarter of economics recommended.",
+   "prereqText": "POLI 12.",
+   "prereqs": [
+    [
+     "POLI 12"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 144D",
+   "subject": "POLI",
+   "num": "144D",
+   "title": "International Political Economy: Money and Finance",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examination of effects of national policies and international collaboration on public and private international financial institutions, in particular the management of international debt crises, economic policy coordination, and the role of international lender of last resort.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 144E",
+   "subject": "POLI",
+   "num": "144E",
+   "title": "The Politics of International Trade",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines theories of trade and protectionism, focusing both on relations among advanced industrial nations and on relations between developed and developing countries. Topics include standard and strategic trade theory, nontariff barriers to trade, export-led growth strategies, regional trade agreements, and the future of the WTO.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 144F",
+   "subject": "POLI",
+   "num": "144F",
+   "title": "The Politics of International Trade and Finance",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines the welfare and distributional aspects of international trade and finance as they relate to the politics of economic policy making. Topics include globalization in historical perspective; origins and consequences of trade policy; exchange-rate arrangements; international capital flows; currency crises; economic development.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 145A",
+   "subject": "POLI",
+   "num": "145A",
+   "title": "International Politics and Drugs",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the domestic and international aspects of the drug trade. It will investigate the drug issues from the perspectives of consumers, producers, traffickers, money launderers, and law enforcement. Course material covers the experience of the United States, Latin America, Turkey, Southeast Asia, Western Europe, and Japan.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 145C",
+   "subject": "POLI",
+   "num": "145C",
+   "title": "International Relations After the Cold War: Theory and Prospect",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The nature of international politics appears to have changed dramatically since 1989. This course applies different theoretical approaches to enhance our understanding of the new international environment, future prospects for peace and war, and current problems of foreign policy.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 146A",
+   "subject": "POLI",
+   "num": "146A",
+   "title": "The US and Latin America: Political and Economic Relations",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An analytical survey of U.S. relations with Latin America from the 1820s to the present, with particular emphasis on the post\u2013Cold War environment. Topics include free trade and economic integration; drugs and drug trafficking; illegal migration and immigration control. Focus covers U.S. policy, Latin American reactions, dynamics of cooperation, and options for the future.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 147B",
+   "subject": "POLI",
+   "num": "147B",
+   "title": "Russian-American Relations",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A historical and topical survey of major issues in Russian-American relations, such as security arrangements in the post-Soviet space, the war on terrorism, arms control and nonproliferation, and international energy.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 149",
+   "subject": "POLI",
+   "num": "149",
+   "title": "Spies, Intelligence, and U.S. National Security",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Information is the key to success and failure in U.S. foreign policy. This course will cover the American intelligence community\u2019s secret and information gathering processes. The curriculum is organized by the specialist functions of real-world IC professionals. You will learn methods for collecting raw data, including human and signals intelligence, how that data is synthesized into intelligence, the different reporting formats that drive national security decisions, and about oversight and ethical issues.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 150A",
+   "subject": "POLI",
+   "num": "150A",
+   "title": "Politics of Immigration",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Comparative analysis of attempts by the United States and other industrialized countries to initiate, regulate and reduce immigration from Third World countries. Social and economic factors shaping outcomes of immigration policies, public opinion toward immigrants, anti-immigration movements, and immigration policy reform options in industrialized countries.",
+   "prereqText": "upper-division standing required.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 151",
+   "subject": "POLI",
+   "num": "151",
+   "title": "International Organizations",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Surveys the theory and function of IOs (UN, NATO, EU, World Bank, IMF) in promoting international cooperation in security, peacekeeping, trade, environment, and human rights. We discuss why IOs exist, how they work, and what challenges they face.",
+   "prereqText": "POLI 12, upper-division standing.",
+   "prereqs": [
+    [
+     "POLI 12"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 152",
+   "subject": "POLI",
+   "num": "152",
+   "title": "Gender in International Conflict",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course focuses on women\u2019s attitudes about and participation in political conflict, including the recruitment, execution, and resolution of intra- and interstate conflicts, terrorism, and protest. We explore the types of gender-based violence women face (e.g., violence against female politicians, sexual violence, and conflict-induced interpersonal violence), as well as their experiences with reintegration, reconciliation, transitional justice, and peace-building initiatives.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 153",
+   "subject": "POLI",
+   "num": "153",
+   "title": "The European Union in World Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course introduces students to the role of the EU as a foreign policy actor. Topics include the development of the EU\u2019s trade policy, foreign aid policy, security policy, as well as case studies of EU foreign policy.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 154",
+   "subject": "POLI",
+   "num": "154",
+   "title": "Special Topics in International Relations",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An undergraduate course designed to cover various aspects of international relations. May be repeated for credit two times, provided each course is a separate topic, for a maximum of twelve units.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 160AA",
+   "subject": "POLI",
+   "num": "160AA",
+   "title": "Introduction to Policy Analysis",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as USP 101) This course will explore the process by which the preferences of individuals are converted into public policy. Also included will be an examination of the complexity of policy problems, methods for designing better policies, and a review of tools used by analysts and policy makers.",
+   "prereqText": "POLI 10 or 11.",
+   "prereqs": [
+    [
+     "POLI 10",
+     "POLI 11"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 160AB",
+   "subject": "POLI",
+   "num": "160AB",
+   "title": "Introduction to Policy Analysis",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "In this course, students will use their knowledge of the political and economic foundations of public policy making to conduct research in a wide variety of public policy problems.",
+   "prereqText": "POLI 160AA.",
+   "prereqs": [
+    [
+     "POLI 160AA"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 161",
+   "subject": "POLI",
+   "num": "161",
+   "title": "Research Design for Social Science",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will introduce students to core strategies for designing and evaluating social science research. Students will learn about construct, internal, and external validity and how to improve them in social science research, with a particular focus on experimental designs. Students will develop their own designs as well as study designs in published social science research.",
+   "prereqText": "POLI/ECON 5(D) and POLI 30(D).",
+   "prereqs": [
+    [
+     "ECON 5"
+    ],
+    [
+     "POLI 30"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 162",
+   "subject": "POLI",
+   "num": "162",
+   "title": "Environmental Policy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will explore contemporary environmental issues such as global warming, endangered species, and land use. Students will be asked to analyze various policy options and to write case analyses. Policies may be debated in class.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 163",
+   "subject": "POLI",
+   "num": "163",
+   "title": "Analyzing Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Politics are understood as the combination of individual preferences and decisions into collective choices. What are the issues involved in aggregating individual preferences, what is the choice of rules\u2014formal and informal\u2014for doing so.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 164",
+   "subject": "POLI",
+   "num": "164",
+   "title": "The Politics of Public Policy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "How do politics determine policy? In this course, students will be introduced to the skill of conducting a cost-benefit analysis, and then will discuss how political ideas, interests, and institutions often move policy outcomes away from those based on cost-benefit analysis.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 165",
+   "subject": "POLI",
+   "num": "165",
+   "title": "Special Topic: Policy Analysis",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An undergraduate course designed to cover various aspects of policy analysis. May be repeated for credit two times, provided each course is a separate topic, for a maximum of twelve units.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 168",
+   "subject": "POLI",
+   "num": "168",
+   "title": "Policy Assessment",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The use of real data to assess policy alternatives. Introduction to benefit/cost analysis, decision theory, and the valuation of public goods. Applications to health, environmental, and regulatory economic policy making.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 170",
+   "subject": "POLI",
+   "num": "170",
+   "title": "Algorithms, Public Policy, and Ethics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The deployment of predictive algorithms for public policy optimization has increased in recent years across a variety of domains. This course will introduce key concepts, considerations, and concerns relating to algorithmic decision-making in policy processes. This includes understanding how data are used to make predictions, how predictions can be used to aid decision-making, the conditions under which these practices will be effective, and the important ethical dimensions of these practices.",
+   "prereqText": "POLI 5, POLI 5D, or ECON 5.",
+   "prereqs": [
+    [
+     "POLI 5",
+     "POLI 5D",
+     "ECON 5"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 170A",
+   "subject": "POLI",
+   "num": "170A",
+   "title": "Applied Data Analysis for Political Science",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course is an advanced introductory course for undergraduates. It will acquaint students with statistical methodology as it is used in the social sciences. It is assumed that the student has the mathematical background to progress through the materials a bit faster than in a true introductory course.",
+   "prereqText": "POLI 30 or POLI 30D or consent of instructor.",
+   "prereqs": [
+    [
+     "POLI 30",
+     "POLI 30D"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 171",
+   "subject": "POLI",
+   "num": "171",
+   "title": "Making Policy with Data",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This class explores how we can make policy recommendations using data. We attempt to establish causal relationships between policy intervention and outcomes based on statistical evidence. Hands-on examples will be provided throughout the course.",
+   "prereqText": "POLI 5 or 5D or ECON 5 and POLI 30 or 30D.",
+   "prereqs": [
+    [
+     "POLI 5",
+     "POLI 5D",
+     "ECON 5"
+    ],
+    [
+     "POLI 30",
+     "POLI 30D"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 172",
+   "subject": "POLI",
+   "num": "172",
+   "title": "Advanced Social Data Analytics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An accelerated course in computer programming and data analytics for collecting, analyzing, and understanding data in the social world. Students engage in hands-on learning with applied social science problems, developing statistical and computational skills for sophisticated data manipulation, analysis, visualization.",
+   "prereqText": "POLI 5 or 5D or ECON 5 and POLI 30 or 30D.",
+   "prereqs": [
+    [
+     "POLI 5",
+     "POLI 5D",
+     "ECON 5"
+    ],
+    [
+     "POLI 30",
+     "POLI 30D"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 173",
+   "subject": "POLI",
+   "num": "173",
+   "title": "Social Network Analysis",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This class introduces tools for analyzing social networks including graph visualization, egocentric and sociocentric network measures, network simulation, and data management.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 174",
+   "subject": "POLI",
+   "num": "174",
+   "title": "Analyzing Elections",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course is concerned with the political economy of elections. It will analyze key topics in political science using both theoretical and empirical tools. Specific topics covered include party and candidate strategy, electoral campaigns, the role and origins of parties, electoral accountability, and voter behavior.",
+   "prereqText": "POLI 112A or POLI 118.",
+   "prereqs": [
+    [
+     "POLI 112A",
+     "POLI 118"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 175",
+   "subject": "POLI",
+   "num": "175",
+   "title": "Machine Learning for Social Scientists",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course focuses on statistical and algorithmic techniques to analyze and utilize large collections of data for social science inferences. The goal of the course is to introduce students to modern machine learning methods and provide the skills necessary to apply the methods widely. In achieving this goal, students will learn about core concepts in machine learning and statistics, developing skills that are transferable to other types of data and inference problems.",
+   "prereqText": "CCS 1 or ECON 5/5R or POLI 5/5D/5R/5DR or POLI 30/30D.",
+   "prereqs": [
+    [
+     "CCS 1",
+     "ECON 5",
+     "ECON 5R",
+     "POLI 5",
+     "POLI 5D",
+     "POLI 5R",
+     "POLI 5DR",
+     "POLI 30",
+     "POLI 30D"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 176",
+   "subject": "POLI",
+   "num": "176",
+   "title": "Text as Data",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Cross-listed with DSC 161.) This class explores statistical and computational methods to enable students to use text as a data source in the social sciences. Hands-on examples will equip students to work with text data in final projects.",
+   "prereqText": "POLI/ECON 5D or POLI 30D or POLI 170A or POLI 171 or POLI 172.",
+   "prereqs": [
+    [
+     "ECON 5D",
+     "POLI 30D",
+     "POLI 170A",
+     "POLI 171",
+     "POLI 172"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 179",
+   "subject": "POLI",
+   "num": "179",
+   "title": "Special Topics in Political Science Methodology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Special topics course in quantitative methods for political science and broader social sciences. May be taken for credit up to three times.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 192",
+   "subject": "POLI",
+   "num": "192",
+   "title": "Senior Seminar in Political Science",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "The Senior Seminar is designed to allow senior undergraduates to meet with faculty members in a small group setting to explore an intellectual topic in political science at the upper-division level. Topics will vary from quarter to quarter. Senior Seminars may be taken for credit up to four times, with a change in topic and permission of the department. Enrollment is limited to twenty students, with preference given to seniors.",
+   "prereqText": "department stamp and/or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 194",
+   "subject": "POLI",
+   "num": "194",
+   "title": "Research Seminar in Washington, DC",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as COMM 194, USP 194, HITO 193, SOCI 194, COGS 194) Course attached to six-unit internship taken by students participating in the UCDC Program. Involves weekly seminar meetings with faculty and teaching assistant and a substantial research paper.",
+   "prereqText": "participating in UCDC Program.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 194RA",
+   "subject": "POLI",
+   "num": "194RA",
+   "title": "Research Apprenticeship Seminar",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Preparation of a major paper from research conducted while participating in the Research Apprenticeship (POLI 198RA). Presentations to and participation in weekly seminar meetings also required. Students can enroll in POLI 194RA only if they have previously taken or are simultaneously enrolled in 198RA.",
+   "prereqText": "department approval. Students must apply for the Research Apprenticeship program and be approved to enroll. Participants must be majors in political science with junior or senior standing and a GPA of 3.5 or higher in all political science courses taken at UC San Diego. Individual projects may require other prerequisite training, such as POLI 30.",
+   "prereqs": [
+    [
+     "POLI 30"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 194SD",
+   "subject": "POLI",
+   "num": "194SD",
+   "title": "Local Internship Research Seminar",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The Local Internship Research Seminar will be paired with a Local Internship in Political Science (POLI 197SD) in the same quarter. The linkage to this research seminar will provide advanced academic training in analytic skills appropriate to the internship experience and requires a substantial paper based on original research.",
+   "prereqText": "department approval and consent of instructor. Corequisites: POLI 197SD.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 195",
+   "subject": "POLI",
+   "num": "195",
+   "title": "Apprentice Teaching",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Teaching and tutorial activities associated with courses and seminars. Limited to advanced political science majors with at least a 3.5 GPA in upper-division political science courses. P/NP grades only. May be taken for credit two times, but only four units may be used for major credit.",
+   "prereqText": "department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 196",
+   "subject": "POLI",
+   "num": "196",
+   "title": "Community Stations Fieldwork",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Course is attached to a four-unit field-based internship in the UC San Diego Community Stations. Topics will vary by term and include such issues as migration and asylum; emergency and affordable housing; health and educational disparities; and urban and environmental justice. Strong emphasis is placed on the ethics of university-community engagement and horizontal methods of \u201ccoproduction.\u201d P/NP grades only. May be taken for credit one time, and the four units may be used for credit toward the political science majors (in the elective section) or general political science minor.",
+   "prereqText": "department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 197I",
+   "subject": "POLI",
+   "num": "197I",
+   "title": "Political Science Washington Internship",
+   "units": "6, 8",
+   "level": "Upper Division",
+   "description": "This internship is attached to the UCDC Program. Students participating in the UCDC Program are placed in an internship in the Washington, DC, area requiring approximately seventeen to twenty-three hours per week.",
+   "prereqText": "must be enrolled in the UCDC Program; department stamp required.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 197SD",
+   "subject": "POLI",
+   "num": "197SD",
+   "title": "Local Internship in Political Science",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Individual placements for field learning integrated with political science. A written contract involving all parties with learning objectives, a project outline, and a means of supervision and progress evaluation must be filed with the faculty adviser and department undergraduate coordinator prior to the beginning of the internship. P/NP grades only. May be taken for credit two times.",
+   "prereqText": "ninety units completed; 2.5 minimum cumulative GPA overall and 3.0 in political science; POLI 30 and at least two upper-division courses in political science. Department approval and consent of instructor. Corequisites: POLI 194SD.",
+   "prereqs": [
+    [
+     "POLI 30"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 198",
+   "subject": "POLI",
+   "num": "198",
+   "title": "Directed Group Study",
+   "units": "2-4",
+   "level": "Upper Division",
+   "description": "Directed group study in an area not presently covered by the departmental curriculum. P/NP grades only.",
+   "prereqText": "department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 198RA",
+   "subject": "POLI",
+   "num": "198RA",
+   "title": "Research Apprenticeship",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Students conduct directed research as part of a principal investigator\u2019s project and under the supervision of a department mentor. Students may conduct research with a department mentor for up to two quarters. This course is part of the Research Apprenticeship program in political science. P/NP grades only. May be taken for credit two times.",
+   "prereqText": "department approval. Students must apply for the Research Apprenticeship program and be approved to enroll. Participants must be majors in political science with junior or senior standing and a GPA of 3.5 or higher in all political science courses taken at UC San Diego. Individual projects may require other prerequisite training, such as POLI 30.",
+   "prereqs": [
+    [
+     "POLI 30"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 199",
+   "subject": "POLI",
+   "num": "199",
+   "title": "Independent Study for Undergraduates",
+   "units": "2 or 4",
+   "level": "Upper Division",
+   "description": "Independent reading in advanced political science by individual students. (P/NP grades only.)",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 200A",
+   "subject": "POLI",
+   "num": "200A",
+   "title": "Foundations of Political Science",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An introduction to the theoretical concepts in the discipline of political science that are commonly used across various subfields. Each week will introduce the core concept(s) and discuss applications from several, if not all subfields in the department.",
+   "prereqText": "graduate student standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 200B",
+   "subject": "POLI",
+   "num": "200B",
+   "title": "Democracy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An overview of the normative and positive issues associated with modern democracies. The appeal and the social, political, and economic arrangements of democracies will be explored.",
+   "prereqText": "graduate student standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 200C",
+   "subject": "POLI",
+   "num": "200C",
+   "title": "States and Markets",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An overview of the normative and positive issues associated with decentralized (market) versus centralized (political) mechanics of allocation. The appropriate role of government in the economy will be explored.",
+   "prereqText": "graduate student standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 203A",
+   "subject": "POLI",
+   "num": "203A",
+   "title": "Analytic Theory I",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The first in the two-course sequence on the essentials of game theory and fundamental concepts in the social sciences. This course examines the philosophy of modeling, and introduces social choice theory, decision-making under uncertainty, and games of complete information. Applications include representation and democracy, social dilemmas and collective action, principal-agent problems, self-enforcing agreements, and institutions as equilibria.",
+   "prereqText": "graduate student standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 203B",
+   "subject": "POLI",
+   "num": "203B",
+   "title": "Analytic Theory II",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The second in the two-course sequence on the essentials of game theory and fundamental concepts in the social sciences. This course introduces multistage and repeated games, as well as static and dynamic games with incomplete information. Applications include axiomatic and strategic models of negotiations, bargaining in legislatures, auctions, adverse selection problems, market failures, signaling and screening, reputation, conventions, and cheap talk.",
+   "prereqText": "POLI 203A, graduate student standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 204A",
+   "subject": "POLI",
+   "num": "204A",
+   "title": "Research Design",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will study various approaches to knowledge accumulation in social science. A basic outline of scientific method will be used to examine the difference between theories as assumptions and axioms and hypotheses as \u201cif-then\u201d statements derived from theory. Experimental, quasi-experimental, and qualitative designs will be discussed.",
+   "prereqText": "graduate student standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 204B",
+   "subject": "POLI",
+   "num": "204B",
+   "title": "Quantitative Methods I",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The use of quantitative methods (particularly multiple regression and its extensions) in political science. Emphasis on understanding the methods and using them in political science applications.",
+   "prereqText": "graduate student standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 204C",
+   "subject": "POLI",
+   "num": "204C",
+   "title": "Game Theory 1",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course introduces students to the rudiments of decision theory and game theory. Emphasis will be placed on modeling and solving games.",
+   "prereqText": "graduate student standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 205",
+   "subject": "POLI",
+   "num": "205",
+   "title": "Game Theory II",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers advanced topics in game theory. Covered topics will include incomplete information in static and dynamic games, infinitely repeated games, and bargaining games. Emphasis will be placed on advanced equilibrium concepts, and applications of interest to political scientists.",
+   "prereqText": "department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 210AA",
+   "subject": "POLI",
+   "num": "210AA",
+   "title": "Systems of Political Thought: Thucydides to Rousseau",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is a preparation for the field examination in political theory. It will provide an intensive and critical introduction to European political thought from Thucydides to Rousseau. Some of the secondary literature on this period will also be explored.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 210AB",
+   "subject": "POLI",
+   "num": "210AB",
+   "title": "Systems of Political Thought: Kant to Rawls",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is a preparation for the field examination in political theory. It will provide an intensive and critical introduction to European political thought from Kant to Rawls. Some of the secondary literature on this period will also be explored.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 211",
+   "subject": "POLI",
+   "num": "211",
+   "title": "Formal Models in Political Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This seminar introduces students to the uses of formal models to address normative and conceptual questions in political theory. Topics covered include egalitarian theories of justice, democratic deliberation and voting, and republican theories of freedom as nondomination, among others. A basic knowledge of game theory is strongly recommended.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 212",
+   "subject": "POLI",
+   "num": "212",
+   "title": "Contemporary Sociological Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "(Same as Soc/G 202.) Themes important for social theory at the turn of the twenty-first century: Marxism, Gramsci, Althusser, critical theory (Adorno, Habermas), interpretation (Geertz), social systems (Parson), poststructuralism (Foucault), postmodernism, and social constructivism (Bourdieu).",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 213",
+   "subject": "POLI",
+   "num": "213",
+   "title": "Culture and Political Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "(Same as LTCO 287.) A comparative approach of political theory based on historical periods (with the tools of new historicism), various cultures (inspired by anthropological research), and referring to the most important philosophical thinkers from Western and non-Western traditions.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 214",
+   "subject": "POLI",
+   "num": "214",
+   "title": "Marxist and Post-Marxist Political Philosophy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An examination of selected texts in Marxist and post-Marxist political philosophy, with a focus on the theme of individual and collective identity including issues concerning alienation, consciousness, and ideology.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 215",
+   "subject": "POLI",
+   "num": "215",
+   "title": "Social Norms Change and Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Study of types of social practices, how to measure them, and how to change them. Illustrated with examples such as footbinding, female genital cutting, urban violence in Colombia, Serbian student revolution, early female marriage, and other adverse gender norms.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 216",
+   "subject": "POLI",
+   "num": "216",
+   "title": "Contemporary Liberal and Democratic Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Normative approaches to liberty, equality, justice, and democracy, mostly Anglo-American and empirical approaches to justice. Thinkers such as Rawls, Habermas, Nozick, Dworkin, Raz, Roemer, Elster, Ostrom, Bowles, and Gintis may be considered.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 219",
+   "subject": "POLI",
+   "num": "219",
+   "title": "Special Topics in Political Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This seminar is an examination of the different approaches to the study of political theory. Issues and research areas will vary each time the course is offered.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 220A",
+   "subject": "POLI",
+   "num": "220A",
+   "title": "Comparative Politics: State and Society",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will provide a general literature review in comparative politics to serve as preparation for the field examination.",
+   "prereqText": "graduate standing, or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 220B",
+   "subject": "POLI",
+   "num": "220B",
+   "title": "Comparative Politics: Institutions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This is a second course in comparative politics designed as a preparation for the field examination. It will focus on the comparative study of political institutions.",
+   "prereqText": "graduate standing, or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 220C",
+   "subject": "POLI",
+   "num": "220C",
+   "title": "Origins of the State",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Survey of theories, with empirical cases explaining origins of the modern state.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 221",
+   "subject": "POLI",
+   "num": "221",
+   "title": "Clientelism and Corruption",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This graduate seminar explores clientelism and corruption. We first investigate clientelism, covering topics such as strategies during elections, the role of brokers, clientelism beyond campaigns, and shifts away from clientelism. We then examine corruption, covering topics such as grand corruption, petty corruption, and causes and consequences of corruption. The course focuses on developing countries, with some comparisons to advanced economies.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 222",
+   "subject": "POLI",
+   "num": "222",
+   "title": "Gender and Conflict",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course examines how gender, gender norms, and women influence conflict processes. In this course, we seek to better understand the causes and consequences of women\u2019s participation in the recruitment, execution, and resolution of intrastate and interstate conflict. We ask several related questions including, how and why does women\u2019s participation in politics matter? We also examine how different gender norms influence patterns of conflict in the global context.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 223",
+   "subject": "POLI",
+   "num": "223",
+   "title": "Corruption and Distribution",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This graduate seminar explores distributive politics and corruption. We first investigate various distributive strategies, such as whether politicians target core or swing voters with goods, clientelism during and beyond campaigns, and shifts away from nonprogrammatic politics. We then examine corruption, covering topics such as grand corruption, petty corruption, and causes and consequences of corruption. The course focuses on developing countries with some comparisons to advanced economies.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 223A",
+   "subject": "POLI",
+   "num": "223A",
+   "title": "Comparative Parliamentary Studies",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A survey of the academic literature on parliamentary studies, comparing the research on legislative elections, behavior, and organization in American, European, and Asian democracies. The course will also compare various approaches to studying legislative activity.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 224",
+   "subject": "POLI",
+   "num": "224",
+   "title": "The Politics of Democratization",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A survey of theories explaining the processes of democratization and democratic stability.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 224A",
+   "subject": "POLI",
+   "num": "224A",
+   "title": "Elections in Consolidating Democracies",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Course looks at elections in consolidating democracies with an eye to evaluating existing theories of elections with new data. Also explores new empirical patterns in countries around the world, especially Africa, Latin America, Eastern Europe, and the Soviet successor states.",
+   "prereqText": "graduate student standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 225",
+   "subject": "POLI",
+   "num": "225",
+   "title": "Political Violence",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Contending analysis of the types, strategies, causes, processes, and consequences of political violence such as revolutions, insurgencies, and ethnic conflict.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 225B",
+   "subject": "POLI",
+   "num": "225B",
+   "title": "The Nation-State",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A reading and research seminar on the origins, development, and politics of nationalism and the nation-state.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 226D",
+   "subject": "POLI",
+   "num": "226D",
+   "title": "Understanding Authoritarianism",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course offers an overview of topics in authoritarian politics. It explores a wide range of strategies authoritarian regimes employ to seize and consolidate power. Additionally, it delves into the distinctive challenges researchers encounter when conducting research in authoritarian contexts. We examine innovative research designs and recent methodological advancements that empower scholars to navigate these complexities.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 227",
+   "subject": "POLI",
+   "num": "227",
+   "title": "Comparative Political Economy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An introduction to seminal and current research in comparative political economy. Course explores how various political institutions and processes affect economic outcomes (e.g., growth, inequality, and redistribution) and how the economy influences politics (e.g., democratization, electoral institutions, and welfare states).",
+   "prereqText": "POLI 200C or consent of instructor.",
+   "prereqs": [
+    [
+     "POLI 200C"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 228",
+   "subject": "POLI",
+   "num": "228",
+   "title": "Historical Political Economy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Historical political economy (HPE) is a thriving field that employs quantitative historical datasets and qualitative case knowledge to study a wide range of political economy questions. Students will gain exposure to the frontiers of HPE research and will learn and apply historical research methods to a research project of their choice.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 229",
+   "subject": "POLI",
+   "num": "229",
+   "title": "Special Topics in Comparative Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This seminar is an examination of the different approaches to the study of comparative politics. Issues and research areas will vary each time the course is offered.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 231",
+   "subject": "POLI",
+   "num": "231",
+   "title": "Political Economy of Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course explores key factors that shape the development trajectory of nations, drawing on work from political science, economics, and sociology. We will examine various aspects of development, with a particular focus on economic growth, and how political institutions influence development outcomes. Topics covered include the relationship between democracy and development, the role of the state, consequences of natural resources and corruption, and the impact of foreign aid.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 231E",
+   "subject": "POLI",
+   "num": "231E",
+   "title": "Politics of Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course provides an overview of previous and current efforts to explain political and economic development in non-Western settings.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 233",
+   "subject": "POLI",
+   "num": "233",
+   "title": "The Politics of Migrant Inclusion and Exclusion",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This graduate seminar provides an overview of the determinants of immigrant exclusion and inclusion around the world. It surveys the various threat narratives that explain public opinion against immigration, and the role that political elites, the media, immigration and integration policy, and intergroup contact and exposure play in exacerbating exclusion.",
+   "prereqText": "department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 235A",
+   "subject": "POLI",
+   "num": "235A",
+   "title": "Latin American Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introductory reading seminar on Latin American politics to acquaint students with leading schools of thought, provide critical perspective on premises and methodology, and identify themes for further inquiry. Themes include authoritarianism, revolution, democratization, regional conflict, and emergence of middle-level powers.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 236",
+   "subject": "POLI",
+   "num": "236",
+   "title": "Immigration Policy and Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An interdisciplinary seminar covering origins, consequences, and characteristics of worker migration from Third World countries (especially Mexico, Central America, and the Caribbean basin) to the United States, from the nineteenth century to the present.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 240",
+   "subject": "POLI",
+   "num": "240",
+   "title": "International Relations Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A survey of the principal theories and approaches to the study of international relations.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 241",
+   "subject": "POLI",
+   "num": "241",
+   "title": "International Conflict",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This is a course on modern academic debates in international security. It focuses on relations between two states and not sub-state actors. It is strongly recommended that students taking this course have a background in research design, game theory, or applied statistical analysis.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 242",
+   "subject": "POLI",
+   "num": "242",
+   "title": "The European Union and Global Governance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course explores contemporary research on European Union politics from a comparative and international relations perspective and links this research to broader questions of global governance.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 242D",
+   "subject": "POLI",
+   "num": "242D",
+   "title": "Weapons of Mass Destruction",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course provides an overview of the challenges posed by chemical, biological, radiological, and nuclear weapons. Students will learn about how these weapons work, why states seek them, and attempts to prevent proliferation. We will delve into technical and policy challenges related to these weapons, and address how CBRN weapons shape national and regional security dynamics. Efforts to restrict the proliferation of these weapons will be discussed. We will also analyze CBRN terrorism. May be coscheduled with POLI 142D.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 243",
+   "subject": "POLI",
+   "num": "243",
+   "title": "International Security",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A colloquium surveying the major theoretical controversies in the study of international and national security.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 244",
+   "subject": "POLI",
+   "num": "244",
+   "title": "International Institutions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course exposes students to contemporary research on international institutions. What leads nations to cede sovereignty? How do international institutions obtain a measure of authority in world affairs? What makes an institution \u201csuccessful\u201d? We\u2019ll also examine institutional design.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 244A",
+   "subject": "POLI",
+   "num": "244A",
+   "title": "European Integration",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This seminar provides perspectives on the theories and politics of European integration. Analysis will focus on the development of the European Union, the functioning of core institutions, and the challenges of creating a supranational political regime.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 245",
+   "subject": "POLI",
+   "num": "245",
+   "title": "International Political Economy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A seminar surveying the major theoretical controversies in the study of international political economy.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 245A",
+   "subject": "POLI",
+   "num": "245A",
+   "title": "Political Economy of Regional Integration",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This graduate course surveys theories of regional political and economic integration and international cooperation from a comparative and international relations perspective. We compare and contrast the European Union and other regional organizations.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 246",
+   "subject": "POLI",
+   "num": "246",
+   "title": "International Organization",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will study various theories purporting to explain why states succeed or fall at creating institutions by international governance and what effects, if any, those institutions have.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 247A",
+   "subject": "POLI",
+   "num": "247A",
+   "title": "Quantitative International Relations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Explores empirical research in international relations with special emphasis on international conflict. Topics covered include theories on the causes of war, the distribution of power and conflict, formal and informal alignment, interdependence and conflict, linkages between domestic and international processes, and issues of research design. Students who have previously taken 247 may not take this course for credit.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 247B",
+   "subject": "POLI",
+   "num": "247B",
+   "title": "Formal Models in International Relations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Explores formal analytic and primarily game-theoretic research in international relations with emphasis on conflict and bargaining. Topics include causes of war and peace, conventional and nuclear deterrence, crisis bargaining, arms race, and two-level games.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 247C",
+   "subject": "POLI",
+   "num": "247C",
+   "title": "History of International Relations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is a survey of the history of international relations from 1618 to 1945. The focus is on diplomacy and war-fighting in their social, economic, political, cultural, and technological contexts. Formative conflicts will be examined in detail.",
+   "prereqText": "240, 247A, and 247B; graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 248",
+   "subject": "POLI",
+   "num": "248",
+   "title": "Special Topics in International Relations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "(Same as IRGN 290) This seminar is an examination of the different approaches to the study of international relations. Issues and research areas will vary each time the course is offered.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 250",
+   "subject": "POLI",
+   "num": "250",
+   "title": "The Politics of Race, Ethnicity, and Immigration",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course examines the interplay between racial/ethnic identity and politics. How do race and ethnicity become politicized? What role does ethnic or racial identity play in political behavior and decision-making processes? To what extent do political institutions and institutional design reinforce the salience of ethnic or racial identity in politics? We will be taking a comparative approach to this topic, and cover readings in both American politics and comparative politics literature.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 251",
+   "subject": "POLI",
+   "num": "251",
+   "title": "American Political Institutions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A critical examination of major contributions to the theoretical and empirical literature on the U.S. Congress, presidency, and federal bureaucracy.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 252",
+   "subject": "POLI",
+   "num": "252",
+   "title": "American Politics: Behavior",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Theoretical and empirical perspectives on voting and other forms of political participation, parties, interest groups, and public opinion in the United States.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 253",
+   "subject": "POLI",
+   "num": "253",
+   "title": "Research in State Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This seminar will survey the existing literature in state politics with an eye toward proposing new research designs. Topics will include the variation across states in electoral systems, campaign finance laws, political culture, legislative institutions, judicial arrangements, and policy outcomes.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 254",
+   "subject": "POLI",
+   "num": "254",
+   "title": "American Political Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course examines the historical evolution of the American state with particular attention to theories of political development. Special topics include the development of the party system, electoral and policy realignments, and the evolution of national political institutions.",
+   "prereqText": "graduate standing in any discipline of the social sciences or humanities or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 255",
+   "subject": "POLI",
+   "num": "255",
+   "title": "Urban Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines central works on the development of political institutions in U.S. cities; analyses of community power structures; who governs, why, and to what ends; processes and prospects for minority empowerment; the prominence of \u201cgrowth machines\u201d; the political economy of contemporary cities.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 256",
+   "subject": "POLI",
+   "num": "256",
+   "title": "Race, Class, and Institutions in American Political Economy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will explore how institutions address and/or perpetuate racial, ethnic, and economic inequality in the US.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 257",
+   "subject": "POLI",
+   "num": "257",
+   "title": "Voting and Elections",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is designed to acquaint graduate students with the central themes and issues in the study of voting in national elections.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 258",
+   "subject": "POLI",
+   "num": "258",
+   "title": "United States Presidency and Executive Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The U.S. President is a key political actor whose words, actions, and influence are of interest to foreign leaders, domestic politicians, journalists, scholars, and the American public. But how do presidents wield their power? How do they influence legislators, bureaucrats, the parties, and the public? Who do they represent? In this course, graduate students will begin to answer these questions and gain an understanding of gaps in the current literature as they develop their own projects.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 259",
+   "subject": "POLI",
+   "num": "259",
+   "title": "Special Topics in American Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This seminar is an examination of the different approaches to the study of American politics. Issues and research areas will vary each time the course is offered.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 260",
+   "subject": "POLI",
+   "num": "260",
+   "title": "Social Science Replication",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The purpose of this class is to replicate new empirical research in the social sciences. The class meets weekly and will begin with two lectures introducing replication tools and best practices. Thereafter, pairs of students will take turns replicating and extending a working paper by an established political scientist\u2014normally a visitor to UC San Diego\u2014and will present their findings in front of the author. Through such reverse engineering, students will learn how to do excellent quantitative work.",
+   "prereqText": "POLI 204B and POLI 270 and POLI 271; graduate standing.",
+   "prereqs": [
+    [
+     "POLI 204B"
+    ],
+    [
+     "POLI 270"
+    ],
+    [
+     "POLI 271"
+    ]
+   ]
+  },
+  {
+   "code": "POLI 261",
+   "subject": "POLI",
+   "num": "261",
+   "title": "Practice of Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covers practical steps for choosing research topics and designs, including selecting questions and puzzles, conceptualizing and constructing dependent variables, formulating theoretical analogies and models. Students apply these steps in the context of their own original research projects.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 263",
+   "subject": "POLI",
+   "num": "263",
+   "title": "Theory and Analysis of Experiments",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on the principles that underlie the experimental framework for inference and study design. While we focus on field experimentation, insights from this course can be applied to the design and interpretation of nonexperimental causal analysis and to survey and lab experiments.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 270",
+   "subject": "POLI",
+   "num": "270",
+   "title": "Mathematical and Statistical Foundations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course reviews essential calculus and linear algebra and introduces probability theory (probability rules, random variables, univariate and multivariate distributions) and mathematical statistics (sampling distributions, estimation and inference frameworks).",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 271",
+   "subject": "POLI",
+   "num": "271",
+   "title": "Advanced Statistical Applications",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Use of advanced quantitative techniques in political science. Students will use political science data to complete small exercises and a major project. Students may not receive credit for both 271B and 271.",
+   "prereqText": "204B and 270; graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 272",
+   "subject": "POLI",
+   "num": "272",
+   "title": "Bayesian Methods",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides students a solid understanding of Bayesian inference and Markov chain Monte Carlo methods. Topics covered include Bayesian treatment of the linear model, Markov chain Monte Carlo methods, assessing model adequacy, and hierarchical models.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 273",
+   "subject": "POLI",
+   "num": "273",
+   "title": "Causal Inference",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers designs and methods of causal inference, including randomized experiments, cross-sectional and longitudinal designs, and other tools such as sensitivity analysis and randomization inference. These methods are illustrated with examples in political science and positive political economy.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 274",
+   "subject": "POLI",
+   "num": "274",
+   "title": "Text as Data",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This class explores statistical and computational methods to enable students to use text as a data source in the social sciences. Hands-on examples and a final project will equip students to work with text data in their own research.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 275",
+   "subject": "POLI",
+   "num": "275",
+   "title": "Interviews, Survey Design, and Sampling",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers advanced topics in the design and implementation of field surveys and interviews. Questionnaire design and survey techniques for sensitive topics such as list experiments will be developed, as well as sampling methodologies to achieve representivity.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 276",
+   "subject": "POLI",
+   "num": "276",
+   "title": "Qualitative Methods",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Topics include concept formation; set theoretic and QCA approaches; within-case vs. cross-case analysis; the logic of case selection; counterfactuals; the use of narrative; primary, secondary, archival, and interview source material; comparative-historical analysis; and ethnography. Attention will be given to how qualitative approaches can be used to test game-theoretic models and strengthen casual inference in econometric and experimental designs. Reading intensive.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 278",
+   "subject": "POLI",
+   "num": "278",
+   "title": "Political Economy Models of Elections",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course introduces the formal literature on economic models of voting and electoral politics. It reviews models that look at elections as I) mechanisms for preference aggregation, II) mechanisms for information aggregation, and III) mechanisms for selecting and incentivizing politicians.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 279",
+   "subject": "POLI",
+   "num": "279",
+   "title": "Special Topics in Methodology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course offers selected topics in quantitative methodology. Content may vary each time the course is offered. May be taken for credit three times.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 280",
+   "subject": "POLI",
+   "num": "280",
+   "title": "Workshop: International Law and Regulation",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent research in international law and regulation: development and presentation of research projects by graduate students; presentation of research by faculty. Third-year students present dissertation prospectus, candidates make yearly presentations of dissertation research. S/U grades only. May be taken for credit three times as topics vary.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 281",
+   "subject": "POLI",
+   "num": "281",
+   "title": "Workshop: American Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent research in American politics: development and presentation of research projects by graduate students, presentations of research by faculty. Third year students present dissertation prospectus; candidates make yearly presentations of dissertation research. May be taken for credit three times.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 282",
+   "subject": "POLI",
+   "num": "282",
+   "title": "Workshop: Comparative Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent research in comparative politics, development and presentation of research projects by graduate students; presentations of research projects by faculty. Third-year students present dissertation prospectus; candidates make yearly presentations of dissertation research. May be taken for credit three times.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 283",
+   "subject": "POLI",
+   "num": "283",
+   "title": "Workshop: International Relations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent research in international relations, development and presentation of research projects by graduate students, presentations of research projects by faculty. Third year students present dissertation prospectus; candidates make yearly presentation of dissertation research. May be taken for credit three times.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 284D",
+   "subject": "POLI",
+   "num": "284D",
+   "title": "Workshop: Evidence-Based Teaching",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent research in undergraduate teaching and learning, with emphasis on practical application of theoretical principles. Designed to support graduate students as teaching assistants and future faculty. Introduces evidence-based theory and teaching techniques, research design for classroom research, and key elements of teaching portfolios. May be taken for credit up to three times.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 285",
+   "subject": "POLI",
+   "num": "285",
+   "title": "Workshop: Political Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent research in political theory: development and presentation of research projects by graduate students, presentation of research by faculty. Third year students present dissertation prospectus; candidates make yearly presentations of dissertation research. May be taken for credit three times.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 286",
+   "subject": "POLI",
+   "num": "286",
+   "title": "Workshop: Methodology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent research in political methodology; development and presentation of research projects by graduate students, presentation of research by faculty. Third year students present dissertation prospectus; candidates make yearly presentations of dissertation research. May be taken for credit three times.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 287",
+   "subject": "POLI",
+   "num": "287",
+   "title": "Multidisciplinary Methods in Political Science: Social Networks",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of research in the natural sciences that may be applied to problems in political science, development and presentation of research projects by graduate students and faculty, special emphasis on social networks.",
+   "prereqText": "204A and 204B and 204C, graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 288",
+   "subject": "POLI",
+   "num": "288",
+   "title": "Multidisciplinary Methods in Political Science: Computational Social Science",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An examination of research in the natural sciences that may be applied to problems in political science, development and presentation of research projects by graduate students and faculty, special emphasis on computational social science.",
+   "prereqText": "204A and 204B and 204C, graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 289",
+   "subject": "POLI",
+   "num": "289",
+   "title": "Multidisciplinary Methods in Political Science: Biology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of research in the natural sciences that may be applied to problems in political science, development and presentation of research projects by graduate students and faculty, special emphasis on biology.",
+   "prereqText": "204A and 204B and 204C, graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 298",
+   "subject": "POLI",
+   "num": "298",
+   "title": "Directed Reading",
+   "units": "1\u201312",
+   "level": "Graduate",
+   "description": "Guided and supervised reading in the literature of the several fields of political science.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 299",
+   "subject": "POLI",
+   "num": "299",
+   "title": "Dissertation Research",
+   "units": "1\u201312",
+   "level": "Graduate",
+   "description": "Independent work by graduate students engaged in research and writing of second-year paper and doctoral dissertation, under direct supervision of adviser.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 500",
+   "subject": "POLI",
+   "num": "500",
+   "title": "Apprentice Teaching",
+   "units": "1\u20134",
+   "level": "Graduate",
+   "description": "A course in which teaching assistants are aided in learning proper teaching methods by means of supervision of their work by the faculty: handling of discussions, preparation, and grading of examinations and other written exercises, and student relations. Twenty-four units of teaching apprenticeship meet the department teaching requirement for the PhD.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "POLI 501",
+   "subject": "POLI",
+   "num": "501",
+   "title": "Seminar on Teaching Development\u2014American Politics",
+   "units": "1\u20134",
+   "level": "Graduate",
+   "description": "A seminar designed for graduate students serving as teaching assistants in American politics, includes discussion of teaching theories, techniques, and materials, conduct of discussion sessions, and participation in examinations, under the supervision of the instructor in charge of the course.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 502",
+   "subject": "POLI",
+   "num": "502",
+   "title": "Seminar on Teaching Development\u2014Comparative Politics",
+   "units": "1\u20134",
+   "level": "Graduate",
+   "description": "A seminar designed for graduate students serving as teaching assistants in comparative politics, includes discussion of teaching theories, techniques, and materials, conduct of discussion sessions, and participation in examinations, under the supervision of the instructor in charge of the course.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 503",
+   "subject": "POLI",
+   "num": "503",
+   "title": "Seminar on Teaching Development\u2014International Relations",
+   "units": "1\u20134",
+   "level": "Graduate",
+   "description": "A seminar designed for graduate students serving as teaching assistants in international relations, includes discussion of teaching theories, techniques, and materials, conduct of discussion sessions, and participation in examinations under the supervision of the instructor in charge of the course.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 504",
+   "subject": "POLI",
+   "num": "504",
+   "title": "Seminar on Teaching Development\u2014Political Theory",
+   "units": "1\u20134",
+   "level": "Graduate",
+   "description": "A seminar designed for graduate students serving as teaching assistants in political theory, includes discussion of teaching theories, techniques, and materials, conduct of discussion sessions, and participation in examinations, under the supervision of the instructor in charge of the course.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "POLI 599",
+   "subject": "POLI",
+   "num": "599",
+   "title": "Teaching Methods in Political Science",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Training in teaching methods in the field of political science. Examines evidence-based research on undergraduate teaching and learning with emphasis on effective teaching techniques appropriate to political science. Covers TA training, syllabus design, and effective teaching strategies.",
+   "prereqText": "graduate standing in political science.",
+   "prereqs": null
+  }
+ ]
+}

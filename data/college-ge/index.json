@@ -1,0 +1,82 @@
+{
+ "meta": {
+  "generated": "2026-07-23",
+  "source": "UCSD college sites + catalog.ucsd.edu",
+  "colleges": 8,
+  "note": "General-education requirement buckets per UCSD college, harvested from official college sites 2026-07-22 and upgraded 2026-07-23 from a verified crawler+auditor reap. Matched to a student's imported profile.college."
+ },
+ "colleges": [
+  {
+   "college": "Revelle College",
+   "matchKey": "revelle college",
+   "slug": "revelle-college",
+   "file": "revelle-college.json",
+   "confidence": "high",
+   "found": true,
+   "bucketCount": 13
+  },
+  {
+   "college": "John Muir College",
+   "matchKey": "john muir college",
+   "slug": "john-muir-college",
+   "file": "john-muir-college.json",
+   "confidence": "high",
+   "found": true,
+   "bucketCount": 8
+  },
+  {
+   "college": "Thurgood Marshall College",
+   "matchKey": "thurgood marshall college",
+   "slug": "thurgood-marshall-college",
+   "file": "thurgood-marshall-college.json",
+   "confidence": "high",
+   "found": true,
+   "bucketCount": 10
+  },
+  {
+   "college": "Earl Warren College",
+   "matchKey": "earl warren college",
+   "slug": "earl-warren-college",
+   "file": "earl-warren-college.json",
+   "confidence": "high",
+   "found": true,
+   "bucketCount": 8
+  },
+  {
+   "college": "Eleanor Roosevelt College",
+   "matchKey": "eleanor roosevelt college",
+   "slug": "eleanor-roosevelt-college",
+   "file": "eleanor-roosevelt-college.json",
+   "confidence": "high",
+   "found": true,
+   "bucketCount": 10
+  },
+  {
+   "college": "Sixth College",
+   "matchKey": "sixth college",
+   "slug": "sixth-college",
+   "file": "sixth-college.json",
+   "confidence": "high",
+   "found": true,
+   "bucketCount": 13
+  },
+  {
+   "college": "Seventh College",
+   "matchKey": "seventh college",
+   "slug": "seventh-college",
+   "file": "seventh-college.json",
+   "confidence": "high",
+   "found": true,
+   "bucketCount": 11
+  },
+  {
+   "college": "Eighth College",
+   "matchKey": "eighth college",
+   "slug": "eighth-college",
+   "file": "eighth-college.json",
+   "confidence": "high",
+   "found": true,
+   "bucketCount": 10
+  }
+ ]
+}

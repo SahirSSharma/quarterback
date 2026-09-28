@@ -1,0 +1,54 @@
+{
+ "program": {
+  "major": "Political Science",
+  "degree": "B.A.",
+  "department": "Political Science"
+ },
+ "catalogYear": "catalog.ucsd.edu (current)",
+ "confidence": "high",
+ "found": true,
+ "notes": "General (non-specialized) Political Science major. Verified against catalog.ucsd.edu/curric/POLI-ug.html. Upper-division total = POLI 30 + 12 upper-division POLI courses. POLI 30/30D is listed by the catalog under upper-division requirements but is numerically a lower-division course; classified lower here.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/POLI-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division introductory courses (choose 3)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "POLI 10",
+    "POLI 10D",
+    "POLI 11",
+    "POLI 11D",
+    "POLI 12",
+    "POLI 12D",
+    "POLI 13",
+    "POLI 13D"
+   ],
+   "note": "Choose any 3 of the four intro subfields (D = discussion/data-enhanced variant; count 10 or 10D once, etc.)."
+  },
+  {
+   "label": "Political Inquiry / Methods (POLI 30)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 30",
+    "POLI 30D"
+   ],
+   "note": "Required methods course. Catalog groups it with upper-division requirements, but course number 30 is lower-division."
+  },
+  {
+   "label": "Upper-division Political Science electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 12,
+   "courses": [
+    "POLI 100-199"
+   ],
+   "note": "Any 12 upper-division Political Science courses."
+  }
+ ]
+}

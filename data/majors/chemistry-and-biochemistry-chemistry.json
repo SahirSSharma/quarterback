@@ -1,0 +1,184 @@
+{
+ "program": {
+  "major": "Chemistry",
+  "degree": "B.S.",
+  "department": "Chemistry and Biochemistry"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Catalog code CH25. Verified against live catalog page. Total 122-126 units. B.S. requires 48+ upper-division units in the major and at least 6 upper-division Chemistry and Biochemistry Department courses. Min 2.0 GPA; min passing grade D with no more than one D in upper-division required major work.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/CHEM-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "General Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 6AH",
+    "CHEM 6BH",
+    "CHEM 6CH"
+   ],
+   "note": "Standard sequence CHEM 6A-B-C, or honors 6AH-BH-CH."
+  },
+  {
+   "label": "General Chemistry Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 7L",
+    "CHEM 7LM"
+   ],
+   "note": "One of 7L or 7LM."
+  },
+  {
+   "label": "Organic Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 41A",
+    "CHEM 41B",
+    "CHEM 41C"
+   ],
+   "note": "Three-quarter organic sequence."
+  },
+  {
+   "label": "Organic Chemistry Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 43A",
+    "CHEM 43AM"
+   ],
+   "note": "One of 43A or 43AM."
+  },
+  {
+   "label": "Linear Algebra",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 18"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Calculus sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D"
+   ],
+   "note": "Four-quarter calculus/differential equations sequence."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2D"
+   ],
+   "note": "PHYS 2A, 2B, and one of 2C or 2D."
+  },
+  {
+   "label": "Physics Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 2BL",
+    "PHYS 2CL",
+    "PHYS 2DL"
+   ],
+   "note": "One of 2CL, 2BL, or 2DL."
+  },
+  {
+   "label": "Physical Chemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 130",
+    "CHEM 131",
+    "CHEM 132"
+   ],
+   "note": "Three quarters of physical chemistry."
+  },
+  {
+   "label": "Inorganic Chemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 120A",
+    "CHEM 120B"
+   ],
+   "note": "Two quarters of inorganic chemistry."
+  },
+  {
+   "label": "Biochemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 114A"
+   ],
+   "note": "One quarter of biochemistry."
+  },
+  {
+   "label": "Advanced Laboratory (required core)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 100A",
+    "CHEM 143B",
+    "CHEM 105A"
+   ],
+   "note": "All three required as part of the five advanced-lab requirement."
+  },
+  {
+   "label": "Advanced Laboratory (choose 2)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 100B",
+    "CHEM 105B",
+    "CHEM 108",
+    "CHEM 109",
+    "CHEM 123",
+    "CHEM 143C",
+    "CHEM 143D"
+   ],
+   "note": "Choose 2 to complete the five-course advanced-lab requirement; list verified verbatim against catalog."
+  },
+  {
+   "label": "Additional upper-division chemistry courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 100-199"
+   ],
+   "note": "Three additional four-unit upper-division Chemistry and Biochemistry Department courses. CHEM 195 or 199 (four units) may be petitioned for one."
+  }
+ ]
+}

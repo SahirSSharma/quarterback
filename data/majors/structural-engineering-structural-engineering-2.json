@@ -1,0 +1,140 @@
+{
+ "program": {
+  "major": "Structural Engineering (Aerospace Structures)",
+  "degree": "B.S.",
+  "department": "Structural Engineering (SE)"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Major code SE29 (AS). Same core as SE27; the Aerospace Structures focus sequence appears on the diploma. Minimum 145 units plus college GE. Verified against catalog.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/SE-ug.html",
+  "https://structures.ucsd.edu/academics/undergraduate-program/requirements/major-requirements",
+  "http://structures.ucsd.edu/"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E",
+    "MATH 18"
+   ],
+   "note": "All six required."
+  },
+  {
+   "label": "Physics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2BL",
+    "PHYS 2C",
+    "PHYS 2CL"
+   ]
+  },
+  {
+   "label": "Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 6A"
+   ]
+  },
+  {
+   "label": "Introductory Structural Engineering",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "SE 1",
+    "SE 3",
+    "SE 9"
+   ],
+   "note": "SE 1, SE 3, SE 9 all confirmed on both catalog and department pages."
+  },
+  {
+   "label": "Upper-division core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 13,
+   "courses": [
+    "SE 101A",
+    "SE 101B",
+    "SE 101C",
+    "SE 102",
+    "SE 105",
+    "SE 110A",
+    "SE 110B",
+    "SE 115",
+    "SE 125",
+    "SE 130A",
+    "SE 130B",
+    "SE 131A",
+    "SE 131B"
+   ]
+  },
+  {
+   "label": "Aerospace Structures focus sequence",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "SE 142",
+    "SE 160A",
+    "SE 160B",
+    "SE 171"
+   ],
+   "note": "Confirmed against catalog."
+  },
+  {
+   "label": "Capstone / senior design",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "SE 143A",
+    "SE 143B"
+   ],
+   "note": "Confirmed for Aerospace focus."
+  },
+  {
+   "label": "Technical electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "SE 100-199"
+   ],
+   "note": "3 preapproved technical electives outside the focus sequence; SE 195/197/198 not allowed."
+  },
+  {
+   "label": "General education",
+   "division": "other",
+   "kind": "units",
+   "needed": 24,
+   "courses": [],
+   "note": "Minimum 24 units plus college GE. Engineering major bucket. The SE major itself specifies no fixed GE course list; the '24 units plus college GE' requirement is satisfied by the student's college general-education program (each of UCSD's colleges - Revelle, Muir, Marshall, Warren, Roosevelt, Sixth, Seventh, Eighth - defines its own GE / humanities & social sciences sequence). Covered by the college GE section, not by a major-defined course set.",
+   "type": "seeCollegeGE"
+  },
+  {
+   "label": "Total program units",
+   "division": "other",
+   "kind": "units",
+   "needed": 145,
+   "courses": [],
+   "note": "Minimum 145 units. Pure minimum unit total for the major: minimum 145 units (per file notes and catalog). No course list; a total/floor count only.",
+   "type": "unitTotal"
+  }
+ ]
+}

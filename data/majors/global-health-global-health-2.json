@@ -1,0 +1,258 @@
+{
+ "program": {
+  "major": "Global Health",
+  "degree": "B.S.",
+  "department": "Global Health"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "VERIFIED against catalog.ucsd.edu/curric/GLBH-ug.html and the department major page. Total 24 courses / 96 units. All courses applied to the major must earn a grade of C- or better. More science-intensive than the B.A.; adds a full year each of biology, general chemistry, and calculus. Structure, bucket counts, required core courses, and division classifications all corroborated by both sources. Elective category lists are the same approved lists as the B.A. (representative, not exhaustive). NOTE: UCSD public-health subject code changed from FMPH to PH effective Fall 2024 (PH 101/102/110 = FMPH 101/102/110).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/GLBH-ug.html",
+  "https://globalhealthprogram.ucsd.edu/undergraduate-program/major.html",
+  "https://catalog.ucsd.edu/courses/FMPH.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division intro courses",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "GLBH 20",
+    "HILD 30",
+    "SOCI 30",
+    "SOCI 40",
+    "SOCI 70",
+    "PHIL 26",
+    "PSYC 1",
+    "PH 40"
+   ],
+   "note": "Two courses from this list. PH 40 accepted by petition. GLBH 20 (Introduction to Global Health) strongly recommended as one of the two. List confirmed on department page."
+  },
+  {
+   "label": "Introductory biology sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3"
+   ],
+   "note": "All three required (one full year of biology). Confirmed on both sources."
+  },
+  {
+   "label": "General chemistry with lab",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 7L"
+   ],
+   "note": "All four required (one year of general chemistry plus lab). Confirmed on both sources."
+  },
+  {
+   "label": "Mathematics: first calculus",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 10A",
+    "MATH 20A"
+   ],
+   "note": "One of these (MATH 10A or MATH 20A). Confirmed."
+  },
+  {
+   "label": "Mathematics: second calculus",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 10B",
+    "MATH 20B"
+   ],
+   "note": "One of these (MATH 10B or MATH 20B); take the sequence matching the first calculus course. Confirmed."
+  },
+  {
+   "label": "Statistics course",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 60",
+    "MATH 11",
+    "MATH 11L"
+   ],
+   "note": "One of these to complete the math/statistics year requirement. Confirmed on both sources (B.S. stats options are narrower than the B.A.)."
+  },
+  {
+   "label": "Upper-division Global Health core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "GLBH 148",
+    "GLBH 181",
+    "MGT 173"
+   ],
+   "note": "All three required: GLBH 148 (Global Health and Cultural Diversity), GLBH 181 (Essentials of Global Health), MGT 173 (Project Management: Health Services). Confirmed on both sources."
+  },
+  {
+   "label": "Policy analysis course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "GLBH 160",
+    "POLI 160AA",
+    "POLI 170A",
+    "USP 147",
+    "HISC 180",
+    "ECON 130",
+    "ENVR 110",
+    "USP 133",
+    "SOCI 152",
+    "USP 171"
+   ],
+   "note": "One of these. USP 133 and SOCI 152 are cross-listed (same course). Same list as the B.A.; confirmed on catalog."
+  },
+  {
+   "label": "Global Health field experience",
+   "division": "other",
+   "kind": "units",
+   "needed": 0,
+   "courses": [],
+   "note": "Non-course requirement (confirmed, identical to B.A.): minimum 100 hours over at least 5 weeks (3 weeks if international), distributed over no more than three programs, at an approved research, service, or clinical site, completed by graduation quarter. Culminates in a capstone seminar and senior thesis. Non-course experiential requirement, identical to the B.A. Minimum 100 field-experience hours over at least 5 weeks (3 weeks if international), distributed across no more than three programs, at an approved research, service, or clinical site, completed by the graduation quarter. Culminates in a capstone seminar and senior thesis. Not satisfied by any fixed course set, so classified manual. (The associated capstone/thesis is typically taken as GLBH 191/195-series units but the field hours themselves are the gating requirement and are verified/petitioned by the department.)",
+   "type": "manual"
+  },
+  {
+   "label": "Biological science electives (upper-division)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ANBI 116",
+    "ANBI 130",
+    "ANBI 131",
+    "ANBI 134",
+    "ANBI 139",
+    "ANBI 141",
+    "ANBI 144",
+    "BIBC 102",
+    "BIBC 103",
+    "BIBC 120",
+    "BICD 100",
+    "BICD 110",
+    "BICD 136",
+    "BICD 140",
+    "BIEB 150",
+    "BIEB 176",
+    "BIMM 100",
+    "BIMM 110",
+    "BIMM 114",
+    "BIMM 120",
+    "BIMM 124",
+    "BIPN 100",
+    "BIPN 102",
+    "BIPN 134",
+    "COGS 174",
+    "GLBH 102",
+    "HDS 110",
+    "PH 101",
+    "PH 102",
+    "FMPH 101",
+    "SOCI 107"
+   ],
+   "note": "3 upper-division courses from the approved biological science list (B.S. requires all upper-division here). PH 101/102 = FMPH 101/102. Representative list, not exhaustive."
+  },
+  {
+   "label": "Medical social science electives (upper-division)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "ANSC 106",
+    "ANSC 121",
+    "ANSC 144",
+    "ANSC 148",
+    "ANSC 149",
+    "ANSC 155",
+    "ANSC 156",
+    "ANSC 164",
+    "ANSC 182",
+    "COMM 114J",
+    "COMM 114W",
+    "CGS 123",
+    "ECON 140",
+    "ECON 141",
+    "ETHN 142",
+    "ETHN 144M",
+    "POLI 111D",
+    "PSYC 100",
+    "PSYC 101",
+    "PSYC 116",
+    "PSYC 124",
+    "PSYC 125",
+    "PSYC 134",
+    "PSYC 143",
+    "PSYC 155",
+    "PSYC 168",
+    "PSYC 172",
+    "PSYC 179",
+    "PSYC 181",
+    "PSYC 188",
+    "PH 110",
+    "SOCI 113",
+    "SOCI 134",
+    "SOCI 135",
+    "SOCI 136E",
+    "SOCI 136F",
+    "SOCI 138",
+    "SOCI 143",
+    "SOCI 173",
+    "USP 143",
+    "USP 144",
+    "USP 145",
+    "USP 147"
+   ],
+   "note": "4 upper-division courses from the approved medical social science list (B.S. requires one more than the B.A.). Also includes many GLBH 100-173 courses. PH 110 = FMPH 110. Representative list, not exhaustive."
+  },
+  {
+   "label": "Medical humanities elective (upper-division)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ANSC 129",
+    "ANSC 188",
+    "ANSC 190",
+    "CGS 111",
+    "GLBH 104",
+    "GLBH 107",
+    "GLBH 112",
+    "GLBH 118",
+    "GLBH 129",
+    "HISC 108",
+    "HISC 109",
+    "HISC 115",
+    "HISC 116",
+    "HISC 117",
+    "HISC 119",
+    "HISC 176",
+    "LTCS 155",
+    "LTCS 165",
+    "LTWL 177",
+    "PHIL 150",
+    "PHIL 163",
+    "PHIL 164",
+    "PHIL 173"
+   ],
+   "note": "1 upper-division course from the approved medical humanities list. Codes verified against catalog. Representative list, not exhaustive. (B.S. does not require the global-processes or significant-writing electives that the B.A. requires.)"
+  }
+ ]
+}

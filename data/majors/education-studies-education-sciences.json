@@ -1,0 +1,174 @@
+{
+ "program": {
+  "major": "Education Sciences",
+  "degree": "B.S.",
+  "department": "Education Studies"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Transcribed from the General Catalog Education Studies program page, section \"Bachelor of Science in Education Sciences: Transforming Education through Research and Practice\" → \"The Major\". The stated shape is one lower-division course (at least two units) plus eleven upper-division courses (at least fifty units), with at least six of the eleven inside the Department of Education Studies. Every named category below is carried as its own bucket. The capstone is the one thing the engine cannot express: a student picks ONE of three fieldwork pathways, and Pathway 3 is three courses where the other two are two — so the bucket asks for two and its note names all three pathways. The 'six courses within EDS', the EDS 139 corequisite, and the P/C-/better grade rule are prose on the buckets they belong to, because a course cannot be counted twice. Cross-listed courses are listed under both codes so either spelling on a transcript matches. Seven codes the program page names are NOT in the catalog's own course listings — EDS 119 (listed there only as LIGN 119), EDS 128A, EDS 128B, EDS 129A, EDS 129B, EDS 129C, USP 116, ETHN 144 (listed as ETHN 144M) and COMM 169. They are kept verbatim because the program page is the authority on what the major requires, and EDS 129A is on the Fall 2026 schedule even though the course listings omit it; a code that no longer exists simply never matches. Do not 'clean' them out.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/EDS-ug.html",
+  "https://eds.ucsd.edu/undergraduate/education-sciences-major/index.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-Division Introduction to Education",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 95",
+    "EDS 31",
+    "CHEM 96",
+    "EDS 38",
+    "EDS 39",
+    "EDS 40",
+    "SOCI 60",
+    "HDS 1"
+   ],
+   "note": "One lower-division introductory course, and a prerequisite to the upper-division major courses. EDS 31 and CHEM 96 are the same cross-listed course; MATH 95, EDS 31/CHEM 96, EDS 38 and EDS 39 are two units each, EDS 40, SOCI 60 and HDS 1 are four."
+  },
+  {
+   "label": "Education in a Diverse Society",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "EDS 107",
+    "EDS 112",
+    "EDS 113",
+    "EDS 117",
+    "SOCI 117",
+    "EDS 125",
+    "EDS 126",
+    "EDS 155",
+    "SOCI 152"
+   ],
+   "note": "At least one course. EDS 117 and SOCI 117 are the same cross-listed course."
+  },
+  {
+   "label": "Learning and Development",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "EDS 114",
+    "EDS 115",
+    "EDS 118",
+    "EDS 119",
+    "LIGN 119",
+    "EDS 162",
+    "EDS 165",
+    "HDS 120",
+    "HDS 122",
+    "HDS 133"
+   ],
+   "note": "At least two courses. EDS 119 and LIGN 119 are the same cross-listed course."
+  },
+  {
+   "label": "Introduction to Learning Contexts",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "EDS 130",
+    "EDS 131",
+    "EDS 133",
+    "EDS 135",
+    "EDS 136",
+    "EDS 137",
+    "EDS 145",
+    "EDS 146"
+   ],
+   "note": "At least one course. EDS 139 (Practicum in Teaching/Learning, 2 units) is a corequisite for every course here except EDS 135, so it is taken alongside — it is not itself one of the eleven upper-division courses."
+  },
+  {
+   "label": "Education Research Methods — Qualitative",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "EDS 102",
+    "SOCI 110"
+   ],
+   "note": "One qualitative methods course, or an equivalent approved by the department."
+  },
+  {
+   "label": "Education Research Methods — Quantitative",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "EDS 103",
+    "SOCI 109"
+   ],
+   "note": "One quantitative methods course, or an equivalent approved by the department."
+  },
+  {
+   "label": "Senior Educational Fieldwork Capstone",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "EDS 140",
+    "EDS 141",
+    "EDS 128A",
+    "EDS 128B",
+    "EDS 129A",
+    "EDS 129B",
+    "EDS 129C"
+   ],
+   "note": "Complete ONE pathway end to end, not two courses picked across them. Pathway 1 (Programs, Policy, and Research): EDS 140 + EDS 141. Pathway 2 (Elementary Education Teaching): EDS 128A + EDS 128B. Pathway 3 (Secondary Education Teaching): EDS 129A + EDS 129B + EDS 129C — three courses, so a Pathway 3 student takes one more than this bucket asks for. EDS 139 is a corequisite for every fieldwork course. Pathway 2 completes the course requirements to enter the graduate Multiple Subjects program; Pathway 3 does the same for Single Subjects, apart from the content-knowledge requirement."
+  },
+  {
+   "label": "Upper-Division Focus Area Electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "EDS 111",
+    "MATH 121A",
+    "MATH 121B",
+    "EDS 122",
+    "CHEM 187",
+    "EDS 123",
+    "CHEM 188",
+    "EDS 124AR",
+    "EDS 124BR",
+    "EDS 127",
+    "EDS 164R",
+    "ECON 147",
+    "USP 104",
+    "USP 116",
+    "SOCI 127",
+    "SOCI 139",
+    "EDS 120",
+    "ETHN 100A",
+    "ETHN 100B",
+    "SOCI 102",
+    "SOCI 108",
+    "SOCI 122",
+    "USP 125",
+    "EDS 108GS",
+    "EDS 110R",
+    "EDS 116",
+    "ETHN 144",
+    "COMM 168",
+    "COMM 169",
+    "EDS 180"
+   ],
+   "note": "At least two upper-division electives. The listed courses are the catalog's own focus areas — P-12 Education, Education Policy, Research in Education, Diverse Learning Settings, and the EDS 180 senior seminar — and a student may draw from more than one, or define their own focus from EDS and related-department courses with department approval. EDS 199 taken Pass/No Pass may count as ONE elective. EDS 122/CHEM 187 and EDS 123/CHEM 188 are cross-listed pairs."
+  },
+  {
+   "label": "Total upper-division units",
+   "division": "other",
+   "kind": "units",
+   "needed": 50,
+   "courses": [],
+   "type": "unitTotal",
+   "note": "Eleven upper-division courses totalling at least fifty units, with a minimum of six of them inside the Department of Education Studies. Lower- and upper-division major courses must be completed with a P, C-, or better. Apart from the independent-study electives (EDS 197, 198, 199), which are always Pass/No Pass, at most two courses in the major may be taken Pass/No Pass."
+  }
+ ]
+}

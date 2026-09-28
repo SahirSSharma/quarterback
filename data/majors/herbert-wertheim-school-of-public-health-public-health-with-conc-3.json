@@ -1,0 +1,206 @@
+{
+ "program": {
+  "major": "Public Health with Concentration in Community Health Sciences",
+  "degree": "B.S.",
+  "department": "Herbert Wertheim School of Public Health"
+ },
+ "catalogYear": "2024-2026 (UCSD General Catalog)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Lower-division 32-33 units, upper-division 48 units. FIXED: replaced the over-broad 'ANSC/GLBH/SOCI 100-199' designated-elective ranges with the catalog's actual enumerated approved list.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PH-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introduction to Public Health",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 40",
+    "PH 40R"
+   ],
+   "note": "One of PH 40 or PH 40R"
+  },
+  {
+   "label": "Introductory Biology (three courses)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3",
+    "BILD 10",
+    "BILD 12",
+    "BILD 18",
+    "BILD 20",
+    "BILD 22",
+    "BILD 26",
+    "BILD 28",
+    "BILD 30",
+    "BILD 32",
+    "BILD 36",
+    "BILD 38",
+    "BILD 44",
+    "BILD 60",
+    "BILD 61"
+   ],
+   "note": "Choose three BILD courses from this list"
+  },
+  {
+   "label": "Quantitative methods",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 11",
+    "PSYC 60",
+    "COGS 14B",
+    "HDS 60"
+   ],
+   "note": "One quantitative methods / statistics course"
+  },
+  {
+   "label": "Public health research methods",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 45",
+    "PH 45R"
+   ],
+   "note": "One of PH 45 or PH 45R"
+  },
+  {
+   "label": "Public Health Trending Topics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 70-85"
+   ],
+   "note": "One 4-unit course from PH 70-85"
+  },
+  {
+   "label": "Lower-division PH elective (Public Health Elements)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 50-95",
+    "PH 98",
+    "PH 99"
+   ],
+   "note": "One 4-unit lower-division PH course"
+  },
+  {
+   "label": "Public health core (Core Disciplines)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PH 101",
+    "PH 101R",
+    "PH 102",
+    "PH 102R",
+    "PH 110",
+    "PH 110R",
+    "PH 120",
+    "PH 120R",
+    "PH 130"
+   ],
+   "note": "PH 101, PH 102, PH 110, PH 120, PH 130 (R variants substitute); 20 units"
+  },
+  {
+   "label": "Community health concentration courses (Public Health Perspectives)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PH 151",
+    "PH 151R",
+    "PH 151GS",
+    "PH 155",
+    "PH 162"
+   ],
+   "note": "PH 151 (or 151R/151GS), PH 155, and PH 162; 12 units"
+  },
+  {
+   "label": "Designated electives (Community Health Sciences)",
+   "division": "upper",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "ANSC 101",
+    "ANSC 105",
+    "ANSC 105GS",
+    "ANSC 143",
+    "ANSC 144",
+    "ANSC 146",
+    "ANSC 147",
+    "ANSC 148",
+    "ANSC 150",
+    "ANSC 190GS",
+    "ANTH 128A",
+    "ANTH 128B",
+    "BICD 136",
+    "COMM 102C",
+    "ETHN 103",
+    "ETHN 142",
+    "ETHN 157",
+    "ETHN 190",
+    "GLBH 101",
+    "GLBH 105",
+    "GLBH 110",
+    "GLBH 111",
+    "GLBH 113",
+    "GLBH 143",
+    "GLBH 146",
+    "GLBH 147",
+    "GLBH 148",
+    "GLBH 150",
+    "GLBH 181",
+    "LTCS 165",
+    "PH 151",
+    "PH 155",
+    "PH 161",
+    "SOCI 104Q",
+    "SOCI 108",
+    "SOCI 113",
+    "SOCI 135",
+    "SOCI 136F",
+    "SOCI 137",
+    "SOCI 173",
+    "USP 128A",
+    "USP 128B",
+    "USP 129",
+    "USP 136",
+    "USP 141A",
+    "USP 141B",
+    "USP 142A",
+    "USP 142B",
+    "USP 144",
+    "USP 147",
+    "USP 149"
+   ],
+   "note": "Eight units from the catalog's enumerated approved list of designated electives"
+  },
+  {
+   "label": "Capstone / practicum",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PH 193",
+    "PH 193R",
+    "PH 194",
+    "PH 194R",
+    "PH 196AH",
+    "PH 196BH"
+   ],
+   "note": "PH 193/193R + PH 194/194R (8 units), OR PH 196AH + PH 196BH (12 units)"
+  }
+ ]
+}

@@ -1,0 +1,295 @@
+{
+ "program": {
+  "major": "Computer Science with Specialization in Bioinformatics",
+  "degree": "B.S.",
+  "department": "Computer Science and Engineering (CSE)"
+ },
+ "catalogYear": "2023-2024",
+ "confidence": "high",
+ "found": true,
+ "notes": "128 units total excluding GE. Verified against catalog: CS core, chem/bio sequences, and the full bioinformatics course series (cross-listed CSE/BIMM/BENG 181/182, BENG 183, CSE 185, MATH 186) all confirmed. Upper-division elective department list per catalog is CSE/COGS/DSC/ECE/EDS/LIGN; harvested had also included ENG which was not confirmed on the summarized page and is retained only tentatively (see bucket note).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/CSE-ug.html",
+  "https://cse.ucsd.edu/undergraduate/undergraduate-degree-programs"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory programming",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 8B",
+    "CSE 11"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Data structures (CSE 12)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 12"
+   ]
+  },
+  {
+   "label": "Software tools / systems programming",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 15L",
+    "CSE 29"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Mathematics for algorithms (CSE 21)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 21"
+   ]
+  },
+  {
+   "label": "Computer organization (CSE 30)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 30"
+   ]
+  },
+  {
+   "label": "Additional lower-division CSE-related units",
+   "division": "lower",
+   "kind": "units",
+   "needed": 2,
+   "courses": [
+    "CSE 3",
+    "CSE 4GS",
+    "CSE 6R",
+    "CSE 6GS",
+    "CSE 8A",
+    "CSE 25",
+    "CSE 42",
+    "CSE 86",
+    "CSE 89",
+    "CSE 90",
+    "CSE 91",
+    "CSE 95",
+    "CSE 99",
+    "CSE 180",
+    "CSE 180R"
+   ],
+   "note": "Minimum 2 units; any CSE upper-division course not used elsewhere also counts. Non-CSE codes removed as unverified."
+  },
+  {
+   "label": "Calculus I (MATH 20A)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20A"
+   ]
+  },
+  {
+   "label": "Calculus II (MATH 20B)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20B"
+   ]
+  },
+  {
+   "label": "Calculus III / multivariable",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20C",
+    "MATH 31BH"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Linear algebra",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 18",
+    "MATH 31AH"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "General chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B"
+   ],
+   "note": "Both required. Confirmed on page."
+  },
+  {
+   "label": "Organic chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 40A",
+    "CHEM 41A"
+   ],
+   "note": "Choose one. Confirmed on page."
+  },
+  {
+   "label": "Biology (BILD 1, 3, 4)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BILD 1",
+    "BILD 3",
+    "BILD 4"
+   ],
+   "note": "All three required. Confirmed on page."
+  },
+  {
+   "label": "Physics: mechanics (PHYS 2A)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 2A"
+   ]
+  },
+  {
+   "label": "Data structures (CSE 100)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 100"
+   ]
+  },
+  {
+   "label": "Algorithms (CSE 101)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 101"
+   ]
+  },
+  {
+   "label": "Biochemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 114A",
+    "BIBC 102"
+   ],
+   "note": "Choose one. Confirmed on page."
+  },
+  {
+   "label": "Genetics (BICD 100)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BICD 100"
+   ]
+  },
+  {
+   "label": "Molecular biology (BIMM 100)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIMM 100"
+   ]
+  },
+  {
+   "label": "Molecular biology of bacteria / lab (BIMM 101)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIMM 101"
+   ]
+  },
+  {
+   "label": "Bioinformatics I",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 181",
+    "BIMM 181",
+    "BENG 181"
+   ],
+   "note": "Choose one (cross-listed). Confirmed on page."
+  },
+  {
+   "label": "Bioinformatics II",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 182",
+    "BIMM 182",
+    "BENG 182"
+   ],
+   "note": "Choose one (cross-listed). Confirmed on page."
+  },
+  {
+   "label": "Bioinformatics III / applied genomic technologies (BENG 183)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BENG 183"
+   ]
+  },
+  {
+   "label": "Bioinformatics laboratory (CSE 185)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 185"
+   ]
+  },
+  {
+   "label": "Probability & statistics for bioinformatics (MATH 186)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 186"
+   ]
+  },
+  {
+   "label": "Upper-division electives (five courses, 20 units)",
+   "division": "upper",
+   "kind": "units",
+   "needed": 20,
+   "courses": [
+    "CSE 100-199",
+    "COGS 100-199",
+    "DSC 100-199",
+    "ECE 100-199",
+    "EDS 100-199",
+    "LIGN 100-199"
+   ],
+   "note": "Five upper-division electives from approved CSE/COGS/DSC/ECE/EDS/LIGN list (catalog omits ENG, which was in harvested data and has been removed). Max 12 units P/NP; max 4 units from special studies."
+  }
+ ]
+}

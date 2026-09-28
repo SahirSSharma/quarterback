@@ -1,0 +1,360 @@
+{
+ "page": "BIOM",
+ "name": "Biomedical Sciences",
+ "courses": [
+  {
+   "code": "BIOM 200A",
+   "subject": "BIOM",
+   "num": "200A",
+   "title": "Molecules to Organisms: Concepts",
+   "units": "6",
+   "level": null,
+   "description": "This course provides a systematic approach to current biomedical research, using analysis of selected topics to focus on the process of research discovery and its critical evaluation. The course progresses through five thematic modules that cover genes, building a cell, cellular responses, organogenesis, and the processes that allow survival in the world.",
+   "prereqText": "limited to BMS graduate students except by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 200B",
+   "subject": "BIOM",
+   "num": "200B",
+   "title": "Molecules to Organisms: Approaches",
+   "units": "2",
+   "level": null,
+   "description": "Students will critically evaluate classic and current research papers in biomedical research, in addition to being exposed to state-of-the-art technologies in research.",
+   "prereqText": "limited to BMS graduate students except by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 201",
+   "subject": "BIOM",
+   "num": "201",
+   "title": "Seminars in Biomedical Research",
+   "units": "4",
+   "level": null,
+   "description": "This course includes attendance at seminars in the biomedical sciences and is designed to provoke critical discussion of the presented findings and scientific approaches in a small-group setting.",
+   "prereqText": "limited to BMS graduate students except by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 202",
+   "subject": "BIOM",
+   "num": "202",
+   "title": "Biomedical Sciences Research Rotation",
+   "units": "3",
+   "level": null,
+   "description": "Laboratory rotations provide first-year students with experience in the various experimental methods used in biomedical sciences.",
+   "prereqText": "limited to BMS graduate students except by consent of instructor. (F,W,S)",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 209",
+   "subject": "BIOM",
+   "num": "209",
+   "title": "Lipid Cell Signaling Genomics, Proteomics, and Metabolomics",
+   "units": "2",
+   "level": null,
+   "description": "Overview of new systems biology \u201comics\u201d approaches to lipid metabolism and cell signaling including interrogating gene and lipid databases, techniques for lipidomics, and implications for profiling and biomarker discovery in blood and tissues relevant to inflammatory and other human diseases. Recommended: one quarter of undergraduate biochemistry.",
+   "prereqText": "none.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 218",
+   "subject": "BIOM",
+   "num": "218",
+   "title": "Current Topics in Anthropogeny",
+   "units": "1",
+   "level": null,
+   "description": "Participation in the symposia held by CARTA three times a year. Students shadow one of the speakers during public and private symposia. Students meet after each symposium and each writes a summary of the speaker\u2019s presentation and ensuring discussion.",
+   "prereqText": "graduate standing required.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 219",
+   "subject": "BIOM",
+   "num": "219",
+   "title": "Ethics in Scientific Research",
+   "units": "1",
+   "level": null,
+   "description": "Overview of ethical issues in scientific research, conflicts of interest; national, statewide and campus issues and requirement; ethical issues in publications; authorship; retention of research records; tracing of research records; attribution; plagiarism; copyright considerations; primary, archival and meeting summary publications; ethical procedures and policies; NIH, NSF, California and UC San Diego; case studies and precedents in ethics.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 222",
+   "subject": "BIOM",
+   "num": "222",
+   "title": "Essentials of Glycobiology",
+   "units": "2",
+   "level": null,
+   "description": "Advanced elective for graduate/medical students who have had core courses in cell biology or biochemistry. Expert faculty will present a coordinated overview of the field of glycobiology, which explores the structure, synthesis, and functions of sugar chains in biological systems.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 225",
+   "subject": "BIOM",
+   "num": "225",
+   "title": "Introduction to Anthropogeny",
+   "units": "2",
+   "level": null,
+   "description": "An overview of the current state of research into human origins with illustration of the spatial and temporal scales: from million-year-old phylogenies to millisecond physiological processes, and from human societies dispersed across continents to cells and molecules.",
+   "prereqText": "graduate standing required.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 229",
+   "subject": "BIOM",
+   "num": "229",
+   "title": "Advanced Anthropogeny",
+   "units": "2",
+   "level": null,
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 231",
+   "subject": "BIOM",
+   "num": "231",
+   "title": "Contemporary Topics in Pharmacology",
+   "units": "2",
+   "level": null,
+   "description": "A selection of short courses in the biomedical and pharmacological sciences offered by resident experts. Topics will vary annually. Each short course will last one to two weeks, meeting five hours a week.",
+   "prereqText": "consent of instructor. (F,W,S)",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 242",
+   "subject": "BIOM",
+   "num": "242",
+   "title": "Seminar in Genetics",
+   "units": "1",
+   "level": null,
+   "description": "Intended for graduate students interested in principles of classical and molecular genetics. Will attend weekly genetics seminar and participate in didactic/discussion preparatory session.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 246",
+   "subject": "BIOM",
+   "num": "246",
+   "title": "Current Literature in Glycobiology",
+   "units": "1",
+   "level": null,
+   "description": "Informal presentations on topics of current interest in glycobiology as represented in the current scientific literature.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 252",
+   "subject": "BIOM",
+   "num": "252",
+   "title": "Genetics and Genomics",
+   "units": "3",
+   "level": null,
+   "description": "This course will examine the basic principles of genetics and genomics. We will focus on classic discoveries and examples of approaches to current experimental problems. Emphasis areas will vary but general topics include Mendelian inheritance, imprinting, cytogenetics, genome structure, genetic variation, linkage and recombination, complex traits, statistical genetics, population genetics, genomic tools and methodology, medical genetics, model organisms.",
+   "prereqText": "BIOM 200A-B, 201. Limited to BMS graduate students except by consent of instructor.",
+   "prereqs": [
+    [
+     "BIOM 200A"
+    ],
+    [
+     "BIOM 200B"
+    ],
+    [
+     "BIOM 201"
+    ]
+   ]
+  },
+  {
+   "code": "BIOM 253",
+   "subject": "BIOM",
+   "num": "253",
+   "title": "Pathogens and Host Defense",
+   "units": "3",
+   "level": null,
+   "description": "This course will examine the innate and adaptive immune responses of humans to microbial infection. In parallel, we will explore the virulence mechanisms through which certain medically important viruses, bacteria, fungi, and parasites subvert host defense to produce infectious disease. Emphasis will be placed on basic molecular genetic and cellular approaches to understanding microbial pathogenesis and host susceptibility, including progress toward novel antibiotic and immune stimulatory therapies.",
+   "prereqText": "BIOM 200A-B, 201. Limited to BMS graduate students except by consent of instructor.",
+   "prereqs": [
+    [
+     "BIOM 200A"
+    ],
+    [
+     "BIOM 200B"
+    ],
+    [
+     "BIOM 201"
+    ]
+   ]
+  },
+  {
+   "code": "BIOM 254",
+   "subject": "BIOM",
+   "num": "254",
+   "title": "Molecular and Cell Biology",
+   "units": "3",
+   "level": null,
+   "description": "This course will examine the basic principles of molecular and cellular biology and their impact on medicine focusing on classic discoveries and examples of approaches to current experimental problems. Emphasis areas will vary but will include genes and genomics, chromosome biology and nuclear structure, transcriptional regulation, RNA processing, cell cycle control, cell growth and death, cell differentiation and stem cell biology, molecular motors and motility, membrane trafficking and signaling.",
+   "prereqText": "BIOM 200A-B, 201. Limited to BMS graduate students except by consent of instructor.",
+   "prereqs": [
+    [
+     "BIOM 200A"
+    ],
+    [
+     "BIOM 200B"
+    ],
+    [
+     "BIOM 201"
+    ]
+   ]
+  },
+  {
+   "code": "BIOM 255",
+   "subject": "BIOM",
+   "num": "255",
+   "title": "Molecular Basis of Drug Action and Disease Therapy",
+   "units": "3",
+   "level": null,
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 256",
+   "subject": "BIOM",
+   "num": "256",
+   "title": "Molecular Pathology of Cancer",
+   "units": "3",
+   "level": null,
+   "description": "This course outlines a current understanding of genetic mechanisms that underlie carcinogenesis and their impact on cell proliferation, differentiation, angiogenesis, metastasis, and survival. The topics of tumor histopathology, the tumor stem cell phenotype, and cancer drug design are also addressed.",
+   "prereqText": "limited to BMS graduate students except by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 262",
+   "subject": "BIOM",
+   "num": "262",
+   "title": "Quantitative Methods in Genetics",
+   "units": "4",
+   "level": null,
+   "description": "This advanced problem-oriented course will examine experimental design, laboratory methods, and quantitative analytical tools used in genetic and genomic research. Students will analyze supplied data using a variety of software packages.",
+   "prereqText": "BGGN 223, or BIOM 252 and BIOM 272, or equivalent.",
+   "prereqs": [
+    [
+     "BGGN 223",
+     "BIOM 252"
+    ]
+   ]
+  },
+  {
+   "code": "BIOM 272",
+   "subject": "BIOM",
+   "num": "272",
+   "title": "Seminars in Genetics",
+   "units": "2",
+   "level": null,
+   "description": "This course includes attendance at seminars in genetics and is designed to provoke critical discussion of the presented findings and scientific approaches in a small group setting.",
+   "prereqText": "limited to BMS graduate students except by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 274",
+   "subject": "BIOM",
+   "num": "274",
+   "title": "Seminars in Molecular and Cell Biology",
+   "units": "2",
+   "level": null,
+   "description": "This course includes attendance at seminars in molecular and cell biology and is designed to provoke critical discussion of the presented findings and scientific approaches in a small group setting.",
+   "prereqText": "limited to BMS graduate students except by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 275",
+   "subject": "BIOM",
+   "num": "275",
+   "title": "Seminars in Pharmacology",
+   "units": "2",
+   "level": null,
+   "description": "This course includes attendance at seminars in pharmacology and is designed to provoke critical discussion of the presented findings and the scientific approaches in a small group setting.",
+   "prereqText": "limited to BMS graduate students except by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 285",
+   "subject": "BIOM",
+   "num": "285",
+   "title": "Statistical Inference in the Medical Sciences",
+   "units": "2",
+   "level": null,
+   "description": "An introduction to basic techniques used in biomedical literature: t tests, ANOVA, chi-square, linear and nonlinear regression. Emphasis will be on understanding the appropriate use and interpretation of the tests, rather than on the calculations.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 294",
+   "subject": "BIOM",
+   "num": "294",
+   "title": "Pharmacology and Molecular Biology Journal Club",
+   "units": "0\u20131",
+   "level": null,
+   "description": "Current literature in molecular pharmacology and molecular biology is reviewed. Two papers are chosen per week for oral presentation by students. Faculty critique the student presentations.",
+   "prereqText": "enrollment in PhD program at year two and above. (F,W,S)",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 295",
+   "subject": "BIOM",
+   "num": "295",
+   "title": "Pharmacology Research Discussions",
+   "units": "0\u20131",
+   "level": null,
+   "description": "Student, faculty, and fellow discussion groups on research projects. Students are expected to present research findings to fellows, other PhD students, and faculty.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 296",
+   "subject": "BIOM",
+   "num": "296",
+   "title": "Directed Reading",
+   "units": "1\u20134",
+   "level": null,
+   "description": "Reading of special topics under the direction of a faculty member. Exact subject matter to be arranged in individual cases.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 297",
+   "subject": "BIOM",
+   "num": "297",
+   "title": "Progress in Signal Transduction",
+   "units": "1",
+   "level": null,
+   "description": "Papers describing recent progress in signal transduction from the cell-surface to the nucleus will be chosen from recent research literature. Two papers will be discussed and criticized in detail each week for one hour.",
+   "prereqText": "graduate-level biochemistry, cell biology, and molecular biology; registered as second-year and above graduate student in biomedical sciences, biology, or chemistry. (F,W,S)",
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 298",
+   "subject": "BIOM",
+   "num": "298",
+   "title": "Directed Study",
+   "units": "1\u201312",
+   "level": null,
+   "description": "Reading and laboratory study of special topics under the direction of a faculty member. Exact subject matter to be arranged in individual cases. (F,W,S)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "BIOM 299",
+   "subject": "BIOM",
+   "num": "299",
+   "title": "Independent Study or Research",
+   "units": "1\u201312",
+   "level": null,
+   "description": "Independent study or research.",
+   "prereqText": "consent of instructor. (F,W,S)",
+   "prereqs": null
+  }
+ ]
+}

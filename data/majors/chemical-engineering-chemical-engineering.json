@@ -1,0 +1,245 @@
+{
+ "program": {
+  "major": "Chemical Engineering",
+  "degree": "B.S.",
+  "department": "Chemical Engineering"
+ },
+ "catalogYear": "2026-2027",
+ "confidence": "high",
+ "found": true,
+ "notes": "Offered by the Aiiso Yufeng Li Family Department of Chemical and Nano Engineering (subject code CENG). All three source pages corroborate the requirement structure. Basic sciences (54 units): math 24, physics 14, chemistry 16. Chemistry core = three advanced chemistry electives (12 units). CENG core (33 units) includes CENG 4 seminar + 100/110 + 101A-C, 102, 113, 120, 122. General engineering (12 units): CENG 15, 114, 170. Process lab/design (16 units): CENG 124A/B, 176A/B. Technical electives (12 units) = three upper-division/graduate engineering courses. All CENG courses except CENG 4 and CENG 199 must be letter-graded; every major course must be passed with C- or higher. Correction from harvested data: the advanced-chemistry-electives bucket mixes lower- and upper-division courses, so its division is set to 'other' rather than 'upper'.",
+ "sourceUrls": [
+  "https://nanoengineering.ucsd.edu/undergrad-programs/degree/bs-chemical-engineering/major-requirements",
+  "https://cne.ucsd.edu/undergrad-programs/degree/bs-chemical-engineering/curriculum",
+  "https://catalog.ucsd.edu/curric/NANO-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E",
+    "MATH 18"
+   ],
+   "note": "24 units. MATH 18 (linear algebra) was formerly MATH 20F. All six required. Confirmed on all sources."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2CL"
+   ],
+   "note": "14 units. All required. Confirmed on catalog and curriculum pages."
+  },
+  {
+   "label": "General chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 7L"
+   ],
+   "note": "16 units. All required. Confirmed."
+  },
+  {
+   "label": "Introductory seminar (CENG 4)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CENG 4"
+   ],
+   "note": "1-unit introductory seminar/laboratory required of all incoming first-year and transfer students. Part of the 33-unit CENG core on the catalog. Exempt from the letter-grade rule."
+  },
+  {
+   "label": "Computer programming (MATLAB) - general engineering",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CENG 15"
+   ],
+   "note": "Part of the 12-unit general engineering requirement (MATLAB programming). Confirmed lower-division."
+  },
+  {
+   "label": "Advanced chemistry electives (chemistry core)",
+   "division": "other",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 41A",
+    "CHEM 41B",
+    "CHEM 41C",
+    "CHEM 43A",
+    "CHEM 114A",
+    "BIBC 100",
+    "CHEM 114B",
+    "BIBC 102",
+    "CHEM 120A",
+    "CHEM 120B",
+    "CHEM 130",
+    "CHEM 131",
+    "CHEM 132"
+   ],
+   "note": "Choose three (12 units) from this approved list. Division set to 'other' because the list mixes divisions: CHEM 41A/41B/41C and 43A are lower-division; 114A/114B/120A/120B/130/131/132 are upper-division. CHEM 114A may be substituted by BIBC 100 and CHEM 114B by BIBC 102 (cannot receive credit for both a CHEM course and its BIBC equivalent). Confirmed on all sources."
+  },
+  {
+   "label": "Chemical process modeling (choose one)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CENG 100",
+    "CENG 110"
+   ],
+   "note": "Part of the 33-unit chemical engineering core. CENG 100 or CENG 110. Confirmed."
+  },
+  {
+   "label": "Chemical engineering core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "CENG 101A",
+    "CENG 101B",
+    "CENG 101C",
+    "CENG 102",
+    "CENG 113",
+    "CENG 120",
+    "CENG 122"
+   ],
+   "note": "Part of the 33-unit CENG core. Transport phenomena (101A-C), solution thermodynamics (102), chemical reaction engineering (113), process control (120), unit operations (122). All required. Confirmed."
+  },
+  {
+   "label": "General engineering (upper-division)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CENG 114",
+    "CENG 170"
+   ],
+   "note": "Part of the 12-unit general engineering requirement: CENG 114 (probability/statistics) and CENG 170 (instrumentation). CENG 15 (listed separately) is the lower-division third course. Confirmed."
+  },
+  {
+   "label": "Process laboratory and design",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "CENG 124A",
+    "CENG 124B",
+    "CENG 176A",
+    "CENG 176B"
+   ],
+   "note": "16 units. CENG 124A-B (process/plant design) and CENG 176A-B (two-quarter senior process laboratory). All required. Confirmed."
+  },
+  {
+   "label": "Technical electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BENG 100",
+    "BENG 110",
+    "BENG 112A",
+    "BENG 112B",
+    "BENG 122A",
+    "BENG 130",
+    "BENG 186",
+    "CENG 134",
+    "CENG 157",
+    "CENG 160",
+    "CENG 175",
+    "CENG 207",
+    "CENG 208",
+    "CENG 211",
+    "CENG 212",
+    "CENG 213",
+    "CENG 214",
+    "CENG 215",
+    "CENG 254",
+    "CENG 256",
+    "CHEM 134",
+    "ECE 103",
+    "ECE 134",
+    "ECE 135A",
+    "ECE 136L",
+    "ECE 171B",
+    "ESYS 103",
+    "MAE 104",
+    "MAE 105",
+    "MAE 107",
+    "MAE 110",
+    "MAE 113",
+    "MAE 118",
+    "MAE 119",
+    "MAE 120",
+    "MAE 121",
+    "MAE 122",
+    "MAE 123",
+    "MAE 125",
+    "MAE 126A",
+    "MAE 126B",
+    "MAE 131A",
+    "MAE 142",
+    "MAE 143A",
+    "MAE 144",
+    "MAE 149",
+    "MAE 160",
+    "MATS 201A",
+    "MATS 201B",
+    "MATS 201C",
+    "MATS 205A",
+    "MATS 227",
+    "NANO 100L",
+    "NANO 102",
+    "NANO 103",
+    "NANO 104",
+    "NANO 106",
+    "NANO 107",
+    "NANO 108",
+    "NANO 110",
+    "NANO 111",
+    "NANO 112",
+    "NANO 134",
+    "NANO 140",
+    "NANO 141A",
+    "NANO 141B",
+    "NANO 145",
+    "NANO 146",
+    "NANO 148",
+    "NANO 150",
+    "NANO 156",
+    "NANO 158",
+    "NANO 159",
+    "NANO 161",
+    "NANO 162",
+    "NANO 164",
+    "NANO 168",
+    "NANO 174",
+    "NANO 174L",
+    "NANO 175",
+    "NANO 242",
+    "NANO 244",
+    "NANO 253",
+    "NANO 262"
+   ],
+   "note": "12 units. Three upper-division or graduate engineering courses from the department's pre-approved technical-elective list. Count confirmed as three (12 units) on the major-requirements and curriculum pages. Students may pursue an area of specialization (e.g., Biotechnology, Microelectronic Devices, Engineering Mechanics, Engineering Science, Environmental Engineering, Materials Science, Nanotechnology, Process Dynamics, Thermal Engineering) by selecting all three from one category. Specific approved course codes are published on the department's Technical Electives page and were not enumerated on the fetched requirements pages. 12 units = choose THREE upper-division/graduate engineering courses from the department's pre-approved technical-elective list (published at cne.ucsd.edu/.../technical-electives). Enumerated as an explicit approved list rather than subject ranges because the department restricts to specific courses grouped by Area of Specialization: Biotechnology/Biochemical Eng (NANO 103/242/244/262, CENG 160/207/254/256, BENG 100/110/112A/112B/130/186), Microelectronic Devices & Materials (NANO 107, CENG 157, ECE 103/134/135A/136L), Engineering Mechanics (NANO 141A/141B, M"
+  }
+ ]
+}

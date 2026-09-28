@@ -1,0 +1,242 @@
+{
+ "page": "LATI",
+ "name": "Latin American Studies",
+ "courses": [
+  {
+   "code": "LATI 10",
+   "subject": "LATI",
+   "num": "10",
+   "title": "Reading North by South: Latin American Studies and the US Liberation Movements",
+   "units": "4",
+   "level": null,
+   "description": "The purpose of this class is to study the multilayered relations between Latin American studies and the US liberation movements, particularly Third World movements, the Chicano movement, the black liberation movement, the indigenous movement, human rights activism, and trans-border activism. Students may not receive credit for LATI 100 and LATI 10.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 50",
+   "subject": "LATI",
+   "num": "50",
+   "title": "Introduction to Latin America",
+   "units": "4",
+   "level": null,
+   "description": "Interdisciplinary overview of society and culture in Latin America\u2014including Mexico, the Caribbean, and South America: legacies of conquest, patterns of economic development, changing roles of women, expressions of popular culture, cycles of political change, and US-Latin American relations.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 124",
+   "subject": "LATI",
+   "num": "124",
+   "title": "Ethnoracial Politics in Latin America",
+   "units": "4",
+   "level": null,
+   "description": "This course explores the significance of ethnoracial politics in Latin America. The core of the class is analyzing the effects of ethnoracial politics and policy implementation in the region. The goal is to understand how these policies, such as constitutional reforms recognizing indigenous and black populations, bicultural education, and affirmative action, foster social progress and elicit potential reactions.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 130",
+   "subject": "LATI",
+   "num": "130",
+   "title": "Latinx Environmental Justice",
+   "units": "4",
+   "level": null,
+   "description": "This course will address environmental justice issues within Latinx communities within the United States and Latin America. The course introduces theoretical and methodological explanations to better understand environmental racism, environmental justice, and environmental problems.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 131",
+   "subject": "LATI",
+   "num": "131",
+   "title": "Gender as a Border",
+   "units": "4",
+   "level": null,
+   "description": "This course explores the intersectionality between migration, gender, race, and class to better understand the migrant narratives of Central American, Mexican, and Latina women in the U.S. Key concepts on gender, critical race, migration, border, and queer theory will help us to analyze contemporary cultural productions portraying the exclusion, discrimination, exploitation, exceptions, and (in)visibility that women face due to their race, ethnicity, class, sexuality, and gender identity.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 140",
+   "subject": "LATI",
+   "num": "140",
+   "title": "Decolonial Thought and Practices in Latin America",
+   "units": "4",
+   "level": null,
+   "description": "The purpose of this course is to survey decolonial thought and practice in Latin America throughout the twentieth century. Course content will draw extensively from the writings and experiences of previously colonized peoples in Latin America. Course texts will match primary source documents with historiography in order to situate decolonial thought in its practical historical context.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 150",
+   "subject": "LATI",
+   "num": "150",
+   "title": "Digital Oral History in Latin America",
+   "units": "4",
+   "level": null,
+   "description": "An introduction to the theory and practice of digital oral history in Latin America. Students will be exposed to the history of orality in the region as a hybrid genre between literature, history, and ethnography. This class will provide a strong theoretical background on oral history as a constant presence in the Latin American cultural scene from the colonial chronicles to the political testimony.",
+   "prereqText": "LATI 50; upper-division standing.",
+   "prereqs": [
+    [
+     "LATI 50"
+    ]
+   ]
+  },
+  {
+   "code": "LATI 160",
+   "subject": "LATI",
+   "num": "160",
+   "title": "Latin American Third Cinema",
+   "units": "4",
+   "level": null,
+   "description": "The purpose of this class is to examine the Latin American film movement of Third Cinema. This course offers students the opportunity to explore representations of imperialism, urbanization, spatial exclusion, poverty, race, gender, labor, state terror, revolution, and neoliberalism. The class combines films with other forms of knowledge production from the region, such as art and literature.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 165",
+   "subject": "LATI",
+   "num": "165",
+   "title": "Visual Culture in Latin America",
+   "units": "4",
+   "level": null,
+   "description": "This class explores visual production in contemporary Latin America, highlighting practices and subjects of visual representation tied to artistic, cultural, and historical processes.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 166",
+   "subject": "LATI",
+   "num": "166",
+   "title": "Latin Food Culture: Culinary Ethnography of the Americas",
+   "units": "4",
+   "level": null,
+   "description": "This course explores the culture and political economy of Latin American food staples, from the colonial origin to their arrival in the United States. Students will conduct ethnographic research in local Latin American diasporic communities by selecting a particular regional dish and documenting its history, culture, and contemporary production.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 170",
+   "subject": "LATI",
+   "num": "170",
+   "title": "Social Science Research in Latin America",
+   "units": "4",
+   "level": null,
+   "description": "The objective of the course is to survey the important contributions of social science research in Latin America in understanding some of the most pressing issues facing our societies today. The class will synthesize the contributions of Latin American researchers and activists to social science research in visible complex issues related to socioeconomic inequality, citizenship, violence and insecurity, justice, and migration.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 175",
+   "subject": "LATI",
+   "num": "175",
+   "title": "Participatory Action Research: Action and Knowledge",
+   "units": "4",
+   "level": null,
+   "description": "This course surveys the important tradition of participatory action research (PAR) in Latin America as a tool for producing knowledge in solidarity with grassroots communities. Students will learn about techniques ranging from critical recovery of history to engaging experiential knowledge exploring alternative mediums for producing and diffusing knowledge. Then, they will develop their own proposal for a community-driven research project based on PAR principles and methods.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 180",
+   "subject": "LATI",
+   "num": "180",
+   "title": "Special Topics in Latin American Studies",
+   "units": "4",
+   "level": null,
+   "description": "Readings and discussion of substantive issues and research in Latin American studies. Topics may include the study of a specific society or a particular issue in comparative cross-national perspective. Topics will vary from year to year.",
+   "prereqText": "LATI 50 or permission of instructor, upper-division standing.",
+   "prereqs": [
+    [
+     "LATI 50"
+    ]
+   ]
+  },
+  {
+   "code": "LATI 184",
+   "subject": "LATI",
+   "num": "184",
+   "title": "Special Topics in Global South Studies",
+   "units": "4",
+   "level": null,
+   "description": "Readings and discussion of substantive issues and research in global south studies with a focus on Latin America. Topics may include the study of a specific society or a particular issue in comparative cross-national perspective.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 190",
+   "subject": "LATI",
+   "num": "190",
+   "title": "Senior Seminar",
+   "units": "4",
+   "level": null,
+   "description": "Research seminar on selected topics in the study of Latin America; all students will be required to prepare and present independent research papers. (Honors students will present drafts of senior research theses, of no less than fifty pages in length; nonhonors students will present final versions of analytical papers of approximately twenty-five to forty pages in length.)",
+   "prereqText": "satisfactory completion of LATI 50 and a working knowledge of Spanish.",
+   "prereqs": [
+    [
+     "LATI 50"
+    ]
+   ]
+  },
+  {
+   "code": "LATI 199",
+   "subject": "LATI",
+   "num": "199",
+   "title": "Individual Study",
+   "units": "4",
+   "level": null,
+   "description": "Guided and supervised reading of the literature on Latin America in the interdisciplinary areas of anthropology, communications, economics, history, literature, political science, and sociology. For students majoring in Latin American Studies, reading will focus around potential topics for senior papers; for honors students in Latin American Studies, reading will culminate in formulation of a prospectus for the research thesis.",
+   "prereqText": "LATI 50 and working knowledge of Spanish.",
+   "prereqs": [
+    [
+     "LATI 50"
+    ]
+   ]
+  },
+  {
+   "code": "LATI 200",
+   "subject": "LATI",
+   "num": "200",
+   "title": "Core Seminar on Interdisciplinary Research and Methodology in Latin American Studies",
+   "units": "4",
+   "level": null,
+   "description": "A team-taught course wherein members of the faculty group in Latin American Studies present diverse disciplinary and thematic approaches to the region. Topics vary from year to year. Grades are based on discussions and on a series of analytical papers.",
+   "prereqText": "enrollment in the master\u2019s degree program in Latin American Studies or permission of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "LATI 298",
+   "subject": "LATI",
+   "num": "298",
+   "title": "Directed Reading",
+   "units": "1\u201312",
+   "level": null,
+   "description": "Guided and supervised reading of the literature of the several areas included in the interdisciplinary fields of anthropology, communications, economics, history, literature, political science, and sociology.",
+   "prereqText": "graduate standing in Latin American Studies.",
+   "prereqs": null
+  },
+  {
+   "code": "LATI 299",
+   "subject": "LATI",
+   "num": "299",
+   "title": "Independent Research",
+   "units": "1\u201312",
+   "level": null,
+   "description": "Independent work by graduate students engaged in thesis research and writing under the direct supervision of a faculty adviser.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "LATI 500",
+   "subject": "LATI",
+   "num": "500",
+   "title": "Teaching Apprenticeship",
+   "units": "1\u20134",
+   "level": null,
+   "description": "The course is designed for teaching assistants to learn effective teaching methods through supervision and mentorship by the faculty. Student will learn handling of discussions; preparation and grading of examinations and other written exercises; and student relations.",
+   "prereqText": null,
+   "prereqs": null
+  }
+ ]
+}

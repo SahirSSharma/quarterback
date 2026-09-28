@@ -1,0 +1,203 @@
+{
+ "program": {
+  "major": "Mathematical Biology",
+  "degree": "B.S.",
+  "department": "Mathematics"
+ },
+ "catalogYear": "current General Catalog (catalog.ucsd.edu)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Major code MA36. Thirteen upper-division four-unit courses (fifty-two units) total, including the required courses. At least two of the electives must be biology-focused, non-mathematics courses.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/MATH-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Calculus and linear algebra sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E",
+    "MATH 31AH",
+    "MATH 31BH",
+    "MATH 31CH"
+   ],
+   "note": "One of two sequences: MATH 18 and 20A-B-C-D-E, or Honors Calculus MATH 31AH-BH with MATH 20D. The count shown is the standard six-course sequence."
+  },
+  {
+   "label": "Programming requirement",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 8A",
+    "CSE 11",
+    "ECE 15"
+   ],
+   "note": "One course."
+  },
+  {
+   "label": "Biological foundations",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BILD 1",
+    "BILD 3"
+   ],
+   "note": "Both BILD 1 and BILD 3."
+  },
+  {
+   "label": "Mathematical Reasoning",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 109"
+   ],
+   "note": "MATH 109. Students completing MATH 31AH-BH-CH may substitute a four-unit upper-division mathematics elective."
+  },
+  {
+   "label": "Partial Differential Equations",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 110"
+   ],
+   "note": "MATH 110."
+  },
+  {
+   "label": "Ordinary Differential Equations",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 130"
+   ],
+   "note": "MATH 130."
+  },
+  {
+   "label": "Numerical Methods",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 170A",
+    "MATH 173A",
+    "MATH 174"
+   ],
+   "note": "One of MATH 170A, 173A, 174."
+  },
+  {
+   "label": "Introduction to Probability",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 180A"
+   ],
+   "note": "MATH 180A."
+  },
+  {
+   "label": "Exploratory Data Analysis and Inference",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 189"
+   ],
+   "note": "MATH 189."
+  },
+  {
+   "label": "Introduction to Mathematical Biology",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 112A",
+    "MATH 112B"
+   ],
+   "note": "MATH 112A-B (or the graduate 212A-B)."
+  },
+  {
+   "label": "Introduction to Computational Stochastics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 114"
+   ],
+   "note": "MATH 114 (or the graduate 214)."
+  },
+  {
+   "label": "Upper-division electives (at least two biology-focused)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "BICD 100",
+    "BICD 120",
+    "BIEB 126",
+    "BIEB 128",
+    "BIEB 130",
+    "BIEB 140",
+    "BIEB 146",
+    "BIEB 148",
+    "BIEB 150",
+    "BIEB 152",
+    "BIEB 154",
+    "BIEB 156",
+    "BIEB 166",
+    "BIMM 116",
+    "BIMM 134",
+    "BIMM 140",
+    "BIPN 142",
+    "BIPN 144",
+    "BIPN 146",
+    "BIPN 147",
+    "BIPN 162",
+    "BIPN 164",
+    "MATH 100A",
+    "MATH 100B",
+    "MATH 102",
+    "MATH 103A",
+    "MATH 103B",
+    "MATH 111A",
+    "MATH 120A",
+    "MATH 140A",
+    "MATH 140B",
+    "MATH 140C",
+    "MATH 142A",
+    "MATH 142B",
+    "MATH 150A",
+    "MATH 150B",
+    "MATH 154",
+    "MATH 158",
+    "MATH 170A",
+    "MATH 170B",
+    "MATH 170C",
+    "MATH 171A",
+    "MATH 171B",
+    "MATH 173A",
+    "MATH 173B",
+    "MATH 175",
+    "MATH 180B",
+    "MATH 180C",
+    "MATH 181A",
+    "MATH 181B",
+    "MATH 184",
+    "MATH 185",
+    "MATH 188",
+    "MATH 190A"
+   ],
+   "note": "To reach thirteen upper-division courses in total; the count here is what remains after the required courses above. At least two must be biology-focused, non-mathematics courses. Suitable chemistry or physics courses may be substituted in consultation with a faculty adviser."
+  }
+ ]
+}

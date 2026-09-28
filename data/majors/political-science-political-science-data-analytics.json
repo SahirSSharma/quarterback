@@ -1,0 +1,90 @@
+{
+ "program": {
+  "major": "Political Science / Data Analytics",
+  "degree": "B.S.",
+  "department": "Political Science"
+ },
+ "catalogYear": "catalog.ucsd.edu (current)",
+ "confidence": "high",
+ "found": true,
+ "notes": "The B.S. track, verified against the catalog. Requires POLI 5 (intro to data analytics) plus 2 intro courses, POLI 30, 5 methods/data courses, and 7 additional upper POLI.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/POLI-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required intro: Data Analytics for Political Science (POLI 5)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 5",
+    "POLI 5D"
+   ],
+   "note": "POLI 5 required for the B.S."
+  },
+  {
+   "label": "Additional lower-division intro (choose 2)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 10",
+    "POLI 10D",
+    "POLI 11",
+    "POLI 11D",
+    "POLI 12",
+    "POLI 12D",
+    "POLI 13",
+    "POLI 13D"
+   ],
+   "note": "Two from the four intro subfields."
+  },
+  {
+   "label": "Political Inquiry / Methods (POLI 30)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 30",
+    "POLI 30D"
+   ],
+   "note": "Required methods course; numerically lower-division."
+  },
+  {
+   "label": "Data analytics / quantitative methods courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "POLI 100F",
+    "POLI 100X",
+    "POLI 112A",
+    "POLI 118",
+    "POLI 168",
+    "POLI 170",
+    "POLI 170A",
+    "POLI 171",
+    "POLI 172",
+    "POLI 173",
+    "POLI 174",
+    "POLI 175",
+    "POLI 176",
+    "POLI 177",
+    "POLI 178",
+    "POLI 179"
+   ],
+   "note": "5 courses from the data analytics / quantitative methods list."
+  },
+  {
+   "label": "Additional upper-division Political Science",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "POLI 100-199"
+   ],
+   "note": "7 additional upper-division POLI courses."
+  }
+ ]
+}

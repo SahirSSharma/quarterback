@@ -1,0 +1,62 @@
+{
+ "program": {
+  "major": "Communication",
+  "degree": "B.A.",
+  "department": "Communication"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "13 courses total. All major courses must be taken for letter grades with a minimum grade of C-. Core courses (COMM 10, 100A, 100B, 100C, 190) plus 8 upper-division electives. Asterisked core courses may not be petitioned for substitution. Verified against catalog.ucsd.edu and communication.ucsd.edu major page.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/COMM-ug.html",
+  "https://catalog.ucsd.edu/courses/COMM.html",
+  "http://communication.ucsd.edu/undergrad/degree-programs/major/index.html",
+  "http://communication.ucsd.edu/undergrad/degree-programs/mic-major.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division core: Introduction to Communication",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COMM 10"
+   ],
+   "note": "Required. Letter grade, minimum C-. Cannot be petitioned for substitution."
+  },
+  {
+   "label": "Upper-division core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "COMM 100A",
+    "COMM 100B",
+    "COMM 100C",
+    "COMM 190"
+   ],
+   "note": "All four required. COMM 190 is the Junior Seminar. Letter grade, minimum C-. Cannot be petitioned for substitution."
+  },
+  {
+   "label": "Advanced upper-division electives (COMM 120-189)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COMM 120-189"
+   ],
+   "note": "Two advanced electives numbered COMM 120 through 189."
+  },
+  {
+   "label": "Upper-division electives (COMM 101-189)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "COMM 101-189"
+   ],
+   "note": "Six additional courses from intermediate (COMM 101-119) and advanced (COMM 120-189) electives. Maximum 1 COMM 198/199 may count."
+  }
+ ]
+}

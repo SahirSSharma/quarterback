@@ -1,0 +1,53 @@
+{
+  "_source": {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/calendars/2026.html",
+    "title": "UC San Diego Enrollment and Registration Calendar 2026-2027",
+    "fetched": "2026-09-27",
+    "note": "Deadlines are as of 11:59 p.m. PT on the date posted. Undergraduate rows only. Summer sessions omitted (TBD on the source page)."
+  },
+  "terms": {
+    "FA26": {
+      "name": "Fall 2026",
+      "quarterBegins": "2026-09-21",
+      "instructionBegins": "2026-09-24",
+      "dropWithoutW": "2026-10-23",
+      "changeUnits": "2026-11-06",
+      "changeGradingOption": "2026-11-06",
+      "dropWithW": "2026-11-06",
+      "lastDayOfClasses": "2026-12-04",
+      "finals": ["2026-12-05", "2026-12-12"],
+      "quarterEnds": "2026-12-12",
+      "holidays": ["2026-11-11", "2026-11-26", "2026-11-27"]
+    },
+    "WI27": {
+      "name": "Winter 2027",
+      "quarterBegins": "2027-01-04",
+      "instructionBegins": "2027-01-04",
+      "dropWithoutW": "2027-01-29",
+      "changeUnits": "2027-02-12",
+      "changeGradingOption": "2027-02-12",
+      "dropWithW": "2027-02-12",
+      "lastDayOfClasses": "2027-03-12",
+      "finals": ["2027-03-13", "2027-03-20"],
+      "quarterEnds": "2027-03-20",
+      "holidays": ["2027-01-18", "2027-02-15"]
+    },
+    "SP27": {
+      "name": "Spring 2027",
+      "quarterBegins": "2027-03-24",
+      "instructionBegins": "2027-03-29",
+      "dropWithoutW": "2027-04-23",
+      "changeUnits": "2027-05-07",
+      "changeGradingOption": "2027-05-07",
+      "dropWithW": "2027-05-07",
+      "lastDayOfClasses": "2027-06-04",
+      "finals": ["2027-06-05", "2027-06-11"],
+      "quarterEnds": "2027-06-11",
+      "holidays": ["2027-03-26", "2027-05-31"]
+    }
+  },
+  "bookingWI27": {
+    "scheduleOfClassesAvailable": "2026-11-??",
+    "note": "The 2026-27 calendar lists Winter 2027 booking as TBD as of 2026-09-27; refresh when published."
+  }
+}

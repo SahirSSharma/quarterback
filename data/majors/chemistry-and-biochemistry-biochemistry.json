@@ -1,0 +1,224 @@
+{
+ "program": {
+  "major": "Biochemistry",
+  "degree": "B.S.",
+  "department": "Chemistry and Biochemistry"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Catalog code CH38. Verified against live catalog page. Min passing grade D in required chemistry coursework, but no more than one D in upper-division required major coursework. Min 2.0 major and overall GPA. B.S. requires 48+ upper-division units in the major and at least 6 upper-division Chemistry and Biochemistry Department courses. Total 124 units. Per catalog footnote, PHYS 2 series (2A/2B/2C or 2D and 2BL/2CL/2DL) is acceptable in place of PHYS 1 series; PHYS 1 recommended.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/CHEM-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "General Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 6AH",
+    "CHEM 6BH",
+    "CHEM 6CH"
+   ],
+   "note": "Standard sequence CHEM 6A-B-C, or honors sequence 6AH-BH-CH."
+  },
+  {
+   "label": "General Chemistry Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 7L",
+    "CHEM 7LM"
+   ],
+   "note": "One of 7L or 7LM."
+  },
+  {
+   "label": "Organic Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 41A",
+    "CHEM 41B",
+    "CHEM 41C"
+   ],
+   "note": "Three-quarter organic sequence."
+  },
+  {
+   "label": "Organic Chemistry Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 43A",
+    "CHEM 43AM"
+   ],
+   "note": "One of 43A or 43AM."
+  },
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BILD 1",
+    "BILD 2"
+   ],
+   "note": "General cell biology BILD 1-2."
+  },
+  {
+   "label": "Calculus sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 10C",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C"
+   ],
+   "note": "MATH 10A-B-C or 20A-B-C (choose one full sequence)."
+  },
+  {
+   "label": "Calculus-Based Statistics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 11"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Physics (mechanics/E&M/optics)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 1A",
+    "PHYS 1B",
+    "PHYS 1C",
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2D"
+   ],
+   "note": "PHYS 1A-B-C recommended; per catalog footnote PHYS 2 series (2A/2B and 2C or 2D) also acceptable."
+  },
+  {
+   "label": "Physics Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 1AL",
+    "PHYS 1BL",
+    "PHYS 1CL"
+   ],
+   "note": "PHYS 1AL-BL-CL accompanies PHYS 1 series; PHYS 2 lab series (2BL/2CL/2DL) acceptable if PHYS 2 series taken."
+  },
+  {
+   "label": "Physical Biochemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 126A",
+    "CHEM 126B"
+   ],
+   "note": "Two quarters of physical biochemistry."
+  },
+  {
+   "label": "Biochemistry sequence",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 114A",
+    "CHEM 114B",
+    "CHEM 114C"
+   ],
+   "note": "Three quarters of biochemistry."
+  },
+  {
+   "label": "Protein Biochemistry Laboratory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 108"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Recombinant DNA Techniques Laboratory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 109"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Analytical Chemistry Laboratory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 100A"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Restricted biochemistry electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 113",
+    "CHEM 114D",
+    "CHEM 115",
+    "CHEM 116",
+    "CHEM 118",
+    "CHEM 119",
+    "CHEM 125",
+    "CHEM 142",
+    "CHEM 145",
+    "CHEM 157",
+    "CHEM 164",
+    "CHEM 165",
+    "CHEM 167",
+    "CHEM 168",
+    "CHEM 184"
+   ],
+   "note": "Choose 3 from the restricted biochemistry elective list; list verified verbatim against catalog."
+  },
+  {
+   "label": "Additional upper-division elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 100-199",
+    "BICD 100",
+    "BICD 110",
+    "BICD 140",
+    "BIMM 114",
+    "BIMM 120",
+    "BIPN 100",
+    "BIPN 102",
+    "BIPN 140"
+   ],
+   "note": "One additional 4+ unit upper-division chemistry course, or an approved upper-division biology course. Specific biology options are from the department-approved list; confirm with advisor as full list not line-verified."
+  }
+ ]
+}

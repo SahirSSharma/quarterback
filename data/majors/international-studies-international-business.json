@@ -1,0 +1,75 @@
+{
+ "program": {
+  "major": "International Studies - International Business",
+  "degree": "B.A.",
+  "department": "International Studies"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Transcribed from the International Studies Program's own major checklist (major code IS34). Every lower-division prerequisite, INTL core course and Disciplinary Focus course must be letter-graded C- or better. The language requirement and the one-region rule on the interdisciplinary electives are prose, not checkable here.",
+ "sourceUrls": [
+  "https://isp.ucsd.edu/_files/forms/major-checklists/International%20Studies%20-%20International%20Business%20Checklist%20QxQ%20Plan%20FA24.pdf",
+  "https://isp.ucsd.edu/undergraduate-programs/bachelor-arts/international-business/index.html",
+  "https://catalog.ucsd.edu/curric/INTL.html"
+ ],
+ "buckets": [
+  {
+   "label": "Calculus",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["MATH 10A", "MATH 10B", "MATH 10C", "MATH 20A", "MATH 20B", "MATH 20C"],
+   "note": "MATH 10A-B-C or MATH 20A-B-C."
+  },
+  {
+   "label": "Accounting",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": ["MGT 4", "ECON 4", "MGT 5"],
+   "note": "Financial Accounting (MGT 4 or ECON 4) and MGT 5 Managerial Accounting."
+  },
+  {
+   "label": "International Studies Core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["INTL 100", "INTL 101", "INTL 102"],
+   "note": "All three required. INTL 100 is a prerequisite for both INTL 101 and INTL 102, which are not sequential with each other."
+  },
+  {
+   "label": "Disciplinary Focus — Required",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": ["MGT 103", "MGT 181", "MGT 187", "MGT 112", "MGT 164", "MGT 166"],
+   "note": "MGT 103, MGT 112, MGT 164 and MGT 166, plus either MGT 181 or MGT 187."
+  },
+  {
+   "label": "Disciplinary Focus — Electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["MGT 100-199"],
+   "exclude": ["MGT 103", "MGT 112", "MGT 164", "MGT 166", "MGT 181", "MGT 187"],
+   "note": "Three further four-unit upper-division courses from the pre-approved Disciplinary Focus list on the ISP website."
+  },
+  {
+   "label": "Interdisciplinary Electives and Regional Requirement",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 0,
+   "courses": [],
+   "note": "Three upper-division, four-unit, non-language courses outside management, all three focused on ONE region (Africa, East Asia, Europe, Latin America or the Middle East), from the pre-approved ISP list. Which courses count depends on the region you choose, so this is not checked here."
+  },
+  {
+   "label": "Language Requirement",
+   "division": "other",
+   "kind": "courses",
+   "needed": 0,
+   "courses": [],
+   "note": "Basic proficiency in a foreign language: the fourth quarter of a college-level language course, a proficiency exam, an AP/IB/SAT II language exam, or secondary education outside the United States."
+  }
+ ]
+}

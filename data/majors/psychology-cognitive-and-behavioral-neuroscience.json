@@ -1,0 +1,202 @@
+{
+ "program": {
+  "major": "Cognitive and Behavioral Neuroscience",
+  "degree": "B.S.",
+  "department": "Psychology"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Lower-division 36 units, upper-division 56 units. Many requirements allow PSYC or COGS equivalents. CBN core built around COGS 107A plus PSYC/COGS pairs.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PSYC-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Natural Science (three courses incl. COGS 17)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "COGS 17",
+    "BILD 1",
+    "BILD 2",
+    "BILD 3",
+    "BILD 10",
+    "BILD 20",
+    "BILD 26",
+    "CHEM 4",
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 11",
+    "CHEM 12",
+    "CHEM 13",
+    "PHYS 1A",
+    "PHYS 1B",
+    "PHYS 1C",
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 10",
+    "PHYS 11"
+   ],
+   "note": "COGS 17 required plus two others from BILD/CHEM/PHYS lists (BILD 12 and PSYC 2 not accepted here)."
+  },
+  {
+   "label": "Formal Skills (four courses)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "MATH 10A",
+    "MATH 20A",
+    "MATH 10B",
+    "MATH 20B",
+    "MATH 10C",
+    "MATH 20C",
+    "PSYC 70",
+    "COGS 14A"
+   ],
+   "note": "Three-course math sequence (10A/20A, 10B/20B, 10C/20C) plus PSYC 70 or COGS 14A (research methods)."
+  },
+  {
+   "label": "Computer Programming (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 18",
+    "CSE 7",
+    "CSE 8A",
+    "CSE 8B",
+    "CSE 11",
+    "CSE 12"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Statistics (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 60",
+    "COGS 14B"
+   ],
+   "note": ""
+  },
+  {
+   "label": "CBN Core (four courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "COGS 107A",
+    "PSYC 102",
+    "COGS 101A",
+    "PSYC 106",
+    "COGS 107B",
+    "PSYC 108",
+    "COGS 107C"
+   ],
+   "note": "COGS 107A; PSYC 102 or COGS 101A; PSYC 106 or COGS 107B; PSYC 108 or COGS 107C."
+  },
+  {
+   "label": "Research Experience (two courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PSYC 112",
+    "PSYC 114",
+    "PSYC 115A",
+    "PSYC 115B",
+    "PSYC 116",
+    "PSYC 117",
+    "PSYC 121",
+    "PSYC 140",
+    "PSYC 193L",
+    "PSYC 194A",
+    "PSYC 194B",
+    "PSYC 194C",
+    "PSYC 199",
+    "COGS 102B",
+    "COGS 102C",
+    "COGS 118B",
+    "COGS 119",
+    "COGS 120",
+    "COGS 121",
+    "COGS 153",
+    "COGS 160",
+    "COGS 189",
+    "COGS 190A",
+    "COGS 190B",
+    "COGS 190C",
+    "COGS 199"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Upper-Division CBN Courses (six courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "PSYC 116",
+    "PSYC 122",
+    "PSYC 123",
+    "PSYC 125",
+    "PSYC 132",
+    "PSYC 133",
+    "PSYC 144",
+    "PSYC 150",
+    "PSYC 159",
+    "PSYC 169",
+    "PSYC 170",
+    "PSYC 171",
+    "PSYC 179",
+    "PSYC 181",
+    "PSYC 189",
+    "COGS 115",
+    "COGS 119",
+    "COGS 154",
+    "COGS 163",
+    "COGS 164",
+    "COGS 169",
+    "COGS 171",
+    "COGS 172",
+    "COGS 174",
+    "COGS 175",
+    "COGS 176",
+    "COGS 177",
+    "COGS 178",
+    "COGS 179",
+    "COGS 180",
+    "COGS 184",
+    "HDP 110"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Additional Upper-Division Electives (two courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PSYC 100",
+    "PSYC 101",
+    "PSYC 104",
+    "PSYC 105",
+    "PSYC 110-193",
+    "COGS 101B",
+    "COGS 101C",
+    "COGS 102A",
+    "COGS 102B",
+    "COGS 102C",
+    "COGS 109-189"
+   ],
+   "note": ""
+  }
+ ]
+}

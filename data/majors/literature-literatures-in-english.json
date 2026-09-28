@@ -1,0 +1,100 @@
+{
+ "program": {
+  "major": "Literatures in English",
+  "degree": "BA",
+  "department": "Literature"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "18 courses total (6 lower-division + 12 upper-division). Verified: the 'eight upper-division courses in literatures in English' bucket plus one theory course plus three comparative-breadth courses = 12 upper-division. Includes a secondary-language requirement.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/LIT-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division required core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "LTEN 21",
+    "LTEN 22",
+    "LTEN 23",
+    "LTEN 25",
+    "LTEN 26"
+   ],
+   "note": "All five required."
+  },
+  {
+   "label": "Lower-division additional",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTEN 27",
+    "LTEN 28",
+    "LTEN 29",
+    "LTEN 31"
+   ],
+   "note": "One of LTEN 27, 28, 29, or 31."
+  },
+  {
+   "label": "Upper-division literatures in English (period coverage)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "LTEN 100-199"
+   ],
+   "note": "Eight upper-division literatures-in-English courses, including at least one from each of the four categories: British before 1660, British after 1660, US before 1860, and US after 1860 (four required period courses plus four additional English electives)."
+  },
+  {
+   "label": "Upper-division criticism/theory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTTH 110",
+    "LTTH 115",
+    "LTCS 100"
+   ],
+   "note": "One upper-division course in history of criticism or literary/cultural theory: LTTH 110, LTTH 115, or LTCS 100."
+  },
+  {
+   "label": "Upper-division comparative breadth",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LTAM 100-199",
+    "LTEU 100-199",
+    "LTAF 100-199",
+    "LTEA 100-199",
+    "LTWL 100-199"
+   ],
+   "note": "One Literatures of the Americas (LTAM), one Literatures of Europe (LTEU), and one additional from LTAF/LTAM/LTEA/LTEU/LTWL."
+  },
+  {
+   "label": "Secondary-language requirement",
+   "division": "other",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTFR 2C",
+    "LTGM 2C",
+    "LTSP 2C",
+    "LTSP 2E",
+    "LTSP 3F",
+    "LTIT 50",
+    "LTRU 2B",
+    "LTGK 3",
+    "LTLA 3",
+    "JUDA 3",
+    "LISL 1E"
+   ],
+   "note": "At least one course in a secondary language or literature (taught in a language other than English). UCSD Literatures in English requires knowledge of a second language, satisfied by completing the lower-division sequence in an approved second language through its designated terminal lower-division course. This is a proficiency requirement (not a single fixed course) — it can also be met by placement/prior proficiency reaching the same terminal level. Confirmed terminal courses per catalog (LIT-ug.html): French LTFR 2C, German LTGM 2C, Spanish LTSP 2C/2E/3F, Italian LTIT 50, Russian LTRU 2B, Classical Greek LTGK 3, Latin LTLA 3, Hebrew JUDA 3, American Sign Language 1E (Linguistics; subject code LISL, verify). Any of these terminal courses (or equivalent placement) satisfies the requirement; the listed courses are the demonstration endpoints, not an all-of set.",
+   "type": "proficiency"
+  }
+ ]
+}

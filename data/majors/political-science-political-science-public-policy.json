@@ -1,0 +1,142 @@
+{
+ "program": {
+  "major": "Political Science / Public Policy",
+  "degree": "B.A.",
+  "department": "Political Science"
+ },
+ "catalogYear": "catalog.ucsd.edu (current)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Specialization verified against the catalog. Requires POLI 160AA plus distribution across Public Policy (1), American/Policy (2), and Politics (1) categories, plus POLI 30 and 7 additional upper POLI.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/POLI-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required intro: American Politics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 10",
+    "POLI 10D"
+   ],
+   "note": "POLI 10 required."
+  },
+  {
+   "label": "Additional lower-division intro (choose 2)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 11",
+    "POLI 11D",
+    "POLI 12",
+    "POLI 12D",
+    "POLI 13",
+    "POLI 13D"
+   ],
+   "note": "Two more from the remaining intro subfields."
+  },
+  {
+   "label": "Political Inquiry / Methods (POLI 30)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 30",
+    "POLI 30D"
+   ],
+   "note": "Required methods course; numerically lower-division."
+  },
+  {
+   "label": "Public Policy Analysis (POLI 160AA)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 160AA"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Public Policy course (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 117",
+    "POLI 117R",
+    "POLI 160AB",
+    "POLI 162",
+    "POLI 163",
+    "POLI 164",
+    "POLI 168",
+    "POLI 170",
+    "POLI 170A",
+    "POLI 171",
+    "POLI 172",
+    "POLI 177",
+    "POLI 179"
+   ],
+   "note": "One public policy course. POLI 117 or 117R, not both."
+  },
+  {
+   "label": "American / Policy courses (choose 2)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 100A",
+    "POLI 100B",
+    "POLI 100C",
+    "POLI 100E",
+    "POLI 100F",
+    "POLI 100G",
+    "POLI 100H",
+    "POLI 100J",
+    "POLI 100M",
+    "POLI 100N",
+    "POLI 100O",
+    "POLI 100Q",
+    "POLI 100V",
+    "POLI 100W",
+    "POLI 100X",
+    "POLI 100Y",
+    "POLI 100Z"
+   ],
+   "note": "Two American/policy courses."
+  },
+  {
+   "label": "Politics course (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 101E",
+    "POLI 102C",
+    "POLI 102E",
+    "POLI 102L",
+    "POLI 103A",
+    "POLI 103B",
+    "POLI 103C",
+    "POLI 122",
+    "POLI 142A",
+    "POLI 142J",
+    "POLI 150A",
+    "POLI 165"
+   ],
+   "note": "One politics course."
+  },
+  {
+   "label": "Additional upper-division Political Science",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "POLI 100-199"
+   ],
+   "note": "7 additional upper-division POLI courses."
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "page": "CLAS",
+ "name": "Classical Studies",
+ "courses": [
+  {
+   "code": "CLAS 87",
+   "subject": "CLAS",
+   "num": "87",
+   "title": "First-year Seminar",
+   "units": "1",
+   "level": "Graduate",
+   "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. May be taken for credit up to four times as topics vary.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLAS 109",
+   "subject": "CLAS",
+   "num": "109",
+   "title": "Greek Seminar",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Readings in Greek covering specific topics in ancient Greek literature, philosophy, history, and religion. May be repeated for credit up to four times as topics vary.",
+   "prereqText": "LTGK 1, 2, 3, or equivalent.",
+   "prereqs": [
+    [
+     "LTGK 1"
+    ],
+    [
+     "LTGK 2"
+    ],
+    [
+     "LTGK 3"
+    ]
+   ]
+  },
+  {
+   "code": "CLAS 110",
+   "subject": "CLAS",
+   "num": "110",
+   "title": "Latin Seminar",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Readings in Latin covering specific topics in ancient Latin literature, philosophy, history, and religion. May be repeated for credit up to four times as topics vary.",
+   "prereqText": "LTLA 1, 2, 3, or equivalent.",
+   "prereqs": [
+    [
+     "LTLA 1"
+    ],
+    [
+     "LTLA 2"
+    ],
+    [
+     "LTLA 3"
+    ]
+   ]
+  },
+  {
+   "code": "CLAS 119",
+   "subject": "CLAS",
+   "num": "119",
+   "title": "Early Christianity",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course examines the emergence, growth, and development of Christianity in its first centuries. The class explores issues of community, doctrine, and practice; inter-religious and intra-religious tension and conflict; and cultural continuity and change.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLAS 120",
+   "subject": "CLAS",
+   "num": "120",
+   "title": "Classical Diversities",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course explores the questions of race and gender in the classical world, together with their impact on the study of the classics in the making of American identity.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLAS 121R",
+   "subject": "CLAS",
+   "num": "121R",
+   "title": "World Wisdom Traditions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This online course explores wisdom traditions of the premodern world, examining formative ideas on the art of living well and contrasting worldwide teachings on what it means to be human, one's obligations to others, and the ideal relationship with the natural world.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLAS 125",
+   "subject": "CLAS",
+   "num": "125",
+   "title": "Mythologies of the Ancient Mediterranean",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course examines the diverse literary, historical, and religious aspects of ancient Mediterranean myths. Focus may change from specific regions like Greece, Egypt, or Mesopotamia to a comparative view across multiple cultures, exploring their connections within and beyond the Mediterranean world. May be taken for credit up to two times as topics vary.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLAS 140",
+   "subject": "CLAS",
+   "num": "140",
+   "title": "Topics in Classical Studies",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Selected topics in classical studies. May be taken for credit up to three times as topics vary.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLAS 196A",
+   "subject": "CLAS",
+   "num": "196A",
+   "title": "Directed Honors Thesis in Classical Studies",
+   "units": "4",
+   "level": "Graduate",
+   "description": "BA honors thesis research under the direction of a member of a classical studies program faculty.",
+   "prereqText": "acceptance into the classical studies honors program and consent of instructor.",
+   "prereqs": null,
+   "listedAs": "CLAS 196A-B"
+  },
+  {
+   "code": "CLAS 196B",
+   "subject": "CLAS",
+   "num": "196B",
+   "title": "Directed Honors Thesis in Classical Studies",
+   "units": "4",
+   "level": "Graduate",
+   "description": "BA honors thesis research under the direction of a member of a classical studies program faculty.",
+   "prereqText": "acceptance into the classical studies honors program and consent of instructor.",
+   "prereqs": null,
+   "listedAs": "CLAS 196A-B"
+  },
+  {
+   "code": "CLAS 198",
+   "subject": "CLAS",
+   "num": "198",
+   "title": "Directed Group Study",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Directed group study on a topic not generally included in the regular curriculum. Student must make arrangements with individual faculty members. May be repeated for credit as topics vary.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLAS 199",
+   "subject": "CLAS",
+   "num": "199",
+   "title": "Independent Study",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Independent study on a topic not generally included in the regular curriculum. Student must make arrangements with individual faculty members. May be repeated for credit as topics vary.",
+   "prereqText": null,
+   "prereqs": null
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "program": {
+  "major": "Astronomy and Astrophysics",
+  "degree": "B.S.",
+  "department": "Astronomy & Astrophysics"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "UCSD major code AT25. Total ~108 units (56 lower-division + 52 upper-division). C- or better in every course applied to the major; 2.0 GPA in upper-division major courses; at least 60% of upper-division major courses in residence at UCSD. Verified against catalog.ucsd.edu/curric/ASTR-ug.html and astro.ucsd.edu majors-minor page. Note: the catalog states lower-division physics as 'PHYS 4A-B-C-D-E or PHYS 2A-B-C-D and ASTR 18' for THIS major (ASTR 18 is explicitly required alongside the PHYS 2 track, whereas it is only recommended for the Astrophysical Sciences major). ASTR 199/199H honors thesis (4 units) may count as one upper-division ASTR elective.",
+ "sourceUrls": [
+  "https://astro.ucsd.edu/",
+  "https://astro.ucsd.edu/undergraduate/majors-minor/index.html",
+  "https://catalog.ucsd.edu/curric/ASTR-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory Physics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2D",
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C",
+    "PHYS 4D",
+    "PHYS 4E"
+   ],
+   "note": "Complete EITHER the full PHYS 2A-B-C-D sequence (4 courses) OR the full PHYS 4A-B-C-D-E sequence (5 courses). needed=4 reflects the shorter PHYS 2 track; the PHYS 4 track requires all five. For THIS major, students on the PHYS 2 track must also take ASTR 18 (required, not merely recommended). Not a free choice of 4 from the pooled list."
+  },
+  {
+   "label": "Programming course (one from list)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "DSC 10",
+    "BILD 62",
+    "COGS 18",
+    "PHYS 41",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 11",
+    "ECE 15",
+    "MAE 8",
+    "NANO 15",
+    "NANO 15R"
+   ],
+   "note": "Choose one programming course from this list. Verified verbatim against catalog."
+  },
+  {
+   "label": "Mathematics: linear algebra and calculus sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "All six required: MATH 18 plus the MATH 20A-B-C-D-E sequence."
+  },
+  {
+   "label": "Introductory Astronomy & Astrophysics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ASTR 20A",
+    "ASTR 20B"
+   ],
+   "note": "Both ASTR 20A-B required. Separately, ASTR 18 is required for students on the PHYS 2 track (see Introductory Physics bucket)."
+  },
+  {
+   "label": "Upper-division core (all required)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "ASTR 101",
+    "ASTR 102",
+    "ASTR 103",
+    "ASTR 104",
+    "ASTR 105",
+    "ASTR 106"
+   ],
+   "note": "All six specific core courses required. Verified verbatim against catalog."
+  },
+  {
+   "label": "Upper-division core (three from list)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ASTR 120",
+    "ASTR 122",
+    "ASTR 123",
+    "ASTR 124"
+   ],
+   "note": "Choose three of these four. Verified verbatim against catalog."
+  },
+  {
+   "label": "Practical skills / lab (one from list)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ASTR 150",
+    "ASTR 152",
+    "ASTR 154",
+    "ASTR 155"
+   ],
+   "note": "One practical-skills (lab) course required from this list. Verified verbatim against catalog."
+  },
+  {
+   "label": "Upper-division ASTR electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ASTR 100-199"
+   ],
+   "note": "Three additional upper-division ASTR courses of the student's choice. ASTR 199/199H honors thesis (4 units) may count as one of these."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "program": {
+  "major": "Italian Studies",
+  "degree": "B.A.",
+  "department": "Italian Studies"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog.ucsd.edu/curric/ITAL.html and the department page (iah.ucsd.edu). The major is unavailable to declare from spring 2025 through the end of spring 2028 due to limited course offerings (a minor is recommended in the interim). Structure confirmed: twelve upper-division courses (48 units) chosen from the program's approved list, with at least 3 of the six subject areas (Literature, History, Music, Political Science, Theatre, Visual Arts) represented. CORRECTION to harvest: the catalog DOES name a Music-area course - MUS 113 (Topics in Classic, Romantic, and Modern Music) - among the courses that may be applied when >=50% of content focuses on Italian topics, alongside LTEU 109, LTEU 110, LTEU 111, VIS 128A, and VIS 129A; these six were missing from the harvest and have been added to the upper-division pool. The catalog also notes additional courses are offered year-to-year and directs students to the Schedule of Classes / program adviser. Not modeled: the Italian Studies MINOR (7 courses / 28 units), which remains available.",
+ "sourceUrls": [
+  "https://iah.ucsd.edu/academics/italian-studies/index.html",
+  "https://catalog.ucsd.edu/curric/ITAL.html"
+ ],
+ "buckets": [
+  {
+   "label": "Italian language prerequisite",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LTIT 2A",
+    "LTIT 2B",
+    "LTIT 50"
+   ],
+   "note": "Required before upper-division Italian literature (LTIT) coursework; may be satisfied by transfer credit or a proficiency exam ('or demonstrate the equivalent'). These lower-division courses are a prerequisite and do NOT count among the 12 upper-division courses required for the major. All three verified present on the catalog page as lower-division (numbered under 100)."
+  },
+  {
+   "label": "Upper-division approved courses (choose 12 across >=3 subject areas)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 12,
+   "courses": [
+    "HIEU 119",
+    "HIEU 120",
+    "HIEU 124GS",
+    "HIEU 125",
+    "HIEU 147",
+    "HIEU 148",
+    "HIEU 161",
+    "HIEU 172",
+    "HIEU 181",
+    "HIEU 183",
+    "HIEU 199",
+    "LTEU 100",
+    "LTEU 105",
+    "LTEU 109",
+    "LTEU 110",
+    "LTEU 111",
+    "LTEU 140",
+    "LTEU 146",
+    "LTIT 100",
+    "LTIT 115",
+    "LTIT 122",
+    "LTIT 137",
+    "LTIT 161",
+    "LTIT 192",
+    "LTIT 196",
+    "LTIT 198",
+    "LTIT 199",
+    "MUS 113",
+    "POLI 110A",
+    "POLI 110B",
+    "POLI 120I",
+    "TDHT 104",
+    "VIS 120B",
+    "VIS 122B",
+    "VIS 122CN",
+    "VIS 122D",
+    "VIS 122F",
+    "VIS 122GS",
+    "VIS 128A",
+    "VIS 129A"
+   ],
+   "note": "12 upper-division courses (48 units) total, with at least 3 of the six subject areas (Literature, History, Music, Political Science, Theatre, Visual Arts) represented. All 34 originally harvested codes were confirmed present on the catalog's approved list (grouped by department: History/Literature/Political Science/Theatre and Dance/Visual Arts/World Literature). ADDED six codes the harvest missed - LTEU 109, LTEU 110, LTEU 111, MUS 113, VIS 128A, VIS 129A - which the catalog lists as applicable 'when fifty percent or more of the course focus is on Italian topics'; MUS 113 is the Music-area course. HIEU 124GS is cross-listed as VIS 122GS. All courses verified upper-division (100-199). Approved lower-division listings on the program page (LIIT 1A/1B/1C, LTIT 12AR/12BR, LTWL 19A/B/C) do NOT count toward the required 12 upper-division courses. Catalog notes additional courses are offered year-to-year; consult the program adviser and Schedule of Classes."
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "program": {
+  "major": "Business Psychology",
+  "degree": "B.S.",
+  "department": "Psychology"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Lower-division 40 units, upper-division 44 units. Business Fundamentals (MGT 16, MGT 18) required. Research requirement (8 units) satisfied by one of several sequences. Upper division: 2 psych core in business (PSYC 104 + PSYC 105), 2 additional psych core, 3-4 business courses (12 units), 3 psych electives in business, 1 open psych elective.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PSYC-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Natural Science (three courses)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3",
+    "BILD 10",
+    "BILD 12",
+    "BILD 20",
+    "BILD 26",
+    "CHEM 4",
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 11",
+    "CHEM 12",
+    "CHEM 13",
+    "COGS 17",
+    "PHYS 1A",
+    "PHYS 1B",
+    "PHYS 1C",
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 10",
+    "PHYS 11",
+    "PSYC 2"
+   ],
+   "note": "Choose three from the natural science list."
+  },
+  {
+   "label": "Formal Skills (two courses)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 10A",
+    "MATH 20A",
+    "MATH 10B",
+    "MATH 20B",
+    "MATH 18",
+    "PHIL 10",
+    "PHIL 12"
+   ],
+   "note": "One math course plus one additional formal-skills course."
+  },
+  {
+   "label": "Computer Programming (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 18",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 8B",
+    "CSE 11",
+    "CSE 12",
+    "CSS 1",
+    "DSC 10",
+    "ECE 15",
+    "MAE 5",
+    "MAE 8"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Statistics (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 60",
+    "MGT 3",
+    "BENG 100",
+    "BIEB 100",
+    "COGS 14B",
+    "ECON 120A",
+    "MATH 11",
+    "MATH 181A",
+    "MATH 183",
+    "MATH 186"
+   ],
+   "note": "PSYC 60 preferred; MGT 3 accepted for this major."
+  },
+  {
+   "label": "Research Methods (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 70",
+    "COGS 14A"
+   ],
+   "note": "PSYC 70 preferred."
+  },
+  {
+   "label": "Business Fundamentals (two courses)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MGT 16",
+    "MGT 18"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Research Requirement",
+   "division": "other",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "MGT 52",
+    "MGT 151R",
+    "MGT 151A",
+    "MGT 153",
+    "PSYC 199",
+    "MGT 199",
+    "PSYC 194A",
+    "PSYC 194B",
+    "PSYC 194C"
+   ],
+   "note": "Satisfied by one sequence: (MGT 52 + MGT 151R) OR (MGT 52 + MGT 151A) OR (MGT 52 + MGT 153) OR two PSYC 199 OR two MGT 199 OR (one PSYC 199 + one MGT 199) OR PSYC 194A-B-C."
+  },
+  {
+   "label": "Psychology Core in Business (two courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PSYC 104",
+    "PSYC 105"
+   ],
+   "note": "Both PSYC 104 and PSYC 105 required."
+  },
+  {
+   "label": "Additional Psychology Core (two courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PSYC 100",
+    "PSYC 101",
+    "PSYC 102",
+    "PSYC 106",
+    "PSYC 108"
+   ],
+   "note": "Two additional core courses from this list."
+  },
+  {
+   "label": "Business Courses (three to four courses, 12 units)",
+   "division": "upper",
+   "kind": "units",
+   "needed": 12,
+   "courses": [
+    "MGT 100",
+    "MGT 102",
+    "MGT 103",
+    "MGT 105",
+    "MGT 106",
+    "MGT 107",
+    "MGT 108R",
+    "MGT 109",
+    "MGT 117",
+    "MGT 121A",
+    "MGT 121B",
+    "MGT 127",
+    "MGT 128",
+    "MGT 129",
+    "MGT 154",
+    "MGT 160",
+    "MGT 162",
+    "MGT 164",
+    "MGT 167",
+    "MGT 171",
+    "MGT 172",
+    "MGT 173",
+    "MGT 174",
+    "MGT 175",
+    "MGT 176"
+   ],
+   "note": "12 units drawn from Marketing (MGT 100,102,103,105,106,107,108R,109,129,154,162,164), STEM (MGT 121A,121B,127,128,129,154,162,164,167,172,173), and Operations (MGT 117,129,154,160,162,164,171,174,175,176) lists."
+  },
+  {
+   "label": "Psychology Electives in Business (three courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PSYC 137",
+    "PSYC 143",
+    "PSYC 147",
+    "PSYC 148",
+    "PSYC 151",
+    "PSYC 153",
+    "PSYC 154",
+    "PSYC 158",
+    "PSYC 161",
+    "PSYC 162",
+    "PSYC 176",
+    "PSYC 178",
+    "PSYC 184",
+    "PSYC 187"
+   ],
+   "note": "Must include at least one of PSYC 148, 151, or 178."
+  },
+  {
+   "label": "Open Psychology Elective (one course)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 100-111",
+    "PSYC 122-193",
+    "PSYC 195P"
+   ],
+   "note": "PSYC 195P counts for 4 units."
+  }
+ ]
+}

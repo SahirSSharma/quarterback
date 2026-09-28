@@ -1,0 +1,73 @@
+{
+ "program": {
+  "major": "Oceanic and Atmospheric Sciences",
+  "degree": "B.S.",
+  "department": "Scripps Institution of Oceanography"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Transcribed from the General Catalog Scripps Institution of Oceanography program page. Group C may reuse Group B courses beyond the four counted there, so its list includes them.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/SIO-ug.html",
+  "https://catalog.ucsd.edu/courses/SIO.html"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": ["MATH 20A", "MATH 20B", "MATH 20C", "MATH 20D", "MATH 20E", "MATH 18"],
+   "note": "All six required."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["PHYS 2A", "PHYS 2B", "PHYS 2C", "PHYS 4A", "PHYS 4B", "PHYS 4C"],
+   "note": "PHYS 2A-B-C, or the PHYS 4 series."
+  },
+  {
+   "label": "Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["CHEM 6A", "CHEM 6B", "CHEM 6C"],
+   "note": "All three required."
+  },
+  {
+   "label": "Introduction to Oceanic and Atmospheric Sciences",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": ["SIO 60"],
+   "note": "Required."
+  },
+  {
+   "label": "Group A — Core Courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["SIO 171", "SIO 172", "SIO 174"],
+   "note": "All three required."
+  },
+  {
+   "label": "Group B — Restricted Electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": ["SIO 111", "SIO 117", "SIO 141", "SIO 143", "SIO 173", "SIO 175", "SIO 176", "SIO 177", "SIO 178"],
+   "note": "At least four."
+  },
+  {
+   "label": "Group C — Upper-Division Electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": ["SIO 101", "SIO 108", "SIO 110", "SIO 111", "SIO 113", "SIO 115", "SIO 117", "SIO 134", "SIO 135", "SIO 141", "SIO 143", "SIO 160", "SIO 173", "SIO 175", "SIO 176", "SIO 177", "SIO 178", "SIO 179", "SIO 199", "CHEM 130", "CHEM 131", "CHEM 132", "CHEM 171", "CHEM 173", "MATH 110", "MATH 120A", "MATH 120B", "MATH 180A", "PHYS 110A", "PHYS 110B", "PHYS 140A", "PHYS 140B", "MAE 101A", "CENG 101A"],
+   "note": "At least five, and any Group B course beyond the four counted there may be used here."
+  }
+ ]
+}

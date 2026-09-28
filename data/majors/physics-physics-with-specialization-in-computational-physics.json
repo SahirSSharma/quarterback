@@ -1,0 +1,105 @@
+{
+ "program": {
+  "major": "Physics with Specialization in Computational Physics",
+  "degree": "B.S.",
+  "department": "Physics"
+ },
+ "catalogYear": "current (2024-2026 General Catalog)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Computational Physics is an optional focus area within the BS, Physics (PY29) degree. Full requirement set = BS Physics core plus five restricted electives from the computational-physics focus list. Focus list verified verbatim.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PHYS-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-Division Physics Core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C",
+    "PHYS 4D",
+    "PHYS 4E",
+    "PHYS 2CL",
+    "PHYS 2DL",
+    "PHYS 41"
+   ],
+   "note": "Shared BS core."
+  },
+  {
+   "label": "Lower-Division Mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "MATH 18 and 20A-B-C-D-E (24 units)."
+  },
+  {
+   "label": "Upper-Division Core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PHYS 100A",
+    "PHYS 100B",
+    "PHYS 105A",
+    "PHYS 110A",
+    "PHYS 120",
+    "PHYS 130A",
+    "PHYS 130B",
+    "PHYS 140A"
+   ],
+   "note": "PHYS 100A-B, 105A, 110A, 120, 130A-B, 140A (33 units)."
+  },
+  {
+   "label": "Upper-Division Lab",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 122",
+    "PHYS 124",
+    "PHYS 133",
+    "PHYS 173",
+    "ASTR 150"
+   ],
+   "note": "One from PHYS 122, 124, 133, 173, or ASTR 150 (4 units)."
+  },
+  {
+   "label": "Restricted Electives (Computational Physics focus)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PHYS 105B",
+    "PHYS 141",
+    "PHYS 142",
+    "MATH 170A",
+    "MATH 170B",
+    "MATH 170C",
+    "MATH 179",
+    "MATH 183"
+   ],
+   "note": "Five restricted electives (20 units), 4+ units each; max two from outside physics (the MATH courses). Catalog verbatim: 'Computational physics: PHYS 105B, 141, 142; MATH 170A-B-C, 179, 183.'"
+  },
+  {
+   "label": "Total Units for the Major",
+   "division": "other",
+   "kind": "units",
+   "needed": 109,
+   "courses": [],
+   "note": "52 lower-division + 57 upper-division units (same as base BS). This is a total unit count, not a course list. The BS Physics (PY29) / Computational Physics focus totals 109 units: 52 lower-division (8 PHYS core + 6 lower-div MATH) plus 57 upper-division (8 UD core + 1 UD lab + 5 restricted electives). No additional courses beyond the other buckets; the requirement is satisfied by accumulating >=109 units across the listed core/elective buckets.",
+   "type": "unitTotal"
+  }
+ ]
+}

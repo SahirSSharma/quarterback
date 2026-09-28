@@ -1,0 +1,74 @@
+{
+ "program": {
+  "major": "NanoEngineering",
+  "degree": "B.S.",
+  "department": "NanoEngineering"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Transcribed from the General Catalog NanoEngineering program page. All courses except NANO 4 must be taken for a letter grade of C- or better. The five upper-division NANO electives exclude NANO 195/197/198; NANO 199 counts only under restricted conditions, so the elective range here stops at 194.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/NANO-ug.html",
+  "https://catalog.ucsd.edu/courses/NANO.html"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": ["MATH 20A", "MATH 20B", "MATH 20C", "MATH 20D", "MATH 20E", "MATH 18"],
+   "note": "All six required."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": ["PHYS 2A", "PHYS 2B", "PHYS 2C", "PHYS 2D"],
+   "note": "All four required."
+  },
+  {
+   "label": "Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": ["CHEM 6A", "CHEM 6B", "CHEM 6C", "CHEM 7L"],
+   "note": "All four required (CHEM 7L lab)."
+  },
+  {
+   "label": "Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": ["BILD 1"],
+   "note": "Required."
+  },
+  {
+   "label": "NanoEngineering Lower Division",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["NANO 4", "NANO 11", "NANO 15"],
+   "note": "NANO 4 is the one-unit seminar and is the only course in the major that need not be letter-graded. NANO 15 is the programming requirement."
+  },
+  {
+   "label": "NanoEngineering Core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 13,
+   "courses": ["NANO 20L", "NANO 102", "NANO 104", "NANO 107", "NANO 108", "NANO 110", "NANO 111", "NANO 112", "NANO 115L", "NANO 117", "NANO 119", "NANO 120A", "NANO 120B", "NANO 148"],
+   "note": "NANO 107 (circuits) and NANO 108 (circuits lab) are the engineering-preparation pair; the rest is the core sequence."
+  },
+  {
+   "label": "NanoEngineering Electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": ["NANO 100-194"],
+   "exclude": ["NANO 102", "NANO 104", "NANO 107", "NANO 108", "NANO 110", "NANO 111", "NANO 112", "NANO 115L", "NANO 117", "NANO 119", "NANO 120A", "NANO 120B", "NANO 148"],
+   "note": "Five upper-division NANO courses beyond the core. NANO 195, 197 and 198 never count; NANO 199 only by petition."
+  }
+ ]
+}

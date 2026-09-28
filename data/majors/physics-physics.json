@@ -1,0 +1,110 @@
+{
+ "program": {
+  "major": "Physics",
+  "degree": "B.S.",
+  "department": "Physics"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Program code PY29. Verified against catalog.ucsd.edu/curric/PHYS-ug.html: lower division 52 units, upper division core 33 units, lab 4 units, restricted electives 20 units (total 109). PHYS 4 series is the standard calculus-based intro sequence. Programming requirement is PHYS 41; transfer students may petition an equivalent completed before transfer (CENG/NANO 15, COGS 18, CSE 8A/11/12, ECE 15, MAE 8).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PHYS-ug.html",
+  "https://physics.ucsd.edu/students/undergraduate/major-requirements",
+  "https://physics.ucsd.edu/students/undergraduate/education"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory physics sequence (calculus-based mechanics through modern physics)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C",
+    "PHYS 4D",
+    "PHYS 4E"
+   ],
+   "note": "All five required (20 units). Confirmed: 'PHYS 4A-B-C-D-E (twenty units)'."
+  },
+  {
+   "label": "Lower-division physics laboratories",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PHYS 2CL",
+    "PHYS 2DL"
+   ],
+   "note": "Both required (4 units). Confirmed: 'PHYS 2CL-2DL (four units)'."
+  },
+  {
+   "label": "Computing / programming requirement",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 41"
+   ],
+   "note": "PHYS 41 (four units). Transfer students may petition an equivalent completed before transfer: CENG 15, NANO 15, COGS 18, CSE 8A, CSE 11, CSE 12, ECE 15, or MAE 8."
+  },
+  {
+   "label": "Mathematics sequence (calculus, linear algebra, vector calculus)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "All six required (24 units). Confirmed: 'MATH 18 and 20A-B-C-D-E'. Honors equivalents MATH 31AH/31BH/31CH may substitute per department."
+  },
+  {
+   "label": "Upper-division physics core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PHYS 100A",
+    "PHYS 100B",
+    "PHYS 105A",
+    "PHYS 110A",
+    "PHYS 120",
+    "PHYS 130A",
+    "PHYS 130B",
+    "PHYS 140A"
+   ],
+   "note": "All eight required (33 units). Confirmed: 'PHYS 100A-B, 105A, 110A, 120, 130A-B, 140A'."
+  },
+  {
+   "label": "Upper-division laboratory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 122",
+    "PHYS 124",
+    "PHYS 133",
+    "PHYS 173",
+    "ASTR 150"
+   ],
+   "note": "Choose one (4 units). Confirmed: 'One from PHYS 122, 124, 133, 173, or ASTR 150'."
+  },
+  {
+   "label": "Restricted electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PHYS 100-195",
+    "PHYS 200-295"
+   ],
+   "note": "Five upper-division and/or graduate-level courses from PHYS 100-195 and 200-295 (20 units). Course ranges are placeholders for any qualifying PHYS course in those number bands; a degree audit enumerates the eligible courses."
+  }
+ ]
+}

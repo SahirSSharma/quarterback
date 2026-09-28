@@ -1,0 +1,130 @@
+{
+ "program": {
+  "major": "Applied Mathematics",
+  "degree": "B.S.",
+  "department": "Mathematics"
+ },
+ "catalogYear": "current General Catalog (catalog.ucsd.edu)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Major code MA27. Thirteen upper-division four-unit courses (fifty-two units) total, including the required courses. Up to three upper-division courses may be taken outside the department in an approved applied area by petition. MAE 107, ECON 120A-B-C and MATH 195–199 cannot be counted.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/MATH-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Calculus and linear algebra sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E",
+    "MATH 31AH",
+    "MATH 31BH",
+    "MATH 31CH"
+   ],
+   "note": "One of two sequences: MATH 18 and 20A-B-C-D-E, or Honors Calculus MATH 31AH-BH-CH with MATH 20D (31AH-BH-CH cover MATH 18, 20C and 20E). The count shown is the standard six-course sequence; on the honors path four courses complete it."
+  },
+  {
+   "label": "Programming requirement",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 11",
+    "ECE 15",
+    "DSC 20"
+   ],
+   "note": "One course."
+  },
+  {
+   "label": "Mathematical Reasoning",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 109"
+   ],
+   "note": "MATH 109. Students completing MATH 31AH-BH-CH may substitute a four-unit upper-division mathematics elective."
+  },
+  {
+   "label": "Linear Algebra",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 102",
+    "MATH 170A"
+   ],
+   "note": "MATH 102 or MATH 170A."
+  },
+  {
+   "label": "Analysis",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 140A",
+    "MATH 140B",
+    "MATH 142A",
+    "MATH 142B"
+   ],
+   "note": "MATH 140A-B or MATH 142A-B."
+  },
+  {
+   "label": "Probability or Statistical Methods",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 180A",
+    "MATH 183"
+   ],
+   "note": "MATH 180A or MATH 183. Duplication of credit exists between MATH 180A/183 and ECON 120A."
+  },
+  {
+   "label": "Two applied sequences (four courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "MATH 154",
+    "MATH 158",
+    "MATH 184",
+    "MATH 188",
+    "MATH 110",
+    "MATH 130",
+    "MATH 170B",
+    "MATH 170C",
+    "MATH 175",
+    "MATH 179",
+    "MATH 171A",
+    "MATH 171B",
+    "MATH 180B",
+    "MATH 180C",
+    "MATH 181A",
+    "MATH 181B",
+    "MATH 181D",
+    "MATH 181F",
+    "MATH 185",
+    "MATH 189"
+   ],
+   "note": "TWO complete sequences from: Combinatorics (MATH 154 or 158, and MATH 184 or 188); Differential Equations (MATH 110 and 130); Numerical Methods (two of MATH 170B-C, 175, 179); Optimization (MATH 171A-B); Probability (MATH 180B-C); Statistics (MATH 181A-B, or any two of MATH 181D, 181F, 185, 189). The audit counts four courses from the combined pool — check that yours form two whole sequences."
+  },
+  {
+   "label": "Additional upper-division mathematics electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "MATH 100-194"
+   ],
+   "note": "Chosen from any mathematics course numbered 100–194. The count here is what remains AFTER the required upper-division courses above, which also count toward the total. MATH 195–199 may not be used toward any mathematics major."
+  }
+ ]
+}

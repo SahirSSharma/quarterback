@@ -1,0 +1,163 @@
+{
+ "program": {
+  "major": "Urban Studies and Planning",
+  "degree": "B.A.",
+  "department": "Urban Studies and Planning"
+ },
+ "catalogYear": "2024-2025 (requirements effective Fall 2024)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against the department Fall 2024 page and UCSD General Catalog. 18 courses total: 6 lower-division + 12 upper-division. All courses taken for a letter grade with C- or higher, EXCEPT USP 30 which is Pass/No Pass only. Upper-division work requires 2.0 major GPA. Optional Honors: USP 190. Note: catalog title for USP 30 is 'Planning Practicum'; department page labels it 'Urban Studies and Planning Colloquium' - same 2-unit course.",
+ "sourceUrls": [
+  "https://usp.ucsd.edu/undergraduate/usp/reqs-effective-fa24.html",
+  "https://usp.ucsd.edu/undergraduate/red/major-effective-fa24.html",
+  "https://catalog.ucsd.edu/curric/USP.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory urban course (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 1"
+   ],
+   "note": "History of U.S. Urban Communities. Letter grade, C- or higher."
+  },
+  {
+   "label": "Urban world / global architecture (choose 1)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 2",
+    "USP 6"
+   ],
+   "note": "USP 2 Urban World System OR USP 6 Introduction to Global Architecture."
+  },
+  {
+   "label": "Social theory / real estate intro (choose 1)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 3",
+    "USP 5"
+   ],
+   "note": "USP 3 The City and Social Theory OR USP 5 Introduction to the Real Estate and Development Process."
+  },
+  {
+   "label": "Introduction to GIS (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 4"
+   ],
+   "note": "Introduction to Geographic Information Systems."
+  },
+  {
+   "label": "USP Colloquium / Planning Practicum (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 30"
+   ],
+   "note": "2 units; Pass/No Pass only (exception to the letter-grade rule)."
+  },
+  {
+   "label": "Planning research practice (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 60"
+   ],
+   "note": "The Practice of Planning Research."
+  },
+  {
+   "label": "Foundation - required core (both)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "USP 124",
+    "USP 173"
+   ],
+   "note": "USP 124 Land Use Planning and USP 173 History of Urban Planning and Design, both required."
+  },
+  {
+   "label": "Foundation elective (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 100",
+    "USP 103",
+    "USP 104",
+    "USP 105",
+    "USP 106",
+    "USP 107",
+    "USP 108",
+    "USP 170",
+    "USP 171",
+    "USP 171GS"
+   ],
+   "note": "Confirmed on Fall 2024 page. USP 171/USP 100 removed from harvested extras? No - all present on page. Several cross-listed."
+  },
+  {
+   "label": "Technical elective (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 169",
+    "USP 172",
+    "USP 175",
+    "USP 177A",
+    "USP 183GS",
+    "USP 191A"
+   ],
+   "note": "Recommended junior year. Matches page exactly."
+  },
+  {
+   "label": "Research methods (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 125",
+    "USP 128A",
+    "USP 142A",
+    "USP 142B",
+    "USP 160",
+    "USP 163",
+    "USP 188",
+    "USP 193"
+   ],
+   "note": "Recommended junior year. USP 188 cross-listed as SOCI 188. Matches page exactly. (USP 141A appears in catalog but is NOT on the Fall 2024 research-methods list, so excluded.)"
+  },
+  {
+   "label": "Senior Sequence (both)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "USP 186",
+    "USP 187"
+   ],
+   "note": "USP 186 Senior Sequence Research Proposal (6 units, Fall only) then USP 187 Senior Sequence Research Project (6 units, Winter only). USP 187 requires USP 186."
+  },
+  {
+   "label": "Upper-division electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "USP 100-194"
+   ],
+   "note": "Choose 5. At least 3 must be USP courses. At most 1 special-studies course (USP 198 or USP 199) may count."
+  }
+ ]
+}

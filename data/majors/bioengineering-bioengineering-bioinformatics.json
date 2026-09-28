@@ -1,0 +1,208 @@
+{
+ "program": {
+  "major": "Bioengineering: Bioinformatics",
+  "degree": "B.S.",
+  "department": "Bioengineering (BE)"
+ },
+ "catalogYear": "current General Catalog (catalog.ucsd.edu)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog; BILD 1 confirmed in addition to BILD 3 and BILD 4. NOT ABET-accredited (heavy biology/chemistry/physics emphasis). Jointly developed by Bioengineering, CSE, and the School of Biological Sciences; students may apply through any of these departments — this is the BENG-administered version. Same GPA and C- letter-grade rules. Physics is lecture-only (no labs listed): PHYS 2A, 2B, 2C.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/BENG-ug.html",
+  "https://be.ucsd.edu/undergrad",
+  "https://be.ucsd.edu/undergrad/programs/bioeng"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 18",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": ""
+  },
+  {
+   "label": "General chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C"
+   ],
+   "note": "Lecture only; no companion labs listed for this major."
+  },
+  {
+   "label": "Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BILD 1",
+    "BILD 3",
+    "BILD 4"
+   ],
+   "note": "BILD 1 confirmed in first-year spring; BILD 3/4 in sophomore year."
+  },
+  {
+   "label": "Lower-division engineering / computing",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "BENG 1",
+    "CSE 11",
+    "CSE 12",
+    "CSE 21"
+   ],
+   "note": "CSE 11/12/21 are the CS programming and discrete-math foundation."
+  },
+  {
+   "label": "Upper-division bioengineering core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 15,
+   "courses": [
+    "BENG 100",
+    "BENG 102",
+    "BENG 120",
+    "BENG 125",
+    "BENG 130",
+    "BENG 168",
+    "BENG 181",
+    "BENG 182",
+    "BENG 183",
+    "BENG 187A",
+    "BENG 187B",
+    "BENG 187C",
+    "BENG 187D",
+    "BENG 188A",
+    "BENG 188B"
+   ],
+   "note": "BENG 181/182/183 are the bioinformatics computation sequence; 187A-D and 188A/B are senior design."
+  },
+  {
+   "label": "Upper-division supporting courses (CSE / Biology / Math)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "CSE 100",
+    "CSE 101",
+    "BICD 100",
+    "BIMM 100",
+    "BIMM 185",
+    "MATH 186"
+   ],
+   "note": "CSE 100/101 (data structures/algorithms); BICD 100 (genetics); BIMM 100 (molecular biology); BIMM 185 (bioinformatics lab); MATH 186 (probabilistic statistics, upper-division)."
+  },
+  {
+   "label": "Technical electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BENG 110",
+    "BENG 112A",
+    "BENG 112B",
+    "BENG 123",
+    "BENG 133",
+    "BENG 134",
+    "BENG 141",
+    "BENG 160",
+    "BENG 161A",
+    "BENG 161B",
+    "BENG 166A",
+    "BENG 186B",
+    "BENG 193",
+    "BENG 196",
+    "BENG 199",
+    "CENG 100",
+    "CENG 101A",
+    "CENG 134",
+    "CENG 199",
+    "CSE 105",
+    "CSE 110",
+    "CSE 112",
+    "CSE 140",
+    "CSE 140L",
+    "CSE 150A",
+    "CSE 150B",
+    "CSE 151A",
+    "CSE 151B",
+    "CSE 158",
+    "CSE 166",
+    "CSE 167",
+    "CSE 176A",
+    "CSE 180",
+    "ECE 101",
+    "ECE 102",
+    "ECE 103",
+    "ECE 107",
+    "ECE 118",
+    "ECE 120",
+    "ECE 138L",
+    "ECE 140B",
+    "ECE 143",
+    "ECE 161B",
+    "ECE 174",
+    "ECE 175A",
+    "ECE 199",
+    "ECE 209",
+    "ECE 253",
+    "ENG 100D",
+    "ENG 100L",
+    "MAE 101A",
+    "MAE 101B",
+    "MAE 105",
+    "MAE 107",
+    "MAE 108",
+    "MAE 118",
+    "MAE 119",
+    "MAE 120",
+    "MAE 125",
+    "MAE 130",
+    "MAE 131A",
+    "MAE 145",
+    "MAE 148",
+    "MAE 150",
+    "MAE 154",
+    "MAE 170",
+    "MAE 180A",
+    "MAE 199",
+    "NANO 102",
+    "NANO 103",
+    "NANO 106",
+    "NANO 108",
+    "NANO 134",
+    "NANO 156",
+    "NANO 175",
+    "NANO 199",
+    "SE 101A",
+    "SE 110A",
+    "SE 115"
+   ],
+   "note": "Two courses from the departmental approved list; must be pre-approved. BENG 196/199 may count; 197/198 do not. Exact department pre-approved list from 'TE List - BINF 1.17.2024.pdf' (be.ucsd.edu, BE28 program). Requirement = 8 units total, all with 'engineering' as primary component; courses must be upper-div (100-series) Jacobs School of Engineering courses not required for the major, taken for a letter grade. Two quarters of BENG/CENG/ECE/MAE/NANO 199 with the same faculty satisfy both TE units. BENG 196 (industrial internship) counts (4 units) with departmental approval; BENG 197 and BENG 198 do NOT count. ENG 100D+100L (TIES) yield 8 units when taken per the rule. List is curated/subject to change and requires Student Affairs pre-approval, so it is enumerated explicitly rather than as department ranges. Cross-listed equivalents noted: CENG 101A=MAE 101A, CENG 134=NANO 134, MAE 131A=SE 110A."
+  }
+ ]
+}

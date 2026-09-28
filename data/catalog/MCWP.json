@@ -1,0 +1,131 @@
+{
+ "page": "MCWP",
+ "name": "Muir College",
+ "courses": [
+  {
+   "code": "MUIR 1",
+   "subject": "MUIR",
+   "num": "1",
+   "title": "First Year Experience",
+   "units": "2",
+   "level": null,
+   "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking and organizational, interpersonal, and wellness skills. P/NP grades only.",
+   "prereqText": "department approval. Open to incoming Muir College students only.",
+   "prereqs": null
+  },
+  {
+   "code": "MUIR 2",
+   "subject": "MUIR",
+   "num": "2",
+   "title": "Transfer Year Experience",
+   "units": "2",
+   "level": null,
+   "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking and organizational, interpersonal, and wellness skills. P/NP grades only.",
+   "prereqText": "department approval. Open to Muir College transfer students only.",
+   "prereqs": null
+  },
+  {
+   "code": "MUIR 199",
+   "subject": "MUIR",
+   "num": "199",
+   "title": "Muir Special Project",
+   "units": "4\u201316",
+   "level": null,
+   "description": "A course of independent work on a research or creative project to satisfy a Muir graduation requirement. (Only Muir students who have had Muir Special Project proposals approved may enroll in this course.) Students wishing to enroll must submit a written request with a description of the project. (Muir students must submit the Muir Special Project 199 form to the major advisor and to the Office of the Provost by the seventh week of the quarter prior to the quarter in which the 199 is to be undertaken. For information on other requirements, consult the provost\u2019s office.)",
+   "prereqText": "upper-division status, approval by project advisor and by provost. (Letter grades only.)",
+   "prereqs": null
+  },
+  {
+   "code": "MCWP 40",
+   "subject": "MCWP",
+   "num": "40",
+   "title": "Critical Writing",
+   "units": "4",
+   "level": null,
+   "description": "First course of sequence in university reading and writing which satisfies the Muir College graduation requirement in writing. Required of all Muir College first-year students and of transfer students who have not completed a comparable course elsewhere. MCWP 40 introduces students to the basic elements of argument and analysis. Students engage in close reading of texts, weekly writing and revision, and individual conferences. Grades of C or higher are required for prerequisites. Students must take MCWP 40 for a letter grade to count toward the Muir College writing requirement. Students may receive credit for one of the following: MCWP 40, MCWP 40R, MCWP 40C, or MCWP 40CR.",
+   "prereqText": "satisfaction of Entry Level Writing Requirement.",
+   "prereqs": null
+  },
+  {
+   "code": "MCWP 40C",
+   "subject": "MCWP",
+   "num": "40C",
+   "title": "CritWrit: Climate Change",
+   "units": "4",
+   "level": null,
+   "description": "First course of sequence which satisfies the Muir College graduation requirement in writing. Required of all Muir College first-year students and of transfer students who have not completed a comparable course elsewhere. MCWP 40C introduces students to the basic elements of argument and analysis with a focus on climate change. Students engage in close reading of texts, weekly writing and revision, and individual conferences. Satisfies the Jane Teranes Climate Change Education Requirement. Grades of C or higher are required for prerequisites. Students must take MCWP 40C for a letter grade to count toward the Muir College writing requirement. Students may receive credit for one of the following: MCWP 40, MCWP 40R, MCWP 40C, or MCWP 40CR.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MCWP 40R",
+   "subject": "MCWP",
+   "num": "40R",
+   "title": "Critical Writing",
+   "units": "4",
+   "level": null,
+   "description": "Online version of the first course of sequence in university reading and writing which satisfies the Muir College graduation requirement in writing. Required of all Muir College first-year students and of transfer students who have not completed a comparable course elsewhere. MCWP 40R introduces students to the basic elements of argument and analysis. Students engage in close reading of texts, weekly writing and revision, and individual conferences. This class is held synchronously online. Grades of C or higher are required for prerequisites. Must take MCWP 40R for a letter grade for the Muir College writing requirement. Credit given for only one of the following: MCWP 40, MCWP 40R, MCWP 40C, or MCWP 40CR. This is a distance education course.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MCWP 40CR",
+   "subject": "MCWP",
+   "num": "40CR",
+   "title": "CritWrit: Climate Change",
+   "units": "4",
+   "level": null,
+   "description": "Online version of the first course of sequence which satisfies the Muir College graduation requirement in writing. Required of all Muir College first-year students and of transfer students who have not completed a comparable course elsewhere. MCWP 40CR introduces students to the basic elements of argument and analysis with a focus on climate change. Students engage in close reading of texts, weekly writing and revision, and individual conferences. Satisfies the Jane Teranes Climate Change Education Requirement. This class is held synchronously online. Grades of C or higher are required for prerequisites. Students must take MCWP 40CR for a letter grade to count toward the Muir College writing requirement. Students may receive credit for one of the following: MCWP 40, MCWP 40R, MCWP 40C, or MCWP 40CR. This is a distance education course.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MCWP 50",
+   "subject": "MCWP",
+   "num": "50",
+   "title": "Critical Writing",
+   "units": "4",
+   "level": null,
+   "description": "Second course of sequence in reading and writing which satisfies the Muir College graduation requirement in writing. Required of all Muir College first-year students and of transfer students. MCWP 50 focuses on advanced skills of argument and analysis. Students engage in close reading of texts, weekly writing and revision, and individual conferences. Students will not receive credit for both MCWP 50 and MCWP 50R. Must be taken for a letter grade to satisfy the Muir College writing requirement.",
+   "prereqText": "satisfaction of the MCWP 40 requirement or completion of IGETC.",
+   "prereqs": [
+    [
+     "MCWP 40"
+    ]
+   ]
+  },
+  {
+   "code": "MCWP 50R",
+   "subject": "MCWP",
+   "num": "50R",
+   "title": "Critical Writing",
+   "units": "4",
+   "level": null,
+   "description": "Online version of the second course of sequence in reading and writing which satisfies the Muir College graduation requirement in writing. Required of all Muir College first-year students and of transfer students. MCWP 50R focuses on advanced skills of argument and analyses. Students engage in close reading of texts, weekly writing and revision, and individual conferences. This class is held synchronously online. Students will not receive credit for both MCWP 50 and MCWP 50R. Must be taken for a letter grade to satisfy the Muir College writing requirement. This is a distance education course.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MCWP 125",
+   "subject": "MCWP",
+   "num": "125",
+   "title": "Argument and Analysis",
+   "units": "4",
+   "level": null,
+   "description": "An advanced course in argumentation and analysis, with particular attention both to constructing arguments and analyzing the logic and rhetoric of others\u2019 arguments. Students will engage in close reading of texts, weekly writing and revision, and individual conferences. MCWP 125 courses are for transfer students who enter Muir College with TAG or IGETC. Students may receive credit for one of the following: MCWP 125, MCWP 125R, MCWP 50, or MCWP 50R. Course must be taken for letter grade to fulfill Muir College writing requirement.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MCWP 125R",
+   "subject": "MCWP",
+   "num": "125R",
+   "title": "Argument and Analysis",
+   "units": "4",
+   "level": null,
+   "description": "An advanced course in argumentation and analysis, with particular attention both to constructing arguments and analyzing the logic and rhetoric of others\u2019 arguments. Students will engage in close reading of texts, weekly writing and revision, and individual conferences. MCWP 125 courses are for transfer students who enter Muir College with TAG or IGETC. Students may receive credit for one of the following: MCWP 125, MCWP 125R, MCWP 50, or MCWP 50R. Course must be taken for letter grade to fulfill Muir College writing requirement. This is a distance education course.",
+   "prereqText": null,
+   "prereqs": null
+  }
+ ]
+}

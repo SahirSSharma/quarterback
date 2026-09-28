@@ -1,0 +1,239 @@
+{
+ "program": {
+  "major": "Computer Engineering",
+  "degree": "B.S.",
+  "department": "Computer Science and Engineering (CSE)"
+ },
+ "catalogYear": "2023-2024",
+ "confidence": "high",
+ "found": true,
+ "notes": "132 units total excluding GE. Jointly relevant to CSE/ECE. Verified against catalog: lower-division CSE/ECE choices, math sequence (incl. MATH 20D), physics sequence, ECE 35/45, and all upper-division cores confirmed. Note: the catalog fetch lists the physics requirement as PHYS 2A/2B/2C; the harvested 4-series (PHYS 4A/4B/4C) alternatives are the standard UCSD honors-sequence equivalents and are retained as choose-one options, but were not explicitly enumerated on the summarized page. Prob/stat = MATH 11 (lower) or ECE 109 (upper).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/CSE-ug.html",
+  "https://cse.ucsd.edu/undergraduate/undergraduate-degree-programs"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory programming",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 8B",
+    "CSE 11"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Data structures (CSE 12)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 12"
+   ]
+  },
+  {
+   "label": "Systems programming",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 29",
+    "ECE 15"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Computer organization / assembly",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 30",
+    "ECE 30"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Calculus I (MATH 20A)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20A"
+   ]
+  },
+  {
+   "label": "Calculus II (MATH 20B)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20B"
+   ]
+  },
+  {
+   "label": "Calculus III / multivariable",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20C",
+    "MATH 31BH"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Differential equations (MATH 20D)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20D"
+   ]
+  },
+  {
+   "label": "Linear algebra",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 18",
+    "MATH 31AH"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Physics: mechanics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 4A"
+   ],
+   "note": "Choose one (2A-B-C or 4A-B-C sequence). Catalog summary showed the 2-series; 4-series retained as standard equivalent."
+  },
+  {
+   "label": "Physics: electricity & magnetism",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 2B",
+    "PHYS 4B"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Physics: waves / third term",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 2C",
+    "PHYS 4C"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Probability & statistics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 11",
+    "ECE 109"
+   ],
+   "note": "Choose one; MATH 11 is lower-division, ECE 109 is upper-division. Confirmed on page."
+  },
+  {
+   "label": "Circuits / electrical engineering",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ECE 35",
+    "ECE 45"
+   ],
+   "note": "Both required. Confirmed on page."
+  },
+  {
+   "label": "Digital design (CSE 140)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 140"
+   ],
+   "note": "Required. Confirmed on page."
+  },
+  {
+   "label": "Computer architecture",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 141",
+    "CSE 142"
+   ],
+   "note": "Choose one. Confirmed on page."
+  },
+  {
+   "label": "Core ECE courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECE 101",
+    "ECE 108",
+    "ECE 111"
+   ],
+   "note": "All three required. Confirmed on page."
+  },
+  {
+   "label": "CSE or ECE project course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 118",
+    "CSE 145",
+    "CSE 147",
+    "CSE 148",
+    "CSE 170",
+    "CSE 176A",
+    "CSE 176E",
+    "ECE 115",
+    "ECE 140B",
+    "ECE 144",
+    "ECE 191",
+    "ECE 196"
+   ],
+   "note": "Choose one. Full list confirmed on page."
+  },
+  {
+   "label": "Upper-division CSE/ECE electives",
+   "division": "upper",
+   "kind": "units",
+   "needed": 40,
+   "courses": [
+    "CSE 100-299",
+    "ECE 100-299"
+   ],
+   "note": "40 units of upper-division CSE/ECE. Confirmed on page."
+  },
+  {
+   "label": "Open electives",
+   "division": "other",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "CSE 3-199",
+    "ECE 5-199"
+   ],
+   "note": "Up to 8 units of lower- or upper-division CSE/ECE. Catalog specifies range CSE 3-199 / ECE 5-199 (corrected from harvested CSE 1-299 / ECE 1-299)."
+  }
+ ]
+}

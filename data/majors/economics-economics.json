@@ -1,0 +1,87 @@
+{
+ "program": {
+  "major": "Economics",
+  "degree": "B.A.",
+  "department": "Economics"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "EN25. Verified against catalog.ucsd.edu/curric/ECON-ug.html. All major courses (including electives) must be passed with C- or better; minimum 2.0 major GPA. No more than four upper-division courses may be transferred from outside UC San Diego. B.A. has lighter lower-division and a two-quarter intermediate micro sequence (100A-B) vs the B.S. Catalog confirms only ECON 100A-B required (not C); the five electives may include ECON 100C. Total 11 courses minimum.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ECON-ug.html",
+  "https://economics.ucsd.edu/undergraduate-program/major-minor-requirements/economics-major-ba.html",
+  "https://economics.ucsd.edu/undergraduate-program/major-minor-requirements/BusEcon.html",
+  "https://math.ucsd.edu/students/undergraduate/ma33-joint-major-in-math-econ"
+ ],
+ "buckets": [
+  {
+   "label": "Calculus sequence (complete one full sequence)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 10C",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C"
+   ],
+   "note": "Complete either MATH 10A-B-C or MATH 20A-B-C (20-series recommended). Do not mix sequences."
+  },
+  {
+   "label": "Principles of Economics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ECON 1",
+    "ECON 3"
+   ],
+   "note": "ECON 1 (principles of microeconomics) and ECON 3 (principles of macroeconomics), both required."
+  },
+  {
+   "label": "Intermediate Microeconomics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ECON 100A",
+    "ECON 100B"
+   ],
+   "note": "Two-quarter sequence for the B.A. Catalog confirms only 100A-B required."
+  },
+  {
+   "label": "Macroeconomics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ECON 110A",
+    "ECON 110B"
+   ]
+  },
+  {
+   "label": "Econometrics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECON 120A",
+    "ECON 120B",
+    "ECON 120C"
+   ]
+  },
+  {
+   "label": "Upper-division economics electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "ECON 100-199"
+   ],
+   "note": "Five additional upper-division economics courses (ECON 100-199), excluding those already used to satisfy core requirements. May include ECON 100C. No advanced-list requirement for the B.A."
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "program": {
+  "major": "Music Humanities",
+  "degree": "B.A.",
+  "department": "Music"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "All courses must be taken for letter grades; only grades of C- or better are accepted. The upper-division elective set requires at least one starred course (MUS 107, 110, 116, or 150). Verified against department major page and catalog; corrected the starred-course list to remove MUS 127 (not a starred course per both sources).",
+ "sourceUrls": [
+  "https://music-cms.ucsd.edu/ugrad/index.html",
+  "https://music-cms.ucsd.edu/ugrad/music-major.html",
+  "https://music-cms.ucsd.edu/ugrad/music-hum-major.html",
+  "https://music-cms.ucsd.edu/ugrad/icam-major.html",
+  "https://catalog.ucsd.edu/curric/MUS-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Fundamentals of Music sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 1A",
+    "MUS 1B",
+    "MUS 1C",
+    "MUS 2A",
+    "MUS 2B",
+    "MUS 2C"
+   ],
+   "note": "Take MUS 1A-B-C, or MUS 2A-B-C if qualified — 3 courses total."
+  },
+  {
+   "label": "Performance ensemble (choose 3)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 95A-95W",
+    "MUS 130",
+    "MUS 131",
+    "MUS 133",
+    "MUS 134"
+   ],
+   "note": "Three quarters of ensemble from MUS 95A through 95W (lower-division) or MUS 130/131/133/134 (upper-division). Mixed-division bucket; listed under lower division on the department page."
+  },
+  {
+   "label": "Department Seminar",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MUS 43",
+    "MUS 143"
+   ],
+   "note": "Required each quarter the student is a declared major; not counted toward course totals."
+  },
+  {
+   "label": "History of Music in Western Culture",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 120A",
+    "MUS 120B",
+    "MUS 120C"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Upper-division Music electives (choose 3, at least 1 starred)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 107",
+    "MUS 110",
+    "MUS 111",
+    "MUS 112",
+    "MUS 113",
+    "MUS 114",
+    "MUS 115",
+    "MUS 116",
+    "MUS 126",
+    "MUS 127",
+    "MUS 150"
+   ],
+   "note": "Three courses chosen from MUS 107-116, 126, 127, and 150; at least ONE of the three must be a starred course: MUS 107, 110, 116, or 150. (Corrected: MUS 127 removed from the starred set — it is a valid elective but not a starred course.)"
+  },
+  {
+   "label": "Focus: coherent set of upper-division humanities/fine arts courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MUS 100-199",
+    "PHIL 100-199",
+    "VIS 100-199",
+    "ETHN 100-199",
+    "ANTH 100-199",
+    "ANAR 100-199",
+    "ANBI 100-199",
+    "ANSC 100-199",
+    "HIAF 100-199",
+    "HIEA 100-199",
+    "HIEU 100-199",
+    "HIGL 100-199",
+    "HILA 100-199",
+    "HINE 100-199",
+    "HISC 100-199",
+    "HITO 100-199",
+    "HIUS 100-199",
+    "LTEN 100-199",
+    "LTWL 100-199",
+    "LTCS 100-199",
+    "LTEA 100-199",
+    "LTEU 100-199",
+    "LTFR 100-199",
+    "LTGM 100-199",
+    "LTGK 100-199",
+    "LTIT 100-199",
+    "LTKO 100-199",
+    "LTLA 100-199",
+    "LTRU 100-199",
+    "LTSP 100-199",
+    "LTTH 100-199",
+    "LTWR 100-199",
+    "TDHT 100-199",
+    "TDGE 100-199",
+    "TDPR 100-199",
+    "TDDE 100-199",
+    "TDMV 100-199",
+    "TDAC 100-199"
+   ],
+   "note": "Six upper-division humanities or fine arts courses forming a coherent set, with written approval of the Music Humanities adviser. Five of the six must be from non-Music departments. Specific courses not enumerated by catalog. Adviser-discretion requirement, NOT a fixed catalog list. Per the Music Humanities major page (music-cms.ucsd.edu/ugrad/music-hum-major.html): six upper-division humanities/fine-arts courses forming a coherent set on a specific topic, with advance WRITTEN approval from the Music Humanities faculty adviser (Prof. David Borgo). At most ONE of the six may be a Music (MUS) course — five must be from non-Music departments. The page names example departments only ('such as' Philosophy, History, Literature, Visual Arts, Theater, Anthropology, Ethnic Studies); it is not exhaustive, so other humanities/fine-arts departments may be approved. Ranges above are upper-division (100-199) for those named example departments (History and Literature each span multiple UCSD subject-code prefixes; the common ones are included). All courses must be letter-graded, C- or better. Because approval is per-student and topic-specific, this cannot be fully enumerated by course code — trea"
+  }
+ ]
+}

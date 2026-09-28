@@ -1,0 +1,1165 @@
+{
+ "_meta": {
+  "generated": "2026-09-03",
+  "source": "app/data/catalog/*.json majority vote + catalog.ucsd.edu front/courses.html + live department-page scan",
+  "script": "scripts/build-catalog-page-map.mjs",
+  "coverage": "161/177 FA26 subject codes mapped to a specific catalog page",
+  "unmapped": [],
+  "no_page_by_design": [
+   "ANES",
+   "DERM",
+   "EMED",
+   "LIDS",
+   "OBG",
+   "OPTH",
+   "ORTH",
+   "PATH",
+   "PEDS",
+   "PHAR",
+   "PSY",
+   "RMAS",
+   "SOMC",
+   "SOMI",
+   "SURG",
+   "UROL"
+  ],
+  "note": "Subjects with no entry fall back to the front department index at runtime (catalogUrlFor in app/webreg/js/webreg.js), never to a subject-specific 404."
+ },
+ "map": {
+  "AAPI": {
+   "page": "AAPI",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 2
+  },
+  "AAS": {
+   "page": "AASM",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 19
+  },
+  "AIP": {
+   "page": "AIP",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 5
+  },
+  "ANTH": {
+   "page": "ANTH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 135
+  },
+  "ANAR": {
+   "page": "ANTH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 42
+  },
+  "ANBI": {
+   "page": "ANTH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 33
+  },
+  "ANSC": {
+   "page": "ANTH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 90
+  },
+  "ASTR": {
+   "page": "ASTR",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 61
+  },
+  "AUD": {
+   "page": "AUDL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 15
+  },
+  "AWP": {
+   "page": "AWP",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 11
+  },
+  "BENG": {
+   "page": "BENG",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 111
+  },
+  "CSE": {
+   "page": "CSE",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 212
+  },
+  "MED": {
+   "page": "BENG",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 1
+  },
+  "MATS": {
+   "page": "MATS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 26
+  },
+  "NANO": {
+   "page": "NANO",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 93
+  },
+  "ECE": {
+   "page": "ECE",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 206
+  },
+  "BGGN": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 76
+  },
+  "PHYS": {
+   "page": "PHYS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 142
+  },
+  "CHEM": {
+   "page": "CHEM",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 172
+  },
+  "MATH": {
+   "page": "MATH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 238
+  },
+  "SPPS": {
+   "page": "BENG",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 1
+  },
+  "BIOM": {
+   "page": "BIOM",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 29
+  },
+  "RAD": {
+   "page": "BENG",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 1
+  },
+  "BNFO": {
+   "page": "BIOI",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 10
+  },
+  "BILD": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 40
+  },
+  "BIBC": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 8
+  },
+  "BICD": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 20
+  },
+  "BIEB": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 28
+  },
+  "BIMM": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 29
+  },
+  "BIPN": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 28
+  },
+  "BISP": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 12
+  },
+  "BGJC": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 5
+  },
+  "BGRD": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 1
+  },
+  "BGSE": {
+   "page": "BIOL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 2
+  },
+  "CAT": {
+   "page": "CAT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 22
+  },
+  "CCE": {
+   "page": "CCE",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 3
+  },
+  "CCS": {
+   "page": "CCS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 5
+  },
+  "CGS": {
+   "page": "CGS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 48
+  },
+  "CHIN": {
+   "page": "CHIN",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 46
+  },
+  "FILM": {
+   "page": "CIN",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 13
+  },
+  "CLAS": {
+   "page": "CLAS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 12
+  },
+  "CLIN": {
+   "page": "CLIN",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 5
+  },
+  "CLRE": {
+   "page": "CLRE",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 38
+  },
+  "CLX": {
+   "page": "CLS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 11
+  },
+  "COGS": {
+   "page": "COGS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 138
+  },
+  "COMM": {
+   "page": "COMM",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 160
+  },
+  "COGR": {
+   "page": "COMM",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 59
+  },
+  "LING": {
+   "page": "CSE",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 1
+  },
+  "SIOC": {
+   "page": "SIO",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 62
+  },
+  "CSS": {
+   "page": "CSS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 11
+  },
+  "DOC": {
+   "page": "DOC",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 4
+  },
+  "DSC": {
+   "page": "DSC",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 88
+  },
+  "DSGN": {
+   "page": "DSGN",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 17
+  },
+  "ECON": {
+   "page": "ECON",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 180
+  },
+  "EDS": {
+   "page": "EDS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 189
+  },
+  "ENG": {
+   "page": "ENG",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 15
+  },
+  "ENVR": {
+   "page": "ENVR",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 18
+  },
+  "ERC": {
+   "page": "ERC",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 11
+  },
+  "ESYS": {
+   "page": "ESYS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 10
+  },
+  "ETHN": {
+   "page": "ETHN",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 160
+  },
+  "HIUS": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 93
+  },
+  "ETIM": {
+   "page": "ETHN",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 1
+  },
+  "FMPH": {
+   "page": "FMPH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 52
+  },
+  "PHB": {
+   "page": "FMPH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 19
+  },
+  "FPM": {
+   "page": "FMPH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 25
+  },
+  "GLBH": {
+   "page": "GLBH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 67
+  },
+  "GPCO": {
+   "page": "GPS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 21
+  },
+  "GPEC": {
+   "page": "GPS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 33
+  },
+  "GPIM": {
+   "page": "GPS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 18
+  },
+  "GPPA": {
+   "page": "GPS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 20
+  },
+  "GPPS": {
+   "page": "GPS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 61
+  },
+  "GPGN": {
+   "page": "GPS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 8
+  },
+  "GPLA": {
+   "page": "GPS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 12
+  },
+  "GSS": {
+   "page": "GSS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 6
+  },
+  "HDS": {
+   "page": "HDS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 24
+  },
+  "HILD": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 20
+  },
+  "HIAF": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 11
+  },
+  "HIEA": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 50
+  },
+  "HIEU": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 103
+  },
+  "RELI": {
+   "page": "RELI",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 39
+  },
+  "HIGL": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 7
+  },
+  "HILA": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 42
+  },
+  "HINE": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 38
+  },
+  "HISC": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 42
+  },
+  "HISA": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 11
+  },
+  "HITO": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 49
+  },
+  "USP": {
+   "page": "USP",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 105
+  },
+  "HIGR": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 82
+  },
+  "SOC": {
+   "page": "HIST",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 1
+  },
+  "PHIL": {
+   "page": "PHIL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 149
+  },
+  "SOCG": {
+   "page": "SOC",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 53
+  },
+  "HMNR": {
+   "page": "HMNR",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 2
+  },
+  "HUM": {
+   "page": "HUM",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 17
+  },
+  "INTL": {
+   "page": "INTL",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 8
+  },
+  "JAPN": {
+   "page": "JAPN",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 21
+  },
+  "JWSP": {
+   "page": "JWSP",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 16
+  },
+  "LATI": {
+   "page": "LATI",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 20
+  },
+  "LAWS": {
+   "page": "LAWS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 2
+  },
+  "LHCO": {
+   "page": "LHCO",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 15
+  },
+  "LIGN": {
+   "page": "LING",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 106
+  },
+  "LTAF": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 3
+  },
+  "LTAM": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 11
+  },
+  "LTCH": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 1
+  },
+  "LTCO": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 10
+  },
+  "LTCS": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 39
+  },
+  "LTEA": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 23
+  },
+  "LTEN": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 82
+  },
+  "LTEU": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 17
+  },
+  "LTFR": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 20
+  },
+  "LTGM": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 13
+  },
+  "LTGK": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 10
+  },
+  "LTIT": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 13
+  },
+  "LTKO": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 11
+  },
+  "LTLA": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 10
+  },
+  "LTRU": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 15
+  },
+  "LTSP": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 50
+  },
+  "LTTH": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 13
+  },
+  "LTWL": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 55
+  },
+  "LTWR": {
+   "page": "LIT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 45
+  },
+  "MAE": {
+   "page": "MAE",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 188
+  },
+  "COSE": {
+   "page": "MAS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 11
+  },
+  "DSE": {
+   "page": "MAS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 10
+  },
+  "WES": {
+   "page": "MAS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 9
+  },
+  "SIO": {
+   "page": "SIO",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 121
+  },
+  "MBC": {
+   "page": "MBC",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 3
+  },
+  "MUIR": {
+   "page": "MCWP",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 3
+  },
+  "MCWP": {
+   "page": "MCWP",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 8
+  },
+  "MGT": {
+   "page": "MGT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 210
+  },
+  "MGTF": {
+   "page": "MGT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 29
+  },
+  "MGTA": {
+   "page": "MGT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 26
+  },
+  "MGTP": {
+   "page": "MGT",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 20
+  },
+  "MMW": {
+   "page": "MMW",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 16
+  },
+  "MSED": {
+   "page": "MSED",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 9
+  },
+  "MUS": {
+   "page": "MUS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 151
+  },
+  "CENG": {
+   "page": "NANO",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 48
+  },
+  "NEU": {
+   "page": "NEU",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 19
+  },
+  "NEUG": {
+   "page": "NEU",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 9
+  },
+  "PAE": {
+   "page": "PAS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 65
+  },
+  "PH": {
+   "page": "PH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 97
+  },
+  "POLI": {
+   "page": "POLI",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 302
+  },
+  "PSYC": {
+   "page": "PSYC",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 179
+  },
+  "REV": {
+   "page": "REV",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 9
+  },
+  "SE": {
+   "page": "SE",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 128
+  },
+  "SEV": {
+   "page": "SEV",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 3
+  },
+  "SIOG": {
+   "page": "SIO",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 50
+  },
+  "SIOB": {
+   "page": "SIO",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 40
+  },
+  "SOCI": {
+   "page": "SOC",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 145
+  },
+  "SXTH": {
+   "page": "SXTH",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 3
+  },
+  "SYN": {
+   "page": "SYN",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 12
+  },
+  "TDAC": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 18
+  },
+  "TDDE": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 15
+  },
+  "TDDR": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 6
+  },
+  "TDDM": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 4
+  },
+  "TDGE": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 27
+  },
+  "TDHD": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 4
+  },
+  "TDHT": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 20
+  },
+  "TDMV": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 24
+  },
+  "TDPF": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 5
+  },
+  "TDPR": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 3
+  },
+  "TDPW": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 5
+  },
+  "TDTR": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 4
+  },
+  "TDGR": {
+   "page": "THEA",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 93
+  },
+  "TMC": {
+   "page": "TMC",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 8
+  },
+  "VIS": {
+   "page": "VIS",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 246
+  },
+  "WARR": {
+   "page": "WARR",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 3
+  },
+  "WCWP": {
+   "page": "WARR",
+   "kind": "courses",
+   "via": "majority-vote",
+   "n": 6
+  },
+  "DDPM": {
+   "page": "DDPM",
+   "kind": "curric",
+   "via": "front-curric-only"
+  },
+  "ANES": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "DERM": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "EMED": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "LIDS": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "OBG": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "OPTH": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "ORTH": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "PATH": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "PEDS": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "PHAR": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "PSY": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "RMAS": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "SOMC": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "SOMI": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "SURG": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "UROL": {
+   "page": null,
+   "kind": "none",
+   "via": "school-of-medicine"
+  },
+  "LIAB": {
+   "page": "LING",
+   "kind": "courses",
+   "via": "brute-scan",
+   "n": 28
+  },
+  "LIFR": {
+   "page": "LING",
+   "kind": "courses",
+   "via": "brute-scan",
+   "n": 32
+  },
+  "LIGM": {
+   "page": "LING",
+   "kind": "courses",
+   "via": "brute-scan",
+   "n": 30
+  },
+  "LIHL": {
+   "page": "LING",
+   "kind": "courses",
+   "via": "brute-scan",
+   "n": 180
+  },
+  "LIIT": {
+   "page": "LING",
+   "kind": "courses",
+   "via": "brute-scan",
+   "n": 34
+  },
+  "LIPO": {
+   "page": "LING",
+   "kind": "courses",
+   "via": "brute-scan",
+   "n": 27
+  },
+  "LISL": {
+   "page": "LING",
+   "kind": "courses",
+   "via": "brute-scan",
+   "n": 39
+  },
+  "LISP": {
+   "page": "LING",
+   "kind": "courses",
+   "via": "brute-scan",
+   "n": 37
+  },
+  "SOCE": {
+   "page": "SOC",
+   "kind": "courses",
+   "via": "brute-scan",
+   "n": 1
+  }
+ }
+}

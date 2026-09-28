@@ -1,0 +1,50 @@
+{
+ "program": {
+  "major": "Ethnic Studies",
+  "degree": "B.A.",
+  "department": "Ethnic Studies"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against the UCSD General Catalog (catalog.ucsd.edu/curric/ETHN-ug.html). Major = 2 lower-division + 13 upper-division four-unit courses = 15 courses total (~60 units). CORRECTION: harvested notes said ~52 units, which is wrong math; 15 x 4 = 60 units. All courses must be completed with a grade of P, C-, or better. Students may take up to two courses (lower or upper division) Pass/Not Pass, excluding independent study (ETHN 197/198/199, which are always P/NP). Majors may petition up to three upper-division courses from other UCSD departments or approved study abroad to fulfill major requirements. The department's own /undergraduate/major page returned HTTP 404, so structure is sourced from the General Catalog.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ETHN-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division introductory courses (choose 2 of 3)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ETHN 1",
+    "ETHN 2",
+    "ETHN 3"
+   ],
+   "note": "Two lower-division courses from ETHN 1-2-3. ETHN 1 (Land and Labor), ETHN 2 (Circulations of Difference), ETHN 3 (Making Culture). Ideally completed by sophomore year. Verified on catalog page."
+  },
+  {
+   "label": "Upper-division required core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ETHN 100A",
+    "ETHN 100B",
+    "ETHN 100C"
+   ],
+   "note": "All three required: 100A Theoretical Approaches, 100B Interdisciplinary Methodologies, 100C Social Justice Praxis. 4 units each. Verified on catalog page."
+  },
+  {
+   "label": "Upper-division Ethnic Studies electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 10,
+   "courses": [
+    "ETHN 100-199"
+   ],
+   "note": "Ten four-unit upper-division ETHN elective courses selected from the department's approved list. Up to three may be petitioned as cross-listed upper-division courses from other UCSD departments or approved study abroad. Range 'ETHN 100-199' is a placeholder for the approved upper-division elective list, not a single course. Verified on catalog page."
+  }
+ ]
+}

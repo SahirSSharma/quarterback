@@ -1,0 +1,130 @@
+{
+ "program": {
+  "major": "Linguistics: Language Studies",
+  "degree": "BA",
+  "department": "Linguistics"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Separate major focused on a language of concentration. 12 upper-division courses minimum. Lower-division prerequisite: two years of language instruction in the language of concentration plus prerequisites for upper-division literature courses. At least two of the upper-division courses must be conducted in the language of concentration. Confidence medium because many upper-division options are language-dependent and adviser-approved rather than a fixed enumerated list. Approved languages of concentration: Arabic, ASL, Chinese, French, German, Hebrew, Italian, Japanese, Russian, Spanish.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/LING-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Two years of language instruction (language of concentration)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 0,
+   "courses": [],
+   "note": "Two years of instruction in the language of concentration, plus lower-division prerequisites for upper-division literature courses. No fixed LIGN course count. Lower-division prep is 'two years of language instruction in the language of concentration, OR equivalent proficiency' (placement/exam), plus lower-division prerequisites for the upper-division literature courses. Not a fixed course set. Instruction subject codes vary by language: LIAB (Arabic), LISL (ASL), LTFR (French), LTGM (German), LTIT (Italian), LTSP (Spanish), LTCH/LTEA (Chinese), LTEA (Japanese), LTHE (Hebrew), LTRU (Russian); UCSD Linguistics Language Program also teaches beginning ASL/Arabic/French/German/Italian/Spanish. Satisfied by reaching the equivalent of second-year (intermediate) level.",
+   "type": "proficiency"
+  },
+  {
+   "label": "Required linguistic analysis core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "LIGN 102",
+    "LIGN 103"
+   ],
+   "note": "Both required."
+  },
+  {
+   "label": "Phonetics/Phonology/Morphology breadth (choose one)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 110",
+    "LIGN 111",
+    "LIGN 120"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Syntax/Semantics/Pragmatics breadth (choose one)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 121",
+    "LIGN 130",
+    "LIGN 160"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Structure-of-language course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 143"
+   ],
+   "note": "A 'Structure of [language]' course for the language of concentration (e.g., LIGN 143 The Structure of Spanish) or an approved equivalent for the chosen language."
+  },
+  {
+   "label": "Additional upper-division linguistics course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 100-199"
+   ],
+   "note": "One additional upper-division LIGN course."
+  },
+  {
+   "label": "Upper-division literature courses (language of concentration)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "LTAR 100-199",
+    "LTCH 100-199",
+    "LTEA 100-199",
+    "LTFR 100-199",
+    "LTGM 100-199",
+    "LTHE 100-199",
+    "LTIT 100-199",
+    "LTRU 100-199",
+    "LTSP 100-199"
+   ],
+   "note": "Two upper-division literature courses in the language of concentration. Two upper-division literature courses IN the student's language of concentration only. UCSD literature subject codes by language: Arabic=LTAR, Chinese=LTCH (also LTEA East Asian), French=LTFR, German=LTGM, Hebrew=LTHE, Italian=LTIT, Japanese=LTEA, Russian=LTRU, Spanish=LTSP. ASL has no literature department; ASL concentrators consult the linguistics adviser. Range covers all approved languages, but a given student draws only from their own concentration's code. At least two upper-division courses overall in the major must be conducted in the language of concentration."
+  },
+  {
+   "label": "Additional upper-division courses (linguistics/literature/area studies)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "LIGN 100-199",
+    "LTAR 100-199",
+    "LTCH 100-199",
+    "LTEA 100-199",
+    "LTFR 100-199",
+    "LTGM 100-199",
+    "LTHE 100-199",
+    "LTIT 100-199",
+    "LTRU 100-199",
+    "LTSP 100-199",
+    "ANTH 100-199",
+    "COMM 100-199",
+    "ETHN 100-199",
+    "HIEA 100-199",
+    "HIEU 100-199",
+    "HILA 100-199",
+    "HINE 100-199",
+    "PHIL 100-199",
+    "POLI 100-199",
+    "SOCI 100-199",
+    "TDHT 100-199",
+    "VIS 100-199",
+    "ECON 100-199"
+   ],
+   "note": "Four additional upper-division courses in general linguistics, literature of the language of concentration, or corresponding culture/area studies, subject to adviser approval. Specific approved sets vary by language. At least two upper-division courses overall must be conducted in the language of concentration. Four additional upper-division courses in general linguistics (LIGN 100-199), literature of the language of concentration (the LT-* codes above), or corresponding culture/area studies, subject to adviser approval. Approved area-studies departments vary by language per the LING-ug catalog page: Arabic->HINE/ECON/POLI; Chinese->HIEA/POLI/SOCI/VIS; French->HIEU/POLI/TDHT; German->HIEU/PHIL/POLI/SOCI; Hebrew->HIEU/HINE/POLI/SOCI; Italian->HIEU/POLI/TDHT/VIS; Japanese->HIEA/POLI/VIS; Russian->HIEU/POLI; Spanish->ANTH/COMM/ETHN/HILA/POLI/SOCI/TDHT/VIS. Listed ranges are the union of all approved subjects; the actual approved set is a language-specific subset and adviser-approved."
+  }
+ ]
+}

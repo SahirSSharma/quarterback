@@ -1,0 +1,147 @@
+{
+ "program": {
+  "major": "Mechanical Engineering (Mechanics of Materials)",
+  "degree": "B.S.",
+  "department": "Mechanical and Aerospace Engineering (MAE)"
+ },
+ "catalogYear": "2023-2024",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Specialization confirmed to exist. Shares the fully-verified base Mechanical Engineering core. The specialization constrains 4 of the 5 technical electives; specialization elective list not individually re-verified course-by-course, hence medium confidence.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/MAE-ug.html",
+  "https://mae.ucsd.edu/undergrad"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics (calculus, linear algebra, diff eq)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "All six required."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C"
+   ],
+   "note": "All required."
+  },
+  {
+   "label": "Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 6A"
+   ],
+   "note": "CHEM 6AH honors accepted."
+  },
+  {
+   "label": "Lower-division MAE core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "MAE 3",
+    "MAE 8",
+    "MAE 11",
+    "MAE 20",
+    "MAE 30A",
+    "MAE 30B",
+    "MAE 40"
+   ],
+   "note": "All required."
+  },
+  {
+   "label": "Upper-division MAE core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 13,
+   "courses": [
+    "MAE 101A",
+    "MAE 101B",
+    "MAE 101C",
+    "MAE 105",
+    "MAE 107",
+    "MAE 131A",
+    "MAE 143A",
+    "MAE 143B",
+    "MAE 150",
+    "MAE 156A",
+    "MAE 156B",
+    "MAE 170",
+    "MAE 171A"
+   ],
+   "note": "All required."
+  },
+  {
+   "label": "Materials/measurements course (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MAE 160",
+    "MAE 131B"
+   ],
+   "note": "One of MAE 160 or MAE 131B required (also appears in the specialization elective list, starred)."
+  },
+  {
+   "label": "Mechanics of Materials technical electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "MAE 130",
+    "MAE 131B",
+    "MAE 160",
+    "MAE 133",
+    "MAE 165",
+    "MAE 166",
+    "MAE 167",
+    "MAE 190",
+    "NANO 134",
+    "NANO 148",
+    "NANO 158",
+    "NANO 158L",
+    "NANO 161",
+    "NANO 174L",
+    "SE 142",
+    "SE 163"
+   ],
+   "note": "4 of these count as 4 of the 5 technical electives; must include starred MAE 130 and (MAE 131B OR MAE 160). Elective list not individually re-verified."
+  },
+  {
+   "label": "Free technical elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MAE 100-199"
+   ],
+   "note": "5th technical elective; upper-division, departmental approval."
+  },
+  {
+   "label": "Humanities & Social Sciences / GE",
+   "division": "other",
+   "kind": "units",
+   "needed": 24,
+   "courses": [],
+   "note": "Minimum 24 units. MAE engineering-major bucket that simply points to the humanities/social-sciences general-education requirement (min 24 units). At UCSD this is defined and satisfied by the student's own undergraduate college GE program (Revelle, Muir, Marshall, Warren, Roosevelt, Sixth, Seventh), not by a fixed major-specific course list, so it is covered in the college GE section. No course list applies.",
+   "type": "seeCollegeGE"
+  }
+ ]
+}

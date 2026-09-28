@@ -1,0 +1,30 @@
+{
+ "page": "HMNR",
+ "name": "Human Rights and Migration Minor",
+ "courses": [
+  {
+   "code": "HMNR 100",
+   "subject": "HMNR",
+   "num": "100",
+   "title": "Introduction to Human Rights and Global Justice",
+   "units": "4",
+   "level": null,
+   "description": "Explores where human rights come from and what they mean by integrating them into a history of modern society, from the conquest of the Americas and the origins of the Enlightenment, to the Holocaust and the contemporary human rights regime.",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "HMNR 100: SOCI 174 or HITO 119"
+  },
+  {
+   "code": "HMNR 101",
+   "subject": "HMNR",
+   "num": "101",
+   "title": "Human Rights II: Contemporary Issues",
+   "units": "4",
+   "level": null,
+   "description": "Interdisciplinary discussion that outlines the structure and functioning of the contemporary human rights regime, and then delves into the relationship between selected human rights protections\u2014against genocide, torture, enslavement, political persecution, etc.\u2014and their violation, from early Cold War to the present.",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "HMNR 101: COMM 114A"
+  }
+ ]
+}

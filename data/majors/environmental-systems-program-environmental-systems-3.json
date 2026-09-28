@@ -1,0 +1,161 @@
+{
+ "program": {
+  "major": "Environmental Systems (Environmental Chemistry)",
+  "degree": "B.S.",
+  "department": "Environmental Systems Program (Scripps Institution of Oceanography, UC San Diego)"
+ },
+ "catalogYear": "2019-2020",
+ "confidence": "high",
+ "found": true,
+ "notes": "Corroborated against the 2019-20 registrar catalog. CORRECTION: SIO 50 is NOT part of the Environmental Chemistry lower-division requirement and was removed (the page lists only BILD 3, CHEM 6A-B-C + 7L + 40A-B + 43A, PHYS 2A-B-C + 2CL, MATH 20A-D, ECON 1). Upper-division core (ESYS 101/102/103, ECON 131, POLI 160AA, CHEM 100A, CHEM 100B, ESYS 190A/190B) and the 3-of list of electives are verified verbatim. C- or better and letter grades required.",
+ "sourceUrls": [
+  "https://registrar.ucsd.edu/catalog/19-20/curric/ESYS.html",
+  "https://catalog.ucsd.edu/curric/ESYS.html",
+  "https://scripps.ucsd.edu/esys/major"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BILD 3"
+   ],
+   "note": "Lower-division core."
+  },
+  {
+   "label": "General Chemistry sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Physics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C"
+   ],
+   "note": "All three required (this track uses the PHYS 2 series)."
+  },
+  {
+   "label": "Calculus / Differential Equations sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D"
+   ],
+   "note": "All four required."
+  },
+  {
+   "label": "Principles of Economics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECON 1"
+   ],
+   "note": "Lower-division core."
+  },
+  {
+   "label": "Additional lower-division chemistry & physics (track)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "CHEM 7L",
+    "CHEM 40A",
+    "CHEM 40B",
+    "CHEM 43A",
+    "PHYS 2CL"
+   ],
+   "note": "All required for the Environmental Chemistry track in addition to the core. CHEM 40A-B/43A = organic chemistry; 7L and 2CL are labs. (SIO 50 removed - not a requirement for this track.)"
+  },
+  {
+   "label": "ESYS Integrating Sequence",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ESYS 101",
+    "ESYS 102",
+    "ESYS 103"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Economics of the Environment",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECON 131"
+   ],
+   "note": "Required upper-division core."
+  },
+  {
+   "label": "Introduction to Policy Analysis",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 160AA"
+   ],
+   "note": "Required upper-division core."
+  },
+  {
+   "label": "Senior Project & Senior Seminar",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ESYS 190A",
+    "ESYS 190B"
+   ],
+   "note": "Capstone. 190A = two-quarter, 8-unit senior project; 190B = senior seminar."
+  },
+  {
+   "label": "Analytical & Instrumental Chemistry Labs (track core)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 100A",
+    "CHEM 100B"
+   ],
+   "note": "Both required for the Environmental Chemistry track."
+  },
+  {
+   "label": "Environmental Chemistry advanced electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 171",
+    "CHEM 172",
+    "CHEM 173",
+    "SIO 141",
+    "MATH 183",
+    "CHEM 125",
+    "CHEM 126",
+    "CHEM 127",
+    "SIO 102"
+   ],
+   "note": "Choose 3 (verified verbatim). SIO 141=CHEM 174; MATH 183 (statistics) is upper-division."
+  }
+ ]
+}

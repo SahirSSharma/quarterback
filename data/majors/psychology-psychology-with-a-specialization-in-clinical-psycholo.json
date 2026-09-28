@@ -1,0 +1,176 @@
+{
+ "program": {
+  "major": "Psychology with a Specialization in Clinical Psychology",
+  "degree": "B.A.",
+  "department": "Psychology"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Lower-division 24 units (same as Psychology B.A.); upper-division 48 units.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PSYC-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Natural science courses",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3",
+    "BILD 10",
+    "BILD 12",
+    "BILD 20",
+    "BILD 26",
+    "CHEM 4",
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 11",
+    "CHEM 12",
+    "CHEM 13",
+    "COGS 17",
+    "PHYS 1A",
+    "PHYS 1B",
+    "PHYS 1C",
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 10",
+    "PHYS 11",
+    "PSYC 2"
+   ],
+   "note": "Choose 2. Only one of BILD 12, COGS 17, or PSYC 2 may count."
+  },
+  {
+   "label": "Formal skills course",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 10A",
+    "MATH 20A",
+    "MATH 10B",
+    "MATH 20B",
+    "MATH 18",
+    "PHIL 10",
+    "PHIL 12"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "Computer programming course",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 18",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 8B",
+    "CSE 11",
+    "CSE 12",
+    "CSS 1",
+    "DSC 10",
+    "ECE 15",
+    "MAE 5",
+    "MAE 8"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "Statistics course",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 60",
+    "BENG 100",
+    "BIEB 100",
+    "COGS 14B",
+    "ECON 120A",
+    "MATH 11",
+    "MATH 181A",
+    "MATH 183",
+    "MATH 186"
+   ],
+   "note": "Choose 1. PSYC 60 preferred."
+  },
+  {
+   "label": "Research methods course",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 70",
+    "COGS 14A"
+   ],
+   "note": "Choose 1. PSYC 70 preferred."
+  },
+  {
+   "label": "Required core course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 100"
+   ],
+   "note": "PSYC 100 is required."
+  },
+  {
+   "label": "Additional core courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PSYC 101",
+    "PSYC 102",
+    "PSYC 104",
+    "PSYC 105",
+    "PSYC 106",
+    "PSYC 108"
+   ],
+   "note": "Choose 3 additional core courses."
+  },
+  {
+   "label": "Clinical specialization courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PSYC 116",
+    "PSYC 124",
+    "PSYC 125",
+    "PSYC 127",
+    "PSYC 132",
+    "PSYC 133",
+    "PSYC 134",
+    "PSYC 143",
+    "PSYC 151",
+    "PSYC 154",
+    "PSYC 155",
+    "PSYC 168",
+    "PSYC 172",
+    "PSYC 175",
+    "PSYC 184",
+    "PSYC 188",
+    "PSYC 190"
+   ],
+   "note": "Choose 3 clinical-specialization courses."
+  },
+  {
+   "label": "Additional upper-division psychology electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PSYC 100-111",
+    "PSYC 122-193"
+   ],
+   "note": "Five additional upper-division PSYC courses from these ranges."
+  }
+ ]
+}

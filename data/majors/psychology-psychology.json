@@ -1,0 +1,144 @@
+{
+ "program": {
+  "major": "Psychology",
+  "degree": "B.A.",
+  "department": "Psychology"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Base major, B.A. track. Lower-division 24 units, upper-division 48 units. Only one of BILD 12, COGS 17, or PSYC 2 may count toward natural science; only one PHIL course (PHIL 137 or 149) may count as an elective.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PSYC-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Natural Science (two courses)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3",
+    "BILD 10",
+    "BILD 12",
+    "BILD 20",
+    "BILD 26",
+    "CHEM 4",
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 11",
+    "CHEM 12",
+    "CHEM 13",
+    "COGS 17",
+    "PHYS 1A",
+    "PHYS 1B",
+    "PHYS 1C",
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 10",
+    "PHYS 11",
+    "PSYC 2"
+   ],
+   "note": "Only one of BILD 12, COGS 17, or PSYC 2 may count."
+  },
+  {
+   "label": "Formal Skills (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 10A",
+    "MATH 20A",
+    "MATH 10B",
+    "MATH 20B",
+    "MATH 18",
+    "PHIL 10",
+    "PHIL 12"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Computer Programming (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 18",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 8B",
+    "CSE 11",
+    "CSE 12",
+    "CSS 1",
+    "DSC 10",
+    "ECE 15",
+    "MAE 5",
+    "MAE 8"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Statistics (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 60",
+    "BENG 100",
+    "BIEB 100",
+    "COGS 14B",
+    "ECON 120A",
+    "MATH 11",
+    "MATH 181A",
+    "MATH 183",
+    "MATH 186"
+   ],
+   "note": "PSYC 60 preferred."
+  },
+  {
+   "label": "Research Methods (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 70",
+    "COGS 14A"
+   ],
+   "note": "PSYC 70 preferred."
+  },
+  {
+   "label": "Psychology Core (four courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PSYC 100",
+    "PSYC 101",
+    "PSYC 102",
+    "PSYC 104",
+    "PSYC 105",
+    "PSYC 106",
+    "PSYC 108"
+   ],
+   "note": "Four core courses from this list."
+  },
+  {
+   "label": "Upper-Division Psychology Electives (eight courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PSYC 100-111",
+    "PSYC 122-193",
+    "PSYC 195P",
+    "PHIL 137",
+    "PHIL 149"
+   ],
+   "note": "PSYC 195P counts for 4 units; only one of PHIL 137 or PHIL 149 may count."
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "program": {
+  "major": "Mechanical Engineering",
+  "degree": "B.S.",
+  "department": "Mechanical and Aerospace Engineering (MAE)"
+ },
+ "catalogYear": "2023-2024",
+ "confidence": "high",
+ "found": true,
+ "notes": "Base (unspecialized) Mechanical Engineering BS, verified against catalog.ucsd.edu/curric/MAE-ug.html. Lower-division (all six MATH incl. 20E, PHYS 2A/2B/2C, CHEM 6A, MAE 3/8/11/20/30A/30B/40), the 13-course upper-division core, and the MAE 160-or-131B choice all confirmed. Five technical electives, departmentally approved; MAE 197 not allowed. Minimum 180 units.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/MAE-ug.html",
+  "https://mae.ucsd.edu/undergrad"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics (calculus, linear algebra, diff eq)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "All six required; verified."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C"
+   ],
+   "note": "All required; verified."
+  },
+  {
+   "label": "Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 6A"
+   ],
+   "note": "CHEM 6AH honors accepted. Verified."
+  },
+  {
+   "label": "Lower-division MAE core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "MAE 3",
+    "MAE 8",
+    "MAE 11",
+    "MAE 20",
+    "MAE 30A",
+    "MAE 30B",
+    "MAE 40"
+   ],
+   "note": "All required; verified. MAE 11/30A/30B/40 grouped in catalog upper-division table but classified lower by course number (<100)."
+  },
+  {
+   "label": "Upper-division MAE core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 13,
+   "courses": [
+    "MAE 101A",
+    "MAE 101B",
+    "MAE 101C",
+    "MAE 105",
+    "MAE 107",
+    "MAE 131A",
+    "MAE 143A",
+    "MAE 143B",
+    "MAE 150",
+    "MAE 156A",
+    "MAE 156B",
+    "MAE 170",
+    "MAE 171A"
+   ],
+   "note": "All 13 confirmed. MAE 156A/156B is the design sequence."
+  },
+  {
+   "label": "Materials/measurements course (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MAE 160",
+    "MAE 131B"
+   ],
+   "note": "One of MAE 160 or MAE 131B required. Verified."
+  },
+  {
+   "label": "Technical electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "MAE 100-199"
+   ],
+   "note": "5 technical electives, departmental approval; upper-division/graduate engineering, natural science, or math. MAE 197 not allowed; MAE 198/199 restricted."
+  },
+  {
+   "label": "Humanities & Social Sciences / GE",
+   "division": "other",
+   "kind": "units",
+   "needed": 24,
+   "courses": [],
+   "note": "Minimum 24 units. Verified. Engineering-major placeholder for general-education units. At UCSD, GE is defined by the student's residential college (Revelle, Muir, Marshall, ERC, Sixth, Seventh), not by the MAE department, so there is no fixed department course list. The MAE B.S. only stipulates a minimum of 24 units of humanities/social-science/GE coursework; the specific approved courses come from the college's own GE section. Verified against catalog.ucsd.edu/curric/MAE-ug.html.",
+   "type": "seeCollegeGE"
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "program": {
+  "major": "Political Science / Race, Ethnicity, and Politics",
+  "degree": "B.A.",
+  "department": "Political Science"
+ },
+ "catalogYear": "catalog.ucsd.edu (current)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Specialization verified against the catalog. 5 courses across Sequence A (>=3) and Sequence B (>=1) plus 1 more from either, plus POLI 30 and 7 additional upper POLI.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/POLI-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required intro: American Politics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 10",
+    "POLI 10D"
+   ],
+   "note": "POLI 10 required."
+  },
+  {
+   "label": "Additional lower-division intro (choose 2)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 11",
+    "POLI 11D",
+    "POLI 12",
+    "POLI 12D",
+    "POLI 13",
+    "POLI 13D"
+   ],
+   "note": "Two more from the remaining intro subfields."
+  },
+  {
+   "label": "Political Inquiry / Methods (POLI 30)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 30",
+    "POLI 30D"
+   ],
+   "note": "Required methods course; numerically lower-division."
+  },
+  {
+   "label": "Sequence A: Race/Ethnicity in American Politics (at least 3)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "POLI 100H",
+    "POLI 100I",
+    "POLI 100O",
+    "POLI 100V",
+    "POLI 100W",
+    "POLI 100Y",
+    "POLI 102C",
+    "POLI 102D",
+    "POLI 102J",
+    "POLI 104A",
+    "POLI 104I",
+    "POLI 104N",
+    "POLI 105A",
+    "POLI 108"
+   ],
+   "note": "At least 3 from Sequence A."
+  },
+  {
+   "label": "Sequence B: Comparative/Global Race & Ethnicity (at least 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 120N",
+    "POLI 120P",
+    "POLI 124",
+    "POLI 130",
+    "POLI 130AA",
+    "POLI 130G",
+    "POLI 134",
+    "POLI 135D",
+    "POLI 136",
+    "POLI 137",
+    "POLI 140D",
+    "POLI 150A"
+   ],
+   "note": "At least 1 from Sequence B."
+  },
+  {
+   "label": "Additional REP course (from either sequence)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 100H",
+    "POLI 100I",
+    "POLI 100O",
+    "POLI 100V",
+    "POLI 100W",
+    "POLI 100Y",
+    "POLI 102C",
+    "POLI 102D",
+    "POLI 102J",
+    "POLI 104A",
+    "POLI 104I",
+    "POLI 104N",
+    "POLI 105A",
+    "POLI 108",
+    "POLI 120N",
+    "POLI 120P",
+    "POLI 124",
+    "POLI 130",
+    "POLI 130AA",
+    "POLI 130G",
+    "POLI 134",
+    "POLI 135D",
+    "POLI 136",
+    "POLI 137",
+    "POLI 140D",
+    "POLI 150A"
+   ],
+   "note": "1 additional course from either Sequence A or Sequence B (5 REP courses total)."
+  },
+  {
+   "label": "Additional upper-division Political Science",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "POLI 100-199"
+   ],
+   "note": "7 additional upper-division POLI courses."
+  }
+ ]
+}

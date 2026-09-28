@@ -1,0 +1,150 @@
+{
+ "program": {
+  "major": "Political Science / Comparative Politics",
+  "degree": "B.A.",
+  "department": "Political Science"
+ },
+ "catalogYear": "catalog.ucsd.edu (current)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Specialization verified against the catalog. 5 comparative courses (1 thematic + 1 each from any 2 regional areas + 2 additional comparative) plus POLI 30 and 7 additional upper POLI.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/POLI-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required intro: Comparative Politics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 11",
+    "POLI 11D"
+   ],
+   "note": "POLI 11 (Comparative Politics) required."
+  },
+  {
+   "label": "Additional lower-division intro (choose 2)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 10",
+    "POLI 10D",
+    "POLI 12",
+    "POLI 12D",
+    "POLI 13",
+    "POLI 13D"
+   ],
+   "note": "Two more from the remaining intro subfields."
+  },
+  {
+   "label": "Political Inquiry / Methods (POLI 30)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 30",
+    "POLI 30D"
+   ],
+   "note": "Required methods course; numerically lower-division."
+  },
+  {
+   "label": "Comparative thematic course (at least 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 120J",
+    "POLI 120Q",
+    "POLI 122",
+    "POLI 122D",
+    "POLI 123",
+    "POLI 124",
+    "POLI 124A",
+    "POLI 125",
+    "POLI 125A",
+    "POLI 125D",
+    "POLI 125E",
+    "POLI 126",
+    "POLI 126AA",
+    "POLI 127",
+    "POLI 128",
+    "POLI 129",
+    "POLI 130",
+    "POLI 131",
+    "POLI 134",
+    "POLI 135",
+    "POLI 135D",
+    "POLI 136",
+    "POLI 136A",
+    "POLI 136C",
+    "POLI 137",
+    "POLI 137A",
+    "POLI 150A"
+   ],
+   "note": "At least 1 thematic (non-regional) comparative course."
+  },
+  {
+   "label": "Regional courses (1 each from any 2 of 4 regions)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 120M",
+    "POLI 120N",
+    "POLI 120P",
+    "POLI 120Q",
+    "POLI 121",
+    "POLI 121B",
+    "POLI 130B",
+    "POLI 131C",
+    "POLI 133",
+    "POLI 133A",
+    "POLI 133D",
+    "POLI 133G",
+    "POLI 133J",
+    "POLI 120A",
+    "POLI 120B",
+    "POLI 120C",
+    "POLI 120D",
+    "POLI 120E",
+    "POLI 120F",
+    "POLI 120G",
+    "POLI 120H",
+    "POLI 120I",
+    "POLI 120K",
+    "POLI 126AB",
+    "POLI 130AA",
+    "POLI 130AD",
+    "POLI 134AA",
+    "POLI 134B",
+    "POLI 134D",
+    "POLI 134I",
+    "POLI 134J",
+    "POLI 139"
+   ],
+   "note": "One course from each of any TWO regional areas: Africa (120M, 120N, 120P, 120Q); Asia (121, 121B, 130B, 131C, 133, 133A, 133D, 133G, 133J); Europe (120A-120K, 126AB, 130AA, 130AD); Latin America (134AA, 134B, 134D, 134I, 134J, 139)."
+  },
+  {
+   "label": "Additional comparative courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 120-139"
+   ],
+   "note": "2 additional courses from any comparative politics offering (POLI 120-139)."
+  },
+  {
+   "label": "Additional upper-division Political Science",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "POLI 100-199"
+   ],
+   "note": "7 additional upper-division POLI courses."
+  }
+ ]
+}

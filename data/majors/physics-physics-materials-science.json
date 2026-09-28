@@ -1,0 +1,108 @@
+{
+ "program": {
+  "major": "Physics-Materials Science (Materials Physics)",
+  "degree": "B.S.",
+  "department": "Physics"
+ },
+ "catalogYear": "current (2024-2026 General Catalog)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Listed in the catalog as the 'Materials physics' focus area within the BS, Physics (PY29) degree, not a separate degree code. Full requirement set = BS Physics core plus five restricted electives from the materials-physics focus list. Focus list verified verbatim.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PHYS-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-Division Physics Core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C",
+    "PHYS 4D",
+    "PHYS 4E",
+    "PHYS 2CL",
+    "PHYS 2DL",
+    "PHYS 41"
+   ],
+   "note": "Shared BS core."
+  },
+  {
+   "label": "Lower-Division Mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "MATH 18 and 20A-B-C-D-E (24 units)."
+  },
+  {
+   "label": "Upper-Division Core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PHYS 100A",
+    "PHYS 100B",
+    "PHYS 105A",
+    "PHYS 110A",
+    "PHYS 120",
+    "PHYS 130A",
+    "PHYS 130B",
+    "PHYS 140A"
+   ],
+   "note": "PHYS 100A-B, 105A, 110A, 120, 130A-B, 140A (33 units)."
+  },
+  {
+   "label": "Upper-Division Lab",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 122",
+    "PHYS 124",
+    "PHYS 133",
+    "PHYS 173",
+    "ASTR 150"
+   ],
+   "note": "One from PHYS 122, 124, 133, 173, or ASTR 150 (4 units). PHYS 133 also appears in this focus list."
+  },
+  {
+   "label": "Restricted Electives (Materials Physics focus)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PHYS 133",
+    "PHYS 152A",
+    "PHYS 152B",
+    "CHEM 120A",
+    "CHEM 120B",
+    "ECE 103",
+    "ECE 134",
+    "ECE 135A",
+    "ECE 135B",
+    "ECE 136L",
+    "MAE 160"
+   ],
+   "note": "Five restricted electives (20 units), 4+ units each; max two from outside physics (CHEM/ECE/MAE). Catalog verbatim: 'Materials physics: PHYS 133, 152A-B; CHEM 120A-B; ECE 103, 134, 135A-B, 136L; MAE 160.'"
+  },
+  {
+   "label": "Total Units for the Major",
+   "division": "other",
+   "kind": "units",
+   "needed": 109,
+   "courses": [],
+   "note": "52 lower-division + 57 upper-division units (same as base BS). Total/minimum unit count for the major, not a course set. Catalog states 109 units for BS Physics (Materials Physics focus): 52 lower-division + 57 upper-division. Satisfied by completing the major's course buckets; no separate course list applies.",
+   "type": "unitTotal"
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "program": {
+  "major": "Computer Engineering",
+  "degree": "BS",
+  "department": "Electrical and Computer Engineering (ECE)"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Program requires 132 total units in the major (not including general education): lower-division 60 units, upper-division 68 units. Offered jointly with CSE. All buckets corroborated on the page.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ECE-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D"
+   ],
+   "note": "20 units"
+  },
+  {
+   "label": "Physics (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C"
+   ],
+   "note": "12 units; take PHYS 2A-B-C OR PHYS 4A-B-C"
+  },
+  {
+   "label": "Computer Science (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "CSE 11",
+    "CSE 8B",
+    "CSE 12",
+    "CSE 29",
+    "ECE 15",
+    "CSE 30",
+    "ECE 30"
+   ],
+   "note": "16 units; CSE 11 or 8B; CSE 12; CSE 29 or ECE 15; CSE 30 or ECE 30"
+  },
+  {
+   "label": "Electrical Engineering (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ECE 35",
+    "ECE 45"
+   ],
+   "note": "8 units"
+  },
+  {
+   "label": "Probability and Statistics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 11",
+    "ECE 109"
+   ],
+   "note": "4 units; MATH 11 or ECE 109"
+  },
+  {
+   "label": "Upper-division core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "CSE 140",
+    "CSE 141",
+    "CSE 142",
+    "ECE 101",
+    "ECE 108",
+    "ECE 111"
+   ],
+   "note": "At least one of CSE 140/141/142; ECE 101, 108, 111 all required"
+  },
+  {
+   "label": "Project course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 118",
+    "CSE 145",
+    "CSE 147",
+    "CSE 148",
+    "CSE 170",
+    "CSE 176A",
+    "CSE 176E",
+    "ECE 115",
+    "ECE 140B",
+    "ECE 144",
+    "ECE 191",
+    "ECE 196"
+   ],
+   "note": "4 units; one project course from list"
+  },
+  {
+   "label": "Upper-division electives",
+   "division": "upper",
+   "kind": "units",
+   "needed": 40,
+   "courses": [
+    "CSE 100-299",
+    "ECE 100-299"
+   ],
+   "note": "Ten courses (forty units) from upper-division CSE/ECE (100-299); max 4 units P/NP; up to 8 units may come from outside CSE/ECE"
+  },
+  {
+   "label": "Open electives",
+   "division": "other",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "CSE 1-299",
+    "ECE 1-299"
+   ],
+   "note": "Lower- or upper-division CSE/ECE courses"
+  }
+ ]
+}

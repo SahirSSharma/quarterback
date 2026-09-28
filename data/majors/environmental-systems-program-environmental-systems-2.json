@@ -1,0 +1,167 @@
+{
+ "program": {
+  "major": "Environmental Systems (Ecology, Behavior, & Evolution)",
+  "degree": "B.S.",
+  "department": "Environmental Systems Program (Scripps Institution of Oceanography, UC San Diego)"
+ },
+ "catalogYear": "2019-2020",
+ "confidence": "high",
+ "found": true,
+ "notes": "Corroborated against the 2019-20 registrar catalog. CORRECTIONS to the harvested lower division: (1) this track requires BILD 1 AND 3 (harvested listed only BILD 3); (2) SIO 50 is NOT required for this track and was removed; (3) the math requirement is MATH 10A-B (or 20A-B) and MATH 11 - NOT MATH 20A-B-C-D as harvested; (4) physics is the PHYS 1A/1AL-1B/1BL-1C/1CL series OR PHYS 2A-B-C. Upper-division core (ESYS 101/102/103, ECON 131, POLI 160AA, BICD 100 Genetics, ESYS 190A/190B) and the 5-course restricted elective list are verified verbatim. C- or better and letter grades required.",
+ "sourceUrls": [
+  "https://registrar.ucsd.edu/catalog/19-20/curric/ESYS.html",
+  "https://catalog.ucsd.edu/curric/ESYS.html",
+  "https://scripps.ucsd.edu/esys/major"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BILD 1",
+    "BILD 3"
+   ],
+   "note": "This track requires BILD 1 AND BILD 3 (verified). Harvested omitted BILD 1."
+  },
+  {
+   "label": "General Chemistry sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Physics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C"
+   ],
+   "note": "Accepted: PHYS 2A-B-C, OR the PHYS 1A+1AL / 1B+1BL / 1C+1CL series. Canonical set shown here."
+  },
+  {
+   "label": "Calculus sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 11"
+   ],
+   "note": "19-20 catalog: MATH 10A-B (or 20A-B) and MATH 11. Corrected from harvested MATH 20A-D, which is wrong for this track; MATH 20A-B may substitute for 10A-B."
+  },
+  {
+   "label": "Principles of Economics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECON 1"
+   ],
+   "note": "Lower-division core."
+  },
+  {
+   "label": "ESYS Integrating Sequence",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ESYS 101",
+    "ESYS 102",
+    "ESYS 103"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Economics of the Environment",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECON 131"
+   ],
+   "note": "Required upper-division core."
+  },
+  {
+   "label": "Introduction to Policy Analysis",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 160AA"
+   ],
+   "note": "Required upper-division core."
+  },
+  {
+   "label": "Senior Project & Senior Seminar",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ESYS 190A",
+    "ESYS 190B"
+   ],
+   "note": "Capstone. 190A = two-quarter, 8-unit senior project; 190B = senior seminar."
+  },
+  {
+   "label": "Genetics (track core)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BICD 100"
+   ],
+   "note": "Required core for the EBE track."
+  },
+  {
+   "label": "Ecology / Behavior / Evolution advanced electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "BIEB 102",
+    "BIEB 121",
+    "BIEB 123",
+    "BIEB 126",
+    "BIEB 128",
+    "BIEB 130",
+    "BIEB 131",
+    "BIEB 135",
+    "BIEB 140",
+    "BIEB 150",
+    "BIEB 152",
+    "BIEB 166",
+    "BIEB 167",
+    "BIEB 174",
+    "BIEB 176",
+    "ENVR 120",
+    "SIO 101",
+    "SIO 125",
+    "SIO 128",
+    "SIO 132",
+    "SIO 133",
+    "SIO 134",
+    "SIO 138",
+    "SIO 143",
+    "SIO 147",
+    "SIO 183",
+    "SIO 184",
+    "SIO 187",
+    "SIO 188",
+    "SIO 189"
+   ],
+   "note": "Choose 5 (verified verbatim); at least one of the five must be a laboratory course."
+  }
+ ]
+}

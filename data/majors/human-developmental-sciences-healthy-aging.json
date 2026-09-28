@@ -1,0 +1,283 @@
+{
+  "program": {
+    "major": "Human Developmental Sciences with a Specialization in Healthy Aging",
+    "degree": "B.S.",
+    "department": "Human Developmental Sciences Program"
+  },
+  "catalogYear": "2025-2026",
+  "confidence": "high",
+  "found": true,
+  "notes": "8 lower-division (32 units) + 13 upper-division (56 units) courses. The specialization mirrors the traditional B.S., with 3 of the 13 upper-division courses focused on aging, one of which must be a Project on Aging inside a practicum. All major coursework must be taken for a letter grade with a C- or better. HDS 1, 150, 181 and 191 must be taken in residence. Harvested from the HDS program's own Healthy Aging requirement page, cross-checked against catalog.ucsd.edu/curric/HDS.html.",
+  "sourceUrls": [
+    "https://hdsciences.ucsd.edu/undergraduate-program/bs-ha-requirements/index.html",
+    "https://hdsciences.ucsd.edu/undergraduate-program/bs-requirements/index.html",
+    "https://catalog.ucsd.edu/curric/HDS.html"
+  ],
+  "buckets": [
+    {
+      "label": "Introduction: HDS 1",
+      "division": "lower",
+      "kind": "courses",
+      "needed": 1,
+      "courses": ["HDS 1"],
+      "note": "Offered fall and spring."
+    },
+    {
+      "label": "Statistics (1 of)",
+      "division": "lower",
+      "kind": "courses",
+      "needed": 1,
+      "courses": ["HDS 60", "PSYC 60", "COGS 14B", "MATH 11"],
+      "note": "Students who declared the HDS major Fall 2021 or later must take HDS 60. Earlier declarations may use PSYC 60, COGS 14B or MATH 11."
+    },
+    {
+      "label": "Formal skills (2 of)",
+      "division": "lower",
+      "kind": "courses",
+      "needed": 2,
+      "courses": [
+        "MATH 10A",
+        "MATH 10B",
+        "MATH 10C",
+        "MATH 20A",
+        "MATH 20B",
+        "MATH 20C",
+        "CSS 1",
+        "CSE 7",
+        "CSE 8A",
+        "CSE 11"
+      ],
+      "note": "Either two courses from the MATH 10 or MATH 20 sequence, or one of those math courses plus one programming course (CSS 1, CSE 7, CSE 8A, CSE 11)."
+    },
+    {
+      "label": "Biological sciences (2 of)",
+      "division": "lower",
+      "kind": "courses",
+      "needed": 2,
+      "courses": [
+        "ANTH 2",
+        "BILD 1",
+        "BILD 2",
+        "BILD 3",
+        "BILD 12",
+        "BILD 20",
+        "BILD 26",
+        "BILD 38",
+        "COGS 17"
+      ],
+      "note": "BILD 38 used here cannot also count toward the Healthy Aging specialization coursework."
+    },
+    {
+      "label": "Social sciences (2 of)",
+      "division": "lower",
+      "kind": "courses",
+      "needed": 2,
+      "courses": [
+        "ANTH 1",
+        "ANTH 3",
+        "CAT 1",
+        "CAT 2",
+        "COMM 10",
+        "COGS 1",
+        "FMPH 40",
+        "FMPH 50",
+        "HILD 7A",
+        "HILD 7B",
+        "HILD 7C",
+        "LIGN 4",
+        "LIGN 7",
+        "LIGN 8",
+        "LIGN 101",
+        "MMW 11",
+        "MMW 12",
+        "MMW 121",
+        "MMW 122",
+        "PSYC 1",
+        "PSYC 2",
+        "PSYC 3",
+        "PSYC 6",
+        "PSYC 7",
+        "SOCI 1",
+        "SOCI 20",
+        "SOCI 40",
+        "SOCI 70"
+      ],
+      "note": "Only one of HILD 7A/7B/7C may be used."
+    },
+    {
+      "label": "Core Domain 1 — Biological basis (1 of)",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": ["HDS 110", "HDS 111", "ANBI 111", "BIPN 144"]
+    },
+    {
+      "label": "Core Domain 2A — Social-cognitive development (1 of)",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": ["HDS 121", "COGS 110", "HDS 122", "HDS 124", "PSYC 187"],
+      "note": "HDS 121 and COGS 110 are the same course, cross-listed."
+    },
+    {
+      "label": "Core Domain 2B — Language development (1 of)",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": ["HDS 120", "COGS 156", "LIGN 171"]
+    },
+    {
+      "label": "Core Domain 3 — Socio-cultural basis (1 of)",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": ["HDS 133", "ANSC 126", "ANSC 168", "COMM 112C", "HITO 126"]
+    },
+    {
+      "label": "Development Domain 1 — Biological development (1 of)",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": [
+        "ANBI 116",
+        "ANBI 130",
+        "ANBI 140",
+        "ANBI 159",
+        "ANBI 173",
+        "ANTH 102",
+        "BICD 100",
+        "BICD 112",
+        "BICD 130",
+        "BIPN 134",
+        "BIPN 144",
+        "BIPN 148",
+        "COGS 115",
+        "COGS 184"
+      ]
+    },
+    {
+      "label": "Development Domain 2 — Cognitive and language development (1 of)",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": [
+        "COGS 154",
+        "COMM 100A",
+        "COMM 168",
+        "LIGN 119",
+        "EDS 119",
+        "LIGN 179",
+        "PSYC 101",
+        "PSYC 130",
+        "PSYC 132",
+        "PSYC 136",
+        "PSYC 141",
+        "PSYC 146",
+        "PSYC 156",
+        "PSYC 168",
+        "PSYC 171",
+        "PSYC 172",
+        "PSYC 173",
+        "PSYC 180",
+        "PSYC 187",
+        "PSYC 190"
+      ],
+      "note": "LIGN 119 and EDS 119 are the same course, cross-listed."
+    },
+    {
+      "label": "Development Domain 3 — Socio-cultural development (1 of)",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": [
+        "ANBI 159",
+        "ANSC 101",
+        "ANSC 125",
+        "ANSC 126",
+        "ANSC 127",
+        "COMM 102C",
+        "COMM 102D",
+        "COMM 126",
+        "EDS 115",
+        "EDS 117",
+        "SOCI 117",
+        "EDS 118",
+        "HDS 171",
+        "HDS 173",
+        "HDS 175",
+        "HDS 177",
+        "LTWL 114",
+        "LTWL 116",
+        "LTWL 177",
+        "PH 110",
+        "PH 120",
+        "PSYC 180",
+        "PSYC 190",
+        "SOCI 116",
+        "LIGN 174",
+        "SOCI 129",
+        "SOCI 131",
+        "SOCI 143",
+        "SOCI 159",
+        "SOCI 161",
+        "SOCI 184",
+        "USP 134",
+        "USP 145",
+        "USP 147"
+      ],
+      "note": "PH 110 and PH 120 were previously FMPH 110 / FMPH 120. SOCI 159 counts only when the quarter's topic is approved for the HDS major. EDS 117/SOCI 117 and SOCI 116/LIGN 174 are cross-listings."
+    },
+    {
+      "label": "Methods: HDS 181",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": ["HDS 181"],
+      "note": "Prereqs: HDS 1, statistics, and three upper-division HDS major courses (one per domain). Department approval to enroll; must be taken in residence."
+    },
+    {
+      "label": "Methods: HDS 191",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": ["HDS 191"],
+      "note": "Prereq: HDS 181, plus a pre-enrollment questionnaire submitted one academic year ahead. With an approved aging-focused site placement, HDS 191 also satisfies the Healthy Aging Practicum Project."
+    },
+    {
+      "label": "Healthy Aging coursework (2 of)",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 2,
+      "courses": ["ANSC 101", "BILD 38", "LTWL 177", "USP 145", "BIMM 128"],
+      "note": "Specialization requirement. BILD 38 counts here only if it was not used for the lower-division biological sciences requirement. BIMM 128 requires a petition."
+    },
+    {
+      "label": "Methods elective / Healthy Aging practicum (1 of)",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": [
+        "USP 141A",
+        "USP 141",
+        "HDS 193",
+        "HDS 194B",
+        "COGS 120",
+        "COMM 102C",
+        "EDS 130",
+        "EDS 131",
+        "EDS 136",
+        "FMPH 102",
+        "SOCI 110"
+      ],
+      "note": "The Healthy Aging Practicum Project is done either here — through an approved aging project in USP 141/141A, HDS 193 or HDS 194B — or through an aging-focused HDS 191 placement. Students who use HDS 191 for the practicum still owe a methods elective, and may then use any course on this list."
+    },
+    {
+      "label": "Senior seminar capstone: HDS 150",
+      "division": "upper",
+      "kind": "courses",
+      "needed": 1,
+      "courses": ["HDS 150"],
+      "note": "Prereqs: HDS 181, senior standing, department approval. Must be taken in residence."
+    }
+  ]
+}

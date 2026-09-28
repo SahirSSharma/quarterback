@@ -1,0 +1,123 @@
+{
+ "program": {
+  "major": "Media Industries and Communication",
+  "degree": "B.A.",
+  "department": "Communication"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "16 courses total (MIC major). Practice course requirement: at least one of the two practice courses must be taken within the Communication Department. All COMM 106-series course codes and titles verified against catalog.ucsd.edu/courses/COMM.html.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/COMM-ug.html",
+  "https://catalog.ucsd.edu/courses/COMM.html",
+  "http://communication.ucsd.edu/undergrad/degree-programs/major/index.html",
+  "http://communication.ucsd.edu/undergrad/degree-programs/mic-major.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division core: Introduction to Communication",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COMM 10"
+   ],
+   "note": "Required. Cannot be petitioned for substitution."
+  },
+  {
+   "label": "Lower-division media analysis (choose 1)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COMM 20",
+    "COMM 30",
+    "COMM 40"
+   ],
+   "note": "Choose one: COMM 20 (Analysis of Audio/Visual Media), COMM 30 (Digital Media Literacy), or COMM 40 (Promotional Communication)."
+  },
+  {
+   "label": "Upper-division required: Introduction to Media Industries",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COMM 106"
+   ],
+   "note": "Required. Cannot be petitioned for substitution."
+  },
+  {
+   "label": "Upper-division core (choose 2)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COMM 100A",
+    "COMM 100B",
+    "COMM 100C"
+   ],
+   "note": "Choose two of the three 100-series core courses."
+  },
+  {
+   "label": "Industry electives (COMM 106 series, choose 2)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COMM 106B",
+    "COMM 106D",
+    "COMM 106F",
+    "COMM 106G",
+    "COMM 106I",
+    "COMM 106M",
+    "COMM 106N",
+    "COMM 106V"
+   ],
+   "note": "Two courses from the COMM 106 series: 106B Streaming Media, 106D Data & AI Industries, 106F Film Industry, 106G Tourism, 106I Internet Industry, 106M Advertising & Society, 106N Journalism and the News Industry, 106V TV Industry. All codes verified in the catalog."
+  },
+  {
+   "label": "Communication electives (COMM 160-190)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "COMM 160-190"
+   ],
+   "note": "Three courses numbered COMM 160 through 190."
+  },
+  {
+   "label": "Communication electives (COMM 101-190)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "COMM 101-190"
+   ],
+   "note": "Four additional courses numbered COMM 101 through 190."
+  },
+  {
+   "label": "Practice courses",
+   "division": "other",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COMM 101",
+    "COMM 101A",
+    "COMM 101D",
+    "COMM 101K",
+    "COMM 101N",
+    "COMM 102B",
+    "COMM 102C",
+    "COMM 102M",
+    "COMM 114B",
+    "COMM 115J",
+    "COMM 120N",
+    "COMM 124A",
+    "COMM 124B",
+    "COMM 147"
+   ],
+   "note": "Two designated media production / communication practice courses; at least one must be taken within the Communication Department. Specific course codes not enumerated on the fetched page. Two designated media-production / communication practice courses; at least ONE must be taken within the Communication Department. Listed codes are the confirmed in-department practice/production courses (verified against catalog.ucsd.edu/courses/COMM.html): COMM 101 Intro to Audiovisual Media Practices, 101A Production of Activist Media, 101D Nonlinear/Digital Editing, 101K Documentary Sketchbook, 101N Sound Production, 102B Audio Story & Podcasting Practicum, 102C Practicum in New Media & Community Life, 102M Studio Television, 114B Human Rights Advocacy, 115J Journalistic Writing/Reporting, 120N News Media Workshop, 124A/124B Critical Design Studio, 147 Media Activism. The SECOND practice course may be taken OUTSIDE the department from an approved list (creative arts, business, computing, research methods) published in the department's downloadable 'MIC Major Practice Course List' PDF, which is not enumerable from the catalog alone — hence medium confidence. The in-department set above is the au"
+  }
+ ]
+}

@@ -1,0 +1,809 @@
+{
+ "generated": "2026-07-25",
+ "source": "catalog.ucsd.edu",
+ "pages": [
+  {
+   "page": "AIP",
+   "name": "Academic Internship Program",
+   "subjects": [
+    "AIP"
+   ],
+   "courses": 5
+  },
+  {
+   "page": "AASM",
+   "name": "African American Studies Minor",
+   "subjects": [
+    "AAS"
+   ],
+   "courses": 19
+  },
+  {
+   "page": "AWP",
+   "name": "Analytical Writing Program",
+   "subjects": [
+    "AWP"
+   ],
+   "courses": 11
+  },
+  {
+   "page": "ANTH",
+   "name": "Anthropology",
+   "subjects": [
+    "ANAR",
+    "ANBI",
+    "ANSC",
+    "ANTH"
+   ],
+   "courses": 300
+  },
+  {
+   "page": "AAPI",
+   "name": "Asian American and Pacific Islander Studies Minor",
+   "subjects": [
+    "AAPI"
+   ],
+   "courses": 2
+  },
+  {
+   "page": "ASTR",
+   "name": "Astronomy and Astrophysics",
+   "subjects": [
+    "ASTR"
+   ],
+   "courses": 61
+  },
+  {
+   "page": "AUDL",
+   "name": "Audiology",
+   "subjects": [
+    "AUD"
+   ],
+   "courses": 15
+  },
+  {
+   "page": "BENG",
+   "name": "Bioengineering",
+   "subjects": [
+    "BENG",
+    "BGGN",
+    "BIOM",
+    "BNFO",
+    "CHEM",
+    "CSE",
+    "ECE",
+    "MATH",
+    "MATS",
+    "MED",
+    "NANO",
+    "PHYS",
+    "RAD",
+    "SPPS"
+   ],
+   "courses": 134
+  },
+  {
+   "page": "BIOI",
+   "name": "Bioinformatics and Systems Biology",
+   "subjects": [
+    "BNFO"
+   ],
+   "courses": 10
+  },
+  {
+   "page": "BIOL",
+   "name": "Biological Sciences",
+   "subjects": [
+    "BGGN",
+    "BGJC",
+    "BGRD",
+    "BGSE",
+    "BIBC",
+    "BICD",
+    "BIEB",
+    "BILD",
+    "BIMM",
+    "BIPN",
+    "BISP"
+   ],
+   "courses": 249
+  },
+  {
+   "page": "BIOM",
+   "name": "Biomedical Sciences",
+   "subjects": [
+    "BIOM"
+   ],
+   "courses": 29
+  },
+  {
+   "page": "NANO",
+   "name": "Chemical and NanoEngineering",
+   "subjects": [
+    "CENG",
+    "NANO"
+   ],
+   "courses": 141
+  },
+  {
+   "page": "CHEM",
+   "name": "Chemistry and Biochemistry",
+   "subjects": [
+    "CHEM"
+   ],
+   "courses": 172
+  },
+  {
+   "page": "CLS",
+   "name": "Chicanx and Latinx Studies",
+   "subjects": [
+    "CLX"
+   ],
+   "courses": 11
+  },
+  {
+   "page": "CHIN",
+   "name": "Chinese Studies",
+   "subjects": [
+    "CHIN"
+   ],
+   "courses": 46
+  },
+  {
+   "page": "CIN",
+   "name": "Cinematic Arts",
+   "subjects": [
+    "FILM"
+   ],
+   "courses": 13
+  },
+  {
+   "page": "CLAS",
+   "name": "Classical Studies",
+   "subjects": [
+    "CLAS"
+   ],
+   "courses": 12
+  },
+  {
+   "page": "CCS",
+   "name": "Climate Change Studies",
+   "subjects": [
+    "CCS"
+   ],
+   "courses": 5
+  },
+  {
+   "page": "CSP",
+   "name": "Climate Science and Policy",
+   "subjects": [
+    "SIOC"
+   ],
+   "courses": 5
+  },
+  {
+   "page": "CLIN",
+   "name": "Clinical Psychology",
+   "subjects": [
+    "CLIN"
+   ],
+   "courses": 5
+  },
+  {
+   "page": "CLRE",
+   "name": "Clinical Research",
+   "subjects": [
+    "CLRE"
+   ],
+   "courses": 38
+  },
+  {
+   "page": "COGS",
+   "name": "Cognitive Science",
+   "subjects": [
+    "COGS"
+   ],
+   "courses": 138
+  },
+  {
+   "page": "COMM",
+   "name": "Communication",
+   "subjects": [
+    "COGR",
+    "COMM"
+   ],
+   "courses": 219
+  },
+  {
+   "page": "CSS",
+   "name": "Computational Social Science",
+   "subjects": [
+    "CSS"
+   ],
+   "courses": 11
+  },
+  {
+   "page": "CSE",
+   "name": "Computer Science and Engineering",
+   "subjects": [
+    "BENG",
+    "CSE",
+    "ECE",
+    "LING"
+   ],
+   "courses": 216
+  },
+  {
+   "page": "CCE",
+   "name": "Critical Community Engagement",
+   "subjects": [
+    "CCE"
+   ],
+   "courses": 3
+  },
+  {
+   "page": "CGS",
+   "name": "Critical Gender Studies",
+   "subjects": [
+    "CGS"
+   ],
+   "courses": 48
+  },
+  {
+   "page": "CAT",
+   "name": "Culture, Art, and Technology",
+   "subjects": [
+    "CAT"
+   ],
+   "courses": 22
+  },
+  {
+   "page": "DSC",
+   "name": "Data Science",
+   "subjects": [
+    "DSC"
+   ],
+   "courses": 88
+  },
+  {
+   "page": "DSGN",
+   "name": "Design",
+   "subjects": [
+    "DSGN"
+   ],
+   "courses": 17
+  },
+  {
+   "page": "DOC",
+   "name": "Dimensions of Culture",
+   "subjects": [
+    "DOC"
+   ],
+   "courses": 4
+  },
+  {
+   "page": "ECON",
+   "name": "Economics",
+   "subjects": [
+    "ECON"
+   ],
+   "courses": 180
+  },
+  {
+   "page": "EDS",
+   "name": "Education Studies",
+   "subjects": [
+    "CHEM",
+    "COGR",
+    "EDS",
+    "PHYS"
+   ],
+   "courses": 194
+  },
+  {
+   "page": "ERC",
+   "name": "Eleanor Roosevelt College",
+   "subjects": [
+    "ERC"
+   ],
+   "courses": 11
+  },
+  {
+   "page": "ECE",
+   "name": "Electrical and Computer Engineering",
+   "subjects": [
+    "ECE"
+   ],
+   "courses": 206
+  },
+  {
+   "page": "ENG",
+   "name": "Engineering, Jacobs School of",
+   "subjects": [
+    "ENG"
+   ],
+   "courses": 15
+  },
+  {
+   "page": "ENVR",
+   "name": "Environmental Studies",
+   "subjects": [
+    "ENVR"
+   ],
+   "courses": 18
+  },
+  {
+   "page": "ESYS",
+   "name": "Environmental Systems",
+   "subjects": [
+    "ESYS"
+   ],
+   "courses": 10
+  },
+  {
+   "page": "ETHN",
+   "name": "Ethnic Studies",
+   "subjects": [
+    "ETHN",
+    "ETIM",
+    "HIUS"
+   ],
+   "courses": 162
+  },
+  {
+   "page": "FMPH",
+   "name": "Family Medicine and Public Health",
+   "subjects": [
+    "FMPH",
+    "FPM",
+    "PHB"
+   ],
+   "courses": 96
+  },
+  {
+   "page": "GLBH",
+   "name": "Global Health Program",
+   "subjects": [
+    "GLBH"
+   ],
+   "courses": 67
+  },
+  {
+   "page": "GPS",
+   "name": "Global Policy and Strategy, School of",
+   "subjects": [
+    "GPCO",
+    "GPEC",
+    "GPGN",
+    "GPIM",
+    "GPLA",
+    "GPPA",
+    "GPPS"
+   ],
+   "courses": 173
+  },
+  {
+   "page": "GSS",
+   "name": "Global South Studies (formerly Third World Studies)",
+   "subjects": [
+    "GSS"
+   ],
+   "courses": 6
+  },
+  {
+   "page": "LHCO",
+   "name": "Health Care-Leadership of Healthcare Organizations",
+   "subjects": [
+    "LHCO"
+   ],
+   "courses": 15
+  },
+  {
+   "page": "HIST",
+   "name": "History",
+   "subjects": [
+    "ANTH",
+    "COGR",
+    "ECON",
+    "ETHN",
+    "HIAF",
+    "HIEA",
+    "HIEU",
+    "HIGL",
+    "HIGR",
+    "HILA",
+    "HILD",
+    "HINE",
+    "HISA",
+    "HISC",
+    "HITO",
+    "HIUS",
+    "PHIL",
+    "RELI",
+    "SOC",
+    "SOCG",
+    "USP"
+   ],
+   "courses": 579
+  },
+  {
+   "page": "HDS",
+   "name": "Human Developmental Sciences Program",
+   "subjects": [
+    "HDS"
+   ],
+   "courses": 24
+  },
+  {
+   "page": "HMNR",
+   "name": "Human Rights and Migration Minor",
+   "subjects": [
+    "HMNR"
+   ],
+   "courses": 2
+  },
+  {
+   "page": "HUM",
+   "name": "Humanities",
+   "subjects": [
+    "HUM"
+   ],
+   "courses": 17
+  },
+  {
+   "page": "INTL",
+   "name": "International Studies",
+   "subjects": [
+    "INTL"
+   ],
+   "courses": 8
+  },
+  {
+   "page": "JAPN",
+   "name": "Japanese Studies",
+   "subjects": [
+    "JAPN"
+   ],
+   "courses": 21
+  },
+  {
+   "page": "JWSP",
+   "name": "Jewish Studies",
+   "subjects": [
+    "JWSP"
+   ],
+   "courses": 16
+  },
+  {
+   "page": "LATI",
+   "name": "Latin American Studies",
+   "subjects": [
+    "LATI"
+   ],
+   "courses": 20
+  },
+  {
+   "page": "LAWS",
+   "name": "Law and Society",
+   "subjects": [
+    "LAWS"
+   ],
+   "courses": 2
+  },
+  {
+   "page": "LING",
+   "name": "Linguistics",
+   "subjects": [
+    "LIGN"
+   ],
+   "courses": 106
+  },
+  {
+   "page": "LIT",
+   "name": "Literature",
+   "subjects": [
+    "LTAF",
+    "LTAM",
+    "LTCH",
+    "LTCO",
+    "LTCS",
+    "LTEA",
+    "LTEN",
+    "LTEU",
+    "LTFR",
+    "LTGK",
+    "LTGM",
+    "LTIT",
+    "LTKO",
+    "LTLA",
+    "LTRU",
+    "LTSP",
+    "LTTH",
+    "LTWL",
+    "LTWR"
+   ],
+   "courses": 441
+  },
+  {
+   "page": "MMW",
+   "name": "Making of the Modern World",
+   "subjects": [
+    "MMW"
+   ],
+   "courses": 16
+  },
+  {
+   "page": "MGT",
+   "name": "Management, Rady School of",
+   "subjects": [
+    "MGT",
+    "MGTA",
+    "MGTF",
+    "MGTP"
+   ],
+   "courses": 285
+  },
+  {
+   "page": "MBC",
+   "name": "Marine Biodiversity and Conservation",
+   "subjects": [
+    "MBC",
+    "SIO"
+   ],
+   "courses": 5
+  },
+  {
+   "page": "MAS",
+   "name": "Master of Advanced Studies (MAS) in Engineering",
+   "subjects": [
+    "COSE",
+    "DSE",
+    "WES"
+   ],
+   "courses": 30
+  },
+  {
+   "page": "MATS",
+   "name": "Materials Science and Engineering Program",
+   "subjects": [
+    "MATS"
+   ],
+   "courses": 26
+  },
+  {
+   "page": "MATH",
+   "name": "Mathematics",
+   "subjects": [
+    "MATH"
+   ],
+   "courses": 238
+  },
+  {
+   "page": "MSED",
+   "name": "Mathematics and Science Education",
+   "subjects": [
+    "MSED"
+   ],
+   "courses": 9
+  },
+  {
+   "page": "MAE",
+   "name": "Mechanical and Aerospace Engineering",
+   "subjects": [
+    "MAE"
+   ],
+   "courses": 188
+  },
+  {
+   "page": "MCWP",
+   "name": "Muir College",
+   "subjects": [
+    "MCWP",
+    "MUIR"
+   ],
+   "courses": 11
+  },
+  {
+   "page": "MUS",
+   "name": "Music",
+   "subjects": [
+    "MUS"
+   ],
+   "courses": 151
+  },
+  {
+   "page": "NEU",
+   "name": "Neurosciences",
+   "subjects": [
+    "NEU",
+    "NEUG"
+   ],
+   "courses": 28
+  },
+  {
+   "page": "PHIL",
+   "name": "Philosophy",
+   "subjects": [
+    "PHIL"
+   ],
+   "courses": 149
+  },
+  {
+   "page": "PAS",
+   "name": "Physician Assistant Studies",
+   "subjects": [
+    "PAE"
+   ],
+   "courses": 65
+  },
+  {
+   "page": "PHYS",
+   "name": "Physics",
+   "subjects": [
+    "PHYS"
+   ],
+   "courses": 142
+  },
+  {
+   "page": "POLI",
+   "name": "Political Science",
+   "subjects": [
+    "POLI"
+   ],
+   "courses": 302
+  },
+  {
+   "page": "PSYC",
+   "name": "Psychology",
+   "subjects": [
+    "PSYC"
+   ],
+   "courses": 179
+  },
+  {
+   "page": "PH",
+   "name": "Public Health",
+   "subjects": [
+    "FPM",
+    "PH",
+    "PHB"
+   ],
+   "courses": 141
+  },
+  {
+   "page": "RELI",
+   "name": "Religion, Study of",
+   "subjects": [
+    "RELI"
+   ],
+   "courses": 39
+  },
+  {
+   "page": "REV",
+   "name": "Revelle College",
+   "subjects": [
+    "REV"
+   ],
+   "courses": 9
+  },
+  {
+   "page": "SCIS",
+   "name": "Science Studies",
+   "subjects": [
+    "ANTH",
+    "COGR",
+    "HIGR",
+    "HISC",
+    "PHIL",
+    "SOCG"
+   ],
+   "courses": 25
+  },
+  {
+   "page": "SIO",
+   "name": "Scripps Institution of Oceanography",
+   "subjects": [
+    "CHEM",
+    "SIO",
+    "SIOB",
+    "SIOC",
+    "SIOG"
+   ],
+   "courses": 274
+  },
+  {
+   "page": "SEV",
+   "name": "Seventh College",
+   "subjects": [
+    "SEV"
+   ],
+   "courses": 3
+  },
+  {
+   "page": "SXTH",
+   "name": "Sixth College",
+   "subjects": [
+    "SXTH"
+   ],
+   "courses": 3
+  },
+  {
+   "page": "SOC",
+   "name": "Sociology",
+   "subjects": [
+    "SOCG",
+    "SOCI"
+   ],
+   "courses": 198
+  },
+  {
+   "page": "SE",
+   "name": "Structural Engineering",
+   "subjects": [
+    "SE"
+   ],
+   "courses": 128
+  },
+  {
+   "page": "SYN",
+   "name": "Synthesis Program",
+   "subjects": [
+    "SYN"
+   ],
+   "courses": 12
+  },
+  {
+   "page": "THEA",
+   "name": "Theatre and Dance",
+   "subjects": [
+    "TDAC",
+    "TDDE",
+    "TDDM",
+    "TDDR",
+    "TDGE",
+    "TDGR",
+    "TDHD",
+    "TDHT",
+    "TDMV",
+    "TDPF",
+    "TDPR",
+    "TDPW",
+    "TDTR"
+   ],
+   "courses": 228
+  },
+  {
+   "page": "TMC",
+   "name": "Thurgood Marshall College",
+   "subjects": [
+    "TMC"
+   ],
+   "courses": 8
+  },
+  {
+   "page": "USP",
+   "name": "Urban Studies and Planning",
+   "subjects": [
+    "USP"
+   ],
+   "courses": 105
+  },
+  {
+   "page": "VIS",
+   "name": "Visual Arts",
+   "subjects": [
+    "VIS"
+   ],
+   "courses": 246
+  },
+  {
+   "page": "WARR",
+   "name": "Warren College",
+   "subjects": [
+    "WARR",
+    "WCWP"
+   ],
+   "courses": 9
+  }
+ ]
+}

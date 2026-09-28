@@ -1,0 +1,99 @@
+{
+ "program": {
+  "major": "Physics",
+  "degree": "B.S.",
+  "department": "Physics"
+ },
+ "catalogYear": "current (2024-2026 General Catalog)",
+ "confidence": "high",
+ "found": true,
+ "notes": "BS, Physics (PY29). 52 lower-division units + 57 upper-division units = 109 units total. Verified verbatim against catalog. The listed focus areas (Astrophysics, Biophysics, Computational Physics, Physics of the Earth/Oceans/Atmosphere, Materials Physics) are optional concentrations within this single BS degree, sharing this exact core and differing only in the restricted-elective pool. A separate BA, Physics (PY35) also exists: 52 lower-division + 49 upper-division = 101 units; upper core PHYS 100A-B, 110A, 120, 130A (21 units) + seven 4-unit upper-division science/engineering courses with >=12 units from upper-division/graduate physics (28 units).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PHYS-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-Division Physics Core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C",
+    "PHYS 4D",
+    "PHYS 4E",
+    "PHYS 2CL",
+    "PHYS 2DL",
+    "PHYS 41"
+   ],
+   "note": "PHYS 4A-B-C-D-E (20 units) + PHYS 2CL-2DL (4 units) + PHYS 41 (4 units)."
+  },
+  {
+   "label": "Lower-Division Mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "MATH 18 and 20A-B-C-D-E (24 units)."
+  },
+  {
+   "label": "Upper-Division Core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PHYS 100A",
+    "PHYS 100B",
+    "PHYS 105A",
+    "PHYS 110A",
+    "PHYS 120",
+    "PHYS 130A",
+    "PHYS 130B",
+    "PHYS 140A"
+   ],
+   "note": "PHYS 100A-B, 105A, 110A, 120, 130A-B, 140A (33 units)."
+  },
+  {
+   "label": "Upper-Division Lab",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 122",
+    "PHYS 124",
+    "PHYS 133",
+    "PHYS 173",
+    "ASTR 150"
+   ],
+   "note": "One from PHYS 122, 124, 133, 173, or ASTR 150 (4 units)."
+  },
+  {
+   "label": "Restricted Electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PHYS 100-195",
+    "PHYS 200-295"
+   ],
+   "note": "Five upper-division and/or graduate-level courses (20 units) from PHYS 100-195 and 200-295. Choosing a focus area is optional; if chosen, up to two courses may come from outside physics per the focus-area lists."
+  },
+  {
+   "label": "Total Units for the Major",
+   "division": "other",
+   "kind": "units",
+   "needed": 109,
+   "courses": [],
+   "note": "52 lower-division + 57 upper-division units. Pure unit-count requirement: 109 total units for the BS Physics major (PY29) = 52 lower-division + 57 upper-division. No course list; satisfied by completing the core/electives buckets that sum to this total. Verified against catalog.ucsd.edu/curric/PHYS-ug.html.",
+   "type": "unitTotal"
+  }
+ ]
+}

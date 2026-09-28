@@ -1,0 +1,104 @@
+{
+ "program": {
+  "major": "Political Science / Political Theory",
+  "degree": "B.A.",
+  "department": "Political Science"
+ },
+ "catalogYear": "catalog.ucsd.edu (current)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Specialization verified against the catalog. 5 theory courses (>=2 from 110A/B/C + >=3 from the theory list) plus POLI 30 and 7 additional upper POLI. POLI 117 or 117R but not both.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/POLI-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division introductory courses (choose 3)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "POLI 10",
+    "POLI 10D",
+    "POLI 11",
+    "POLI 11D",
+    "POLI 12",
+    "POLI 12D",
+    "POLI 13",
+    "POLI 13D"
+   ],
+   "note": "Choose any 3 of the four intro subfields."
+  },
+  {
+   "label": "Political Inquiry / Methods (POLI 30)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 30",
+    "POLI 30D"
+   ],
+   "note": "Required methods course; numerically lower-division."
+  },
+  {
+   "label": "Political theory foundations (at least 2)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 110A",
+    "POLI 110B",
+    "POLI 110C"
+   ],
+   "note": "At least 2 of the history-of-political-theory sequence."
+  },
+  {
+   "label": "Additional political theory courses (at least 3)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "POLI 110DA",
+    "POLI 110EA",
+    "POLI 110EB",
+    "POLI 110EC",
+    "POLI 110ED",
+    "POLI 110F",
+    "POLI 110G",
+    "POLI 110H",
+    "POLI 110J",
+    "POLI 110K",
+    "POLI 110M",
+    "POLI 110N",
+    "POLI 110T",
+    "POLI 111B",
+    "POLI 111D",
+    "POLI 112A",
+    "POLI 112C",
+    "POLI 113A",
+    "POLI 113B",
+    "POLI 113C",
+    "POLI 114B",
+    "POLI 115A",
+    "POLI 116A",
+    "POLI 117",
+    "POLI 117R",
+    "POLI 118",
+    "POLI 118B",
+    "POLI 119A",
+    "POLI 122"
+   ],
+   "note": "At least 3 additional theory courses (5 theory courses total). POLI 117 or 117R may count, but NOT both."
+  },
+  {
+   "label": "Additional upper-division Political Science",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "POLI 100-199"
+   ],
+   "note": "7 additional upper-division POLI courses."
+  }
+ ]
+}

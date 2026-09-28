@@ -1,0 +1,65 @@
+{
+ "page": "CLIN",
+ "name": "Clinical Psychology",
+ "courses": [
+  {
+   "code": "CLIN 227A",
+   "subject": "CLIN",
+   "num": "227A",
+   "title": "Mind, Brain & Behavior",
+   "units": "6",
+   "level": null,
+   "description": "This five-week course will cover neuroanatomy, neurophysiology, neuropharmacology, principles of neurological function, and human growth and development. S/U grades only.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLIN 227B",
+   "subject": "CLIN",
+   "num": "227B",
+   "title": "Mind, Brain & Behavior II",
+   "units": "6",
+   "level": null,
+   "description": "This five-week course during year two covers neurological, psychiatric, ophthalmological, otolaryngological, and general head and neck principles, syndromes, and disorders.",
+   "prereqText": "CLIN 227A. S/U grades only.",
+   "prereqs": [
+    [
+     "CLIN 227A"
+    ]
+   ]
+  },
+  {
+   "code": "CLIN 228",
+   "subject": "CLIN",
+   "num": "228",
+   "title": "Mind, Brain & Behavior II\u2014Psychiatry Emphasis",
+   "units": "3",
+   "level": null,
+   "description": "A five-week intense course with specific emphasis for clinical psychology graduate students. The psychiatry emphasis will examine aspects of psychopathology, including the following disorders: depressive, psychotic, alcohol and drug personality, suicide, anxiety, obsessive-compulsive, gender dysphoria, sexual dysfunctions, child psychiatry, and sleep-wake among others. S/U grades only.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLIN 294",
+   "subject": "CLIN",
+   "num": "294",
+   "title": "Proseminar in Neuropsychology",
+   "units": "3",
+   "level": null,
+   "description": "Yearlong course (CLIN 294A, B, C), each for three credits, offered sequentially fall, winter, and spring. Provides a fundamental knowledge of brain-behavior relationships as well as strategies and methods of neuropsychological assessment and rehabilitation.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLIN 296",
+   "subject": "CLIN",
+   "num": "296",
+   "title": "Independent Study",
+   "units": "1\u201312",
+   "level": null,
+   "description": "Independent survey of basic concepts in clinical psychology using various sources of material, including scientific papers in clinical psychology and behavioral science and other sources as seem indicated.",
+   "prereqText": null,
+   "prereqs": null
+  }
+ ]
+}

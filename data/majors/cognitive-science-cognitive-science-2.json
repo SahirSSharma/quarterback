@@ -1,0 +1,160 @@
+{
+ "program": {
+  "major": "Cognitive Science",
+  "degree": "B.S.",
+  "department": "Cognitive Science"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Minimum grade C- required; letter grades required (except COGS 195, 197-199). Lower division is 11 courses/44 units (MATH 10 sequence) OR 10 courses/40 units (MATH 20 sequence). Verified against bs-cogsci.html.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/COGS-ug.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/index.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/ba-cogsci.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/bs-cogsci.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/cbn.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/neuroscience.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/clinical.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/language.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/design-interaction.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/machine-learning.html",
+  "https://cogsci.ucsd.edu/_files/undergraduates/25-26%20Specialization%20Electives.pdf"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 10C",
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B"
+   ],
+   "note": "Complete one sequence: MATH 20A, 20B, 18 (3 courses) OR MATH 10A, 10B, 10C, 18 (4 courses). needed=3 reflects the minimum (MATH 20 path); MATH 10 path requires 4."
+  },
+  {
+   "label": "Introduction: COGS 1",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 1"
+   ]
+  },
+  {
+   "label": "Design: COGS 10 or DSGN 1",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 10",
+    "DSGN 1"
+   ]
+  },
+  {
+   "label": "Methods: COGS 13",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 13"
+   ]
+  },
+  {
+   "label": "Methods: COGS 14A",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 14A"
+   ]
+  },
+  {
+   "label": "Methods: COGS 14B",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 14B"
+   ]
+  },
+  {
+   "label": "Neuroscience: COGS 17",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 17"
+   ]
+  },
+  {
+   "label": "Programming (1 of)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 18",
+    "BILD 62",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 11"
+   ]
+  },
+  {
+   "label": "Core: COGS 100 (Distributed Cognition)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 100"
+   ]
+  },
+  {
+   "label": "Core: Fundamental Cognitive Phenomena (2 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COGS 101A",
+    "COGS 101B",
+    "COGS 101C"
+   ]
+  },
+  {
+   "label": "Core: Cognitive Neuroscience (2 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COGS 107A",
+    "COGS 107B",
+    "COGS 107C"
+   ]
+  },
+  {
+   "label": "Core: Computation (COGS 108 or 109)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 108",
+    "COGS 109"
+   ]
+  },
+  {
+   "label": "Upper-division electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "COGS 100-198"
+   ],
+   "note": "6 electives; at least 3 must be COGS courses. Remaining may be from Approved General Electives list. One COGS 19X and COGS 160 count only once."
+  }
+ ]
+}

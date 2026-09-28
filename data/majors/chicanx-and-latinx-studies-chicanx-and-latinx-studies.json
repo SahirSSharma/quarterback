@@ -1,0 +1,81 @@
+{
+ "program": {
+  "major": "Chicanx and Latinx Studies",
+  "degree": "B.A.",
+  "department": "Chicanx and Latinx Studies"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against both the catalog course page and the department major page. Total: 56 units (14 four-unit courses) — 2 lower-division (8 units) and 12 upper-division (48 units). All courses must be taken for a letter grade with a minimum 2.0 GPA. Maximum three upper-division courses may be taken in any single department. Maximum two courses (8 units) may overlap between major and minor. Study-abroad/unlisted courses require petition.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/CLS.html",
+  "https://cls.ucsd.edu/major/index.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division foundation course",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CLX 1",
+    "ETHN 30"
+   ],
+   "note": "One of: CLX 1 (Cornerstone of Chicanx and Latinx Studies) OR ETHN 30 (Introduction to Chicanx and Latinx Studies). Verified on both pages."
+  },
+  {
+   "label": "Additional lower-division course",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CLX 2",
+    "CLX 3",
+    "HILD 7C"
+   ],
+   "note": "Choose one of the listed courses, or a petition-approved course from another department/university. Verified on major page (CLX 2, CLX 3, HILD 7C)."
+  },
+  {
+   "label": "Upper-division research/core course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CLX 101",
+    "AAS 170"
+   ],
+   "note": "One of: CLX 101 (Approaches to Research in Chicanx and Latinx Studies) OR AAS 170 (Legacies of Research on Disenfranchised Communities). Verified on major page."
+  },
+  {
+   "label": "Research Practicum (required core)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CLX 102"
+   ],
+   "note": "CLX 102: Research Practicum in Chicanx and Latinx Studies. Verified on both pages."
+  },
+  {
+   "label": "Capstone (required core)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CLX 103"
+   ],
+   "note": "CLX 103: Capstone of Chicanx and Latinx Studies. Verified on both pages."
+  },
+  {
+   "label": "Upper-division electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 9,
+   "courses": [
+    "CLX 100-199"
+   ],
+   "note": "Nine upper-division courses selected from the approved Chicanx and Latinx Studies course offerings list (drawn from CLX and 100+ cross-listed courses across multiple departments). Maximum three from any single department. Count verified (9 electives = 12 upper-div total minus 3 core)."
+  }
+ ]
+}

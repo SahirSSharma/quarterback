@@ -1,0 +1,146 @@
+{
+ "program": {
+  "major": "Engineering Physics",
+  "degree": "BS",
+  "department": "Electrical and Computer Engineering (ECE)"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Lower-division 66 units; upper-division 76 units; 146 units in major. Upper-division depth offers three options: (A) physics-heavy sequence, (B) device physics, (C) photonics. All buckets corroborated on the page.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ECE-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "24 units"
+  },
+  {
+   "label": "Physics (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2D",
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C",
+    "PHYS 4D",
+    "PHYS 4E"
+   ],
+   "note": "16-20 units; PHYS 2A-B-C-D or 4A-B-C-D-E (series varies)"
+  },
+  {
+   "label": "Physics Lab (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PHYS 2DL"
+   ],
+   "note": "2 units"
+  },
+  {
+   "label": "Programming (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECE 15"
+   ],
+   "note": "4 units"
+  },
+  {
+   "label": "Electrical Engineering (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "ECE 25",
+    "ECE 30",
+    "ECE 35",
+    "ECE 45",
+    "ECE 65"
+   ],
+   "note": "20 units"
+  },
+  {
+   "label": "Breadth courses (upper-division)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 102",
+    "ECE 103",
+    "ECE 107",
+    "ECE 109"
+   ],
+   "note": "24 units"
+  },
+  {
+   "label": "Design course (upper-division)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECE 191",
+    "ECE 190",
+    "ECE 111",
+    "ECE 118",
+    "ECE 155B",
+    "ECE 155C"
+   ],
+   "note": "4 units; ECE 191, or 190/111/118/155B/155C with departmental approval"
+  },
+  {
+   "label": "Electives (upper-division)",
+   "division": "upper",
+   "kind": "units",
+   "needed": 20,
+   "courses": [
+    "ECE 100-199",
+    "MATH 100-199",
+    "PHYS 100-199"
+   ],
+   "note": "Two upper-division engineering/math/physics courses plus three additional electives for professional broadening"
+  },
+  {
+   "label": "Depth courses (upper-division)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PHYS 110A",
+    "PHYS 130A",
+    "PHYS 130B",
+    "PHYS 140A",
+    "MATH 110A",
+    "ECE 123",
+    "ECE 166",
+    "ECE 135A",
+    "ECE 135B",
+    "ECE 181",
+    "ECE 182",
+    "ECE 183"
+   ],
+   "note": "28 units. Option A: PHYS 110A, 130A-B, 140A, MATH 110A, ECE 123, 166. Option B: adds ECE 135A-B. Option C: ECE 182 and (181 or 183)."
+  }
+ ]
+}

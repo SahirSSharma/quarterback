@@ -1,0 +1,72 @@
+{
+ "program": {
+  "major": "Chinese Studies",
+  "degree": "B.A.",
+  "department": "Chinese Studies"
+ },
+ "catalogYear": "2026-2027",
+ "confidence": "high",
+ "found": true,
+ "notes": "B.A. in Chinese Studies is an interdisciplinary major administered by the Chinese Studies Program. Structure verified against both catalog.ucsd.edu/curric/CHIN.html and chinesestudies.ucsd.edu/undergraduate/major.html, which agree: 2 years of lower-division Mandarin (CHIN 10 and 20 series) plus 12 upper-division 4-unit China/Mandarin courses. Within the 12: at least 3 departments/programs; at least 3 must be upper-division Chinese history; at most 6 may be language-acquisition. Residency: >=6 of the 12 upper-division courses at UCSD; <=6 taken abroad/elsewhere (<=3 of those language-acquisition). All major courses for a letter grade (exceptions: CHIN 198/199). AP credits do not count toward the major. Honors program requires 3.5 major GPA and 3.2 overall GPA. Individual CHIN course codes (10A-C, 20A-C) and HIEA history examples (128/132/140) are the only specific course codes named on the pages; all upper-division elective 'courses' entries are representative department ranges rather than fixed required codes.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/CHIN.html",
+  "https://chinesestudies.ucsd.edu/undergraduate/major.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division language requirement: two years of Mandarin Chinese",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "CHIN 10A",
+    "CHIN 10B",
+    "CHIN 10C",
+    "CHIN 20A",
+    "CHIN 20B",
+    "CHIN 20C"
+   ],
+   "note": "Two years of Mandarin Chinese (CHIN 10A-B-C and CHIN 20A-B-C) or demonstrated equivalent proficiency. Students who place out via proficiency do not repeat these courses. Verified on both catalog.ucsd.edu and the Chinese Studies department major page."
+  },
+  {
+   "label": "Upper-division Chinese history",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "HIEA 128",
+    "HIEA 132",
+    "HIEA 140",
+    "HIEA 100-199"
+   ],
+   "note": "At least three of the twelve upper-division courses must be upper-division Chinese history. HIEA 128/132/140 are examples cited by both the catalog and department page; any upper-division Chinese history course (HIEA 100-199, China focus) qualifies. HIEA 100-199 is a representative range, not a single course code."
+  },
+  {
+   "label": "Upper-division Chinese Studies elective courses (remaining, to reach 12 total)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 9,
+   "courses": [
+    "CHIN 100-199",
+    "HIEA 100-199",
+    "LTEA 100-199",
+    "TDGE 100-199",
+    "MUS 100-199",
+    "POLI 100-199",
+    "SOCI 100-199",
+    "ANTH 100-199",
+    "VIS 100-199"
+   ],
+   "note": "The major requires twelve four-unit upper-division courses total on China/Mandarin topics; three of those are the Chinese history bucket above, leaving nine. Course listings shown are representative departments that offer qualifying China-focused courses, not a fixed list (the department page lists courses across History, Literature, Philosophy, Political Science, etc.). Each course must be 4+ quarter units and study China or Mandarin Chinese. Constraints across all 12 upper-division courses: (1) courses must come from at least three different departments or programs; (2) no more than six may be Chinese language-acquisition courses (e.g. upper-division CHIN); (3) at least six of the twelve must be completed at UC San Diego; no more than six may be taken abroad/elsewhere, of which no more than three may be Chinese language-acquisition. Non-UCSD courses require petition approval; AP credits do not count. The range entries (e.g. CHIN 100-199) are representative ranges, not single course codes."
+  },
+  {
+   "label": "Total upper-division units",
+   "division": "other",
+   "kind": "units",
+   "needed": 48,
+   "courses": [],
+   "note": "Twelve upper-division courses at 4 units each = 48 upper-division units. All courses for the major must be taken for a letter grade; exceptions granted only for CHIN 198 and CHIN 199. Pure unit-count requirement, not a course list. The Chinese Studies B.A. requires twelve four-unit upper-division China/Mandarin courses = 48 upper-division units. Verified against catalog.ucsd.edu/curric/CHIN.html and chinesestudies.ucsd.edu/undergraduate/major.html (both agree on 12 courses x 4 units). The actual qualifying courses are already enumerated in the three preceding course buckets (upper-division Chinese history + electives); this bucket is only the aggregate unit total (48) that those upper-division courses must sum to, so courses is left empty.",
+   "type": "unitTotal"
+  }
+ ]
+}

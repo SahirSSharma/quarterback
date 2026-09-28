@@ -1,0 +1,152 @@
+{
+ "program": {
+  "major": "Linguistics (Specialization in Speech and Language Sciences)",
+  "degree": "BA",
+  "department": "Linguistics"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "13 courses total: 12 upper-division LIGN/approved courses plus one lower-division statistics course. LIGN 110 (Phonetics) is specifically required in the core. Includes disorders, development, and neurobiology requirements plus three approved electives. Corrected: harvested data mislabeled this as '13 upper-division courses' - the statistics course is lower-division, so the upper-division count is 12.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/LING-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Statistics course (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 14B",
+    "CSS 2",
+    "HDS 60",
+    "PSYC 60"
+   ],
+   "note": "One statistics course: COGS 14B, CSS 2, HDS 60, or PSYC 60."
+  },
+  {
+   "label": "Required linguistic analysis core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LIGN 102",
+    "LIGN 103",
+    "LIGN 110"
+   ],
+   "note": "LIGN 102, 103, and LIGN 110 (Phonetics) all required."
+  },
+  {
+   "label": "Syntax/Semantics/Pragmatics breadth (choose one)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 121",
+    "LIGN 130",
+    "LIGN 160"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Area breadth: one course each from two of three areas",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "LIGN 117",
+    "LIGN 165",
+    "LIGN 167",
+    "LIGN 168",
+    "LIGN 169",
+    "LIGN 108",
+    "LIGN 139",
+    "LIGN 141",
+    "LIGN 142",
+    "LIGN 143",
+    "LIGN 148",
+    "LIGN 152",
+    "LIGN 177",
+    "LIGN 105",
+    "LIGN 146",
+    "LIGN 174",
+    "LIGN 175",
+    "LIGN 176",
+    "LIGN 178"
+   ],
+   "note": "One course each from TWO of three areas: Computational Linguistics; Crosslinguistic Variation; Language and Society."
+  },
+  {
+   "label": "Speech/language/hearing disorders course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 112",
+    "LIGN 113"
+   ],
+   "note": "One of LIGN 112 (Speech Sounds and Speech Disorders) or LIGN 113 (Hearing Science and Hearing Disorders)."
+  },
+  {
+   "label": "Language development/disorders course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 119",
+    "LIGN 171",
+    "LIGN 179"
+   ],
+   "note": "One of LIGN 119, 171, or 179."
+  },
+  {
+   "label": "Neurobiology of language course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 170",
+    "LIGN 180",
+    "LIGN 181",
+    "COGS 107A",
+    "PSYC 108",
+    "PSYC 169"
+   ],
+   "note": "One of these. Note: COGS 107C and PSYC 108 may not both be taken for credit."
+  },
+  {
+   "label": "Speech and language sciences electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LIGN 100-199",
+    "COGS 100-199",
+    "COMM 100-199",
+    "EDS 100-199",
+    "ETHN 100-199",
+    "PSYC 100-199",
+    "MUS 175",
+    "SOCI 117"
+   ],
+   "note": "Three upper-division electives from the department's approved list, which the catalog describes rather than enumerates: further LIGN courses plus COGS, COMM, EDS, ETHN, PSYC, MUS 175 and SOCI 117. Those departments are matched as ranges here, so a course outside the approved list can tick this bucket — confirm your three with a Linguistics adviser. Courses already counted by another bucket are excluded. (Was two literal codes for a needed-3 bucket, which no student could ever satisfy; \"SOC 117\" is SOCI 117.)",
+   "exclude": [
+    "LIGN 102",
+    "LIGN 103",
+    "LIGN 110",
+    "LIGN 112",
+    "LIGN 113",
+    "LIGN 119",
+    "LIGN 121",
+    "LIGN 130",
+    "LIGN 160",
+    "LIGN 170",
+    "LIGN 171",
+    "LIGN 179",
+    "LIGN 180",
+    "LIGN 181"
+   ]
+  }
+ ]
+}

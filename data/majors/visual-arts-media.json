@@ -1,0 +1,225 @@
+{
+ "program": {
+  "major": "Media",
+  "degree": "B.A.",
+  "department": "Visual Arts"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "UCSD General Catalog major code VA27. Letter grade, C- or better required; two-thirds residency at UCSD. Total: 7 lower-division + 13 upper-division courses. Maximum 2 production courses per quarter. VIS 158A-D expanded to 158A/158B/158C/158D; VIS 110A-K captured as a range string. VERIFIED against catalog requirements page; all buckets confirmed.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/VIS-ug.html",
+  "https://visarts.ucsd.edu/undergrad/major-req/index.html",
+  "https://catalog.ucsd.edu/courses/VIS.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required lower-division core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 60",
+    "VIS 70N"
+   ],
+   "note": "Both required: VIS 60 (Intro to Digital Photography), VIS 70N (Intro to Media)."
+  },
+  {
+   "label": "Lower-division media studies",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 83",
+    "VIS 83R",
+    "VIS 84",
+    "VIS 84B",
+    "VIS 85A",
+    "VIS 85B"
+   ],
+   "note": "Choose 2. VIS 83/83R counts once."
+  },
+  {
+   "label": "Lower-division art making",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 1",
+    "VIS 2",
+    "VIS 3",
+    "VIS 11",
+    "VIS 41",
+    "VIS 42",
+    "VIS 71",
+    "VIS 72",
+    "VIS 73",
+    "VIS 80"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "Lower-division art history",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 12R",
+    "VIS 20",
+    "VIS 21A",
+    "VIS 21B",
+    "VIS 21C",
+    "VIS 22",
+    "VIS 22R",
+    "VIS 83",
+    "VIS 83R",
+    "VIS 84",
+    "VIS 84B",
+    "VIS 85A",
+    "VIS 85B"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "Intermediate: required media practice",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 164",
+    "VIS 174"
+   ],
+   "note": "Both required: VIS 164 (Photographic Strategies), VIS 174 (Media Sketchbook)."
+  },
+  {
+   "label": "Intermediate: media practice electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 165",
+    "VIS 165A",
+    "VIS 165B",
+    "VIS 171",
+    "VIS 172",
+    "VIS 175",
+    "VIS 176",
+    "VIS 177",
+    "VIS 178",
+    "VIS 179"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "Intermediate: media studies",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "VIS 150",
+    "VIS 150A",
+    "VIS 151",
+    "VIS 151A",
+    "VIS 152",
+    "VIS 152D",
+    "VIS 155",
+    "VIS 156",
+    "VIS 157",
+    "VIS 157D",
+    "VIS 158A",
+    "VIS 158B",
+    "VIS 158C",
+    "VIS 158D",
+    "VIS 159",
+    "VIS 194S"
+   ],
+   "note": "Choose 3."
+  },
+  {
+   "label": "Intermediate: interdisciplinary",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 100",
+    "VIS 100A",
+    "VIS 101",
+    "VIS 101A",
+    "VIS 102",
+    "VIS 104A",
+    "VIS 105A",
+    "VIS 106A",
+    "VIS 107A",
+    "VIS 133",
+    "VIS 134",
+    "VIS 142",
+    "VIS 147A",
+    "VIS 163",
+    "VIS 164",
+    "VIS 165",
+    "VIS 165A",
+    "VIS 165B",
+    "VIS 174"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "Advanced: media practice",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 167",
+    "VIS 168",
+    "VIS 169A",
+    "VIS 169B",
+    "VIS 180A",
+    "VIS 180B"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "Senior Projects: media practice",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 181",
+    "VIS 182",
+    "VIS 182A",
+    "VIS 183A",
+    "VIS 183B",
+    "VIS 184",
+    "VIS 185"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "Senior Projects: interdisciplinary",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 100A",
+    "VIS 101A",
+    "VIS 108",
+    "VIS 110A-110K",
+    "VIS 131",
+    "VIS 132",
+    "VIS 133A",
+    "VIS 143A",
+    "VIS 145A",
+    "VIS 146A",
+    "VIS 147B",
+    "VIS 149",
+    "VIS 180",
+    "VIS 183",
+    "VIS 197",
+    "VIS 198",
+    "VIS 199"
+   ],
+   "note": "Choose 1. VIS 110A-110K is a range of studio topics courses."
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "program": {
+  "major": "Cognitive Science with Specialization in Design and Interaction",
+  "degree": "B.S.",
+  "department": "Cognitive Science"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Major code CG33. Same base as B.S. Cognitive Science; 4 of 6 upper-division electives from approved Design and Interaction list, 2 from Approved General Electives; at least 3 of 6 total electives must be COGS. Elective list verified against 25-26 Specialization Electives PDF. Non-COGS impacted courses (CSE, ECE, ICAM) are not guaranteed for enrollment.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/COGS-ug.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/index.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/ba-cogsci.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/bs-cogsci.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/cbn.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/neuroscience.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/clinical.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/language.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/design-interaction.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/machine-learning.html",
+  "https://cogsci.ucsd.edu/_files/undergraduates/25-26%20Specialization%20Electives.pdf"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 10C",
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B"
+   ],
+   "note": "MATH 20A, 20B, 18 (3) OR MATH 10A, 10B, 10C, 18 (4)."
+  },
+  {
+   "label": "Introduction: COGS 1",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 1"
+   ]
+  },
+  {
+   "label": "Design: COGS 10 or DSGN 1",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 10",
+    "DSGN 1"
+   ]
+  },
+  {
+   "label": "Methods: COGS 13",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 13"
+   ]
+  },
+  {
+   "label": "Methods: COGS 14A",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 14A"
+   ]
+  },
+  {
+   "label": "Methods: COGS 14B",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 14B"
+   ]
+  },
+  {
+   "label": "Neuroscience: COGS 17",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 17"
+   ]
+  },
+  {
+   "label": "Programming (1 of)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 18",
+    "BILD 62",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 11"
+   ]
+  },
+  {
+   "label": "Core: COGS 100",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 100"
+   ]
+  },
+  {
+   "label": "Core: Fundamental Cognitive Phenomena (2 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COGS 101A",
+    "COGS 101B",
+    "COGS 101C"
+   ]
+  },
+  {
+   "label": "Core: Cognitive Neuroscience (2 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COGS 107A",
+    "COGS 107B",
+    "COGS 107C"
+   ]
+  },
+  {
+   "label": "Core: Computation (COGS 108 or 109)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 108",
+    "COGS 109"
+   ]
+  },
+  {
+   "label": "Design and Interaction specialization electives (4 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "COGS 102A",
+    "COGS 102B",
+    "COGS 102C",
+    "COGS 119",
+    "COGS 120",
+    "COGS 121",
+    "COGS 122",
+    "COGS 123",
+    "COGS 124",
+    "COGS 125",
+    "COGS 126",
+    "COGS 127",
+    "COGS 128",
+    "COGS 160",
+    "COGS 187A",
+    "COGS 187B",
+    "COGS 188",
+    "COGS 189",
+    "COMM 101E",
+    "COMM 101M",
+    "COMM 102C",
+    "COMM 105G",
+    "COMM 106I",
+    "COMM 110T",
+    "COMM 120N",
+    "COMM 124A",
+    "COMM 124B",
+    "COMM 151",
+    "COMM 172",
+    "COMM 173",
+    "CSE 100",
+    "CSE 101",
+    "CSE 110",
+    "CSE 118",
+    "CSE 130",
+    "CSE 132A",
+    "CSE 132B",
+    "CSE 134B",
+    "CSE 135",
+    "CSE 152",
+    "CSE 165",
+    "CSE 167",
+    "CSE 170",
+    "CSE 176A",
+    "DSGN 100",
+    "DSGN 118",
+    "DSGN 160",
+    "ECE 161A",
+    "ECE 161B",
+    "ECE 161C",
+    "ECE 172A",
+    "ECE 187",
+    "EDS 114",
+    "EDS 124AR",
+    "EDS 124BR",
+    "ENG 100D",
+    "ENG 100DR",
+    "MAE 154",
+    "PHIL 164",
+    "PSYC 161",
+    "VIS 135",
+    "VIS 143",
+    "VIS 145A",
+    "VIS 145B",
+    "VIS 147A",
+    "VIS 147B",
+    "VIS 149",
+    "VIS 161",
+    "VIS 162",
+    "VIS 163",
+    "VIS 176",
+    "VIS 177",
+    "VIS 180A",
+    "VIS 180B",
+    "VIS 182",
+    "CMN 152V",
+    "CMN 170V",
+    "CMN 176V"
+   ],
+   "note": "COGS 160 only if topic applies. CMN 152V/170V/176V are UC Davis cross-campus online courses. Additional electives may be petitioned from communication, CS, computer engineering, and visual arts."
+  },
+  {
+   "label": "General electives (2 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COGS 100-199",
+    "COMM 102C",
+    "CSE 100",
+    "CSE 101",
+    "CSE 130",
+    "CSE 150A",
+    "CSE 150B",
+    "CSE 151A",
+    "CSE 151B",
+    "CSE 160",
+    "CSE 170",
+    "DSGN 100",
+    "DSGN 160",
+    "EDS 114",
+    "EDS 115",
+    "EDS 117",
+    "EDS 136",
+    "EDS 124AR",
+    "EDS 124BR",
+    "LIGN 112",
+    "LIGN 120",
+    "LIGN 121",
+    "LIGN 130",
+    "LIGN 155",
+    "LIGN 165",
+    "LIGN 169",
+    "LIGN 170",
+    "LIGN 171",
+    "LIGN 180",
+    "LIGN 181",
+    "PHIL 134",
+    "PHIL 136",
+    "PHIL 149",
+    "PHIL 150",
+    "PHIL 151",
+    "PHIL 163",
+    "PHIL 164",
+    "PSYC 100",
+    "PSYC 111A",
+    "PSYC 111B",
+    "PSYC 115A",
+    "PSYC 115B",
+    "PSYC 116",
+    "PSYC 120",
+    "PSYC 122",
+    "PSYC 123",
+    "PSYC 125",
+    "PSYC 129",
+    "PSYC 132",
+    "PSYC 133",
+    "PSYC 134",
+    "PSYC 138",
+    "PSYC 140",
+    "PSYC 144",
+    "PSYC 145",
+    "PSYC 150",
+    "PSYC 159",
+    "PSYC 168",
+    "PSYC 169",
+    "PSYC 170",
+    "PSYC 171",
+    "PSYC 174",
+    "PSYC 176",
+    "PSYC 179",
+    "PSYC 181",
+    "PSYC 182",
+    "PSYC 188",
+    "PSYC 189",
+    "PSYBEH 102C"
+   ],
+   "note": "2 from Approved General Electives list (separate PDF). At least 3 of 6 total electives must be COGS. Verified against official 2025-2026 'Approved General Electives' PDF (cogsci.ucsd.edu/_files/undergraduates/25-26 General Electives.pdf, updated 08-06-2025). The COGS portion is essentially all upper-division COGS courses, given as COGS 100-199 (list explicitly enumerates 102A/B/C, 109-128, 137, 138, 142-160, 163-165, 169-189, 190A/B/C, 195P, 198, 199); core courses 100/101/107/108 already satisfy other buckets. Only ONE COGS 160 counts; a 19x course (190A/B/C, 195P, 198, 199) counts only with instructor + advisor approval. Non-COGS approved courses are a CURATED subset, not full departments, so they are listed explicitly (not as ranges). Cross-campus online options: COGS 110 Philosophy of Cog Science (UC Merced) and PSYBEH 102C Abnormal Psychology (UC Irvine), enrolled via crossenroll.universityofcalifornia.edu. Constraint: at least 3 of the 6 total electives (this bucket + the 4 specialization electives) must be COGS courses. Impacted non-COGS courses (CSE, etc.) are not guaranteed for enrollment."
+  }
+ ]
+}

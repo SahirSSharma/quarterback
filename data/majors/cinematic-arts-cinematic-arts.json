@@ -1,0 +1,225 @@
+{
+ "program": {
+  "major": "Cinematic Arts",
+  "degree": "B.A.",
+  "department": "Cinematic Arts"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against the UCSD General Catalog (catalog.ucsd.edu/curric/CIN.html), fetched twice with consistent results, and cross-checked against the IAH Film Studies page. Total 19 courses / 76 units (7 lower-division = 28 units + 12 upper-division = 48 units). All major courses must be taken for a letter grade with a grade of C- or better. Many options are cross-listed; both codes of each cross-listing are retained. Discrepancy resolved: the capstone is FILM 185 (the department-overview page's 'CINE 185' label is a paraphrase; the authoritative catalog states 'FILM 185. Cinematic Arts Capstone'). Every production and screenwriting code was individually confirmed against the catalog's General/Editing-and-Sound/Animation/Shooting-and-Staging groups. The Upper-Division Elective bucket uses representative course-number ranges (not specific codes) because it is an open elective drawn from the studies/history or production lists or independent study.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/CIN.html",
+  "https://iah.ucsd.edu/academics/film-studies/index.html"
+ ],
+ "buckets": [
+  {
+   "label": "Cinematography (lower-division foundation)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "FILM 71",
+    "VIS 71"
+   ],
+   "note": "FILM 71 and VIS 71 are equivalent cross-listings; take one. Part of the 4-course lower-division foundation."
+  },
+  {
+   "label": "Directing (lower-division foundation)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "FILM 72",
+    "VIS 72"
+   ],
+   "note": "FILM 72 and VIS 72 are equivalent cross-listings; take one."
+  },
+  {
+   "label": "Editing (lower-division foundation)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "FILM 73",
+    "VIS 73"
+   ],
+   "note": "FILM 73 and VIS 73 are equivalent cross-listings; take one."
+  },
+  {
+   "label": "Film History (lower-division foundation)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 84"
+   ],
+   "note": "Required. VIS 84 Film History."
+  },
+  {
+   "label": "Lower-Division Electives (choose 3)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "COMM 10",
+    "COMM 20",
+    "COMM 30",
+    "HILD 14",
+    "TDGE 10",
+    "TDGE 11",
+    "TDGE 12",
+    "TDTR 20",
+    "VIS 6",
+    "VIS 7",
+    "VIS 70N",
+    "VIS 84B"
+   ],
+   "note": "Choose three from this list. All confirmed lower-division on the catalog page."
+  },
+  {
+   "label": "Studies and History Courses (choose 5)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "CGS 119",
+    "LTCS 119",
+    "COMM 103D",
+    "COMM 106F",
+    "COMM 107",
+    "COMM 118A",
+    "COMM 118T",
+    "COMM 135",
+    "COMM 137",
+    "COMM 139",
+    "COMM 140",
+    "COMM 141",
+    "COMM 142",
+    "COMM 143",
+    "COMM 149",
+    "ETHN 101",
+    "ETHN 101TV",
+    "ETHN 143",
+    "ETHN 163F",
+    "TDGE 131",
+    "HIEA 154",
+    "HIUS 122",
+    "LTAF 120",
+    "LTAF 120GS",
+    "LTCS 172",
+    "LTCS 172GS",
+    "LTEA 120A",
+    "LTEA 120B",
+    "LTEA 120C",
+    "LTEA 138",
+    "LTEA 142",
+    "LTSP 180",
+    "LTWL 157",
+    "LTWL 180",
+    "LTWL 180GS",
+    "LTWL 181",
+    "LTWL 183",
+    "LTWL 184",
+    "PHIL 184",
+    "RELI 150",
+    "SOCI 105",
+    "SOCI 150",
+    "SOCI 172",
+    "SOCI 184",
+    "SOCI 187",
+    "TDGE 124",
+    "TDGE 125",
+    "TDGE 127",
+    "TDTR 120",
+    "USP 164",
+    "VIS 150",
+    "VIS 150A",
+    "VIS 151",
+    "VIS 151A",
+    "VIS 152",
+    "VIS 152D",
+    "VIS 155",
+    "VIS 156",
+    "VIS 157",
+    "VIS 157D",
+    "VIS 194S"
+   ],
+   "note": "Choose five. Several entries are cross-listings (e.g. CGS 119/LTCS 119, ETHN 163F/TDGE 131, LTAF 120/120GS, LTCS 172/172GS, LTWL 180/180GS). Subject-code families and division confirmed against the catalog; all are upper-division (100+)."
+  },
+  {
+   "label": "Screenwriting Production Course (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTWR 110",
+    "LTWR 110C",
+    "LTWR 110W",
+    "TDPW 104",
+    "VIS 177"
+   ],
+   "note": "Of the 4 required production courses, one must be a screenwriting course. All five options confirmed on the catalog page. Counts as 1 of the 4 production courses."
+  },
+  {
+   "label": "Production Courses (choose 3 additional)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "COMM 101",
+    "COMM 101T",
+    "VIS 174",
+    "COMM 101D",
+    "COMM 101K",
+    "COMM 101N",
+    "VIS 175",
+    "VIS 178",
+    "FILM 179",
+    "VIS 173",
+    "FILM 180",
+    "VIS 180",
+    "TDGE 126",
+    "VIS 172",
+    "FILM 182",
+    "VIS 183",
+    "TDAC 110",
+    "VIS 171",
+    "VIS 176"
+   ],
+   "note": "Choose 4 production courses total, one being screenwriting (separate bucket); these are the remaining 3 across the General, Editing/Sound, Animation, and Shooting/Staging groups. All codes verified. Cross-listings shown as separate codes: FILM 179/VIS 173, FILM 180/VIS 180, FILM 182/VIS 183."
+  },
+  {
+   "label": "Upper-Division Elective (1 course)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "FILM 100-199",
+    "VIS 100-199",
+    "COMM 100-199"
+   ],
+   "note": "One additional 4+ unit upper-division course from the studies/history list, production list, or independent study. Open elective; entries are representative subject/number ranges, not specific catalog codes."
+  },
+  {
+   "label": "Practicum",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "FILM 170"
+   ],
+   "note": "Required. FILM 170 Cinematic Arts Practicum. Verified on catalog."
+  },
+  {
+   "label": "Capstone",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "FILM 185"
+   ],
+   "note": "Required. FILM 185 Cinematic Arts Capstone. Catalog confirms FILM 185 (not CINE 185)."
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "program": {
+  "major": "Data Science",
+  "degree": "B.S.",
+  "department": "Data Science"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog.ucsd.edu/curric/DSC-ug.html and datascience.ucsd.edu/current-students/major-requirements/. Major totals 112 units: 52 lower-division + 60 upper-division. Offered by the Halicioglu Data Science Institute (HDSI). Courses with '/R' suffixes (e.g., DSC 10R) are equivalent remote-section versions. One correction from harvest: the EDA/statistics requirement is 'MATH 189 or DSC 152' (choose one), not MATH 189 alone. All other buckets corroborated. Prerequisites for all courses must be satisfied.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/DSC-ug.html",
+  "https://datascience.ucsd.edu/current-students/major-requirements/",
+  "https://datascience.ucsd.edu/academics/undergraduate/"
+ ],
+ "buckets": [
+  {
+   "label": "Data Science lower-division core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "COGS 9",
+    "DSC 10",
+    "DSC 20",
+    "DSC 30",
+    "DSC 40A",
+    "DSC 40B",
+    "DSC 80"
+   ],
+   "note": "All seven required (28 units). DSC 10/20/30/40A/40B/80 also have equivalent '/R' versions."
+  },
+  {
+   "label": "Linear algebra",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 18",
+    "MATH 31AH"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Calculus I (MATH 20A)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20A"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Calculus II (MATH 20B)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20B"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Calculus III / Honors calculus",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 20C",
+    "MATH 31BH"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Subject domain two-course sequence",
+   "division": "lower",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "ECON 1",
+    "ECON 3",
+    "COGS 14A",
+    "COGS 14B",
+    "BILD 1",
+    "BILD 3",
+    "POLI 5",
+    "POLI 5D",
+    "ECON 5",
+    "POLI 30",
+    "POLI 30D",
+    "SOCI 60",
+    "USP 4"
+   ],
+   "note": "Choose ONE matched two-course sequence (8 units): Business Analytics & Econometrics = ECON 1 + ECON 3; Machine Learning & AI = COGS 14A + COGS 14B; Science = BILD 1 + BILD 3; Social Sciences I = (POLI 5 or POLI 5D or ECON 5) + (POLI 30 or POLI 30D); Social Sciences II = SOCI 60 + USP 4. Courses must come from the same sequence."
+  },
+  {
+   "label": "Upper-division probability/statistics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECON 120A",
+    "MATH 183",
+    "MATH 181A"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Exploratory data analysis (MATH 189 or DSC 152)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 189",
+    "DSC 152"
+   ],
+   "note": "Choose one. Corrected: DSC 152 added as an equivalent alternative per the HDSI major requirements page."
+  },
+  {
+   "label": "DSC upper-division core (100, 102, 106)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "DSC 100",
+    "DSC 102",
+    "DSC 106"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Machine learning I",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "DSC 140A",
+    "CSE 150A"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Machine learning II",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "DSC 140B",
+    "CSE 151A"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Recommender systems / advanced ML",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "DSC 148",
+    "CSE 158",
+    "CSE 158R"
+   ],
+   "note": "Choose one."
+  },
+  {
+   "label": "Senior capstone project",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "DSC 180A",
+    "DSC 180B"
+   ],
+   "note": "Both required (8 units), taken as a two-quarter sequence."
+  },
+  {
+   "label": "Upper-division electives",
+   "division": "upper",
+   "kind": "units",
+   "needed": 20,
+   "courses": [
+    "DSC 100-196",
+    "BICD 100",
+    "BIEB 174",
+    "COGS 108",
+    "COGS 109",
+    "COGS 118C",
+    "COGS 118D",
+    "COGS 120",
+    "COGS 121",
+    "COGS 180",
+    "COGS 181",
+    "COGS 189",
+    "COMM 106I",
+    "CSE 106",
+    "CSE 151B",
+    "CSE 152A",
+    "CSE 152B",
+    "CSE 156",
+    "CSE 166",
+    "CSE 180",
+    "ECON 120B",
+    "ECON 120C",
+    "ESYS 103",
+    "LIGN 167",
+    "MAE 124",
+    "MATH 152",
+    "MATH 173A",
+    "MATH 173B",
+    "MATH 180A",
+    "MATH 180B",
+    "MATH 180C",
+    "MATH 181A",
+    "MATH 181B",
+    "MATH 181C",
+    "MATH 181D",
+    "MATH 181E",
+    "MATH 181F",
+    "MATH 194",
+    "MGT 103",
+    "MGT 153",
+    "PHIL 174",
+    "POLI 117",
+    "POLI 170A",
+    "POLI 171",
+    "POLI 172",
+    "POLI 173",
+    "PSYC 106",
+    "SIO 109",
+    "SIO 132",
+    "SOCI 102",
+    "SOCI 103M",
+    "SOCI 108",
+    "SOCI 109",
+    "SOCI 109M",
+    "SOCI 136",
+    "SOCI 165",
+    "SOCI 171",
+    "USP 122",
+    "USP 125",
+    "USP 138",
+    "USP 153",
+    "USP 172",
+    "USP 175",
+    "USP 180"
+   ],
+   "note": "20 units from approved upper-division courses. Includes any upper-division DSC course not used for core (DSC 100-196, excluding DSC 197/198/199) plus the listed cross-department options, corroborated against the HDSI major-requirements elective tracks (Science, Social Sciences, Business Analytics/Econometrics, Machine Learning/AI). Up to 8 units may be petitioned from other upper-division courses aligned with the student's subject domain. All prerequisites must be met."
+  }
+ ]
+}

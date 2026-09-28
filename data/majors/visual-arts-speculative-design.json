@@ -1,0 +1,158 @@
+{
+ "program": {
+  "major": "Speculative Design",
+  "degree": "B.A.",
+  "department": "Visual Arts"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "UCSD General Catalog major code VA30. Letter grade, C- or better required; two-thirds residency at UCSD. Lower division: 6 courses. Upper division: intermediate 6 (incl. required VIS 135), history/theory 2, advanced electives 3, plus required Design Master Studio VIS 190 (8 units). Courses cannot overlap between intermediate and advanced sections. VIS 103A-D captured as range. VERIFIED against catalog requirements page; VIS 190 Design Master Studio confirmed real via courses.ucsd.edu.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/VIS-ug.html",
+  "https://visarts.ucsd.edu/undergrad/major-req/index.html",
+  "https://catalog.ucsd.edu/courses/VIS.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required lower-division core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "VIS 11",
+    "VIS 30",
+    "VIS 41"
+   ],
+   "note": "All required: VIS 11, VIS 30 (Intro to Speculative Design), VIS 41 (Design Communication)."
+  },
+  {
+   "label": "Lower-division breadth electives",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 1",
+    "VIS 2",
+    "VIS 3",
+    "VIS 42",
+    "VIS 60",
+    "VIS 70N",
+    "VIS 80",
+    "COGS 10",
+    "USP 1",
+    "USP 2",
+    "USP 3"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "Lower-division history",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 10",
+    "VIS 22",
+    "VIS 22R",
+    "VIS 31",
+    "VIS 32"
+   ],
+   "note": "Choose 1. VIS 22/22R counts once."
+  },
+  {
+   "label": "Intermediate: required methods",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 135"
+   ],
+   "note": "Required: VIS 135 (Collaborative Research, Methodologies, and Management)."
+  },
+  {
+   "label": "Intermediate: lecture courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "VIS 100",
+    "VIS 101",
+    "VIS 102",
+    "VIS 133",
+    "VIS 134",
+    "VIS 142",
+    "VIS 163"
+   ],
+   "note": "Choose 3."
+  },
+  {
+   "label": "Intermediate: studio courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 100A",
+    "VIS 101A",
+    "VIS 133A",
+    "VIS 136A",
+    "VIS 161",
+    "VIS 162"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "History and Theory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 103",
+    "VIS 103A",
+    "VIS 103B",
+    "VIS 103C",
+    "VIS 103D",
+    "VIS 159"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "Advanced electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "VIS 100A",
+    "VIS 101A",
+    "VIS 133A",
+    "VIS 136A",
+    "VIS 141A",
+    "VIS 141B",
+    "VIS 143A",
+    "VIS 143B",
+    "VIS 145A",
+    "VIS 145B",
+    "VIS 146A",
+    "VIS 146B",
+    "VIS 147A",
+    "VIS 147B",
+    "VIS 149",
+    "VIS 161",
+    "VIS 162",
+    "VIS 174",
+    "VIS 178"
+   ],
+   "note": "Choose 3. Cannot overlap with courses used for intermediate section."
+  },
+  {
+   "label": "Design Master Studio (required)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 190"
+   ],
+   "note": "Required: VIS 190 (Design Master Studio), 8 units."
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "program": {
+  "major": "Economics",
+  "degree": "B.S.",
+  "department": "Economics"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog.ucsd.edu/curric/ECON-ug.html. All major courses (including electives) must be passed with C- or better; minimum 2.0 major GPA. B.S. adds ECON 5, a full three-quarter intermediate micro sequence (100A-B-C), and requires at least two electives from an advanced list. Total 15 courses minimum.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ECON-ug.html",
+  "https://economics.ucsd.edu/undergraduate-program/major-minor-requirements/economics-major-ba.html",
+  "https://economics.ucsd.edu/undergraduate-program/major-minor-requirements/BusEcon.html",
+  "https://math.ucsd.edu/students/undergraduate/ma33-joint-major-in-math-econ"
+ ],
+ "buckets": [
+  {
+   "label": "Calculus sequence (complete one full sequence)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 10C",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C"
+   ],
+   "note": "Complete either MATH 10A-B-C or MATH 20A-B-C (20-series recommended). Do not mix sequences."
+  },
+  {
+   "label": "Principles of Economics and Data Analytics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECON 1",
+    "ECON 3",
+    "ECON 5"
+   ],
+   "note": "ECON 1, ECON 3, and ECON 5 (data analytics for the social sciences; ECON 5 = POLI 5), all required."
+  },
+  {
+   "label": "Intermediate Microeconomics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECON 100A",
+    "ECON 100B",
+    "ECON 100C"
+   ],
+   "note": "Full three-quarter sequence for the B.S."
+  },
+  {
+   "label": "Macroeconomics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ECON 110A",
+    "ECON 110B"
+   ]
+  },
+  {
+   "label": "Econometrics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECON 120A",
+    "ECON 120B",
+    "ECON 120C"
+   ]
+  },
+  {
+   "label": "Upper-division economics electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "ECON 100-199"
+   ],
+   "note": "Five additional upper-division economics electives, at least two of which must come from the advanced electives list: ECON 101, 103, 105, 106, 109, 111, 112, 113, 117, 121, 122, 125, 129, 134, 136, 137, 141, 142, 143, 146, 150, 151, 152, 171, 172, 173, 174, 176, 178, 182, 183, 190, or MATH 194. Advanced list verified against catalog."
+  }
+ ]
+}

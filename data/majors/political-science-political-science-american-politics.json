@@ -1,0 +1,128 @@
+{
+ "program": {
+  "major": "Political Science / American Politics",
+  "degree": "B.A.",
+  "department": "Political Science"
+ },
+ "catalogYear": "catalog.ucsd.edu (current)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Specialization verified against the catalog. Upper-division total = POLI 30 + 5 American courses + 7 additional upper-division POLI (POLI 30 numerically lower).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/POLI-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required intro: American Politics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 10",
+    "POLI 10D"
+   ],
+   "note": "POLI 10 (American Politics) required."
+  },
+  {
+   "label": "Additional lower-division intro (choose 2)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 11",
+    "POLI 11D",
+    "POLI 12",
+    "POLI 12D",
+    "POLI 13",
+    "POLI 13D"
+   ],
+   "note": "Two more from the remaining intro subfields."
+  },
+  {
+   "label": "Political Inquiry / Methods (POLI 30)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 30",
+    "POLI 30D"
+   ],
+   "note": "Required methods course; numerically lower-division though catalog lists it with upper requirements."
+  },
+  {
+   "label": "American core courses (at least 2)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 100A",
+    "POLI 100B",
+    "POLI 100C",
+    "POLI 100DA",
+    "POLI 100E",
+    "POLI 100F",
+    "POLI 100G",
+    "POLI 100H",
+    "POLI 100J",
+    "POLI 100K",
+    "POLI 100M",
+    "POLI 100N",
+    "POLI 100O",
+    "POLI 100Q",
+    "POLI 100V",
+    "POLI 100W",
+    "POLI 100X",
+    "POLI 100Y",
+    "POLI 100Z"
+   ],
+   "note": "At least 2 of the 5 required American courses must come from this 100-level core list."
+  },
+  {
+   "label": "American courses (remainder to total 5)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "POLI 101E",
+    "POLI 102C",
+    "POLI 102D",
+    "POLI 102E",
+    "POLI 102F",
+    "POLI 102G",
+    "POLI 102J",
+    "POLI 102K",
+    "POLI 102L",
+    "POLI 103A",
+    "POLI 103B",
+    "POLI 103C",
+    "POLI 104A",
+    "POLI 104B",
+    "POLI 104C",
+    "POLI 104D",
+    "POLI 104F",
+    "POLI 104G",
+    "POLI 104I",
+    "POLI 104L",
+    "POLI 104M",
+    "POLI 104N",
+    "POLI 104P",
+    "POLI 104T",
+    "POLI 104U",
+    "POLI 105A",
+    "POLI 105B",
+    "POLI 108"
+   ],
+   "note": "5 American courses total; the remaining courses (beyond the 2 core) may come from this list or the core list."
+  },
+  {
+   "label": "Additional upper-division Political Science",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "POLI 100-199"
+   ],
+   "note": "7 additional upper-division POLI courses."
+  }
+ ]
+}

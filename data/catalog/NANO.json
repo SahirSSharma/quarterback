@@ -1,0 +1,1872 @@
+{
+ "page": "NANO",
+ "name": "Chemical and NanoEngineering",
+ "courses": [
+  {
+   "code": "CENG 4",
+   "subject": "CENG",
+   "num": "4",
+   "title": "Experience Chemical Engineering",
+   "units": "1",
+   "level": null,
+   "description": "Hands-on, team-based laboratory activities to demonstrate modern applications of chemical engineering, and the role of the chemical engineer in academia and industry. Emphasis on teamwork, safe laboratory practices, and student-directed problem solving. (P/NP grading only; for incoming CENG first-year students and transfers. CENG 4 is mandatory.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CENG 15",
+   "subject": "CENG",
+   "num": "15",
+   "title": "Engineering Computation Using MATLAB",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to solution of engineering problems using computational methods. Formulating problem statements, selecting algorithms, writing computer programs, and analyzing output using MATLAB. Computational problems from NanoEngineering, chemical engineering, and materials science are introduced. The course requires no prior programming skills. Cross-listed with NANO 15. Students may only receive credit for one of the following: CENG 15, CENG 15R, NANO 15, or NANO 15R.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CENG 15R",
+   "subject": "CENG",
+   "num": "15R",
+   "title": "Engineering Computation Using MATLAB Online",
+   "units": "4",
+   "level": null,
+   "description": "(Cross-listed with NANO 15R.) Introduction to solution of engineering problems using computational methods. Formulating problem statements, selecting algorithms, writing computer programs, and analyzing output using MATLAB. Computational problems from NanoEngineering, chemical engineering, and materials science are introduced. This is a fully online, self-paced course that utilizes multi-platform instructional techniques (video, text, and instructional coding environments). The course requires no prior programming skills. Students may only receive credit for one of the following: CENG 15R, CENG 15R, NANO 15R, or NANO 15R.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CENG 100",
+   "subject": "CENG",
+   "num": "100",
+   "title": "Material and Energy Balances",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to steady and time-dependent material and energy balances using a variety of problem-solving strategies. Concepts include degrees-of-freedom analysis, unit operations, multiunit systems, chemical reaction kinetics and equilibrium, and phase equilibrium.",
+   "prereqText": "CENG 4 and CHEM 6B or CHEM 6BH. Students may not receive credit for both CENG 100 and CENG 110.",
+   "prereqs": [
+    [
+     "CENG 4"
+    ],
+    [
+     "CHEM 6B",
+     "CHEM 6BH"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 101A",
+   "subject": "CENG",
+   "num": "101A",
+   "title": "Introductory Fluid Mechanics",
+   "units": "4",
+   "level": null,
+   "description": "Kinematics and equation of motion; hydrostatics; Bernoulli\u2019s equation; viscous flows; turbulence, pipe flow; boundary layers and drag in external flows; applications to chemical, structural, and bioengineering. Students may not receive credit for both MAE 101A and CENG 101A.",
+   "prereqText": "admission to the major and grades of C\u2013 or better in PHYS 2A, MATH 20D, and MATH 20E, or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 101B",
+   "subject": "CENG",
+   "num": "101B",
+   "title": "Heat Transfer",
+   "units": "4",
+   "level": null,
+   "description": "Conduction, convection, radiation heat transfer; design of heat exchangers. Students may not receive credit for both MAE 101C and CENG 101B.",
+   "prereqText": "admission to the major and a grade of C\u2013 or better in CENG 101A.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 101C",
+   "subject": "CENG",
+   "num": "101C",
+   "title": "Mass Transfer",
+   "units": "4",
+   "level": null,
+   "description": "Diffusive and convective mass transfer in solids, liquids, and gases; steady and unsteady state; mass transfer coefficients; applications to chemical engineering and bioengineering.",
+   "prereqText": "admission to the major and grade of C\u2013 or better in CENG 101A.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 102",
+   "subject": "CENG",
+   "num": "102",
+   "title": "Chemical Engineering Thermodynamics",
+   "units": "4",
+   "level": null,
+   "description": "Thermodynamic behavior of pure substances and mixtures. Properties of solutions, phase equilibria. Thermodynamic cycles. Chemical equilibria for homogeneous and heterogeneous systems.",
+   "prereqText": "CENG 100, CHEM 6C, and MATH 20C.",
+   "prereqs": [
+    [
+     "CENG 100"
+    ],
+    [
+     "CHEM 6C"
+    ],
+    [
+     "MATH 20C"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 110",
+   "subject": "CENG",
+   "num": "110",
+   "title": "Material and Energy Balances with Applications",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to steady and time-dependent material and energy balances using a variety of problem-solving strategies and laboratory experiments. Concepts include degrees-of-freedom analysis, unit operations, multi-unit systems, chemical reaction kinetics and equilibrium, and phase equilibrium.",
+   "prereqText": "CENG 4 and CHEM 6B or CHEM 6BH. Students may not receive credit for both CENG 100 and CENG 110.",
+   "prereqs": [
+    [
+     "CENG 4"
+    ],
+    [
+     "CHEM 6B",
+     "CHEM 6BH"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 113",
+   "subject": "CENG",
+   "num": "113",
+   "title": "Chemical Reaction Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Principles of chemical reactor analysis and design. Experimental determination of rate equations, design of batch and continuous reactors, optimization of selectivity in multiple reactions, consideration of thermal effects and residence time distribution. Introduction to multi-phase reactors.",
+   "prereqText": "CENG 15, CENG 100 and MATH 20D.",
+   "prereqs": [
+    [
+     "CENG 15"
+    ],
+    [
+     "CENG 100"
+    ],
+    [
+     "MATH 20D"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 114",
+   "subject": "CENG",
+   "num": "114",
+   "title": "Probability and Statistical Methods for Engineers",
+   "units": "4",
+   "level": null,
+   "description": "Probability theory, conditional probability, Bayes theorem, discrete random variables, continuous random variables, expectation and variance, central limit theorem, graphical and numerical presentation of data, least squares estimation and regression, confidence intervals, testing hypotheses. Cross-listed with NANO 114. Students may not receive credit for both CENG 114 and NANO 114.",
+   "prereqText": "MATH 20F or MATH 18, and CENG 15 or MAE 8 or NANO 15.",
+   "prereqs": [
+    [
+     "MATH 20F",
+     "MATH 18"
+    ],
+    [
+     "CENG 15",
+     "MAE 8",
+     "NANO 15"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 120",
+   "subject": "CENG",
+   "num": "120",
+   "title": "Chemical Process Dynamics and Control",
+   "units": "4",
+   "level": null,
+   "description": "Examination of dynamic linear and linearized models of chemical processes. Stability analysis. Design of PID controllers. Selection of control and manipulated variables. Root locus, Bode, and Nyquist plots. Cascade, feed-forward and ratio controls.",
+   "prereqText": "admission to the major; CENG 15 or MAE 8 or NANO 15, and CENG 100, CENG 101B, CENG 113, and MATH 20D. Restricted to majors CE 25, NA 25, MC 25, MC 27, MC 28, MC 29.",
+   "prereqs": [
+    [
+     "CENG 15",
+     "MAE 8",
+     "NANO 15"
+    ],
+    [
+     "CENG 100"
+    ],
+    [
+     "CENG 101B"
+    ],
+    [
+     "CENG 113"
+    ],
+    [
+     "MATH 20D"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 122",
+   "subject": "CENG",
+   "num": "122",
+   "title": "Separation Processes",
+   "units": "4",
+   "level": null,
+   "description": "Principles of analysis and design of systems for separation of components from a mixture. Topics will include staged operations (distillation, liquid-liquid extraction), and continuous operations (gas absorption, membrane separation) under equilibrium and nonequilibrium conditions.",
+   "prereqText": "admission to the major and grades of C\u2013 or better in CENG 100, CENG 102, and CENG 101C.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 124A",
+   "subject": "CENG",
+   "num": "124A",
+   "title": "Chemical Plant and Process Design I",
+   "units": "4",
+   "level": null,
+   "description": "Principles of chemical process design and economics. Process flow diagrams and cost estimation. Computer-aided design and analysis. Representation of the structure of complex, interconnected chemical processes with recycle streams. Ethics and professionalism. Health, safety, and the environmental issues.",
+   "prereqText": "admission to chemical engineering major and grades of C\u2013 or better in CENG 113 and CENG 122, or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 124B",
+   "subject": "CENG",
+   "num": "124B",
+   "title": "Chemical Plant and Process Design II",
+   "units": "4",
+   "level": null,
+   "description": "Engineering and economic analysis of integrated chemical processes, equipment, and systems. Cost estimation, heat and mass transfer equipment design and costs. Comprehensive integrated plant design. Optimal design. Profitability.",
+   "prereqText": "admission to chemical engineering major and grade of C\u2013 or better in CENG 124A.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 134",
+   "subject": "CENG",
+   "num": "134",
+   "title": "Polymeric Materials",
+   "units": "4",
+   "level": null,
+   "description": "Foundations of polymeric materials. Topics: structure of polymers; mechanisms of polymer synthesis; characterization methods using calorimetric, mechanical, rheological, and X-ray-based techniques; and electronic, mechanical, and thermodynamic properties. Special classes of polymers: engineering plastics, semiconducting polymers, photoresists, and polymers for medicine. Cross-listed with NANO 134 and CHEM 134. Students may only receive credit for one of the following: CENG 134, CHEM 134, NANO 134.",
+   "prereqText": "CHEM 6C and PHYS 2C.",
+   "prereqs": [
+    [
+     "CHEM 6C"
+    ],
+    [
+     "PHYS 2C"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 157",
+   "subject": "CENG",
+   "num": "157",
+   "title": "Process Technology in the Semiconductor Industry",
+   "units": "4",
+   "level": null,
+   "description": "Brief introduction to solid-state materials and devices. Crystal growth and purification. Thin film technology. Application of chemical processing to the manufacture of semiconductor devices. Topics to be covered: physics of solids, unit operations of solid state materials (bulk crystal growth, oxidation, vacuum science, chemical and physical vapor deposition, epitaxy, doping, etching).",
+   "prereqText": "CENG 101A, CENG 101B, and CENG 101C.",
+   "prereqs": [
+    [
+     "CENG 101A"
+    ],
+    [
+     "CENG 101B"
+    ],
+    [
+     "CENG 101C"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 160",
+   "subject": "CENG",
+   "num": "160",
+   "title": "Introduction to Biochemical Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to biochemical engineering. Topics include biological macromolecules, enzyme kinetics, cell metabolism, protein synthesis, recombinant DNA technology, bioreactor design, and bioproduct recovery.",
+   "prereqText": "CENG 100. Students may not receive credit for both CENG 160 and CENG 260.",
+   "prereqs": [
+    [
+     "CENG 100"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 170",
+   "subject": "CENG",
+   "num": "170",
+   "title": "Experimental Methods for Chemical Engineers",
+   "units": "4",
+   "level": null,
+   "description": "Principles and practice of measurement and control, design and conduct of experiments, and technical report writing. Specific topics include dimensional analysis, error analysis, data acquisition and data reduction, as well as background of experiments and statistical analysis. Program or materials fees may apply. Restricted to NanoEngineering majors.",
+   "prereqText": "CENG 100 and CENG 102.",
+   "prereqs": [
+    [
+     "CENG 100"
+    ],
+    [
+     "CENG 102"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 175",
+   "subject": "CENG",
+   "num": "175",
+   "title": "NanoEngineering in Medicine",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to nanomedicine. Topics include nanoscale material, biological system vs. synthetic vs. bio-inspired systems, drug and gene delivery, molecular imaging, vaccines, immunoengineering, pharmacology, clinical application in cancer, cardiovascular disease, infectious disease, immune diseases, genetic disorders, skin diseases, and regenerative medicine. Cross-listed with NANO 175. Students may not receive credit for both CENG 175 and NANO 175.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 176A",
+   "subject": "CENG",
+   "num": "176A",
+   "title": "Chemical Engineering Process Laboratory I",
+   "units": "4",
+   "level": null,
+   "description": "Laboratory projects in the areas of applied chemical research and unit operations. Emphasis on applications of engineering concepts and fundamentals to solution of practical and research problems.",
+   "prereqText": "CENG 113, CENG 122, and CENG 170 or consent of instructor.",
+   "prereqs": [
+    [
+     "CENG 113"
+    ],
+    [
+     "CENG 122"
+    ],
+    [
+     "CENG 170"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 176B",
+   "subject": "CENG",
+   "num": "176B",
+   "title": "Chemical Engineering Process Laboratory II",
+   "units": "4",
+   "level": null,
+   "description": "Training in planning research projects, execution of experimental work, and articulation (both oral and written) of the research plan and results in the areas of applied chemical technology and engineering operations related to mass, momentum, and heat transfer.",
+   "prereqText": "CENG 176A.",
+   "prereqs": [
+    [
+     "CENG 176A"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 199",
+   "subject": "CENG",
+   "num": "199",
+   "title": "Independent Study for Undergraduates",
+   "units": "4\u20134",
+   "level": null,
+   "description": "Research project as equivalent to a \u201csenior thesis\u201d can be approved for two technical elective courses (eight units total). This course is taken as an elective on a P/NP basis. It must be done in consecutive quarters and the student must find a faculty member who will oversee the research project. Eligible students must have completed at least ninety units and must have a UC San Diego cumulative GPA of 3.0 or better. Detailed policy and procedures may be obtained from the Student Affairs Office.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 205",
+   "subject": "CENG",
+   "num": "205",
+   "title": "Graduate Seminar in Chemical and Nano Engineering",
+   "units": "1",
+   "level": null,
+   "description": "Each graduate student in chemical or nano engineering is expected to attend a weekly seminar dealing with current topics in nano and chemical engineering. Topics will vary. Cross-listed with NANO 200. S/U grades only. May be taken for credit up to four times.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 207",
+   "subject": "CENG",
+   "num": "207",
+   "title": "Nanomedicine",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to nanomedicine; diffusion and drug dispersion; diffusion in biological systems; drug permeation through biological barriers; drug transport by fluid motion; pharmacokinetics of drug distribution; drug delivery systems; nanomedicine in practice: cancers, cardiovascular diseases, immune diseases, and skin diseases. Cross-listed with NANO 243. Students may not receive credit for both CENG 207 and NANO 243.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CENG 208",
+   "subject": "CENG",
+   "num": "208",
+   "title": "Nanofabrication",
+   "units": "4",
+   "level": null,
+   "description": "Basic engineering principles of nanofabrication. Topics include photo, electron beam, and nanoimprint lithography, block copolymers and self-assembled monolayers, colloidal assembly, biological nanofabrication. Cross-listed with NANO 208. Students may not receive credit for both CENG 208 and NANO 208.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CENG 210A",
+   "subject": "CENG",
+   "num": "210A",
+   "title": "Fluid Mechanics I",
+   "units": "4",
+   "level": null,
+   "description": "Advanced subject in fluid and continuum mechanics. Content will cover macroscopic balances for linear and angular momentum, kinematics, the stress tenor, Navier-Stokes equations for Newtonian fluids, viscous and creeping flows and the lubrication approximation, inertial (inviscid) and irrotational flows, generalization of Bernoulli\u2019s equation, the boundary layer approximation, and electrokinetic phenomena.",
+   "prereqText": "department approval required, CENG 101A or consent of instructor.",
+   "prereqs": [
+    [
+     "CENG 101A"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 211",
+   "subject": "CENG",
+   "num": "211",
+   "title": "Introduction to NanoEngineering",
+   "units": "4",
+   "level": null,
+   "description": "Understanding nanotechnology, broad implications; miniaturization: scaling laws; nanoscale physics; types and properties of nanomaterials; nanomechanical oscillators, nano(bio)electronics, nanoscale heat transfer; fluids at nanoscale; machinery cell; applications of nanobiotechnology and nanobiotechnology. Cross-listed with NANO 201. Students may not receive credit for both CENG 211 and NANO 201.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 212",
+   "subject": "CENG",
+   "num": "212",
+   "title": "Intermolecular and Surface Forces",
+   "units": "4",
+   "level": null,
+   "description": "Development of quantitative understanding of the different intermolecular forces between atoms and molecules and how these forces give rise to interesting phenomena at the nanoscale, such as flocculation, wetting, and self-assembly in biological (natural) and synthetic systems. Cross-listed with NANO 202. Students may not receive credit for both CENG 212 and NANO 202.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CENG 213",
+   "subject": "CENG",
+   "num": "213",
+   "title": "Nanoscale Characterization",
+   "units": "4",
+   "level": null,
+   "description": "Examination of nanoscale characterization approaches including imaging, scattering, and spectroscopic techniques and their physical operating mechanisms. Microscopy (optical and electron: SEM, TEM); scattering and diffraction; spectroscopies (EDX, SIMS, mass spec, Raman, XPS, XAS); scanning probe microscopes (SPM, AFM); particle size analysis. Cross-listed with NANO 203. Students may not receive credit for both CENG 213 and NANO 203.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 214",
+   "subject": "CENG",
+   "num": "214",
+   "title": "Nanoscale Physics and Modeling",
+   "units": "4",
+   "level": null,
+   "description": "Expanded mathematical analysis of topics introduced in CENG 212. Introduction of both analytical and numerical methods through application to problems in NanoEngineering. Nanoscale systems of interest include colloidal systems, block-copolymer based self-assembled materials, molecular motors made out of DNA, RNA, or proteins, etc. Nanoscale phenomena including self-assembly at the nanoscale, phase separation within confined spaces, diffusion through nanopores and nanoslits, etc. Modeling techniques include quantum mechanics, diffusion and kinetics theories, molecular dynamics, etc. Cross-listed with NANO 204. Students may not receive credit for both CENG 214 and NANO 204.",
+   "prereqText": "CENG 212 or consent of instructor.",
+   "prereqs": [
+    [
+     "CENG 212"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 215",
+   "subject": "CENG",
+   "num": "215",
+   "title": "Nanosystems Integration",
+   "units": "4",
+   "level": null,
+   "description": "Discussion of scaling issues and how to carry out the effective hierarchical assembly of diverse molecular and nanoscale components into higher order structures that retain the desired electronic/photonic, structural, mechanical, or catalytic properties at the microscale and macroscale levels. Novel ways to combine the best aspects of both top-down and bottom-up processes to create a totally unique paradigm change for the integration of heterogeneous molecules and nanocomponents into higher order structures. Cross-listed with NANO 205. Students may not receive credit for both CENG 215 and NANO 205.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CENG 221A",
+   "subject": "CENG",
+   "num": "221A",
+   "title": "Heat Transfer",
+   "units": "4",
+   "level": null,
+   "description": "Conduction, convection, and radiation heat transfer development of energy conservation equations. Analytical and numerical solutions to heat transport problems. Specific topics and applications vary.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 221B",
+   "subject": "CENG",
+   "num": "221B",
+   "title": "Mass Transfer",
+   "units": "4",
+   "level": null,
+   "description": "Fundamentals of diffusive and convective mass transfer and mass transfer with chemical reaction. Development of mass conservation equations. Analytical and numerical solutions to mass transport problems. Specific topics and applications will vary.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 230",
+   "subject": "CENG",
+   "num": "230",
+   "title": "Synchrotron Characterization of Nanomaterials",
+   "units": "4",
+   "level": null,
+   "description": "Advanced topics in characterizing nanomaterials using synchrotron X-ray sources. Introduction to synchrotron sources, X-ray interaction with matter, spectroscopic determination of electronic properties of nanomagnetic, structural determination using scattering techniques and X-ray imaging techniques. Cross-listed with NANO 230. Students may not receive credit for both CENG 230 and NANO 230.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 251",
+   "subject": "CENG",
+   "num": "251",
+   "title": "Thermodynamics",
+   "units": "4",
+   "level": null,
+   "description": "Principles of thermodynamics of single and multicomponent systems. Phase equilibria. Estimation, calculation, and correlation of properties of liquids and gases.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 252",
+   "subject": "CENG",
+   "num": "252",
+   "title": "Chemical Reaction Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Analysis of chemical rate processes; complex kinetic systems. Chemical reactor properties in steady state and transient operations; optimal design policies. The interaction of chemical and physical transport processes in affecting reactor design and operating characteristics. Uniqueness/multiplicity and stability in reactor systems. Applications of the heterogeneous reactor systems.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 253",
+   "subject": "CENG",
+   "num": "253",
+   "title": "Heterogeneous Catalysis",
+   "units": "4",
+   "level": null,
+   "description": "Physics and chemistry of heterogeneous catalysis. Adsorption/desorption kinetics, chemical bonding, isotherms, kinetic models, selection of catalysts, poisoning, experimental techniques. Cross-listed with NANO 259. Students may not receive credit for both CENG 253 and NANO 259.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 254",
+   "subject": "CENG",
+   "num": "254",
+   "title": "Biochemical Engineering Fundamentals",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to microbiology as relevant to the main topic, biological reactor analysis. Fermentation and enzyme technology.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 255",
+   "subject": "CENG",
+   "num": "255",
+   "title": "Electrochemical Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Fundamentals of electrochemistry and electrochemical engineering. Structure of the double layer, cell potential and electrochemical thermodynamics, charge transfer kinetics, electrochemical transport phenomena, and introduction to colloidal chemistry. Applications such as corrosion prevention, electroplating, reactor design, batteries, and fuel cells.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 256",
+   "subject": "CENG",
+   "num": "256",
+   "title": "Biomaterials and Biomimetics",
+   "units": "4",
+   "level": null,
+   "description": "Fundamentals of materials science as applied to bioengineering design. Hierarchical structures. Cells and tissues. Natural and synthetic polymeric materials. Biomineralized materials. Biological composites. Cellular materials (foams). Functional biological materials. Biomaterials and implants. Bioinspired design and materials. Cross-listed with NANO 252 and MATS 255. Students may not receive credit for both CENG 256 and NANO 252 and MATS 255.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 257",
+   "subject": "CENG",
+   "num": "257",
+   "title": "Process Technology in the Semiconductor Industry",
+   "units": "4",
+   "level": null,
+   "description": "Brief introduction to solid-state materials and devices. Crystal growth and purification. Thin film technology. Application of chemical processing to the manufacture of semiconductor devices. Topics to be covered: physics of solids, unit operations of solid-state materials (bulk crystal growth, oxidation, vacuum science, chemical and physical vapor deposition, epitaxy, doping, etching).",
+   "prereqText": "graduate standing. Open to chemical engineering and NanoEngineering majors.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 260",
+   "subject": "CENG",
+   "num": "260",
+   "title": "Introduction to Biochemical Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to biochemical engineering. Topics include biological macromolecules, enzyme kinetics, cell metabolism, protein synthesis, recombinant DNA technology, bioreactor design, and bioproduct recovery.",
+   "prereqText": "department approval will ensure students have taken CENG 100 or an equivalent undergraduate-level material and energy balances course. Students may not receive credit for both CENG 160 and CENG 260.",
+   "prereqs": [
+    [
+     "CENG 100"
+    ]
+   ]
+  },
+  {
+   "code": "CENG 273",
+   "subject": "CENG",
+   "num": "273",
+   "title": "Principles of Immune Engineering",
+   "units": "4",
+   "level": null,
+   "description": "The course will emphasize the principles underlying the development of engineering tools to quantitatively measure complex information about the immune system that has fueled or inspired strategies for manufacturing immune cells, developing analytical methods for measuring immunity, and developing immunotherapies. Cross-listed with NANO 273. Students may not receive credit for CENG 273 and NANO 273.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 296",
+   "subject": "CENG",
+   "num": "296",
+   "title": "Independent Study in Chemical Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Independent reading or research on a problem as arranged by a faculty member. Must be taken for a letter grade only.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 297",
+   "subject": "CENG",
+   "num": "297",
+   "title": "Directed Group Study",
+   "units": "1\u20134",
+   "level": null,
+   "description": "Directed group study on a topic or in a field not included in regular department curriculum, but special arrangement with a faculty member. May be taken up to seven times for credit.",
+   "prereqText": "consent of instructor, graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 299",
+   "subject": "CENG",
+   "num": "299",
+   "title": "Graduate Research in Chemical Engineering",
+   "units": "1\u201312",
+   "level": null,
+   "description": "S/U grades only.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "CENG 501",
+   "subject": "CENG",
+   "num": "501",
+   "title": "Teaching Experience",
+   "units": "2",
+   "level": null,
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "NANO 4",
+   "subject": "NANO",
+   "num": "4",
+   "title": "Experience NanoEngineering",
+   "units": "1",
+   "level": null,
+   "description": "Introduction to NanoEngineering lab-based skills. Hands-on training and experimentation with nanofabrication techniques, integration, and analytical tools. This class is for NANO majors who are incoming first-year students, to be taken their first year. P/NP grades only.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 11",
+   "subject": "NANO",
+   "num": "11",
+   "title": "Introduction to NanoEngineering",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to NanoEngineering, including fundamental scaling laws, and an overview of nanomaterials synthesis, properties, and relevant technological applications with focus in the area of nanomedicine, energy, and advanced materials.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "NANO 15",
+   "subject": "NANO",
+   "num": "15",
+   "title": "Engineering Computation Using MATLAB",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to the solution of engineering problems using computational methods. Formulating problem statements, selecting algorithms, writing computer programs, and analyzing output using MATLAB. Computational problems from NanoEngineering, chemical engineering, and materials science are introduced. The course requires no prior programming skills. Cross-listed with CENG 15. Students may only receive credit for one of the following: NANO 15, NANO 15R, CENG 15, or CENG 15R.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "NANO 15R",
+   "subject": "NANO",
+   "num": "15R",
+   "title": "Engineering Computation Using MATLAB Online",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to solution of engineering problems using computational methods. Formulating problem statements, selecting algorithms, writing computer programs, and analyzing output using MATLAB. Computational problems from NanoEngineering, chemical engineering, and materials science are introduced. This is a fully online, self-paced course that utilizes multi-platform instructional techniques (video, text, and instructional coding environments). The course requires no prior programming skills. Cross-listed with CENG 15R. Students may only receive credit for one of the following: NANO 15, NANO 15R, CENG 15, or CENG 15R.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "NANO 20L",
+   "subject": "NANO",
+   "num": "20L",
+   "title": "Introduction to Nanomaterials Synthesis Lab",
+   "units": "1",
+   "level": null,
+   "description": "Lab-based course to introduce the chemical synthesis of nanomaterials. Hands-on training in chemical synthesis and basic characterization tools. Program or materials fees may apply.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "NANO 100L",
+   "subject": "NANO",
+   "num": "100L",
+   "title": "Physical Properties of Materials Lab",
+   "units": "4",
+   "level": null,
+   "description": "Experimental investigation of physical properties of materials such as: thermal expansion coefficient, thermal conductivity, glass transitions in polymers, resonant vibrational response, longitudinal and shear acoustic wave speeds, Curie temperatures, UV-VIS absorption and reflection.",
+   "prereqText": "NANO 108.",
+   "prereqs": [
+    [
+     "NANO 108"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 102",
+   "subject": "NANO",
+   "num": "102",
+   "title": "Foundations in NanoEngineering: Chemical Principles",
+   "units": "4",
+   "level": null,
+   "description": "Chemical and biochemical principles tailored to nanotechnologies. Chemical interactions, classical and statistical thermodynamics of small systems, diffusion, carbon-based nanomaterials, supramolecular chemistry, colloid and polymer chemistry, lipid vesicles, surface functionalization, catalysis, biomolecular interactions, and signal pathways. Priority enrollment given to NanoEngineering majors.",
+   "prereqText": "CHEM 6C. Restricted to NanoEngineering majors or by department approval.",
+   "prereqs": [
+    [
+     "CHEM 6C"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 103",
+   "subject": "NANO",
+   "num": "103",
+   "title": "Foundations in NanoEngineering: Biochemical Principles",
+   "units": "4",
+   "level": null,
+   "description": "Principles of biochemistry tailored to nanotechnologies. The structure and function of biomolecules and their specific roles in molecular interactions and signal pathways. Detection methods at the micro and nano scales.",
+   "prereqText": "BILD 1, CHEM 6C or CHEM 6CH, NANO 11 and NANO 102. Priority given to NA25 majors.",
+   "prereqs": [
+    [
+     "BILD 1"
+    ],
+    [
+     "CHEM 6C",
+     "CHEM 6CH"
+    ],
+    [
+     "NANO 11"
+    ],
+    [
+     "NANO 102"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 104",
+   "subject": "NANO",
+   "num": "104",
+   "title": "Foundations in NanoEngineering: Physical Principles",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to quantum mechanics and nanoelectronics. Wave mechanics, the Schr\u00f6dinger equation, free and confined electrons, band theory of solids. Nanosolids in 0D, 1D, and 2D. Application to nanoelectronic devices. Priority enrollment given to NanoEngineering majors.",
+   "prereqText": "MATH 20D and NANO 11. Priority given to NA25 majors.",
+   "prereqs": [
+    [
+     "MATH 20D"
+    ],
+    [
+     "NANO 11"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 106",
+   "subject": "NANO",
+   "num": "106",
+   "title": "Crystallography of Materials",
+   "units": "4",
+   "level": null,
+   "description": "Fundamentals of crystallography, and practice of methods to study material structure and symmetry. Curie symmetries. Tensors as mathematical description of material properties and symmetry restrictions. Introduction to diffraction methods, including X-ray, neutron, and electron diffraction. Close-packed and other common structures of real-world materials. Derivative and superlattice structures.",
+   "prereqText": "MATH 20F or MATH 18.",
+   "prereqs": [
+    [
+     "MATH 20F",
+     "MATH 18"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 107",
+   "subject": "NANO",
+   "num": "107",
+   "title": "Electronic Devices and Circuits for NanoEngineers",
+   "units": "4",
+   "level": null,
+   "description": "Overview of electrical devices and CMOS integrated circuits emphasizing fabrication processes, and scaling behavior. Design, and simulation of submicron CMOS circuits including amplifiers active filters digital logic, and memory circuits. Limitations of current technologies and possible impact of nanoelectronic technologies.",
+   "prereqText": "NANO 15, NANO 11, MATH 20B or MATH 20D, and PHYS 2B.",
+   "prereqs": [
+    [
+     "NANO 15"
+    ],
+    [
+     "NANO 11"
+    ],
+    [
+     "MATH 20B",
+     "MATH 20D"
+    ],
+    [
+     "PHYS 2B"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 108",
+   "subject": "NANO",
+   "num": "108",
+   "title": "Materials Science and Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Structure and control of materials: metals, ceramics, glasses, semiconductors, polymers to produce useful properties. Atomic structures. Defects in materials, phase diagrams, micro structural control. Mechanical, rheological, electrical, optical and magnetic properties discussed. Time temperature transformation diagrams. Diffusion. Scale dependent material properties.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 110",
+   "subject": "NANO",
+   "num": "110",
+   "title": "Molecular Modeling of Nanoscale Systems",
+   "units": "4",
+   "level": null,
+   "description": "Principles and applications of molecular modeling and simulations toward NanoEngineering. Topics covered include molecular mechanics, energy minimization, statistical mechanics, molecular dynamics simulations, and Monte Carlo simulations. Students will get hands-on training in running simulations and analyzing simulation results.",
+   "prereqText": "MATH 20F or MATH 18, NANO 102, NANO 104, and NANO 15 or CENG 15 or MAE 8. Restricted to NanoEngineering majors or by department approval.",
+   "prereqs": [
+    [
+     "MATH 20F",
+     "MATH 18"
+    ],
+    [
+     "NANO 102"
+    ],
+    [
+     "NANO 104"
+    ],
+    [
+     "NANO 15",
+     "CENG 15",
+     "MAE 8"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 111",
+   "subject": "NANO",
+   "num": "111",
+   "title": "Characterization of NanoEngineering Systems",
+   "units": "4",
+   "level": null,
+   "description": "Fundamentals and hands-on practice of methods to image, measure, and analyze materials and devices that are structured on the nanometer scale. Optical and electron microscopy; scanning probe methods; photon, ion, and electron probe methods; spectroscopic, magnetic, electrochemical, and thermal methods.",
+   "prereqText": "NANO 102.",
+   "prereqs": [
+    [
+     "NANO 102"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 112",
+   "subject": "NANO",
+   "num": "112",
+   "title": "Synthesis and Fabrication of NanoEngineering Systems",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to methods for fabricating materials and devices in NanoEngineering. Nano-particle, -vesicle, -tube, and -wire synthesis. Top-down methods including chemical vapor deposition, conventional and advanced lithography, doping, and etching. Bottom-up methods including self-assembly. Integration of heterogeneous structures into functioning devices.",
+   "prereqText": "NANO 102 and NANO 104.",
+   "prereqs": [
+    [
+     "NANO 102"
+    ],
+    [
+     "NANO 104"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 114",
+   "subject": "NANO",
+   "num": "114",
+   "title": "Probability and Statistical Methods for Engineers",
+   "units": "4",
+   "level": null,
+   "description": "Probability theory, conditional probability, Bayes theorem, discrete random variables, continuous random variables, expectation and variance, central limit theorem, graphical and numerical presentation of data, least squares estimation and regression, confidence intervals, testing hypotheses. Cross-listed with CENG 114. Students may not receive credit for both NANO 114 and CENG 114.",
+   "prereqText": "MATH 20F or MATH 18 and NANO 15 or CENG 15 or MAE 8.",
+   "prereqs": [
+    [
+     "MATH 20F",
+     "MATH 18"
+    ],
+    [
+     "NANO 15",
+     "CENG 15",
+     "MAE 8"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 115L",
+   "subject": "NANO",
+   "num": "115L",
+   "title": "Nanoengineering Laboratory",
+   "units": "4",
+   "level": null,
+   "description": "Laboratory experiments in the design, production, and integration of nanoscale components. Emphasis will be on solution phase synthesis, microfabrication tools, analytical characterization, and nanodevice fabrication. Program or materials fees may apply.",
+   "prereqText": "NANO 111.",
+   "prereqs": [
+    [
+     "NANO 111"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 117",
+   "subject": "NANO",
+   "num": "117",
+   "title": "Multiscale Transport",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to basic transport phenomena relevant to nanoscale and general materials systems, including engineering units and pressure, heat conduction and convection, momentum transport and laminar flow, and diffusion in solids and fluids.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 119",
+   "subject": "NANO",
+   "num": "119",
+   "title": "NanoEngineering System Design Seminar",
+   "units": "1",
+   "level": null,
+   "description": "Seminar series focused on strategies in system design and solving engineering problems.",
+   "prereqText": "NANO 115L.",
+   "prereqs": [
+    [
+     "NANO 115L"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 120A",
+   "subject": "NANO",
+   "num": "120A",
+   "title": "NanoEngineering System Design I",
+   "units": "4",
+   "level": null,
+   "description": "Principles of product design and the design process. Application and integration of technologies in the design and production of nanoscale components. Engineering economics. Initiation of team design projects to be completed in NANO 120B.",
+   "prereqText": "NANO 110.",
+   "prereqs": [
+    [
+     "NANO 110"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 120B",
+   "subject": "NANO",
+   "num": "120B",
+   "title": "NanoEngineering System Design II",
+   "units": "4",
+   "level": null,
+   "description": "Principles of product quality assurance in design and production. Professional ethics. Safety and design for the environment. Culmination of team design projects initiated in NANO 120A with a working prototype designed for a real engineering application.",
+   "prereqText": "NANO 120A.",
+   "prereqs": [
+    [
+     "NANO 120A"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 134",
+   "subject": "NANO",
+   "num": "134",
+   "title": "Polymeric Materials",
+   "units": "4",
+   "level": null,
+   "description": "Foundations of polymeric materials. Topics: structure of polymers; mechanisms of polymer synthesis; characterization methods using calorimetric, mechanical, rheological, and X-ray-based techniques; and electronic, mechanical, and thermodynamic properties. Special classes of polymers: engineering plastics, semiconducting polymers, photoresists, and polymers for medicine. Cross-listed with CENG 134 and CHEM 134. Students may only receive credit for one of the following: CENG 134, CHEM 134, NANO 134.",
+   "prereqText": "CHEM 6C and PHYS 2C.",
+   "prereqs": [
+    [
+     "CHEM 6C"
+    ],
+    [
+     "PHYS 2C"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 141A",
+   "subject": "NANO",
+   "num": "141A",
+   "title": "Engineering Mechanics I: Analysis of Equilibrium",
+   "units": "4",
+   "level": null,
+   "description": "Newton\u2019s laws. Concepts of force and moment vector. Free body diagrams. Internal and external forces. Equilibrium of concurrent, coplanar, and three-dimensional system of forces. Equilibrium analysis of structural systems, including beams, trusses, and frames. Equilibrium problems with friction.",
+   "prereqText": "MATH 20C and PHYS 2A.",
+   "prereqs": [
+    [
+     "MATH 20C"
+    ],
+    [
+     "PHYS 2A"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 141B",
+   "subject": "NANO",
+   "num": "141B",
+   "title": "Engineering Mechanics II: Analysis of Motion",
+   "units": "4",
+   "level": null,
+   "description": "Newton\u2019s laws of motion. Kinematic and kinetic \u200bdescription of particle motion. Angular momentum. Energy and work principles. Motion of the system of interconnected particles. Mass center. Degrees of freedom. Equations of planar motion of rigid bodies. Energy methods. Lagrange\u2019s equations of motion. Introduction to vibration. Free and forced vibrations of a single degree of freedom system. Undamped and damped vibrations. Application to NanoEngineering problems.",
+   "prereqText": "MATH 20D and NANO 141A.",
+   "prereqs": [
+    [
+     "MATH 20D"
+    ],
+    [
+     "NANO 141A"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 146",
+   "subject": "NANO",
+   "num": "146",
+   "title": "Nanoscale Optical Microscopy and Spectroscopy",
+   "units": "4",
+   "level": null,
+   "description": "Fundamentals in optical imaging and spectroscopy at the nanometer scale. Diffraction-limited techniques, near-field methods, multi-photon imaging and spectroscopy, Raman techniques, Plasmon-enhanced methods, scan-probe techniques, novel sub-diffraction-limit imaging techniques, and energy transfer methods.",
+   "prereqText": "NANO 104.",
+   "prereqs": [
+    [
+     "NANO 104"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 148",
+   "subject": "NANO",
+   "num": "148",
+   "title": "Thermodynamics of Materials",
+   "units": "4",
+   "level": null,
+   "description": "Fundamental laws of thermodynamics for simple substances; application to flow processes and to nonreacting mixtures; statistical thermodynamics of ideal gases and crystalline solids; chemical and materials thermodynamics; multiphase and multicomponent equilibria in reacting systems; electrochemistry.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 150",
+   "subject": "NANO",
+   "num": "150",
+   "title": "Mechanics of Nanomaterials",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to mechanics of rigid and deformable bodies. Continuum and atomistic models, interatomic forces and intermolecular interactions. Nanomechanics, material defects, elasticity, plasticity, creep, and fracture. Composite materials, nanomaterials, biological materials.",
+   "prereqText": "NANO 108.",
+   "prereqs": [
+    [
+     "NANO 108"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 156",
+   "subject": "NANO",
+   "num": "156",
+   "title": "Modern Concepts in Nanotechnology",
+   "units": "4",
+   "level": null,
+   "description": "This course offers a worm\u2019s eye perspective on recent developments on nanomaterials through case studies building on basic principles of synthesis techniques, processing, microstructural control, and unique physical properties of materials in nanoscale dimensions. Particular focus will be given to physical properties and technological applications of nanowires, quantum dots, and thin films. Cross-listed with MAE 166. Students may not receive credit for both NANO 156 and MAE 166.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 158",
+   "subject": "NANO",
+   "num": "158",
+   "title": "Phase Transformations and Kinetics",
+   "units": "4",
+   "level": null,
+   "description": "Materials and microstructures changes. Understanding of diffusion to enable changes in the chemical distribution and microstructure of materials, rates of diffusion. Phase transformations, effects of temperature and driving force on transformations and microstructure.",
+   "prereqText": "NANO 108 and NANO 148.",
+   "prereqs": [
+    [
+     "NANO 108"
+    ],
+    [
+     "NANO 148"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 158L",
+   "subject": "NANO",
+   "num": "158L",
+   "title": "Materials Processing Laboratory",
+   "units": "4",
+   "level": null,
+   "description": "Metal casting processes, solidification, deformation processing, thermal processing: solutionizing, aging, and tempering, joining processes such as welding and brazing. The effect of processing route on microstructure and its effect on mechanical and physical properties will be explored. NanoEngineering majors have priority enrollment.",
+   "prereqText": "NANO 158.",
+   "prereqs": [
+    [
+     "NANO 158"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 159",
+   "subject": "NANO",
+   "num": "159",
+   "title": "Electrochemistry: Fundamentals and Applications",
+   "units": "4",
+   "level": null,
+   "description": "Introduce fundamentals of electrochemical processes and electrode reactions to the principles of electrochemical techniques, instrumental requirements, and their diverse real-life applications in the energy, environmental, and diagnostics areas.",
+   "prereqText": "CHEM 6A or 6AH, CHEM 6B or 6BH, CHEM 6C or 6CH, CHEM 7L or 7LM.",
+   "prereqs": [
+    [
+     "CHEM 6A",
+     "CHEM 6AH"
+    ],
+    [
+     "CHEM 6B",
+     "CHEM 6BH"
+    ],
+    [
+     "CHEM 6C",
+     "CHEM 6CH"
+    ],
+    [
+     "CHEM 7L",
+     "CHEM 7LM"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 161",
+   "subject": "NANO",
+   "num": "161",
+   "title": "Material Selection in Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Selection of materials for engineering systems, based on constitutive analyses of functional requirements and material properties. The role and implications of processing on material selection. Optimizing material selection in a quantitative methodology. Priority enrollment given to NanoEngineering majors.",
+   "prereqText": "NANO 108. Department approval required. Restricted to major code NA25 or by department approval.",
+   "prereqs": [
+    [
+     "NANO 108"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 164",
+   "subject": "NANO",
+   "num": "164",
+   "title": "Advanced Micro- and Nano-materials for Energy Storage and Conversion",
+   "units": "4",
+   "level": null,
+   "description": "Materials for energy storage and conversion in existing and future power systems, including fuel cells and batteries, photovoltaic cells, thermoelectric cells, and hybrids.",
+   "prereqText": "NANO 11, NANO 102, and upper-division standing.",
+   "prereqs": [
+    [
+     "NANO 11"
+    ],
+    [
+     "NANO 102"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 168",
+   "subject": "NANO",
+   "num": "168",
+   "title": "Electrical, Dielectric, and Magnetic Properties of Engineering Materials",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to physical principles of electrical, dielectric, and magnetic properties. Semiconductors, control of defects, thin film, and nanocrystal growth, electronic and optoelectronic devices. Processing-microstructure-property relations of dielectric materials, including piezoelectric, pyroelectric and ferroelectric, and magnetic materials.",
+   "prereqText": "NANO 102 and NANO 104.",
+   "prereqs": [
+    [
+     "NANO 102"
+    ],
+    [
+     "NANO 104"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 174",
+   "subject": "NANO",
+   "num": "174",
+   "title": "Mechanical Behavior of Materials",
+   "units": "4",
+   "level": null,
+   "description": "Microscopic and macroscopic aspects of the mechanical behavior of engineering materials, with emphasis on recent development in materials characterization by mechanical methods. The fundamental aspects of plasticity in engineering materials, strengthening mechanisms, and mechanical failure modes of materials systems.",
+   "prereqText": "NANO 108.",
+   "prereqs": [
+    [
+     "NANO 108"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 174L",
+   "subject": "NANO",
+   "num": "174L",
+   "title": "Mechanical Behavior Laboratory",
+   "units": "4",
+   "level": null,
+   "description": "Experimental investigation of mechanical behavior of engineering materials. Laboratory exercises emphasize the fundamental relationship between microstructure and mechanical properties, and the evolution of the microstructure as a consequence of rate process.",
+   "prereqText": "NANO 174.",
+   "prereqs": [
+    [
+     "NANO 174"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 175",
+   "subject": "NANO",
+   "num": "175",
+   "title": "NanoEngineering in Medicine",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to nanomedicine. Topics include nanoscale material, biological systems vs. synthetic vs. bio-inspired systems, drug and gene delivery, molecular imaging, vaccines, immunoengineering, pharmacology, clinical application in cancer, cardiovascular disease, infectious disease, immune diseases, genetic disorders, skin diseases, and regenerative medicine. Students will not receive credit for both NANO 175 and CENG 175.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 181",
+   "subject": "NANO",
+   "num": "181",
+   "title": "Data Science in Materials Science",
+   "units": "4",
+   "level": null,
+   "description": "Comprehensive introduction into the application of data science to materials science. Introduction to broad array of machine learning techniques (e.g., supervised, unsupervised, etc.) and applications (e.g., regression, dimensionality reduction, classification), with a focus on practical examples in materials science.",
+   "prereqText": "NANO 114 or CENG 114. Students may not receive credit for both NANO 181 and NANO 181R.",
+   "prereqs": [
+    [
+     "NANO 114",
+     "CENG 114"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 181R",
+   "subject": "NANO",
+   "num": "181R",
+   "title": "Data Science in Materials Science Online",
+   "units": "4",
+   "level": null,
+   "description": "Comprehensive introduction into the application of data science to materials science. Introduction to broad array of machine learning techniques (e.g., supervised, unsupervised, etc.) and applications (e.g., regression, dimensionality reduction, classification), with a focus on practical examples in materials science. This is a fully online, self-paced course that utilizes multi-platform instructional techniques (video, text, and instructional coding environments). Students may not receive credit for both NANO 181R and NANO 181.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "NANO 199",
+   "subject": "NANO",
+   "num": "199",
+   "title": "Independent Study for Undergraduates",
+   "units": "4\u20134",
+   "level": null,
+   "description": "Research project as equivalent to a \u201csenior thesis\u201d can be approved for two NanoEngineering elective courses (eight units total). This course is taken as an elective on a P/NP basis. It must be done in consecutive quarters and the student must find a faculty member who will oversee the research project. Eligible students must have completed at least ninety units and must have a UC San Diego cumulative GPA of 3.0 or better. Detailed policy and procedures may be obtained from the Student Affairs Office.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 200",
+   "subject": "NANO",
+   "num": "200",
+   "title": "Graduate Seminar in Chemical and Nano Engineering",
+   "units": "1",
+   "level": null,
+   "description": "Each graduate student in chemical or nano engineering is expected to attend a weekly seminar dealing with current topics in nano and chemical engineering. Topics will vary. Cross-listed with CENG 205. S/U grades only. May be taken for credit up to four times.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 201",
+   "subject": "NANO",
+   "num": "201",
+   "title": "Introduction to NanoEngineering",
+   "units": "4",
+   "level": null,
+   "description": "Understanding nanotechnology, broad implications, miniaturization: scaling laws; nanoscale physics; types and properties of nanomaterials; nanomechanical oscillators, nano(bio)electronics, nanoscale heat transfer; fluids at the nanoscale; machinery cell; applications of nanotechnology and nanobiotechnology. Students may not receive credit for both NANO 201 and CENG 211.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 202",
+   "subject": "NANO",
+   "num": "202",
+   "title": "Intermolecular and Surface Forces",
+   "units": "4",
+   "level": null,
+   "description": "Development of quantitative understanding of the different intermolecular forces between atoms and molecules and how these forces give rise to interesting phenomena at the nanoscale, such as flocculation, wetting, self-assembly in biological (natural) and synthetic systems. Cross-listed with CENG 212. Students may not receive credit for both NANO 202 and CENG 212.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 203",
+   "subject": "NANO",
+   "num": "203",
+   "title": "Nanoscale Characterization",
+   "units": "4",
+   "level": null,
+   "description": "Examination of nanoscale characterization approaches including imaging, scattering, and spectroscopic techniques and their physical operating mechanisms. Microscopy (optical and electron: SEM, TEM); scattering and diffraction; spectroscopies (EDX, SIMS, mass spec, Raman, XPS, XAS); scanning probe microscopes (SPM, AFM); particle size analysis. Cross-listed with CENG 213. Students may not receive credit for both NANO 203 and CENG 213.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 204",
+   "subject": "NANO",
+   "num": "204",
+   "title": "Nanoscale Physics and Modeling",
+   "units": "4",
+   "level": null,
+   "description": "This course will introduce students to analytical and numerical methods such as statistical mechanisms, molecular simulations, and finite differences and finite element modeling through their application to NanoEngineering problems involving polymer and colloid self-assembly, absorption, phase separation, and diffusion. Cross-listed with CENG 214. Students may not receive credit for both NANO 204 and CENG 214.",
+   "prereqText": "NANO 202 or consent of instructor.",
+   "prereqs": [
+    [
+     "NANO 202"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 205",
+   "subject": "NANO",
+   "num": "205",
+   "title": "Nanosystems Integration",
+   "units": "4",
+   "level": null,
+   "description": "Scaling issues and hierarchical assembly of nanoscale components into higher order structures which retain desired properties at microscale and macroscale levels. Novel ways to combine top-down and bottom-up processes for integration of heterogeneous components into higher order structures. Cross-listed with CENG 215. Students may not receive credit for both NANO 205 and CENG 215.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 206",
+   "subject": "NANO",
+   "num": "206",
+   "title": "Nanomanufacturing",
+   "units": "4",
+   "level": null,
+   "description": "Fundamental nanomanufacturing science and engineering, top-down nanomanufacturing processes, bottom-up nanomanufacturing processes, integrated top-down and bottom-up nanofabrication processes, three-dimensional nanomanufacturing, nanomanufacturing systems, nanometrology, nanomanufactured devices for medicine, life sciences, energy, and defense applications.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "NANO 208",
+   "subject": "NANO",
+   "num": "208",
+   "title": "Nanofabrication",
+   "units": "4",
+   "level": null,
+   "description": "Basic engineering principles of nanofabrication. Topics include photo-electronbeam and nanoimprint lithography, block copolymers and self-assembled monolayers, colloidal assembly, biological nanofabrication. Cross-listed with CENG 208. Students may not receive credit for both NANO 208 and CENG 208.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 210",
+   "subject": "NANO",
+   "num": "210",
+   "title": "Molecular Modeling and Simulations of Nanoscale Systems",
+   "units": "4",
+   "level": null,
+   "description": "Molecular and modeling and simulation techniques like molecular dynamics, Monte Carlo, and Brownian dynamics to model nanoscale systems and phenomena like molecular motors, self-assembly, protein-ligand binding, RNA, folding. Valuable hands-on experience with different simulators.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 212",
+   "subject": "NANO",
+   "num": "212",
+   "title": "Computational Modeling of Nanosystems",
+   "units": "4",
+   "level": null,
+   "description": "Various modeling techniques like finite elements, finite differences, and simulation techniques like molecular dynamics and Monte Carlo to model fluid flow, mechanical properties, self-assembly at the nanoscale, and protein, RNA and DNA folding.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 227",
+   "subject": "NANO",
+   "num": "227",
+   "title": "Structure and Analysis of Solids",
+   "units": "4",
+   "level": null,
+   "description": "Key concepts in the atomic structure and bonding of solids such as metals, ceramics, and semiconductors. Symmetry operations, point groups, lattice types, space groups, simple and complex inorganic compounds, structure/property comparisons, structure determination with X-ray diffraction. Ionic, covalent, metallic bonding compared with physical properties. Atomic and molecular orbitals, bands verses bonds, free electron theory. Cross-listed with MATS 227, MAE 251 and CHEM 222. Students may only receive credit for one of the following: CHEM 222, MAE 251, MATS 227, or NANO 227.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 230",
+   "subject": "NANO",
+   "num": "230",
+   "title": "Synchrotron Characterization of Nanomaterials",
+   "units": "4",
+   "level": null,
+   "description": "Advanced topics in characterizing nanomaterials using synchrotron X-ray sources. Introduction to synchrotron sources, X-ray interaction with matter, spectroscopic determination of electronic properties of nanomagnetic, structural determination using scattering techniques and X-ray imaging techniques. Cross-listed with CENG 230. Students may not receive credit for both NANO 230 and CENG 230.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 234",
+   "subject": "NANO",
+   "num": "234",
+   "title": "Advanced Nanoscale Fabrication",
+   "units": "4",
+   "level": null,
+   "description": "Engineering principles of nanofabrication. Topics include photo-, electron beam, and nanoimprint lithography, block copolymers and self-assembled monolayers, colloidal assembly, biological nanofabrication. Relevance to applications in energy, electronics, and medicine will be discussed.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 238",
+   "subject": "NANO",
+   "num": "238",
+   "title": "Scanning Probe Microscopy",
+   "units": "4",
+   "level": null,
+   "description": "Scanning electron microscopy (SEM) detectors, imaging, image interpretation, and artifacts, introduction to lenses, electron beam-specimen interactions. Operating principles and capabilities for atomic force microscopy and scanning tunneling microscopy, scanning optical microscopy and scanning transmission electron microscopy.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 241",
+   "subject": "NANO",
+   "num": "241",
+   "title": "Organic Nanomaterials",
+   "units": "4",
+   "level": null,
+   "description": "This course will provide an introduction to the physics and chemistry of soft matter, followed by a literature-based critical examination of several ubiquitous classes of organic nano materials and their technological applications. Topics include self-assembled monolayers, block copolymers, liquid crystals, photoresists, organic electronic materials, micelles and vesicles, soft lithography, organic colloids, organic nano composites, and applications in biomedicine and food science. Cross-listed with CHEM 241.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 242",
+   "subject": "NANO",
+   "num": "242",
+   "title": "Biochemistry and Molecular Biology",
+   "units": "4",
+   "level": null,
+   "description": "Course is designed to give NanoEngineering students from a variety of backgrounds a working knowledge of biochemistry and molecular biology. While the course offers biochemistry basics and key themes in molecular biology, it will emphasize the role of engineering innovations.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 243",
+   "subject": "NANO",
+   "num": "243",
+   "title": "Nanomedicine",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to nanomedicine; diffusion and drug dispersion; diffusion in biological systems; drug permeation through biological barriers; drug transport by fluid motion; pharmacokinetics of drug distribution; drug delivery systems; nanomedicine in practice: cancers, cardiovascular diseases, immune diseases, and skin diseases. Cross-listed with CENG 207. Students may not receive credit for both NANO 243 and CENG 207.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 244",
+   "subject": "NANO",
+   "num": "244",
+   "title": "Nanomachines and Nanorobots",
+   "units": "4",
+   "level": null,
+   "description": "The structure and operational principles of different nature biomotors will be discussed. Related bio-inspired efforts aimed at developing artificial nanomotors will also be covered, along with the prospects of using biomotors and synthetic nanomotors in engineering environments.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 245",
+   "subject": "NANO",
+   "num": "245",
+   "title": "Nanoelectronics",
+   "units": "4",
+   "level": null,
+   "description": "An introduction to the nano electronics and nanospintronics; fundamentals of semiconductors; electronic band structure theory, electron transport in semiconductors and nano structures, nano devices.",
+   "prereqText": "NANO 201.",
+   "prereqs": [
+    [
+     "NANO 201"
+    ]
+   ]
+  },
+  {
+   "code": "NANO 247A",
+   "subject": "NANO",
+   "num": "247A",
+   "title": "Advanced BioPhotonics",
+   "units": "4",
+   "level": null,
+   "description": "Basic physics and chemistry of interaction of photons with matter; photonic radiation pressure; advanced optoelectronic detection systems, devices, methods, time-resolved fluorescent, chemiluminescent methods, fluorescent energy transfer techniques, quantum dots, near-field optical techniques, mechanisms of light sensitive biological systems including chloroplasts for photosynthetic energy conversion and basis of vision processes. Cross-listed with BENG 247A and ECE 247A.",
+   "prereqText": "consent of instructor and graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 247B",
+   "subject": "NANO",
+   "num": "247B",
+   "title": "BioElectronics",
+   "units": "4",
+   "level": null,
+   "description": "Topics include photolithographic techniques for high-density DNA microarray production, incorporation of CMOS control into electronic DNA microarrays, direct electronic detection technology, bio-fuel cells, highly integrated devices (lab-on-a-chip, in vivo biosensors, etc.) Form heterogeneous materials and components. Cross-listed with BENG 247B and ECE 247B.",
+   "prereqText": "consent of instructor and graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 247C",
+   "subject": "NANO",
+   "num": "247C",
+   "title": "BioNanotechnology",
+   "units": "4",
+   "level": null,
+   "description": "Bionanotechnology is defined as science and engineering that involves working with biomolecules on the nanoscale. DNA and protein-based nanostructures, or even entire microorganisms, are subject of study and development of nanomachines. Another avenue is the nanoscale bio-mimicry in which synthetic systems are engineered to mimic what nature has already achieved. Bionanotechnology finds utility in medicine, materials, the environment. Cross-listed with BENG 247C and ECE 247C. Students may receive credit for one of the following: NANO 247C, BENG 247C, or ECE 247C.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 250",
+   "subject": "NANO",
+   "num": "250",
+   "title": "Mechanics of Nanomaterials",
+   "units": "4",
+   "level": null,
+   "description": "Elements of continuum mechanics; quantum and statistical mechanics; interatomic forces and intermolecular interactions; thermodynamics and diffusion materials; nanomechanics of self-assembly, pattern formation, and hierarchical ordering, defects, thin films, surfaces, and interfaces; plasticity, creep, fracture, and fatigue, nanomechanics, nanorheology, and nanotribology.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 251A",
+   "subject": "NANO",
+   "num": "251A",
+   "title": "Magnetic Materials: Principles and Applications",
+   "units": "4",
+   "level": null,
+   "description": "The basis of magnetism: classical and quantum mechanical points of view. Different kinds of magnetic materials. Magnetic phenomena including anisotropy, magnetostriction, domains, and magnetization dynamics. Current frontiers of nanomagnetics research, including thin films and particles. Optical, data storage, and biomedical engineering applications of soft and hard magnetic materials. Cross-listed with ECE 221, MAE 265B, and MATS 251B. Students may not receive credit for ECE 221 and MAE 265B and MATS 251B and NANO 251A.",
+   "prereqText": "department approval required and graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 252",
+   "subject": "NANO",
+   "num": "252",
+   "title": "Biomaterials and Biomimetics",
+   "units": "4",
+   "level": null,
+   "description": "Fundamentals of materials science as applied to bioengineering design. Hierarchical structures. Cells and tissues. Natural and synthetic polymeric materials. Biomineralized materials. Biological composites. Cellular materials (foams). Functional biological materials. Biomaterials and implants. Bioinspired design and materials. Cross-listed with CENG 256. Students may not receive credit for both NANO 252 and CENG 256.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 253",
+   "subject": "NANO",
+   "num": "253",
+   "title": "Nanomaterials and Properties",
+   "units": "4",
+   "level": null,
+   "description": "This course discusses synthesis techniques, processes, microstructural control, and unique physical properties of materials in nanodimensions. Topics include nanowires, quantum dots, thin films, electrical transport, electron emission properties, optical behavior, mechanical behavior, and technical applications of nanomaterials. Cross-listed with MAE 267.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 255",
+   "subject": "NANO",
+   "num": "255",
+   "title": "Electrochemistry",
+   "units": "4",
+   "level": null,
+   "description": "Application of electrochemical techniques to chemistry research. Basic electrochemical theory and instrumentation: the diffusion equations, controlled potential, and current methods. Electrochemical kinetics, Butler-Volmer, Marcus-Hush theories, preparative electrochemistry, analytical electrochemistry, solid and polymer electrolytes, semiconductor photoelectrochemistry. Cross-listed with CHEM 240.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 256",
+   "subject": "NANO",
+   "num": "256",
+   "title": "Microfluids",
+   "units": "4",
+   "level": null,
+   "description": "This course covers the design, microfabrication, operational principles, basic transport processes and diverse applications of microfluidic and nanofluidic (lab-on-a-chip) systems.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 257",
+   "subject": "NANO",
+   "num": "257",
+   "title": "Polymer Science and Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Quantitative basic understanding of different branches of polymer science varying from polymer chemistry, characterization, thermodynamics, rheological properties, smart materials, self-assembly in biopolymers (natural) and synthetic polymers, and applications of polymers ranging from medicine to structure. Cross-listed with MATS 257/BENG 242/MAE 257. Students may receive credit for one of the following: NANO 257, MATS 257, BENG 242, or MAE 257.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 258",
+   "subject": "NANO",
+   "num": "258",
+   "title": "Nanoscale Transport Phenomenon",
+   "units": "4",
+   "level": null,
+   "description": "Various nanoscale systems where macroscopic laws of mass, heat, and momentum transfer break down; nonequilibrium statistical mechanics concepts such as transition state and Green-Kubo theories, and molecular simulations for modeling nanoscale transport issues will be introduced.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 259",
+   "subject": "NANO",
+   "num": "259",
+   "title": "Heterogeneous Catalysis",
+   "units": "4",
+   "level": null,
+   "description": "Physics and chemistry of heterogeneous catalysis; adsorption-desorption kinetics, chemical bonding, isotherms, kinetic models, selection of catalysts, poisoning, experimental techniques. Cross-listed with CENG 253. Students may not receive credit for both NANO 259 and CENG 253.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 260",
+   "subject": "NANO",
+   "num": "260",
+   "title": "Nanofabrication Reaction Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Chemical reaction kinetics coupled with material and energy transport processes for fabrication of nanostructured materials and devices. Chemical vapor deposition, etching, and patterning of films. Nanoparticle, nanofiber, and nanotube growth. Theory, simulation, and reactor design.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 261",
+   "subject": "NANO",
+   "num": "261",
+   "title": "Nanoscale Energy Technology",
+   "units": "4",
+   "level": null,
+   "description": "Examines the role nanotechnology will play in addressing the many scientific and engineering challenges for new energy production. Topics include nanotechnology\u2019s role in improving photovoltaics, fuel-cells, batteries, energy transmission, and conversion of renewable (green) and nonrenewable sources.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 262",
+   "subject": "NANO",
+   "num": "262",
+   "title": "Nanosensors",
+   "units": "4",
+   "level": null,
+   "description": "This course illustrates how the ability to tailor the properties of nanomaterials can be used for designing powerful sensing and biosensing devices. Nanosensors based on metal nanoparticles, semiconductor nanowires and nanocrystals, and carbon nanotubes will be covered.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 263",
+   "subject": "NANO",
+   "num": "263",
+   "title": "Magnetic Nanodevices",
+   "units": "4",
+   "level": null,
+   "description": "The basis of magnetism: classical and quantum mechanical points of view. Introduction to thin film and nanomagnetism, including interfacial magnetism, coupling and magneto-transport. Application of nanomagnetism in devices including magnetic recording, MRAM, magnetic processing, and biomedical engineering.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 264",
+   "subject": "NANO",
+   "num": "264",
+   "title": "Solid-State and Nanochemistry",
+   "units": "4",
+   "level": null,
+   "description": "Course covers concept in nano and solid-state chemistry for graduate students, with the objective of understanding nanomaterials from a chemical perspective. Topics include descriptive crystal chemistry, structure determination, free electron gas and dimensional solids, tight-binding approximation, band structure. Recommended preparation: Background equivalent to NANO 203.",
+   "prereqText": "department approval required and graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 265",
+   "subject": "NANO",
+   "num": "265",
+   "title": "Thermodynamics of Solids",
+   "units": "4",
+   "level": null,
+   "description": "The thermodynamics and statistical mechanics of solids. Basic concepts, equilibrium properties of alloy systems, thermodynamic information from phase diagrams, surfaces and interfaces, crystalline defects. Cross-listed with MATS 201A, MAE 271A, and ECE 238A. Students may receive credit for one of the following: NANO 265, MATS 201A, MAE 271A, ECE 238A.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 266",
+   "subject": "NANO",
+   "num": "266",
+   "title": "Quantum Mechanical Modeling of Materials and Nanostructures",
+   "units": "4",
+   "level": null,
+   "description": "Application of quantum mechanical modeling methods (both solid state and computational chemistry) in the study of materials and nanostructures; density functional theory (DFT) and approximations; Hartree-Fock and beyond HF approximations; hybrid density functional theory; beyond DFT (GW, TDDFT); ab initio molecular dynamics; materials properties (mechanical, electrochemical, electronic, transport, nano-scale effects on properties) from quantum mechanical simulations; high-throughput computation.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 267",
+   "subject": "NANO",
+   "num": "267",
+   "title": "Environmental Nanotechnology, Sustainable Nanotechnology, and Nanotoxicity",
+   "units": "4",
+   "level": null,
+   "description": "This course explores the potential impacts of nanoscience and nanotechnology on environmental processes and human health as well as the sustainable design, development, and use of nanotechnologies. The course addresses questions and issues arising from the expected increases in the development of nanotechnology-based consumer products and their potential effects on the environment. Cross-listed with CHEM 267. Students may not receive credit for CHEM 267 and NANO 267.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 268",
+   "subject": "NANO",
+   "num": "268",
+   "title": "DNA Nanotechnology",
+   "units": "4",
+   "level": null,
+   "description": "Introduction to DNA nanotechnology. Topics include basic design principles for DNA nano structures and DNA origami, DNA nano motors, computing, and the use of DNA nanotechnology in organizing other materials, nano fabrication, biosensing, and drug delivery.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 269",
+   "subject": "NANO",
+   "num": "269",
+   "title": "Engineering Solar Cells at the Nanoscale",
+   "units": "4",
+   "level": null,
+   "description": "Fundamentals of photovoltaic energy conversion; limiting efficiencies, loss mechanisms. Nanoscale effects in semiconductor, thin film, and organic photovoltaics. Emphasis on emerging nanotechnologies including nanowires, heterostructures, hybrid materials, quantum dots, transparent conducting materials, and plasmonics.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 271",
+   "subject": "NANO",
+   "num": "271",
+   "title": "Nanophotonics",
+   "units": "4",
+   "level": null,
+   "description": "This course will introduce a background in optics and photonics for nanoscale materials and devices and explore light-matter interactions on the nanoscale. Fundamentals of light absorption, emission, lasing, and waveguiding in nanoscale structures, optical resonances in metallic (plasmonic) and semiconductor (excitonic) nanomaterials.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 272",
+   "subject": "NANO",
+   "num": "272",
+   "title": "Soft Electronics",
+   "units": "4",
+   "level": null,
+   "description": "General overview of flexible/stretchable electronic devices, with a focus on the enabling nanomaterials and structures that lead to the tolerance to extreme physical deformations. Relevant nanofabrication techniques and manufacturing approaches will also be included.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 273",
+   "subject": "NANO",
+   "num": "273",
+   "title": "Principles of Immune Engineering",
+   "units": "4",
+   "level": null,
+   "description": "The course will emphasize the principles underlying the development of engineering tools to quantitatively measure complex information about the immune system that has fueled or inspired strategies for manufacturing immune cells, developing analytical methods for measuring immunity, and developing immunotherapies. Cross-listed with CENG 273. Students may not receive credit for both NANO 273 and CENG 273.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 275",
+   "subject": "NANO",
+   "num": "275",
+   "title": "Two-Dimensional Materials: Properties, Applications, and Practice",
+   "units": "4",
+   "level": null,
+   "description": "Overview of graphene and other 2-D materials fundamental properties, applications, and experimental practice. Theory covers band structure, Dirac cone, mobility, and Fermi level tuning. Applications cover electronics and optoelectronics. Lab sessions include graphene and other 2-D materials manipulation and measurement.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 279",
+   "subject": "NANO",
+   "num": "279",
+   "title": "Advanced Electrochemical Energy Engineering",
+   "units": "4",
+   "level": null,
+   "description": "Electrochemistry and electrochemical engineering for energy applications. Thermodynamics and kinetics of electrochemical reactions; fundamental principles of batteries, super capacitors, fuel cells, and electrochemical synthesis systems; electrochemical analysis of these systems, engineering design considerations, and modeling. Practical device design and fabrication will be covered in greater detail.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 280",
+   "subject": "NANO",
+   "num": "280",
+   "title": "Colloids and Nanoparticles",
+   "units": "4",
+   "level": null,
+   "description": "This course will cover fundamental concepts and laboratory techniques to study the chemical and physical properties of colloids and nanoparticles. Topics covered include colloid and surface forces, Brownian motion, aggregation, steric stabilization, optical characterization techniques, and self-assembly. Recent developments in colloids and nanotechnology will be discussed throughout the course.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 281",
+   "subject": "NANO",
+   "num": "281",
+   "title": "Data Science in Materials Science",
+   "units": "4",
+   "level": null,
+   "description": "Comprehensive introduction into the application of data science to materials science. Introduction to broad array of machine learning techniques (e.g., supervised, unsupervised) and applications (e.g., regression, dimensionality reduction, classification), with a focus on practical examples in materials science.",
+   "prereqText": "graduate standing. Students may not receive credit for both NANO 281 and NANO 281R.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 281R",
+   "subject": "NANO",
+   "num": "281R",
+   "title": "Data Science in Materials Science Online",
+   "units": "4",
+   "level": null,
+   "description": "Comprehensive introduction into the application of data science to materials science. Introduction to broad array of machine learning techniques (e.g., supervised, unsupervised, etc.) and applications (e.g., regression, dimensionality reduction, classification), with a focus on practical examples in materials science. This is a fully online, self-paced course that utilizes multi-platform instructional techniques (video, text, and instructional coding environments). Students may not receive credit for both NANO 281R and NANO 281.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "NANO 282",
+   "subject": "NANO",
+   "num": "282",
+   "title": "Professional Development",
+   "units": "4",
+   "level": null,
+   "description": "Professional development topics include navigating the virtual library, scientific writing, individual development plan, time and project management, responsible conduct of research, grant writing (NSF fellowships, NIH F grants), plagiarism, prepping a CV (r\u00e9sum\u00e9, biosketch), networking, and communication skills.",
+   "prereqText": "department approval required and graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 298",
+   "subject": "NANO",
+   "num": "298",
+   "title": "Independent Study in NanoEngineering",
+   "units": "4",
+   "level": null,
+   "description": "Independent reading or research on a problem as arranged by a faculty member. S/U grading only. Can be taken one time for credit.",
+   "prereqText": "consent of instructor and graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 299",
+   "subject": "NANO",
+   "num": "299",
+   "title": "Graduate Research in NanoEngineering",
+   "units": "1\u201312",
+   "level": null,
+   "description": "Graduate research in NanoEngineering. S/U grades only. May be taken for credit four times for a maximum of twelve units.",
+   "prereqText": "consent of instructor and graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "NANO 501",
+   "subject": "NANO",
+   "num": "501",
+   "title": "Teaching Experience",
+   "units": "3",
+   "level": null,
+   "description": "An introduction to instructional skills and strategies in an appropriate NanoEngineering course at the University California San Diego. In this course, students will have the opportunity to participate in a wide range of instructional activities tailored to their specific interests. Training includes development of course management skills, development of course material, experience with various approaches to teaching, and assessment of learning outcomes. S/U grades only. May be taken for credit up to one time.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  }
+ ]
+}

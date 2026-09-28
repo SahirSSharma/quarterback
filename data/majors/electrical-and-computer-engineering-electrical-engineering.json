@@ -1,0 +1,269 @@
+{
+ "program": {
+  "major": "Electrical Engineering",
+  "degree": "BS",
+  "department": "Electrical and Computer Engineering (ECE)"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Lower-division 68 units (shared core); upper-division 68 units via ONE depth sequence. Every depth also requires: Technical Electives (units vary by depth), Professional Electives (8 units, two upper-division), and a Design course (4 units: ECE 111, 115, 140B, 190, or 191). Programming is ECE 15 (4 units) for most depths, but ECE 15 AND (17 or 18) = 8 units for Communication Systems, Computer System Design, Machine Learning/Controls, and Signal/Image Processing depths. All depth course lists corroborated on the page.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ECE-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Electrical Engineering lower-division core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "ECE 5",
+    "ECE 25",
+    "ECE 30",
+    "ECE 35",
+    "ECE 45",
+    "ECE 65"
+   ],
+   "note": "24 units, all depths"
+  },
+  {
+   "label": "Programming (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECE 15",
+    "ECE 17",
+    "ECE 18"
+   ],
+   "note": "4 units (ECE 15) for most depths; 8 units (ECE 15 + one of 17/18) for Communication Systems, Computer System Design, ML/Controls, Signal/Image Processing depths"
+  },
+  {
+   "label": "Mathematics (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "24 units"
+  },
+  {
+   "label": "Physics (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2D",
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C",
+    "PHYS 4D",
+    "PHYS 4E"
+   ],
+   "note": "12-16 units; PHYS 2A-B-C or 4A-B-C (12u) for some depths; PHYS 2A-B-C-D or 4A-B-C-D-E (16u) for others"
+  },
+  {
+   "label": "Depth: Communication Systems (breadth + depth)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 11,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 102",
+    "ECE 107",
+    "ECE 109",
+    "ECE 153",
+    "ECE 155",
+    "ECE 157A",
+    "ECE 158A",
+    "ECE 159",
+    "ECE 161A"
+   ],
+   "note": "Breadth 20u (100,101,102,107,109) + Depth 24u (153,155,157A,158A,159,161A). Plus 12u technical electives, 8u professional electives, 4u design."
+  },
+  {
+   "label": "Depth: Computer System Design (breadth + depth)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 9,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 109",
+    "ECE 116",
+    "ECE 102",
+    "ECE 103",
+    "ECE 111",
+    "ECE 140A",
+    "ECE 140B",
+    "ECE 141A",
+    "ECE 141B",
+    "ECE 143",
+    "ECE 158A",
+    "ECE 158B",
+    "ECE 165"
+   ],
+   "note": "Breadth 16u (100,101,109,116) + Depth 20u = five of {102,103,111,140A-B,141A-B,143,158A-B,165}. Plus 20u technical electives, 8u professional electives, 4u design."
+  },
+  {
+   "label": "Depth: Electronic Circuits and Systems (breadth + depth)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 9,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 102",
+    "ECE 103",
+    "ECE 107",
+    "ECE 109",
+    "ECE 164",
+    "ECE 165",
+    "ECE 166"
+   ],
+   "note": "Breadth 24u (100,101,102,103,107,109) + Depth 12u (164,165,166). Plus 20u technical electives, 8u professional electives, 4u design."
+  },
+  {
+   "label": "Depth: Electronic Devices and Materials (breadth + depth)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 10,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 102",
+    "ECE 103",
+    "ECE 107",
+    "ECE 109",
+    "ECE 135A",
+    "ECE 135B",
+    "ECE 136L",
+    "ECE 183"
+   ],
+   "note": "Breadth 24u (100,101,102,103,107,109) + Depth 16u (135A-B,136L,183). Plus 16u technical electives, 8u professional electives, 4u design."
+  },
+  {
+   "label": "Depth: Machine Learning and Controls (breadth + depth)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 107",
+    "ECE 109",
+    "ECE 171A",
+    "ECE 174",
+    "ECE 175A",
+    "ECE 171B",
+    "ECE 172A",
+    "ECE 175B"
+   ],
+   "note": "Breadth 16u (100,101,107,109) + Depth 16u (171A,174,175A + one of {171B,172A,175B}). Plus 24u technical electives, 8u professional electives, 4u design."
+  },
+  {
+   "label": "Depth: Photonics (breadth + depth)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 9,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 103",
+    "ECE 107",
+    "ECE 109",
+    "ECE 181",
+    "ECE 182",
+    "ECE 183",
+    "ECE 184",
+    "ECE 185"
+   ],
+   "note": "Breadth 20u (100,101,103,107,109) + Depth 16u (181,182,183 + one of {184,185}). Plus 20u technical electives, 8u professional electives, 4u design."
+  },
+  {
+   "label": "Depth: Power Engineering (breadth + depth)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 11,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 102",
+    "ECE 103",
+    "ECE 107",
+    "ECE 109",
+    "ECE 121A",
+    "ECE 121B",
+    "ECE 125A",
+    "ECE 128A",
+    "ECE 125B",
+    "ECE 128B"
+   ],
+   "note": "Breadth 24u (100,101,102,103,107,109) + Depth 16u (121A-B,125A,128A + one of {125B,128B}). Plus 12u technical electives, 8u professional electives, 4u design."
+  },
+  {
+   "label": "Depth: Signal and Image Processing (breadth + depth)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 107",
+    "ECE 109",
+    "ECE 153",
+    "ECE 161A",
+    "ECE 161B",
+    "ECE 161C"
+   ],
+   "note": "Breadth 16u (100,101,107,109) + Depth 16u (153,161A,161B,161C). Plus 24u technical electives, 8u professional electives, 4u design."
+  },
+  {
+   "label": "Professional electives (all depths)",
+   "division": "upper",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "ECE 100-199"
+   ],
+   "note": "Two upper-division courses"
+  },
+  {
+   "label": "Design requirement (all depths)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECE 111",
+    "ECE 115",
+    "ECE 140B",
+    "ECE 190",
+    "ECE 191"
+   ],
+   "note": "4 units; one design course"
+  },
+  {
+   "label": "Technical electives (all depths)",
+   "division": "other",
+   "kind": "units",
+   "needed": 12,
+   "courses": [
+    "ECE 100-199",
+    "MATH 100-199",
+    "PHYS 100-199"
+   ],
+   "note": "Units vary by depth (12-24u): upper-division engineering/math/physics courses plus additional upper/lower-division engineering/math/physics/chemistry/biology. See each depth note."
+  }
+ ]
+}

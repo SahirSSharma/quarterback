@@ -1,0 +1,147 @@
+{
+ "program": {
+  "major": "Bioengineering",
+  "degree": "B.S.",
+  "department": "Bioengineering (BE)"
+ },
+ "catalogYear": "current General Catalog (catalog.ucsd.edu)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog.ucsd.edu/curric/BENG-ug.html and be.ucsd.edu program page. ABET-accredited. Must maintain overall GPA >= 2.0 and earn at least C- in every course required for the major; all major courses must be taken for a letter grade. Physics 2B/2BL and 2C/2CL means the lecture plus its companion lab are both required. CHEM 7L may be taken any quarter within the first two years after CHEM 6B. Catalog also permits honors math substitutions (MATH 31BH for 20C, 31AH for 18, 31CH for 20E). Uses BOTH BENG 186A and 186B.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/BENG-ug.html",
+  "https://be.ucsd.edu/undergrad",
+  "https://be.ucsd.edu/undergrad/programs/bioeng"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 18",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "MATH 18 is linear algebra; 20D/20E are differential equations / vector calculus. Honors alternatives 31BH/31AH/31CH accepted for 20C/18/20E."
+  },
+  {
+   "label": "General chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 7L"
+   ],
+   "note": "CHEM 7L (lab) may be taken any quarter within the first two years after CHEM 6B."
+  },
+  {
+   "label": "Physics (lecture + lab)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2BL",
+    "PHYS 2C",
+    "PHYS 2CL"
+   ],
+   "note": "Listed in catalog as PHYS 2A, 2B/2BL, 2C/2CL."
+  },
+  {
+   "label": "Introductory biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BILD 1"
+   ],
+   "note": "BILD 1 (The Cell); confirmed on program page."
+  },
+  {
+   "label": "Lower-division engineering",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "BENG 1",
+    "MAE 8",
+    "MAE 40",
+    "MAE 3"
+   ],
+   "note": "MAE 8 is MATLAB programming; MAE 40 is linear circuits; MAE 3 is engineering graphics/design."
+  },
+  {
+   "label": "Upper-division bioengineering core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 20,
+   "courses": [
+    "BENG 100",
+    "BENG 103B",
+    "BENG 110",
+    "BENG 112A",
+    "BENG 112B",
+    "BENG 122A",
+    "BENG 125",
+    "BENG 130",
+    "BENG 140A",
+    "BENG 140B",
+    "BENG 152",
+    "BENG 172",
+    "BENG 186A",
+    "BENG 186B",
+    "BENG 187A",
+    "BENG 187B",
+    "BENG 187C",
+    "BENG 187D",
+    "BENG 188A",
+    "BENG 188B"
+   ],
+   "note": "BENG 187A-D and 188A/188B are the senior design sequence. Upper-division BENG courses are typically offered only once per year. Uses both BENG 186A and 186B."
+  },
+  {
+   "label": "Upper-division engineering (MAE)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MAE 107",
+    "MAE 150"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Technical electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BENG 100-199",
+    "CENG 100-199",
+    "CSE 100-199",
+    "ECE 100-199",
+    "MAE 100-199",
+    "NANO 100-199",
+    "SE 100-199",
+    "MATS 100-199",
+    "BILD 100-199",
+    "BIBC 100-199",
+    "BICD 100-199",
+    "BIEB 100-199",
+    "BIMM 100-199",
+    "BIPN 100-199",
+    "CHEM 100-199",
+    "PHYS 100-199"
+   ],
+   "note": "Two courses from the departmental approved list; must meet ABET accreditation standards and be approved before enrollment. BENG 196 and 199 may count; BENG 197 and 198 do NOT count as upper-division technical electives. Bioengineering (BE25): 8 TE units total, of which at least 4 must be the 'engineering' component. Per be.ucsd.edu/undergrad/programs/technical-electives, the ENGINEERING component = most 4-unit, upper-division (100-series) courses taken for a letter grade, NOT required for the major, taught in a Jacobs School of Engineering department (BENG, CENG chemical eng, CSE, ECE, MAE, NANO, SE structural, MATS materials science). The SCIENCE component = 4-unit upper-division (100-series) courses, not required for the major, from the Division of Biological Sciences (BILD/BIBC/BICD/BIEB/BIMM/BIPN) or the Departments of Chemistry & Biochemistry (CHEM) or Physics (PHYS). BENG 196 and BENG 199 count (two quarters of 199 can satisfy all 8 units); BENG 197 and 198 do NOT count. Ranges shown are the qualifying pools, not fixed courses. There is no single fixed course list -- every TE selection must be approved by the BE Student Affairs office before enrollment, and courses already us"
+  }
+ ]
+}

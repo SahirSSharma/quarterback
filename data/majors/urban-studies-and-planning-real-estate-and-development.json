@@ -1,0 +1,214 @@
+{
+ "program": {
+  "major": "Real Estate and Development",
+  "degree": "B.S.",
+  "department": "Urban Studies and Planning"
+ },
+ "catalogYear": "2024-2025 (requirements effective Fall 2024)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against department Fall 2024 RED page and UCSD General Catalog. ~20-21 courses: 8-9 lower-division + 12 upper-division. C- or better required. Optional Honors: USP 190.",
+ "sourceUrls": [
+  "https://usp.ucsd.edu/undergraduate/usp/reqs-effective-fa24.html",
+  "https://usp.ucsd.edu/undergraduate/red/major-effective-fa24.html",
+  "https://catalog.ucsd.edu/curric/USP.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory urban course (choose 1)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 1",
+    "USP 2",
+    "USP 6"
+   ],
+   "note": "USP 1 History of U.S. Urban Communities, USP 2 Urban World System, or USP 6 Introduction to Global Architecture."
+  },
+  {
+   "label": "Intro to Real Estate and Development Process (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 5"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Applied Urban Economics (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 15"
+   ],
+   "note": "Applied Urban Economics for Planning and Development."
+  },
+  {
+   "label": "Real Estate Principles and Analysis (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 25"
+   ],
+   "note": "Real Estate and Development Principles and Analysis."
+  },
+  {
+   "label": "Real Estate and Development Colloquium (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 50"
+   ],
+   "note": "2 units; Pass/No Pass only."
+  },
+  {
+   "label": "Calculus / quantitative methods (choose 1)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 10A",
+    "MATH 20A",
+    "MGT 3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Principles of Microeconomics (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECON 1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Financial Accounting (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECON 4",
+    "MGT 4",
+    "MGT 45"
+   ],
+   "note": "ECON 4 / MGT 4 Financial Accounting; ECON 4/MGT 4 plus MGT 5 may be replaced with MGT 45."
+  },
+  {
+   "label": "Managerial Accounting (required)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MGT 5",
+    "MGT 45"
+   ],
+   "note": "MGT 5 Managerial Accounting; may be replaced with MGT 45."
+  },
+  {
+   "label": "Foundation core (all required)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "USP 124",
+    "USP 150",
+    "USP 151",
+    "USP 152A",
+    "USP 153"
+   ],
+   "note": "USP 124 Land Use Planning; USP 150 RE&D Law and Regulation; USP 151 Real Estate Planning and Development; USP 152A RE Development Finance and Investment; USP 153 RE&D Market Analysis."
+  },
+  {
+   "label": "Technical elective (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 172",
+    "USP 175",
+    "USP 177A",
+    "USP 183GS",
+    "USP 191A"
+   ],
+   "note": "Matches page exactly."
+  },
+  {
+   "label": "Sustainable Planning/Development elective (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "USP 119",
+    "USP 169",
+    "USP 170",
+    "USP 171",
+    "USP 171GS"
+   ],
+   "note": "USP 119 Planning for Natural Hazards, USP 169 Intro to Green Building, USP 170 Planning for Sustainable Communities, USP 171 Sustainable Development, USP 171GS International Sustainable Development."
+  },
+  {
+   "label": "Capstone Studio Sequence (both, in order)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "USP 185A",
+    "USP 185B"
+   ],
+   "note": "USP 185A Real Estate Finance and Development Studio I (Fall only) then USP 185B Studio II (Winter only). Senior year."
+  },
+  {
+   "label": "Upper-division electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECON 116",
+    "ECON 125",
+    "ECON 131",
+    "USP 119",
+    "USP 120",
+    "USP 137",
+    "USP 138",
+    "USP 152B",
+    "USP 155",
+    "USP 158A",
+    "USP 159A",
+    "USP 165B",
+    "USP 169",
+    "USP 170",
+    "USP 171",
+    "USP 171GS",
+    "USP 172",
+    "USP 173",
+    "USP 175",
+    "USP 177A",
+    "USP 177B",
+    "USP 179",
+    "USP 180",
+    "USP 181",
+    "USP 183GS",
+    "USP 190",
+    "USP 191A",
+    "USP 191B",
+    "MGT 112",
+    "MGT 153",
+    "MGT 157",
+    "MGT 158",
+    "MGT 162",
+    "MGT 164",
+    "MGT 166",
+    "MGT 172",
+    "MGT 181"
+   ],
+   "note": "Choose 3 from the approved list. Expanded to match the Fall 2024 page's fuller enumeration (added USP 119, 171GS, 172, 173, 175, 177A, 177B, 179, 180, 181, 183GS, 190, 191A). All codes confirmed as real USP/ECON/MGT courses in the catalog. Consult department's current approved list for the exhaustive set; courses used in required buckets above cannot double-count."
+  }
+ ]
+}

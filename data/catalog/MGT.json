@@ -1,0 +1,3666 @@
+{
+ "page": "MGT",
+ "name": "Management, Rady School of",
+ "courses": [
+  {
+   "code": "MGT 3",
+   "subject": "MGT",
+   "num": "3",
+   "title": "Quantitative Methods in Business",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to techniques to develop/analyze data for informed tactical and strategic management decisions: statistical inference, probability, regression analysis, and optimization. Using these analytic approaches, theory-based formulas, and spreadsheets, students explore managerial applications across all areas of business activity.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 4",
+   "subject": "MGT",
+   "num": "4",
+   "title": "Financial Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Cross-listed with ECON 4. Recording, organizing, and communicating financial information to business entities.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 5",
+   "subject": "MGT",
+   "num": "5",
+   "title": "Managerial Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Internal accounting fundamentals, including cost behavior, cost application methods, overhead allocation methods, break-even analysis, budgeting, cost variance analysis, inventory management, and capital budgeting.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 12",
+   "subject": "MGT",
+   "num": "12",
+   "title": "Personal Financial Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Course examines management of personal financial assets: savings and checking accounts, fixed assets, and credit cards. Budgeting, loan applications, payment terms, and statement reconciliation will be covered as will credit ratings, cash management, compound interest, bank operations, and contract obligations.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 16",
+   "subject": "MGT",
+   "num": "16",
+   "title": "Personal Ethics at Work",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Course examines the ethical foundation for choices individuals make every day both in the workplace and in their private lives, the connection between economic and ethical obligations with examples related to privacy, reporting, whistle-blowing, workplace relationships, confidentiality, and intellectual property.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 18",
+   "subject": "MGT",
+   "num": "18",
+   "title": "Managing Diverse Teams",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The modern workplace includes people different in culture, gender, age, language, religion, education, and more. Students will learn why diverse teams make better decisions and are often integral to the success of organizations. Topics include challenges of diversity, and the impact of emotional, social, and cultural intelligence on team success. Content will include significant attention to the experiences of Asian Americans and African Americans as members and leaders of such diverse teams. Students will not receive credit for both MGT 18 and MGT 18GS.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 18GS",
+   "subject": "MGT",
+   "num": "18GS",
+   "title": "Managing Diverse Teams",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The modern workplace includes people different in culture, gender, age, language, religion, education, and more. Students will learn why diverse teams make better decisions and are often integral to the success of organizations. Topics include challenges of diversity, and the impact of emotional, social, and cultural intelligence on team success. Content will include significant attention to the experiences of Asian Americans and African Americans as members and leaders of such diverse teams. Students must submit applications to the International Center Programs Abroad Office and be accepted into the Global Seminar Program. Students will not receive credit for both MGT 18 and MGT 18GS. Program or materials fees may apply.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 45",
+   "subject": "MGT",
+   "num": "45",
+   "title": "Principles of Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covers the principles, methods and applications of general accounting, cost accounting and investment ROI. Development of the three key financial reports and their interrelations, cost identification, product costing, inventory control, operational performance, and investment return",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 52",
+   "subject": "MGT",
+   "num": "52",
+   "title": "Test and Measurement in the Workplace",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course introduces students to the psychometric, legal, ethical, and practical considerations of using tests and measurements for evidence-based decision-making in the workplace. Emphasis is given to selection and performance measurements for individual, team, business unit and organization-wide use in marketing, STEM, and operations. Student teams will develop managerial recommendations following company specific research and analysis.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 71",
+   "subject": "MGT",
+   "num": "71",
+   "title": "Operating a Successful Business",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Operating a business is a complex task but a skill that can be mastered. Business managers make interconnected decisions to bring products and services to market. How many workers should a burrito chain employ given demand projections and which burrito-building tasks should be completed before a customer walks in? When a bakery makes pastries, how many at a time? Why do airlines overbook? Managers must answer these questions to keep operations lean and outdo competitors. Students will not receive credit for both MGT 71 and MGT 71R.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 71R",
+   "subject": "MGT",
+   "num": "71R",
+   "title": "Operating a Successful Business",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Operating a business is a complex task but a skill that can be mastered. Business managers make interconnected decisions to bring products and services to market. How many workers should a burrito chain employ given demand projections and which burrito-building tasks should be completed before a customer walks in? When a bakery makes pastries, how many at a time? Why do airlines overbook? Managers must answer these questions to keep operations lean and outdo competitors. Students will not receive credit for both MGT 71R and MGT 71. This course is a distance education course.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 100",
+   "subject": "MGT",
+   "num": "100",
+   "title": "Customer Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Marketers use empirical models to determine, support, and evaluate a wide range of business decisions. This course covers models and estimation techniques commonly used for understanding segmentation, targeting, and positioning; product diffusion; advertising response, among other topics. Recommended preparation: ECON 120A. Familiarity with R will be assumed.",
+   "prereqText": "upper-division standing and BENG 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187.",
+   "prereqs": [
+    [
+     "BENG 100",
+     "COGS 14B",
+     "ECE 109",
+     "ECON 120A",
+     "MAE 108",
+     "MATH 11",
+     "MATH 180A",
+     "MATH 183",
+     "MATH 186",
+     "MGT 3",
+     "PSYC 60",
+     "SIO 187"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 102",
+   "subject": "MGT",
+   "num": "102",
+   "title": "E-Commerce",
+   "units": "4",
+   "level": "Graduate",
+   "description": "E-commerce is the online exchange of information leading to mutually beneficial transactions. Students will learn and apply skills related to business opportunity ideation and evaluation, customer and market research, sourcing, fulfillment, positioning, pricing, branding, storytelling, store design, user experience testing, website analytics, search engine optimization, social media, content marketing, digital advertising, and online experimentation.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 103",
+   "subject": "MGT",
+   "num": "103",
+   "title": "Product Marketing and Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Defining markets for products and services, segmenting these markets, and targeting critical customers within segments. Strategies to position products and services within segments. The critical role of pricing as well as market research, product management, promotion, selling, and customer support.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 104",
+   "subject": "MGT",
+   "num": "104",
+   "title": "Strategic Customer Insight",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course examines how effective customer insights drive strategic marketing decisions. Students learn to apply customer data at multiple levels\u2014from cultures to micro behaviors\u2014with the guidance of frameworks in marketing. Emphasizing conceptual understanding without going into computational details, the course uses case studies, projects, and class discussions to develop strategic thinking, customer insight, and communication skills for success as marketers.",
+   "prereqText": "MGT 100 or MGT 103, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 100",
+     "MGT 103"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 105",
+   "subject": "MGT",
+   "num": "105",
+   "title": "Product Promotion and Brand Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 106",
+   "subject": "MGT",
+   "num": "106",
+   "title": "Sales and Sales Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines the sales function from strategic competitive importance to the firm to required direct sales skills of individual salespersons. Major subject areas covered are the sales process, recruitment and training, organization and focus, \u201cterritories,\u201d evaluation and compensation.",
+   "prereqText": "MGT 100 or MGT 103.",
+   "prereqs": [
+    [
+     "MGT 100",
+     "MGT 103"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 107",
+   "subject": "MGT",
+   "num": "107",
+   "title": "Consumer Behavior",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course identifies the factors that influence the selection and usage of products and services. Students will be introduced to problems/decisions that include evaluating behavior, understanding the consumers\u2019 decision process, and strategies to create desirable consumer behavior.",
+   "prereqText": "MGT 100 or MGT 103.",
+   "prereqs": [
+    [
+     "MGT 100",
+     "MGT 103"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 108R",
+   "subject": "MGT",
+   "num": "108R",
+   "title": "Applied Market Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The business world revolves around managerial decisions, and those ought to be data driven. In this course we will learn about planning, implementing, and analyzing market research; synthesizing multi-methods research; and presenting market research results by actually doing it. We will learn how to plan and conduct interviews; how to design, execute, and analyze surveys; and how to employ cutting-edge tools such as adaptive conjoint analysis to quantify attribute levels and trade-offs. This course is a distance education course.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 109",
+   "subject": "MGT",
+   "num": "109",
+   "title": "Topics in Marketing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in marketing. Topics may include advertising, consumer behavior, pricing, product life cycles, etc. This course may also cover the unique demands of innovation-driven, biotech, and high-technology markets. May be taken for credit no more than three times.",
+   "prereqText": "MGT 100 or MGT 103, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 100",
+     "MGT 103"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 111",
+   "subject": "MGT",
+   "num": "111",
+   "title": "Behavioral Science of Money",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Why do smart people make bad financial decisions? This course explores the psychology of money, examining cognitive biases, emotions, and social influences on financial behavior. Students will analyze real-world spending, saving, and investing habits, learning how to design better financial decisions. Through experiments, case studies, and applied projects, students will gain insights into financial well-being and develop tools to improve financial choices for themselves and society.",
+   "prereqText": "MGT 100 and MGT 103.",
+   "prereqs": [
+    [
+     "MGT 100"
+    ],
+    [
+     "MGT 103"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 112",
+   "subject": "MGT",
+   "num": "112",
+   "title": "Global Business Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Will examine the advantages and complications of the multinational organization with emphasis on translating marketing, financing, and operating plans in light of geographical, cultural, and legal differences across the globe. Will also cover organizational considerations for transglobal management.",
+   "prereqText": "MGT 100 or MGT 103 and MGT 180 or MGT 181 or MGT 187, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 100",
+     "MGT 103"
+    ],
+    [
+     "MGT 180",
+     "MGT 181",
+     "MGT 187"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 117",
+   "subject": "MGT",
+   "num": "117",
+   "title": "Business Law",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focuses on elements of business law that are essential for the basic management of business operations. Topics include the law of contracts, sales, partnership, corporations, bankruptcy, and securities. Students will also gain knowledge of intellectual property law and dispute resolution.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 119",
+   "subject": "MGT",
+   "num": "119",
+   "title": "Topics in Business",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in business and addresses the new frontiers in the industry. Topics may include intellectual property, consumer behavior, market research, analytics, and spreadsheet modeling, etc. May be taken for credit three times. Instructional methods include face-to-face lecture, case presentation, assigned reading, and group discussion.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 121A",
+   "subject": "MGT",
+   "num": "121A",
+   "title": "Innovation to Market A",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Consider new project concepts. Discern market needs, competitive environment, and determine \u201cgo to market\u201d strategy. Research potential markets, customers, partners, and competitors. Consider price versus attributes, alternative distribution channels, gaining unfair advantage. Examine the need and structure of a start-up team.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 121B",
+   "subject": "MGT",
+   "num": "121B",
+   "title": "Innovation to Market B",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Build a business plan. Establish intellectual property rights. Provide financial projections and determine financing needs. Explore investment sourcing, business valuation, and harvesting opportunities. Determine operational plans and key employee requirements.",
+   "prereqText": "MGT 121A and MGT 181 or MGT 187 or MGT 180 or MGT 180R, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 121A"
+    ],
+    [
+     "MGT 181",
+     "MGT 187",
+     "MGT 180",
+     "MGT 180R"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 123",
+   "subject": "MGT",
+   "num": "123",
+   "title": "Business of Healthcare and Life Sciences",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course explores healthcare and life sciences through a business lens. The first part of the course introduces students to the concepts that shape healthcare as a business from the perspectives of each stakeholder\u2014patients, providers, payers, industry, and government. The second part of the course allows students to critically examine current trends and opportunities for innovation and disruption in healthcare. Moreover, students will learn about career paths in this exciting space.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 127",
+   "subject": "MGT",
+   "num": "127",
+   "title": "AI and Technology Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focusing on how AI will redefine businesses in the digital age, we\u2019ll study the fundamental topics of innovation driven by AI+X revolution, disruptive technologies, and digital transformation; learn the TOE theory and S curves to discriminate between trends and fads; how to make decisions about investment in technologies and new ventures, and look into the game changers in many industries (e.g., hi-tech, finance, healthcare), preparing students to become leaders in the tech-intensive world. Credit will not be given for MGT 127 and MGT 127R.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 127R",
+   "subject": "MGT",
+   "num": "127R",
+   "title": "AI and Technology Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focusing on how AI will redefine businesses in the digital age, we\u2019ll study the fundamental topics of innovation driven by AI+X revolution, disruptive technologies, and digital transformation; learn the TOE theory and S curves to discriminate between trends and fads; how to make decisions about investment in technologies and new ventures, and look into the game changers in many industries (e.g., hi-tech, finance, healthcare), preparing students to become leaders in the tech-intensive world. Credit will not be allowed for MGT 127R and MGT 127.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 128",
+   "subject": "MGT",
+   "num": "128",
+   "title": "Business Innovation and Growth",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Business innovation is accelerating, and the service sector is the fastest-growing sector of the economy. This course helps students prepare for careers as businesses transition to a service economy and help them identify career and entrepreneurial opportunities. Students gain understanding of the design and innovation approaches in businesses and the service industry. The course also addresses trends of businesses services getting digitized and technology-enabled for growth, productivity, and scalability. Credit not allowed for MGT 128 and MGT 128R.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 128R",
+   "subject": "MGT",
+   "num": "128R",
+   "title": "Business Innovation and Growth",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is a gentle and technology-friendly introduction to business innovation, growth, and entrepreneurship. The course introduces students to the economic fundamentals that lead to business scalability and sustainability. Topics of operations, supply, product, and project management are also introduced. Students gain understanding of the design and innovation approaches in business and entrepreneurship with exercises and a digital simulation. Credit not allowed for MGT 128R and MGT 128.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 129",
+   "subject": "MGT",
+   "num": "129",
+   "title": "Topics in Entrepreneurship",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in entrepreneurship. Examples of course topics include (but are not limited to) venture capital funding process, entrepreneurial business development and marketing, workplace climate and morale, and developing a capable workforce. Instructional methods include face-to-face lecture, case presentation, assigned reading and group discussion. May be taken for credit three times.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 131A",
+   "subject": "MGT",
+   "num": "131A",
+   "title": "Intermediate Accounting A",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Preparation and interpretation of accounting information under both FASB and IASB guidelines pertaining to revenue and expense recognition, receivables, and inventories.",
+   "prereqText": "upper-division standing and MGT 5 and and ECON 4 or MGT 4 or MGT 45.",
+   "prereqs": [
+    [
+     "MGT 5"
+    ],
+    [
+     "ECON 4",
+     "MGT 4",
+     "MGT 45"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 131B",
+   "subject": "MGT",
+   "num": "131B",
+   "title": "Intermediate Accounting B",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Preparation and interpretation of accounting information under both FASB and IASB guidelines pertaining to property plant and equipment, leases, intangible assets, investments, long-term debt, and stockholders\u2019 equity.",
+   "prereqText": "MGT 131A.",
+   "prereqs": [
+    [
+     "MGT 131A"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 132",
+   "subject": "MGT",
+   "num": "132",
+   "title": "Auditing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Theory and practice of the attest process; planning and implementing the audit of the financial statements and internal control over financial reporting to ensure compliance with applicable requirements.",
+   "prereqText": "MGT 131B.",
+   "prereqs": [
+    [
+     "MGT 131B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 133",
+   "subject": "MGT",
+   "num": "133",
+   "title": "Advanced Cost Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covers cost accumulation and analysis, for both manufacturing cost components and service activities, budgeting and cost projections, cost variance analysis, relevant costs, and capital investment analysis.",
+   "prereqText": "MGT 131B.",
+   "prereqs": [
+    [
+     "MGT 131B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 134",
+   "subject": "MGT",
+   "num": "134",
+   "title": "Federal Taxation\u2014Individuals",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covers theory and practical application of federal income tax regulations for individuals pertaining to gross income, adjusted gross income, itemized deductions, business operations, passive activities, property transactions, deferred income recognition, and reporting standards.",
+   "prereqText": "MGT 131B.",
+   "prereqs": [
+    [
+     "MGT 131B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 135",
+   "subject": "MGT",
+   "num": "135",
+   "title": "Federal Taxation\u2014Companies",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covers the theory and practical application of federal income tax regulations for corporations and other enterprises pertaining to formulations, annual operations, distributions, liquidations, reorganizations, affiliations, and reporting standards.",
+   "prereqText": "MGT 131B.",
+   "prereqs": [
+    [
+     "MGT 131B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 136",
+   "subject": "MGT",
+   "num": "136",
+   "title": "Advanced Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covers accounting topics related to consolidated financial statements, variable interest entities, foreign currency translation, segment reporting, and business combinations.",
+   "prereqText": "upper-division standing and MGT 131B.",
+   "prereqs": [
+    [
+     "MGT 131B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 137",
+   "subject": "MGT",
+   "num": "137",
+   "title": "Financial Statement Analysis",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines tools and techniques to analyze a firm\u2019s financial position and performance. This course combines both accounting and finance in a practical framework for debt and equity valuation methods from both a conceptual and practical framework.",
+   "prereqText": "upper-division standing and MGT 45 or MGT 5 and ECON 4 or MGT 4 or MGT 45.",
+   "prereqs": [
+    [
+     "MGT 45",
+     "MGT 5"
+    ],
+    [
+     "ECON 4",
+     "MGT 4",
+     "MGT 45"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 139",
+   "subject": "MGT",
+   "num": "139",
+   "title": "Accounting Information Systems",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Develop an understanding of transaction cycles (e.g., sales order and purchase order processing) with a focus on processing steps, internal controls, and data used. Gain hands-on experience developing flowcharts, processing transactions in a manual accounting information system, and analyzing transaction data using Microsoft Excel and other tools.",
+   "prereqText": "MGT 131B and upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 131B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 143",
+   "subject": "MGT",
+   "num": "143",
+   "title": "Forensic Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Course covers key forensic accounting concepts including fraudulent financial reporting, money laundering, business valuation, and litigation support. Learning objectives are the application of analytical accounting and communication skills in identifying and presenting financial issues in both criminal and civil litigation.",
+   "prereqText": "MGT 131B and upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 131B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 146",
+   "subject": "MGT",
+   "num": "146",
+   "title": "Ethics in Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will focus on three major components: 1) what matters (the purpose of ethics in the accounting profession); 2) why ethics matter (the reasons, skills, and abilities that make a difference); and 3) how a professional \u201cwalks the walk.\u201d The course provides students with the opportunity to gain knowledge, awareness, and recognition of ethical terms, theories, codes, etc. Students will be given the opportunity to practice making choices and exercise professional judgment.",
+   "prereqText": "MGT 132, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 132"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 147",
+   "subject": "MGT",
+   "num": "147",
+   "title": "Not-For-Profit and Government Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Addresses issues faced in government and not-for-profit accounting. Students will gain insight into how and why these issues may have been resolved either similarly or differently from the for-profit business sector. Focus will be placed on how revenue and expense recognition, asset and liability valuation, the scope of the reporting entity, reporting cash flows, etc., differ in comparison to for-profit business accounting.",
+   "prereqText": "MGT 131B, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 131B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 148",
+   "subject": "MGT",
+   "num": "148",
+   "title": "Mergers and Acquisitions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course helps students understand the complexities involved in international deals. Examines current financial reporting practices for business entities engaged in international activities. Focuses on policy issues such as foreign currency translation, global inflation, transfer pricing, complying with reporting requirements, taxation, and international accounting and auditing standards.",
+   "prereqText": "MGT 45 or MGT 5 and ECON 4 or MGT 4 or MGT 45.",
+   "prereqs": [
+    [
+     "MGT 45",
+     "MGT 5"
+    ],
+    [
+     "ECON 4",
+     "MGT 4",
+     "MGT 45"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 149",
+   "subject": "MGT",
+   "num": "149",
+   "title": "Topics in Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in accounting. Examples of course topics include (but are not limited to) corporate valuation and forecasting, global taxation and business strategy, current issues in the practice and regulation of auditing. May be taken for credit two times for a maximum of eight credits if the topics are substantially different.",
+   "prereqText": "MGT 131B, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 131B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 151R",
+   "subject": "MGT",
+   "num": "151R",
+   "title": "Business Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on the concept of data analytics, and the convergence of data and business. From a practical standpoint, the course focuses on solving business problems by examining industry data, machine learning, statistics, and various forms of data analytics concepts. The fundamental goal of the course is to ensure students learn and understand fundamental interconnections and practical coding applications within the field of data analytics. This course is a distance education course. No credit for MGT 151R if taken after MGT 151A.",
+   "prereqText": "MATH 10A or MATH 18 or MATH 20A or MATH 31AH and BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187.",
+   "prereqs": [
+    [
+     "MATH 10A",
+     "MATH 18",
+     "MATH 20A",
+     "MATH 31AH"
+    ],
+    [
+     "BENG 100",
+     "BIEB 100",
+     "COGS 14B",
+     "ECE 109",
+     "ECON 120A",
+     "MAE 108",
+     "MATH 11",
+     "MATH 180A",
+     "MATH 180B",
+     "MATH 181A",
+     "MATH 183",
+     "MATH 186",
+     "MGT 3",
+     "PSYC 60",
+     "SIO 187"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 153",
+   "subject": "MGT",
+   "num": "153",
+   "title": "Information Technology in Business Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is designed to help a business manager use data to make good decisions in complex decision-making situations. Students will learn core business analytics concepts and skills including Excel, relational databases and Structured Query Language (SQL), principles of effective data visualizations and interactive data visualization (e.g., Tableau), and data preprocessing and regression analysis using data analytics programming (e.g., Python).",
+   "prereqText": "MATH 10A or MATH 18 or MATH 20A or MATH 31AH and BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187, upper-division standing.",
+   "prereqs": [
+    [
+     "MATH 10A",
+     "MATH 18",
+     "MATH 20A",
+     "MATH 31AH"
+    ],
+    [
+     "BENG 100",
+     "BIEB 100",
+     "COGS 14B",
+     "ECE 109",
+     "ECON 120A",
+     "MAE 108",
+     "MATH 11",
+     "MATH 180A",
+     "MATH 181A",
+     "MATH 183",
+     "MATH 186",
+     "MGT 3",
+     "PSYC 60",
+     "SIO 187"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 154",
+   "subject": "MGT",
+   "num": "154",
+   "title": "Advanced Business Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "When considering complex business problems, research is often undertaken as a means of aiding decision-making. This course gives an in-depth look at the business research process, including methods of qualitative and quantitative research. Students learn about the design and execution of business analytics (including common descriptive and predictive models), and how models are selected, executed, and evaluated, with focus on extracting impactful information to aid in making informed decisions.",
+   "prereqText": "MGT 153, department approval required, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 153"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 155",
+   "subject": "MGT",
+   "num": "155",
+   "title": "Advanced Business Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Prescriptive analytics, which employs analytics to formulate, identify, and solve business problems, offers the opportunity to move beyond gut reactions toward systematizing decision making in business contexts. The purpose of this course is to introduce the students to the tools and methodology of prescriptive analytics. Topics include discrete event simulation, dynamic optimization, revenue management, queuing systems and capacity management, and machine learning.",
+   "prereqText": "MGT 151R or MGT 153.",
+   "prereqs": [
+    [
+     "MGT 151R",
+     "MGT 153"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 157",
+   "subject": "MGT",
+   "num": "157",
+   "title": "Real Estate Securitization",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Residential and commercial mortgage-backed securities markets and the market for structured real estate debt; the estimation of prices, yields, and various measures of investment performance; creating and structuring security issues; legal, regulatory, and institutional issues; derivative products (CDOs, CDSs, options, futures, etc.); and current political, economic, and policy issues.",
+   "prereqText": "MGT 181 and upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 181"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 158",
+   "subject": "MGT",
+   "num": "158",
+   "title": "Real Estate and the Tech Sector",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to the emerging real estate tech sector; newly available datasets and technologies are transforming the real estate sector; introduction of quantitative methods for analyzing real estate and urban trends; utilizing large datasets and software in making optimal decisions from the perspective of buyers, sellers, real estate agents and brokers, developers, and regulators.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 159T",
+   "subject": "MGT",
+   "num": "159T",
+   "title": "Topics in Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in business analytics. Topics may include fraud analytics, supply chain analytics, blockchain analytics, service operations analytics, etc.",
+   "prereqText": "MGT 151R or MGT 153, upper-division standing. May be taken for credit no more than three times.",
+   "prereqs": [
+    [
+     "MGT 151R",
+     "MGT 153"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 160",
+   "subject": "MGT",
+   "num": "160",
+   "title": "Experiments in Firms",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An understanding of how to design and run a good experiment will position students at the cutting edge of decision-making in business and policy. Students will develop their own experiments that can be implemented online and in organizations. Students will learn to distinguish between a correlation and a causal effect; incorporate behavioral economics into experimental designs; randomize, analyze, and critique experimental interventions; and address organizational concerns about experimentation.",
+   "prereqText": "(BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187) and (MATH 10A or MATH 18 or MATH 20A or MATH 31AH).",
+   "prereqs": [
+    [
+     "BENG 100",
+     "BIEB 100",
+     "COGS 14B",
+     "ECE 109",
+     "ECON 120A",
+     "MAE 108",
+     "MATH 11",
+     "MATH 180A",
+     "MATH 181A",
+     "MATH 183",
+     "MATH 186",
+     "MGT 3",
+     "PSYC 60",
+     "SIO 187"
+    ],
+    [
+     "MATH 10A",
+     "MATH 18",
+     "MATH 20A",
+     "MATH 31AH"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 162",
+   "subject": "MGT",
+   "num": "162",
+   "title": "Negotiations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course takes a decision-making orientation to negotiation. The course will build cumulatively from (seemingly) simple negotiations to those of greater complexity. These structured negotiation exercises are used to isolate and emphasize specific analytic points and essential skills. Cases and readings should help the student to integrate the analysis as well as to develop intuition about more complex negotiations. Students will not receive credit for both MGT 162 and MGT 162R.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 162R",
+   "subject": "MGT",
+   "num": "162R",
+   "title": "Negotiations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course takes a decision-making orientation to negotiation. The course will build cumulatively from (seemingly) simple negotiations to those of greater complexity. These structured negotiation exercises are used to isolate and emphasize specific analytic points and essential skills. Cases and readings should help the student integrate the analysis as well as to develop intuition about more complex negotiations. Students will not receive credit for both MGT 162R and MGT 162. This course is a distance education course.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 164",
+   "subject": "MGT",
+   "num": "164",
+   "title": "Business and Organizational Leadership",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Students will study alternative organizational structures\u2014their stakeholders and corporate cultures, and their use in meeting strategic enterprise priorities facing a company. This course provides students with insights into motivational factors, communications networks, organizational cultures, and alternative leadership styles. The concept of change management and its challenges is also studied along with power and influence. Students may not receive credit for MGT 164 and MGT 164GS. Course previously listed as: Organizational Leadership.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 164GS",
+   "subject": "MGT",
+   "num": "164GS",
+   "title": "Business and Organizational Leadership",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Students will study alternative organizational structures\u2014their stakeholders and corporate cultures and their use in meeting various strategic priorities facing a company. This course provides students with insights into motivational factors, communications networks, organizational cultures, and alternative leadership styles. The concept of change management and its challenges is also studied along with power and influence. Students must submit applications to the International Center Programs Abroad Office and be accepted into the Global Seminar Program. Students may not receive credit for MGT 164 and MGT 164GS. Course previously listed as: Organizational Leadership.",
+   "prereqText": "upper-division standing. Program or materials fees may apply.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 166",
+   "subject": "MGT",
+   "num": "166",
+   "title": "Business Ethics and Corporate Responsibility",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Will cover ethical conduct issues for leaders from a wide array of organizations and industries including consideration of differences among global trading partners. The issues impacting corporate responsibility will be examined as will full-cycle cost analysis of products and services.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 167",
+   "subject": "MGT",
+   "num": "167",
+   "title": "Social Entrepreneurship",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Social entrepreneurs create innovative solutions to solve challenging social and environmental issues affecting the world around them. In this course, students will learn how to apply entrepreneurial business and innovative skills to effectively tackle global issues impacting society such as environmental degradation, rural health care availability, educational improvements in economically disadvantaged regions of the world, famine in an era of obesity, and clean water development.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 170",
+   "subject": "MGT",
+   "num": "170",
+   "title": "Management Information Systems",
+   "units": "4",
+   "level": "Graduate",
+   "description": "With dramatic progress of IT (e.g., computers, software, networks, mobile), information systems now represent the central nervous system of most enterprises and have become a crucial resource to ensure the competitive viability of almost any business. This course introduces students to the foundations of the management, business value, and strategic importance of information resources and information technology and provides the first steps toward becoming competent and IS-savvy managers.",
+   "prereqText": "MGT 153.",
+   "prereqs": [
+    [
+     "MGT 153"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 171",
+   "subject": "MGT",
+   "num": "171",
+   "title": "Operations Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Operations management (OM) involves the systematic design, execution, and improvement of business processes, projects, and partner relationships. This course goes beyond cost minimization and addresses issues that firms large and small must confront in their journey toward sustained scalability, growth, and profitability. Also examines human factors such as psychological contract, team management, empowerment, employee-initiated process improvements, morale, motivation, rewards, and incentives.",
+   "prereqText": "upper-division standing. Students will not receive credit for both MGT 171 and MGT 171R.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 171R",
+   "subject": "MGT",
+   "num": "171R",
+   "title": "Operations Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Operations management (OM) involves the systematic design, execution, and improvement of business processes, projects, and partner relationships. This course goes beyond cost minimization and addresses issues that firms large and small must confront in their journey toward sustained scalability, growth, and profitability. Also examines human factors such as psychological contract, team management, empowerment, employee-initiated process improvements, morale, motivation, rewards, and incentives. Students will not receive credit for both MGT 171R and MGT 171. This course is a distance education course.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 172",
+   "subject": "MGT",
+   "num": "172",
+   "title": "Business Project Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Addresses effective practices for management of business projects. Includes both project management processes\u2014scheduling, milestone setting, resource allocation, budgeting, risk mitigation\u2014and human capital management\u2014communication, teamwork, leadership. Also considers requirements for effectively working across functional and organizational boundaries. Students will not receive credit for both MGT 172 and MGT 172R.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 172R",
+   "subject": "MGT",
+   "num": "172R",
+   "title": "Business Project Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Addresses effective practices for management of business projects. Includes both project management processes\u2014scheduling, milestone setting, resource allocation, budgeting, risk mitigation\u2014and human capital management\u2014communication, teamwork, leadership. Also considers requirements for effectively working across functional and organizational boundaries. Students will not receive credit for both MGT 172 and MGT 172R.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 173",
+   "subject": "MGT",
+   "num": "173",
+   "title": "Project Management: Health Services",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers efficient techniques for managing health services projects, including both the technical aspects of project management as well as the human-capital management issues associated with blending administrative and technical staff with health-care professionals. Topics include scheduling methods, milestone setting, governmental regulations, resource allocation, interpersonal skills, and performing research and development projects\u2014all with a health services focus.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 175",
+   "subject": "MGT",
+   "num": "175",
+   "title": "Supply Chain Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Supply chain management involves the flows of materials and information that contribute value to a product, from the source of raw materials to end customers. This course explains how supply chains work and describes the major challenges in managing an efficient supply chain. Covers various strategic and tactical supply chain issues such as distribution strategy, information sharing strategy, outsourcing, procurement (including e-markets), product design, virtual integration, and risk management. Credit is not allowed for both MGT 174 and MGT 175.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 176",
+   "subject": "MGT",
+   "num": "176",
+   "title": "Strategic Cost Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covers a process to conduct and create a professional supply market analysis report, starting from data sources and processes to develop cost models. Includes a structured process to create and implement supplier selection and qualification as well as cost management strategies. Students will sharpen analytical skills, think creatively outside the box, and be able to sell their strategy by studying real-life examples of how these concepts have been implemented at various Fortune 100 companies.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 177",
+   "subject": "MGT",
+   "num": "177",
+   "title": "Analytics and Spreadsheet Modeling in Supply Chain Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "In today\u2019s global economy, competition is not firm against firm, but rather supply chain against supply chain. Companies utilize analytics (i.e., the use of data, together with statistical and quantitative models, to make better, data-driven business decisions) to gain advantage in their supply chain management. Course covers the use of data analytics and spreadsheet modeling in decision-making involved in supply chain management, including logistics, facility management, fulfillment, and pricing.",
+   "prereqText": "MGT 153, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 153"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 179",
+   "subject": "MGT",
+   "num": "179",
+   "title": "Topics in Innovation, Technology, and Operations Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in technology, innovation, and operations management. Students will acquire skills to apply rigorous theoretical models to data-rich real-life applications, including hospital and healthcare operations, manufacturing and supply chain management, technology supply chains, etc. May be taken for credit up to three times.",
+   "prereqText": "MGT 71 or MGT 71R or MGT 171 or MGT 171R.",
+   "prereqs": [
+    [
+     "MGT 71",
+     "MGT 71R",
+     "MGT 171",
+     "MGT 171R"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 180",
+   "subject": "MGT",
+   "num": "180",
+   "title": "Business Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course provides an introduction to the fundamental concepts in corporate finance. Topics include discounted cash flow, capital budgeting, bond and stock valuation, portfolio theory, market efficiency, the Capital Asset Pricing Model (CAPM), the determinants of capital structure and options. We will seek a balance between theoretical paradigms, the empirical facts, and their applicability to real-world issues. Emphasis will be placed on general principles and problem solving. Students will not receive credit for both MGT 180 and MGT 180R.",
+   "prereqText": "ECE 109 or ECON 100A or ECON 120A or MAE 108 or MATH 180A or MATH 183 or MATH 186.",
+   "prereqs": [
+    [
+     "ECE 109",
+     "ECON 100A",
+     "ECON 120A",
+     "MAE 108",
+     "MATH 180A",
+     "MATH 183",
+     "MATH 186"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 180R",
+   "subject": "MGT",
+   "num": "180R",
+   "title": "Business Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course provides an introduction to the fundamental concepts in corporate finance. Topics include discounted cash flow, capital budgeting, bond and stock valuation, portfolio theory, market efficiency, the Capital Asset Pricing Model (CAPM), the determinants of capital structure, and options. We will seek a balance between theoretical paradigms, the empirical facts, and their applicability to real world issues. Emphasis will be placed on general principles and problem-solving. This course is a distance education course. Students will not receive credit for both MGT 180R and MGT 180.",
+   "prereqText": "ECE 109 or ECON 100A or ECON 120A or MAE 108 or MATH 180A or MATH 183 or MATH 186.",
+   "prereqs": [
+    [
+     "ECE 109",
+     "ECON 100A",
+     "ECON 120A",
+     "MAE 108",
+     "MATH 180A",
+     "MATH 183",
+     "MATH 186"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 181",
+   "subject": "MGT",
+   "num": "181",
+   "title": "Enterprise Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Will cover debt and equity financing of the enterprise, the role of commercial banks, venture firms, and investment banks; along with enterprise valuation, cash flow management, capital expenditure decisions, return on investment, economic value add, and foreign currency translation.",
+   "prereqText": "upper-division standing and (MATH 10A or MATH 20A or MGT 3) and (MGT 5 or MGT 45) and (MGT 4 or MGT 45 or ECON 4).",
+   "prereqs": [
+    [
+     "MATH 10A",
+     "MATH 20A",
+     "MGT 3"
+    ],
+    [
+     "MGT 5",
+     "MGT 45"
+    ],
+    [
+     "MGT 4",
+     "MGT 45",
+     "ECON 4"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 183",
+   "subject": "MGT",
+   "num": "183",
+   "title": "Financial Investments",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines financial theory and empirical evidence useful for making investment decisions. Portfolio theory, equilibrium models, and market efficiency are examined for stock securities and fixed income instruments. Risk adjusted ROIs for capital investments\u2019 impact on stock prices and free options will also be studied.",
+   "prereqText": "ECON 173B or MGT 180 or MGT 180R or MGT 181 or MGT 187.",
+   "prereqs": [
+    [
+     "ECON 173B",
+     "MGT 180",
+     "MGT 180R",
+     "MGT 181",
+     "MGT 187"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 184",
+   "subject": "MGT",
+   "num": "184",
+   "title": "Money and Banking",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focuses on role of financial institutions, implications for firm financing and valuation as well as the Federal Reserve, financial regulation, the money supply process, and monetary policy. Mechanisms through which monetary policy affects businesses and credit channels will be covered.",
+   "prereqText": "ECON 173B or MGT 180 or MGT 180R or MGT 181 or MGT 187.",
+   "prereqs": [
+    [
+     "ECON 173B",
+     "MGT 180",
+     "MGT 180R",
+     "MGT 181",
+     "MGT 187"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 185",
+   "subject": "MGT",
+   "num": "185",
+   "title": "Investment Banking",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course provides students with an overview of the investment banking industry, including IPOs, equity offerings, debt offerings, valuation, mergers and acquisition, private equity, asset securitization, prime brokerage, sales and trading, and market making. Emphasis of the class will be on traditional corporate finance, which includes equity and debt offerings as well as mergers and acquisitions.",
+   "prereqText": "ECON 173B or MGT 180 or MGT 181 or MGT 187 and upper-division standing.",
+   "prereqs": [
+    [
+     "ECON 173B",
+     "MGT 180",
+     "MGT 181",
+     "MGT 187"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 187",
+   "subject": "MGT",
+   "num": "187",
+   "title": "New Venture Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Taking a global perspective, this course examines how innovation is funded and the financial tools necessary over the life cycle of a new venture\u2014development, growth, maturity, and exit. Students will learn to perform financial analysis to determine the feasibility of financing new, transformed, and growing ventures, whether foreign or domestic. The course will also cover term sheets, valuation methods, and the role of private equity investors\u2014angels, VCs, and vendors.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 188",
+   "subject": "MGT",
+   "num": "188",
+   "title": "Collecting and Analyzing Financial Data",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will teach students how to obtain and process data in order to answer empirical questions in financial economics. The first goal is to apply basic economic theory and institutional details about financial markets to develop specific research hypotheses and econometric frameworks to test them. The second goal is to develop techniques in data management and algorithmic thinking. Exposure to statistics/econometrics and mild programming experience are highly encouraged.",
+   "prereqText": "MGT 180 or MGT 180R or MGT 181.",
+   "prereqs": [
+    [
+     "MGT 180",
+     "MGT 180R",
+     "MGT 181"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 189",
+   "subject": "MGT",
+   "num": "189",
+   "title": "Topics in Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in finance. Topics may include behavioral finance, financial derivatives, portfolio management, fixed income securities, asset pricing theory, commercial banking, etc. May be taken for credit up to three times.",
+   "prereqText": "MGT 180 or MGT 180R or MGT 181 or MGT 187, upper-division standing.",
+   "prereqs": [
+    [
+     "MGT 180",
+     "MGT 180R",
+     "MGT 181",
+     "MGT 187"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 198",
+   "subject": "MGT",
+   "num": "198",
+   "title": "Directed Group Study",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A small group undertaking, on a topic or in a field not included in the regular curriculum, by special arrangement with a faculty member. May be taken for credit up to three times.",
+   "prereqText": "upper-division standing and instructor consent and department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 199",
+   "subject": "MGT",
+   "num": "199",
+   "title": "Directed Independent Study",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Directed individual study or research by special arrangement and under supervision of a faculty member.",
+   "prereqText": "consent of instructor and department approval; approved Special Studies form.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 402",
+   "subject": "MGT",
+   "num": "402",
+   "title": "Management Communications",
+   "units": "2",
+   "level": "Graduate",
+   "description": "This course focuses on diverse communications platforms and presents techniques from acting training and leadership. We explore distinctions of good versus great presenters. Each highly participatory session includes demonstrations of skills and techniques with personalized peer and instructor coaching. Letter grades only.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 403",
+   "subject": "MGT",
+   "num": "403",
+   "title": "Business Analytics for Managers",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, students will be introduced to key techniques for using data to make informed management decisions. Covers probability, statistics, decision analysis, and optimization techniques. Emphasizes managerial applications in such areas as operations management, marketing, and finance. Letter grades only. Students will not receive credit for both MGT 403 and MGT 403R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 403R",
+   "subject": "MGT",
+   "num": "403R",
+   "title": "Business Analytics for Managers",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, students will be introduced to key techniques for using data to make informed management decisions. Covers probability, statistics, decision analysis, and optimization techniques. Emphasizes managerial applications in such areas as operations management, marketing, and finance. Letter grades only. Students will not receive credit for both MGT 403R and MGT 403. This is a distance education course.",
+   "prereqText": "Executive MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 404",
+   "subject": "MGT",
+   "num": "404",
+   "title": "Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, students will be introduced to the basic concepts and methods used in financial statements. The course highlights the linkages between accounting information and management planning, decision making, and control. Letter grades only. Students may receive credit for one of the following: MGT 404, MGT 404R, or MGTF 401.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 404R",
+   "subject": "MGT",
+   "num": "404R",
+   "title": "Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, students will be introduced to the basic concepts and methods used in financial statements. The course highlights the linkages between accounting information and management planning, decision making, and control. Letter grades only. Students may receive credit for one of the following: MGT 404R, MGT 404, or MGTF 401. This is a distance education course.",
+   "prereqText": "Executive MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 405",
+   "subject": "MGT",
+   "num": "405",
+   "title": "Managerial Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to the use of microeconomics in managerial decision-making. Examines how the optimal strategy of a firm is impacted by the structure of the market, the competitive and regulatory constraints, and the structure of information. Topics include supply and demand analysis, price discrimination techniques, contractual relationships, and asymmetric information. Students learn to apply economic principles to solving business problems and the importance of marginal analysis in decisions. Letter grades only. Students will not receive credit for both MGT 405 and MGT 405R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 405R",
+   "subject": "MGT",
+   "num": "405R",
+   "title": "Managerial Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to the use of microeconomics in managerial decision-making. Examines how the optimal strategy of a firm is impacted by the structure of the market, the competitive and regulatory constraints, and the structure of information. Topics include supply and demand analysis, price discrimination techniques, contractual relationships, and asymmetric information. Students learn to apply economic principles to solving business problems and the importance of marginal analysis in decisions. Letter grades only. Students will not receive credit for both MGT 405R and MGT 405. This is a distance education course.",
+   "prereqText": "Executive MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 406",
+   "subject": "MGT",
+   "num": "406",
+   "title": "Leading People",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, introduces principles of effective teamwork and leadership and of strategic managerial communication. Provides an introduction to case study and to ethical issues confronting managers in technology or science-driven firms. Develops managerial communication skills. Letter grades only. Students will not earn credit for both MGT 406 and MGT 406R.",
+   "prereqText": "MBA student or department or instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 406R",
+   "subject": "MGT",
+   "num": "406R",
+   "title": "Leading People",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, introduces principles of effective teamwork and leadership and of strategic managerial communication. Provides an introduction to case study and to ethical issues confronting managers in technology or science-driven firms. Develops managerial communication skills. Letter grades only. Students will not earn credit for both MGT 406R and MGT 406. This is a distance education course.",
+   "prereqText": "Executive MBA student or department or instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 407",
+   "subject": "MGT",
+   "num": "407",
+   "title": "Marketing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "By taking an analytical approach to the study of marketing problems, this course provides an understanding of customers and competitors as a basis for developing, pricing, promoting, and distributing goods and services that satisfy customer and organizational objectives. Letter grades only. Students may not receive credit for both MGT 407 and MGT 407R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 407R",
+   "subject": "MGT",
+   "num": "407R",
+   "title": "Marketing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "By taking an analytical approach to the study of marketing problems, this course provides an understanding of customers and competitors as a basis for developing, pricing, promoting, and distributing goods and services that satisfy customer and organizational objectives. Letter grades only. Students may not receive credit for both MGT 407R and MGT 407. This is a distance education course.",
+   "prereqText": "Executive MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 408",
+   "subject": "MGT",
+   "num": "408",
+   "title": "Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, this course will focus on basic business financial concepts with particular attention to challenges of finance in start-up and small- and medium-sized enterprises. Letter grades only. Students may not receive credit for both MGT 408 and MGT 408R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 408R",
+   "subject": "MGT",
+   "num": "408R",
+   "title": "Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, this course will focus on basic business financial concepts with particular attention to challenges of finance in start-up and small- and medium-sized enterprises. Letter grades only. Students may not receive credit for both MGT 408R and MGT 408. This is a distance education course.",
+   "prereqText": "Executive MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 409",
+   "subject": "MGT",
+   "num": "409",
+   "title": "Leading in Networks and Organizations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "After identifying characteristics common to technology driven firms, the implications of living in, managing, and leading such an organization are explored. Covers skills such as leadership of project teams and negotiations. Letter grades only. Students will not receive credit for both MGT 409 and MGT 409R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 409R",
+   "subject": "MGT",
+   "num": "409R",
+   "title": "Leading in Networks and Organizations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "After identifying characteristics common to technology-driven firms, the implications of living in, managing, and leading such an organization are explored. Covers skills such as leadership of project teams and negotiations. Letter grades only. Students will not receive credit for both MGT 409R and MGT 409. This is a distance education course.",
+   "prereqText": "Executive MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 410",
+   "subject": "MGT",
+   "num": "410",
+   "title": "Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, this course explores the strategic management of technology-driven firms focusing on the analytical tools and techniques that support strategy formulation and the related managerial skills and decision processes that foster strategy implementation. Letter grades only. Students may not receive credit for both MGT 410 and MGT 410R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 410R",
+   "subject": "MGT",
+   "num": "410R",
+   "title": "Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, this course explores the strategic management of technology-driven firms focusing on the analytical tools and techniques that support strategy formulation and the related managerial skills and decision processes that foster strategy implementation. Letter grades only. Students may not receive credit for both MGT 410R and MGT 410. This is a distance education course.",
+   "prereqText": "Executive MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 412",
+   "subject": "MGT",
+   "num": "412",
+   "title": "New Venture Design",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An integrated examination of competencies needed to transform innovations into profitable market opportunities. Focus on processes to generate ideas, assess which ones are viable business opportunities, and evolve them into products and businesses. Letter grades only. Students will not receive credit for both MGT 412 and MGT 412R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 412R",
+   "subject": "MGT",
+   "num": "412R",
+   "title": "New Venture Design",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An integrated examination of competencies needed to transform innovations into profitable market opportunities. Focus on processes to generate ideas, assess which ones are viable business opportunities, and evolve them into products and businesses. Letter grades only. Students will not earn credit for both MGT 412R and MGT 412. This is a distance education course.",
+   "prereqText": "Executive MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 413",
+   "subject": "MGT",
+   "num": "413",
+   "title": "Operations Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, students will be familiarized with the problems and issues confronting operations managers, and to introduce language, conceptual models, and analytical techniques that are broadly applicable in confronting such problems. Letter grades only. Students may not receive credit for both MGT 413 and MGT 413R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 413R",
+   "subject": "MGT",
+   "num": "413R",
+   "title": "Operations Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Through lecture and online delivery, students will be familiarized with the problems and issues confronting operations managers, and to introduce language, conceptual models, and analytical techniques that are broadly applicable in confronting such problems. Letter grades only. Students may not receive credit for both MGT 413R and MGT 413. This is a distance education course.",
+   "prereqText": "Executive MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 414",
+   "subject": "MGT",
+   "num": "414",
+   "title": "Rady Action Project",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Rady action project core course provides students with the opportunity to integrate and apply foundational skills, by working on a consulting project that tackles a real-world business problem confronted by a local firm. No credit for MGT 414 if taken after MGT 414R.",
+   "prereqText": "MBA student or by instructor approval or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 414R",
+   "subject": "MGT",
+   "num": "414R",
+   "title": "Rady Action Project",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Rady action project core course provides students with the opportunity to integrate and apply foundational skills by working on a consulting project that tackles a real-world business problem confronted by a local firm. No credit for MGT 414R if taken after MGT 414. This is a distance education course.",
+   "prereqText": "Executive MBA student or by instructor approval or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 415",
+   "subject": "MGT",
+   "num": "415",
+   "title": "New Venture Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A hands-on practicum that aims to equip students with the training and knowledge to assess the viability of a venture idea or early-stage venture. Student teams will specifically support the potential or in-progress commercialization of innovation(s) discovered by a UC San Diego or external innovator. Includes methods for conducting customer discovery and business case development, hypothesis-driven lean business model development, and market, financial, and risk evaluation.",
+   "prereqText": "MBA student or by instructor approval or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 416",
+   "subject": "MGT",
+   "num": "416",
+   "title": "Readings in Management",
+   "units": "1 or 2",
+   "level": "Graduate",
+   "description": "Review and discussion of current research and literature on selected topics in business and management. Research paper and presentation required. May be taken for credit three times. Students may not earn credit for both MGT 416 and MGT 252 if the courses have the same course subtitle. They are course equivalents.",
+   "prereqText": "MBA students only or consent of instructor with department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 417",
+   "subject": "MGT",
+   "num": "417",
+   "title": "Current Business Law Issues",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Explores current issues in business law, emphasizing concerns faced by new companies. Students learn how the law regulates and shapes businesses; examine the legal role in business formations, operations, and dissolutions; and gain knowledge of contract and intellectual property law. Letter grades only. Students may not earn credit for both MGT 417 and MGT 212. Also, students may not receive credit for both MGT 417 and MGT 219 with the course subtitle Current Business Law Issues.",
+   "prereqText": "MBA students only or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 419",
+   "subject": "MGT",
+   "num": "419",
+   "title": "Global Business Immersion",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Introduces advanced topics in global business, with a regional emphasis. Instructional methods include lectures, case presentations, readings, and discussions. A substantial portion of learning outcomes will be met by visiting businesses in another world region, observing operations, and interviewing executives. The visit to the foreign region will typically be one to two weeks and may occur outside the normal academic quarter. May be taken for credit two times. Students may not earn credit for both MGT 419 and MGT 259 if the courses have the same course subtitle. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 420",
+   "subject": "MGT",
+   "num": "420",
+   "title": "Negotiation",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines methods of conflict resolution needed for effective management in a constantly changing business environment. Applies these tools to the broad spectrum of negotiation problems faced by the manager and professional. Includes simulations, role playing, and cases. Students may not earn credit for both MGT 420 and MGT 420R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 420R",
+   "subject": "MGT",
+   "num": "420R",
+   "title": "Negotiation",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines method of conflict resolution needed for effective management in a constantly changing business environment. Applies these tools to the broad spectrum of negotiation problems faced by the manager and professional. Includes simulations, role-playing, and cases. Students may not receive credit for both MGT 420R and MGT 420. This is a distance education course.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 421",
+   "subject": "MGT",
+   "num": "421",
+   "title": "CEO, the Board of Directors, and Corporate Governance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides an understanding of relationships among shareholders, managers, and boards. Focuses on the office of the chief executive officer and on the board of directors, including the roles and responsibilities of directors, and the legal, economic, managerial, and psychological issues they confront. Students may not earn credit for both MGT 421 and MGT 211. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 422",
+   "subject": "MGT",
+   "num": "422",
+   "title": "Creativity and Innovation",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on fostering and maintaining creativity in entrepreneurial ventures and in general management more broadly. Reading materials, cases, classroom, and home exercises will help students understand and be able to use creativity in their own working lives. Students may not earn credit for both MGT 422 and MGT 222. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 425",
+   "subject": "MGT",
+   "num": "425",
+   "title": "Opportunity and Business Model Analysis",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Builds on core management courses and deals with identifying and assessing new technological and product opportunities. Assessment methods and frameworks will be introduced for technologies and opportunities. Various business models to profitably address the market opportunities will also be discussed.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 426",
+   "subject": "MGT",
+   "num": "426",
+   "title": "Creating a High-Performing Workplace",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Students will learn to develop a workforce that performs at the highest level through strategies and practices that recruit productive people, build commitment, foster innovation, and inspire and empower motivated employees to deliver results. Letter grades only. Students may not earn credit for both MGT 426 and MGT 262. Students may not receive credit for both MGT 426 and MGT 269 with the course subtitle Creating a High-Performing Workplace.",
+   "prereqText": "MBA student or department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 427",
+   "subject": "MGT",
+   "num": "427",
+   "title": "Decision Analysis",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides practical techniques to help structure decision problems and analyze them quantitatively. Techniques help thinking clearly about objectives, alternatives, consequences, and uncertainties, and enable logical judgments with other types of information. Letter grades only. Students may not earn credit for both MGT 427 and MGT 240. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 428",
+   "subject": "MGT",
+   "num": "428",
+   "title": "Managerial Decision-Making",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Effective decision-making requires savvy analysis of the uncertainty prevalent in today\u2019s business environments and the conflicting objectives attendant to any meaningful engagement. Of course, savvy analysis is not enough. You must also be adept at engaging others and obtain buy-in for insights you draw from any analysis. This course aims to improve understanding of the psychology of uncertainty and conflict, and improve understanding of how to best exert influence to achieve goals. Letter grade only.",
+   "prereqText": "MGT 409 and MBA student or by instructor approval or by department approval.",
+   "prereqs": [
+    [
+     "MGT 409"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 429",
+   "subject": "MGT",
+   "num": "429",
+   "title": "Topics in Corporate Governance",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in corporate governance. Instructional methods include face-to-face lecture, case presentations, assigned readings, and online group discussions. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not earn credit for both MGT 429 and MGT 219 if courses have same course subtitle. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 430",
+   "subject": "MGT",
+   "num": "430",
+   "title": "Biotechnology Industry, Structure, and Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides a business overview of the life science industry, its major market segments, financial structure, and financing strategies. Develops an understanding of major industry issues and strategies, including business development, financing, partnering and alliances, emerging trends, ethical and policy issues. Students may not earn credit for both MGT 430 and MGT 250. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 431",
+   "subject": "MGT",
+   "num": "431",
+   "title": "Power and Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Organizations are fundamentally political entities, and power and influence are key mechanisms by which things are accomplished. This course will encourage you to think about and develop your own personal path to power which can, of course, include a path away from power. Power is a topic that can make people uncomfortable, but it is a critical part of organizational life and this course will provide a safe space to work through this discomfort. No credit for MGT 431 if taken after MGT 431R.",
+   "prereqText": "MBA student or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 431R",
+   "subject": "MGT",
+   "num": "431R",
+   "title": "Power and Politics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Organizations are fundamentally political entities, and power and influence are key mechanisms by which things are accomplished. This course will encourage you to think about and develop your own personal path to power which can, of course, include a path away from power. Power is a topic that can make people uncomfortable, but it is a critical part of organizational life and this course will provide a safe space to work through this discomfort. No credit for MGT 431R if taken after MGT 431. This is a distance education course.",
+   "prereqText": "MBA student or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 432",
+   "subject": "MGT",
+   "num": "432",
+   "title": "Knowledge Management for Strategic Advantage",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Learn to compete through knowledge by analyzing strategy and differing bases of competitive advantage, and discovering how to mobilize the most powerful knowledge in the most appropriate manner. More than money, knowledge is the most important asset in an organization. The organization that learns to harness its knowledge strategically can gain and maintain competitive advantage on that basis.",
+   "prereqText": "MGT 403 and MGT 413; MBA student or by instructor approval or by department approval.",
+   "prereqs": [
+    [
+     "MGT 403"
+    ],
+    [
+     "MGT 413"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 433",
+   "subject": "MGT",
+   "num": "433",
+   "title": "Managing Health Care and Life Sciences",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Explores the business of health care and life sciences primarily from a U.S. perspective while drawing comparisons and highlighting alternate approaches from around the world. Students will gain an understanding of the roles, motivations, and interdependencies of key stakeholders such as patients, providers, payers, government, and industry. Second half of course focuses on trends, innovation, and disruption examining how stakeholders seek to address challenges and gain competitive advantage. Letter grade only.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 434",
+   "subject": "MGT",
+   "num": "434",
+   "title": "Strategic Communications and Storytelling",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This hands-on skills course explores how to combine narrative and data to engage, persuade, and inspire. Successful communication is the act of creating shared meaning. How do you find and then share the narrative and evidence that inspires others to action? This course runs in a hands-on lab format with weekly presentation deliverables and exercises. The focus is on developing leadership communications ability through application practice of skills and knowledge.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 439",
+   "subject": "MGT",
+   "num": "439",
+   "title": "Topics in Organizational Behavior",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in management and organizational behavior. Instructional methods include face-to-face lecture, case presentations, assigned readings, and online group discussions. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not earn credit for both MGT 439 and MGT 269 when they have the same subtitles.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 440",
+   "subject": "MGT",
+   "num": "440",
+   "title": "Supply Chain Cost Management Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides students with a comprehensive understanding of world-class supply management processes, data sources and processes to develop cost models, and a structured process to create and implement cost management strategies. Students learn through industry leader guest speakers and real-life examples of concept implementation at various Fortune 100 companies.",
+   "prereqText": "MGT 413 and MBA student or by instructor approval or by department approval.",
+   "prereqs": [
+    [
+     "MGT 413"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 441",
+   "subject": "MGT",
+   "num": "441",
+   "title": "Strategic Sourcing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Addresses the major aspects of strategic sourcing, including alignment with corporate and supply chain strategies, category management, supplier evaluation and selection, supplier performance, the source-to-settle process, elements of execution, sustainability and corporate social responsibility, and risk. The course will provide a framework and tools for strategic sourcing that students will be able to use and apply effectively in industry.",
+   "prereqText": "MGT 413 and MBA student or by instructor approval or by department approval.",
+   "prereqs": [
+    [
+     "MGT 413"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 442",
+   "subject": "MGT",
+   "num": "442",
+   "title": "Topics in Decision Sciences",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in management and decision sciences. Instructional methods include face-to-face lecture, case presentations, assigned readings, and group discussions. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not earn credit for both MGT 442 and MGT 249 with same course subtitle. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 443",
+   "subject": "MGT",
+   "num": "443",
+   "title": "Topics in International Business",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in international business. Instructional methods include face-to-face lecture, case presentations, assigned readings, and group discussions. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not earn credit for both MGT 443 and MGT 229 when the course subtitles are the same.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 444",
+   "subject": "MGT",
+   "num": "444",
+   "title": "Topics in Business Strategy",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Advanced topics of special interest in business strategy. Instructional methods include face-to-face lecture sessions and case discussion. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not earn credit for both MGT 444 and MGT 251 when the subtitles are the same.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 445",
+   "subject": "MGT",
+   "num": "445",
+   "title": "Regulation and Innovation",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Addresses the complex role of regulation in business innovation. Includes legal issues such as how to structure a business, whether to seek intellectual property protection, when and how to raise capital or formulate exit strategies, how to make employment decisions.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 446",
+   "subject": "MGT",
+   "num": "446",
+   "title": "Spreadsheet Modeling",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course will provide students with knowledge and techniques to apply management science principles and spreadsheet modeling to support decision-making under various business scenarios. Students will learn and understand the fundamentals of analytical modeling, understand business problems and convert them to analytical models, build spreadsheet models, and effectively deliver managerial implications derived from computer models.",
+   "prereqText": "MGT 413 and MBA student or by instructor approval or by department approval.",
+   "prereqs": [
+    [
+     "MGT 413"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 448",
+   "subject": "MGT",
+   "num": "448",
+   "title": "Leveraging Blockchain Technologies: The Case Study of Healthcare Transformation",
+   "units": "2",
+   "level": "Graduate",
+   "description": "The course explores the potential for blockchain technology to revolutionize the healthcare industry. The course will focus on healthcare verticals including supply chain, clinical trials, medical devices, electronic health records, and genomics, but also compare healthcare blockchain utilization with other industrial sectors.",
+   "prereqText": "MGT 413 and MBA student or by instructor approval or by department approval.",
+   "prereqs": [
+    [
+     "MGT 413"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 449",
+   "subject": "MGT",
+   "num": "449",
+   "title": "Topics in Operations and Technology",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in operations. Instructional methods include face-to-face lecture, case presentations, assigned readings, and online group discussions. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not earn credit for both MGT 449 and MGT 279 when the course subtitles are the same.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 450",
+   "subject": "MGT",
+   "num": "450",
+   "title": "Project Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides management concepts and tools to enable the more effective design, planning, and control of projects. Includes both the qualitative and quantitative aspects of project management. Students may not earn credit for both MGT 450 and MGT 270. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 451",
+   "subject": "MGT",
+   "num": "451",
+   "title": "AI and Disruptive Technology Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focuses on how AI will redefine businesses in the digital age. Studies the fundamental topics of innovation driven by AI+X revolution, disruptive technologies, and digital transformation. Covers the TOE theory and S curves to discriminate between trends and fads, how to make decisions about investment in technologies and new ventures, and a look into the game changers in many industries (e.g., high tech, finance, healthcare). Prepares students to become leaders in the tech-intensive world. Students may not earn credit for both MGT 451 and MGT 451R.",
+   "prereqText": "MBA student or instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 451R",
+   "subject": "MGT",
+   "num": "451R",
+   "title": "AI and Disruptive Technology Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focuses on how AI will redefine businesses in the digital age. Studies the fundamental topics of innovation driven by AI+X revolution, disruptive technologies, and digital transformation. Covers the TOE theory and S curves to discriminate between trends and fads, how to make decisions about investment in technologies and new ventures, and a look into the game changers in many industries (e.g., high tech, finance, healthcare). Prepares students to become leaders in the tech-intensive world. Students may not earn credit for both MGT 451 and MGT 451R.",
+   "prereqText": "MBA student or instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 452",
+   "subject": "MGT",
+   "num": "452",
+   "title": "New Product Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides comprehensive analytical coverage of the new product development process, focusing on the basic tools, methods, and organizational structures used in new product development and management. No credit for MGT 452 if taken after MGT 452R.",
+   "prereqText": "MGT 412 or MGT 412R. MBA student or instructor approval or department approval.",
+   "prereqs": [
+    [
+     "MGT 412",
+     "MGT 412R"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 452R",
+   "subject": "MGT",
+   "num": "452R",
+   "title": "New Product Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides comprehensive analytical coverage of the new product development process, focusing on the basic tools, methods, and organizational structures used in new product development and management. No credit for MGT 452R if taken after MGT 452. This is a distance education course.",
+   "prereqText": "MGT 412 or MGT 412R; Executive MBA student or instructor or department approval.",
+   "prereqs": [
+    [
+     "MGT 412",
+     "MGT 412R"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 453",
+   "subject": "MGT",
+   "num": "453",
+   "title": "Supply Chain Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Describes the systems approach to managing the entire flow of information, materials, and services from raw materials suppliers through factories and warehouses to the end customer, which is the key to productivity and competitiveness of manufacturing and service enterprises. The course integrates issues from marketing (channels of distribution), logistics, and operations. No credit for MGT 453 if taken after MGT 453R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 453R",
+   "subject": "MGT",
+   "num": "453R",
+   "title": "Supply Chain Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Describes the systems approach to managing the entire flow of information, materials, and services from raw materials suppliers through factories and warehouses to the end customer, which is the key to productivity and competitiveness of manufacturing and service enterprises. The course integrates issues from marketing (channels of distribution), logistics, and operations. No credit for MGT 453R if taken after MGT 453. This course is a distance education course.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 454",
+   "subject": "MGT",
+   "num": "454",
+   "title": "Disruptive Technologies for Health Care",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduces how IT will transform health sciences. Highlights how IT and associated disruptive innovations in health-care delivery will enable physicians, patients, and caregivers to cost effectively prevent, diagnose, and monitor health conditions; manage treatment; and facilitate timely communication and intervention. Letter grades only. Students may not earn credit for both MGT 454 and MGT 274. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 455",
+   "subject": "MGT",
+   "num": "455",
+   "title": "Customer Analytics and AI",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Many firms have extensive information about customers\u2019 choices and how they respond to business initiatives. In this course, you will learn to leverage AI and machine learning to collect, analyze, and act on such customer data. The course is hands-on, uses real-world data, and will equip students with skills that produce immediate value on the job. Python, Radiant for Python, ChatGPT with code interpreter, and Copilot are the key analytical tools used in the class. Letter grade only. Students may not earn credit for both MGTA 455 and MGTA 455R.",
+   "prereqText": "restricted to MBA students or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 455R",
+   "subject": "MGT",
+   "num": "455R",
+   "title": "Customer Analytics and AI",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Many firms have extensive information about customers\u2019 choices and how they respond to business initiatives. In this course, you will learn to leverage AI and machine learning to collect, analyze, and act on such customer data. The course is hands-on, uses real-world data, and will equip students with skills that produce immediate value on the job. Python, Radiant for Python, ChatGPT with code interpreter, and Copilot are the key analytical tools used in the class. Letter grade only. Students may not receive credit for both MGTA 455R and MGTA 455.",
+   "prereqText": "MBA student or by instructor approval or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 456",
+   "subject": "MGT",
+   "num": "456",
+   "title": "Innovative Product and Program Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Deals with knowledge, skills, and competencies needed to become a high-performing product and project program manager. Focus is on increasingly ubiquitous digitally-enriched products, and also considers digital transformation of conventional projects and products (life sciences and electromechanical products) in a high-velocity environment. Key aspects of product strategy, agile product development, and product life cycle management are discussed.",
+   "prereqText": "restricted to MBA students or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 458",
+   "subject": "MGT",
+   "num": "458",
+   "title": "Experiments in Firms",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The goals of the course are for students to understand the role of experiments in business, how insights from behavioral economics can be incorporated into experimental interventions, and how to design and run an experiment in an organization. No credit for MGT 458 if taken after MGT 458R. Letter grade only.",
+   "prereqText": "restricted to MBA students or by instructor or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 458R",
+   "subject": "MGT",
+   "num": "458R",
+   "title": "Experiments in Firms",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The goals of the course are for students to understand the role of experiments in business, how insights from behavioral economics can be incorporated into experimental interventions, and how to design and run an experiment in an organization. No credit for MGT 458R if taken after MGT 458. This is a distance education course. Letter grade only.",
+   "prereqText": "restricted to MBA students or by instructor or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 459",
+   "subject": "MGT",
+   "num": "459",
+   "title": "Topics in Innovation",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Advanced topics in business innovation, delivered by lecture, case presentation, and group discussion. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not earn credit for both MGT 459 and MGT 221 if the course has the same course subtitle. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 461R",
+   "subject": "MGT",
+   "num": "461R",
+   "title": "Behavioral Economics and Market Design",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course explores the intersection of behavioral economics, decision-making, and market design. Students will develop a deep understanding of how psychological, cognitive, and emotional factors influence individual and firm decision-making. Students will leverage this insight to learn how to design more efficient and equitable markets, policies, and business strategies. This is a distance education course.",
+   "prereqText": "Executive MBA student or department or instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 463",
+   "subject": "MGT",
+   "num": "463",
+   "title": "Projects in Technology Commercialization",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This elective engages students in the process of commercializing technology through experiential learning. Students will gain an increased understanding of commercialization, including introducing a new product into the market, customer development, and market selection. Students will be required to incorporate the latest research methods for identifying customers, analyzing markets, and developing strategies for market entry and growth. Lectures and a student group project will be conducted. Students may not earn credit for both MGT 463 and MGT 223. Also, students may not receive credit for both MGT 463 and MGT 221 Topics in Innovation course with the subtitle Projects in Technology Commercialization.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 464",
+   "subject": "MGT",
+   "num": "464",
+   "title": "Projects in Business Innovation",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Students will use latest research in management, marketing, finance, strategy, and operations to analyze current business problems posed by real companies and will recommend to senior management strategies that resolve the problem(s) presented in the project. Students may not earn credit for both MGT 464 and MGT 224. Students may not receive credit for both MGT 224 and MGT 221, Topics in Innovation, with the course subtitle Projects in Business Innovation.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 469",
+   "subject": "MGT",
+   "num": "469",
+   "title": "Topics in Accounting",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in accounting. Instructional methods include face-to-face lecture, case presentations, assigned readings, and online group discussions. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not receive credit for both MGT 239 and MGT 469.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 470",
+   "subject": "MGT",
+   "num": "470",
+   "title": "Digital Disruption",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An advanced graduate course focusing on digital business model innovation using customer-centric principles. Students will learn to identify opportunities for disruption and assess risks of being disrupted using the customer value chain. They will learn how to build business models by harnessing the power of decoupling.",
+   "prereqText": "MGT 407 and MBA or MSBA student or by instructor approval or by department approval.",
+   "prereqs": [
+    [
+     "MGT 407"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 471",
+   "subject": "MGT",
+   "num": "471",
+   "title": "Digital Transformation",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An advanced graduate course focusing on the digitization of traditional businesses. In the past decade, traditional incumbents in various industries have faced enormous threats from tech companies and start-ups. This course will teach the basic defensive strategies and frameworks for those who will work (or consult) for incumbents in any industries facing these threats. Students will also learn how to redesign a traditional business model and map the transition path for a digital transformation.",
+   "prereqText": "MGT 407 and MBA or MSBA student or by instructor approval or by department approval.",
+   "prereqs": [
+    [
+     "MGT 407"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 473",
+   "subject": "MGT",
+   "num": "473",
+   "title": "Data Science with Large Language Models",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Learn to use AI tools like ChatGPT for data analysis. Course teaches R programming basics first, then shows how to delegate increasingly complex tasks to AI. Four chapters will cover understanding AI-generated code, collaborating with AI, managing AI for analysis projects, and creating custom GPTs. Focus on verifying AI output and asking the right business questions rather than coding expertise.",
+   "prereqText": "MGT 403 or MGT 403R; MBA student or department and instructor approval.",
+   "prereqs": [
+    [
+     "MGT 403",
+     "MGT 403R"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 475",
+   "subject": "MGT",
+   "num": "475",
+   "title": "Research for Marketing Decisions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Methods and applications of qualitative and quantitative marketing research to solve substantive marketing problems. Emphasis on integrating problem formulation, research design, questionnaire construction, and sampling to yield the most valuable information, and on the proper use of statistical methods. Students may not earn credit for both MGT 475 and MGT 202. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 476",
+   "subject": "MGT",
+   "num": "476",
+   "title": "Marketing Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Addresses formulation and implementation of marketing strategy based on an integrative view of competitive brand strategy over the product life cycle. Provides a framework for developing marketing strategies yielding sustainable competitive advantage based on customer, competitor, industry, and environmental analysis. Students may not earn credit for both MGT 476 and MGT 201. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 477",
+   "subject": "MGT",
+   "num": "477",
+   "title": "Consumer Behavior",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course identifies the factors that influence the selection and usage of products and services. Students will be introduced to problems/decisions that include evaluating behavior; understanding the consumers\u2019 decision process, and strategies to create desirable consumer behavior. Students may not earn credit for both MGT 477 and MGT 477R. They are course equivalents.",
+   "prereqText": "MGT 407 or MGT 407R; MBA student or instructor approval or department approval.",
+   "prereqs": [
+    [
+     "MGT 407",
+     "MGT 407R"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 477R",
+   "subject": "MGT",
+   "num": "477R",
+   "title": "Consumer Behavior",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course identifies the factors that influence the selection and usage of products and services. Students will be introduced to problems and decisions that include evaluating behavior; understanding the consumers\u2019 decision process, and strategies to create desirable consumer behavior. Students may not earn credit for both MGT 477R and MGT 477. They are course equivalents. This is a distance education course.",
+   "prereqText": "MGT 407 or MGT 407R; MBA student or instructor approval or department approval.",
+   "prereqs": [
+    [
+     "MGT 407",
+     "MGT 407R"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 478",
+   "subject": "MGT",
+   "num": "478",
+   "title": "Marketing Communications",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course differentiates decisions/principles considered when developing an overall communications and promotions strategy. Key decisions include the promotional mix, the design, implementation and evaluation of communications strategies and the thinking required to develop a creative strategy. Students may not earn credit for both MGT 478 and MGT 204. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 479",
+   "subject": "MGT",
+   "num": "479",
+   "title": "Pricing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This class covers issues in pricing decisions. The main emphasis will be on the data and tools required to make successful profitable pricing decisions. Students may not earn credit for both MGT 479 and MGT 205. They are course equivalents.",
+   "prereqText": "MGT 407 and MBA student or consent of instructor and department stamp.",
+   "prereqs": [
+    [
+     "MGT 407"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 480",
+   "subject": "MGT",
+   "num": "480",
+   "title": "Sales and Sales Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Offers a pragmatic view into the world of sales, from its strategic importance to the day-to-day creation and management of a sales organization. Students will also have the opportunity to develop and practice their own sales skills. Letter grades only. Students may not earn credit for both MGT 480 and MGT 206. Also, students may not receive credit for MGT 480 and MGT 209 Topics in Marketing with the course subtitle Sales and Sales Management.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 481",
+   "subject": "MGT",
+   "num": "481",
+   "title": "Social Media Marketing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examine tools and frameworks to understand how companies can effectively implement social media marketing campaigns. Through case studies, experiments, research, and class discussion, explore how companies use these emerging technologies to reach and engage customers in powerful new ways. Letter grade only.",
+   "prereqText": "MBA student or by instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 482",
+   "subject": "MGT",
+   "num": "482",
+   "title": "Brand Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A brand is a company\u2019s most important asset, driving financial success, loyalty, and competitive advantage. This course takes a strong stance on brand management, viewing brands as cocreations of consumers and marketers. Brand managers navigate meaning-making, ensuring resonance, value, and risk mitigation over time. Using case studies, the course emphasizes real-world applications, fostering collaborative discussions that enhance learning beyond any single instructor\u2019s expertise. Students will not receive credit for both MGT 482 and MGT 482R.",
+   "prereqText": "MBA student or by instructor or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 482R",
+   "subject": "MGT",
+   "num": "482R",
+   "title": "Brand Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A brand is a company\u2019s most important asset, driving financial success, loyalty, and competitive advantage. This course takes a strong stance on brand management, viewing brands as cocreations of consumers and marketers. Brand managers navigate meaning-making, ensuring resonance, value, and risk mitigation over time. Using case studies the course emphasizes real-world applications, fostering collaborative discussions that enhance learning beyond any single instructor\u2019s expertise. Students will not receive credit for both MGT 482R and MGT 482. This is a distance education course.",
+   "prereqText": "MBA student or by instructor or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 485",
+   "subject": "MGT",
+   "num": "485",
+   "title": "E-Commerce",
+   "units": "4",
+   "level": "Graduate",
+   "description": "E-Commerce is the online exchange of information leading to mutually beneficial transactions. Students will learn and apply skills related to business opportunity ideation and evaluation, customer and market research, sourcing, fulfillment, positioning, pricing, branding, storytelling, store design, user experience testing, website analytics, search engine optimization, social media, content marketing, digital advertising, and online experimentation.",
+   "prereqText": "MBA student or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 486",
+   "subject": "MGT",
+   "num": "486",
+   "title": "Real Estate Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of real estate capital markets, both debt and equity. Covered topics include real estate valuation, real options applied to real estate, real estate equity markets, and the place of real estate within a diversified investor\u2019s portfolio. Letter grades only. No credit for MGT 486 if taken after MGTF 408 or MGT 486R.",
+   "prereqText": "MGT 408 or MGT 408R; MBA student or instructor approval or department approval.",
+   "prereqs": [
+    [
+     "MGT 408",
+     "MGT 408R"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 486R",
+   "subject": "MGT",
+   "num": "486R",
+   "title": "Real Estate Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of real estate capital markets, both debt and equity. Covered topics include real estate valuation, real options applied to real estate, real estate equity markets, and the place of real estate within a diversified investor\u2019s portfolio. Letter grade only. No credit for MGT 486R if taken after MGTF 408 or MGT 486. This is a distance education course.",
+   "prereqText": "MGT 408 or MGT 408R; Executive MBA student or instructor approval or department approval.",
+   "prereqs": [
+    [
+     "MGT 408",
+     "MGT 408R"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 487",
+   "subject": "MGT",
+   "num": "487",
+   "title": "Valuation in Corporate Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covering the fundamentals of corporate finance and their application to valuation (including the WACC approach, APV approach, multiples and real option valuation). We focus on important areas of corporate finance, including capital structure, real options, and financial distress and bankruptcy. Students may not receive credit for both MGT 487 and MGTF 407.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 488R",
+   "subject": "MGT",
+   "num": "488R",
+   "title": "Applied Market Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The business world revolves around managerial decisions, and those ought to be data driven. In this course we will learn about planning, implementing, and analyzing market research; synthesizing multi-methods research; and presenting market research results. We will do this by actually doing it. We will learn how to plan and conduct interviews; how to design, execute, and analyze surveys; and how to employ cutting-edge tools such as adaptive conjoint analysis to quantify attribute levels and trade-offs. This course is a distance education course.",
+   "prereqText": "MBA student or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 489",
+   "subject": "MGT",
+   "num": "489",
+   "title": "Topics in Marketing",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in marketing. Instructional methods include face-to-face lecture, case presentations, assigned readings, and group discussions. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not earn credit for both MGT 489 and MGT 209 if the course has the same course subtitle. They are course equivalents.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 490",
+   "subject": "MGT",
+   "num": "490",
+   "title": "Mergers, Acquisitions, and Corporate Restructurings",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Explains the mergers and acquisitions process. Topics include history, motivation, valuation, legal framework and tax issues of M&A, anti-takeover strategies, takeover tactics, leveraged buyouts, joint venture, and strategic alliances. Students may not receive credit for both MGT 490 and MGTF 409.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 491",
+   "subject": "MGT",
+   "num": "491",
+   "title": "Investments",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines financial theory and empirical evidence useful for making investment decisions. Topics include portfolio theory, equilibrium models of security prices, the empirical behavior of security prices, market efficiency, and fixed-income markets and behavioral finance.",
+   "prereqText": "MGT 408 and MBA student or consent of instructor and department stamp.",
+   "prereqs": [
+    [
+     "MGT 408"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 492",
+   "subject": "MGT",
+   "num": "492",
+   "title": "Financial Risk Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Explains how to identify, measure, and analyze investment risks associated with interest rates, currency exchange, and equity markets, and acquire techniques to manage and control risk through the use of over-the-counter and exchange-traded derivatives. Letter grades only. Students will not receive credit for both MGT 492 and MGT 492R.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 492R",
+   "subject": "MGT",
+   "num": "492R",
+   "title": "Financial Risk Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Explains how to identify, measure, and analyze investment risks associated with interest rates, currency exchange, and equity markets and acquire techniques to manage and control risk through the use of over-the-counter and exchange-traded derivatives. Letter grades only. Students will not receive credit for both MGT 492R and MGT 492. This is a distance education course.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 493",
+   "subject": "MGT",
+   "num": "493",
+   "title": "New Venture Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focuses on the financing of new ventures and technological innovation. Includes perspectives of both the entrepreneur and the investor, including the venture capital process and methods of financial valuation useful in the venture capital industry and for other technology investments. Students may not receive credit for both MGT 493 and MGTF 410.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 493R",
+   "subject": "MGT",
+   "num": "493R",
+   "title": "New Venture Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focuses on the financing of new ventures and technological innovation. Includes perspectives of both the entrepreneur and the investor, including the venture capital process and methods of financial valuation useful in the venture capital industry and for other technology investments. Students may receive credit for one of the following: MGT 493R or MGT 493 or MGTF 410. This is a distance education course.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 494",
+   "subject": "MGT",
+   "num": "494",
+   "title": "Financial Statement Analysis",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Develop a deeper familiarity with financial accounting and assumptions underlying measurements reported in financial statements. Understanding of economic and regulatory forces underlying corporate disclosure of financial statements. Knowledge of data sources and analytical tools to extract and evaluate this data. Students may not receive credit for both MGT 494 and MGTF 412.",
+   "prereqText": "MBA student or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 495",
+   "subject": "MGT",
+   "num": "495",
+   "title": "Topics in Finance",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Advanced topics in finance. Instructional methods include face-to-face lecture and case discussion. May be taken for credit four times, for a maximum of sixteen units if the topics are significantly different. Students may not earn credit for both MGT 495 and MGT 282 when the course subtitles are the same.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 496A",
+   "subject": "MGT",
+   "num": "496A",
+   "title": "Venture Capital Management I",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Hands-on experience in venture investing. Direct involvement in all stages of managing Rady Venture Fund, including applicant sourcing, initial analysis, due diligence, investment negotiation, portfolio monitoring. IP grade awarded at end of quarter. Final grade assigned upon completion of MGT 496B. Students may not earn credit for both MGT 496A and MGT 289A. S/U grades only.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 496B",
+   "subject": "MGT",
+   "num": "496B",
+   "title": "Venture Capital Management II",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Provides hands-on experience in venture investing. Direct involvement in all stages of managing the Rady Venture Fund, including sourcing applicants, performing initial analysis, due diligence, investment negotiation, monitoring of the portfolio. Students have substantial input into fund investment decisions. Students may not earn credit for both MGT 496B and MGT 289B. They are course equivalents. S/U grades only.",
+   "prereqText": "MGT 496A and MBA student or consent of instructor and department stamp.",
+   "prereqs": [
+    [
+     "MGT 496A"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 497",
+   "subject": "MGT",
+   "num": "497",
+   "title": "Advanced Management Research Practicum",
+   "units": "1",
+   "level": "Graduate",
+   "description": "Internship with approved business or governmental agency, allowing student to pursue topics raised in the management core and elective courses. S/U grades only. May be taken for credit four times, for a maximum of four units, with instructor consent. Students may not earn credit for both MGT 497 and MGT 297. Internship credit may not be applied to fulfill specific course requirements or to credits required for graduation.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 499",
+   "subject": "MGT",
+   "num": "499",
+   "title": "Individual Directed Study",
+   "units": "1\u20134",
+   "level": "Graduate",
+   "description": "Individual study or research under the direction of a selected faculty member. May be taken for credit twelve times. Students may earn credit for a total of twelve units in MGT 299 and/or MGT 499.",
+   "prereqText": "MBA student or consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 405",
+   "subject": "MGTF",
+   "num": "405",
+   "title": "Business Forecasting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to state-of-the-art forecasting methods in finance. Students will learn to estimate forecasting models based on past values of the predicted variable(s), surveys, market information, and other economic data. Participants will become critical consumers of forecasts reported in the media. Letter grades only.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 406",
+   "subject": "MGTF",
+   "num": "406",
+   "title": "Behavioral Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Develop theories of behavior motivated by psychology to describe various features of financial markets. Examine how the insights from behavioral finance complement the traditional paradigm and shed light on investors\u2019 trading patterns, the behavior of asset prices, and corporate finance. Letter grades only.",
+   "prereqText": "MGTF 402; restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": [
+    [
+     "MGTF 402"
+    ]
+   ]
+  },
+  {
+   "code": "MGTF 432",
+   "subject": "MGTF",
+   "num": "432",
+   "title": "Portfolio Theory in Practice",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides students with a deeper and broader understanding of risk-return analysis (especially, but not exclusively, mean-variance analysis) than is common among users. Surveys how risk-return analysis is used in practice and examines the \u201cModern Portfolio Theory Industry\u201d and its entrepreneurs. Letter grades only. Students may not receive credit for both MGT 232 and MGT 282 Topics in Finance course with same course subtitle: Portfolio Theory in Practice.",
+   "prereqText": "MGT 281 or MGT 491; restricted to master of finance students, MBA students, or consent of instructor.",
+   "prereqs": [
+    [
+     "MGT 281",
+     "MGT 491"
+    ]
+   ]
+  },
+  {
+   "code": "MGTF 401",
+   "subject": "MGTF",
+   "num": "401",
+   "title": "Financial Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Overview of financial accounting reporting, with a primary focus on the analysis of economic events and their effect on the major financial statements (balance sheet, income statement, and statement of cash flows). Learn the nature and purpose of accounting methods. Letter grades only. Students may receive credit for one of the following: MGTF 401, MGT 404, or MGT 404R.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 402",
+   "subject": "MGTF",
+   "num": "402",
+   "title": "Investment Analysis",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduces quantitative methods for analyzing the pricing and return behavior of assets such as stocks, bonds, and derivatives; and develops methods for implementing modern portfolio theory in practice. The most influential financial models are derived; their practical applications are discussed. Letter grades only.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 403",
+   "subject": "MGTF",
+   "num": "403",
+   "title": "Advanced Financial Risk Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduces ways to identify, measure, estimate, and control risks in the context of risk management as applied in fixed income, foreign exchange, and equity markets. Reviews the pricing and hedging applications of derivatives, such as futures, options, and CDSs. Letter grades only.",
+   "prereqText": "restricted to master of quantitative finance program or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 404",
+   "subject": "MGTF",
+   "num": "404",
+   "title": "Financial Econometrics and Empirical Methods",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Bridging the gap between theoretical financial models and the real world. Covering the major accomplishments of empirical finance. Empirical exercises and analysis of real financial data will help students to truly appreciate the content of the course. Letter grades only.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 407",
+   "subject": "MGTF",
+   "num": "407",
+   "title": "Valuation in Corporate Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covering the fundamentals of corporate finance and their application to valuation (including the WACC approach, APV approach, multiples, and real option valuation). We focus on important areas of corporate finance, including capital structure, real options, and financial distress and bankruptcy. Letter grades only. Students may not receive credit for both MGTF 407 and MGT 487.",
+   "prereqText": "MGTF 402; restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": [
+    [
+     "MGTF 402"
+    ]
+   ]
+  },
+  {
+   "code": "MGTF 408",
+   "subject": "MGTF",
+   "num": "408",
+   "title": "Real Estate Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of real estate capital markets, both debt and equity. Covered topics include real estate valuation, real options applied to real estate, real estate equity markets, and the place of real estate within a diversified investor\u2019s portfolio. Letter grades only. Students may not receive credit for both MGTF 408 and MGT 486.",
+   "prereqText": "MGTF 402; restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": [
+    [
+     "MGTF 402"
+    ]
+   ]
+  },
+  {
+   "code": "MGTF 409",
+   "subject": "MGTF",
+   "num": "409",
+   "title": "Mergers, Acquisitions, and Corporate Restructuring",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Explains the mergers and acquisitions process. Topics include history, motivation, valuation, legal framework and tax issues of mergers and acquisitions, antitakeover strategies, takeover tactics, leveraged buyouts, joint venture, and strategic alliances. Students may not receive credit for both MGTF 409 and MGT 490.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 410",
+   "subject": "MGTF",
+   "num": "410",
+   "title": "New Venture Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focuses on the financing of new ventures and technological innovation. Includes perspectives of both the entrepreneur and the investor, investigating the venture capital process, and methods of financial valuation useful in the venture capital industry and for other technology investments. Letter grades only. Students may not receive credit for both MGTF 410 and MGT 493.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 411",
+   "subject": "MGTF",
+   "num": "411",
+   "title": "Asset Pricing Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Many closed-form analytic results in finance are obtained in the continuous-time setting. This course covers portfolio choice, derivative pricing, and term structure modeling in continuous time setting. The objective is to understand important topics and master techniques of continuous-time models. Letter grades only. Students may not receive credit for both MGTF 411 and MGT 286. These are course duplicates.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 412",
+   "subject": "MGTF",
+   "num": "412",
+   "title": "Financial Statement Analysis",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Develop a deeper familiarity with financial accounting and assumptions underlying measurements reported in financial statements. Understanding of economic and regulatory forces underlying corporate disclosure of financial statements. Knowledge of data sources and analytical tools to extract and evaluate this data. Letter grades only. Students may not receive credit for both MGTF 412 and MGT 494.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 413",
+   "subject": "MGTF",
+   "num": "413",
+   "title": "Computational Finance Methods",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course introduces students to a variety of mathematical methods as applied in finance, including Monte Carlo simulation, optimization methods, and numerical solution to PDEs. Letter grades only.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 414",
+   "subject": "MGTF",
+   "num": "414",
+   "title": "Analyzing Large Data",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to both structured and unstructured data analysis. Methods for \u201charvesting\u201d internet data and putting it into suitable format will be covered. Other topics include large market microstructure data (tick-by-tick data, high-frequency data), data with missing observations, and Kalman filtering. Letter grades only.",
+   "prereqText": "restricted to master of finance program or by consent of instructor and department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 415",
+   "subject": "MGTF",
+   "num": "415",
+   "title": "Collecting and Analyzing Financial Data",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Teaches students how to obtain and process data in order to answer empirical questions in finance. The data can be numerical or textual, and structured or unstructured. Specific data sources may include CRSP, Compustat, Thomson Reuters, and Bloomberg. Some programming. Letter grades only.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 416",
+   "subject": "MGTF",
+   "num": "416",
+   "title": "Professional Seminars in Finance",
+   "units": "1",
+   "level": "Graduate",
+   "description": "Discussion series involving industry experts, alumni, and executives on current issues in financial services. Educates students on industry trends. Prepares students to be effective users of the financial press and to be effective in discussion and interaction with financial professionals. S/U grades only. May be taken for credit two times. Students may not earn credit for both MGTF 416 and MGT 401.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 417",
+   "subject": "MGTF",
+   "num": "417",
+   "title": "Professional Communications in Finance",
+   "units": "1",
+   "level": "Graduate",
+   "description": "Focuses on communications skills and abilities required for effective professionals in the financial services sector. Addresses oral and written communications, including presentations, informational and job interviewing, resume writing, cross-cultural communication, and report writing. S/U grades only. May be taken for credit two times. Students may not earn credit for both MGTF 417 and MGT 402.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 418",
+   "subject": "MGTF",
+   "num": "418",
+   "title": "Preparing for the CFA Exam",
+   "units": "2",
+   "level": "Graduate",
+   "description": "The Chartered Financial Analyst (CFA) designation is the industry-accepted gold standard for financial analysts. To earn the CFA charter, students must pass three very challenging exams. Students will look at each of the ten major topic areas and explore the level of understanding that is required to pass the first-level exam. Students will do applied valuation work as well as highlight study habits of successful past candidates.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 419",
+   "subject": "MGTF",
+   "num": "419",
+   "title": "CFA Level II Exam Preparation",
+   "units": "2",
+   "level": "Graduate",
+   "description": "This course prepares the student for taking the CFA Level II exam. Course material will include review material on all areas of the test and will also include practice tests.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 420",
+   "subject": "MGTF",
+   "num": "420",
+   "title": "Financial Markets and Institutions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is aimed at developing analytical and transferable skills in the area of management of monetary policy and banking and nonbanking financial institutions, issues of credit and financial regulation. Making the connection with real life is the primary focus of this course.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 421",
+   "subject": "MGTF",
+   "num": "421",
+   "title": "Corporate Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course covers the foundations of finance with emphasis on corporate finance applications. Discussion of the major financial decisions made by managers both within the firm and in interactions with investors. Essential in most of these decisions is the process of valuation which is an important emphasis of the course.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 422",
+   "subject": "MGTF",
+   "num": "422",
+   "title": "Derivatives and Structured Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides an overview of options, futures, swaps, and other derivatives, many of which are now commonplace in financial markets. Discussion around examples of how derivatives are used to solve particular problems in practice, as well as the underlying pricing methodologies.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 423",
+   "subject": "MGTF",
+   "num": "423",
+   "title": "Data Science for Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to a collection of powerful, open-source tools needed to manage and analyze data and to conduct data science in finance applications. Course will give an overview of the basic process of data science and dive into the data management and machine learning techniques useful for financial data analysis.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 424",
+   "subject": "MGTF",
+   "num": "424",
+   "title": "Data Science for Finance\u2014Machine Learning Applications",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers machine learning techniques useful for financial data analysis. The class will introduce a collection of powerful open-source tools including but not limited to Python and PostgreSQL. Not only will the students learn the theory of data science but also apply this theory to real world applications in class, homework, and a project.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 430",
+   "subject": "MGTF",
+   "num": "430",
+   "title": "Asset Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Students will investigate the reasons behind resource expenditure related to Modern Portfolio Theory (MPT). They will examine ways in which an investor can aim to outperform the predictions of MPT, either by reducing risk without impacting return negatively, or increasing returns without increasing risk. The concepts of this course will be demonstrated through a combination of classroom lectures and case discussions.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 458",
+   "subject": "MGTF",
+   "num": "458",
+   "title": "Financial Innovations for Economic Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on the means and methods of finance applied to social, economic, and environmental challenges of development. Financial innovations give rise to new intermediaries, new types of instruments, and new services or techniques to create jobs, build communities, and enable capital formation and economic growth. Students will discover why capital structure matters in aligning diverse interests into new business models to finance social and economic change.",
+   "prereqText": "restricted to master of finance program or by department stamp.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 490",
+   "subject": "MGTF",
+   "num": "490",
+   "title": "Capstone: Applied Finance Project",
+   "units": "4",
+   "level": "Graduate",
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGTF 495",
+   "subject": "MGTF",
+   "num": "495",
+   "title": "Special Topics in Finance",
+   "units": "2\u20134",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in finance. Instructional methods can include face-to-face lecture, case presentations, assigned teaching, and/or online group discussions. May be taken for credit up to four times. Students may not earn credit when course subtitles are the same.",
+   "prereqText": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 402",
+   "subject": "MGTA",
+   "num": "402",
+   "title": "Data Driven Communications",
+   "units": "2",
+   "level": "Graduate",
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 403",
+   "subject": "MGTA",
+   "num": "403",
+   "title": "AI-Assisted Math and Programming for Business Analytics",
+   "units": "2\u20134",
+   "level": "Graduate",
+   "description": "Success in business analytics (aka data science for business) requires a solid foundation in mathematics, statistics, and programming. This course is designed to enhance students\u2019 ability to solve math and programming challenges using AI tools like ChatGPT (Code Interpreter) and GitHub Co-Pilot X. This AI-assisted course will be the start of the students\u2019 learning journey and will set students up to create analytical solutions to important business problems.",
+   "prereqText": "restricted to MS in business analytics students or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 414",
+   "subject": "MGTA",
+   "num": "414",
+   "title": "Web Data Analytics",
+   "units": "2",
+   "level": "Graduate",
+   "description": "This course focuses on collecting, drawing inference, and making business decisions based on data. It will cover tools such as Python, APIs, and NLP to collect, manipulate, and analyze data from the web and other sources, with the objective of making students data-savvy and comfortable with deriving insights from real-world, large data sets. Students will be exposed to the power of clickstream analysis and the possibilities that can be unleashed from industrial applications of web data analytics.",
+   "prereqText": "restricted to MS in business analytics students or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 415",
+   "subject": "MGTA",
+   "num": "415",
+   "title": "Analyzing Unstructured Data",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Unstructured data such as text, images, and video are routinely collected by companies and other organizations. The complex nature and scale of data such as this requires specialized analytics frameworks. In this course, we discuss and use tools that empower decision makers to extract actionable information from unstructured data.",
+   "prereqText": "MGTA 452, and restricted to MS in business analytics students or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 444",
+   "subject": "MGTA",
+   "num": "444",
+   "title": "Business Analytics Consulting",
+   "units": "2",
+   "level": "Graduate",
+   "description": "The framing of the solution approach is arguably the most important step in building a practical solution to a complex business problem. Should one do a statistical analysis, build a machine learning predictive model, a forecast, a simulation? What are we trying to understand or predict? What is the business objective? What are the deliverables? How will our results be evaluated? This course will give the students experience at framing a wide variety of business analytics problems.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, and restricted to MS in business analytics program.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 451",
+   "subject": "MGTA",
+   "num": "451",
+   "title": "Business Analytics in Marketing, Finance, and Operations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Business analytics projects should strive to create substantial value to an organization by solving impactful business problems. In this class, students will learn to identify business opportunities in the substantive areas of marketing, finance, and operations. Letter grades only.",
+   "prereqText": "restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 452",
+   "subject": "MGTA",
+   "num": "452",
+   "title": "Collecting and Analyzing Large Data",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course aims to provide students with an introduction to data analytics in R where the emphasis is more on business \u201cdata\u201d than \u201canalytics.\u201d The emphasis is on collecting, handling, manipulating, and summarizing large data sets. Case studies are used throughout the course.",
+   "prereqText": "MGTA 451 and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 453",
+   "subject": "MGTA",
+   "num": "453",
+   "title": "Business Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is designed to help a business manager to use data to make good decisions in complex decision-making situations. Several analytical and econometric methods will be covered including decision analysis, regression analysis, optimization, and simulation.",
+   "prereqText": "MGTA 451 and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 454",
+   "subject": "MGTA",
+   "num": "454",
+   "title": "Business Analytics Capstone Project",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Students will pursue their capstone experience as part of a team to solve practical business problems faced by companies. Each team will work as external consultants on a project to create value for a client company. Student may not receive credit for both MGTA 454 and MGTA 454A or MGTA 454B.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 454A",
+   "subject": "MGTA",
+   "num": "454A",
+   "title": "Business Analytics Capstone Project I",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Project-based course, in which students apply knowledge and methods acquired in their course work to a specific business analytics problem faced by a company. The project will be comprehensive in nature, allowing students to exhibit their acquired skills. Class meetings will be scheduled where teams will outline project goals, describe the available data and planned analyses, and present initial results. This course is part of a course series. An IP grade will be awarded at the end of the quarter. Final grade will not apply until the completion of MGTA 454B. Students may not receive credit for both MGTA 454A and MGTA 454.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 454B",
+   "subject": "MGTA",
+   "num": "454B",
+   "title": "Business Analytics Capstone Project II",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Project-based course, in which students apply knowledge and methods acquired in their course work to a specific business analytics problem faced by a company. This is a continuation of MGTA 454A. Class meetings will be scheduled where teams will present their interim and final analysis results and outline how the partner company could use the project outcomes (e.g., a decision support tool) in decision-making. This course is part of a course series. Final grade will apply after the completion of MGTA 454B. Students may not receive credit for both MGTA 454 and MGTA 454A or MGTA 454B.",
+   "prereqText": "MGTA 454A and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 455",
+   "subject": "MGTA",
+   "num": "455",
+   "title": "Customer Analytics and AI",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Many firms have extensive information about customers\u2019 choices and how they respond to business initiatives. In this course, you will learn to leverage AI and machine learning to collect, analyze, and act on such customer data. The course is hands-on, uses real-world data, and will equip students with skills that produce immediate value on the job. Python, Radiant for Python, ChatGPT with Code Interpreter, and Co-Pilot are the key analytical tools used in the class. Letter grade only. Students may not earn credit for both MGTA 455 and MGTA 455R.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 455R",
+   "subject": "MGTA",
+   "num": "455R",
+   "title": "Customer Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Many firms have extensive information about customers\u2019 choices and how they respond to business initiatives. In this course, you will learn to leverage AI and machine learning to collect, analyze, and act on such customer data. The course is hands-on, uses real-world data, and will equip students with skills that produce immediate value on the job. Python, Radiant for Python, ChatGPT with Code Interpreter, and Co-Pilot are the key analytical tools used in the class. Letter grade only. Students may not receive credit for both MGTA 455R and MGTA 455.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 456",
+   "subject": "MGTA",
+   "num": "456",
+   "title": "Supply Chain Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on improving the performance of production and service operations, as well as supply chains, through the combination of data and analytical tools including statistics, forecasting, and optimization. Students will learn to employ analytics in capacity and distribution facility planning and contracting; how to determine data collection requirements for dynamic management of inventory levels; and how to improve revenue management under demand learning.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 457",
+   "subject": "MGTA",
+   "num": "457",
+   "title": "Business Intelligence Systems",
+   "units": "2",
+   "level": "Graduate",
+   "description": "A decision support system consists of decision model, data, and user interface. This course covers the R and Shiny programming and design skills to develop a DSS that addresses a manager\u2019s decision-making needs.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 458",
+   "subject": "MGTA",
+   "num": "458",
+   "title": "Experiments in Business Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Students will learn to design and run experiments to guide policy and business decisions. They will learn to distinguish between a correlation and a causal effect and also to critically evaluate causal claims based on nonexperimental data. Letter grade only.",
+   "prereqText": "MGTA 451, MGTA 452, and MGTA 453. Restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": [
+    [
+     "MGTA 451"
+    ],
+    [
+     "MGTA 452"
+    ],
+    [
+     "MGTA 453"
+    ]
+   ]
+  },
+  {
+   "code": "MGTA 459",
+   "subject": "MGTA",
+   "num": "459",
+   "title": "Managerial Judgment and Decision-Making",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Decision making is difficult with scarce resources, inexact information, and conflicting stakeholder agendas (i.e., most of the time). Students will use advanced behavioral research to gain a competitive advantage, by improving their decisions and their understanding of how others decide.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 460",
+   "subject": "MGTA",
+   "num": "460",
+   "title": "Business Analytics Project Management",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Many projects fail to produce valuable results, are over budget, or not finished on time. This course will teach students how to set and manage goals and expectations of the team and of the executive sponsors for business analytics projects.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 461",
+   "subject": "MGTA",
+   "num": "461",
+   "title": "Web Mining and Recommender Systems",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A graduate course devoted to current methods for recommender systems, data mining, and predictive analytics.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 462",
+   "subject": "MGTA",
+   "num": "462",
+   "title": "Big Data Technology and Business",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is designed to provide students with the skills and knowledge to manage large-scale and complex data for business applications. Students will learn how to handle large volumes of data through database systems and to use big data technologies to perform scalable analytics.",
+   "prereqText": "restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 463",
+   "subject": "MGTA",
+   "num": "463",
+   "title": "Fraud Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "In this course students will learn everything they need to know to build statistical/machine learning models to find fraud in data events. We will cover the basics of building fraud models: understanding the problem dynamics, modes of fraud, data analysis, and preparation, building expert variables/features, different algorithm choices, and measurements of model goodness. Students will not receive credit for both MGTA 463 and MGTA 463R.",
+   "prereqText": "restricted to MS in business analytics students or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 463R",
+   "subject": "MGTA",
+   "num": "463R",
+   "title": "Fraud Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "In this course students will learn everything they need to know to build statistical/machine learning models to find fraud in data events. We will cover the basics of building fraud models: understanding the problem dynamics, modes of fraud, data analysis and preparation, building expert variables/features, different algorithm choices, and measurements of model goodness. Students will not receive credit for both MGTA 463R and MGTA 463. This is a distance education course.",
+   "prereqText": "restricted to MS in business analytics students or instructor approval or department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 464",
+   "subject": "MGTA",
+   "num": "464",
+   "title": "SQL and ETL",
+   "units": "2\u20134",
+   "level": "Graduate",
+   "description": "Most organizations store transaction data (e.g., sales, purchases, production, etc.) in relational databases. These databases are of central importance in most business analytics projects. To access and analyze this data, knowledge of SQL (structured query language), one of the most sought-after skills by recruiters, is needed. In this course, students will learn how to write SQL statements to extract and transform data. Students will be introduced to ETL (extract, transform, and load) concepts.",
+   "prereqText": "restricted to MS in business analytics students.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 466",
+   "subject": "MGTA",
+   "num": "466",
+   "title": "Scalable Analytics",
+   "units": "2",
+   "level": "Graduate",
+   "description": "This course is designed to provide students with skills and knowledge to perform analytics at scale. Topics include steps in the analytics process used to gather, prepare, process, and evaluate data; basic principles of computer systems and parallelism; scalable computing; and cloud-based analytics. Hands-on experience with widely used scalable and cloud platforms will be provided. Through programming assignments, students will apply what they learn in the course to leverage big data.",
+   "prereqText": "MGTA 451, MGTA 452, MGTA 453, and restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 479",
+   "subject": "MGTA",
+   "num": "479",
+   "title": "Pricing Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This class covers the key drivers for making data-driven pricing decisions. Price setting is one of the most crucial of all tactical marketing decisions. It involves a detailed understanding of both supply-side (e.g., costs) and demand-side factors (e.g., consumer willingness to pay). In this course, we will approach the pricing decision as an intersection of economic, strategic, and behavioral considerations.",
+   "prereqText": "restricted to MS in business analytics program or with department and instructor approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTA 495",
+   "subject": "MGTA",
+   "num": "495",
+   "title": "Special Topics in Business Analytics",
+   "units": "2\u20134",
+   "level": "Graduate",
+   "description": "Introduces advanced topics of special interest in business analytics. Instructional methods can include face-to-face lecture, case presentations, assigned teaching and/or online group discussions.",
+   "prereqText": "restricted to MS in business analytics program or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 401",
+   "subject": "MGTP",
+   "num": "401",
+   "title": "Professional Seminar",
+   "units": "1",
+   "level": "Graduate",
+   "description": "Professional Seminar presents current industry research, professional skills development, and industry experts and business leaders as speakers. S/U grades only. May be taken for credit two times.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 414",
+   "subject": "MGTP",
+   "num": "414",
+   "title": "Business Law",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Focuses on elements of business law that are essential for the basic management of business operations. Topics include the law of contracts, sales, partnership, corporations, securities, accountants\u2019 legal liability, and Sarbanes Oxley statutes.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 416",
+   "subject": "MGTP",
+   "num": "416",
+   "title": "Ethics in Accounting and Business",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Addresses ethical theories and critical thinking approaches to analyzing ethical issues. The course provides approaches for helping students make decisions when confronting ethical issues.",
+   "prereqText": "restricted to MPAc students (major code RS91).",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 421",
+   "subject": "MGTP",
+   "num": "421",
+   "title": "Internal Control over Financial Reporting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines internal control from both an internal and external audit perspective, including control frameworks, improved information technology, role of corporate governance and audit committees, corporate risk management, SOX 404, internal auditing, and forensic auditing.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 422",
+   "subject": "MGTP",
+   "num": "422",
+   "title": "Systems, Processes, and Technology for Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course helps students to see the connection between information systems and business performance. This course will also enable students to assess the opportunities and problems that managers in a wide range of organizations face as they attempt to use IT applications to add value to their business.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 424",
+   "subject": "MGTP",
+   "num": "424",
+   "title": "Professional Communications for Accountants",
+   "units": "2",
+   "level": "Graduate",
+   "description": "The course develops essential communication skills for accounting professionals, focusing on written and oral presentations, teamwork, and interpersonal communication. It provides targeted instruction tailored to the unique needs of the accounting field, enabling students to effectively convey complex financial information. This class prepares students to meet the communication demands of the profession, fostering confidence, clarity, and collaboration in their roles.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 425",
+   "subject": "MGTP",
+   "num": "425",
+   "title": "Professional Research for Accountants",
+   "units": "2",
+   "level": "Graduate",
+   "description": "This course is designed to meet state board requirements for focused instruction on accounting and tax research. It equips students with skills to analyze authoritative literature using tools like RIA Checkpoint and CCH IntelliConnect, emphasizing practical application of the IRAC framework to real-world accounting issues.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 429",
+   "subject": "MGTP",
+   "num": "429",
+   "title": "Advanced Topics in Accounting and Auditing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covers advanced topics of special interest in accounting and auditing. May be taken for credit up to four times. Students may repeat course if topics vary significantly.",
+   "prereqText": "MGTP 432, restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 431",
+   "subject": "MGTP",
+   "num": "431",
+   "title": "Not-for-profit and Government Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Addresses issues faced in government and not-for-profit accounting. Students will gain insight into how and why these issues may have been resolved either similarly or differently from the for-profit business sector. Focus will be placed on how revenue and expense recognition, asset and liability valuation, the scope of the reporting entity, reporting cash flows, etc., differ in comparison to for-profit business accounting.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 432",
+   "subject": "MGTP",
+   "num": "432",
+   "title": "Advanced Auditing and Forensic Accounting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Provides students with applied knowledge on how assurance professionals assess and evaluate assurance-related evidence and risks. Topics include strategic risk analysis, corporate governance, internal control assessments, audit sampling, modified audit reports, and fraud detection.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 433",
+   "subject": "MGTP",
+   "num": "433",
+   "title": "Current Issues in the Practice and Regulation of Auditing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course examines current issues facing private and public sector accounting institutions and their regulators, including the Public Company Accounting Oversight Board (PCAOB) and the U.S. Securities and Exchange Commission (SEC).",
+   "prereqText": "MGT 432, restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 434",
+   "subject": "MGTP",
+   "num": "434",
+   "title": "Financial Statement Analysis",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines tools and techniques to analyze a firm\u2019s financial position and performance. This course combines both accounting and finance in a practical framework for debt and equity valuation methods from both a conceptual and practical framework.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 435",
+   "subject": "MGTP",
+   "num": "435",
+   "title": "Accounting for Mergers and Acquisitions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course explores accounting complexities in mergers, acquisitions, and restructurings, focusing on ASC 805. Topics include acquirer identification, asset valuation, goodwill, legal and tax implications, due diligence, and post-acquisition integration. Through CPA-style assessments, case studies, and projects, students gain skills for careers in corporate finance, investment banking, and advisory, aligning with CPA exam requirements and real-world applications.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 441",
+   "subject": "MGTP",
+   "num": "441",
+   "title": "Corporate Valuation and Forecasting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Applies economic and financial analysis techniques to forecast the firm\u2019s future performance and estimate the firm\u2019s intrinsic value. Emphasizes earnings management, profitability analysis, credit analysis, predicting financial distress, pro-forma business modeling, and industry analysis.",
+   "prereqText": "MGTP 434, restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 443",
+   "subject": "MGTP",
+   "num": "443",
+   "title": "Global Taxation and Business Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines corporate and tax strategies in an international context. Evaluates the effectiveness of global strategies, including the effects of tax treaties, cultures, political systems, foreign currency transactions, international licensing, reorganization of foreign corporations, and other current topics.",
+   "prereqText": "MGTP 434, restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 444",
+   "subject": "MGTP",
+   "num": "444",
+   "title": "Issues in Financial Reporting for Global Business: Mergers, Acquisitions, and Complex Financial Structures",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Helps students understand the complexities involved in international deals. Examines current financial reporting practices for business entities engaged in international activities. Focuses on policy issues such as foreign currency translation, global inflation, transfer pricing, complying with reporting requirements, taxation, and international accounting and auditing standards.",
+   "prereqText": "MGTP 434, MGTP 424, restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 451",
+   "subject": "MGTP",
+   "num": "451",
+   "title": "Accounting Data Analytics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on developing a quantitative understanding of modern statistical and machine learning tools in their relationship to accounting, reporting, and compliance questions. Students will be introduced to publicly available databases and methods to combine and utilization information from various sources. Students are not expected to have prior coding experience when starting the course and will be given an introduction to common languages during the course.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 452",
+   "subject": "MGTP",
+   "num": "452",
+   "title": "Strategic Cost Management and Technology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course introduces students to conventional metrics to measure and decompose costs and presents a framework linking characteristics of the cost system to specific decisions ranging from short-term inventory to long-term investments.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 459",
+   "subject": "MGTP",
+   "num": "459",
+   "title": "Special Topics in Taxation",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Introduces special topics of taxation. Instructional methods can include lecture, case presentations, and group discussions. May be taken for credit up to two times.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGTP 495",
+   "subject": "MGTP",
+   "num": "495",
+   "title": "Special Topic in Accounting",
+   "units": "2 or 4",
+   "level": "Graduate",
+   "description": "Advanced topics in accounting. Instructional methods include lecture, case discussions, and group assignments. May be taken for credit up to four times.",
+   "prereqText": "restricted to MPAc students (major code RS91) or by department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 208A",
+   "subject": "MGT",
+   "num": "208A",
+   "title": "Introduction to Management Research A",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This is the first course in a three-course sequence that introduces students to the various methodologies and research paradigms employed in management research. This course covers fundamentals of empirical research methods, including research design, reliability and validity of measurements, theory building and hypothesis testing, and some history of science.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 208B",
+   "subject": "MGT",
+   "num": "208B",
+   "title": "Introduction to Management Research B",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Sequence introduces students to various management research and methodological paradigms, and discusses theory development, building, and validation approaches. Students with additional need for mathematical/analytical training may be asked to take additional courses that prepare for the rigors of the program.",
+   "prereqText": "MGT 208A.",
+   "prereqs": [
+    [
+     "MGT 208A"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 208C",
+   "subject": "MGT",
+   "num": "208C",
+   "title": "Introduction to Management Research C",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Sequence introduces students to various management research and methodological paradigms, and discusses theory development, building, and validation approaches. Students with additional need for mathematical/analytical training may be asked to take additional courses that prepare for the rigors of the program.",
+   "prereqText": "MGT 208B.",
+   "prereqs": [
+    [
+     "MGT 208B"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 225",
+   "subject": "MGT",
+   "num": "225",
+   "title": "Behavioral Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to formal and predictive approaches to incorporating behavioral regularities into economic theory. Covers developments in generalizing conventional economic models to allow patterns of behavior that appear to be common but are paradoxical for conventional models based on assumptions of rationality.",
+   "prereqText": "MGT 208A-B-C, ECON 200A-B-C.",
+   "prereqs": [
+    [
+     "MGT 208A"
+    ],
+    [
+     "MGT 208B"
+    ],
+    [
+     "MGT 208C"
+    ],
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 226",
+   "subject": "MGT",
+   "num": "226",
+   "title": "Theory of Industrial Organization and Business Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course provides the theoretical underpinnings of business strategy drawing from the body of literature in industrial organization. It will complement Department of Economics courses on industrial organization to provide depth in business strategy.",
+   "prereqText": "ECON 200A-B-C.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 227",
+   "subject": "MGT",
+   "num": "227",
+   "title": "Topics in Behavioral Economics Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will explore two central themes. The first theme will focus on ways to translate scientific findings from behavioral economics into the real world. Students will discuss small changes that can make big differences in business and policy. The second theme will focus on how to design simple experiments to measure the impact of changes correctly, and the importance of understanding causality in behavioral interventions.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 228",
+   "subject": "MGT",
+   "num": "228",
+   "title": "Experiments in Organizations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course focuses on the design and implementation of field experiments in companies, not for profits, and public institutions. We will cover a wide range of topics explored through experimentation including labor, human capital, health, energy, financial decision-making, marketing, pricing, public policy, and behavioral economics. Students will develop a proposal for partnering with an organization to implement an experiment.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 245",
+   "subject": "MGT",
+   "num": "245",
+   "title": "Theory of Technology and Operations Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course addresses classical operations management models in inventory and capacity planning and control leading up to models of supply chain and supplier relationship management.",
+   "prereqText": "MGT 208A-B-C, ECON 200A-B-C.",
+   "prereqs": [
+    [
+     "MGT 208A"
+    ],
+    [
+     "MGT 208B"
+    ],
+    [
+     "MGT 208C"
+    ],
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 246",
+   "subject": "MGT",
+   "num": "246",
+   "title": "Research in Management and Technology Strategy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers the management of technology and innovation emphasizing product family design, market segmentation, technology selection, and product management.",
+   "prereqText": "MGT 208A-B-C, ECON 200A-B-C, MGT 245.",
+   "prereqs": [
+    [
+     "MGT 208A"
+    ],
+    [
+     "MGT 208B"
+    ],
+    [
+     "MGT 208C"
+    ],
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ],
+    [
+     "MGT 245"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 248",
+   "subject": "MGT",
+   "num": "248",
+   "title": "Topics in Innovation and Operations Management Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course explores both traditional and contemporary topics in innovation and operations management. Students will be introduced to prior research in methodological topics like search theory, optimization, and dynamic programming; and in more applied topics like product and process design, management of supply chains, and inventory theory.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 249",
+   "subject": "MGT",
+   "num": "249",
+   "title": "Topics in Technology Strategy and Information Systems Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course explores both traditional and contemporary topics in technology strategy and information systems. Students will be introduced to both analytical formal models of topics in information systems such as network effects and software security and will explore empirical studies that examine the role of IT in enabling organizational competitiveness.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 252",
+   "subject": "MGT",
+   "num": "252",
+   "title": "Statistical Programming and Data Inference I",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers foundational topics in statistical programming in the social sciences using the statistical language R. No prior programming knowledge is required. Topics may include data visualization, probability, measurement, causal inference, and an emphasis on the flexible statistical framework of the generalized linear model.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 253",
+   "subject": "MGT",
+   "num": "253",
+   "title": "Statistical Programming and Data Inference II",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Students learn to apply advanced analyses to complex data structures, and learn to evaluate the appropriateness, costs, and benefits of different analytic approaches. Topics may include generalized linear models for other distributions, regularization, robust variants to OLS, multilevel modeling, resampling approaches, and data-driven or machine learning approaches to data.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 255",
+   "subject": "MGT",
+   "num": "255",
+   "title": "Psychology and Decision Making",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course introduces students to theories and research in the field of individual judgment and decision making. Topics include judgment under uncertainty, the psychology of risk, choice, decision framing, prospect theory, mental accounting, context effects, task effects, and regret.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 256",
+   "subject": "MGT",
+   "num": "256",
+   "title": "Consumer Behavior Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers concepts and theories useful in understanding and researching the behaviors of consumers. Sample topics include attitude formation and change, social influence and persuasion, communication, consumer decision making and judgment, and consumer knowledge.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 257",
+   "subject": "MGT",
+   "num": "257",
+   "title": "Behavior in Organizations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Theories/research about behavior of employees/managers in organizations, as individuals and in groups. Topics include motivation, design of incentive/compensation systems, impact of goals/objectives, managerial judgment/decision making, evaluation judgments, managing reactions to change, and group decision making.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 258",
+   "subject": "MGT",
+   "num": "258",
+   "title": "Topics in Social Psychology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course introduces students to theories and research in the field of social psychology. Selected topics include cooperation and altruism, emotion, empathy, morality, power and social hierarchy, prejudice and discrimination, relationships, self and identity, social influence, and social judgment.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 259",
+   "subject": "MGT",
+   "num": "259",
+   "title": "Topics in Management",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An in-depth analysis of classic and current research on selected topics in the field of management. Example topics include affect, culture, creativity, emotional intelligence, emotional labor, gender dynamics, groups and teams, justice, power and politics, and rationality.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 260",
+   "subject": "MGT",
+   "num": "260",
+   "title": "Quantitative Methods in Marketing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course applies methods from econometrics and computer science to estimate consumers\u2019 preferences and inform firm decisions. Sample topics include estimating econometric models with large data, using Natural Language Processing (NLP) and computer vision modeling to solve business problems.",
+   "prereqText": "ECON 200A; ECON 220A; admission to management PhD program or by consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 220A"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 262",
+   "subject": "MGT",
+   "num": "262",
+   "title": "Topics in Marketing Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will discuss key papers and findings in the marketing literature to make the students experts in the field. The course will require students to build on the papers discussed and to prepare students for their independent research.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 285",
+   "subject": "MGT",
+   "num": "285",
+   "title": "Financial Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers the basic concepts and important models used in finance research. The subjects include expected utility theories, stochastic dominance, portfolio math, mean-variance theory, CAPM, aggregation theorems, arbitrages, and arbitrage pricing.",
+   "prereqText": "ECON 220A-B-C; admission to management PhD program or by consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 286",
+   "subject": "MGT",
+   "num": "286",
+   "title": "Continuous-Time Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers most powerful tools in finance, i.e., which are finance models in continuous-time setting. The subjects include dynamic portfolio selection, derivative pricing, dynamic term structure, and dynamic equilibrium models. Students may not earn academic credit for both MGTF 411 and MGT 286; these are course duplicates.",
+   "prereqText": "MGT 285; admission to management PhD program or by consent of instructor.",
+   "prereqs": [
+    [
+     "MGT 285"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 287",
+   "subject": "MGT",
+   "num": "287",
+   "title": "Empirical Finance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers econometric methods including the linear regression model, serial correlation, hypothesis testing, timer series analysis, and estimation of discrete choice and simultaneous equation models.",
+   "prereqText": "MGT 285; admission to management PhD program or by consent of instructor.",
+   "prereqs": [
+    [
+     "MGT 285"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 289",
+   "subject": "MGT",
+   "num": "289",
+   "title": "Topics in Financial Economics Research",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will cover a rotating set of topics, chosen by the instructor, to introduce students to cutting-edge research in various areas of financial economics. Possible areas include dynamic (continuous-time) asset pricing theory, empirical and theoretical corporate finance, macro-finance, household and intermediary finance, and market microstructure and informational economics.",
+   "prereqText": "admission to management PhD program or by consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 293A",
+   "subject": "MGT",
+   "num": "293A",
+   "title": "Literature Review and Critique Paper",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will require the student to identify and critique the research literature in a particular area identified during the summer of first year. The student will write a review paper that identifies opportunities for further research.",
+   "prereqText": "none.",
+   "prereqs": null
+  },
+  {
+   "code": "MGT 293B",
+   "subject": "MGT",
+   "num": "293B",
+   "title": "Literature Review and Critique Presentation",
+   "units": "4",
+   "level": "Graduate",
+   "description": "In this course, the student will continue work on the literature review and prepare a presentation of the gaps and opportunities identified in the literature.",
+   "prereqText": "MGT 293A.",
+   "prereqs": [
+    [
+     "MGT 293A"
+    ]
+   ]
+  },
+  {
+   "code": "MGT 296",
+   "subject": "MGT",
+   "num": "296",
+   "title": "Dissertation",
+   "units": "4\u201312",
+   "level": "Graduate",
+   "description": "This course is taken by students actively working on their dissertation after advancing to candidacy.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MGT 299",
+   "subject": "MGT",
+   "num": "299",
+   "title": "Advanced Field Advising",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Each student who has not advanced to candidacy by June of the third year must enroll in and complete MGT 299 during the fall, winter, and spring quarters of the fourth year.",
+   "prereqText": "admission to management PhD program.",
+   "prereqs": null
+  }
+ ]
+}

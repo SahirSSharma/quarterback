@@ -1,0 +1,156 @@
+{
+ "program": {
+  "major": "Environmental Systems (Environmental Policy)",
+  "degree": "B.A.",
+  "department": "Environmental Systems Program (Scripps Institution of Oceanography, UC San Diego)"
+ },
+ "catalogYear": "2019-2020",
+ "confidence": "high",
+ "found": true,
+ "notes": "The only B.A. track. Corroborated against the 2019-20 registrar catalog. CORRECTIONS to harvested lower division: (1) SIO 50 is NOT required for this track and was removed; (2) the math requirement is MATH 10A-B (or 20A-B) and MATH 11 (with Econ 120A or Math 183 as an alternative to Math 11) - NOT MATH 20A-B-C-D as harvested; (3) physics is the PHYS 1 lab series OR PHYS 2A-B-C. ECON 1 and ECON 2 both required (verified). Upper-division core (ESYS 101/102/103, ECON 131, POLI 160AA, ESYS 190A/190B; no additional science core) and the 5-course elective list are verified verbatim.",
+ "sourceUrls": [
+  "https://registrar.ucsd.edu/catalog/19-20/curric/ESYS.html",
+  "https://catalog.ucsd.edu/curric/ESYS.html",
+  "https://scripps.ucsd.edu/esys/major"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BILD 3"
+   ],
+   "note": "Lower-division core."
+  },
+  {
+   "label": "General Chemistry sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Physics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C"
+   ],
+   "note": "Accepted: PHYS 2A-B-C, OR the PHYS 1A+1AL / 1B+1BL / 1C+1CL series. Canonical set shown here."
+  },
+  {
+   "label": "Calculus sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 11"
+   ],
+   "note": "19-20 catalog: MATH 10A-B (or 20A-B) and MATH 11 (Econ 120A or Math 183 may substitute for Math 11). Corrected from harvested MATH 20A-D."
+  },
+  {
+   "label": "Principles of Economics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ECON 1",
+    "ECON 2"
+   ],
+   "note": "ECON 1 is common core; ECON 2 is an additional lower-division requirement specific to the Environmental Policy track (verified)."
+  },
+  {
+   "label": "ESYS Integrating Sequence",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ESYS 101",
+    "ESYS 102",
+    "ESYS 103"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Economics of the Environment",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECON 131"
+   ],
+   "note": "Required upper-division core."
+  },
+  {
+   "label": "Introduction to Policy Analysis",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 160AA"
+   ],
+   "note": "Required upper-division core."
+  },
+  {
+   "label": "Senior Project & Senior Seminar",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ESYS 190A",
+    "ESYS 190B"
+   ],
+   "note": "Capstone. 190A = two-quarter, 8-unit senior project; 190B = senior seminar."
+  },
+  {
+   "label": "Environmental Policy advanced electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "ECON 116",
+    "ECON 125",
+    "ECON 130",
+    "ECON 132",
+    "ECON 133",
+    "ECON 135",
+    "ECON 144",
+    "ECON 145",
+    "POLI 102L",
+    "POLI 125A",
+    "POLI 125B",
+    "POLI 150A",
+    "POLI 160AB",
+    "POLI 162",
+    "POLI 168",
+    "HISC 105",
+    "ANBI 132",
+    "COMM 171",
+    "ENVR 102",
+    "ENVR 110",
+    "ENVR 130",
+    "ENVR 140",
+    "PHIL 148",
+    "PHIL 164",
+    "SIO 110",
+    "USP 124",
+    "USP 144",
+    "USP 170",
+    "USP 171"
+   ],
+   "note": "Choose 5 (verified verbatim) from economics, political science, environmental studies (ENVR), history of science, anthropology, communication, philosophy, and urban planning options."
+  }
+ ]
+}

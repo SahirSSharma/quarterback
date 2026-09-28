@@ -1,0 +1,111 @@
+{
+ "program": {
+  "major": "Sociology - Science and Medicine",
+  "degree": "B.A.",
+  "department": "Sociology"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "Same core as general major, but at least 5 of the 10 upper-division electives must come from the Science and Medicine concentration list. Concentration list matches catalog page exactly.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/SOC-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division required core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "SOCI 1",
+    "SOCI 2",
+    "SOCI 60"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Lower-division elective (choose one)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "SOCI 10",
+    "SOCI 20",
+    "SOCI 30",
+    "SOCI 40",
+    "SOCI 50",
+    "SOCI 70"
+   ],
+   "note": "One course from this group."
+  },
+  {
+   "label": "Sociological theory (required)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "SOCI 100"
+   ]
+  },
+  {
+   "label": "Methods course (choose one)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "SOCI 102",
+    "SOCI 103M",
+    "SOCI 104",
+    "SOCI 104Q",
+    "SOCI 105",
+    "SOCI 106",
+    "SOCI 106M",
+    "SOCI 108",
+    "SOCI 109",
+    "SOCI 109M",
+    "SOCI 110"
+   ],
+   "note": "One methods course."
+  },
+  {
+   "label": "Science and Medicine concentration courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "SOCI 107",
+    "SOCI 113",
+    "SOCI 122",
+    "SOCI 134",
+    "SOCI 135",
+    "SOCI 136",
+    "SOCI 136E",
+    "SOCI 136F",
+    "SOCI 138",
+    "SOCI 138GS",
+    "SOCI 143",
+    "SOCI 149",
+    "SOCI 150",
+    "SOCI 165",
+    "SOCI 166",
+    "SOCI 167",
+    "SOCI 168",
+    "SOCI 168E",
+    "SOCI 170",
+    "SOCI 171"
+   ],
+   "note": "At least 5, counted within the 10 upper-division electives."
+  },
+  {
+   "label": "Additional upper-division sociology electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "SOCI 100-199"
+   ],
+   "note": "Remaining electives to reach 10 total (12 upper-division overall, 48+ units); any upper-division sociology courses."
+  }
+ ]
+}

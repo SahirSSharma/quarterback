@@ -1,0 +1,104 @@
+Course #,Title,Fall 2026,Winter 2027,Spring 2027
+CSE-003,Fluency/Information Technology,Christine Alvarado,,
+CSE-004GS,Mathematical Beauty in Rome,,,
+CSE-005,Principles and Practice of Artificial Intelligence,Ismael Villegas Molina,,Dan Fu
+CSE-005R,Principles and Practice of Artificial Intelligence,,,
+CSE-006GS,Mathematical Beauty in Rome - Lab,,,
+CSE-006R,Intro/CompSci&Obj-Ori:Python,,,Imani Munyaka
+CSE-008A,Intro to Programming & Computational Problem-Solving I,Leo Porter,Paul Cao,Paul Cao
+CSE-011,Intro to Programming & Computational Problem-Solving: Accelerated Pace,"Benjamin Ochoa
+Joe Politz",Adalbert Gerald Soosai Raj,Benjamin Ochoa
+CSE-012,Basic Data Struct & OO Design,Paul Cao,Paul Cao,Adalbert Gerald Soosai Raj
+CSE-020,Discrete Mathematics,Mia Minnes,Mia Minnes,Miles Jones
+CSE-021,Mathematics for Algorithms and Systems,Miles Jones,Miles Jones,Miles Jones
+CSE-025,Introduction to Artificial Intelligence,,Christine Alvarado,Trevor Bonjour
+CSE-029,Systems Programming and Software Tools,Aaron Shalev,Bryan Chin,Joe Politz
+CSE-030,Computer Organization,Dean Tullsen,Leo Porter,Jishen Zhao
+CSE-055,Foundations of Artificial Intelligence and Machine Learning,,Ndapandula Nakashole,Ndapandula Nakashole
+CSE-087,Introduction to Computer Science and Engineering Seminar,Joe Politz,Niema Moshiri,Niema Moshiri
+CSE-088,"Learning Sustainable Well-Being: Compassion for Self and Others, a Computing Perspective",Imani Munyaka,Imani Munyaka,
+CSE-089,Introduction to Computer Science and Engineering Seminar,Joe Politz,Joe Politz,Joe Politz
+CSE-090,Undergraduate Seminar,Steven Swanson,,
+CSE-095,Tutor Apprentice,Mia Minnes,Mia Minnes,Christine Alvarado
+CSE-100,Advanced Data Structures,Paul Cao,Niema Moshiri,"Debashis Sahoo
+Paul Cao"
+CSE-100R,Advanced Data Structures,,Niema Moshiri,
+CSE-101,Design and Analysis of Algorithms,Miles Jones,"Benjamin Ochoa
+Daniel Kane","June Vuong
+Qipeng Liu"
+CSE-103,Practical Intro/Prob & Stats,Yoav Freund,Miles Jones,
+CSE-105,Theory of Computability,Daniele Micciancio,Shachar Lovett,
+CSE-106,Discrete and Continuous Optimization,,,Ramamohan Paturi
+CSE-107,Introduction to Modern Cryptography,Mihir Bellare,Hovav Shacham,Adam Suhl
+CSE-108,TBD,,,
+CSE-108R,TBD,,,Pavel Pevzner
+CSE-109,Intro to Programming Contests,,,
+CSE-110,Software Engineering,Michael Coblenz,William Griswold,Thomas Powell
+CSE-112,Advanced Software Engineering,,,
+CSE-114,TBD,,,
+CSE-115,TBD,,Joe Politz,
+CSE-115R,TBD,,Nadia Polikarpova,
+CSE-118,Ubiquitous Computing,,,
+CSE-120,Operating Systems Principles,Geoffrey Voelker,Bryan Chin,Amy Ousterhout
+CSE-122,Wireless Networks,,Patrick Pannuto,
+CSE-123,Computer Networks,Alex Snoeren,Aaron Shalev,
+CSE-124,Networked Services,,,
+CSE-125,Software Sys Design & Implemnt,,,Geoffrey Voelker
+CSE-127,Intro to Computer Security,Stefan Savage,Deepak Kumar,Deian Stefan
+CSE-130,Progrmng Lang:Princpl&Paradigm,,Ranjit Jhala,Nadia Polikarpova
+CSE-131,Compiler Construction,,,
+CSE-132A,Database System Principles,,Alin Deutsch,Alin Deutsch
+CSE-134B,Web Client Languages,Thomas Powell,,
+CSE-135,Online Database Analytics Applications,,Thomas Powell,
+CSE-136,Enterprise-class Web Applcatns,,,
+CSE-140,Component&Desgn Tech/Digtl Sys,Alex Orailoglu,,
+CSE-140R,TBD,,Tajana Rosing,
+CSE-141,Intro/Computer Architecture,Patrick Pannuto,,Hadi Esmaeilzadeh
+CSE-142,Introduction to Computer Architecture: A Software Perspective,,,Steven Swanson
+CSE-143,Microelectronic System Design,,,
+CSE-145,Embedded System Design Project,,,Ryan Kastner
+CSE-147,Introduction to Embedded Systems,,Tajana Rosing,
+CSE-148,Adv Processor Arch Design Proj,,Dean Tullsen,
+CSE-150A,Introduction to Artificial Intelligence: Probabilistic Reasoning and Decision-Making,Trevor Bonjour,,Trevor Bonjour
+CSE-150B,Introduction to Artificial Intelligence: Search and Reasoning,Loris D'Antoni,,
+CSE-151A,Machine Learning: Learning Algorithms ,Jingbo Shang,Yoav Freund,Taylor Berg-Kirkpatrick
+CSE-151B,Deep Learning,Sadhika Malladi,Marc Niethammer,Rose Yu
+CSE-152A,Intro to Computer Vision I,Benjamin Ochoa,Manmohan Chandraker,
+CSE-152B,Intro to Computer Vision II,,,Manmohan Chandraker
+CSE-153,Machine Learning for Music,,,
+CSE-153R,Machine Learning for Music,,,
+CSE-156,Statistical NLP,,,Lianhui Qin
+CSE-158,Recommender Sys&Web Mining,Julian Mcauley,,
+CSE-158R,Recommender Sys&Web Mining,Julian Mcauley,,
+CSE-160,Intro to Parallel Computing,,Ryan Kastner,Bryan Chin
+CSE-162,TBD,,,
+CSE-163,Advanced Computer Graphics,,,
+CSE-165,3-D User Interaction,,,Nadir Weibel
+CSE-166,Image Processing,,,
+CSE-167,Computer Graphics,Tzu Mao Li,Albert Chern,
+CSE-167R,Computer Graphics,,,
+CSE-168,Computer Graphics II: Rendering,,,Ravi Ramamoorthi
+CSE-168R,Computer Graphics II: Rendering,,,
+CSE-169,Computer Animation,,,
+CSE-170,Interaction Design,Kristen Vaccaro,,
+CSE-175,Entrepreneurship for Engineers,,,
+CSE-176A,Healthcare Robotics,,,Laurel Riek
+CSE-176E,Robotic Sys Design & Implemnt,,,
+CSE-180,Biology Meets Computing,,,
+CSE-180R,Biology Meets Computing,,,
+CSE-181,Molecular Sequence Analysis,,Pavel Pevzner,
+CSE-181R,Molecular Sequence Analysis,,,
+CSE-182,Biological Databases,,,Vineet Bafna
+CSE-185,Advanced Bioinformatics Lab,,,Niema Moshiri
+CSE-190,Topics/Computer Sci & Engineer,"Adalbert Gerald Soosai Raj
+Daniel Grier
+Deepak Kumar
+Sanjoy Dasgupta","Adalbert Gerald Soosai Raj
+Barna Saha
+Julian Mcauley
+Michael Coblenz
+Nuno Bandeira",
+CSE-191,Semnr/Computer Sci & Engineer,Mia Minnes,Mia Minnes,Mia Minnes
+CSE-193,Introduction to CS Research,Trevor Bonjour,,
+CSE-194,"Race, Gender, and Computing",Imani Munyaka,,
+CSE-197,Field Study/Computer Sci&Engin,Mia Minnes,Mia Minnes,Mia Minnes

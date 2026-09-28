@@ -1,0 +1,216 @@
+{
+ "program": {
+  "major": "Pharmacological Chemistry",
+  "degree": "B.S.",
+  "department": "Chemistry and Biochemistry"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Catalog code CH35. Verified against live catalog page. Total 120-122 units. B.S. requires 48+ upper-division units in the major and at least 6 upper-division Chemistry and Biochemistry Department courses. Physics: PHYS 1 or PHYS 2 series both acceptable (PHYS 1 recommended).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/CHEM-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "General Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 6AH",
+    "CHEM 6BH",
+    "CHEM 6CH"
+   ],
+   "note": "Standard sequence CHEM 6A-B-C, or honors 6AH-BH-CH."
+  },
+  {
+   "label": "General Chemistry Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 7L",
+    "CHEM 7LM"
+   ],
+   "note": "One of 7L or 7LM."
+  },
+  {
+   "label": "Organic Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 41A",
+    "CHEM 41B",
+    "CHEM 41C"
+   ],
+   "note": "Three-quarter organic sequence."
+  },
+  {
+   "label": "Organic Chemistry Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 43A",
+    "CHEM 43AM"
+   ],
+   "note": "One of 43A or 43AM."
+  },
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BILD 1",
+    "BILD 2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Calculus sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 10C",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C"
+   ],
+   "note": "MATH 10A-B-C recommended, or 20A-B-C acceptable (choose one full sequence)."
+  },
+  {
+   "label": "Calculus-Based Statistics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 11"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 1A",
+    "PHYS 1B",
+    "PHYS 1C",
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2D"
+   ],
+   "note": "PHYS 1A-B-C recommended; PHYS 2A/2B and 2C or 2D also acceptable."
+  },
+  {
+   "label": "Physics Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 1AL",
+    "PHYS 1BL",
+    "PHYS 1CL"
+   ],
+   "note": "PHYS 1AL-BL-CL accompanies PHYS 1 series; if PHYS 2 series taken, use PHYS 2BL/2CL/2DL instead."
+  },
+  {
+   "label": "Physical Chemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 126A",
+    "CHEM 126B",
+    "CHEM 130",
+    "CHEM 131",
+    "CHEM 132"
+   ],
+   "note": "Two quarters of physical chemistry (CHEM 126A-B recommended; CHEM 130-131-132 acceptable)."
+  },
+  {
+   "label": "Biochemistry sequence",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 114A",
+    "CHEM 114B",
+    "CHEM 114C"
+   ],
+   "note": "Three quarters of biochemistry."
+  },
+  {
+   "label": "Advanced Laboratory (required core)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 100A",
+    "CHEM 143B"
+   ],
+   "note": "Both required."
+  },
+  {
+   "label": "Advanced Laboratory (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 108",
+    "CHEM 109",
+    "CHEM 143C"
+   ],
+   "note": "Choose 1 to complete the three-course advanced-lab requirement."
+  },
+  {
+   "label": "Pharmacology restricted elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 118",
+    "CHEM 167",
+    "CHEM 168"
+   ],
+   "note": "One PHARM restricted chemistry elective from Pharmacology and Toxicology (118), Medicinal Chemistry (167), or Drug Synthesis and Design (168)."
+  },
+  {
+   "label": "Restricted electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 118",
+    "CHEM 167",
+    "CHEM 168",
+    "BIPN 100",
+    "BIPN 102",
+    "BIMM 120",
+    "BIMM 121"
+   ],
+   "note": "Choose 2 from the listed options (distinct from the pharmacology restricted elective). Specific biology options not fully line-verified; confirm with department."
+  },
+  {
+   "label": "Chemistry/Biology elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 100-199"
+   ],
+   "note": "One upper-division Chemistry and Biochemistry Department course, or an approved upper-division physiology/anatomy/microbiology/human-behavior course from the School of Biological Sciences."
+  }
+ ]
+}

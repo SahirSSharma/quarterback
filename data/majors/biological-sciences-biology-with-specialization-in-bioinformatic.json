@@ -1,0 +1,208 @@
+{
+ "program": {
+  "major": "Biology with Specialization in Bioinformatics",
+  "degree": "B.S.",
+  "department": "Biological Sciences"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog.ucsd.edu/curric/BIOL-ug.html. Approx. 72 lower-division and 48 upper-division units. BIMM 181 (Molecular Sequence Analysis) and BIMM 182 (Biological Databases) confirmed; note both are cross-listed and bioinformatics-majors-only. This specialization uses BILD 1,3,4,5 (not BILD 2). Elective list is open (upper-division biology, BIEB 146/BIMM 172 recommended).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/BIOL-ug.html",
+  "https://catalog.ucsd.edu/courses/BIOL.html",
+  "https://biology.ucsd.edu/education/undergrad/major-minor-programs/majors/requirements/bioinformatics/index.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "BILD 1",
+    "BILD 3",
+    "BILD 4",
+    "BILD 5"
+   ],
+   "note": "All four required (uses BILD 1,3,4,5 rather than BILD 2)."
+  },
+  {
+   "label": "General Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B"
+   ],
+   "note": "Both required."
+  },
+  {
+   "label": "Organic Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 40A",
+    "CHEM 40B"
+   ],
+   "note": "Both required."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C"
+   ],
+   "note": "Full PHYS 2A-B-C sequence."
+  },
+  {
+   "label": "Mathematics (Calculus and Linear Algebra)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C"
+   ],
+   "note": "All four required."
+  },
+  {
+   "label": "Computer Science",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CSE 11",
+    "CSE 12",
+    "CSE 21"
+   ],
+   "note": "All three required; prerequisite chain applies."
+  },
+  {
+   "label": "Advanced Data Structures",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 100"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Design and Analysis of Algorithms",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 101"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Biochemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIBC 100",
+    "CHEM 114A",
+    "BIBC 102",
+    "CHEM 114B"
+   ],
+   "note": "Choose one biochemistry course."
+  },
+  {
+   "label": "Genetics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BICD 100"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Molecular Biology",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIMM 100"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Molecular Sequence Analysis",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIMM 181"
+   ],
+   "note": "Required (cross-listed CSE/BENG 181)."
+  },
+  {
+   "label": "Biological Databases",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIMM 182"
+   ],
+   "note": "Required (cross-listed CSE/BENG 182)."
+  },
+  {
+   "label": "Applied Genomic Technologies",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BENG 183"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Bioinformatics Laboratory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 185"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Probability and Statistics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 186"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Major electives",
+   "division": "upper",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "BILD 100-199",
+    "BICD 100-199",
+    "BIMM 100-199",
+    "BIBC 100-199",
+    "BIPN 100-199",
+    "BIEB 100-199"
+   ],
+   "note": "At least eight units of approved upper-division major electives."
+  }
+ ]
+}

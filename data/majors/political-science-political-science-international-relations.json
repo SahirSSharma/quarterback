@@ -1,0 +1,127 @@
+{
+ "program": {
+  "major": "Political Science / International Relations",
+  "degree": "B.A.",
+  "department": "Political Science"
+ },
+ "catalogYear": "catalog.ucsd.edu (current)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Specialization verified against the catalog. 5 IR courses (>=1 from each of two groups + 3 additional IR) plus POLI 30 and 7 additional upper POLI.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/POLI-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required intro: International Relations",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 12",
+    "POLI 12D"
+   ],
+   "note": "POLI 12 (International Relations) required."
+  },
+  {
+   "label": "Additional lower-division intro (choose 2)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "POLI 10",
+    "POLI 10D",
+    "POLI 11",
+    "POLI 11D",
+    "POLI 13",
+    "POLI 13D"
+   ],
+   "note": "Two more from the remaining intro subfields."
+  },
+  {
+   "label": "Political Inquiry / Methods (POLI 30)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 30",
+    "POLI 30D"
+   ],
+   "note": "Required methods course; numerically lower-division."
+  },
+  {
+   "label": "Foreign Policy / National & International Security (at least 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 124",
+    "POLI 140B",
+    "POLI 140C",
+    "POLI 140D",
+    "POLI 142A",
+    "POLI 142D",
+    "POLI 142I",
+    "POLI 142J",
+    "POLI 142K",
+    "POLI 142L",
+    "POLI 142M",
+    "POLI 142N",
+    "POLI 142O",
+    "POLI 142P",
+    "POLI 142Q",
+    "POLI 143",
+    "POLI 143A",
+    "POLI 145A",
+    "POLI 146A",
+    "POLI 149",
+    "POLI 150A",
+    "POLI 153",
+    "POLI 178"
+   ],
+   "note": "At least 1 from the Foreign Policy / Security group."
+  },
+  {
+   "label": "Political Economy / Theory of International Relations (at least 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "POLI 122",
+    "POLI 126AA",
+    "POLI 126AB",
+    "POLI 140A",
+    "POLI 142L",
+    "POLI 144",
+    "POLI 144AB",
+    "POLI 144D",
+    "POLI 144E",
+    "POLI 144F",
+    "POLI 145C",
+    "POLI 146A",
+    "POLI 151"
+   ],
+   "note": "At least 1 from the Political Economy / IR Theory group."
+  },
+  {
+   "label": "Additional International Relations courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "POLI 140-153"
+   ],
+   "note": "3 additional upper-division IR courses (to bring IR total to 5); drawn from the IR groups above / IR offerings."
+  },
+  {
+   "label": "Additional upper-division Political Science",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "POLI 100-199"
+   ],
+   "note": "7 additional upper-division POLI courses."
+  }
+ ]
+}

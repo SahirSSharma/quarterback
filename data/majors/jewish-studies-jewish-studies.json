@@ -1,0 +1,29 @@
+{
+ "program": {
+  "major": "Jewish Studies",
+  "degree": "Minor",
+  "department": "Jewish Studies"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Jewish Studies minor listed on the same catalog page. Seven courses total. Both Hebrew and non-language Jewish Studies courses qualify. Maximum of two courses may be taken P/NP. Courses selected in consultation with a program adviser.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/JWSP-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Minor courses (7 total): seven upper-division, OR five upper-division plus two lower-division",
+   "division": "other",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "JWSP 100-199",
+    "JWSP 1",
+    "JWSP 2",
+    "JWSP 3"
+   ],
+   "note": "Seven upper-division courses in Jewish Studies, or five upper-division plus two lower-division courses, selected with a program adviser. Both Hebrew-language and non-language Jewish Studies courses qualify. Max two P/NP."
+  }
+ ]
+}

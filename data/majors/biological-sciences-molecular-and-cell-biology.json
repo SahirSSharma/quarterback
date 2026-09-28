@@ -1,0 +1,213 @@
+{
+ "program": {
+  "major": "Molecular and Cell Biology",
+  "degree": "B.S.",
+  "department": "Biological Sciences"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Approx. 67-68 lower-division and 48 upper-division units. BILD 2 not required for this major.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/BIOL-ug.html",
+  "https://catalog.ucsd.edu/courses/BIOL.html",
+  "https://biology.ucsd.edu/education/undergrad/major-minor-programs/majors/requirements/bioinformatics/index.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "BILD 1",
+    "BILD 3",
+    "BILD 4",
+    "BILD 5"
+   ],
+   "note": "All four required (BILD 2 not required for this major)."
+  },
+  {
+   "label": "General Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 7L"
+   ],
+   "note": "All required (CHEM 7L lab)."
+  },
+  {
+   "label": "Organic Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CHEM 40A",
+    "CHEM 40B"
+   ],
+   "note": "Both required."
+  },
+  {
+   "label": "Mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 11",
+    "MATH 20A",
+    "MATH 20B"
+   ],
+   "note": "Complete MATH 10A-B + 11, OR MATH 20A-B + 11."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PHYS 1A",
+    "PHYS 1AL",
+    "PHYS 1B",
+    "PHYS 1BL",
+    "PHYS 1C",
+    "PHYS 1CL",
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2BL",
+    "PHYS 2CL",
+    "PHYS 2DL"
+   ],
+   "note": "Complete PHYS 1A/1AL, 1B/1BL, 1C/1CL, OR PHYS 2A-B-C plus one of 2BL/2CL/2DL."
+  },
+  {
+   "label": "Structural Biochemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIBC 100",
+    "CHEM 114A"
+   ],
+   "note": "Choose one: BIBC 100 or CHEM 114A."
+  },
+  {
+   "label": "Metabolic Biochemistry",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIBC 102",
+    "CHEM 114B"
+   ],
+   "note": "Choose one: BIBC 102 or CHEM 114B."
+  },
+  {
+   "label": "Genetics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BICD 100"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Cell Biology",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BICD 110"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Molecular Biology",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIMM 100"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Core electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BIBC 120",
+    "BICD 102",
+    "BICD 112",
+    "BICD 130",
+    "BICD 140",
+    "BICD 156",
+    "BIEB 146",
+    "BIEB 152",
+    "BIEB 158",
+    "BIMM 110",
+    "BIMM 112",
+    "BIMM 114",
+    "BIMM 118",
+    "BIMM 120",
+    "BIMM 122",
+    "BIMM 134",
+    "BIMM 172",
+    "BIPN 140",
+    "CSE 180",
+    "PHYS 177",
+    "SIO 124"
+   ],
+   "note": "Three courses from the molecular/cell biology core elective list."
+  },
+  {
+   "label": "Upper-division laboratory (techniques)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIBC 103",
+    "BIMM 101"
+   ],
+   "note": "Choose one: Biochemical Techniques (BIBC 103) or Recombinant DNA Techniques (BIMM 101)."
+  },
+  {
+   "label": "Upper-division laboratory elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BILD 100-199",
+    "BICD 100-199",
+    "BIMM 100-199",
+    "BIBC 100-199",
+    "BIPN 100-199",
+    "BIEB 100-199"
+   ],
+   "note": "One additional upper-division lab course, at least four units; BISP 196/197/199 acceptable."
+  },
+  {
+   "label": "Major electives",
+   "division": "upper",
+   "kind": "units",
+   "needed": 6,
+   "courses": [
+    "BILD 100-199",
+    "BICD 100-199",
+    "BIMM 100-199",
+    "BIBC 100-199",
+    "BIPN 100-199",
+    "BIEB 100-199"
+   ],
+   "note": "At least six to eight units of approved upper-division major electives."
+  }
+ ]
+}

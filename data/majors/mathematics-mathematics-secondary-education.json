@@ -1,0 +1,149 @@
+{
+ "program": {
+  "major": "Mathematics-Secondary Education",
+  "degree": "B.A.",
+  "department": "Mathematics"
+ },
+ "catalogYear": "current General Catalog (catalog.ucsd.edu)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Major code MA32 (spelled \"Mathematics—Secondary Education\" in the General Catalog) — the department's only B.A. Thirteen upper-division four-unit courses (fifty-two units) including at least one two-quarter sequence from the catalog list. Students seeking a California teaching credential should contact the Education Studies Program early. A programming course (CSE 11, ECE 15 or DSC 20) is recommended but not required.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/MATH-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Calculus and linear algebra sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E",
+    "MATH 31AH",
+    "MATH 31BH",
+    "MATH 31CH"
+   ],
+   "note": "One of two sequences: MATH 18 and 20A-B-C-D-E, or Honors Calculus MATH 31AH-BH-CH with MATH 20D (31AH-BH-CH cover MATH 18, 20C and 20E). The count shown is the standard six-course sequence; on the honors path four courses complete it."
+  },
+  {
+   "label": "Mathematical Reasoning",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 109"
+   ],
+   "note": "MATH 109. Students completing MATH 31AH-BH-CH may substitute a four-unit upper-division mathematics elective."
+  },
+  {
+   "label": "Number Theory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 104A",
+    "MATH 105"
+   ],
+   "note": "MATH 104A or MATH 105."
+  },
+  {
+   "label": "History of Mathematics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 163"
+   ],
+   "note": "MATH 163."
+  },
+  {
+   "label": "Practicum in Learning / Research",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "EDS 129A",
+    "EDS 129B",
+    "EDS 129C",
+    "EDS 136",
+    "EDS 138",
+    "EDS 140",
+    "EDS 141"
+   ],
+   "note": "EDS 129A-B-C for K–12 mathematics teaching (EDS 136 and 138 may replace EDS 129A), or EDS 136-140-141 for K–12 mathematics research."
+  },
+  {
+   "label": "Computation / Cryptography",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 155A",
+    "MATH 170A",
+    "MATH 187A"
+   ],
+   "note": "One of MATH 155A, 170A, 187A."
+  },
+  {
+   "label": "Probability or Statistical Methods",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 180A",
+    "MATH 183"
+   ],
+   "note": "MATH 180A or MATH 183."
+  },
+  {
+   "label": "Geometry or Topology",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 150A",
+    "MATH 153",
+    "MATH 190A"
+   ],
+   "note": "One of MATH 150A, 153, 190A."
+  },
+  {
+   "label": "Algebra",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 100A",
+    "MATH 102",
+    "MATH 103A"
+   ],
+   "note": "One of MATH 100A, 102, 103A."
+  },
+  {
+   "label": "Analysis",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 140A",
+    "MATH 142A"
+   ],
+   "note": "MATH 140A or MATH 142A."
+  },
+  {
+   "label": "Additional upper-division courses (to thirteen, including one two-quarter sequence)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 100-194"
+   ],
+   "note": "To reach thirteen upper-division four-unit courses in total; the count here is what remains after the required courses above. At least one two-quarter sequence from the catalog list must be included."
+  }
+ ]
+}

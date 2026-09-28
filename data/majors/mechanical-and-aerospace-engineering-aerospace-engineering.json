@@ -1,0 +1,135 @@
+{
+ "program": {
+  "major": "Aerospace Engineering (Flight Dynamics and Controls)",
+  "degree": "BS",
+  "department": "Mechanical and Aerospace Engineering (MAE)"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "Full aerospace engineering core PLUS four of the five technical electives that must include MAE 184 (Flight Simulation Techniques) plus three from the list below; the fifth TE is a free departmentally approved technical elective.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/MAE-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 18",
+    "MATH 20D",
+    "MATH 20E"
+   ]
+  },
+  {
+   "label": "Lower-division physics & chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2CL",
+    "CHEM 6A"
+   ],
+   "note": "CHEM 6AH may be taken in place of CHEM 6A."
+  },
+  {
+   "label": "Lower-division engineering core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MAE 2",
+    "MAE 8",
+    "MAE 11",
+    "MAE 21",
+    "MAE 30A",
+    "MAE 30B"
+   ]
+  },
+  {
+   "label": "Upper-division engineering core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 15,
+   "courses": [
+    "MAE 101A",
+    "MAE 101B",
+    "MAE 104",
+    "MAE 105",
+    "MAE 107",
+    "MAE 113",
+    "MAE 131A",
+    "MAE 142",
+    "MAE 143A",
+    "MAE 143B",
+    "MAE 155A",
+    "MAE 155B",
+    "MAE 170",
+    "MAE 175A",
+    "SE 160A"
+   ]
+  },
+  {
+   "label": "Specialization required course (Flight Dynamics and Controls)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MAE 184"
+   ],
+   "note": "MAE 184 (Flight Simulation Techniques) is required as one of the four specialization technical electives."
+  },
+  {
+   "label": "Specialization technical electives (Flight Dynamics and Controls)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MAE 108",
+    "MAE 130",
+    "MAE 144",
+    "MAE 145",
+    "MAE 146",
+    "MAE 148",
+    "MAE 200"
+   ],
+   "note": "Three courses from this list, taken together with MAE 184 to make four of the five TEs."
+  },
+  {
+   "label": "Free technical elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MAE 100-199"
+   ],
+   "note": "Fifth TE; any departmentally approved upper-division/graduate technical elective."
+  },
+  {
+   "label": "Humanities & social sciences (GE/HSS)",
+   "division": "other",
+   "kind": "units",
+   "needed": 24,
+   "courses": [],
+   "type": "seeCollegeGE",
+   "note": "Engineering-major bucket that just points to the humanities/social-sciences general-education block. At UCSD, GE/HSS coursework is defined by the student's college (Revelle, Muir, Marshall, Warren, Roosevelt, Sixth, Seventh), not by the MAE department, so there is no fixed major-level course list. The 24-unit figure reflects the approximate HSS/GE load carried outside the engineering core; the actual qualifying courses come from the college's own GE section."
+  },
+  {
+   "label": "Minimum total units for degree",
+   "division": "other",
+   "kind": "units",
+   "needed": 180,
+   "courses": [],
+   "type": "unitTotal",
+   "note": "Total/minimum unit count for the BS, not a course set. 180 units is the standard minimum required to earn a UCSD bachelor's degree; leave courses empty."
+  }
+ ]
+}

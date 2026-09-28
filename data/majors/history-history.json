@@ -1,0 +1,81 @@
+{
+ "program": {
+  "major": "History",
+  "degree": "B.A.",
+  "department": "History"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Transcribed from the General Catalog History program page. Three lower-division courses plus twelve four-unit upper-division courses. The distribution inside those twelve — field of emphasis (3+), non-field (3+), pre-1800 period (3), colloquium (1, numbered 160-190) — overlaps itself, so it is carried as prose on the upper-division bucket rather than as separate buckets that would double-count a single course. At least eight of the twelve must be taken at UC San Diego, and at most two units of HIxx 199 may count.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/HIST-ug.html",
+  "https://history.ucsd.edu/undergrad/major.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-Division History",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "HILD 2A",
+    "HILD 2B",
+    "HILD 2C",
+    "HILD 7A",
+    "HILD 7B",
+    "HILD 7C",
+    "HILD 10",
+    "HILD 11",
+    "HILD 12",
+    "HILD 14",
+    "HILD 30",
+    "HILD 40",
+    "HILD 41",
+    "HILD 42",
+    "HILD 43",
+    "HILD 50",
+    "HILD 60"
+   ],
+   "note": "Any three lower-division history courses. The Revelle Humanities sequence or Eleanor Roosevelt's Making of the Modern World sequence may be substituted — the department accepts those in place of these three."
+  },
+  {
+   "label": "The Craft of History",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "HITO 100"
+   ],
+   "note": "Required of every history major, and normally taken early in the upper-division sequence."
+  },
+  {
+   "label": "Upper-Division History",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 11,
+   "courses": [
+    "HIAF 100-199",
+    "HIEA 100-199",
+    "HIEU 100-199",
+    "HIGL 100-199",
+    "HILA 100-199",
+    "HILD 100-199",
+    "HINE 100-199",
+    "HISA 100-199",
+    "HISC 100-199",
+    "HITO 101-199",
+    "HIUS 100-199"
+   ],
+   "note": "Eleven further four-unit upper-division courses (twelve including HITO 100). Within them: at least three in your field of emphasis, at least three outside it, three on periods before 1800, and at least one colloquium numbered 160-190 with a substantial term paper. Eight of the twelve must be taken at UC San Diego; at most two units of 199 count."
+  },
+  {
+   "label": "Language and Overseas Study (Global Relations emphasis only)",
+   "division": "other",
+   "kind": "courses",
+   "needed": 0,
+   "courses": [],
+   "note": "Only students in the Global Relations field of emphasis carry this: eight overseas credits plus proficiency in a second language. Not checkable here — confirm with the department."
+  }
+ ]
+}

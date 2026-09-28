@@ -1,0 +1,226 @@
+{
+ "program": {
+  "major": "Bioengineering: Biotechnology",
+  "degree": "B.S.",
+  "department": "Bioengineering (BE)"
+ },
+ "catalogYear": "current General Catalog (catalog.ucsd.edu)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. ABET-accredited. Biochemistry/bioprocess emphasis. Same GPA and C- letter-grade rules as all BE majors. Uses BENG 186A (not 186B). Adds organic chemistry (CHEM 6C, 40A/B or honors 41A/B) and CENG 101A / BICD 100 relative to the base Bioengineering major.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/BENG-ug.html",
+  "https://be.ucsd.edu/undergrad",
+  "https://be.ucsd.edu/undergrad/programs/bioeng"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 18",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": ""
+  },
+  {
+   "label": "General + organic chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 7L"
+   ],
+   "note": "CHEM 7L may be taken concurrently with CHEM 6C or any quarter within the first two years after CHEM 6B."
+  },
+  {
+   "label": "Organic chemistry I",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 40A",
+    "CHEM 41A"
+   ],
+   "note": "Choose one: CHEM 40A or honors CHEM 41A."
+  },
+  {
+   "label": "Organic chemistry II",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CHEM 40B",
+    "CHEM 41B"
+   ],
+   "note": "Choose one: CHEM 40B or honors CHEM 41B."
+  },
+  {
+   "label": "Physics (lecture + lab)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2CL"
+   ],
+   "note": "Listed as PHYS 2A, 2B, 2C/2CL. (No 2BL in this major.)"
+  },
+  {
+   "label": "Introductory biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BILD 1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Lower-division engineering",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BENG 1",
+    "MAE 8"
+   ],
+   "note": "MAE 8 is MATLAB programming."
+  },
+  {
+   "label": "Upper-division bioengineering core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 19,
+   "courses": [
+    "BENG 100",
+    "BENG 103B",
+    "BENG 123",
+    "BENG 125",
+    "BENG 130",
+    "BENG 158",
+    "BENG 160",
+    "BENG 161A",
+    "BENG 161B",
+    "BENG 162",
+    "BENG 166A",
+    "BENG 168",
+    "BENG 186A",
+    "BENG 187A",
+    "BENG 187B",
+    "BENG 187C",
+    "BENG 187D",
+    "BENG 188A",
+    "BENG 188B"
+   ],
+   "note": "BENG 187A-D and 188A/188B are the senior design sequence. Uses BENG 186A only."
+  },
+  {
+   "label": "Upper-division supporting courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CENG 101A",
+    "BICD 100"
+   ],
+   "note": "CENG 101A (chemical engineering transport); BICD 100 (genetics)."
+  },
+  {
+   "label": "Technical electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "BENG 102",
+    "BENG 110",
+    "BENG 112A",
+    "BENG 112B",
+    "BENG 133",
+    "BENG 134",
+    "BENG 140A",
+    "BENG 140B",
+    "BENG 141",
+    "BENG 172",
+    "BENG 186B",
+    "BENG 193",
+    "BENG 196",
+    "BENG 199",
+    "CENG 100",
+    "CENG 134",
+    "CENG 199",
+    "CSE 100",
+    "CSE 101",
+    "CSE 112",
+    "CSE 140",
+    "CSE 140L",
+    "CSE 150A",
+    "CSE 150B",
+    "CSE 151A",
+    "CSE 151B",
+    "CSE 166",
+    "CSE 176A",
+    "CSE 180",
+    "ECE 101",
+    "ECE 102",
+    "ECE 103",
+    "ECE 107",
+    "ECE 118",
+    "ECE 120",
+    "ECE 138L",
+    "ECE 140B",
+    "ECE 143",
+    "ECE 161B",
+    "ECE 174",
+    "ECE 175A",
+    "ECE 199",
+    "ECE 253",
+    "ENG 100D",
+    "ENG 100L",
+    "MAE 101B",
+    "MAE 105",
+    "MAE 107",
+    "MAE 108",
+    "MAE 118",
+    "MAE 119",
+    "MAE 120",
+    "MAE 125",
+    "MAE 130",
+    "MAE 131A",
+    "MAE 143A",
+    "MAE 143B",
+    "MAE 144",
+    "MAE 145",
+    "MAE 148",
+    "MAE 149",
+    "MAE 150",
+    "MAE 154",
+    "MAE 180A",
+    "MAE 199",
+    "NANO 102",
+    "NANO 103",
+    "NANO 106",
+    "NANO 108",
+    "NANO 134",
+    "NANO 156",
+    "NANO 175",
+    "NANO 199",
+    "SE 101A",
+    "SE 110A",
+    "SE 115"
+   ],
+   "note": "Two courses from the departmental approved list; must meet ABET standards and be pre-approved. BENG 196/199 may count; 197/198 do not. Exact set from the department's official BE27 pre-approved TE list (TE List - BTEC, last updated May 2023, https://bioengineering.ucsd.edu/sites/default/files/uploads/TE%20List%20-%20BTEC%205.12.pdf). Requirement is 8 units total (2 courses), of which 6 units must have 'engineering' as primary component. Explicit approved list, not open-ended ranges, so specific courses are listed rather than subject ranges. Nuances: BENG 102 and BENG 140A/140B each only count 2 of 4 units toward the engineering-content portion. BENG 199 / CENG 199 / ECE 199 / MAE 199 / NANO 199 require two quarters with the same faculty member (two quarters of BENG 199 satisfies both TE requirements). BENG 196 (industrial internship, 4 units) needs departmental Industrial Relations board approval. ENG 100D + two quarters of ENG 100L (TIES) together give the full 8 units. BENG 197 and BENG 198 may NOT count. All TEs must be taken for a letter grade and pre-approved by Student Affairs; prerequisites also required. ECE 253 is a graduate-level course but appears on the approved list."
+  }
+ ]
+}

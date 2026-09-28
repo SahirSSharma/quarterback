@@ -1,0 +1,160 @@
+{
+ "program": {
+  "major": "Mechanical Engineering (Renewable Energy and Environmental Flows)",
+  "degree": "BS",
+  "department": "Mechanical and Aerospace Engineering (MAE)"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "Full mechanical engineering core PLUS four of the five technical electives chosen from the renewable-energy list, including both asterisked (*) core courses (MAE 119 and MAE 122). Verified against live catalog; SIO 143 and SIO 174 added to the Environmental Chemistry group (omitted in harvest).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/MAE-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 18",
+    "MATH 20D",
+    "MATH 20E"
+   ]
+  },
+  {
+   "label": "Lower-division physics & chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "CHEM 6A"
+   ],
+   "note": "CHEM 6AH may be taken in place of CHEM 6A."
+  },
+  {
+   "label": "Lower-division engineering core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "MAE 3",
+    "MAE 8",
+    "MAE 11",
+    "MAE 20",
+    "MAE 30A",
+    "MAE 30B",
+    "MAE 40"
+   ]
+  },
+  {
+   "label": "Upper-division engineering core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 14,
+   "courses": [
+    "MAE 101A",
+    "MAE 101B",
+    "MAE 101C",
+    "MAE 105",
+    "MAE 107",
+    "MAE 131A",
+    "MAE 143A",
+    "MAE 143B",
+    "MAE 150",
+    "MAE 156A",
+    "MAE 156B",
+    "MAE 170",
+    "MAE 171A",
+    "MAE 160",
+    "MAE 131B"
+   ],
+   "note": "Requires MAE 160 OR MAE 131B (one of the two), plus all other listed courses."
+  },
+  {
+   "label": "Specialization core (required, asterisked)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MAE 119",
+    "MAE 122"
+   ],
+   "note": "Both asterisked core courses required as part of the four specialization TEs."
+  },
+  {
+   "label": "Specialization technical electives (Renewable Energy and Environmental Flows)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MAE 123",
+    "MAE 185",
+    "SIO 111",
+    "SIO 171",
+    "SIO 172",
+    "SIO 173",
+    "SIO 175",
+    "SIO 176",
+    "SIO 178",
+    "SIO 179",
+    "MAE 101D",
+    "MAE 108",
+    "MAE 110",
+    "MAE 120",
+    "MAE 125",
+    "MAE 206",
+    "ECE 121A",
+    "ECE 121B",
+    "ECE 125A",
+    "ECE 125B",
+    "ESYS 103",
+    "SIO 117",
+    "CENG 100",
+    "CHEM 171",
+    "CHEM 172",
+    "CHEM 173",
+    "ESYS 101",
+    "SIO 141",
+    "SIO 143",
+    "SIO 174"
+   ],
+   "note": "Two additional courses (beyond MAE 119 and MAE 122) chosen from the Environmental Flows, Energy, or Environmental Chemistry groups to total four specialization TEs. SIO 141 is cross-listed as CHEM 174. Most CENG and CHEM courses are also accepted with petition."
+  },
+  {
+   "label": "Free technical elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MAE 100-199"
+   ],
+   "note": "Fifth TE; any departmentally approved upper-division/graduate technical elective."
+  },
+  {
+   "label": "Humanities & social sciences (GE/HSS)",
+   "division": "other",
+   "kind": "units",
+   "needed": 24,
+   "courses": [],
+   "type": "seeCollegeGE",
+   "note": "Engineering-major HSS/GE bucket (24 units). UCSD engineering majors satisfy this through their college's general-education program, which differs by the six undergraduate colleges (Revelle, Muir, Marshall, Warren, Roosevelt, Sixth, Seventh). No fixed course list at the major level; covered by the college GE section of the audit."
+  },
+  {
+   "label": "Minimum total units for degree",
+   "division": "other",
+   "kind": "units",
+   "needed": 180,
+   "courses": [],
+   "type": "unitTotal",
+   "note": "Standard UCSD BS minimum of 180 total quarter units for the degree. No course list; a total-unit-count requirement."
+  }
+ ]
+}

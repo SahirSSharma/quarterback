@@ -1,0 +1,161 @@
+{
+ "program": {
+  "major": "Public Health with Concentration in Biostatistics",
+  "degree": "B.S.",
+  "department": "Herbert Wertheim School of Public Health"
+ },
+ "catalogYear": "2024-2026 (UCSD General Catalog)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Lower-division ~53 units, upper-division 48 units. Requires calculus sequence and a programming course.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PH-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introduction to Public Health",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 40",
+    "PH 40R"
+   ],
+   "note": "One of PH 40 or PH 40R"
+  },
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3"
+   ],
+   "note": "All three required"
+  },
+  {
+   "label": "Computer programming",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 6",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 8B",
+    "CSE 11",
+    "CSE 180",
+    "CSE 180R",
+    "ECE 15"
+   ],
+   "note": "One programming course from this list"
+  },
+  {
+   "label": "Calculus and linear algebra",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 11",
+    "MATH 18"
+   ],
+   "note": "MATH 20A-B-C, MATH 11, MATH 18; 21 units"
+  },
+  {
+   "label": "Public health research methods",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 45",
+    "PH 45R"
+   ],
+   "note": "One of PH 45 or PH 45R"
+  },
+  {
+   "label": "Public Health Trending Topics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 70-85"
+   ],
+   "note": "One 4-unit course from PH 70-85"
+  },
+  {
+   "label": "Lower-division PH elective (Public Health Elements)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 50-95",
+    "PH 98",
+    "PH 99"
+   ],
+   "note": "One 4-unit lower-division PH course"
+  },
+  {
+   "label": "Public health core (Core Disciplines)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PH 101",
+    "PH 101R",
+    "PH 102",
+    "PH 102R",
+    "PH 110",
+    "PH 110R",
+    "PH 120",
+    "PH 120R",
+    "PH 130"
+   ],
+   "note": "PH 101, PH 102, PH 110, PH 120, PH 130 (R variants substitute); 20 units"
+  },
+  {
+   "label": "Mathematical statistics (concentration core)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 180A",
+    "MATH 181A",
+    "MATH 181B"
+   ],
+   "note": "All three required; 12 units"
+  },
+  {
+   "label": "PH major elective (Public Health Perspectives)",
+   "division": "upper",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "PH 140-191",
+    "PH 195P",
+    "PH 198",
+    "PH 199"
+   ],
+   "note": "Eight units from PH 140-191, PH 195P, PH 198, or PH 199"
+  },
+  {
+   "label": "Capstone / practicum",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PH 193",
+    "PH 193R",
+    "PH 194",
+    "PH 194R",
+    "PH 196AH",
+    "PH 196BH"
+   ],
+   "note": "PH 193/193R + PH 194/194R (8 units), OR PH 196AH + PH 196BH (12 units)"
+  }
+ ]
+}

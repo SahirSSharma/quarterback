@@ -1,0 +1,192 @@
+{
+ "program": {
+  "major": "Public Health with Concentration in Health Policy and Management Sciences",
+  "degree": "B.S.",
+  "department": "Herbert Wertheim School of Public Health"
+ },
+ "catalogYear": "2024-2026 (UCSD General Catalog)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Lower-division 32-33 units, upper-division 48 units. FIXED: elective block corrected from 12 to 8 units (USP 143 is inside the 8-unit block, not additional); replaced over-broad 'ECON/GLBH/MGT/POLI 100-199' ranges with the catalog's enumerated approved list.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PH-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introduction to Public Health",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 40",
+    "PH 40R"
+   ],
+   "note": "One of PH 40 or PH 40R"
+  },
+  {
+   "label": "Introductory Biology (three courses)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3",
+    "BILD 10",
+    "BILD 12",
+    "BILD 18",
+    "BILD 20",
+    "BILD 22",
+    "BILD 26",
+    "BILD 28",
+    "BILD 30",
+    "BILD 32",
+    "BILD 36",
+    "BILD 38",
+    "BILD 44",
+    "BILD 60",
+    "BILD 61"
+   ],
+   "note": "Choose three BILD courses from this list"
+  },
+  {
+   "label": "Quantitative methods",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 11",
+    "PSYC 60",
+    "COGS 14B",
+    "HDS 60"
+   ],
+   "note": "One quantitative methods / statistics course"
+  },
+  {
+   "label": "Public health research methods",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 45",
+    "PH 45R"
+   ],
+   "note": "One of PH 45 or PH 45R"
+  },
+  {
+   "label": "Public Health Trending Topics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 70-85"
+   ],
+   "note": "One 4-unit course from PH 70-85"
+  },
+  {
+   "label": "Lower-division PH elective (Public Health Elements)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 50-95",
+    "PH 98",
+    "PH 99"
+   ],
+   "note": "One 4-unit lower-division PH course"
+  },
+  {
+   "label": "Public health core (Core Disciplines)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PH 101",
+    "PH 101R",
+    "PH 102",
+    "PH 102R",
+    "PH 110",
+    "PH 110R",
+    "PH 120",
+    "PH 120R",
+    "PH 130"
+   ],
+   "note": "PH 101, PH 102, PH 110, PH 120, PH 130 (R variants substitute); 20 units"
+  },
+  {
+   "label": "Health policy concentration courses (Public Health Perspectives)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PH 141",
+    "PH 156"
+   ],
+   "note": "Both PH 141 and PH 156 required"
+  },
+  {
+   "label": "PH major elective (selection)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 140-191",
+    "PH 195P",
+    "PH 198",
+    "PH 199"
+   ],
+   "note": "One course from PH 140-191, PH 195P, PH 198, or PH 199 (completes the 12-unit Public Health Perspectives block with PH 141/156)"
+  },
+  {
+   "label": "Health services course + designated electives",
+   "division": "upper",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "USP 143",
+    "ANSC 105",
+    "ANSC 105GS",
+    "CCS 123",
+    "CGS 123",
+    "ECON 130",
+    "ECON 131",
+    "ECON 138",
+    "ECON 140",
+    "ECON 141",
+    "ENVR 110",
+    "GLBH 105",
+    "HISC 180",
+    "MGT 108R",
+    "MGT 173",
+    "POLI 117",
+    "POLI 117R",
+    "POLI 160AA",
+    "POLI 168",
+    "SIO 109",
+    "SIO 109R",
+    "SOCI 152",
+    "USP 101",
+    "USP 133",
+    "USP 142A",
+    "USP 142B",
+    "USP 147"
+   ],
+   "note": "USP 143 required plus additional units from the enumerated approved list; 8 units total"
+  },
+  {
+   "label": "Capstone / practicum",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PH 193",
+    "PH 193R",
+    "PH 194",
+    "PH 194R",
+    "PH 196AH",
+    "PH 196BH"
+   ],
+   "note": "PH 193/193R + PH 194/194R (8 units), OR PH 196AH + PH 196BH (12 units)"
+  }
+ ]
+}

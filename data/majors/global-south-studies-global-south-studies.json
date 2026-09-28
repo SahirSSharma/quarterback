@@ -1,0 +1,51 @@
+{
+ "program": {
+  "major": "Global South Studies",
+  "degree": "B.A.",
+  "department": "Global South Studies"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against the UC San Diego General Catalog (catalog.ucsd.edu/curric/GSS.html and catalog.ucsd.edu/courses/GSS.html). Lower-division sequence, the choose-3 rule, and the twelve-upper-division/three-discipline requirement all confirmed on the live pages. IMPORTANT STATUS (confirmed on catalog page): the major is unavailable to declare from Spring 2026 through the end of Spring 2029; a minor is recommended in the interim. Formerly named Third World Studies. The upper-division requirement is an OPEN interdisciplinary program of study (12 courses across >=3 disciplines) rather than a fixed list of specific course codes, so exact course codes are determined by advisor/program approval and the ranges above should not be treated as an enumerated required-course list.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/GSS.html",
+  "https://catalog.ucsd.edu/courses/GSS.html",
+  "https://iah.ucsd.edu/academics/global-south-studies/index.html",
+  "https://globalsouth.ucsd.edu/major/index.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division Global South Studies sequence (choose 3)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "GSS 20",
+    "GSS 21",
+    "GSS 22",
+    "GSS 23",
+    "GSS 25",
+    "GSS 26",
+    "GSS 27"
+   ],
+   "note": "Three courses from the GSS 20-27 sequence (GSS 24 does not exist; confirmed against the live catalog course list). Eleanor Roosevelt College students may substitute MMW 13 and MMW 14 for up to two of the three courses, but must take at least one course from the GSS 20-27 sequence. Courses must be taken for a letter grade (P/NP accepted only for Fall 2020, Winter 2021, Spring 2021 due to COVID)."
+  },
+  {
+   "label": "Upper-division interdisciplinary courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 12,
+   "courses": [
+    "GSS 100-199",
+    "ANTH 100-199",
+    "ECON 100-199",
+    "HIST 100-199",
+    "LIT 100-199",
+    "POLI 100-199",
+    "SOCI 100-199"
+   ],
+   "note": "Minimum of twelve upper-division courses dealing with the Global South, drawn from at least three different disciplines (e.g., anthropology, economics, history, literature, political science, sociology). The program of study must be interdisciplinary and is developed with/approved by the program. Courses must be taken for a letter grade. Course ranges shown are REPRESENTATIVE disciplines, not a fixed enumerated list from the catalog; approved Global-South-focused upper-division courses in these and other departments count subject to advisor/program approval. For a double major, at least ten of the twelve upper-division courses must be unique to each major; up to two may overlap with approval from both departments."
+  }
+ ]
+}

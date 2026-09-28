@@ -1,0 +1,9 @@
+{
+  "_note": "Department pages that publish tentative/planned course offerings by quarter. Discovered with Tavily /search on 2026-09-27 and verified by hand. The nightly refresh re-discovers with /search, fetches with /extract, and writes offerings/<dept>.json with a quote, URL and fetched_at for every course-term status.",
+  "sources": [
+    { "dept": "CSE", "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings", "kind": "page-with-google-sheet", "sheetCsv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRYc7qv9lyLh-F8EzlVcE2td3jObRp2B88ZIru9XQw0_G70kfDCjVRo64EWWDdEEkzyc_s1sX2JMfqb/pub?gid=684727614&single=true&output=csv", "columns": ["Course #", "Title", "Fall 2026", "Winter 2027", "Spring 2027"], "emptyMeans": "not offered (page: 'If no instructor is listed, the course will not be offered')", "lastSeenUpdated": "July 8th, 2026" },
+    { "dept": "MATH", "url": "https://math.ucsd.edu/students/planned-course-offerings?year=2026-2027", "kind": "markdown-table", "columns": ["COURSE", "COURSE NAME", "LECT", "FALL", "WINTER", "SPRING"] },
+    { "dept": "ECE", "url": "https://ece.ucsd.edu/ece-tentative-course-list", "kind": "markdown-table", "columns": ["COURSE", "FALL 26", "WINTER 27", "SPRING 27", "SU27 (TBD)"], "emptyMeans": "not offered (page: 'If there is a blank box, then the course is not being offered that quarter')" },
+    { "dept": "COGS", "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html", "kind": "index-with-subpages", "note": "Links 'COGS Course Offerings 2026-27' and 'DSGN Course Offerings 2026-27'; follow with /map or /extract." }
+  ]
+}

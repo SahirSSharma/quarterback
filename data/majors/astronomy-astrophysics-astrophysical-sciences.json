@@ -1,0 +1,130 @@
+{
+ "program": {
+  "major": "Astrophysical Sciences",
+  "degree": "B.S.",
+  "department": "Astronomy & Astrophysics"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "UCSD major code AT27. Total ~104 units (56 lower-division + 48 upper-division). C- or better in every course applied to the major; 2.0 GPA in upper-division major courses; at least 60% of upper-division major courses in residence at UCSD. Fewer required core courses and a larger elective breadth block than the Astronomy and Astrophysics B.S. Verified against catalog.ucsd.edu/curric/ASTR-ug.html and astro.ucsd.edu majors-minor page. ASTR 18 is recommended (not required) for PHYS 2 track students. ASTR 199/199H may count as one elective.",
+ "sourceUrls": [
+  "https://astro.ucsd.edu/",
+  "https://astro.ucsd.edu/undergraduate/majors-minor/index.html",
+  "https://catalog.ucsd.edu/curric/ASTR-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory Physics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2D",
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C",
+    "PHYS 4D",
+    "PHYS 4E"
+   ],
+   "note": "Complete EITHER the full PHYS 2A-B-C-D sequence (4 courses) OR the full PHYS 4A-B-C-D-E sequence (5 courses). needed=4 reflects the shorter PHYS 2 track; the PHYS 4 track requires all five. ASTR 18 is recommended (not required) for PHYS 2 track students."
+  },
+  {
+   "label": "Programming course (one from list)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "DSC 10",
+    "BILD 62",
+    "COGS 18",
+    "PHYS 41",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 11",
+    "ECE 15",
+    "MAE 8",
+    "NANO 15",
+    "NANO 15R"
+   ],
+   "note": "Choose one programming course from this list. Verified verbatim against catalog."
+  },
+  {
+   "label": "Mathematics: linear algebra and calculus sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "All six required: MATH 18 plus the MATH 20A-B-C-D-E sequence."
+  },
+  {
+   "label": "Introductory Astronomy & Astrophysics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ASTR 20A",
+    "ASTR 20B"
+   ],
+   "note": "Both required. ASTR 18 is recommended if taking the PHYS 2 series."
+  },
+  {
+   "label": "Upper-division core (three from list)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ASTR 120",
+    "ASTR 122",
+    "ASTR 123",
+    "ASTR 124"
+   ],
+   "note": "Choose three of these four. No separate ASTR 101-106 core requirement for this major. Verified verbatim against catalog."
+  },
+  {
+   "label": "Practical skills / lab (one from list)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ASTR 150",
+    "ASTR 152",
+    "ASTR 154",
+    "ASTR 155"
+   ],
+   "note": "One practical-skills (lab) course required from this list. Verified verbatim against catalog."
+  },
+  {
+   "label": "Upper-division electives (breadth)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "ASTR 100-199",
+    "PHYS 100-199",
+    "SIO 100-199",
+    "MAE 100-199",
+    "ECE 100-199",
+    "MATH 100-199",
+    "DSC 100-199",
+    "CHEM 100-199",
+    "BILD 100-199",
+    "BIBC 100-199",
+    "BICD 100-199",
+    "BIEB 100-199",
+    "BIPN 100-199"
+   ],
+   "note": "Eight upper-division courses of at least 4 units each. Must include at least FOUR ASTR courses and at least THREE courses from other departments. The catalog lists the eligible external departments as: Physics (PHYS), Scripps/SIO, MAE, ECE, Mathematics (MATH), Data Science (DSC), Chemistry (CHEM), or Biology. The Biology subject ranges (BILD/BIBC/BICD/BIEB/BIPN) are the standard UCSD Biological Sciences subject codes expanded from the catalog's generic 'Biology'; the audit engine should verify exact eligible biology subjects with the department. ASTR 199/199H may count as one elective."
+  }
+ ]
+}

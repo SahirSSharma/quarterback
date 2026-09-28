@@ -1,0 +1,330 @@
+{
+ "program": {
+  "major": "Cognitive Science with Specialization in Clinical Aspects of Cognition",
+  "degree": "B.S.",
+  "department": "Cognitive Science"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "high",
+ "found": true,
+ "notes": "Major code CG31. Same base as B.S. Cognitive Science; 4 of the 6 upper-division electives from the approved Clinical list, 2 from Approved General Electives; at least 3 of 6 total electives must be COGS. Elective list verified against 25-26 Specialization Electives PDF.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/COGS-ug.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/index.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/ba-cogsci.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/bs-cogsci.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/cbn.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/neuroscience.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/clinical.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/language.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/design-interaction.html",
+  "https://cogsci.ucsd.edu/undergraduates/major/machine-learning.html",
+  "https://cogsci.ucsd.edu/_files/undergraduates/25-26%20Specialization%20Electives.pdf"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 10C",
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B"
+   ],
+   "note": "MATH 20A, 20B, 18 (3) OR MATH 10A, 10B, 10C, 18 (4)."
+  },
+  {
+   "label": "Introduction: COGS 1",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 1"
+   ]
+  },
+  {
+   "label": "Design: COGS 10 or DSGN 1",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 10",
+    "DSGN 1"
+   ]
+  },
+  {
+   "label": "Methods: COGS 13",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 13"
+   ]
+  },
+  {
+   "label": "Methods: COGS 14A",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 14A"
+   ]
+  },
+  {
+   "label": "Methods: COGS 14B",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 14B"
+   ]
+  },
+  {
+   "label": "Neuroscience: COGS 17",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 17"
+   ]
+  },
+  {
+   "label": "Programming (1 of)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 18",
+    "BILD 62",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 11"
+   ]
+  },
+  {
+   "label": "Core: COGS 100",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 100"
+   ]
+  },
+  {
+   "label": "Core: Fundamental Cognitive Phenomena (2 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COGS 101A",
+    "COGS 101B",
+    "COGS 101C"
+   ]
+  },
+  {
+   "label": "Core: Cognitive Neuroscience (2 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COGS 107A",
+    "COGS 107B",
+    "COGS 107C"
+   ]
+  },
+  {
+   "label": "Core: Computation (COGS 108 or 109)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 108",
+    "COGS 109"
+   ]
+  },
+  {
+   "label": "Clinical specialization electives (4 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "COGS 154",
+    "COGS 163",
+    "COGS 165",
+    "COGS 171",
+    "COGS 172",
+    "COGS 174",
+    "COGS 175",
+    "COGS 176",
+    "BIBC 100",
+    "BIBC 102",
+    "BIPN 100",
+    "BIPN 105",
+    "PSYC 100",
+    "PSYC 116",
+    "PSYC 120",
+    "PSYC 124",
+    "PSYC 125",
+    "PSYC 134",
+    "PSYC 140",
+    "PSYC 154",
+    "PSYC 155",
+    "PSYC 168",
+    "PSYC 169",
+    "PSYC 170",
+    "PSYC 179",
+    "PSYC 181",
+    "PSYC 188",
+    "PSY BEH 102C"
+   ],
+   "note": "PSY BEH 102C (Abnormal Psychology) is a UC Irvine cross-campus online course via crossenroll.universityofcalifornia.edu."
+  },
+  {
+   "label": "General electives (2 of)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "COGS 102A",
+    "COGS 102B",
+    "COGS 102C",
+    "COGS 109",
+    "COGS 110",
+    "COGS 111",
+    "COGS 112",
+    "COGS 115",
+    "COGS 116",
+    "COGS 118A",
+    "COGS 118B",
+    "COGS 118C",
+    "COGS 118D",
+    "COGS 119",
+    "COGS 120",
+    "COGS 121",
+    "COGS 122",
+    "COGS 123",
+    "COGS 124",
+    "COGS 125",
+    "COGS 126",
+    "COGS 127",
+    "COGS 128",
+    "COGS 137",
+    "COGS 138",
+    "COGS 142",
+    "COGS 143",
+    "COGS 144",
+    "COGS 150",
+    "COGS 151",
+    "COGS 152",
+    "COGS 153",
+    "COGS 154",
+    "COGS 155",
+    "COGS 156",
+    "COGS 157",
+    "COGS 160",
+    "COGS 163",
+    "COGS 164",
+    "COGS 165",
+    "COGS 169",
+    "COGS 170",
+    "COGS 171",
+    "COGS 172",
+    "COGS 174",
+    "COGS 175",
+    "COGS 176",
+    "COGS 177",
+    "COGS 178",
+    "COGS 179",
+    "COGS 180",
+    "COGS 181",
+    "COGS 182",
+    "COGS 184",
+    "COGS 185",
+    "COGS 186",
+    "COGS 187A",
+    "COGS 187B",
+    "COGS 188",
+    "COGS 189",
+    "COGS 190A",
+    "COGS 190B",
+    "COGS 190C",
+    "COGS 195",
+    "COGS 198",
+    "COGS 199",
+    "COMM 102C",
+    "CSE 100",
+    "CSE 101",
+    "CSE 130",
+    "CSE 150A",
+    "CSE 150B",
+    "CSE 151A",
+    "CSE 151B",
+    "CSE 160",
+    "CSE 170",
+    "DSGN 100",
+    "DSGN 160",
+    "EDS 114",
+    "EDS 115",
+    "EDS 117",
+    "EDS 136",
+    "EDS 124AR",
+    "EDS 124BR",
+    "LIGN 112",
+    "LIGN 120",
+    "LIGN 121",
+    "LIGN 130",
+    "LIGN 155",
+    "LIGN 165",
+    "LIGN 169",
+    "LIGN 170",
+    "LIGN 171",
+    "LIGN 180",
+    "LIGN 181",
+    "PHIL 134",
+    "PHIL 136",
+    "PHIL 149",
+    "PHIL 150",
+    "PHIL 151",
+    "PHIL 163",
+    "PHIL 164",
+    "PSYC 100",
+    "PSYC 111A",
+    "PSYC 111B",
+    "PSYC 115A",
+    "PSYC 115B",
+    "PSYC 116",
+    "PSYC 120",
+    "PSYC 122",
+    "PSYC 123",
+    "PSYC 125",
+    "PSYC 129",
+    "PSYC 132",
+    "PSYC 133",
+    "PSYC 134",
+    "PSYC 138",
+    "PSYC 140",
+    "PSYC 144",
+    "PSYC 145",
+    "PSYC 150",
+    "PSYC 159",
+    "PSYC 168",
+    "PSYC 169",
+    "PSYC 170",
+    "PSYC 171",
+    "PSYC 174",
+    "PSYC 176",
+    "PSYC 179",
+    "PSYC 181",
+    "PSYC 182",
+    "PSYC 188",
+    "PSYC 189",
+    "PSY BEH 102C"
+   ],
+   "note": "2 from Approved General Electives list (separate PDF). At least 3 of 6 total electives must be COGS. From the Cognitive Science Department 'Approved General Electives' list (verified against the 2024-2025 PDF; the 25-26 PDF URL returns 404, but the list is stable year-to-year). It is a specific curated list, NOT any course in each subject, so members are enumerated. Constraint: at least 3 of the 6 total upper-division electives must be COGS courses; only one COGS 160; only one 19x-series (190A/190B/190C/195/198/199) course may count, and only with instructor + advisor approval. Cross-campus online options COGS 110 (UC Merced) and PSY BEH 102C (UC Irvine, Abnormal Psychology) are enrolled via crossenroll.universityofcalifornia.edu; PSY BEH 102C also appears on the clinical specialization list."
+  }
+ ]
+}

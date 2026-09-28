@@ -1,0 +1,109 @@
+{
+ "program": {
+  "major": "Business Economics",
+  "degree": "B.S.",
+  "department": "Economics"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "EN30. Verified against catalog.ucsd.edu/curric/ECON-ug.html. 22 courses total (9 lower-division, 10 upper-division core, 3 upper-division electives). Jointly administered with the Rady School of Management. All major courses must be passed with C- or better. Catalog confirms abbreviated macro (110B only) and econometrics (120A-B only).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ECON-ug.html",
+  "https://economics.ucsd.edu/undergraduate-program/major-minor-requirements/economics-major-ba.html",
+  "https://economics.ucsd.edu/undergraduate-program/major-minor-requirements/BusEcon.html",
+  "https://math.ucsd.edu/students/undergraduate/ma33-joint-major-in-math-econ"
+ ],
+ "buckets": [
+  {
+   "label": "Calculus sequence (complete one full sequence)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 10C",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C"
+   ],
+   "note": "Complete either MATH 10A-B-C or MATH 20A-B-C (20-series recommended). Do not mix sequences."
+  },
+  {
+   "label": "Principles of Economics and Data Analytics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECON 1",
+    "ECON 3",
+    "ECON 5"
+   ],
+   "note": "ECON 1, ECON 3, and ECON 5 (= POLI 5), all required."
+  },
+  {
+   "label": "Accounting",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MGT 45",
+    "ECON 4",
+    "MGT 5"
+   ],
+   "note": "Complete MGT 45 (principles of accounting), OR both ECON 4 (financial accounting; = MGT 4) and MGT 5. If using the two-course path, both ECON 4 and MGT 5 are required."
+  },
+  {
+   "label": "Rady School lower-division",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MGT 16",
+    "MGT 71"
+   ],
+   "note": "MGT 16 (personal ethics at work) and MGT 71 (operations management), both required."
+  },
+  {
+   "label": "Upper-division Economics core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "ECON 100A",
+    "ECON 100B",
+    "ECON 110B",
+    "ECON 120A",
+    "ECON 120B"
+   ],
+   "note": "All five required. Note the abbreviated macro (110B only) and econometrics (120A-B only) relative to the standard Economics major."
+  },
+  {
+   "label": "Upper-division Rady School core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "MGT 100",
+    "MGT 160",
+    "MGT 162",
+    "MGT 162R",
+    "MGT 164",
+    "MGT 180"
+   ],
+   "note": "MGT 100 (customer analytics), MGT 160 (experiments in firms), MGT 162 or MGT 162R (negotiations), MGT 164 (business and organizational leadership), MGT 180 (business finance). MGT 162 and 162R are equivalents - count as one, so five distinct requirements."
+  },
+  {
+   "label": "Upper-division electives (Economics and Rady)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECON 100-199",
+    "MGT 100-199"
+   ],
+   "note": "Three upper-division courses from economics and/or the Rady School; at least one must be from economics and at least one from the Rady School of Management."
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "program": {
+  "major": "Probability and Statistics",
+  "degree": "B.S.",
+  "department": "Mathematics"
+ },
+ "catalogYear": "current General Catalog (catalog.ucsd.edu)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Major code MA35. Fourteen upper-division four-unit courses (fifty-six units) total, including the required courses. Up to two upper-division electives may be taken outside the department in an approved applied area by petition. MAE 107, ECON 120A-B-C and MATH 195–199 cannot be counted.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/MATH-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Calculus and linear algebra sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E",
+    "MATH 31AH",
+    "MATH 31BH",
+    "MATH 31CH"
+   ],
+   "note": "One of two sequences: MATH 18 and 20A-B-C-D-E, or Honors Calculus MATH 31AH-BH-CH with MATH 20D (31AH-BH-CH cover MATH 18, 20C and 20E). The count shown is the standard six-course sequence; on the honors path four courses complete it."
+  },
+  {
+   "label": "Programming requirement",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 11",
+    "ECE 15",
+    "DSC 20"
+   ],
+   "note": "One course."
+  },
+  {
+   "label": "Mathematical Reasoning",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 109"
+   ],
+   "note": "MATH 109. Students completing MATH 31AH-BH-CH may substitute a four-unit upper-division mathematics elective."
+  },
+  {
+   "label": "Linear Algebra",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 102"
+   ],
+   "note": "MATH 102."
+  },
+  {
+   "label": "Analysis / Advanced Calculus",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 140A",
+    "MATH 140B",
+    "MATH 142A",
+    "MATH 142B"
+   ],
+   "note": "MATH 140A-B or MATH 142A-B. MATH 140A-B-C is recommended for graduate school."
+  },
+  {
+   "label": "Probability",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 180A",
+    "MATH 180B",
+    "MATH 180C"
+   ],
+   "note": "All three. Duplication of credit exists between MATH 180A and ECON 120A."
+  },
+  {
+   "label": "Mathematical Statistics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 181A",
+    "MATH 181B"
+   ],
+   "note": "Both."
+  },
+  {
+   "label": "Applied / Computational Statistics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 185",
+    "MATH 189"
+   ],
+   "note": "MATH 185 or MATH 189."
+  },
+  {
+   "label": "One additional statistics course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 181C",
+    "MATH 181D",
+    "MATH 181E",
+    "MATH 181F",
+    "MATH 182",
+    "MATH 185",
+    "MATH 189",
+    "MATH 194"
+   ],
+   "note": "One course from MATH 181C-D-E-F, 182, 185, 189, 194."
+  },
+  {
+   "label": "Additional upper-division electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 100A",
+    "MATH 100B",
+    "MATH 100C",
+    "MATH 103A",
+    "MATH 103B",
+    "MATH 110",
+    "MATH 111A",
+    "MATH 111B",
+    "MATH 112A",
+    "MATH 112B",
+    "MATH 114",
+    "MATH 120A",
+    "MATH 120B",
+    "MATH 130",
+    "MATH 140C",
+    "MATH 144",
+    "MATH 146",
+    "MATH 148",
+    "MATH 152",
+    "MATH 154",
+    "MATH 155A",
+    "MATH 158",
+    "MATH 170A",
+    "MATH 170B",
+    "MATH 170C",
+    "MATH 171A",
+    "MATH 171B",
+    "MATH 173A",
+    "MATH 173B",
+    "MATH 174",
+    "MATH 175",
+    "MATH 179",
+    "MATH 181C",
+    "MATH 181D",
+    "MATH 181E",
+    "MATH 181F",
+    "MATH 182",
+    "MATH 184",
+    "MATH 185",
+    "MATH 187A",
+    "MATH 188",
+    "MATH 189",
+    "MATH 190A",
+    "MATH 193A",
+    "MATH 193B",
+    "MATH 194"
+   ],
+   "note": "Chosen from the catalog's elective list to reach fourteen upper-division courses in total; the count here is what remains after the required courses above."
+  }
+ ]
+}

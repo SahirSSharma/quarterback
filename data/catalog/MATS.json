@@ -1,0 +1,292 @@
+{
+ "page": "MATS",
+ "name": "Materials Science and Engineering Program",
+ "courses": [
+  {
+   "code": "MATS 200",
+   "subject": "MATS",
+   "num": "200",
+   "title": "Graduate Seminar",
+   "units": "0",
+   "level": "Graduate",
+   "description": "Each graduate student in the Materials Science and Engineering Program is expected to attend a weekly seminar in materials science or related areas. MS students must enroll for three quarters, PhD students for six quarters. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MATS 201A",
+   "subject": "MATS",
+   "num": "201A",
+   "title": "Thermodynamics of Solids",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The thermodynamics and statistical mechanics of solids. Basic concepts; equilibrium properties of alloy systems; thermodynamic information from phase diagrams, surfaces, and interfaces; crystalline defects.",
+   "prereqText": "consent of instructor. (Cross-listed with ECE 238A, MAE 271A, NANO 265.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 201B",
+   "subject": "MATS",
+   "num": "201B",
+   "title": "Solid State Diffusion and Reaction Kinetics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Thermally activated processes, Boltzmann factor, homogeneous and heterogeneous reactions, solid state diffusion, Fick\u2019s laws, diffusion mechanisms, Kirkendall effect, Boltzman-Matano analysis, high diffusivity paths.",
+   "prereqText": "consent of instructor. (Cross-listed with ECE 238B, MAE 271B.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 201C",
+   "subject": "MATS",
+   "num": "201C",
+   "title": "Phase Transformations",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Classification of phase transformations: displacive and reconstructive transformations: classical and nonclassical theories of nucleation: Becker-Doering, Volmer-Weber, lattice instabilities, spinodal decomposition. Growth theories: interface migration, stress effects, terrace-ledge mechanisms, epitaxial growth, kinetics, and mechanics. Precipitation. Order-disorder transformations. Solidification. Amorphization.",
+   "prereqText": "consent of instructor. (Cross-listed with MAE 271C.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 202",
+   "subject": "MATS",
+   "num": "202",
+   "title": "MATS Academy I",
+   "units": "1",
+   "level": "Graduate",
+   "description": "This course focuses on essential topics for student success and the development of soft skills critical to thriving in a graduate program. Throughout the course, students will engage with various campus resources and support services to strengthen their academic performance, time management, and professional development. By the end of the course, students will be equipped with strategies to navigate the challenges of graduate studies and to make the most of their educational experience.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MATS 203",
+   "subject": "MATS",
+   "num": "203",
+   "title": "MATS Academy II",
+   "units": "1",
+   "level": "Graduate",
+   "description": "This is part two of MATS Academy, intended for the continuation of MATS doctoral students. This course covers topics that are key to success in a doctoral program such as the R1 funding program, the faculty adviser and student relationship, preparation for the MATS comprehensive exam, scientific integrity and responsible conduct of research, effective literature analyses, hypotheses-driven research, research proposals, presentation skills, and outreach and service.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MATS 205A",
+   "subject": "MATS",
+   "num": "205A",
+   "title": "Imperfections in Solids",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Point, line, and planar defects in crystalline solids, including vacancies, self-interstitials, solute atoms, dislocations, stacking faults, and grain boundaries; effects of imperfections on mechanical properties; interactions of dislocations with point defects; strain hardening by micro-obstacles, precipitation, and alloying elements.",
+   "prereqText": "consent of instructor. (Cross-listed with MAE 272.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 213A",
+   "subject": "MATS",
+   "num": "213A",
+   "title": "Dynamic Behavior of Materials I",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Elastic waves in continuum; longitudinal and shear waves. Surface waves. Plastic waves; shock waves; Rankine-Hugoniot relations. Method of characteristics, differential and difference form of conservation equations; dynamic plasticity and dynamic fracture. Shock wave reflection and interaction.",
+   "prereqText": "consent of instructor. (Cross-listed with MAE 273A.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 227",
+   "subject": "MATS",
+   "num": "227",
+   "title": "Structure and Analysis of Solids",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Key concepts in the atomic structure and bonding of solids such as metals, ceramics, and semiconductors. Symmetry operations, point groups, lattice types, space groups, simple and complex inorganic compounds, structure/property comparisons, structure determination with X-ray diffraction. Ionic, covalent, metallic bonding compared with physical properties. Atomic and molecular orbitals, bands verses bonds, free electron theory.",
+   "prereqText": "graduate student or consent of instructor. (Cross-listed with CHEM 222, MAE 251, NANO 227.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 231",
+   "subject": "MATS",
+   "num": "231",
+   "title": "Mechanics of Soft Materials",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Main focus is the large deformations and instabilities in soft materials, such as elastomers, gels, and biomaterials. Some contents in thermodynamics and finite deformation theory are reviewed and summarized. Fundamental theories are applied to study the mechanics of gels, electroactive polymers, and biomaterials. This course intends to use soft material as an example to illustrate how to study the interaction between mechanics and other fields in materials (e.g., electric field, chemical field).",
+   "prereqText": "graduate standing. (Cross-listed with MAE 276.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 236",
+   "subject": "MATS",
+   "num": "236",
+   "title": "Advanced Ceramics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Topics include phase equilibria and crystallography, defects and thermodynamics (Kr\u00f6ger-Vink Notation), glass science, electrical and ionic transport behavior, Brouwer diagrams, powder synthesis and compaction, sintering theory and gain growth, mechanical, optical, magnetic, electrical properties, fuel cells.",
+   "prereqText": "graduate standing or consent of instructor. (Cross-listed with MAE 253.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 251A",
+   "subject": "MATS",
+   "num": "251A",
+   "title": "Electronic and Photonic Properties of Materials",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The electronic and optical properties of metals, semiconductors, and insulators. The concept of the band structure. Electronic and lattice conductivity. Type I and Type II superconductivity. Optical engineering using photonic band gap crystals in one-, two-, and three-dimensions. Current research frontiers.",
+   "prereqText": "consent of the instructor. (Cross-listed with MAE 265A.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 251B",
+   "subject": "MATS",
+   "num": "251B",
+   "title": "Magnetic Materials: Principles and Applications",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The basis of magnetism: classical and quantum mechanical points of view. Different kinds of magnetic materials. Magnetic phenomena including anisotropy, magnetostriction, domains, and magnetization dynamics. Current frontiers of nanomagnetic research including thin films and particles. Optical, data storage, and biomedical engineering applications of soft and hard magnetic materials.",
+   "prereqText": "consent of instructor. (Cross-listed with ECE 221, MAE 265B, NANO 251A.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 252",
+   "subject": "MATS",
+   "num": "252",
+   "title": "Biomaterials and Medical Devices",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This class will cover biomaterials and biomimetic materials. Metal, ceramic, and polymer biomaterials will be discussed. Emphasis will be on the structure-property relationships, biocompatibility/degradation issues and tissue/material interactions. Synthesis and mechanical testing of biomimetic materials will also be discussed.",
+   "prereqText": "consent of instructor. (Cross-listed with MAE 266.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 253",
+   "subject": "MATS",
+   "num": "253",
+   "title": "Nanomaterials and Properties",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course discusses synthesis techniques, processing, microstructural control, and unique physical properties of materials in nanodimensions. Topics include nanowires, quantum dots, thin films, electrical transport, electron emission properties, optical behavior, mechanical behavior, and technical applications of nanomaterials.",
+   "prereqText": "consent of instructor. (Cross-listed with MAE 267.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 254",
+   "subject": "MATS",
+   "num": "254",
+   "title": "Frontier Micro-Electro-Mechanical Systems (MEMS) Materials and Devices",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Fabrication of Micro-Electro-Mechanical Systems (MEMS) by bulk and surface micromachining of single crystal, polycrystal, and amorphous silicon and other materials. Performance issues including electrostatic, magnetic, piezoelectric actuations, residual stresses, deformation. Novel device applications, future trends in smart materials and nano-electro-mechanical (NEMS) systems.",
+   "prereqText": "consent of instructor. (Cross-listed with MAE 268.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 255",
+   "subject": "MATS",
+   "num": "255",
+   "title": "Biomaterials and Biomimetics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Fundamentals of materials science as applied to bioengineering design. Hierarchical structures. Cells and tissues. Natural and synthetic polymeric materials. Biomineralized materials. Biological composites. Cellular materials (foams). Functional biological materials. Biomaterials and implants. Bioinspired design and materials. (Cross-listed with NANO 252, CENG 256.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MATS 256",
+   "subject": "MATS",
+   "num": "256",
+   "title": "Energy Materials and Applications",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This class will cover the fundamentals/engineering aspects of various energy materials based on metallic, ceramic, semiconductor; and chemical structures and their applications related to solar cells, fuel cells, batteries, fusion energy, and hydrogen storage will be discussed.",
+   "prereqText": "graduate standing or consent of instructor. (Cross-listed with MAE 254.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 257",
+   "subject": "MATS",
+   "num": "257",
+   "title": "Polymer Science and Engineering",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Quantitative basic understanding of different branches of polymer science varying from polymer chemistry, characterization, thermodynamics, rheological properties, smart materials, self-assembly in biopolymers (natural) and synthetic polymers, and applications of polymers ranging from medicine to structure.",
+   "prereqText": "graduate standing. (Cross-listed with BENG 242, NANO 257, MAE 257.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 261A",
+   "subject": "MATS",
+   "num": "261A",
+   "title": "Processing of Polymers and Composites",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to processing and fabrication methods of polymers and composite materials. Processing techniques; facilities and equipment, material-processing-microstructure interaction, materials selection, form and quality control. Extrusion, injection molding, blow molding, compression molding, thermoforming, casting, foaming. Wet layup; sprayup; autoclave cure, SMC; RTM; resin infusion; winding and fiber placement; pultrusion. Process induced defects and environmental considerations.",
+   "prereqText": "graduate standing. (Cross-listed with SE 251A.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 261B",
+   "subject": "MATS",
+   "num": "261B",
+   "title": "Mechanical Behavior of Polymers and Composites",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Material-science oriented course on polymers and composites. Mechanical properties of polymers; micromechanisms of elastic and plastic deformations, fracture, and fatigue of polymers and composites.",
+   "prereqText": "graduate standing. (Cross-listed with SE 251B.)",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 269",
+   "subject": "MATS",
+   "num": "269",
+   "title": "Engineering Solar Cells at the Nanoscale",
+   "units": "4",
+   "level": "Graduate",
+   "description": "(Cross-listed with NANO 269.) Fundamentals of photovoltaic energy conversion; limiting efficiencies, loss mechanisms. Nanoscale effects in semiconductor, thin film, and organic photovoltaics. Emphasis on emerging nanotechnologies including nanowires, heterostructures, hybrid materials, quantum dots, transparent conducting materials, and plasmonics.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 290",
+   "subject": "MATS",
+   "num": "290",
+   "title": "Topics in Materials Science and Engineering",
+   "units": "1\u20134",
+   "level": "Graduate",
+   "description": "A course to be given at the discretion of the faculty in which topics of current interest in materials science and engineering will be presented.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "MATS 295",
+   "subject": "MATS",
+   "num": "295",
+   "title": "Research Conference",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Group discussion of research activities and progress of group members.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 296",
+   "subject": "MATS",
+   "num": "296",
+   "title": "Independent Study",
+   "units": "4",
+   "level": "Graduate",
+   "description": "",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "MATS 299",
+   "subject": "MATS",
+   "num": "299",
+   "title": "Graduate Research",
+   "units": "1\u201312",
+   "level": "Graduate",
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "program": {
+  "major": "Music",
+  "degree": "B.A.",
+  "department": "Music"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "Major = 9 lower-division + 12 upper-division courses, plus the Department Seminar (MUS 43/143) taken every quarter the student is a declared major. All courses except 43/143 and 95G must be taken for a letter grade. Emphasis areas: Composition, Performance, Literature, Technology, Jazz & the Music of the African Diaspora. Verified against department major page and catalog.",
+ "sourceUrls": [
+  "https://music-cms.ucsd.edu/ugrad/index.html",
+  "https://music-cms.ucsd.edu/ugrad/music-major.html",
+  "https://music-cms.ucsd.edu/ugrad/music-hum-major.html",
+  "https://music-cms.ucsd.edu/ugrad/icam-major.html",
+  "https://catalog.ucsd.edu/curric/MUS-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Basic Musicianship sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 2A",
+    "MUS 2B",
+    "MUS 2C"
+   ],
+   "note": "Students without prior background may take MUS 1A-1B-1C; those continuing to upper-division theory take MUS 2A-B-C."
+  },
+  {
+   "label": "Basic Keyboard sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 2AK",
+    "MUS 2BK",
+    "MUS 2CK",
+    "MUS 2JK"
+   ],
+   "note": "MUS 2AK and 2BK required, plus MUS 2CK OR MUS 2JK (jazz emphasis) as the third — 3 courses total."
+  },
+  {
+   "label": "Performance ensemble (choose 3)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 95B-95W",
+    "MUS 130",
+    "MUS 131",
+    "MUS 133",
+    "MUS 134"
+   ],
+   "note": "Choose any 3 quarters of ensemble from MUS 95B through 95W (lower-division) or MUS 130/131/133/134 (upper-division). Mixed-division bucket; listed under lower division on the department page."
+  },
+  {
+   "label": "Department Seminar",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MUS 43",
+    "MUS 143"
+   ],
+   "note": "MUS 43 (lower) / 143 (upper) must be taken EVERY quarter the student is a declared Music major; not counted toward the 9+12 course totals. May be taken P/NP."
+  },
+  {
+   "label": "Music Theory and Practice",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 101A",
+    "MUS 101B",
+    "MUS 101C"
+   ],
+   "note": ""
+  },
+  {
+   "label": "History of Music in Western Culture",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 120A",
+    "MUS 120B",
+    "MUS 120C"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Theory/History/Literature electives (choose 3)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 102",
+    "MUS 106",
+    "MUS 107",
+    "MUS 110",
+    "MUS 111",
+    "MUS 112",
+    "MUS 113",
+    "MUS 114",
+    "MUS 115",
+    "MUS 116",
+    "MUS 126",
+    "MUS 127",
+    "MUS 137A",
+    "MUS 137B",
+    "MUS 137C",
+    "MUS 150",
+    "MUS 151",
+    "MUS 152",
+    "MUS 153"
+   ],
+   "note": "Choose any 3."
+  },
+  {
+   "label": "Area of Emphasis (choose 3)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MUS 103A",
+    "MUS 103B",
+    "MUS 103C",
+    "MUS 132",
+    "MUS 132V",
+    "MUS 105",
+    "MUS 107",
+    "MUS 108",
+    "MUS 109",
+    "MUS 110",
+    "MUS 111",
+    "MUS 112",
+    "MUS 113",
+    "MUS 114",
+    "MUS 115",
+    "MUS 116",
+    "MUS 126",
+    "MUS 127",
+    "MUS 150",
+    "MUS 151",
+    "MUS 152",
+    "MUS 153",
+    "MUS 170",
+    "MUS 171",
+    "MUS 172",
+    "MUS 173A",
+    "MUS 173B",
+    "MUS 174A",
+    "MUS 174B",
+    "MUS 174C",
+    "MUS 175",
+    "MUS 176",
+    "MUS 177",
+    "PSYC 138"
+   ],
+   "note": "Choose 3 courses, from a single emphasis area or mixed. Composition = MUS 103A-B-C; Performance = 3 quarters of MUS 132 or 132V (audition required); Literature = MUS 107-116, 126, 127, 150-153; Technology = MUS 170, 171, 172, 173A/B, 174A/B/C, 175, 176, 177, or PSYC 138; Jazz & African Diaspora = MUS 105, 126, 127, 150, 151, 152, 153."
+  }
+ ]
+}

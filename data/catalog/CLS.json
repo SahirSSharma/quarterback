@@ -1,0 +1,135 @@
+{
+ "page": "CLS",
+ "name": "Chicanx and Latinx Studies",
+ "courses": [
+  {
+   "code": "CLX 1",
+   "subject": "CLX",
+   "num": "1",
+   "title": "Cornerstone of Chicanx and Latinx Studies",
+   "units": "4",
+   "level": null,
+   "description": "This course focuses on the formation of the discipline of Chicanx and Latinx studies through an engagement with key historical events, seminal texts, debates, and scholarship about the Chicanx and Latinx experience in the U.S. and beyond. Students will be introduced to major theoretical frameworks and methodological approaches to research by and about the Chicanx and Latinx population.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLX 2",
+   "subject": "CLX",
+   "num": "2",
+   "title": "Chicanx and Latinx Studies\u2014Gender and Sexuality",
+   "units": "4",
+   "level": null,
+   "description": "This course will explore the discipline of Chicanx and Latinx studies with gender and sexuality as major categories of analysis and as embodied experiences. Students will be introduced to the main currents of the field of study with an emphasis on gender and sexuality and their intersection with socioeconomic and political issues of concern.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLX 3",
+   "subject": "CLX",
+   "num": "3",
+   "title": "Chicanx and Latinx Studies\u2014Special Topics",
+   "units": "4",
+   "level": null,
+   "description": "This course will draw from a range of special topics that include but are not limited to Chicanx and Latinx policy and social structures; arts and culture; public health; Mexican/Latinx philosophy; data and technology; ethics and leadership; social processes and critical praxis; biotech; social justice research; borders, etc. This course will provide an introduction to specialized topics in CLS that students can build on in their upper-division course work.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLX 87",
+   "subject": "CLX",
+   "num": "87",
+   "title": "First-year Seminar",
+   "units": "1",
+   "level": null,
+   "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLX 101",
+   "subject": "CLX",
+   "num": "101",
+   "title": "Approaches to Research in Chicanx and Latinx Studies",
+   "units": "4",
+   "level": null,
+   "description": "This course builds on CLX 1 and provides students with an immersive experience with Chicanx and Latinx theory and research methodologies. Students will become equipped to conduct ethical research, formulate equitable relationships with local partners, and foster strategies for community outreach. These skills will serve as the basis for developing potential research projects that engage the Chicanx and Latinx experience. CLX 101 is a prerequisite for CLX 102 and CLX 103.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLX 102",
+   "subject": "CLX",
+   "num": "102",
+   "title": "Research Practicum in Chicanx and Latinx Studies",
+   "units": "4",
+   "level": null,
+   "description": "This course explores Chicanx and Latinx experiences in San Diego and the greater border region through community-engaged research. Building on the foundation provided by CLX 101, students will establish relationships with community partners, conduct community-engaged research, and collaborate with their peers in the classroom. Faculty will support and guide students throughout their field research process.",
+   "prereqText": "CLX 101 or department approval.",
+   "prereqs": [
+    [
+     "CLX 101"
+    ]
+   ]
+  },
+  {
+   "code": "CLX 103",
+   "subject": "CLX",
+   "num": "103",
+   "title": "Capstone in Chicanx and Latinx Studies",
+   "units": "4",
+   "level": null,
+   "description": "This course is a culmination of the upper-division core courses in CLS. Students will apply the knowledge acquired from CLX core courses, cultivate team building and leadership skills, and produce a community-engaged research project. Students will be required to develop a final project that could consist of a written essay, art project, and/or performance. The course will conclude with a student-led showcase that will include the class and community partners in celebration of their collective efforts.",
+   "prereqText": "CLX 102 or department approval.",
+   "prereqs": [
+    [
+     "CLX 102"
+    ]
+   ]
+  },
+  {
+   "code": "CLX 190",
+   "subject": "CLX",
+   "num": "190",
+   "title": "Advanced Special Topics in Chicanx and Latinx Studies",
+   "units": "4",
+   "level": null,
+   "description": "This course will explore specialized, relevant topics in the field of Chicanx and Latinx studies. Course topics will vary from quarter to quarter, so it may be repeated up to three times as long as the quarterly topics vary.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLX 192",
+   "subject": "CLX",
+   "num": "192",
+   "title": "CLS Senior Seminar",
+   "units": "1",
+   "level": null,
+   "description": "The Senior Seminar Program is designed to allow senior undergraduates to meet with faculty members in a small group setting to explore an intellectual topic in Chicanx and Latinx studies.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "CLX 198",
+   "subject": "CLX",
+   "num": "198",
+   "title": "Directed Group Study in Chicanx and Latinx Studies",
+   "units": "2 or 4",
+   "level": null,
+   "description": "Directed group study on a topic or in a field not included in the regular curriculum by special arrangement with a faculty member. P/NP grades only. May be taken for credit three times.",
+   "prereqText": "upper-division standing unless otherwise authorized and approval of the Special Studies form.",
+   "prereqs": null
+  },
+  {
+   "code": "CLX 199",
+   "subject": "CLX",
+   "num": "199",
+   "title": "Independent Study in Chicanx and Latinx Studies",
+   "units": "2 or 4",
+   "level": null,
+   "description": "Individual research and study on a particular subject related to Chicanx/Latinx studies by special arrangement under the direction of a faculty member. P/NP grades only. May be taken for credit three times.",
+   "prereqText": "students must meet with a faculty member for approval and to define course objectives and learning goals by filling out a Special Studies form.",
+   "prereqs": null
+  }
+ ]
+}

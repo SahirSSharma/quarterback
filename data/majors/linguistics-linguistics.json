@@ -1,0 +1,123 @@
+{
+ "program": {
+  "major": "Linguistics",
+  "degree": "B.A.",
+  "department": "Linguistics"
+ },
+ "catalogYear": "2023-2024",
+ "confidence": "high",
+ "found": true,
+ "notes": "General Linguistics major. 12 upper-division courses plus the undergraduate language requirement. Verified against the live catalog page.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/LING-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Undergraduate language requirement (non-English language proficiency)",
+   "division": "other",
+   "kind": "courses",
+   "needed": 0,
+   "courses": [],
+   "note": "Proficiency in a non-English natural language, demonstrated by exam, coursework, or AP. Not tied to a fixed course set. Confirmed at catalog.ucsd.edu/curric/LING-ug.html. Not a fixed course set. All Linguistics majors demonstrate proficiency in ONE non-English natural language via any of three methods: (1) pass the Department of Linguistics reading proficiency exam + oral interview (offered in French, German, Italian, Russian, Spanish, Arabic, Farsi, Tagalog, Portuguese, Vietnamese, ASL, and possibly others); (2) complete a UC San Diego course representing the fourth quarter (or beyond) of instruction in a single non-English natural language with grade C- or better; or (3) score 4+ on an AP exam in a non-English language. Native speakers of a non-English language may petition to have English satisfy the requirement. Coursework path is satisfied by a 4th-quarter-level (typically the '2A'/second-year-entry) course in any language subject (e.g., LTFR/LTGM/LTSP/LTIT/LTRU/LTCH/CHIN/JAPN etc.), not a single fixed list, so type is proficiency rather than courses.",
+   "type": "proficiency"
+  },
+  {
+   "label": "Core: Linguistic Analysis I (Phonetics, Phonology, Morphology)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 102"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Core: Linguistic Analysis II (Syntax, Semantics, Pragmatics)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 103"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "One introductory course in phonetics, phonology, or morphology",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 110",
+    "LIGN 111",
+    "LIGN 120"
+   ]
+  },
+  {
+   "label": "One introductory course in syntax, semantics, or pragmatics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 121",
+    "LIGN 130",
+    "LIGN 160"
+   ]
+  },
+  {
+   "label": "Area distribution: one course from each of three of the four areas",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LIGN 117",
+    "LIGN 165",
+    "LIGN 167",
+    "LIGN 168",
+    "LIGN 169",
+    "LIGN 108",
+    "LIGN 139",
+    "LIGN 141",
+    "LIGN 142",
+    "LIGN 143",
+    "LIGN 148",
+    "LIGN 152",
+    "LIGN 177",
+    "LIGN 119",
+    "LIGN 154",
+    "LIGN 155",
+    "LIGN 170",
+    "LIGN 171",
+    "LIGN 179",
+    "LIGN 180",
+    "LIGN 181",
+    "LIGN 105",
+    "LIGN 146",
+    "LIGN 174",
+    "LIGN 175",
+    "LIGN 176",
+    "LIGN 178"
+   ],
+   "note": "One course from each of THREE of the four areas. Areas: Computational Linguistics (117, 165, 167, 168, 169); Crosslinguistic Variation (108, 139, 141, 142, 143, 148, 152, 177); Language and Cognition (119, 148, 154, 155, 170, 171, 179, 180, 181); Language and Society (105, 146, 174, 175, 176, 177, 178). Course pool is the union of all four areas; distribution across three distinct areas is required."
+  },
+  {
+   "label": "Additional upper-division linguistics electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "LIGN 100-199"
+   ],
+   "note": "Four additional upper-division LIGN electives not used above."
+  },
+  {
+   "label": "One additional elective (linguistics or approved language-related upper-division course)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LIGN 100-199"
+   ],
+   "note": "One more LIGN elective or an approved upper-division language-related course."
+  }
+ ]
+}

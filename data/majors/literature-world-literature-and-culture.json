@@ -1,0 +1,104 @@
+{
+ "program": {
+  "major": "World Literature and Culture",
+  "degree": "BA",
+  "department": "Literature"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "medium",
+ "found": true,
+ "notes": "15 courses total (3 lower-division + 12 upper-division). Highly flexible: upper-division includes a self-designed concentration of 6-9 courses (Language, History, Media, or Region), with remaining electives filling out to twelve upper-division courses. Secondary-language requirement is in a language different from that of the primary literature. Structure corroborated by catalog; exact per-concentration course lists not fully itemized.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/LIT-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division foundation",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LTCS 50",
+    "LTCS 52",
+    "LTEN 25",
+    "LTEN 26",
+    "LTEN 27",
+    "LTEN 28",
+    "LTEN 29",
+    "LTEN 31",
+    "LTWL 4A",
+    "LTWL 4B",
+    "LTWL 4C",
+    "LTWL 4D",
+    "LTWL 4F",
+    "LTWL 4M"
+   ],
+   "note": "Three lower-division courses via one of several pathways, e.g. LTCS 50 and 52 plus a third literature course; or a three-course literature/language sequence (e.g. LTFR 2A-B-C); or a college humanities sequence (HUM/MMW/DOC/CAT)."
+  },
+  {
+   "label": "Upper-division concentration",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "LTAF 100-199",
+    "LTAM 100-199",
+    "LTCH 100-199",
+    "LTCS 100-199",
+    "LTEA 100-199",
+    "LTEN 100-199",
+    "LTEU 100-199",
+    "LTFR 100-199",
+    "LTGK 100-199",
+    "LTGM 100-199",
+    "LTIT 100-199",
+    "LTKO 100-199",
+    "LTLA 100-199",
+    "LTRU 100-199",
+    "LTSP 100-199",
+    "LTWL 100-199"
+   ],
+   "note": "6-9 courses in one concentration: Language (single non-Anglophone language), History (literature prior to 1800), Media (film/TV/digital/music), or Region (Africa, the Americas, Asia, Mediterranean, Europe)."
+  },
+  {
+   "label": "Upper-division comparative breadth",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LTAM 100-199",
+    "LTEU 100-199",
+    "LTAF 100-199",
+    "LTEA 100-199",
+    "LTWL 100-199"
+   ],
+   "note": "One Literatures of the Americas (LTAM), one Literatures of Europe (LTEU), and one additional from LTAF/LTAM/LTEA/LTEU/LTWL."
+  },
+  {
+   "label": "Upper-division electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LTWL 100-199"
+   ],
+   "note": "Remaining upper-division electives from any Literature subject to reach twelve upper-division courses (count depends on concentration size of 6-9)."
+  },
+  {
+   "label": "Secondary-language requirement",
+   "division": "other",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTFR 2C",
+    "LTSP 2C",
+    "LTSP 2E",
+    "LTSP 3F",
+    "LTGM 2C",
+    "LTRU 2B"
+   ],
+   "note": "At least one course in a secondary language or literature (taught in a language different from that of the primary literature). Confirmed on catalog.ucsd.edu/curric/LIT-ug.html: 'At least one course in a secondary language or literature; that is, a course taught in a language different from that of the primary literature.' Satisfied by completing the lower-division language sequence in a secondary language through its terminal course (e.g. LTFR 2C, LTSP 2C/2E/3F, LTGM 2C, LTRU 2B; also available in ASL, Classical Greek/Latin, Hebrew, Italian, Korean, Chinese), OR by an upper-division literature course taught in the secondary language. Not a fixed single course, so classified as proficiency; listed courses are representative terminal-course demonstrators, not an exhaustive set. The one hard constraint is that the language must differ from the student's primary-literature language.",
+   "type": "proficiency"
+  }
+ ]
+}

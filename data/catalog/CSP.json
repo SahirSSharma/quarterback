@@ -1,0 +1,65 @@
+{
+ "page": "CSP",
+ "name": "Climate Science and Policy",
+ "courses": [
+  {
+   "code": "SIOC 290S",
+   "subject": "SIOC",
+   "num": "290S",
+   "title": "Climate Math and Science",
+   "units": "6",
+   "level": null,
+   "description": "The course will introduce key physical and biogeochemical concepts needed to understand the Earth\u2019s climate system. The overview will provide a foundation for examining the physical evidence of climate change. Mathematical methods will be presented to reinforce the scientific concepts. Students will complete group papers and presentations and lead discussions on assigned readings. SIOC 290S is a required course in the curriculum of the master of advanced studies in climate science and policy. Letter grades only.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "SIOC 291S",
+   "subject": "SIOC",
+   "num": "291S",
+   "title": "Introduction to Climate Policy",
+   "units": "6",
+   "level": null,
+   "description": "The course will focus on policy solutions to climate change and introduce key topics in state, national, and international environmental law and policy. The energy system as well as energy policy will be examined, providing an essential foundation for understanding California\u2019s renewable energy policy goals and how we may get there. Students will complete group papers and presentations and lead discussions on assigned readings. This course will include a one-week field trip. Letter grades only.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "SIOC 293",
+   "subject": "SIOC",
+   "num": "293",
+   "title": "Ocean-Atmosphere Processes and Climate Variability",
+   "units": "4",
+   "level": null,
+   "description": "We will examine the general structure of the ocean and atmosphere and consider processes and interactions that contribute to climate variability. We will describe dominant climate modes of variability, such as ENSO, and evaluate processes driving climate changes on longer timescales, such as ice ages and deglaciation. Finally, we will explore how climate system processes and feedbacks modulate the impacts of anthropogenic greenhouse gases, and how they may be impacted in a warming climate.",
+   "prereqText": "SIOC 290S and graduate standing or consent of instructor.",
+   "prereqs": [
+    [
+     "SIOC 290S"
+    ]
+   ]
+  },
+  {
+   "code": "SIOC 296",
+   "subject": "SIOC",
+   "num": "296",
+   "title": "Climate Science and Policy Forum",
+   "units": "1",
+   "level": null,
+   "description": "Required course for MAS-CSP students will focus on development of MAS Capstone Projects and discussions covering climate science and policy issues, including informal student presentations on political, economic, historical, educational, and natural science issues related to climate science and policy. Letter grades only. May be taken for credit three times.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SIOC 299",
+   "subject": "SIOC",
+   "num": "299",
+   "title": "Climate Science and Policy Capstone Project",
+   "units": "6\u201310",
+   "level": null,
+   "description": "Building on the knowledge and experience gained from the entire curriculum of the Master\u2019s in Climate Science and Policy (MAS-CSP) program, students will design and present a specific climate science and policy project. May be taken for credit one time for a maximum of ten units. S/U grades only.",
+   "prereqText": "graduate standing. Only students registered in MAS-CSP program.",
+   "prereqs": null
+  }
+ ]
+}

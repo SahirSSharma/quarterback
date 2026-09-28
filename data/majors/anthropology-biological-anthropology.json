@@ -1,0 +1,90 @@
+{
+ "program": {
+  "major": "Biological Anthropology",
+  "degree": "B.S.",
+  "department": "Anthropology"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Transcribed from the General Catalog Anthropology program page. Ten lower-division and twelve upper-division courses, every one letter-graded C- or better.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ANTH-ug.html",
+  "https://anthropology.ucsd.edu/undergraduate/major-requirements/index.html"
+ ],
+ "buckets": [
+  {
+   "label": "General Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": ["BILD 1", "BILD 2"],
+   "note": "Both required."
+  },
+  {
+   "label": "General Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["CHEM 6A", "CHEM 6B", "CHEM 6C"],
+   "note": "All three required."
+  },
+  {
+   "label": "Mathematics and Statistics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["MATH 10A", "MATH 10B", "MATH 10C", "MATH 20A", "MATH 20B", "MATH 20C", "MATH 11", "PSYC 60"],
+   "note": "Two calculus courses from MATH 10A-B-C or 20A-B-C, plus one statistics course (MATH 11 or PSYC 60)."
+  },
+  {
+   "label": "Human Origins",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": ["ANTH 2"],
+   "note": "Required."
+  },
+  {
+   "label": "Lower-Division Anthropology Elective",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": ["ANTH 5", "ANTH 42", "ANTH 43", "SOCI 70", "PSYC 1"],
+   "note": "Choose one."
+  },
+  {
+   "label": "Anthropology Core",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": ["ANTH 101", "ANTH 102", "ANTH 103"],
+   "note": "All three required."
+  },
+  {
+   "label": "Biological Anthropology Concentration",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": ["ANBI 100-199"],
+   "note": "Four upper-division ANBI courses."
+  },
+  {
+   "label": "Skills and Methods",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": ["ANBI 112", "ANBI 114", "ANBI 135", "ANBI 143", "ANBI 144", "ANBI 174"],
+   "note": "Choose one. It may not double-count against the four concentration courses."
+  },
+  {
+   "label": "Upper-Division Anthropology Electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": ["ANAR 100-199", "ANBI 100-199", "ANSC 100-199", "ANTH 100-199"],
+   "exclude": ["ANTH 101", "ANTH 102", "ANTH 103"],
+   "note": "Four four-unit upper-division courses with the prefix ANAR, ANBI, ANSC or ANTH, including ANTH 196A-C, 197, 198 and 199."
+  }
+ ]
+}

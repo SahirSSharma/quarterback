@@ -1,0 +1,240 @@
+{
+ "program": {
+  "major": "Interdisciplinary Computing and the Arts",
+  "degree": "B.A.",
+  "department": "Music"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "ICAM (Music track), a joint Music/Visual Arts program. Upper division = 12 courses. All major courses must be taken for a letter grade; only grades of C- or better are accepted. Math and Programming requirements are track-based (see notes on those buckets). Verified against department ICAM page and catalog.",
+ "sourceUrls": [
+  "https://music-cms.ucsd.edu/ugrad/index.html",
+  "https://music-cms.ucsd.edu/ugrad/music-major.html",
+  "https://music-cms.ucsd.edu/ugrad/music-hum-major.html",
+  "https://music-cms.ucsd.edu/ugrad/icam-major.html",
+  "https://catalog.ucsd.edu/curric/MUS-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Design Communication",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 41"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Beginning Practice (choose 1)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MUS 1A",
+    "MUS 2A",
+    "MUS 5",
+    "VIS 1",
+    "VIS 2",
+    "VIS 3",
+    "VIS 60",
+    "VIS 80"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Mathematics (choose 1 track)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 15A",
+    "CSE 20",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 10C"
+   ],
+   "note": "Complete one track: (A) MATH 15A or CSE 20 = 1 course; (B) MATH 20A + 20B = 2 courses; (C) MATH 10A + 10B + 10C = 3 courses. Course count varies by track."
+  },
+  {
+   "label": "Programming (choose 1)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 11",
+    "VIS 42"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Theory and History (choose 1)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MUS 4",
+    "MUS 6",
+    "MUS 7",
+    "MUS 13",
+    "MUS 14"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Restricted electives (choose 2)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MUS 1B",
+    "MUS 2B",
+    "MUS 4",
+    "MUS 5",
+    "MUS 6",
+    "MUS 7",
+    "MUS 14",
+    "MUS 19",
+    "VIS 22",
+    "VIS 70N"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Visitor Series (choose 1)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 10",
+    "MUS 43"
+   ],
+   "note": "VIS 10 (one quarter) OR MUS 43 (Music Department Seminar, taken four quarters)."
+  },
+  {
+   "label": "Foundation (choose 3)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "VIS 142",
+    "VIS 145A",
+    "MUS 170",
+    "MUS 171"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Practice (choose 2)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MUS 171",
+    "MUS 172",
+    "MUS 173A",
+    "MUS 173B",
+    "MUS 174A",
+    "MUS 174B",
+    "MUS 174C",
+    "MUS 176",
+    "MUS 177",
+    "TDDE 141",
+    "VIS 109",
+    "VIS 131",
+    "VIS 132",
+    "VIS 141A",
+    "VIS 141B",
+    "VIS 145B",
+    "VIS 147A",
+    "VIS 147B",
+    "VIS 149",
+    "VIS 174",
+    "VIS 143"
+   ],
+   "note": ""
+  },
+  {
+   "label": "History (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 159",
+    "MUS 114"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Theory and History (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MUS 101A",
+    "MUS 101B",
+    "MUS 101C",
+    "MUS 111",
+    "MUS 114",
+    "MUS 126",
+    "MUS 127",
+    "MUS 175",
+    "PSYC 138",
+    "VIS 151",
+    "VIS 152",
+    "VIS 153",
+    "VIS 154",
+    "VIS 155",
+    "VIS 156",
+    "VIS 158",
+    "VIS 159",
+    "VIS 194"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Advanced Practice (choose 1)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MUS 172",
+    "MUS 173B",
+    "MUS 174B",
+    "MUS 174C",
+    "VIS 141B",
+    "VIS 145B",
+    "VIS 147B"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Electives (choose 2)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MUS 198",
+    "MUS 199",
+    "VIS 198",
+    "VIS 199",
+    "AIP 197"
+   ],
+   "note": "Two additional courses from the Practice / Advanced Practice / History / Theory-and-History lists above, or from MUS 198/199, VIS 198/199, AIP 197."
+  },
+  {
+   "label": "Senior Project",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MUS 160A",
+    "MUS 160B"
+   ],
+   "note": "MUS 160A prerequisite: VIS 141B, 145B, 147B, or MUS 172."
+  }
+ ]
+}

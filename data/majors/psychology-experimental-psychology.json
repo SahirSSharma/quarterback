@@ -1,0 +1,169 @@
+{
+ "program": {
+  "major": "Experimental Psychology",
+  "degree": "B.S.",
+  "department": "Psychology"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Lower-division 32 units, upper-division 48 units. Adds an 8-unit research requirement and a second formal-skills course versus the B.A.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PSYC-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Natural Science (three courses)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3",
+    "BILD 10",
+    "BILD 12",
+    "BILD 20",
+    "BILD 26",
+    "CHEM 4",
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 11",
+    "CHEM 12",
+    "CHEM 13",
+    "COGS 17",
+    "PHYS 1A",
+    "PHYS 1B",
+    "PHYS 1C",
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 10",
+    "PHYS 11",
+    "PSYC 2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Formal Skills (two courses)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 10A",
+    "MATH 20A",
+    "MATH 10B",
+    "MATH 20B",
+    "MATH 18",
+    "PHIL 10",
+    "PHIL 12"
+   ],
+   "note": "One math course plus one additional formal-skills course."
+  },
+  {
+   "label": "Computer Programming (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "COGS 18",
+    "CSE 6R",
+    "CSE 8A",
+    "CSE 8B",
+    "CSE 11",
+    "CSE 12",
+    "CSS 1",
+    "DSC 10",
+    "ECE 15",
+    "MAE 5",
+    "MAE 8"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Statistics (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 60",
+    "BENG 100",
+    "BIEB 100",
+    "COGS 14B",
+    "ECON 120A",
+    "MATH 11",
+    "MATH 181A",
+    "MATH 183",
+    "MATH 186"
+   ],
+   "note": "PSYC 60 preferred."
+  },
+  {
+   "label": "Research Methods (one course)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PSYC 70",
+    "COGS 14A"
+   ],
+   "note": "PSYC 70 preferred."
+  },
+  {
+   "label": "Research Requirement (two courses)",
+   "division": "other",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "PSYC 71",
+    "PSYC 81",
+    "PSYC 99",
+    "PSYC 112",
+    "PSYC 113",
+    "PSYC 114",
+    "PSYC 115A",
+    "PSYC 115B",
+    "PSYC 116",
+    "PSYC 117",
+    "PSYC 118",
+    "PSYC 140",
+    "PSYC 193L",
+    "PSYC 194A",
+    "PSYC 194B",
+    "PSYC 194C",
+    "PSYC 199"
+   ],
+   "note": "Two research-experience courses (8 units)."
+  },
+  {
+   "label": "Psychology Core (four courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PSYC 100",
+    "PSYC 101",
+    "PSYC 102",
+    "PSYC 104",
+    "PSYC 105",
+    "PSYC 106",
+    "PSYC 108"
+   ],
+   "note": "Four core courses from this list."
+  },
+  {
+   "label": "Upper-Division Psychology Electives (eight courses)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "PSYC 100-111",
+    "PSYC 122-193",
+    "PSYC 195P",
+    "PSYC 199"
+   ],
+   "note": "PSYC 195P and PSYC 199 count for 4 units each."
+  }
+ ]
+}

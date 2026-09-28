@@ -1,0 +1,125 @@
+{
+ "program": {
+  "major": "Critical Gender Studies",
+  "degree": "B.A.",
+  "department": "Critical Gender Studies"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog.ucsd.edu/curric/CGS-ug.html and cgs.ucsd.edu requirements page. Major requires 14 courses total: 4 core (CGS 2A, 2B, 100A, 100B) plus 10 upper-division courses. Of the 10 upper-division, at least 6 must be CGS courses (at least 3 from the 'intermediate' category and at least 3 from the 'advanced' category) and the remaining 4 are drawn from the published CGS applicable electives taught within the Schools of Social Sciences and Arts & Humanities (departments include Anthropology, Communication, Ethnic Studies, History, Literature, Philosophy, Sociology, Political Science). The four named core courses (CGS 2A, 2B, 100A, 100B) are the only specifically enumerated course codes on the page; intermediate/advanced CGS courses and affiliated-department electives are not individually enumerated (they rotate quarterly per a maintained applicable-courses list), so those three buckets use an upper-division range placeholder rather than confirmed specific codes. Division classification by course number: 2A/2B lower-division, 100A/100B upper-division; note the department itself presents all four together as the introductory core. Counts (2+2+3+3+4) sum to 14, matching the page.",
+ "sourceUrls": [
+  "https://cgs.ucsd.edu/ug-prog/major/requirements/index.html",
+  "https://catalog.ucsd.edu/curric/CGS-ug.html",
+  "https://cgs.ucsd.edu/ug-prog/major/index.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required core sequence - lower division (Introduction to Critical Gender Studies)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CGS 2A",
+    "CGS 2B"
+   ],
+   "note": "Both required and verified on the page. CGS 2A = Intro to CGS: Key Terms & Concepts; CGS 2B = Intro to CGS: Social Formations. Part of the 4-course required core sequence."
+  },
+  {
+   "label": "Required core sequence - upper division (Conceptualizing Gender)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "CGS 100A",
+    "CGS 100B"
+   ],
+   "note": "Both required and verified on the page. CGS 100A = Conceptualizing Gender: Theoretical Approaches; CGS 100B = Conceptualizing Gender: Methods & Methodologies. Grouped with 2A/2B as the intro core, but upper-division by course number."
+  },
+  {
+   "label": "Upper-division CGS courses - Intermediate category",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CGS 100-199"
+   ],
+   "note": "At least 3 upper-division CGS courses from the department's 'intermediate' category. Specific codes not enumerated on the page (rotate quarterly); listed as an upper-division CGS range placeholder, not confirmed individual codes."
+  },
+  {
+   "label": "Upper-division CGS courses - Advanced category",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CGS 100-199"
+   ],
+   "note": "At least 3 upper-division CGS courses from the department's 'advanced' category. Specific codes not enumerated on the page (rotate quarterly); listed as an upper-division CGS range placeholder, not confirmed individual codes."
+  },
+  {
+   "label": "Upper-division electives from affiliated departments (Social Sciences and Arts & Humanities)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "ANSC 117",
+    "ANSC 125",
+    "ANSC 180",
+    "ANSC 186",
+    "COMM 108G",
+    "COMM 111P",
+    "COMM 114E",
+    "COMM 114G",
+    "COMM 137",
+    "COMM 138",
+    "ETHN 128",
+    "ETHN 129",
+    "LIGN 174",
+    "POLI 104M",
+    "POLI 115A",
+    "POLI 116A",
+    "PSYC 134",
+    "PSYC 172",
+    "SOCI 113",
+    "SOCI 116",
+    "SOCI 118",
+    "SOCI 119",
+    "SOCI 129",
+    "SOCI 132",
+    "SOCI 139",
+    "SOCI 184",
+    "HIEA 125",
+    "HIEA 137",
+    "HILA 124A",
+    "HILA 161",
+    "HILA 164",
+    "HISC 103",
+    "HISC 118",
+    "HISC 167",
+    "HITO 106",
+    "HIUS 115",
+    "HIUS 130",
+    "HIUS 131",
+    "HIUS 156",
+    "HIUS 157",
+    "HIUS 176",
+    "LTAM 105",
+    "LTAM 106",
+    "LTCS 130",
+    "LTCS 131",
+    "LTCS 132",
+    "LTCS 135",
+    "LTCS 172",
+    "LTEA 143",
+    "LTEN 150",
+    "LTEN 185",
+    "LTEU 147",
+    "LTSP 175",
+    "LTWL 155",
+    "LTWL 160",
+    "MUSIC 115"
+   ],
+   "note": "4 upper-division electives selected from the published 'CGS applicable electives' list in the Schools of Social Sciences and Arts & Humanities (e.g., Anthropology, Communication, Ethnic Studies, History, Literature, Philosophy, Sociology, Political Science). Specific approved course codes vary by quarter and are not enumerated on the requirements page, so no specific codes are asserted here. These are cross-listed CGS-approved courses from non-CGS departments. 4 upper-division electives drawn from the CGS 'applicable courses' list, confirmed against the CGS program applicable-courses page and catalog.ucsd.edu/curric/CGS-ug.html. This is a specific curated cross-listed set (NOT any course in these departments), so explicit codes are listed rather than subject ranges. Social Sciences: Anthropology (ANSC), Communication (COMM), Ethnic Studies (ETHN), Linguistics (LIGN), Political Science (POLI), Psychology (PSYC), Sociology (SOCI). Arts & Humanities: History (HIEA/HILA/HISC/HITO/HIUS), Literature (LTAM/LTCS/LTEA/LTEN/LTEU/LTSP/LTWL), Music (MUSIC 115). Some History/Literature courses have grad cross-list numbers (e.g. HILA 161/261, HISC 167/267, HIUS 176/276); the UG code is listed. T"
+  }
+ ]
+}

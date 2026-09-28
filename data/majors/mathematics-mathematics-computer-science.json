@@ -1,0 +1,264 @@
+{
+ "program": {
+  "major": "Mathematics-Computer Science",
+  "degree": "B.S.",
+  "department": "Mathematics"
+ },
+ "catalogYear": "current General Catalog (catalog.ucsd.edu)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Major code MA30 (spelled \"Mathematics—Computer Science\" in the General Catalog). Fourteen upper-division four-unit courses (fifty-six units); a single course cannot fulfill more than one major requirement. A mathematics—computer science major may not also minor in computer science. CSE 30 is recommended preparation for computer architecture course work.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/MATH-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Calculus and linear algebra sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E",
+    "MATH 31AH",
+    "MATH 31BH",
+    "MATH 31CH"
+   ],
+   "note": "One of two sequences: MATH 18 and 20A-B-C-D-E, or Honors Calculus MATH 31AH-BH-CH with MATH 20D (31AH-BH-CH cover MATH 18, 20C and 20E). The count shown is the standard six-course sequence; on the honors path four courses complete it."
+  },
+  {
+   "label": "Introduction to Programming",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 11"
+   ],
+   "note": "CSE 11."
+  },
+  {
+   "label": "Software Tools and Techniques Laboratory",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 15L",
+    "CSE 29"
+   ],
+   "note": "CSE 15L or CSE 29."
+  },
+  {
+   "label": "Basic Data Structures and Object-Oriented Design",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 12"
+   ],
+   "note": "CSE 12."
+  },
+  {
+   "label": "Mathematical Reasoning",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 109"
+   ],
+   "note": "MATH 109. Students completing MATH 31AH-BH-CH may substitute a four-unit upper-division mathematics elective."
+  },
+  {
+   "label": "Algebra sequence",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 103A",
+    "MATH 103B",
+    "MATH 100A",
+    "MATH 100B"
+   ],
+   "note": "Modern Applied Algebra MATH 103A-B, or Modern Algebra MATH 100A-B."
+  },
+  {
+   "label": "Theory of Computability",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 105"
+   ],
+   "note": "CSE 105. CSE 21 or MATH 100A or 103A or 184 or 184A must be taken first."
+  },
+  {
+   "label": "Computer Implementations of Data Structures",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 100"
+   ],
+   "note": "CSE 100. CSE 21 or MATH 154 or 184 or 184A must be taken first."
+  },
+  {
+   "label": "Design and Analysis of Algorithms",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "CSE 101"
+   ],
+   "note": "CSE 101."
+  },
+  {
+   "label": "Introduction to Probability",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 180A",
+    "MATH 183"
+   ],
+   "note": "MATH 180A or MATH 183. Duplication of credit exists with ECON 120A."
+  },
+  {
+   "label": "Discrete Mathematics or Combinatorics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 154",
+    "MATH 158",
+    "MATH 184",
+    "MATH 188"
+   ],
+   "note": "MATH 154 or 158 or 184 or 188."
+  },
+  {
+   "label": "Applied mathematics electives (eight units)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 170A",
+    "MATH 170B",
+    "MATH 170C",
+    "MATH 171A",
+    "MATH 171B",
+    "MATH 173A",
+    "MATH 173B",
+    "MATH 174",
+    "MATH 175",
+    "MATH 179",
+    "MATH 180B",
+    "MATH 180C",
+    "MATH 181A",
+    "MATH 181B",
+    "MATH 181C",
+    "MATH 181E"
+   ],
+   "note": "Eight units from this list."
+  },
+  {
+   "label": "Computational electives (eight units)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 152",
+    "MATH 154",
+    "MATH 155A",
+    "MATH 155B",
+    "MATH 157",
+    "MATH 158",
+    "MATH 160A",
+    "MATH 160B",
+    "MATH 168A",
+    "MATH 182",
+    "MATH 184",
+    "MATH 185",
+    "MATH 187A",
+    "MATH 187B",
+    "MATH 188",
+    "MATH 189",
+    "CSE 107",
+    "CSE 110",
+    "CSE 112",
+    "CSE 120",
+    "CSE 121",
+    "CSE 123",
+    "CSE 124",
+    "CSE 127",
+    "CSE 130",
+    "CSE 131",
+    "CSE 132A",
+    "CSE 132B",
+    "CSE 134B",
+    "CSE 140",
+    "CSE 140L",
+    "CSE 141",
+    "CSE 141L",
+    "CSE 142",
+    "CSE 150A",
+    "CSE 150B",
+    "CSE 151A",
+    "CSE 152A",
+    "CSE 152B",
+    "CSE 158",
+    "CSE 160",
+    "CSE 165",
+    "CSE 167",
+    "CSE 168",
+    "CSE 169",
+    "CSE 176A",
+    "COGS 108",
+    "COGS 118A",
+    "COGS 118B",
+    "COGS 120",
+    "COGS 185",
+    "COGS 188"
+   ],
+   "note": "Eight units from this list."
+  },
+  {
+   "label": "General mathematics—computer science electives (eight units)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "MATH 100C",
+    "MATH 102",
+    "MATH 104A",
+    "MATH 104B",
+    "MATH 106",
+    "MATH 110",
+    "MATH 111A",
+    "MATH 111B",
+    "MATH 114",
+    "MATH 120A",
+    "MATH 120B",
+    "MATH 130",
+    "MATH 140A",
+    "MATH 140B",
+    "MATH 142A",
+    "MATH 142B",
+    "MATH 144",
+    "MATH 150A",
+    "MATH 150B",
+    "MATH 163",
+    "MATH 181D",
+    "MATH 181F",
+    "MATH 190A",
+    "MATH 190B",
+    "MATH 193A",
+    "MATH 193B",
+    "MATH 194"
+   ],
+   "note": "Eight additional units from this list or from the applied/computational elective lists above."
+  }
+ ]
+}

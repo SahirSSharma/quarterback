@@ -1,0 +1,251 @@
+{
+ "program": {
+  "major": "Interdisciplinary Computing and the Arts (ICAM)",
+  "degree": "B.A.",
+  "department": "Visual Arts"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "UCSD General Catalog major code VA29. Letter grade, C- or better required; two-thirds residency at UCSD. Total: 8-9 lower-division + 12 upper-division courses (the CS sequence option CSE 8A-8B is two courses, hence 8-9). Overlapping courses may count toward intermediate OR advanced, not both. VIS 103A-D and VIS 110A-K captured as ranges. VERIFIED against catalog requirements page; all buckets confirmed. VIS 160/160A/160B senior-project sequence confirmed real.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/VIS-ug.html",
+  "https://visarts.ucsd.edu/undergrad/major-req/index.html",
+  "https://catalog.ucsd.edu/courses/VIS.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required lower-division core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "VIS 10",
+    "VIS 22",
+    "VIS 22R",
+    "VIS 41",
+    "VIS 70N"
+   ],
+   "note": "VIS 10, VIS 22 or 22R (counts once), VIS 41, VIS 70N all required."
+  },
+  {
+   "label": "Lower-division computer science sequence",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 42",
+    "CSE 6R",
+    "CSE 11",
+    "CSE 8A",
+    "CSE 8B",
+    "COGS 18",
+    "DSC 20",
+    "BILD 62"
+   ],
+   "note": "Choose 1 sequence; CSE 8A + 8B together form one two-course sequence option."
+  },
+  {
+   "label": "Lower-division mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 3C",
+    "MATH 4C",
+    "MATH 10A",
+    "MATH 15A",
+    "CSE 20",
+    "MATH 18",
+    "MATH 20A",
+    "PSYC 60"
+   ],
+   "note": "Choose 1. MATH 15A is cross-listed as CSE 20."
+  },
+  {
+   "label": "Lower-division art making",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 1",
+    "VIS 2",
+    "VIS 3",
+    "VIS 60",
+    "VIS 80"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "Lower-division interdisciplinary",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 30",
+    "VIS 31",
+    "VIS 32",
+    "COGS 3",
+    "COGS 9",
+    "COGS 10",
+    "DSGN 1",
+    "MUS 4"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "Intermediate: required computing arts",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 142",
+    "VIS 145A"
+   ],
+   "note": "Both required: VIS 142 (Practices in Computing Arts), VIS 145A (Time- and Process-Based Digital Media I)."
+  },
+  {
+   "label": "Intermediate: computing in the arts",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 141A",
+    "VIS 143A",
+    "VIS 146A",
+    "VIS 147A"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "Intermediate: art making",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 104A",
+    "VIS 105A",
+    "VIS 106A",
+    "VIS 107A",
+    "VIS 164",
+    "VIS 165",
+    "VIS 165A",
+    "VIS 165B",
+    "VIS 174"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "Intermediate: interdisciplinary",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 100",
+    "VIS 101",
+    "VIS 102",
+    "VIS 133",
+    "VIS 134",
+    "VIS 135",
+    "VIS 163",
+    "COGS 108",
+    "COGS 120",
+    "COGS 187A",
+    "MUS 170",
+    "MUS 171",
+    "MUS 172",
+    "MUS 173A",
+    "MUS 174A",
+    "MUS 174B",
+    "MUS 174C"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "History and Theory: required",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 159"
+   ],
+   "note": "Required: VIS 159 (History of Art and Technology)."
+  },
+  {
+   "label": "History and Theory: elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 103",
+    "VIS 103A-103D",
+    "VIS 120-129",
+    "VIS 150-158",
+    "VIS 194S"
+   ],
+   "note": "Choose 1 from speculative design history (VIS 103, 103A-D), art history (VIS 120-129), or media history (VIS 150-158, 194S)."
+  },
+  {
+   "label": "Advanced: computing in the arts",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 141B",
+    "VIS 143B",
+    "VIS 145B",
+    "VIS 146B",
+    "VIS 147B",
+    "VIS 160B"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "Advanced: senior project (required)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 160",
+    "VIS 160A"
+   ],
+   "note": "VIS 160 (Senior Project in Computer Arts) OR VIS 160A (Honors Project in Computer Arts I)."
+  },
+  {
+   "label": "Advanced: interdisciplinary",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 100A",
+    "VIS 101A",
+    "VIS 107B",
+    "VIS 108",
+    "VIS 110A-110K",
+    "VIS 130",
+    "VIS 132",
+    "VIS 133A",
+    "VIS 141A",
+    "VIS 141B",
+    "VIS 143A",
+    "VIS 143B",
+    "VIS 145B",
+    "VIS 146A",
+    "VIS 146B",
+    "VIS 147A",
+    "VIS 147B",
+    "VIS 149",
+    "VIS 161",
+    "VIS 162",
+    "VIS 167",
+    "VIS 168",
+    "VIS 169A",
+    "VIS 169B",
+    "VIS 198",
+    "VIS 199",
+    "AIP 197"
+   ],
+   "note": "Choose 1."
+  }
+ ]
+}

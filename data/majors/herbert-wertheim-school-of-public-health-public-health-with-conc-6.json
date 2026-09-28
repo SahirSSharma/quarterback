@@ -1,0 +1,214 @@
+{
+ "program": {
+  "major": "Public Health with Concentration in Medicine Sciences",
+  "degree": "B.S.",
+  "department": "Herbert Wertheim School of Public Health"
+ },
+ "catalogYear": "2024-2026 (UCSD General Catalog)",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Heaviest lower-division load (68-69 units): chemistry, physics, calculus, natural sciences. Upper-division 48 units. FIXED: elective block corrected from 16 to 12 units (USP 143 is inside the 12-unit block, not additional); replaced over-broad 'BIBC/BICD/BIMM/BIPN/PSYC 100-199' ranges with the catalog's enumerated approved list.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/PH-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introduction to Public Health",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 40",
+    "PH 40R"
+   ],
+   "note": "One of PH 40 or PH 40R"
+  },
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3"
+   ],
+   "note": "All three required"
+  },
+  {
+   "label": "General Chemistry sequence + lab",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C",
+    "CHEM 7L"
+   ],
+   "note": "All four required; 16 units"
+  },
+  {
+   "label": "Natural science courses",
+   "division": "lower",
+   "kind": "units",
+   "needed": 12,
+   "courses": [
+    "BILD 20",
+    "BILD 22",
+    "BILD 26",
+    "CHEM 40A",
+    "CHEM 40B",
+    "CHEM 43A",
+    "PHYS 1A",
+    "PHYS 1AL",
+    "PHYS 1B",
+    "PHYS 1BL",
+    "PHYS 1C",
+    "PHYS 1CL"
+   ],
+   "note": "12 units (3 courses) from listed natural science courses; PHYS courses paired with their labs (1A/1AL, 1B/1BL, 1C/1CL)"
+  },
+  {
+   "label": "Calculus + statistics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 20A",
+    "MATH 10B",
+    "MATH 20B",
+    "MATH 11",
+    "PSYC 60",
+    "COGS 14B",
+    "HDS 60"
+   ],
+   "note": "MATH 10A or 20A; MATH 10B or 20B; plus one statistics course (MATH 11, PSYC 60, COGS 14B, or HDS 60); 12-13 units"
+  },
+  {
+   "label": "Public health research methods",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 45",
+    "PH 45R"
+   ],
+   "note": "One of PH 45 or PH 45R"
+  },
+  {
+   "label": "Public Health Trending Topics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 70-85"
+   ],
+   "note": "One 4-unit course from PH 70-85"
+  },
+  {
+   "label": "Lower-division PH elective (Public Health Elements)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "PH 50"
+   ],
+   "note": "PH 50 required"
+  },
+  {
+   "label": "Public health core (Core Disciplines)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "PH 101",
+    "PH 101R",
+    "PH 102",
+    "PH 102R",
+    "PH 110",
+    "PH 110R",
+    "PH 120",
+    "PH 120R",
+    "PH 130"
+   ],
+   "note": "PH 101, PH 102, PH 110, PH 120, PH 130 (R variants substitute); 20 units"
+  },
+  {
+   "label": "Medicine sciences course + elective (Public Health Perspectives)",
+   "division": "upper",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "PH 161",
+    "PH 161R",
+    "PH 140-191",
+    "PH 195P",
+    "PH 198",
+    "PH 199"
+   ],
+   "note": "PH 161 (or 161R) plus a selection from PH 140-191, PH 195P, PH 198, PH 199; 8 units"
+  },
+  {
+   "label": "Health services course + designated electives",
+   "division": "upper",
+   "kind": "units",
+   "needed": 12,
+   "courses": [
+    "USP 143",
+    "ANBI 130",
+    "ANSC 164",
+    "BIBC 100",
+    "BIBC 102",
+    "BIBC 120",
+    "BICD 100",
+    "BICD 110",
+    "BICD 136",
+    "BICD 140",
+    "BIEB 152",
+    "BIMM 100",
+    "BIMM 110",
+    "BIMM 120",
+    "BIMM 124",
+    "BIMM 134",
+    "BIPN 100",
+    "BIPN 105",
+    "BIPN 108",
+    "BIPN 134",
+    "GLBH 113",
+    "HISC 116",
+    "LTCS 165",
+    "PH 151",
+    "PH 161",
+    "PHIL 163",
+    "PSYC 134",
+    "PSYC 155",
+    "PSYC 168",
+    "PSYC 179",
+    "PSYC 181",
+    "PSYC 181GS",
+    "PSYC 188",
+    "SOCI 107",
+    "SOCI 138",
+    "SOCI 173"
+   ],
+   "note": "USP 143 required plus additional units from the enumerated approved list; 12 units total"
+  },
+  {
+   "label": "Capstone / practicum",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "PH 193",
+    "PH 193R",
+    "PH 194",
+    "PH 194R",
+    "PH 196AH",
+    "PH 196BH"
+   ],
+   "note": "PH 193/193R + PH 194/194R (8 units), OR PH 196AH + PH 196BH (12 units)"
+  }
+ ]
+}

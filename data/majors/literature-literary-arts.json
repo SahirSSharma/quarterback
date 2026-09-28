@@ -1,0 +1,177 @@
+{
+ "program": {
+  "major": "Literary Arts",
+  "degree": "BA",
+  "department": "Literature"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "18 courses total (6 lower-division + 12 upper-division). Standalone major within the Department of Literature. Includes a secondary-language requirement. Corrected from harvested '16 courses (4 lower + 12 upper)': the lower-division buckets sum to 6 (LTWR 8A/8B/8C + one of LTEN 25/26 + two electives), so total is 18.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/LIT-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division creative writing foundation",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LTWR 8A",
+    "LTWR 8B",
+    "LTWR 8C"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Lower-division literature core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTEN 25",
+    "LTEN 26"
+   ],
+   "note": "One course: LTEN 25 or 26."
+  },
+  {
+   "label": "Lower-division literature electives",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "LTEN 21",
+    "LTEN 22",
+    "LTEN 23",
+    "LTEN 25",
+    "LTEN 27",
+    "LTEN 28",
+    "LTEN 29",
+    "LTEN 31",
+    "GSS 21",
+    "GSS 22",
+    "GSS 23",
+    "GSS 25",
+    "GSS 26"
+   ],
+   "note": "Any two of: LTEN 21, 22, 23, 25, 27, 28, 29, 31; GSS 21, 22, 23, 25, 26."
+  },
+  {
+   "label": "Upper-division craft and reading courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "LTWR 100C",
+    "LTWR 101C",
+    "LTWR 102C",
+    "LTWR 103C",
+    "LTWR 106C",
+    "LTWR 109C",
+    "LTWR 110C",
+    "LTWR 113C",
+    "LTWR 114C",
+    "LTWR 115C",
+    "LTWR 119C",
+    "LTWR 120C",
+    "LTWR 121C",
+    "LTWR 122C",
+    "LTWR 124C",
+    "LTWR 126C",
+    "LTWR 129C"
+   ],
+   "note": "Four craft/reading (C-suffix) LTWR courses."
+  },
+  {
+   "label": "Upper-division workshop courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "LTWR 100W",
+    "LTWR 101W",
+    "LTWR 102W",
+    "LTWR 104AW",
+    "LTWR 104BW",
+    "LTWR 110W",
+    "LTWR 114W",
+    "LTWR 115W",
+    "LTWR 119W",
+    "LTWR 124W",
+    "LTWR 126W"
+   ],
+   "note": "Two workshop (W-suffix) LTWR courses."
+  },
+  {
+   "label": "Upper-division advanced/capstone writing",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTWR 140-148"
+   ],
+   "note": "One course from LTWR 140 through 148."
+  },
+  {
+   "label": "Upper-division comparative breadth",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LTAM 100-199",
+    "LTEU 100-199",
+    "LTAF 100-199",
+    "LTEA 100-199",
+    "LTWL 100-199"
+   ],
+   "note": "One Literatures of the Americas (LTAM), one Literatures of Europe (LTEU), and one additional from LTAF/LTAM/LTEA/LTEU/LTWL."
+  },
+  {
+   "label": "Upper-division Literature electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "LTAF 100-199",
+    "LTAM 100-199",
+    "LTCH 100-199",
+    "LTCS 100-199",
+    "LTEA 100-199",
+    "LTEN 100-199",
+    "LTEU 100-199",
+    "LTFR 100-199",
+    "LTGK 100-199",
+    "LTGM 100-199",
+    "LTIT 100-199",
+    "LTKO 100-199",
+    "LTLA 100-199",
+    "LTRU 100-199",
+    "LTSP 100-199",
+    "LTTH 100-199",
+    "LTWL 100-199"
+   ],
+   "note": "Two additional upper-division electives from the Department of Literature, excluding LTWR 100-148."
+  },
+  {
+   "label": "Secondary-language requirement",
+   "division": "other",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTFR 2C",
+    "LTGM 2C",
+    "LTIT 50",
+    "LTKO 2C",
+    "LTRU 2B",
+    "LTGK 3",
+    "LTLA 3",
+    "LTSP 2C",
+    "LTSP 2E",
+    "LTSP 3F"
+   ],
+   "note": "At least one course in a secondary language or literature (taught in a language other than English). May overlap with other requirements. Confirmed from catalog.ucsd.edu/curric/LIT-ug.html. Department-wide secondary-language requirement: complete the lower-division sequence in a second language through its designated terminal course. This is a proficiency-style requirement (not a fixed single course set) — it can be satisfied by any of several language sequences OR by an upper-division literature course taught in a language other than English. Terminal lower-division courses by language: French LTFR 2C; German LTGM 2C; Italian LTIT 50; Korean LTKO 2C; Russian LTRU 2B; Classical Greek LTGK 3; Latin LTLA 3; Spanish LTSP 2C/2E/3F. Hebrew is JUDA 3 and ASL 1E (subject codes JUDA/ASL not in the Literature ranges; not listed in courses[]). For the Literary Arts major specifically the catalog phrases it as 'at least one course in a secondary language or literature; that is, a course taught in a language other than English,' so it may also be met via an upper-div LTFR/LTSP/LTGM/etc. course taught in the target language. Listed courses are the terminal demonstrators, not an exhaustive fixed",
+   "type": "proficiency"
+  }
+ ]
+}

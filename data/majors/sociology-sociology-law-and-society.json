@@ -1,0 +1,116 @@
+{
+ "program": {
+  "major": "Sociology - Law and Society",
+  "degree": "B.A.",
+  "department": "Sociology"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "Same core as general major, but at least 5 of the 10 upper-division electives must come from the Law and Society concentration list. LAWS 101 is a non-SOCI (upper-division) option on this list. Concentration list matches catalog page exactly.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/SOC-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division required core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "SOCI 1",
+    "SOCI 2",
+    "SOCI 60"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Lower-division elective (choose one)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "SOCI 10",
+    "SOCI 20",
+    "SOCI 30",
+    "SOCI 40",
+    "SOCI 50",
+    "SOCI 70"
+   ],
+   "note": "One course from this group."
+  },
+  {
+   "label": "Sociological theory (required)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "SOCI 100"
+   ]
+  },
+  {
+   "label": "Methods course (choose one)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "SOCI 102",
+    "SOCI 103M",
+    "SOCI 104",
+    "SOCI 104Q",
+    "SOCI 105",
+    "SOCI 106",
+    "SOCI 106M",
+    "SOCI 108",
+    "SOCI 109",
+    "SOCI 109M",
+    "SOCI 110"
+   ],
+   "note": "One methods course."
+  },
+  {
+   "label": "Law and Society concentration courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "SOCI 115",
+    "SOCI 125M",
+    "SOCI 138",
+    "SOCI 138GS",
+    "SOCI 140",
+    "SOCI 140A",
+    "SOCI 140F",
+    "SOCI 140J",
+    "SOCI 140K",
+    "SOCI 141",
+    "SOCI 142",
+    "SOCI 144",
+    "SOCI 145",
+    "SOCI 146",
+    "SOCI 147",
+    "SOCI 148",
+    "SOCI 152",
+    "SOCI 159",
+    "SOCI 160E",
+    "SOCI 163",
+    "SOCI 174",
+    "SOCI 175",
+    "SOCI 188I",
+    "SOCI 188O",
+    "LAWS 101"
+   ],
+   "note": "At least 5, counted within the 10 upper-division electives. LAWS 101 is an eligible non-Sociology option."
+  },
+  {
+   "label": "Additional upper-division sociology electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "SOCI 100-199"
+   ],
+   "note": "Remaining electives to reach 10 total (12 upper-division overall, 48+ units); any upper-division sociology courses."
+  }
+ ]
+}

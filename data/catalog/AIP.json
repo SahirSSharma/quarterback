@@ -1,0 +1,61 @@
+{
+ "page": "AIP",
+ "name": "Academic Internship Program",
+ "courses": [
+  {
+   "code": "AIP 97",
+   "subject": "AIP",
+   "num": "97",
+   "title": "Academic Internship",
+   "units": "2, 4",
+   "level": null,
+   "description": "Individual placements for field learning. Must be integrated with an academic discipline. A written contract involving all parties will include learning objectives, a paper/project outline, and means of supervision and progress evaluation. May be taken for credit up to three times.",
+   "prereqText": "lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Learning Agreement for Special Studies.",
+   "prereqs": null
+  },
+  {
+   "code": "AIP 197",
+   "subject": "AIP",
+   "num": "197",
+   "title": "Academic Internship Program",
+   "units": "2, 4, 6, 8, 10, 12",
+   "level": null,
+   "description": "Individual internship placements integrated with an academic discipline. A written contract involving all parties will include learning objectives, a paper/project outline, and means of supervision and progress evaluation. Consent of faculty adviser and program chair required. May be taken for credit up to three times for a maximum of sixteen units.",
+   "prereqText": "upper-division standing; department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "AIP 197DC",
+   "subject": "AIP",
+   "num": "197DC",
+   "title": "UCDC: Washington, DC Internship",
+   "units": "6, 8, 10",
+   "level": null,
+   "description": "This internship is attached to the University of California, Washington Center programs. Students participating in the campus UCDC program secure internships in the Washington, DC area requiring 18\u201330 hours per week. Students must be enrolled in the UCDC program.",
+   "prereqText": "upper-division standing; department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "AIP 197P",
+   "subject": "AIP",
+   "num": "197P",
+   "title": "Public Service Internship",
+   "units": "4, 8, 12",
+   "level": null,
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "AIP 197T",
+   "subject": "AIP",
+   "num": "197T",
+   "title": "Academic Internship Program\u2014Special Programs",
+   "units": "2",
+   "level": null,
+   "description": "Individual placements for field learning associated with UC San Diego partnerships and special programs. A written contract involving all parties will include learning objectives, a paper/project outline, and means of supervision and progress evaluation. Consent of faculty adviser and program chair required.",
+   "prereqText": "ninety units minimum completed; 2.5 minimum cumulative GPA; department approval.",
+   "prereqs": null
+  }
+ ]
+}

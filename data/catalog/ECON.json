@@ -1,0 +1,2905 @@
+{
+ "page": "ECON",
+ "name": "Economics",
+ "courses": [
+  {
+   "code": "ECON 1",
+   "subject": "ECON",
+   "num": "1",
+   "title": "Principles of Microeconomics",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "Introduction to the study of the economic system. Course will introduce the standard economic models used to examine how individuals and firms make decisions in perfectly competitive markets, and how these decisions affect supply and demand in output markets.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 2",
+   "subject": "ECON",
+   "num": "2",
+   "title": "Market Imperfections and Policy",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "Analysis of monopoly and imperfectly competitive markets, market imperfections and the role of government.",
+   "prereqText": "ECON 1.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 3",
+   "subject": "ECON",
+   "num": "3",
+   "title": "Principles of Macroeconomics",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "Introductory macroeconomics: unemployment, inflation, business cycles, monetary and fiscal policy.",
+   "prereqText": "ECON 1.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 4",
+   "subject": "ECON",
+   "num": "4",
+   "title": "Financial Accounting",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "(Cross-listed with MGT 4.) Recording, organizing, and communicating financial information relating to business entities. Credit not allowed for both ECON 4 and MGT 4.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 5",
+   "subject": "ECON",
+   "num": "5",
+   "title": "Data Analytics for the Social Sciences",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "(Cross-listed with POLI 5D.) Students engage in hands-on learning with applied social science problems. The course teaches the basics of data management and collection, data analysis, and data visualization. To perform these analyses, students learn how to code in various programming software, including Excel, Stata, and R. Students may receive credit for only one of the following courses: ECON 5, POLI 5, POLI 5D, ECON 5R.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 86",
+   "subject": "ECON",
+   "num": "86",
+   "title": "10x10 Career Lessons",
+   "units": "2",
+   "level": "Lower Division",
+   "description": "This course empowers students to identify the essential skills needed for their professional aspirations and to design their career paths. Through instruction and through interactions with industry experts, UC San Diego alumni, and career advisers, students learn about real-world career insights and essential competencies. Students also learn about effective strategies to leverage these skills and pursue their individual career trajectories.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 87",
+   "subject": "ECON",
+   "num": "87",
+   "title": "First-year Student Seminar",
+   "units": "1",
+   "level": "Lower Division",
+   "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students. May be repeated when course topics vary. (P/NP grades only.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 100A",
+   "subject": "ECON",
+   "num": "100A",
+   "title": "Microeconomics A",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Economic analysis of household choices for the demand of goods and services. Analysis of firms\u2019 production and costs and the supply of output. Analysis of perfectly competitive markets and introduction to general equilibrium.",
+   "prereqText": "ECON 1 and MATH 10C or 20C or 31BH.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "MATH 10C",
+     "MATH 20C",
+     "MATH 31BH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 100B",
+   "subject": "ECON",
+   "num": "100B",
+   "title": "Microeconomics B",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Game theory and analysis of the effects of imperfect market structure, strategy and information economics, public goods, and externalities.",
+   "prereqText": "ECON 100A.",
+   "prereqs": [
+    [
+     "ECON 100A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 100C",
+   "subject": "ECON",
+   "num": "100C",
+   "title": "Microeconomics C",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Advanced analysis of production, costs, the supply of output, and demand for factors of production. Advanced analysis of the demand for goods and services. Applications to consumption and saving decisions, strategic behavior, and the supply of labor. General equilibrium and welfare.",
+   "prereqText": "ECON 100B.",
+   "prereqs": [
+    [
+     "ECON 100B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 100AH",
+   "subject": "ECON",
+   "num": "100AH",
+   "title": "Honors Microeconomics A",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "Honors sequence expanding on the material taught in ECON 100A. Major GPA of 3.5 or better required. May be taken concurrently with ECON 100A or after successful completion of ECON 100A with A\u2013 or better or consent of instructor. Priority enrollment given to majors in the department.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 100BH",
+   "subject": "ECON",
+   "num": "100BH",
+   "title": "Honors Microeconomics B",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "Honors sequence expanding on the material taught in ECON 100B. Major GPA of 3.5 or better required. May be taken concurrently with ECON 100B or after successful completion of ECON 100B with A\u2013 or better or consent of instructor. Priority enrollment given to majors in the department.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 100CH",
+   "subject": "ECON",
+   "num": "100CH",
+   "title": "Honors Microeconomics C",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "Honors sequence expanding on the material taught in ECON 100C. Major GPA of 3.5 or better required. May be taken concurrently with ECON 100C or after successful completion of ECON 100C with A\u2013 or better or consent of instructor. Priority enrollment given to majors in the department.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 101",
+   "subject": "ECON",
+   "num": "101",
+   "title": "International Trade",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines theories of international trade in goods and services and relates the insights to empirical evidence. Explains international trade at the level of industries and firms and analyzes the consequences of trade for resource allocation, welfare, and the income distribution. Discusses sources of comparative advantage, motives for trade policies, and the effects of trade barriers and trading blocs on welfare and incomes.",
+   "prereqText": "ECON 100B or 102.",
+   "prereqs": [
+    [
+     "ECON 100B",
+     "ECON 102"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 102",
+   "subject": "ECON",
+   "num": "102",
+   "title": "Globalization",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Presents theories of global economic integration, grounded in the principle of comparative advantage. Investigates patterns of trade when trade is balanced and capital flows when trade is not balanced. Assesses the consequences of global economic integration and economic policies for industry location, incomes, welfare and economic growth, and studies goods, services and sovereign debt markets.",
+   "prereqText": "ECON 1 or 100B and 2 or 3 or MATH 20C.",
+   "prereqs": [
+    [
+     "ECON 1",
+     "ECON 100B",
+     "ECON 2",
+     "ECON 3",
+     "MATH 20C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 102T",
+   "subject": "ECON",
+   "num": "102T",
+   "title": "Advanced Topic in Globalization",
+   "units": "2",
+   "level": "Upper Division",
+   "description": "This course presents a selection of empirical applications and advanced topics that build on the material covered in ECON 102, Globalization. Students have the opportunity to analyze global trade and capital market data and to prepare a presentation and brief paper on a specific topic.",
+   "prereqText": "department approval required. May be taken concurrently with ECON 102 or after completion of ECON 102.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 103",
+   "subject": "ECON",
+   "num": "103",
+   "title": "International Monetary Relations",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Analyzes exchange rates and the current account. Relates their joint determination to financial markets and the real-side macroeconomy using international macroeconomic models and presents empirical regularities. Discusses macroeconomic policies under different exchange rate regimes and implications for financial stability and current account sustainability.",
+   "prereqText": "ECON 102 or 110B or 173A.",
+   "prereqs": [
+    [
+     "ECON 102",
+     "ECON 110B",
+     "ECON 173A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 104",
+   "subject": "ECON",
+   "num": "104",
+   "title": "Nobody\u2019s Fool: Economics with Morals",
+   "units": "2",
+   "level": "Upper Division",
+   "description": "The prevailing paradigm in economics is self-interest, but what if acting unselfishly is what is in your self-interest? We will explore economic questions from the viewpoint that individuals have moral values that guide how they live. This allows us to address issues like fairness, love, marriage, giving, identity, conformity, discrimination, crime, punishment, and reparations.",
+   "prereqText": "ECON 100C.",
+   "prereqs": [
+    [
+     "ECON 100C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 105",
+   "subject": "ECON",
+   "num": "105",
+   "title": "Industrial Organization and Firm Strategy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Theory of monopoly and oligopoly pricing, price discrimination, durable goods pricing, cartel behavior, price wars, strategic entry barriers, mergers, pro- and anticompetitive restraints on business.",
+   "prereqText": "ECON 100C.",
+   "prereqs": [
+    [
+     "ECON 100C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 106",
+   "subject": "ECON",
+   "num": "106",
+   "title": "International Economic Agreements",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines reasons for international economic agreements, their design, the strategic interactions that determine how the agreements are implemented and sustained, and consequences for global welfare and inequality. Draws on international economics, game theory, law and economics, and political economy to understand international economic agreements. These tools are used to understand multilateral trade and investment agreements, such as NAFTA, and international organizations, such as the WTO.",
+   "prereqText": "ECON 100B and 102.",
+   "prereqs": [
+    [
+     "ECON 100B"
+    ],
+    [
+     "ECON 102"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 107",
+   "subject": "ECON",
+   "num": "107",
+   "title": "Economic Regulation and Antitrust Policy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Detailed treatment of antitrust policy: Sherman Act, price fixing, collusive practices, predatory pricing, price discrimination, double marginalization, exclusive territories, resale price maintenance, refusal to deal, and foreclosure. Theory of regulation and regulatory experience in electrical utilities, oil, telecommunications, broadcasting, etc.",
+   "prereqText": "ECON 2 or 100B; and MATH 10C or 20C or 31BH.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100B"
+    ],
+    [
+     "MATH 10C",
+     "MATH 20C",
+     "MATH 31BH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 109",
+   "subject": "ECON",
+   "num": "109",
+   "title": "Game Theory",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Introduction to game theory. Analysis of people\u2019s decisions when the consequences of the decisions depend on what other people do. This course features applications in economics, political science, and law.",
+   "prereqText": "ECON 100C or MATH 31CH or MATH 109 or (CSE 20 and MATH 20 C).",
+   "prereqs": [
+    [
+     "ECON 100C",
+     "MATH 31CH",
+     "MATH 109",
+     "CSE 20"
+    ],
+    [
+     "MATH 20"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 109T",
+   "subject": "ECON",
+   "num": "109T",
+   "title": "Advanced Topics in Game Theory",
+   "units": "2",
+   "level": "Upper Division",
+   "description": "This course presents a selection of applications and advanced topics that build on the material covered in the ECON 109. Game Theory course.",
+   "prereqText": "department approval required. May be taken concurrently with ECON 109 or after completion of ECON 109.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 110A",
+   "subject": "ECON",
+   "num": "110A",
+   "title": "Long Run Macroeconomics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Analysis of the determination of long run growth and models of the determination of output, interest rates, and the price level. Analysis of inflation, unemployment, and monetary and fiscal policy.",
+   "prereqText": "ECON 1 and ECON 3 and MATH 10C or MATH 20C or MATH 31BH.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ],
+    [
+     "MATH 10C",
+     "MATH 20C",
+     "MATH 31BH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 110B",
+   "subject": "ECON",
+   "num": "110B",
+   "title": "Short Run Macroeconomics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Analysis of the determination of consumption spending at the aggregate level; extension of the basic macro model to include exchange rates and international trade; the aggregate money supply, and the business cycle.",
+   "prereqText": "ECON 1 and ECON 3 and MATH 10C or MATH 20C or MATH 31BH.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ],
+    [
+     "MATH 10C",
+     "MATH 20C",
+     "MATH 31BH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 110AH",
+   "subject": "ECON",
+   "num": "110AH",
+   "title": "Honors Macroeconomics A",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "Honors sequence expanding on the material taught in ECON 110A. Major GPA of 3.5 or better required. May be taken concurrently with ECON 110A or after successful completion of ECON 110A with A\u2013or better or consent of instructor. Priority enrollment given to majors in the department.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 110BH",
+   "subject": "ECON",
+   "num": "110BH",
+   "title": "Honors Macroeconomics B",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "Honors sequence expanding on the material taught in ECON 110B. Major GPA of 3.5 or better required. May be taken concurrently with ECON 110B or after successful completion of ECON 110B with A\u2013 or better or consent of instructor. Priority enrollment given to majors in the department.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 111",
+   "subject": "ECON",
+   "num": "111",
+   "title": "Monetary Economics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Financial structure of the US economy. Bank behavior. Monetary control.",
+   "prereqText": "ECON 110B.",
+   "prereqs": [
+    [
+     "ECON 110B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 112",
+   "subject": "ECON",
+   "num": "112",
+   "title": "Macroeconomic Data Analysis",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines time series methods for data analysis with an emphasis on macroeconomic applications. Students are provided with an overview of fundamental time series techniques, hands-on experience in applying them to real-world macroeconomic data, and expertise in performing empirical tests of policy-relevant macroeconomic theories, such as the permanent income hypothesis, the Keynesian fiscal multiplier, and the Phillips curve.",
+   "prereqText": "ECON 110B and ECON 120B or MATH 181B. Enrollment limited to majors in the Department of Economics and MA33 only.",
+   "prereqs": [
+    [
+     "ECON 110B"
+    ],
+    [
+     "ECON 120B",
+     "MATH 181B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 113",
+   "subject": "ECON",
+   "num": "113",
+   "title": "Mathematical Economics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Mathematical concepts and techniques used in advanced economic analysis; applications to selected aspects of economic theory.",
+   "prereqText": "ECON 100C or MATH 140A or MATH 142A and MATH 18 or MATH 31AH.",
+   "prereqs": [
+    [
+     "ECON 100C",
+     "MATH 140A",
+     "MATH 142A"
+    ],
+    [
+     "MATH 18",
+     "MATH 31AH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 116",
+   "subject": "ECON",
+   "num": "116",
+   "title": "Economic Development",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Introduction to the economics of less developed countries, covering their international trade, human resources, urbanization, agriculture, income distribution, political economy, and environment.",
+   "prereqText": "ECON 2 or 100B.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 117",
+   "subject": "ECON",
+   "num": "117",
+   "title": "Economic Growth",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Basic economic dynamics, consumption versus growth with fixed or growing populations, the Harrod-Domar growth model, the neoclassical growth model, optimal growth, the Golden Rule, money and economic growth, technological progress and economic growth, human capital and endogenous economic growth, and alternative theories of growth and distribution.",
+   "prereqText": "ECON 100A.",
+   "prereqs": [
+    [
+     "ECON 100A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 118",
+   "subject": "ECON",
+   "num": "118",
+   "title": "Law and Economics: Torts, Property, and Crime",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Uses economic theory to evaluate the economic effects of US law in several legal fields, including tort law (accidents), products liability law, property law, criminal law (law enforcement), and litigation. Also considers risk bearing and why people buy insurance.",
+   "prereqText": "ECON 2 or 100A; and MATH 10A or 20A.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100A"
+    ],
+    [
+     "MATH 10A",
+     "MATH 20A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 119",
+   "subject": "ECON",
+   "num": "119",
+   "title": "Law and Economics: Contracts and Corporations",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course asks how firms are organized and why the corporate form dominates, how corporations are governed and the distortions that result, when firms borrow and how they deal with financial distress and bankruptcy. The course will present basic legal doctrines in corporate law, contract law, debtor-creditor law, and bankruptcy, and use economic models to analyze whether and when these doctrines promote economically efficient behavior.",
+   "prereqText": "ECON 2 or 100A and MATH 10A or 20A.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100A"
+    ],
+    [
+     "MATH 10A",
+     "MATH 20A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 120A",
+   "subject": "ECON",
+   "num": "120A",
+   "title": "Econometrics A",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Probability and statistics used in economics. Probability and sampling theory, statistical inference, and use of spreadsheets. Credit not allowed for ECON 120A after ECE 109, MAE 108, MATH 180A, MATH 183, or MATH 186.",
+   "prereqText": "ECON 1; and MATH 10C or 20C or 31BH.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "MATH 10C",
+     "MATH 20C",
+     "MATH 31BH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 120B",
+   "subject": "ECON",
+   "num": "120B",
+   "title": "Econometrics B",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Basic econometric methods, including the linear regression, hypothesis testing, quantifying uncertainty using confidence intervals, and distinguishing correlation from causality. Credit not allowed for both ECON 120B after MATH 181B.",
+   "prereqText": "ECON 120A or ECE 109 or MAE 108 or MATH 180A or MATH 183 or MATH 186.",
+   "prereqs": [
+    [
+     "ECON 120A",
+     "ECE 109",
+     "MAE 108",
+     "MATH 180A",
+     "MATH 183",
+     "MATH 186"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 120C",
+   "subject": "ECON",
+   "num": "120C",
+   "title": "Econometrics C",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course covers causal inference methods in econometrics. Students are introduced to commonly used causal inference methods in economics, business, and public policy for identifying and estimating causal effects. The main topics are causality and causal models, experiments and quasi-experiments, instrumental variable regression, panel data methods, difference-in-difference, and regression discontinuity designs.",
+   "prereqText": "ECON 120B or MATH 181B.",
+   "prereqs": [
+    [
+     "ECON 120B",
+     "MATH 181B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 120AH",
+   "subject": "ECON",
+   "num": "120AH",
+   "title": "Honors Econometrics A",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "Honors sequence expanding on the material taught in ECON 120A. Major GPA of 3.5 or better required. May be taken concurrently with ECON 120A or after successful completion of ECON 120A with A\u2013 or better or consent of instructor. Priority enrollment given to majors in the department.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 120BH",
+   "subject": "ECON",
+   "num": "120BH",
+   "title": "Honors Econometrics B",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "Honors sequence expanding on the material taught in ECON 120B. Major GPA of 3.5 or better required. May be taken concurrently with ECON 120B or after successful completion of ECON 120B with A\u2013 or better or consent of instructor. Priority enrollment given to majors in the department.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 120CH",
+   "subject": "ECON",
+   "num": "120CH",
+   "title": "Honors Econometrics C",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "Honors sequence expanding on the material taught in ECON 120C. Major GPA of 3.5 or better required. May be taken concurrently with ECON 120C or after successful completion of ECON 120C with A\u2013 or better or consent of instructor. Priority enrollment given to majors in the department.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 121",
+   "subject": "ECON",
+   "num": "121",
+   "title": "Applied Econometrics and Data Analysis",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Theoretically develops extensions to the standard econometric toolbox, studies their application in scientific research, and applies them to data. Emphasis is on using techniques, and on understanding and critically assessing others\u2019 use of them. Requires practical work on the computer using a range of data from around the world. Topics include advanced regression analysis, limited dependent variables, nonparametric methods, and new methods for causal inference.",
+   "prereqText": "(ECON 120B or MATH 181B) and (ECON 120C or ECON 5 or POLI 5 or POLI 5D).",
+   "prereqs": [
+    [
+     "ECON 120B",
+     "MATH 181B"
+    ],
+    [
+     "ECON 120C",
+     "ECON 5",
+     "POLI 5",
+     "POLI 5D"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 122",
+   "subject": "ECON",
+   "num": "122",
+   "title": "Econometric Theory",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Detailed study of the small sample and asymptotic properties of estimators commonly used in applied econometric work: multiple linear regression, instrumental variables, generalized method of moments, and maximum likelihood. Econometric computation using MATLAB. Recommended preparation: ECON 120C.",
+   "prereqText": "ECON 120B or MATH 181B and MATH 18 or MATH 31AH.",
+   "prereqs": [
+    [
+     "ECON 120B",
+     "MATH 181B"
+    ],
+    [
+     "MATH 18",
+     "MATH 31AH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 125",
+   "subject": "ECON",
+   "num": "125",
+   "title": "The Science of Population",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Explores how to measure and understand the forces that shape human population and its interaction with social, economic, and natural environments. Topics include the growth rate and structure of population, as well as mortality, fertility, migration, and their drivers. Emphasizes analysis of demographic data using statistical programming. Applications focus on differences between the past and present, between rich and poor countries, and between racial and ethnic groups within the United States.",
+   "prereqText": "PSYC 60 or MATH 183 or MATH 181A or MATH 11 or ECON 120A or MATH 186 or ECE 109 or MAE 108.",
+   "prereqs": [
+    [
+     "PSYC 60",
+     "MATH 183",
+     "MATH 181A",
+     "MATH 11",
+     "ECON 120A",
+     "MATH 186",
+     "ECE 109",
+     "MAE 108"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 129",
+   "subject": "ECON",
+   "num": "129",
+   "title": "Cities, Inequality, Innovation",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Explores the dual role of cities as places of innovation and job creation but also places of great economic inequality and segregation over the last century. Studies the experience of American cities, identifying fundamental forces that made them prosper or decline. Connect cities to observed aggregate trends in innovation, job creation, and economic inequality. Practices use of GIS software to organize and analyze spatial data.",
+   "prereqText": "ECON 110A and (ECON 120A or ECE 109 or MAE 108 or MATH 180A or MATH 183 or MATH 186).",
+   "prereqs": [
+    [
+     "ECON 110A"
+    ],
+    [
+     "ECON 120A",
+     "ECE 109",
+     "MAE 108",
+     "MATH 180A",
+     "MATH 183",
+     "MATH 186"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 130",
+   "subject": "ECON",
+   "num": "130",
+   "title": "Public Policy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Course uses basic microeconomic tools to discuss a wide variety of public issues, including the war on drugs, global warming, natural resources, health care and safety regulation. Appropriate for majors who have not completed ECON 100A-B-C and students from other departments.",
+   "prereqText": "ECON 2 or 100A.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 131",
+   "subject": "ECON",
+   "num": "131",
+   "title": "Economics of the Environment",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Environmental issues from an economic perspective. Relation of the environment to economic growth. Management of natural resources, such as forest and fresh water. Policies on air, water, and toxic waste pollution. International issues such as ozone depletion and sustainable development.",
+   "prereqText": "ECON 2 or 100A.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 132",
+   "subject": "ECON",
+   "num": "132",
+   "title": "Energy Economics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Energy from an economic perspective. Fuel cycles for coal, hydro, nuclear, oil, and solar energy. Emphasis on efficiency and control of pollution. Comparison of energy use across sectors and across countries. Global warming. Role of energy in the international economy.",
+   "prereqText": "ECON 1 and (ECON 2 or 3 or 100A or 131 or ESYS 103 or MAE 124) and MATH 10C or 20C or 31BH.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 2",
+     "ECON 3",
+     "ECON 100A",
+     "ECON 131",
+     "ESYS 103",
+     "MAE 124"
+    ],
+    [
+     "MATH 10C",
+     "MATH 20C",
+     "MATH 31BH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 132T",
+   "subject": "ECON",
+   "num": "132T",
+   "title": "Advanced Topics in Energy Economics",
+   "units": "2",
+   "level": "Upper Division",
+   "description": "This course presents a selection of applications and advanced topics that build on the material covered in the ECON 132, Energy Economics course.",
+   "prereqText": "ECON 132.",
+   "prereqs": [
+    [
+     "ECON 132"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 134",
+   "subject": "ECON",
+   "num": "134",
+   "title": "US Budget Policy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The course examines major issues relating to US budget policy, including deficits and debt, distributional and efficiency effects of the tax system, Social Security and disability insurance, and transfer programs. We build on empirical and theoretical tools to give students a framework for understanding the practice of US budget policymaking in relation to current economic debates.",
+   "prereqText": "ECON 100A. Enrollment limited to majors in the Department of Economics.",
+   "prereqs": [
+    [
+     "ECON 100A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 135",
+   "subject": "ECON",
+   "num": "135",
+   "title": "Urban Economics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Cross-listed with USP 102.) Economic analysis of why cities develop, patterns of land use in cities, why cities suburbanize, and the pattern of urban commuting. The course also examines problems of urban congestion, air pollution, zoning, poverty, crime, and discusses public policies to deal with them. Credit not allowed for both ECON 135 and USP 102.",
+   "prereqText": "ECON 2 or 100A; and MATH 10A or 20A.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100A"
+    ],
+    [
+     "MATH 10A",
+     "MATH 20A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 136",
+   "subject": "ECON",
+   "num": "136",
+   "title": "Human Resources",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A practical yet theory-based study of the firm\u2019s role in managing workers, including issues related to hiring, education and training, promotions, layoffs and buyouts, and the overarching role that worker compensation plays in all of these.",
+   "prereqText": "ECON 100B.",
+   "prereqs": [
+    [
+     "ECON 100B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 137",
+   "subject": "ECON",
+   "num": "137",
+   "title": "Corruption",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines corruption in developing countries today, with the aims of understanding why it occurs, what the consequences are, and what can or should be done about it. In the process, we will endeavor to build practical problem-solving and communication skills. As such, the course is designed for future leaders in business, nonprofit, and public service settings who seek to develop their ability to map high-quality research into pragmatic enterprise decision making.",
+   "prereqText": "ECON 100C and 120C. Enrollment limited to majors in the Department of Economics and MA33 only; department approval required.",
+   "prereqs": [
+    [
+     "ECON 100C"
+    ],
+    [
+     "ECON 120C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 138",
+   "subject": "ECON",
+   "num": "138",
+   "title": "Economics of Discrimination",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will investigate differences in economic outcomes on the basis of race, gender, ethnicity, religion, and sexual orientation. We will study economic theories of discrimination, empirical work testing those theories, and policies aimed at alleviating group-level differences in economic outcomes.",
+   "prereqText": "ECON 1.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 139",
+   "subject": "ECON",
+   "num": "139",
+   "title": "Labor Economics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Theoretical and empirical analysis of labor markets. Topics include labor supply, labor demand, human capital investment, wage inequality, labor mobility, immigration, labor market discrimination, labor unions and unemployment.",
+   "prereqText": "ECON 2 or 100B.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 140",
+   "subject": "ECON",
+   "num": "140",
+   "title": "Economics of Health Care Production and Finance",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Provides an overview of the physician, hospital, and pharmaceutical segments of the health sector. Uses models of physician behavior, for-profit and nonprofit institutions to understand the trade-offs facing health-sector regulators and the administrators of public and private insurance arrangements.",
+   "prereqText": "ECON 2 or ECON 100B.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 141",
+   "subject": "ECON",
+   "num": "141",
+   "title": "Economics of Health Consumers",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Demand for health care and health insurance, employer provision of health insurance and impact on wages and job changes. Cross-country comparisons of health systems.",
+   "prereqText": "ECON 100C.",
+   "prereqs": [
+    [
+     "ECON 100C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 142",
+   "subject": "ECON",
+   "num": "142",
+   "title": "Behavioral Economics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Course will study economic models in which standard economic rationality assumptions are combined with psychologically plausible assumptions on behavior. We consider whether the new models improve ability to predict and understand phenomena including altruism, trust and reciprocity, procrastination, and self-control.",
+   "prereqText": "ECON 100B or ECON 109.",
+   "prereqs": [
+    [
+     "ECON 100B",
+     "ECON 109"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 143",
+   "subject": "ECON",
+   "num": "143",
+   "title": "Experimental Economics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Explore use of experiments to study individual and interactive (strategic) decision making. Topics may include choice over risky alternatives, altruism and reciprocity, allocation and information aggregation in competitive markets, cooperation and collusion, bidding in auctions, strategy in coordination and \u201coutguessing\u201d games.",
+   "prereqText": "ECON 100C. Enrollment limited to majors in the Department of Economics and MA33 only.",
+   "prereqs": [
+    [
+     "ECON 100C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 144",
+   "subject": "ECON",
+   "num": "144",
+   "title": "Economics of Conservation",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines conservation of biodiversity from an economic perspective. Topics include valuing biodiversity, defining successful conservation, and evaluating the cost effectiveness of policies such as conservation payments, ecotourism, and privatization. Emphasis on forests, coral reefs, elephants, tigers, and sea turtles.",
+   "prereqText": "ECON 2 or 100A.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 145",
+   "subject": "ECON",
+   "num": "145",
+   "title": "Economics of Ocean Resources",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Economic issues associated with oceans. Economics of managing renewable resources in the oceans, with an emphasis on fisheries, economics of conservation and biodiversity preservation for living marine resources, with an emphasis on whales, dolphins, sea turtles, and coral reefs.",
+   "prereqText": "ECON 2 or 100A.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 146",
+   "subject": "ECON",
+   "num": "146",
+   "title": "Economic Stabilization",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Theory of business cycles and techniques used by governments to stabilize an economy. Discussion of recent economic experience.",
+   "prereqText": "ECON 110B.",
+   "prereqs": [
+    [
+     "ECON 110B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 147",
+   "subject": "ECON",
+   "num": "147",
+   "title": "Economics of Education",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examination of issues in education using theoretical and empirical approaches from economics. Analysis of decisions to invest in education. Consideration of various market structures in education, including school choice and school finance programs.",
+   "prereqText": "ECON 2 or 100A; and ECON 120B or MATH 181B.",
+   "prereqs": [
+    [
+     "ECON 2",
+     "ECON 100A"
+    ],
+    [
+     "ECON 120B",
+     "MATH 181B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 149",
+   "subject": "ECON",
+   "num": "149",
+   "title": "Introduction to Economic Design",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The course will examine the theory and practice of designing markets and institutions for strategic agents. We will discuss applications in auctions, voting and social choice, online platforms, resource allocation, and matching markets.",
+   "prereqText": "MATH 109 or MATH 15A or ECON 100A or CSE 21 or CSE 20 or MATH 154 or MATH 188 or MATH 184.",
+   "prereqs": [
+    [
+     "MATH 109",
+     "MATH 15A",
+     "ECON 100A",
+     "CSE 21",
+     "CSE 20",
+     "MATH 154",
+     "MATH 188",
+     "MATH 184"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 150",
+   "subject": "ECON",
+   "num": "150",
+   "title": "Public Economics: Taxation",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Overview of the existing national tax structure in the United States, its effects on individual and firm decisions, and the resulting efficiency costs and distributional consequences. The course concludes with an examination of several commonly-proposed tax reforms.",
+   "prereqText": "ECON 100C.",
+   "prereqs": [
+    [
+     "ECON 100C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 151",
+   "subject": "ECON",
+   "num": "151",
+   "title": "Public Economics: Expenditures I",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Overview of the public sector in the United States and the scope of government intervention in economic life. Theory of public goods and externalities. Discussion of specific expenditure programs such as education and national defense.",
+   "prereqText": "ECON 100C.",
+   "prereqs": [
+    [
+     "ECON 100C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 152",
+   "subject": "ECON",
+   "num": "152",
+   "title": "Public Economics: Expenditures II",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Overview of the public sector in the United States and the justifications for government intervention in economic life. Theory of income redistribution and social insurance. Applications to current policy in such areas as health insurance, welfare, unemployment insurance, and Social Security.",
+   "prereqText": "ECON 100C.",
+   "prereqs": [
+    [
+     "ECON 100C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 152T",
+   "subject": "ECON",
+   "num": "152T",
+   "title": "Advanced Topics in Family Economics and Social Insurance",
+   "units": "2",
+   "level": "Upper Division",
+   "description": "Investigate design of social insurance in the context of the family. Learn effects of economic shocks, such as unemployment and adverse health events, on the family as the economic unit. Learning outcomes include informal self-insurance arrangements and spillovers across family members. Use theory to study welfare implications of findings on optimal design of social insurance policies.",
+   "prereqText": "ECON 152.",
+   "prereqs": [
+    [
+     "ECON 152"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 158",
+   "subject": "ECON",
+   "num": "158",
+   "title": "Economic History of the United States I",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Cross-listed with HIUS 140.) The United States as a raw materials producer, as an agrarian society, and as an industrial nation. Emphasis on the logic of the growth process, the social and political tensions accompanying expansion, and nineteenth- and early twentieth-century transformations of American capitalism. Credit not allowed for both ECON 158 and HIUS 140.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 159",
+   "subject": "ECON",
+   "num": "159",
+   "title": "Economic History of the United States II",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Cross-listed with HIUS 141.) The United States as a modern industrial nation. Emphasis on the logic of the growth process, the social and political tensions accompanying expansion, and twentieth-century transformations of American capitalism. Credit not allowed for both ECON 159 and HIUS 141.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 162",
+   "subject": "ECON",
+   "num": "162",
+   "title": "Economics of Mexico",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Survey of the Mexican economy. Topics such as economic growth, business cycles, saving-investment balance, financial markets, fiscal and monetary policy, labor markets, industrial structure, international trade, and agricultural policy.",
+   "prereqText": "ECON 1 and 3.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 164",
+   "subject": "ECON",
+   "num": "164",
+   "title": "The Indian Economy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Survey of the Indian economy. Historical overview and perspective; political economy; democracy and development; economic growth; land, labor, and credit markets; poverty and inequality; health, education, and human development; technology and development; institutions and state capacity; contemporary policy issues and debates.",
+   "prereqText": "ECON 1 and 3.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 164T",
+   "subject": "ECON",
+   "num": "164T",
+   "title": "Advanced Topics in the Indian Economy",
+   "units": "2",
+   "level": "Upper Division",
+   "description": "ECON 164T will cover topics in more depth than in ECON 164 with more extensive readings and discussion. The class will meet in a seminar format where students will be expected to actively participate in discussions based on the readings and write a short paper at the end of the quarter.",
+   "prereqText": "department approval required. May be taken concurrently with ECON 164 or after completion of ECON 164.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 165",
+   "subject": "ECON",
+   "num": "165",
+   "title": "Middle East Economics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Socioeconomic development in the Arab world, Iran, and Turkey. Historical perspective; international trade and fuel resources; education, health, and gender gaps; unemployment and migration; population and environment; Islam and democracy.",
+   "prereqText": "ECON 1 and 3.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 165T",
+   "subject": "ECON",
+   "num": "165T",
+   "title": "Advanced Topics in Middle East Economics",
+   "units": "2",
+   "level": "Upper Division",
+   "description": "This course will cover certain country experiences and certain topics in more depth than in ECON 165. Students will also have the opportunity to choose countries and topics of particular interest to them for further reading and as subjects for a presentation and brief paper.",
+   "prereqText": "department approval required. May be taken concurrently with ECON 165 or after completion of ECON 165.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 167",
+   "subject": "ECON",
+   "num": "167",
+   "title": "Economics of China",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Survey of the Chinese economy. Topics such as economic growth, China\u2019s transition to a market economy, international trade, financial markets, labor markets, and industrial structure.",
+   "prereqText": "ECON 1 and 3.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 168",
+   "subject": "ECON",
+   "num": "168",
+   "title": "Economics of Modern Israel",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores economic processes that shape the Israeli economy. Topics include biblical economics, economics of religion, economic growth, income inequality and consumer protests, employment, globalization, inflation, the high-tech sector, terrorism, and education.",
+   "prereqText": "ECON 1 and 3.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 169",
+   "subject": "ECON",
+   "num": "169",
+   "title": "Economics of Korea",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course covers long-run economic development and current economic issues of South Korea. Topics include examination of major policy changes (e.g., shifts toward export promotion, heavy and chemical industries promotion); Korea\u2019s industrial structure, including the role of large enterprises (chaebol); role of government; and links between Korea and other countries.",
+   "prereqText": "ECON 3 and 100A.",
+   "prereqs": [
+    [
+     "ECON 3"
+    ],
+    [
+     "ECON 100A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 171",
+   "subject": "ECON",
+   "num": "171",
+   "title": "Decisions Under Uncertainty",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Decision making when the consequences are uncertain. Decision trees, payoff tables, decision criteria, expected utility theory, risk aversion, and applications to investments and asset pricing.",
+   "prereqText": "ECON 100A and ECE 109 or MAE 108 or MATH 181A or ECON 120A or MATH 180A or MATH 183 or MATH 186 or MATH 180B.",
+   "prereqs": [
+    [
+     "ECON 100A"
+    ],
+    [
+     "ECE 109",
+     "MAE 108",
+     "MATH 181A",
+     "ECON 120A",
+     "MATH 180A",
+     "MATH 183",
+     "MATH 186",
+     "MATH 180B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 172A",
+   "subject": "ECON",
+   "num": "172A",
+   "title": "Operations Research A",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Linear and integer programming, elements of zero-sum, two-person game theory, and specific combinatorial algorithms. Credit not allowed for both ECON 172A and MATH 171A.",
+   "prereqText": "ECON 100A; and ECON 120A or ECE 109 or MATH 180A or MATH 183 or MATH 186; and MATH 18 or 31AH.",
+   "prereqs": [
+    [
+     "ECON 100A"
+    ],
+    [
+     "ECON 120A",
+     "ECE 109",
+     "MATH 180A",
+     "MATH 183",
+     "MATH 186"
+    ],
+    [
+     "MATH 18",
+     "MATH 31AH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 172B",
+   "subject": "ECON",
+   "num": "172B",
+   "title": "Operations Research B",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Nonlinear programming, deterministic and stochastic dynamic programming, queuing theory, search models, and inventory models. Credit not allowed for both ECON 172B and MATH 171B.",
+   "prereqText": "ECON 172A or MATH 171A.",
+   "prereqs": [
+    [
+     "ECON 172A",
+     "MATH 171A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 173A",
+   "subject": "ECON",
+   "num": "173A",
+   "title": "Financial Markets",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Financial market functions, institutions and instruments: stocks, bonds, cash instruments, derivatives (options), etc. Discussion of no-arbitrage arguments, as well as investors\u2019 portfolio decisions and the basic risk-return trade-off established in market equilibrium.",
+   "prereqText": "ECON 100A and ECON 120B or MATH 181B; and MATH 18 or 31AH.",
+   "prereqs": [
+    [
+     "ECON 100A"
+    ],
+    [
+     "ECON 120B",
+     "MATH 181B"
+    ],
+    [
+     "MATH 18",
+     "MATH 31AH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 173B",
+   "subject": "ECON",
+   "num": "173B",
+   "title": "Corporate Finance",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Introduces the firm\u2019s capital budgeting decision, including methods for evaluation and ranking of investment projects, the firm\u2019s choice of capital structure, dividend policy decisions, corporate taxes, mergers and acquisitions.",
+   "prereqText": "ECON 4 or MGT 4; and ECON 173A.",
+   "prereqs": [
+    [
+     "ECON 4",
+     "MGT 4"
+    ],
+    [
+     "ECON 173A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 174",
+   "subject": "ECON",
+   "num": "174",
+   "title": "Financial Risk Management",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Risk measures, hedging techniques, value of risk to firms, estimation of optimal hedge ratio, risk management with options and futures. ECON 171 is recommended.",
+   "prereqText": "ECON 173A.",
+   "prereqs": [
+    [
+     "ECON 173A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 175",
+   "subject": "ECON",
+   "num": "175",
+   "title": "International Financial Markets",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examines international asset prices and their consequences from an economic perspective using both theory and data. Topics include exchange rates, global bonds and derivatives, and a lot of emphasis on the US dollar\u2019s specialness in the international financial system and emerging economy\u2019s financial markets.",
+   "prereqText": "ECON 1 and ECON 3 and MATH 10C or MATH 20C or MATH 31BH.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ],
+    [
+     "MATH 10C",
+     "MATH 20C",
+     "MATH 31BH"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 176",
+   "subject": "ECON",
+   "num": "176",
+   "title": "Marketing",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Role of marketing in the economy. Topics such as buyer behavior, marketing mix, promotion, product selection, pricing, and distribution. Concurrent enrollment in ECON 120C is permitted.",
+   "prereqText": "ECON 120C.",
+   "prereqs": [
+    [
+     "ECON 120C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 178",
+   "subject": "ECON",
+   "num": "178",
+   "title": "Machine Learning for Economics and Business",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The course provides an introduction to a number of modern statistical learning methods. It covers the basic concepts and computational issues behind these methods, the concepts of prediction and uncertainty quantification, as well as applications in economics and business.",
+   "prereqText": "ECON 120C. Enrollment limited to EN25, EN26, EN28, and MA33 majors only or by consent of department.",
+   "prereqs": [
+    [
+     "ECON 120C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 181",
+   "subject": "ECON",
+   "num": "181",
+   "title": "Topics in Economics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Selected topics in economics. May be taken for credit up to three times.",
+   "prereqText": "ECON 1 and ECON 3.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 182",
+   "subject": "ECON",
+   "num": "182",
+   "title": "Topics in Microeconomics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Selected topics in microeconomics.",
+   "prereqText": "ECON 100C.",
+   "prereqs": [
+    [
+     "ECON 100C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 183",
+   "subject": "ECON",
+   "num": "183",
+   "title": "Topics in Macroeconomics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "May be taken for credit up to three times.",
+   "prereqText": "ECON 110B.",
+   "prereqs": [
+    [
+     "ECON 110B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 184",
+   "subject": "ECON",
+   "num": "184",
+   "title": "Topics in Economics with Data Analytics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Selected topics in economics with an emphasis on data applications.",
+   "prereqText": "ECON 120B or MATH 181B.",
+   "prereqs": [
+    [
+     "ECON 120B",
+     "MATH 181B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 185",
+   "subject": "ECON",
+   "num": "185",
+   "title": "Detecting Discrimination in Data",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Exploring and understanding the causes of gaps by group status (race, gender, etc.) in data. Work on independent projects exploring gaps by group status in publicly available datasets. Learn to decompose gaps to assess how these gaps might be driven by discrimination using techniques such as the Kitagawa-Oaxaca-Blinder decomposition, multivariate regression, etc. Familiarization with the concepts of taste-based, statistical, and structural discrimination as underlying drivers of gaps.",
+   "prereqText": "ECON 120B or MATH 181B.",
+   "prereqs": [
+    [
+     "ECON 120B",
+     "MATH 181B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 186",
+   "subject": "ECON",
+   "num": "186",
+   "title": "Careers in Economics and Business",
+   "units": "2",
+   "level": "Upper Division",
+   "description": "Coverage of career paths in the business profession in various aspects to broaden students\u2019 knowledge of career opportunities. Review of the current business environment, financial markets, economy, unemployment, banking crises, market updates, and all related business topics. Class also provides students with key knowledge and practical skills used in the real world that complement traditional academics to maximize interview, communication, and presentation skills and strengthen r\u00e9sum\u00e9 building.",
+   "prereqText": "ECON 1 and ECON 3.",
+   "prereqs": [
+    [
+     "ECON 1"
+    ],
+    [
+     "ECON 3"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 190",
+   "subject": "ECON",
+   "num": "190",
+   "title": "An Introduction to Research in Economics",
+   "units": "2",
+   "level": "Upper Division",
+   "description": "Provides students with tools to carry out their own research in economics. Tools include learning meaningful information sources, including economics datasets and literature databases. Develops the skills to write key sections of an academic article in economics, such as a section including results or a section connecting a research idea to the existing literature.",
+   "prereqText": "ECON 100A and ECE 109 or ECON 120A or MATH 181A or MATH 186 or MATH 183 or MAE 108 or MATH 180A.",
+   "prereqs": [
+    [
+     "ECON 100A"
+    ],
+    [
+     "ECE 109",
+     "ECON 120A",
+     "MATH 181A",
+     "MATH 186",
+     "MATH 183",
+     "MAE 108",
+     "MATH 180A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 191A",
+   "subject": "ECON",
+   "num": "191A",
+   "title": "Senior Essay Seminar A",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Senior essay seminar for students with superior records in department majors. Students must complete ECON 191A and ECON 191B in consecutive quarters.",
+   "prereqText": "department stamp required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 191B",
+   "subject": "ECON",
+   "num": "191B",
+   "title": "Senior Essay Seminar B",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Senior essay seminar for students with superior records in department majors. Students must complete ECON 191A and ECON 191B in consecutive quarters.",
+   "prereqText": "department stamp required.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 195P",
+   "subject": "ECON",
+   "num": "195P",
+   "title": "Pedagogy and Learning Apprenticeship",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Under the supervision of an instructor, undergraduate students gain teaching experience through practical experiences in course management and effective teaching methods. Limited to advanced economics majors with at least a 3.5 GPA in upper-division economics work. (P/NP grades only.) Students may not earn more than eight units credit in 195P courses.",
+   "prereqText": "consent of the department.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 198",
+   "subject": "ECON",
+   "num": "198",
+   "title": "Directed Group Study",
+   "units": "2 or 4",
+   "level": "Upper Division",
+   "description": "Directed study on a topic or in a group field not included in regular department curriculum by special arrangement with a faculty member.",
+   "prereqText": "upper-division standing and consent of instructor. May be repeated up to three times when course topics vary. (P/NP grades only.)",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 199",
+   "subject": "ECON",
+   "num": "199",
+   "title": "Independent Study",
+   "units": "2 or 4",
+   "level": "Upper Division",
+   "description": "Independent reading or research under the direction of and by special arrangement with a Department of Economics faculty member. (P/NP grades only.)",
+   "prereqText": "consent of instructor and department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 200A",
+   "subject": "ECON",
+   "num": "200A",
+   "title": "Microeconomics A",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Modern consumer and producer theory. Preferences, utility maximization, demand, choice under uncertainty, intertemporal choice. Production, cost, profit maximization and supply. Comparative statics, duality.",
+   "prereqText": "none. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 200B",
+   "subject": "ECON",
+   "num": "200B",
+   "title": "Microeconomics B",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Arrow-Debreu model of general economic equilibrium and welfare economics. Axiomatic theory of the firm and household. Existence of general economic equilibrium. First and Second Fundamental Theorems of Welfare Economics. Futures and contingent commodity markets. Core and core convergence.",
+   "prereqText": "ECON 200A. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 200C",
+   "subject": "ECON",
+   "num": "200C",
+   "title": "Microeconomics C",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Information economics: static and dynamic games of incomplete information, signaling, screening, and lemons. Institutional analysis: social choice, mechanism design, cooperative bargaining, contracts, strategic theory of the firm.",
+   "prereqText": "ECON 200B. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 200B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 201",
+   "subject": "ECON",
+   "num": "201",
+   "title": "Advanced Economic Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An intensive examination of selected topics in economic theory. Course topic nonrepetitive in a three-year cycle.",
+   "prereqText": "ECON 207 and 213.",
+   "prereqs": [
+    [
+     "ECON 207"
+    ],
+    [
+     "ECON 213"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 202A",
+   "subject": "ECON",
+   "num": "202A",
+   "title": "Workshop in Economic Theory",
+   "units": "0\u20134/0\u20134/0\u20134",
+   "level": "Graduate",
+   "description": "An examination of recent research in economic theory, including topics in general equilibrium, welfare economics, duality, and social choice; development of related research topics by both graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": "ECON 207 or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 207"
+    ]
+   ],
+   "listedAs": "ECON 202A-B-C"
+  },
+  {
+   "code": "ECON 202B",
+   "subject": "ECON",
+   "num": "202B",
+   "title": "Workshop in Economic Theory",
+   "units": "0\u20134/0\u20134/0\u20134",
+   "level": "Graduate",
+   "description": "An examination of recent research in economic theory, including topics in general equilibrium, welfare economics, duality, and social choice; development of related research topics by both graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": "ECON 207 or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 207"
+    ]
+   ],
+   "listedAs": "ECON 202A-B-C"
+  },
+  {
+   "code": "ECON 202C",
+   "subject": "ECON",
+   "num": "202C",
+   "title": "Workshop in Economic Theory",
+   "units": "0\u20134/0\u20134/0\u20134",
+   "level": "Graduate",
+   "description": "An examination of recent research in economic theory, including topics in general equilibrium, welfare economics, duality, and social choice; development of related research topics by both graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": "ECON 207 or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 207"
+    ]
+   ],
+   "listedAs": "ECON 202A-B-C"
+  },
+  {
+   "code": "ECON 204",
+   "subject": "ECON",
+   "num": "204",
+   "title": "Contract Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course reviews the theoretical foundations for the analysis of contractual interaction, and it covers a selection of game-theoretic models and applications. The course is intended to provide a foundation for theoretical research on contracts as well as applied research on topics in behavioral/experimental, development, environmental, international, and labor economics, law and economics, and macroeconomics.",
+   "prereqText": "ECON 200A-B-C.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 205",
+   "subject": "ECON",
+   "num": "205",
+   "title": "Mathematics for Economists",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Advanced calculus review for new graduate students.",
+   "prereqText": "none. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 206",
+   "subject": "ECON",
+   "num": "206",
+   "title": "Decisions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Further topics in consumer and producer theory, intertemporal optimization, and decision making under uncertainty. (Previously numbered ECON 200D.)",
+   "prereqText": "ECON 200A-B-C or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 208",
+   "subject": "ECON",
+   "num": "208",
+   "title": "Games and Information",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Further topics in game theory and the economics of information.",
+   "prereqText": "ECON 200A-B-C or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 210A",
+   "subject": "ECON",
+   "num": "210A",
+   "title": "Macroeconomics A",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Dynamic optimization: Lagrangian methods and recursive methods. The neoclassical growth model: social planner, competitive equilibrium, first and second welfare theorems, steady state analysis, dynamic analysis, shocks, heterogeneity and aggregation, applications.",
+   "prereqText": "none. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 210B",
+   "subject": "ECON",
+   "num": "210B",
+   "title": "Macroeconomics B",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Models of the household\u2019s intertemporal consumption/saving decision, and implications for risk aversion, basic portfolio allocation, and asset pricing. Models with heterogeneous agents\u2014overlapping generations, incomplete markets, precautionary saving. Implications of labor market frictions for equilibrium employment.",
+   "prereqText": "ECON 210A. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 210A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 210C",
+   "subject": "ECON",
+   "num": "210C",
+   "title": "Macroeconomics C",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Basic facts and time series for macroeconomics. Modern theories of short-run fluctuations: sources of business cycle and the evolution of income, employment, interest rate, and prices. Monetary and fiscal policy theories in the presence of real and nominal rigidities.",
+   "prereqText": "ECON 210B. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 210B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 210D",
+   "subject": "ECON",
+   "num": "210D",
+   "title": "Monetary Economics and Business Cycles",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Study of the determinants of economic fluctuations, inflation, and interest rates with particular focus on the effects of monetary policy. Overview of key methods and findings of empirical research in macroeconomics. Recommended preparation: ECON 220D.",
+   "prereqText": "graduate standing and ECON 210A-B-C.",
+   "prereqs": [
+    [
+     "ECON 210A"
+    ],
+    [
+     "ECON 210B"
+    ],
+    [
+     "ECON 210C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 211",
+   "subject": "ECON",
+   "num": "211",
+   "title": "Advanced Macroeconomics",
+   "units": "4-4-4",
+   "level": "Graduate",
+   "description": "Covers various topics in macroeconomics at the frontiers of research, including theory, computation, and empirical work. Emphasis depends on the instructor. Students will read the latest working papers and publications in the covered areas.",
+   "prereqText": "graduate standing and ECON 210A-B-C or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 210A"
+    ],
+    [
+     "ECON 210B"
+    ],
+    [
+     "ECON 210C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 212A",
+   "subject": "ECON",
+   "num": "212A",
+   "title": "Workshop in Macroeconomics",
+   "units": "0\u20134/0\u20134/0\u20134",
+   "level": "Graduate",
+   "description": "Examination of recent research in macroeconomics; development of own research by graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": "ECON 210C.",
+   "prereqs": [
+    [
+     "ECON 210C"
+    ]
+   ],
+   "listedAs": "ECON 212A-B-C"
+  },
+  {
+   "code": "ECON 212B",
+   "subject": "ECON",
+   "num": "212B",
+   "title": "Workshop in Macroeconomics",
+   "units": "0\u20134/0\u20134/0\u20134",
+   "level": "Graduate",
+   "description": "Examination of recent research in macroeconomics; development of own research by graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": "ECON 210C.",
+   "prereqs": [
+    [
+     "ECON 210C"
+    ]
+   ],
+   "listedAs": "ECON 212A-B-C"
+  },
+  {
+   "code": "ECON 212C",
+   "subject": "ECON",
+   "num": "212C",
+   "title": "Workshop in Macroeconomics",
+   "units": "0\u20134/0\u20134/0\u20134",
+   "level": "Graduate",
+   "description": "Examination of recent research in macroeconomics; development of own research by graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": "ECON 210C.",
+   "prereqs": [
+    [
+     "ECON 210C"
+    ]
+   ],
+   "listedAs": "ECON 212A-B-C"
+  },
+  {
+   "code": "ECON 213",
+   "subject": "ECON",
+   "num": "213",
+   "title": "Advanced Macroeconomic Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course develops purely theoretical models for problems in macroeconomics. Topics include dynamic general equilibrium, asset market equilibrium, and economic growth and distribution.",
+   "prereqText": "ECON 210A-B-C or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 210A"
+    ],
+    [
+     "ECON 210B"
+    ],
+    [
+     "ECON 210C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 214",
+   "subject": "ECON",
+   "num": "214",
+   "title": "Applied Macroeconomics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on applied macroeconomics, including econometric testing of macroeconomic theories and empirical measurement guided by theoretical insights. Topics will vary from year to year depending on the latest developments in research. Students will complete the course with a broader understanding of a number of leading topics in macroeconomics as well as a toolkit of estimation and simulation programs. Recommended preparation: ECON 220D.",
+   "prereqText": "graduate standing and ECON 210A-B-C or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 210A"
+    ],
+    [
+     "ECON 210B"
+    ],
+    [
+     "ECON 210C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 215",
+   "subject": "ECON",
+   "num": "215",
+   "title": "Macroeconomic Policy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on theoretical models and empirical analysis aimed at understanding and directing macroeconomic policy, including monetary, fiscal, and structural policies.",
+   "prereqText": "ECON 210A-B-C or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 210A"
+    ],
+    [
+     "ECON 210B"
+    ],
+    [
+     "ECON 210C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 216",
+   "subject": "ECON",
+   "num": "216",
+   "title": "Computation for Macroeconomics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers advanced computation techniques that are widely used in macroeconomics, finance, and other fields. Students will learn a range of numerical methods for handling systems of equations, integration, optimization, and other problems.",
+   "prereqText": "ECON 210A-B-C or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 210A"
+    ],
+    [
+     "ECON 210B"
+    ],
+    [
+     "ECON 210C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 217",
+   "subject": "ECON",
+   "num": "217",
+   "title": "Real Frictions and Financial Frictions",
+   "units": "4",
+   "level": "Graduate",
+   "description": "While understanding how the macro economy behaves in the ideal, frictionless setting is indispensable; most of the interesting issues in macro arise as a consequence of some sort of friction or missing market. In this course, we will study some models based on real frictions and financial frictions. Topics covered include convex and nonconvex adjustment costs, housing markets and investment decisions, and financial crises.",
+   "prereqText": "ECON 210A-B-C or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 210A"
+    ],
+    [
+     "ECON 210B"
+    ],
+    [
+     "ECON 210C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 219",
+   "subject": "ECON",
+   "num": "219",
+   "title": "Readings in Macroeconomics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course will cover numerical analysis of dynamic macroeconomic models. Topics include numerical techniques, dynamic programming, linear systems, solution algorithms, and applications to dynamic general equilibrium.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 220A",
+   "subject": "ECON",
+   "num": "220A",
+   "title": "Econometrics A",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An introduction to probability and statistics for graduate students in economics. Topics include random variables, sampling distributions, the law of large numbers, the central limit theorem, maximum likelihood estimation, hypothesis testing. Knowledge of multivariable calculus and linear algebra is assumed.",
+   "prereqText": "graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 220B",
+   "subject": "ECON",
+   "num": "220B",
+   "title": "Econometrics B",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Introduction to regression analysis and other estimation methods. Topics covered include ordinary and generalized least squares, asymptotic approximations, specification testing, two-stage least squares, generalized method of moments, and maximum likelihood estimation.",
+   "prereqText": "ECON 220A, graduate standing; Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 220C",
+   "subject": "ECON",
+   "num": "220C",
+   "title": "Econometrics C",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on econometric analysis of panel data and cross-section data. Topics covered include static/dynamic panel data models, discrete choice models, censored and truncated regression models, sample selection models, and evaluation of treatment effects. Theory of extreme estimators is used to study the specification, estimation, and testing of these models.",
+   "prereqText": "ECON 220B, graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 220D",
+   "subject": "ECON",
+   "num": "220D",
+   "title": "Econometrics D",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examines modern time series econometrics, extending methods from ECON 220A-C to dependent data. Topics covered include spectral density theory, HAC estimation, vector autoregressions, nonstationary econometrics, filtering.",
+   "prereqText": "ECON 220C, graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 220E",
+   "subject": "ECON",
+   "num": "220E",
+   "title": "Econometrics E",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Identification of economic models. Topics include rank and order conditions for identification in linear simultaneous equations systems; identification in nonlinear models; likelihood-based identification criteria; nonparametric identification; identification in models with multiple equilibria.",
+   "prereqText": "ECON 220D, graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220D"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 220F",
+   "subject": "ECON",
+   "num": "220F",
+   "title": "Econometrics F",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on the application of econometric techniques to issues in microeconomics and macroeconomics. The major emphasis in the class is on the completion of an empirical project.",
+   "prereqText": "ECON 220E, graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220E"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 221",
+   "subject": "ECON",
+   "num": "221",
+   "title": "Advanced Econometrics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Advanced topics in econometrics. Topics may vary from year to year, covering areas such as cross section, time series, panel, limited dependent variables, conditional quantile estimation, bootstrapping, and large- and small-sample distribution theory.",
+   "prereqText": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ],
+    [
+     "ECON 220D"
+    ],
+    [
+     "ECON 220E"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 222A",
+   "subject": "ECON",
+   "num": "222A",
+   "title": "Workshop in Econometrics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent econometric research; development of own research by students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "ECON 222A-B-C"
+  },
+  {
+   "code": "ECON 222B",
+   "subject": "ECON",
+   "num": "222B",
+   "title": "Workshop in Econometrics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent econometric research; development of own research by students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "ECON 222A-B-C"
+  },
+  {
+   "code": "ECON 222C",
+   "subject": "ECON",
+   "num": "222C",
+   "title": "Workshop in Econometrics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Examination of recent econometric research; development of own research by students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "ECON 222A-B-C"
+  },
+  {
+   "code": "ECON 225",
+   "subject": "ECON",
+   "num": "225",
+   "title": "Forecasting",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Topics include testing for rationality of forecasts, Mincer-Zarnowitz regressions, asymmetric loss functions, tests for equal (superior) predictive ability, multivariate forecasting.",
+   "prereqText": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ],
+    [
+     "ECON 220D"
+    ],
+    [
+     "ECON 220E"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 226",
+   "subject": "ECON",
+   "num": "226",
+   "title": "Bayesian and Numerical Methods",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Topics include Bayesian inference and decision theory, loss functions, estimation of dynamic stochastic general equilibrium models, nonlinear time series, state-space models, spatial-temporal models, and high-frequency data.",
+   "prereqText": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ],
+    [
+     "ECON 220D"
+    ],
+    [
+     "ECON 220E"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 227",
+   "subject": "ECON",
+   "num": "227",
+   "title": "Nonparametric and Semiparametric Models",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Topics include neural networks, kernels, series, splines, estimation of densities and spectra, smoothing parameter selection, semiparametric models, efficiency and adaptation, forecasting with nonlinear models, over-fit, computation, and interpretation.",
+   "prereqText": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ],
+    [
+     "ECON 220D"
+    ],
+    [
+     "ECON 220E"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 228",
+   "subject": "ECON",
+   "num": "228",
+   "title": "Nonstandard Inference",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Topics include weak instruments, unit roots, break tests, switching models, set-based inference, maximum likelihood estimation and meaning of misspecified models, consistency, asymptotic normality, consistent covariance matrix estimation, and tests of model misspecification.",
+   "prereqText": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ],
+    [
+     "ECON 220D"
+    ],
+    [
+     "ECON 220E"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 230",
+   "subject": "ECON",
+   "num": "230",
+   "title": "Public Economics: Taxation",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Exploration of existing theoretical literature evaluating the efficiency and distribution effects of income and commodity taxes. Characterization of an \u201coptimal\u201d tax structure, and examination of problems faced in tax administration. Scrutiny of behavioral responses to existing tax structures.",
+   "prereqText": "ECON 200A-B-C and ECON 220A-B-C.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ],
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 231",
+   "subject": "ECON",
+   "num": "231",
+   "title": "Public Economics: Public Goods and Externalities",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Justifications for government intervention in the context of public goods and externalities. Exploration of normative and positive models of government behavior. Lessons from fiscal federalism for federal, state, and local roles. Applications to specific expenditure programs, such as national defense and education.",
+   "prereqText": "graduate standing and ECON 200A-B-C and ECON 220A-B-C.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ],
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 232",
+   "subject": "ECON",
+   "num": "232",
+   "title": "Public Economics: Redistribution and Social Insurance",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The objective of this course is to provide an understanding of the role of government intervention in the economy in two broad areas of expenditure\u2014redistribution and social insurance\u2014from both a theoretical and an empirical perspective. The emphasis will be on learning techniques that can be applied to produce original research and to critically analyze existing research in the field.",
+   "prereqText": "graduate standing and ECON 200A-B-C and ECON 220A-B-C.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ],
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 233",
+   "subject": "ECON",
+   "num": "233",
+   "title": "Public Economics of Health Care",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The objective of this course is to provide an understanding of the role of government in the health sector. Key applications include insurance markets, physician and hospital objective functions, payment models, health system design, and medical innovation. All topics are considered from both a theoretical and an empirical perspective. The emphasis will be on learning techniques that can be applied to produce original research and to critically analyze existing research in the field.",
+   "prereqText": "graduate standing and ECON 200A-B-C and ECON 220A-B-C.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ],
+    [
+     "ECON 220A"
+    ],
+    [
+     "ECON 220B"
+    ],
+    [
+     "ECON 220C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 235A",
+   "subject": "ECON",
+   "num": "235A",
+   "title": "Workshop in Applied Economics",
+   "units": "0\u20134/0\u20134/0\u20134",
+   "level": "Graduate",
+   "description": "Examination of recent research in applied economics; development of own research by graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "ECON 235A-B-C"
+  },
+  {
+   "code": "ECON 235B",
+   "subject": "ECON",
+   "num": "235B",
+   "title": "Workshop in Applied Economics",
+   "units": "0\u20134/0\u20134/0\u20134",
+   "level": "Graduate",
+   "description": "Examination of recent research in applied economics; development of own research by graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "ECON 235A-B-C"
+  },
+  {
+   "code": "ECON 235C",
+   "subject": "ECON",
+   "num": "235C",
+   "title": "Workshop in Applied Economics",
+   "units": "0\u20134/0\u20134/0\u20134",
+   "level": "Graduate",
+   "description": "Examination of recent research in applied economics; development of own research by graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "ECON 235A-B-C"
+  },
+  {
+   "code": "ECON 237",
+   "subject": "ECON",
+   "num": "237",
+   "title": "Political Economy: Microeconomic Perspectives",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Governments serve functions key to economic development, including correcting market failures, raising taxes, delivering services, and protecting property rights. Correspondingly, research in development economics is increasingly focused on how institutions affect development. Generally, the aim of the course is to provide PhD students a complete introduction to the growing literature in this area. Students may not receive credit for ECON 237 and POLI 231E.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 241",
+   "subject": "ECON",
+   "num": "241",
+   "title": "Microeconomics of Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Course introduces the household as a decision-making unit, and the contracts and institutions that emerge to compensate for imperfect markets. Emphasis is placed on data and identification strategies that can be used to measure the impact of policy interventions.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 242",
+   "subject": "ECON",
+   "num": "242",
+   "title": "Macroeconomics of Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers development accounting, growth accounting, human capital accumulation, skill-biased technological change, multisector growth models, structural transformation, urban-rural migration, misallocation, informality, technology adoption and diffusion, and other related topics.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 243",
+   "subject": "ECON",
+   "num": "243",
+   "title": "Organizational Economics of Development",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The study of organizational effectiveness, in both the private and public sectors, bridges the gap between microeconomic analysis of individual and household behavior and macroeconomic analysis of economic aggregates such as capital and output. Topics covered include organizational capacity, leadership and management, staffing, incentives, contracting, finance, learning, market structure, regulations, and politics.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 245",
+   "subject": "ECON",
+   "num": "245",
+   "title": "International Trade",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers the determinants of the pattern and volume of trade in goods and services, the interaction of international trade with income distribution and economic growth, and commercial policy. The emphasis is on theory, with some empirical illustration and motivation.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 246",
+   "subject": "ECON",
+   "num": "246",
+   "title": "International Macroeconomics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course presents open-economy macroeconomics and international finance. Topics include theories of the exchange rate, foreign-exchange regimes, current account adjustments, and international portfolio investments. The course examines real and monetary explanations, and implications of international capital market integration.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 247",
+   "subject": "ECON",
+   "num": "247",
+   "title": "Empirical Topics in International Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course examines the empirical work in international trade or international macroeconomics. International trade topics include empirical tests of theories of international trade and international capital movements. International macroeconomic topics include empirical studies of exchange rate and relative price adjustments.",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 248",
+   "subject": "ECON",
+   "num": "248",
+   "title": "Spatial Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This graduate-level course presents the workhorse spatial model used to think about economic geography in economics. We present numerous additions and extensions to the framework to study a wide variety of topics including but not limited to inequality, firm location choices, endogenous amenities and segregation, knowledge spillovers, migration frictions, interregional trade, coastal flooding, and more.",
+   "prereqText": "ECON 200A and ECON 210A and ECON 280.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 210A"
+    ],
+    [
+     "ECON 280"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 249A",
+   "subject": "ECON",
+   "num": "249A",
+   "title": "International Development Workshop I",
+   "units": "1\u20134",
+   "level": "Graduate",
+   "description": "Presentation of recent research in international and development economics by faculty and graduate students, covering micro and macroeconomic aspect of both areas. Regular attendance is required.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 249C",
+   "subject": "ECON",
+   "num": "249C",
+   "title": "International Development Workshop III",
+   "units": "1\u20134",
+   "level": "Graduate",
+   "description": "Presentation of recent research in international and development economics by faculty and graduate students, covering micro and macroeconomic aspect of both areas. Regular attendance is required.",
+   "prereqText": "graduate standing or consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 250A",
+   "subject": "ECON",
+   "num": "250A",
+   "title": "Empirical Methods in Labor Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Econometric methods currently used in applied microeconomics explained through examples from labor economics.",
+   "prereqText": "none.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 250B",
+   "subject": "ECON",
+   "num": "250B",
+   "title": "Topics in Labor Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Topics typically include labor demand, labor supply, wage setting, inequality, intergenerational mobility, demographics, economics of family, migration, unemployment, religion, conflict, discrimination, human capital, education and training.",
+   "prereqText": "ECON 250A.",
+   "prereqs": [
+    [
+     "ECON 250A"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 250C",
+   "subject": "ECON",
+   "num": "250C",
+   "title": "Advanced Topics in Labor Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Topics typically include labor supply, education and training, human capital, discrimination, intergenerational mobility, inequality, wage setting.",
+   "prereqText": "ECON 250A and ECON 250B.",
+   "prereqs": [
+    [
+     "ECON 250A"
+    ],
+    [
+     "ECON 250B"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 260",
+   "subject": "ECON",
+   "num": "260",
+   "title": "Industrial Organization: Firms",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers theory and empirical applications in the following areas of industrial organization: dynamic pricing, price discrimination, collusion, market power, discrete choice demand modeling, entry, asymmetric information, and search.",
+   "prereqText": "ECON 220C. Enrollment by completion of prerequisites or by consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 220C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 261",
+   "subject": "ECON",
+   "num": "261",
+   "title": "Industrial Organization: Markets",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers theory and empirical applications in the following areas of industrial organization: mergers, vertical integration, and innovation. Optional topics include network effects, technology adoption, and regulation.",
+   "prereqText": "ECON 200C and 220C. Enrollment by completion of prerequisites or by consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 200C"
+    ],
+    [
+     "ECON 220C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 262",
+   "subject": "ECON",
+   "num": "262",
+   "title": "Behavioral Game Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is intended to give students an introduction to the study of strategic interaction through a behavioral lens. We will review game theory experiments and analyze which theoretical predictions are validated and which are violated in practice. We will characterize the systematic violations of the theory that come from experiments and study how these behavioral regularities can be incorporated into new equilibrium concepts.",
+   "prereqText": "graduate standing and ECON 200A-B-C.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 263",
+   "subject": "ECON",
+   "num": "263",
+   "title": "Modeling Behavioral Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Covers various models in behavioral economics including self-control, bounded memory, belief manipulation, framing effects, and behavioral game theory. The course will also discuss their role in industrial organization, finance, and political economy, and their implications for welfare.",
+   "prereqText": "graduate standing and ECON 200A-B-C.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 264",
+   "subject": "ECON",
+   "num": "264",
+   "title": "Experimental Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Design and interpretation of controlled experiments using human subjects. (Previously numbered ECON 207.)",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 265",
+   "subject": "ECON",
+   "num": "265",
+   "title": "Alternative Choice Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 266",
+   "subject": "ECON",
+   "num": "266",
+   "title": "Economics of Natural Resources",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Theoretical and empirical issues in natural resource economics. (Previously numbered ECON 242.)",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 267",
+   "subject": "ECON",
+   "num": "267",
+   "title": "Topics in Environmental and Resource Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course will cover any of a variety of topics in environmental and resource economics, including climate change, exhaustible and renewable resources, international environmental agreements, nonmarket valuation, energy economics, and water allocation.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 268",
+   "subject": "ECON",
+   "num": "268",
+   "title": "Energy and Environmental Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Designed to prepare graduate students for original research in environmental or energy economics. Topics include theory and empirical study of economic regulation, energy markets, technological change, pollution and other externalities, energy efficiency, and climate change. Emphasis on empirical applications.",
+   "prereqText": "graduate standing and ECON 200A-B-C or consent of instructor.",
+   "prereqs": [
+    [
+     "ECON 200A"
+    ],
+    [
+     "ECON 200B"
+    ],
+    [
+     "ECON 200C"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 270",
+   "subject": "ECON",
+   "num": "270",
+   "title": "Finance\u2014Core Asset Pricing",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Theoretical and empirical issues in finance. (Previously numbered ECON 214A.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 272",
+   "subject": "ECON",
+   "num": "272",
+   "title": "Finance\u2014Theory and Testing of Intertemporal Asset Pricing Models",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Theoretical and empirical issues in finance. (Previously numbered ECON 214C.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 280",
+   "subject": "ECON",
+   "num": "280",
+   "title": "Computation",
+   "units": "2",
+   "level": "Graduate",
+   "description": "Introduction to computing for economists. This course introduces students to the most widely used computational and programming tools in economics. The methods and tools covered in the class will be illustrated through various empirical applications.",
+   "prereqText": "enrollment limited to economics PhD students (EN75).",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 281",
+   "subject": "ECON",
+   "num": "281",
+   "title": "Special Topics in Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Lecture course at an advanced level on a special topic. May be repeated for credit if topic differs. (Previously numbered ECON 267.)",
+   "prereqText": "consent of instructor.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 284",
+   "subject": "ECON",
+   "num": "284",
+   "title": "Becoming an Economist",
+   "units": "2",
+   "level": "Graduate",
+   "description": "This course provides students with a framework and a range of practical skills to navigate the transition from being full-time students to being independent researchers. Topics and issues covered will include research design, peer review, portfolio management, co-authorship and collaboration, well-being and life balance, and the meta-system. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 285",
+   "subject": "ECON",
+   "num": "285",
+   "title": "Precandidacy Presentation",
+   "units": "2",
+   "level": "Graduate",
+   "description": "This course is a workshop in which students make formal presentations on the literature and on their own projects and receive input from other students and the instructor.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 286",
+   "subject": "ECON",
+   "num": "286",
+   "title": "Graduate Research Presentation Workshop",
+   "units": "3",
+   "level": "Graduate",
+   "description": "The aim of the course is to train students to present their research effectively to a broad audience. Students are required to prepare a formal presentation, and then to provide feedback on the presentations made by other students. Depending on student demand, meetings may be divided into multiple sections, based on field interests.",
+   "prereqText": "graduate standing, ECON 285.",
+   "prereqs": [
+    [
+     "ECON 285"
+    ]
+   ]
+  },
+  {
+   "code": "ECON 291",
+   "subject": "ECON",
+   "num": "291",
+   "title": "Advanced Field Advising",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Controlled reading and discussion with adviser; literature survey. May be repeated for credit. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 296",
+   "subject": "ECON",
+   "num": "296",
+   "title": "Original Research Paper",
+   "units": "1\u201312",
+   "level": "Graduate",
+   "description": "In this course, students are guided toward the formulation of an original research idea and the writing of an original paper. Students receive support and input through group discussion and also through interaction with the instructor.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "ECON 297",
+   "subject": "ECON",
+   "num": "297",
+   "title": "Independent Study",
+   "units": "1\u20135",
+   "level": "Graduate",
+   "description": "(S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 299",
+   "subject": "ECON",
+   "num": "299",
+   "title": "Research in Economics for Dissertation",
+   "units": "1\u201312",
+   "level": "Graduate",
+   "description": "(S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "ECON 500A",
+   "subject": "ECON",
+   "num": "500A",
+   "title": "Teaching Methods in Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The study and development of effective pedagogical materials and techniques in economics. Students who hold appointments as teaching assistants must enroll in this course, but it is open to other students as well. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "ECON 500A-B-C"
+  },
+  {
+   "code": "ECON 500B",
+   "subject": "ECON",
+   "num": "500B",
+   "title": "Teaching Methods in Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The study and development of effective pedagogical materials and techniques in economics. Students who hold appointments as teaching assistants must enroll in this course, but it is open to other students as well. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "ECON 500A-B-C"
+  },
+  {
+   "code": "ECON 500C",
+   "subject": "ECON",
+   "num": "500C",
+   "title": "Teaching Methods in Economics",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The study and development of effective pedagogical materials and techniques in economics. Students who hold appointments as teaching assistants must enroll in this course, but it is open to other students as well. (S/U grades only.)",
+   "prereqText": null,
+   "prereqs": null,
+   "listedAs": "ECON 500A-B-C"
+  }
+ ]
+}

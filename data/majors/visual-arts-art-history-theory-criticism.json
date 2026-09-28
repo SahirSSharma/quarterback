@@ -1,0 +1,180 @@
+{
+ "program": {
+  "major": "Art History/Theory/Criticism",
+  "degree": "B.A.",
+  "department": "Visual Arts"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "UCSD General Catalog major code VA26. All major courses must be taken for a letter grade; only grades of C- or better count. Minimum two-thirds of coursework must be at UCSD. Total: 7 lower-division + 12 upper-division courses. Area A/B/C are chronological art-history distribution groups (Ancient-1800 / 1800-1945 / 1945-Present); 2 courses required from each. Some catalog listings use ranges (e.g. 155-158D) captured as range strings. VERIFIED against catalog requirements page; structure and course lists confirmed. Correction: Area B had VIS 126G (does not exist in catalog - removed) and VIS 126H (Pacific Coast American Indian Art, not the 1800-1945 course listed on the page - corrected to VIS 126HN, which the requirements page lists in Area B).",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/VIS-ug.html",
+  "https://visarts.ucsd.edu/undergrad/major-req/index.html",
+  "https://catalog.ucsd.edu/courses/VIS.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required lower-division survey/methods",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 22",
+    "VIS 22R",
+    "VIS 23"
+   ],
+   "note": "VIS 22 or 22R (Formations of Modern Art, counts as one) AND VIS 23 (Seminar in Art History Methods)."
+  },
+  {
+   "label": "Lower-division art history/culture electives",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "VIS 11",
+    "VIS 12R",
+    "VIS 20",
+    "VIS 21A",
+    "VIS 21B",
+    "VIS 21C",
+    "VIS 83",
+    "VIS 83R",
+    "VIS 84"
+   ],
+   "note": "Choose 5. VIS 83/83R counts once."
+  },
+  {
+   "label": "Intermediate: Theories and Methods (required)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 112"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Intermediate Area A (Ancient-1800)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 120A",
+    "VIS 120B",
+    "VIS 120C",
+    "VIS 121AN",
+    "VIS 121B",
+    "VIS 121C",
+    "VIS 122AN",
+    "VIS 124BN",
+    "VIS 126AN",
+    "VIS 126BN",
+    "VIS 127B",
+    "VIS 127C",
+    "VIS 127P",
+    "VIS 128A",
+    "VIS 128B"
+   ],
+   "note": "Choose 2 from Area A (Ancient through 1800)."
+  },
+  {
+   "label": "Intermediate Area B (1800-1945)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 122GS",
+    "VIS 123C",
+    "VIS 124CN",
+    "VIS 124D",
+    "VIS 124E",
+    "VIS 124F",
+    "VIS 124G",
+    "VIS 125A",
+    "VIS 125E",
+    "VIS 125G",
+    "VIS 125GR",
+    "VIS 126E",
+    "VIS 126F",
+    "VIS 126HN",
+    "VIS 126I",
+    "VIS 126J",
+    "VIS 126P",
+    "VIS 127N",
+    "VIS 128D",
+    "VIS 159"
+   ],
+   "note": "Choose 2 from Area B (1800-1945). Corrected: removed VIS 126G (not in catalog); VIS 126H changed to VIS 126HN per requirements-page Area B listing."
+  },
+  {
+   "label": "Intermediate Area C (1945-Present)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 123B",
+    "VIS 125BN",
+    "VIS 126Q",
+    "VIS 128C",
+    "VIS 128E",
+    "VIS 150",
+    "VIS 150A",
+    "VIS 151",
+    "VIS 151A",
+    "VIS 152",
+    "VIS 152D",
+    "VIS 155-158D",
+    "VIS 194S"
+   ],
+   "note": "Choose 2 from Area C (1945-Present). VIS 155-158D is a catalog range covering the 155-158 media-studies sequence (155, 156, 157, 157D, 158A-D)."
+  },
+  {
+   "label": "Advanced: Theory course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 113AN",
+    "VIS 113BN",
+    "VIS 113CN",
+    "VIS 114A",
+    "VIS 114B",
+    "VIS 117E",
+    "VIS 117F",
+    "VIS 117G",
+    "VIS 129F"
+   ],
+   "note": "Choose 1 theory course."
+  },
+  {
+   "label": "Advanced: Seminar courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "VIS 127G",
+    "VIS 127Q",
+    "VIS 129A",
+    "VIS 129B",
+    "VIS 129C",
+    "VIS 129D",
+    "VIS 129E"
+   ],
+   "note": "Choose 3 seminars (unused theory-course options may also count)."
+  },
+  {
+   "label": "Advanced: Elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 120-159",
+    "VIS 196",
+    "VIS 199",
+    "AIP 197"
+   ],
+   "note": "Any intermediate or advanced art-history course (VIS 120-159 range), or VIS 196 (both quarters = one), VIS 199, or AIP 197. Six intermediate courses must be taken at UCSD."
+  }
+ ]
+}

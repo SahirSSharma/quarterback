@@ -1,0 +1,80 @@
+{
+ "program": {
+  "major": "Literatures in Spanish",
+  "degree": "BA",
+  "department": "Literature"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Twelve upper-division courses total, taught in Spanish. Catalog frames requirements at the upper-division level; lower-division language preparation (advanced Spanish proficiency) is assumed but not itemized as major courses on the page. Secondary-language requirement must be in a language other than Spanish. Structure corroborated by catalog; exact lower-division prerequisites not itemized verbatim.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/LIT-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Upper-division advanced Spanish",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTSP 100A",
+    "LTSP 100B",
+    "LTSP 100F"
+   ],
+   "note": "One course in advanced Spanish reading/writing: LTSP 100A, 100B, or 100F."
+  },
+  {
+   "label": "Upper-division pre-1900 requirement",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTSP 100-199"
+   ],
+   "note": "One course in Spanish Peninsular or Latin American literature before 1900, from department-specified lists."
+  },
+  {
+   "label": "Upper-division Spanish/Latin American/Chicano literature",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "LTSP 100-199"
+   ],
+   "note": "Seven additional upper-division courses in Spanish, Latin American, and/or Chicano literature (taught in Spanish)."
+  },
+  {
+   "label": "Upper-division electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "LTSP 100-199",
+    "LTEN 100-199",
+    "LTWL 100-199"
+   ],
+   "note": "Additional upper-division electives from the Department of Literature to reach twelve upper-division courses total."
+  },
+  {
+   "label": "Secondary-language requirement",
+   "division": "other",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "LTFR 1-199",
+    "LTGM 1-199",
+    "LTIT 1-199",
+    "LTRU 1-199",
+    "LTKO 1-199",
+    "LTEA 1-199",
+    "LTCH 1-199",
+    "LTGK 1-199",
+    "LTLA 1-199",
+    "LTEN 1-199",
+    "LTWL 1-199"
+   ],
+   "note": "At least one course in a secondary language or literature (taught in a language other than Spanish). UCSD LIT-ug: 'At least one course in a secondary language or literature; that is, a course taught in a language other than Spanish.' Satisfied by completing a course (not by proficiency/exam). Any Literature-department language/literature course outside Spanish (LTSP) qualifies; the catalog notes English is an acceptable secondary language for Spanish majors, so English-language literature courses (LTEN/LTWL) count as well. Ranges cover both lower- and upper-division since the requirement does not specify division. LTSP is excluded (it is taught in Spanish)."
+  }
+ ]
+}

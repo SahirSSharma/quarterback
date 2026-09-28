@@ -1,0 +1,2249 @@
+{
+ "page": "SOC",
+ "name": "Sociology",
+ "courses": [
+  {
+   "code": "SOCI 1",
+   "subject": "SOCI",
+   "num": "1",
+   "title": "Introduction to Sociology",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "An introduction to the organizing themes and ideas, empirical concerns, and analytical approaches of the discipline of sociology. The course focuses on both classical and contemporary views of modern society, on the nature of community, and on inequality, with special attention to class, race, and gender. Materials include both theoretical statements and case studies. Will not receive credit for SOCI 1 and SOCL 1A.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 2",
+   "subject": "SOCI",
+   "num": "2",
+   "title": "The Study of Society",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "A continuation of Sociology/L 1A. The focus here is on socialization processes, culture, social reproduction and social control, and collective action. As in 1A, materials include both theoretical statements and case studies. While 1B may be taken as an independent course, it is recommended that students take 1A and 1B in sequence, as the latter builds on the former. Will not receive credit for SOCI 2 and SOCL 1B.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 10",
+   "subject": "SOCI",
+   "num": "10",
+   "title": "American Society: Social Structure and Culture in the U.S.",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "An introduction to American society in historical, comparative, and contemporary perspectives. Topics will include American cultural traditions; industrialization; class structure; the welfare state; ethnic, racial, and gender relations; the changing position of religion; social movements; and political trends. Will not receive credit for SOCI 10 and SOCI 10R or SOCI 10 and SOCL 10.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 10R",
+   "subject": "SOCI",
+   "num": "10R",
+   "title": "American Society: Social Structure and Culture in the U.S.",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "This fully online course is an introduction to American society in contemporary, historical, and comparative perspectives. Topics include American culture, inequality, poverty, the family, religion, the role of government, crime, social movements, and politics. Will not receive credit for SOCI 10R and SOCI 10 or SOCI 10R and SOCL 10.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 20",
+   "subject": "SOCI",
+   "num": "20",
+   "title": "Social Change in the Modern World",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "A survey of the major economic, political, and social forces that have shaped the contemporary world. The course will provide an introduction to theories of social change, as well as prepare the student for upper-division work in comparative-historical sociology. Will not receive credit for SOCI 20 and SOCL 20.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 30",
+   "subject": "SOCI",
+   "num": "30",
+   "title": "Science, Technology, and Society",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "A series of case studies of the relations between society and modern science, technology, and medicine. Global warming, reproductive medicine, AIDS, and other topical cases prompt students to view science-society interactions as problematic and complex. Will not receive credit for SOCI 30 and SOCL 30.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 40",
+   "subject": "SOCI",
+   "num": "40",
+   "title": "Sociology of Health-Care Issues",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "Designed as a broad introduction to medicine as a social institution and its relationship to other institutions as well as its relation to society. It will make use of both micro and macro sociological work in this area and introduce students to sociological perspectives of contemporary health-care issues. Will not receive credit for SOCI 40 and SOCL 40.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 50",
+   "subject": "SOCI",
+   "num": "50",
+   "title": "Introduction to Law and Society",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "Interrelationships between law and society, in the U.S. and other parts of the world. We examine law\u2019s norms, customs, culture, and institutions, and explain the proliferation of lawyers in the U.S. and the expansion of legal \u201crights\u201d worldwide. Will not receive credit for SOCI 50 and SOCL 50.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 60",
+   "subject": "SOCI",
+   "num": "60",
+   "title": "The Practice of Social Research",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "This course introduces students to the fundamental principles of the design of social research. It examines the key varieties of evidence, sampling methods, logic of comparison, and causal reasoning researchers use in their study of social issues. Will not receive credit for SOCI 60 and SOCL 60.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 70",
+   "subject": "SOCI",
+   "num": "70",
+   "title": "General Sociology for Premedical Students",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "This introductory course is specifically designed for premedical students and will provide them with a broad introduction to sociological concepts and research, particularly as applied to medicine.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 87",
+   "subject": "SOCI",
+   "num": "87",
+   "title": "First-year Student Seminar",
+   "units": "1",
+   "level": "Lower Division",
+   "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminar topics will vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 88",
+   "subject": "SOCI",
+   "num": "88",
+   "title": "Learning Sustainable Well-being: Compassion for Self and Others",
+   "units": "1",
+   "level": "Lower Division",
+   "description": "This course provides an overview of how to practice well-being, with principles based on mindfulness, positive psychology, cognitive therapy, neuroscience. This sociology course will seek to contextualize these principles with additional insights from social psychology and sociology. Each week there is a short lecture on a given topic combined with workshop-style exercises.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 98",
+   "subject": "SOCI",
+   "num": "98",
+   "title": "Directed Group Study",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "Small group study and research under the direction of an interested faculty member in an area not covered in regular sociology courses. (P/NP grades only.)",
+   "prereqText": "lower-division standing; completion of thirty units of UC San Diego undergraduate study; minimum UC San Diego GPA of 3.0; completion and approval of Special Studies form. Consent of instructor and department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 99",
+   "subject": "SOCI",
+   "num": "99",
+   "title": "Independent Study",
+   "units": "4",
+   "level": "Lower Division",
+   "description": "Individual study and research under the direction of an interested faculty member. P/NP grades only.",
+   "prereqText": "lower-division standing; completion of thirty units of UC San Diego undergraduate study; minimum UC San Diego GPA of 3.0; completion and approval of Special Studies form. Consent of instructor and department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 100",
+   "subject": "SOCI",
+   "num": "100",
+   "title": "Classical Sociological Theory",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Major figures and schools in sociology from the early nineteenth century onwards, including Marx, Tocqueville, Durkheim, and Weber. The objective of the course is to provide students with a background in classical social theory, and to show its relevance to contemporary sociology.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 100 and SOCA 100.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 102",
+   "subject": "SOCI",
+   "num": "102",
+   "title": "Network Data and Methods",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Social network analysts view society as a web of relationships rather than a mere aggregation of individuals. In this course, students will learn how to collect, analyze, and visualize social network data, as well as utilize these techniques to answer an original sociological research question.",
+   "prereqText": "SOCI 60 or CSS 2, and upper-division standing.",
+   "prereqs": [
+    [
+     "SOCI 60",
+     "CSS 2"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 103M",
+   "subject": "SOCI",
+   "num": "103M",
+   "title": "Computer Applications to Data Management in Sociology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Develop skills in computer management and analysis of sociological data. Practical experience with data produced by sociological research. Students will develop competency in the analysis of sociological data, by extensive acquaintance with computer software used for data analysis and management (e.g., SPSS).",
+   "prereqText": "SOCI 60 or CSS 2, and upper-division standing. Will not receive credit for SOCI 103M and SOCA 103M.",
+   "prereqs": [
+    [
+     "SOCI 60",
+     "CSS 2"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 104",
+   "subject": "SOCI",
+   "num": "104",
+   "title": "Field Research: Methods of Participant Observation",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Relationship between sociological theory and field research. Strong emphasis on theory and methods of participant observation: consideration of problems of entry into field settings, recording observations, description/analysis of field data, ethical problems in fieldwork. Required paper using field methods.",
+   "prereqText": "SOCI 60 and upper-division standing. Will not receive credit for SOCI 104 and SOCA 104.",
+   "prereqs": [
+    [
+     "SOCI 60"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 104Q",
+   "subject": "SOCI",
+   "num": "104Q",
+   "title": "Qualitative Interviewing",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course provides students with tools to conduct original research using qualitative interviews. Students will learn how to prepare, conduct, and analyze qualitative interviews. Special emphasis will be placed on the presentation of research in written form.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 104Q and SOCA 104Q.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 105",
+   "subject": "SOCI",
+   "num": "105",
+   "title": "Ethnographic Film: Media Methods",
+   "units": "6",
+   "level": "Upper Division",
+   "description": "(Conjoined with SOCG 227.) Ethnographic recording of field data in written and audiovisual formats including film, video, and CD-ROM applications. Critical assessment of ethnographies and audiovisual ethnographic videotape.",
+   "prereqText": "graduate standing or consent of instructor for SOCG 227 and SOCI for SOCI 105. Will not receive credit for SOCI 105 and SOCA 105.",
+   "prereqs": [
+    [
+     "SOCG 227"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 106",
+   "subject": "SOCI",
+   "num": "106",
+   "title": "Comparative and Historical Methods",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A broad-based consideration of the use of historical materials in sociological analysis, especially as this facilitates empirically oriented studies across different societies and through time, and their application in student research projects.",
+   "prereqText": "SOCI 60 and upper-division standing. Will not receive credit for SOCI 106 and SOCA 106.",
+   "prereqs": [
+    [
+     "SOCI 60"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 106M",
+   "subject": "SOCI",
+   "num": "106M",
+   "title": "Holocaust Diaries",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Methods for interpreting diaries, letters, and testaments written by victims and perpetrators of the Holocaust. Students use these sources for original research about life in hiding, ghettos, and death camps. Includes techniques for making comparisons and for generalizing from evidence.",
+   "prereqText": "SOCI 60 and SOCI 178 or the consent of instructor. Will not receive credit for SOCI 106M and SOCA 106M.",
+   "prereqs": [
+    [
+     "SOCI 60"
+    ],
+    [
+     "SOCI 178"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 107",
+   "subject": "SOCI",
+   "num": "107",
+   "title": "Epidemiological Methods: Statistical Study of Disease",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Epidemiology is the statistical study of disease, and epidemiological methods are a powerful tool for understanding the causes of certain diseases, e.g., AIDS, scurvy, cholera, and lung cancer. These fundamental epidemiological methods will be taught.",
+   "prereqText": "SOCI 60 and upper-division standing. Will not receive credit for SOCI 107 and SOCA 107.",
+   "prereqs": [
+    [
+     "SOCI 60"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 108",
+   "subject": "SOCI",
+   "num": "108",
+   "title": "Survey Research Design",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Translation of research goals into a research design, including probability sampling, questionnaire construction, data collection (including interviewing techniques), data processing, coding, and preliminary tabulation of data. Statistical methods of analysis will be limited primarily to percentaging.",
+   "prereqText": "SOCI 60 and upper-division standing. Will not receive credit for SOCI 108 and SOCA 108.",
+   "prereqs": [
+    [
+     "SOCI 60"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 109",
+   "subject": "SOCI",
+   "num": "109",
+   "title": "Analysis of Sociological Data",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Students test their own sociological research hypotheses using data from recent American and international social surveys and state-of-the-art computer software. Application of classical scientific method, interpretation of statistical results, and clear presentation of research findings.",
+   "prereqText": "CSS 2 or SOCI 60 or SOCL 60 and upper-division standing. Will not receive credit for SOCI 109 and SOCA 109.",
+   "prereqs": [
+    [
+     "CSS 2",
+     "SOCI 60"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 109M",
+   "subject": "SOCI",
+   "num": "109M",
+   "title": "Research Reporting",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Students learn to write a research report/article. Course covers the architecture of reports, different audiences, scientific writing style, the literature review, and how to present methodology and findings. Students write a research report using research they conducted in other classes.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 110",
+   "subject": "SOCI",
+   "num": "110",
+   "title": "Qualitative Research in Educational Settings",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Basic understanding of participant observation, interviewing, and other ethnographic research techniques through field experiences in school and community settings sponsored by CREATE. Students will learn to take field notes, write up interviews, and compose interpretive essays based on their field experiences.",
+   "prereqText": "SOCI 60 and upper-division standing. Will not receive credit for SOCI 110 and SOCA 110A.",
+   "prereqs": [
+    [
+     "SOCI 60"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 111",
+   "subject": "SOCI",
+   "num": "111",
+   "title": "Local Lives, Global Problems",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course surveys the variety of ways that scholars across disciplines have studied local-global phenomena and developed theoretical, methodological, and empirical orientations that incorporate concern for place, space, and scale into their analytical lens.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 111T",
+   "subject": "SOCI",
+   "num": "111T",
+   "title": "Modern Sociological Theory",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines key developments in sociological theory in the mid-twentieth century, especially functionalism, psychoanalytic sociology and the Frankfurt School, mass society, conflict theory, symbolic interactionism, and ethnomethodology. The middle of the twentieth century was a period of great vibrancy in sociology and had significant influence on sociological ideas in the broader culture, especially in the United States of America.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 112",
+   "subject": "SOCI",
+   "num": "112",
+   "title": "Social Psychology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will deal with human behavior and personality development as affected by social group life. Major theories will be compared. The interaction dynamics of such substantive areas as socialization, normative and deviant behavior, learning and achievement, the social construction of the self, and the social identities will be considered.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 112 and SOCB 112.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 113",
+   "subject": "SOCI",
+   "num": "113",
+   "title": "Sociology of the AIDS Epidemic",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course considers the social, cultural, political, and economic aspects of HIV/AIDS. Topics include the social context of transmission; the experiences of women living with HIV; AIDS activism; representations of AIDS; and the impact of race and class differences.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 113 and SOCB 113.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 114",
+   "subject": "SOCI",
+   "num": "114",
+   "title": "Just a Joke?: Sociology of Humor",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Telling jokes is fun, but it is also quintessentially a social act. How we make jokes and who we make jokes with is socially prescribed. We use humor every day in our social interactions to solidify social ties, but also to keep us apart. The course will examine the social dynamics of humor, paying specific attention to dimensions of race, gender, sexuality, disability, and national origin. Different types of humor will be analyzed, as well as the role of social media in altering joke culture.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 115",
+   "subject": "SOCI",
+   "num": "115",
+   "title": "Social Problems",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Analyzes selected social problems in the United States, such as those regarding education, race relations, and wealth inequality from various sociological perspectives. The course also examines the various sites of debate discussion, like political institutions, TV and other media, and religious institutions.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 115 and SOCB 115.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 116",
+   "subject": "SOCI",
+   "num": "116",
+   "title": "Gender and Language in Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as LIGN 174.) This course examines how language contributes to the social construction of gender identities, and how gender impacts language use and ideologies. Topics include the ways language and gender interact across the life span (especially childhood and adolescence); within ethnolinguistic minority communities; and across cultures.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 116 and SOCB 118A.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 117",
+   "subject": "SOCI",
+   "num": "117",
+   "title": "Language, Culture, and Education",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as EDS 117.) The mutual influence of language, culture, and education will be explored; explanations of students\u2019 school successes and failures that employ linguistic and cultural variables will be considered; bilingualism; cultural transmission through education.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 117 and SOCB 117.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 118",
+   "subject": "SOCI",
+   "num": "118",
+   "title": "Sociology of Gender",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An analysis of the social, biological, and psychological components of becoming a man or a woman. The course will survey a wide range of information in an attempt to specify what is distinctively social about gender roles and identities; i.e., to understand how a most basic part of the \u201cself\u201d\u2014womanhood or manhood\u2014is socially defined and socially learned behavior.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 118 and SOCB 118.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 118E",
+   "subject": "SOCI",
+   "num": "118E",
+   "title": "Sociology of Language",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An examination of how the understanding of language can guide and inform sociological inquiries and a critical evaluation of key sociological approaches to language, including ethnomethodology, frame analysis, sociolinguistics, structuralism and poststructuralism, and others.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 118E and SOCB 118L.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 119",
+   "subject": "SOCI",
+   "num": "119",
+   "title": "Sociology of Sexuality and Sexual Identities",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Introduction both to the sociological study of sexuality and to sociological perspectives in gay/lesbian studies. Examines the social construction of sexual meanings, identities, movements, and controversies; the relation of sexuality to other institutions; and the intersection of sexuality with gender, class, and race.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 119 and SOCB 119.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 120",
+   "subject": "SOCI",
+   "num": "120",
+   "title": "Sociology Through Literature",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "In this course we will examine how literature and poetry may illuminate and sometimes go beyond sociological writings in highlighting and spelling out sociological concepts and social processes. The course will cover basic concepts (social role, power), economic concepts (class, greed), and political concepts (colonialism, revolution).",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 120T",
+   "subject": "SOCI",
+   "num": "120T",
+   "title": "Special Topics in Culture, Language, and Social Interaction",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will examine key issues in culture, language, and social interaction. Content will vary from year to year.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 121",
+   "subject": "SOCI",
+   "num": "121",
+   "title": "Economy and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An examination of a central concern of classical social theory: the relationship between economy and society, with special attention (theoretically and empirically) on the problem of the origins of modern capitalism. The course will investigate the role of technology and economic institutions in society; the influence of culture and politics on economic exchange, production, and consumption; the process of rationalization and the social division of labor; contemporary economic problems and the welfare state.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 121 and SOCI 121R or SOCI 121 and SOCC 121.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 121R",
+   "subject": "SOCI",
+   "num": "121R",
+   "title": "Economy and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This fully online course explores the relationship between economy and society, with special attention (theoretically and empirically) to the problem of contemporary inequality. The course will investigate the way networks, institutions, and cultures constitute the economic world; the role of class, gender, and race in reproducing and justifying economic inequality; the rise of markets and financialization; and theoretically-informed alternatives to contemporary economic systems.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 121R and SOCI 121 or SOCI 121R and SOCC 121.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 122",
+   "subject": "SOCI",
+   "num": "122",
+   "title": "Social Networks",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course takes a social network approach to the study of society, examining the complex web of relationships\u2014 platonic, familial, professional, romantic\u2014in which individual behavior is embedded. Special emphasis is placed on the unprecedented opportunities created by contemporary social media (e.g., Facebook, mobile phones, online dating websites) for answering fundamental sociological questions.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 124",
+   "subject": "SOCI",
+   "num": "124",
+   "title": "The Good Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "What institutions and policies are conducive to liberty, economic security, opportunity, a vibrant economy, shared prosperity, social cohesion, health, happiness, and other desirable features of a modern society?",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 125",
+   "subject": "SOCI",
+   "num": "125",
+   "title": "Sociology of Immigration",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Immigration from a comparative, historical, and cultural perspective. Topics include factors influencing amount of immigration and destination of immigrants; varying modes of incorporation of immigrants; immigration policies and rights; the impact of immigration on host economies; refugees; assimilation; and return migration.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 125 and SOCB 125.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 125C",
+   "subject": "SOCI",
+   "num": "125C",
+   "title": "Climate Change, Migration, and Refugees",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Climate change is expected to displace millions of people this century. In this course, we will take a critical and justice-oriented perspective on this phenomenon, examining how climate change, migration, and displacement are connected, experienced, and regulated across the globe.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 125M",
+   "subject": "SOCI",
+   "num": "125M",
+   "title": "Sociology of Refugees, Asylum, and Forced Migration",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course analyzes the origins of refugee flows, government policies, the role of nongovernmental organizations, and refugee experiences. It explores the debates about who is a refugee, how refugees decide when and where to move, the centrality of violence and persecution, and the place of refugees within the broader category of forced migration. The theoretical discussion engages concrete examples drawn from around the world in countries of origin, asylum, resettlement, and return.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 126",
+   "subject": "SOCI",
+   "num": "126",
+   "title": "Social Organization of Education",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as EDS 126.) The social organization of education in the U.S. and other societies; the functions of education for individuals and society; the structure of schools; educational decision making; educational testing; socialization and education; formal and informal education; cultural transmission.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 126 and SOCC 126.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 127",
+   "subject": "SOCI",
+   "num": "127",
+   "title": "Immigration, Race, and Ethnicity",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examination of the role that race and ethnicity play in immigrant group integration. Topics include theories of integration, racial and ethnic identity formation, racial and ethnic change, immigration policy, public opinion, comparisons between contemporary and historical waves of immigration.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 127 and SOCB 127.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 128",
+   "subject": "SOCI",
+   "num": "128",
+   "title": "Religion and Popular Culture in East Asia",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as HIEA 119.) Historical, social, and cultural relationships between religion and popular culture. Secularization of culture through images, worldviews, and concepts of right and wrong which may either derive from, or pose challenges to, the major East Asian religions.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 129",
+   "subject": "SOCI",
+   "num": "129",
+   "title": "The Family",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An examination of historical and social influences on family life. Analyzes contemporary families in the United States, the influences of gender, class, and race, and current issues such as divorce, domestic violence, and the feminization of poverty.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 129 and SOCC 129.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 130",
+   "subject": "SOCI",
+   "num": "130",
+   "title": "Population and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course offers insight into why and how populations grow (and decline), and where and under what conditions changes in population size and/or structure change have positive and negative consequences for societies and environment.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 130 and SOCD 130.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 130E",
+   "subject": "SOCI",
+   "num": "130E",
+   "title": "Sociology of Higher Education",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course introduces students to sociological theory and research as they apply to colleges and college life. It focuses on how colleges are organized and how variation within and between colleges affects individuals and society. Topics covered include college missions and outcomes, curriculum and pedagogy, college-to-work transitions, and access, equity, and inclusion.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 131",
+   "subject": "SOCI",
+   "num": "131",
+   "title": "Sociology of Youth",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Chronological age and social status; analysis of social processes bearing upon the socialization of children and adolescents. The emergence of \u201cyouth cultures,\u201d generational succession as a cultural problem.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 131 and SOCB 131.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 132",
+   "subject": "SOCI",
+   "num": "132",
+   "title": "Gender and Work",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examination and analysis of empirical research and theoretical perspectives on gender and work. Special attention to occupational segregation. Other topics include the interplay between work and family; gender, work and poverty; gender and work in the Third World.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 132 and SOCC 132.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 133",
+   "subject": "SOCI",
+   "num": "133",
+   "title": "Immigration in Comparative Perspective",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Societies across the world are confronting new immigration. In this course, we will focus on Europe, Asia, and North America, and examine issues of nationalism, cultural diversity and integration, economic impacts, and government policy.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 133 and SOCB 133.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 133E",
+   "subject": "SOCI",
+   "num": "133E",
+   "title": "Sociology of Race and Ethnicity",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course introduces students to sociological perspectives on race, ethnicity, and racial inequality. Students will develop an understanding of social forces that influence racial and ethnic identity and interactions. There will be particular emphasis on ways race and ethnicity shape experiences with social institutions (e.g., schools, government, media) and the emergence and persistence of racial inequality.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 134",
+   "subject": "SOCI",
+   "num": "134",
+   "title": "The Making of Modern Medicine",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A study of the social, intellectual, and institutional aspects of the nineteenth-century transformation of clinical medicine, examining both the changing content of medical knowledge and therapeutics, and the organization of the medical profession.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 134 and SOCC 134A.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 135",
+   "subject": "SOCI",
+   "num": "135",
+   "title": "Medical Sociology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An inquiry into the roles of culture and social structure in mediating the health and illness experiences of individuals and groups. Topics include the social construction of illness, the relationships between patients and health professionals, and the organization of medical work.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 135 and SOCC 135.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 136",
+   "subject": "SOCI",
+   "num": "136",
+   "title": "Data and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores the roles, challenges, and impacts of data and information technologies in contemporary societies. Information regarding discussion section is to be discussed in the first week of class.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 136E",
+   "subject": "SOCI",
+   "num": "136E",
+   "title": "Sociology of Mental Illness: A Historical Approach",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An examination of the social, cultural, and political factors involved in the identification and treatment of mental illness. This course will emphasize historical material, focusing on the eighteenth, nineteenth, and early twentieth centuries. Developments in England as well as the United States will be examined from a historical perspective.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 136E and SOCC 136A.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 136F",
+   "subject": "SOCI",
+   "num": "136F",
+   "title": "Sociology of Mental Illness in Contemporary Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will focus on recent developments in the mental illness sector and on the contemporary sociological literature on mental illness. Developments in England as well as the United States will be examined.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 136F and SOCC 136B.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 137",
+   "subject": "SOCI",
+   "num": "137",
+   "title": "Sociology of Food",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Topics include food as a marker of social differences (e.g., gender, class, ethnicity); the changing character of food production and distribution; food as an object of political conflict; and the symbolic meanings and rituals of food preparation and consumption.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 137 and SOCB 137.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 138",
+   "subject": "SOCI",
+   "num": "138",
+   "title": "Genetics and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The class will first examine the direct social effects of the \u201cgenetic revolution\u201d: eugenics, genetic discrimination, and stratification. Second, the implications of thinking of society in terms of genetics, specifically\u2014sociobiology, social Darwinism, evolutionary psychology, and biology.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 138 and SOCC 138 or SOCI 138 and SOCI 138GS.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 138GS",
+   "subject": "SOCI",
+   "num": "138GS",
+   "title": "Genetics and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores how genetics shapes public thinking and policy on topics like health and disability, reproduction, intelligence, delinquency, personal identity, and race and ethnicity. We will also see how social forces shape genetics research itself, and discuss controversies around gene patenting, cloning, newborn screening, eugenics, and genetic testing for disease, risk, and ancestry. Our discussions and field trips in Edinburgh will help us grasp genetics and society here in the U.S.",
+   "prereqText": "upper-division standing; students must apply and be accepted to the Global Seminar Program. Students cannot receive credit for both SOCI 138GS and SOCI 138.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 139",
+   "subject": "SOCI",
+   "num": "139",
+   "title": "Social Inequality: Class, Race, and Gender",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Massive inequality in wealth, power, and prestige is ever present in industrial societies. In this course, causes and consequences of class, gender, racial, and ethnic inequality (\u201cstratification\u201d) will be considered through examination of classical and modern social science theory and research.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 139 and SOCC 139.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 139A",
+   "subject": "SOCI",
+   "num": "139A",
+   "title": "Race and Racism in America",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course critically examines the role of race and racism in American society through a historical and sociological lens. It covers each major historical period starting with slavery and ending with our current era. Why do some historians argue that slavery preceded the ideology of racism in the United States? Did Irish immigrants become white or were they always considered white? How is the Vietnam War connected to the emergence of the contemporary white power movement?",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 140",
+   "subject": "SOCI",
+   "num": "140",
+   "title": "Sociology of Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course analyzes the functions of law in society, the social sources of legal change, social conditions affecting the administration of justice, and the role of social science in jurisprudence.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 140 and SOCC 140.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 140A",
+   "subject": "SOCI",
+   "num": "140A",
+   "title": "Defund Police and Prisons?\u2014Alternatives to Punitive Social Control",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Mass protests against police brutality and racial injustice have introduced the public to radical critiques of policing and prisons. Abolitionist activists envision a world where punitive control is replaced with alternative approaches to social problems. This class will draw on sociological research to consider the arguments and evidence for such alternatives as drug and mental health courts, more \u201chumane\u201d prison models, restorative justice, and even the wholesale abolition of punishment.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 140F",
+   "subject": "SOCI",
+   "num": "140F",
+   "title": "Law and the Workplace",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines how the US legal system has responded to workplace inequality and demands for employee rights. Particular attention is given to racial, gender, religious, and disability discrimination, as well as the law\u2019s role in regulating unions, the global economy, and sweatshop labor.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 140F and SOCC 140F.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 140J",
+   "subject": "SOCI",
+   "num": "140J",
+   "title": "Sociology of Social Justice",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines concrete historical attempts to build more free and equal societies and institutions. From the Paris commune to Black Lives Matter, we will study the challenges and consequences of real efforts to break down power, distribute economic resources fairly, and provide everyone with the opportunity to flourish as individuals. By analyzing these efforts through a sociological lens, the course provides a framework for thinking critically and empirically about social justice.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 140K",
+   "subject": "SOCI",
+   "num": "140K",
+   "title": "Law and Society in China",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course offers an overview of the courts of China. The focus is not on blackletter law. Instead, we look at what grassroots courts do on a daily basis. China has arguably the largest court system in the world. What does it do? How are the courts organized internally? What is the relationship between the courts and other government bureaucracies? Is there the rule of law in China? The course will address these questions by reviewing latest empirical research on the subject area.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 141",
+   "subject": "SOCI",
+   "num": "141",
+   "title": "Crime and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A study of the social origins of criminal law, the administration of justice, causes, and patterns of criminal behavior, and the prevention and control of crime, including individual rehabilitation and institutional change, and the politics of legal, police, and correctional reform.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 141 and SOCC 141.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 142",
+   "subject": "SOCI",
+   "num": "142",
+   "title": "Social Deviance",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course studies the major forms of behavior seen as rule violations by large segments of our society and analyzes the major theories trying to explain them, as well as processes of rulemaking, rule enforcing, techniques of neutralization, stigmatization and status degradation, and rule change.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 142 and SOCB 142.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 143",
+   "subject": "SOCI",
+   "num": "143",
+   "title": "Suicide",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Traditional and modern theories of suicide will be reviewed and tested. The study of suicide will be treated as one method for investigating the influence of society on the individual.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 143 and SOCB 143.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 143V",
+   "subject": "SOCI",
+   "num": "143V",
+   "title": "Love",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the complex historical, cultural, and social psychological landscape surrounding the concept of romantic (as opposed to platonic or familial) love, culminating with a critical analysis of the changing nature of intimate relationships in modern American society. Accordingly, this course will address concepts and insights at the intersection of many subfields: culture, gender, sexuality, family, social networks, social psychology, and computer-mediated communication.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 144",
+   "subject": "SOCI",
+   "num": "144",
+   "title": "Forms of Social Control",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The organization, development, and mission of social control agencies in the nineteenth and twentieth centuries, with emphasis on crime and madness; agency occupations (police, psychiatrists, correctional work, etc.); theories of control movements.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 144 and SOCC 144.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 145",
+   "subject": "SOCI",
+   "num": "145",
+   "title": "Violence and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Focusing on American history, this course explores violence in the light of three major themes: struggles over citizenship and nationhood; the drawing and maintenance of racial, ethnic, and gender boundaries; and the persistence of notions of \u201cmasculinity\u201d and its relation to violence.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 145 and SOCB 145.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 146",
+   "subject": "SOCI",
+   "num": "146",
+   "title": "Criminal Punishment",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the historic and contemporary responses to criminal behavior in the United States.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 147",
+   "subject": "SOCI",
+   "num": "147",
+   "title": "Organizations, Society, and Social Justice",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Organizations are dynamic forces in society. This course examines how organizations address human health and social justice issues in national and international settings, focusing on the links between internal dynamics of organizations and macro-level political, economic, and cultural factors.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 147 and SOCC 147.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 148",
+   "subject": "SOCI",
+   "num": "148",
+   "title": "Political Sociology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Course focuses on the interaction between state and society. It discusses central concepts of political sociology (social cleavages, mobilization, the state, legitimacy), institutional characteristics, causes, and consequences of contemporary political regimes (liberal democracies, authoritarianism, communism), and processes of political change.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 148 and SOCC 148.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 148E",
+   "subject": "SOCI",
+   "num": "148E",
+   "title": "Inequality and Jobs",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Some people do much better than others in the world of work. Causes and consequences of this inequality will be examined: How do characteristics of individuals (e.g., class, gender, race, education, talent) and characteristics of jobs affect market outcomes?",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 148E and SOCC 148L.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 148GS",
+   "subject": "SOCI",
+   "num": "148GS",
+   "title": "Political Sociology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Course focuses on the interaction between state and society. It discusses central concepts of political sociology (social cleavages, mobilization, the state, legitimacy), institutional characteristics, causes, and consequences of contemporary political regimes (liberal democracies, authoritarianism, communism), and processes of political change.",
+   "prereqText": "students must apply and be accepted to the Global Seminar Program. Students cannot receive credit for both SOCI 148 and SOCI 148GS.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 149",
+   "subject": "SOCI",
+   "num": "149",
+   "title": "Sociology of the Environment",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The environment as a socially and technically shaped milieu in which competing values and interests play out. Relation of humanity to nature, conflicts between preservation and development, environmental pollution and contested illnesses. Will not receive credit for SOCI 149 and SOCC 149.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 149E",
+   "subject": "SOCI",
+   "num": "149E",
+   "title": "Sociology of Saving the Earth",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course focuses on the sociopolitical processes of saving the environment and barriers to collective actions. It studies money and power in politics, media and misinformation, collective action problems (incentives and costs), and public vs. private interests (e.g., tragedy of the commons).",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 150",
+   "subject": "SOCI",
+   "num": "150",
+   "title": "Madness and the Movies",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Hollywood has had an ongoing obsession with mental illness. This course will examine a number of important or iconic films on this subject. By examining them against a background provided by relevant scholarly materials, we shall develop a critical perspective on these cultural artifacts.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 150 and SOCC 150.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 151",
+   "subject": "SOCI",
+   "num": "151",
+   "title": "Social Movement from Civil Rights to Black Lives Matter",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A treatment of selected social movements dealing primarily with the struggles of African-Americans, Hispanics, and women to change their situation in American society.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 152",
+   "subject": "SOCI",
+   "num": "152",
+   "title": "Social Inequality and Public Policy",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as USP 133.) Primary focus on understanding and analyzing poverty and public policy. Analysis of how current debates and public policy initiatives mesh with alternative social scientific explorations of poverty.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 152 and SOCC 152.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 153",
+   "subject": "SOCI",
+   "num": "153",
+   "title": "Urban Sociology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as USP 105.) Introduces students to the major approaches in the sociological study of cities and to what a sociological analysis can add to our understanding of urban processes.",
+   "prereqText": "upper-division standing or consent of instructor. Will not receive credit for SOCI 153 and SOCC 153.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 154",
+   "subject": "SOCI",
+   "num": "154",
+   "title": "Religious Institutions in America",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Examination of sociological theories for why people have religious beliefs. Also examines types of religious organizations, secularization, fundamentalism, religion and immigration, religion and politics, and religiously inspired violence and terrorism. The class will tend to focus on the American context.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 154 and SOCC 154.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 156",
+   "subject": "SOCI",
+   "num": "156",
+   "title": "Sociology of Religion",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Diverse sociological explanations of religious ideas and religious behavior. The social consequences of different kinds of religious beliefs and religious organizations. The influence of religion upon concepts of history, the natural world, human nature, and the social order. The significance of such notions as \u201csacred peoples\u201d and \u201csacred places.\u201d The religious-like character of certain political movements and certain sociocultural attitudes.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 156 and SOCC 156.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 157",
+   "subject": "SOCI",
+   "num": "157",
+   "title": "Religion in Contemporary Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Sacred texts, religious experiences, and ritual settings are explored from the perspective of sociological analysis. The types and dynamic of religious sects and institutions are examined. African and contemporary US religious data provide resources for lecture and comparative analysis.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 157 and SOCC 157.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 158",
+   "subject": "SOCI",
+   "num": "158",
+   "title": "Islam in the Modern World",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The role of Islam in the society, culture, and politics of the Muslim people during the nineteenth and twentieth centuries; attempts by Muslim thinkers to accommodate or reject rival ideologies (such as nationalism and socialism); and a critical review of the relationship between Islam and the West.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 158 and SOCD 158.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 159",
+   "subject": "SOCI",
+   "num": "159",
+   "title": "Special Topics in Social Organizations and Institutions",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Readings and discussion of particular substantive issues and research in the sociology of organizations and institutions, including such areas as population, economy, education, family, medicine, law, politics, and religion. Topics will vary from year to year.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 160",
+   "subject": "SOCI",
+   "num": "160",
+   "title": "Sociology of Culture",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will examine the concept of culture, its \u201cdisintegration\u201d in the twentieth century, and the repercussions on the integration of the individual. We will look at this process from a variety of perspectives, each focusing on one cultural fragment (e.g., knowledge, literature, religion) and all suggesting various means to reunify culture and consequently the individual.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 160 and SOCB 160.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 160E",
+   "subject": "SOCI",
+   "num": "160E",
+   "title": "Law and Culture",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines major formulations of the relationship between law and culture in the sociological literature. Topics include formal law versus embedded law, law and morality, law and the self, legal consciousness, the rule of law, and the construction of legality.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 160E and SOCB 160L.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 161",
+   "subject": "SOCI",
+   "num": "161",
+   "title": "Sociology of the Life Course",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course explores concepts, theory and empirical research related to demographic, sociopsychological, and institutional aspects of the different stages of human development. It considers social influences on opportunities and constraints by gender, class, race/ethnicity, and historical period.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 161 and SOCB 161.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 162",
+   "subject": "SOCI",
+   "num": "162",
+   "title": "Popular Culture",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An overview of the historical development of popular culture from the early modern period to the present. Also, a review of major theories explaining how popular culture reflects and/or affects patterns of social behavior. Students may not receive credit for both SOCI 162 and SOCB 162.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 163",
+   "subject": "SOCI",
+   "num": "163",
+   "title": "Migration and the Law",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Provides a global sociological perspective on the development and consequences of laws regulating migration within and across nation-state borders. The ability of the nation-state to control migration using law and its policy instruments. The effects of different legal statuses on political and socioeconomic outcomes.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 163 and SOCC 163.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 165",
+   "subject": "SOCI",
+   "num": "165",
+   "title": "Predicting the Future from Tarot Cards to Computer Algorithms",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "No one can see the future but everyone must try. When we act with purpose, we must form an idea of the consequences of our actions and the world in which our action will unfold. We must form expectations about the future, and therefore, we must predict, often in the face of great uncertainty, what will and won\u2019t happen. This course surveys the social devices from tarot cards to computer algorithms designed to solve the problem of prediction.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 165A",
+   "subject": "SOCI",
+   "num": "165A",
+   "title": "American News Media",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "History, politics, social organization, and ideology of the American news media. This course,165A, surveys the development of the news media as an institution, from earliest newspapers to modern mass news media.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 165A and SOCC 165A.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 166",
+   "subject": "SOCI",
+   "num": "166",
+   "title": "Sociology of Knowledge",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course provides a general introduction to the development of the sociology of knowledge and will explore questions concerning social determination of consciousness as well as theoretical ways to articulate a critique of ideology.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 166 and SOCB 166.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 167",
+   "subject": "SOCI",
+   "num": "167",
+   "title": "Science and War",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This class examines how science has been mobilized in the development of nuclear weapons and other weapons of mass destruction. The class applies sociological concepts to the analysis of modern technological violence.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 167 and SOCC 167.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 168",
+   "subject": "SOCI",
+   "num": "168",
+   "title": "Marxism",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines Marxism as social theory and social movement. It covers the origins and historical development of Marxist ideas, the history of Marxist movements and organizations, and the interaction between theory and political practice.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 168E",
+   "subject": "SOCI",
+   "num": "168E",
+   "title": "Sociology of Science",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "A survey of theoretical and empirical studies concerning the workings of the scientific community and its relations with the wider society. Special attention will be given to the institutionalization of the scientific role and to the social constitution of scientific knowledge.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 168E and SOCC 168E.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 168G",
+   "subject": "SOCI",
+   "num": "168G",
+   "title": "Populism: Then and Now",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The rise of radical right-wing, authoritarian populism in democratic societies is one of the most remarkable features of our time. It inevitably awakens the memory of fascism in the 1930s. We will examine their distinct features, such as leadership cult, xenophobia, mockery of facts, disdain for the rule of law, and differences. Our focus will be the connection between the growth of economic inequality and racial animosity and the rise of contemporary populism in the U.S., Europe, and elsewhere.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 169",
+   "subject": "SOCI",
+   "num": "169",
+   "title": "Debating Citizenship Rights",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Will survey the liberal, communitarian, social-democratic, nationalist, feminist, postnationalist, and multicultural views on the construction of the modern citizen and good society.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 169 and SOCD 169.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 170",
+   "subject": "SOCI",
+   "num": "170",
+   "title": "Shifting Ideologies of Gender and Sexuality in Science",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 171",
+   "subject": "SOCI",
+   "num": "171",
+   "title": "Technology and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Does improved technology mean progress? Or are environmental pollution and social alienation signs that technology is out of control? This class uncovers the social problems of key modern technologies such as automobile transport, factory farming, biotechnology, and nuclear power.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 168T and SOCI 171.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 172",
+   "subject": "SOCI",
+   "num": "172",
+   "title": "Films and Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An analysis of films and how they portray various aspects of American society and culture.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 172 and SOCB 172.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 173",
+   "subject": "SOCI",
+   "num": "173",
+   "title": "Sociology of Health, Illness, and Medicine",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course will explore the social forces that shape our health and the way we understand illness. Themes will include American public health and health care, inequality and biomedicine, as well as special topics like suicide, lead, autism, and HIV/AIDS.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 174",
+   "subject": "SOCI",
+   "num": "174",
+   "title": "Human Rights I: Introduction to Human Rights and Global Justice",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Explores where human rights come from and what it means to integrate them into a history of modern society, from the conquest of the Americas and the origins of the Enlightenment to the Holocaust and the contemporary human rights regime.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 175",
+   "subject": "SOCI",
+   "num": "175",
+   "title": "Nationality and Citizenship",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Surveys the development of nationality and citizenship law in historical and comparative perspective with an emphasis on the United States, Latin America, and Europe. Examines competing sociological accounts for national variation and convergence; consequences of the law; and local, transnational, and extraterritorial forms of citizenship.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 175 and SOCD 175.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 176",
+   "subject": "SOCI",
+   "num": "176",
+   "title": "Transnational Japan Research Practicum",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Focusing on Japan and its transnational relationships, this course combines analysis of readings with instruction in writing academic research papers. Students will spend about half their time on readings and half on their own research projects. We will analyze domestic and international contexts within which Japanese cultural forms emerge and influence others. Topics include Japanese approaches to popular culture, art, environment, social relationships, and social problems.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 178",
+   "subject": "SOCI",
+   "num": "178",
+   "title": "The Holocaust",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The study of the unique and universal aspects of the Holocaust. Special attention will be paid to the nature of discrimination and racism, those aspects of modernity that make genocide possible, the relationship among the perpetrators, the victims and the bystanders, and the teaching, memory, and denial of the Holocaust.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 178 and SOCD 178.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 179",
+   "subject": "SOCI",
+   "num": "179",
+   "title": "Social Change",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Course focuses on the development of capitalism as a worldwide process, with emphasis on its social and political consequences. Topics include precapitalist societies, the rise of capitalism in the West, and the social and political responses to its expansion elsewhere.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 179 and SOCD 179.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 180",
+   "subject": "SOCI",
+   "num": "180",
+   "title": "Social Movements and Social Protest",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An examination of the nature of protests and violence, particularly as they occur in the context of larger social movements. The course will further examine those generic facets of social movements having to do with their genesis, characteristic forms of development, relationship to established political configurations, and gradual fading away.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 180 and SOCC 180.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 181",
+   "subject": "SOCI",
+   "num": "181",
+   "title": "Modern Western Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course examines the nature and dynamics of modern western society in the context of the historical process by which this type of society has emerged over the last several centuries. The aim of the course is to help students think about what kind of society they live in, what makes it the way it is, and how it shapes their lives.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 181 and SOCD 181.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 182",
+   "subject": "SOCI",
+   "num": "182",
+   "title": "Ethnicity and Indigenous Peoples in Latin America",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Ethnicity and the reassertion of Indian identity in contemporary Latin America. Issues related to these trends are examined in comparative perspective, with attention to changes in global conditions and in the socioeconomic, political, and cultural contexts of Latin American modernization.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 182 and SOCD 182.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 183",
+   "subject": "SOCI",
+   "num": "183",
+   "title": "The Geography of American Opportunity",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "How does where you grow up affect where you end up? This course explores \u201cwho gets what where and why\u201d by examining spatial inequalities in life chances across regions, rural and urban communities, and divergent local economies in the U.S. We will \u201cplace\u201d places within their economic, socio-cultural, and historical contexts. Readings and exercises will uncover spatial variation in inequalities by race/ethnicity, immigrant status, gender, class, and LGBTQIA status that national averages obscure.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 183 and USP 183.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 184",
+   "subject": "SOCI",
+   "num": "184",
+   "title": "Gender and Film",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This class will examine issues of masculinity and femininity through analysis of films. Emphasis is on contemporary American society and will include varying issues such as race, class, and sexualities; worlds of work; romance, marriage, and family.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 184 and SOCC 184.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 185",
+   "subject": "SOCI",
+   "num": "185",
+   "title": "Globalization and Social Development",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Social development is more than sheer economic growth. It entails improvements in the overall quality of human life, particularly in terms of access to health, education, employment, and income for the poorer sectors of the population. Course examines the impact of globalization on the prospects for attaining these goals in developing countries.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 185 and SOCD 185.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 185GS",
+   "subject": "SOCI",
+   "num": "185GS",
+   "title": "Globalization and Social Development",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Social development is more than sheer economic growth. It entails improvements in the overall quality of human life, particularly in terms of access to health, education, employment, and income for the poorer sectors of the population. Course examines the impact of globalization on the prospects for attaining these goals in developing countries. Students cannot receive credit in this course if they have already taken SOCI 185.",
+   "prereqText": "students must apply and be accepted to the Global Seminar Program.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 187",
+   "subject": "SOCI",
+   "num": "187",
+   "title": "African Societies through Film",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Exploration of contemporary African urbanization and social change via film, including 1) transitional African communities, 2) social change in Africa, 3) Western vs. African filmmakers\u2019 cultural codes. Ideological and ethnographic representations, aesthetics, social relations, and market demand for African films are analyzed.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 187 and SOCD 187.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188",
+   "subject": "SOCI",
+   "num": "188",
+   "title": "Field Research in Migrant Communities\u2014Practicum",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Mexican Migration Field Research Program: Students work closely with faculty to conduct direct on-the-ground field research in a migrant community. Students work as teams, conducting either surveys, interviews, or ethnographic observations. Students are expected to produce an outline of a research paper based on the results from fieldwork.",
+   "prereqText": "students must apply and be accepted to the Mexican Migration Field Research Program (MMFRP).",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188D",
+   "subject": "SOCI",
+   "num": "188D",
+   "title": "Latin America: Society and Politics",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Course focuses on the different types of social structures and political systems in Latin America. Topics include positions in the world economy, varieties of class structure and ethnic cleavages, political regimes, mobilization and legitimacy, class alignments, reform and revolution.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 188D and SOCD 188D.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188E",
+   "subject": "SOCI",
+   "num": "188E",
+   "title": "Community and Social Change in Africa",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The process of social change in African communities, with emphasis on changing ways of seeing the world and the effects of religion and political philosophies of social change. The methods and data used in various village and community studies in Africa will be critically examined.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 188E and SOCD 188A.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188F",
+   "subject": "SOCI",
+   "num": "188F",
+   "title": "Modern Jewish Societies and Israeli Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Contradictory effects of modernization on Jewish society in Western and Eastern Europe and the plethora of Jewish responses: assimilation, fundamentalism, emigration, socialism, diaspora nationalism, and Zionism. Special attention will be paid to issues of discontinuity between Jewish societies and Israeli society. Simultaneously, we will scrutinize the influence of the Palestinian-Israeli conflict on Israeli society, state, and identity.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 188F and SOCD 188F.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188G",
+   "subject": "SOCI",
+   "num": "188G",
+   "title": "Chinese Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "The social structure of the People\u2019s Republic of China since 1949, including a consideration of social organization at various levels: the economy, the policy, the community, and kinship institutions.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 188G and SOCD 188B.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188GS",
+   "subject": "SOCI",
+   "num": "188GS",
+   "title": "Change in Modern South Africa",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Using sociological and historical perspectives, this course examines the origins and demise of apartheid and assesses the progress that has been made since 1994, when apartheid was officially ended. Contrasts of racism in South Africa and the United States. Will not receive credit for SOCI 188GS and SOCI 188J.",
+   "prereqText": "students must apply and be accepted to the Global Seminar Program.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188I",
+   "subject": "SOCI",
+   "num": "188I",
+   "title": "The Israeli-Palestinian Conflict",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "In this course we will examine the national and colonial dimensions of this long-lasting conflict and then turn our attention to the legal, governmental/political, and everyday aspects of the Israeli occupation of the West Bank and Gaza following the 1967 war.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188J",
+   "subject": "SOCI",
+   "num": "188J",
+   "title": "Change in Modern South Africa",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Using sociological and historical perspectives, this course examines the origins and demise of apartheid and assesses the progress that has been made since 1994, when apartheid was officially ended. Contrasts of racism in South Africa and the United States.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 188J and SOCD 188J.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188K",
+   "subject": "SOCI",
+   "num": "188K",
+   "title": "American Society",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Comparative and historical perspectives on US society. The course highlights \u201cAmerican exceptionalism\u201d: Did America follow a special historical path, different from comparable nations in its social relations, politics, and culture? Specific topics include class relations, race, religion, and social policy.",
+   "prereqText": "upper-division standing. Will not receive credit for SOCI 188K and SOCD 188K.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188M",
+   "subject": "SOCI",
+   "num": "188M",
+   "title": "Social Movements in Latin America",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Course examines theories of social movements and changing patterns of popular protest and contentious mobilization in Latin America since the mid-twentieth century. Case studies include populism, guerrillas, liberation theology and movements of workers, peasants, women, and indigenous groups.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 188O",
+   "subject": "SOCI",
+   "num": "188O",
+   "title": "Settlements and Peacemaking in Israel",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "We will examine the social, political, and religious factors that affect the nexus of Israeli settlements and Israeli-Arab and Israeli-Palestinian peace making. Special attention will be paid to the period after the 1967 War when these processes begun as well as to alternative resolutions to the conflict.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 189",
+   "subject": "SOCI",
+   "num": "189",
+   "title": "Special Topics in Comparative-Historical Sociology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Readings and discussion in selected areas of comparative and historical macrosociology. Topics may include the analysis of a particular research problem, the study of a specific society or of cross-national institutions, and the review of different theoretical perspectives. Contents will vary from year to year.",
+   "prereqText": "upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 189GS",
+   "subject": "SOCI",
+   "num": "189GS",
+   "title": "Making of a Modern Colony: Puerto Rico in the Twentieth Century",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This course presents an overview of the US-PR colonial relationship since 1898, focusing on key elements of its political and economic history. Special attention is given to the sugar cane era, the major social transformations of the mid-twentieth century, the expansion of US military installations, the collapse of the \u201cOperation Bootstrap\u201d development model, and the formation of a Puerto Rican diaspora.",
+   "prereqText": "students must apply and be accepted to the Global Seminar Program.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 190GS",
+   "subject": "SOCI",
+   "num": "190GS",
+   "title": "Contemporary Problems, Politics, and Potentialities in Puerto Rico",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "An exploration of political governance of Puerto Rico and its history, this course introduces students to a variety of contemporary struggles to address the problems Puerto Ricans face and move Puerto Rico beyond its political status impasse.",
+   "prereqText": "students must apply and be accepted to the Global Seminar Program.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 192",
+   "subject": "SOCI",
+   "num": "192",
+   "title": "Senior Seminar in Sociology",
+   "units": "1",
+   "level": "Upper Division",
+   "description": "The Senior Seminar Program is designed to allow senior undergraduates to meet with faculty members in a small group setting to explore an intellectual topic in sociology (at the upper-division level). Topics will vary from quarter to quarter. Senior Seminars may be taken for credit up to four times, with a change in topic, and permission of the department. Enrollment is limited to twenty students, with preference given to seniors. (P/NP grades only.)",
+   "prereqText": "instructor permission or department stamp, upper-division standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 194",
+   "subject": "SOCI",
+   "num": "194",
+   "title": "Research Seminar in Washington, DC",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "(Same as PS 194, COGN 194, ERTH 194, HIST 193, USP 194.) Course attached to six-unit internship taken by students participating in the UCDC Program. Involves weekly seminar meetings with faculty and teaching assistant and a substantial research paper.",
+   "prereqText": "department approval. Participating in UCDC Program. Will not receive credit for SOCI 194 and SOCE 194.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 196A",
+   "subject": "SOCI",
+   "num": "196A",
+   "title": "Honors Seminar: Advanced Studies in Sociology",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This seminar will permit honors students to explore advanced issues in the field of sociology. It will also provide honors students the opportunity to develop a senior thesis proposal on a topic of their choice and begin preliminary work on the honors thesis under faculty supervision.",
+   "prereqText": "acceptance into Department of Sociology Honors Program.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 196B",
+   "subject": "SOCI",
+   "num": "196B",
+   "title": "Honors Seminar: Supervised Thesis Research",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "This seminar will provide honors candidates the opportunity to complete research on and preparation of a senior honors thesis under close faculty supervision.",
+   "prereqText": "completion of SOCI 196A.",
+   "prereqs": [
+    [
+     "SOCI 196A"
+    ]
+   ]
+  },
+  {
+   "code": "SOCI 198",
+   "subject": "SOCI",
+   "num": "198",
+   "title": "Directed Group Study",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Group study of specific topics under the direction of an interested faculty member. Enrollment will be limited to a small group of students who have developed their topic and secured appropriate approval from the departmental committee on independent and group studies. These studies are to be conducted only in areas not covered in regular sociology courses.",
+   "prereqText": "upper-division standing and department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 198RA",
+   "subject": "SOCI",
+   "num": "198RA",
+   "title": "Research Apprenticeship",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCI 199",
+   "subject": "SOCI",
+   "num": "199",
+   "title": "Independent Study",
+   "units": "4",
+   "level": "Upper Division",
+   "description": "Tutorial: individual study under the direction of an interested faculty member in an area not covered by the present course offerings. Approval must be secured from the departmental committee on independent studies.",
+   "prereqText": "upper-division standing and department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 200",
+   "subject": "SOCG",
+   "num": "200",
+   "title": "Introductory Methods/Epistemology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course introduces various methods for observing and analyzing the social world, principles for choosing among them, and general issues of research design. Coverage emphasizes common qualitative and quantitative methods in sociology in preparation for further methods courses.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 201",
+   "subject": "SOCG",
+   "num": "201",
+   "title": "Classical Sociology Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course discusses major themes in the work of nineteenth- and twentieth-century social thinkers, including Tocqueville, Marx, Weber, and Durkheim.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 202",
+   "subject": "SOCG",
+   "num": "202",
+   "title": "Contemporary Sociological Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Themes important for social theory at the turn of the twenty-first century: Marxism (Gramsci, Althusser), critical theory (Adorno, Habermas), interpretation (Geertz), social systems (Parsons), post-structuralism (Foucault), postmodernism, and social constructivism (Bourdieu).",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 203",
+   "subject": "SOCG",
+   "num": "203",
+   "title": "Field Methods",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Research will be conducted in field settings. The primary focus will be on mastering the problems and technical skills associated with the conduct of ethnographic and participant observational studies.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 204",
+   "subject": "SOCG",
+   "num": "204",
+   "title": "Text and Discourse Analysis",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Techniques of gathering and analyzing transcripts of naturally occurring conversations, interviews, discourse in institutional settings, public political discourse, and text of historical materials.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 205",
+   "subject": "SOCG",
+   "num": "205",
+   "title": "Quantitative Methods I",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course covers some of the elementary techniques used 1) to select random samples, 2) to detect statistical patterns in the sample data, and 3) to determine whether any patterns found in sample data are statistically significant. The course also stresses the benefits and drawbacks of survey and aggregate data and some common ways in which these data are used incorrectly.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 206",
+   "subject": "SOCG",
+   "num": "206",
+   "title": "Quantitative Methods II",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course covers some of the more advanced techniques used 1) to select random samples, 2) to detect statistical patterns in the sample data, and 3) to determine whether any patterns found in sample data are statistically significant. The course also stresses the benefits and drawbacks of survey and aggregate data and some common ways in which these data are used incorrectly.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 207",
+   "subject": "SOCG",
+   "num": "207",
+   "title": "Comparative-Historical Methods",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A broad-based consideration of the use of historical materials in sociological analysis, especially as this facilitates empirically oriented studies across different societies and through time.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 208A",
+   "subject": "SOCG",
+   "num": "208A",
+   "title": "Graduate Student Seminar",
+   "units": "1",
+   "level": "Graduate",
+   "description": "Introduction to the sociology graduate program and faculty. Course includes themes to connect student with the sociological community, a variety of departmental scholarly research, and focus on practical tools for student success. Students may not receive credit for SOCG 208A and SOCG 208.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 208B",
+   "subject": "SOCG",
+   "num": "208B",
+   "title": "Graduate Student Seminar",
+   "units": "1",
+   "level": "Graduate",
+   "description": "Second part of the introduction to the sociology graduate program and faculty. Course includes themes to connect student with the sociological community, a variety of departmental scholarly research, and focus on practical tools for student success. Students may not receive credit for SOCG 208B and SOCG 208.",
+   "prereqText": "SOCG 208A; graduate standing in sociology.",
+   "prereqs": [
+    [
+     "SOCG 208A"
+    ]
+   ]
+  },
+  {
+   "code": "SOCG 209",
+   "subject": "SOCG",
+   "num": "209",
+   "title": "Social Networks",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course provides an accessible, graduate level introduction to social network analysis as a theoretical and methodological approach\u2014one takes relationships rather than individuals as the fundamental unit of analysis. While the course will focus on concepts and applications rather than statistical models, students will also become acquainted with basic analytic techniques as well as learn how to collect, store, inspect, and visualize original network data.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 211",
+   "subject": "SOCG",
+   "num": "211",
+   "title": "Introduction to Computational Social Science",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course provides an overview and practical, hands-on introduction to some of the common tools employed in computational approaches to social science research. Students will acquire sufficient skills to use existing tools to conduct computational social science research, such as basic Python language. Recommended preparation: knowledge of or background in statistics.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 212",
+   "subject": "SOCG",
+   "num": "212",
+   "title": "Social Stratification",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The causes and effects of social ranking in various societies. Theories of stratification; the dynamics of informal social grouping; determinants of institutional power, and the nature of struggles for power; the distribution of wealth and its causes; the dynamics of social mobility; the effects of stratification on lifestyles, culture, and deviance.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 214",
+   "subject": "SOCG",
+   "num": "214",
+   "title": "Urban Sociology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A survey of topics in urban sociology, including the city and suburb as social forms, civility among strangers, urbanism and culture, the political economy of metropolitan development, urban poverty, and racial residential segregation. Classical and contemporary approaches will be considered.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 215",
+   "subject": "SOCG",
+   "num": "215",
+   "title": "Social Psychology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An examination of theories of human behavior and personality development as affected by social group life. Major theories will be compared. The interaction dynamics of such substantive areas as socialization, normative and deviant behavior, the social construction of the self, and group processes and status structures will be considered.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 216",
+   "subject": "SOCG",
+   "num": "216",
+   "title": "Sociology of Culture",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The history of the concept of culture; cultural pluralism in advanced industrialized societies; the differentiation of cultural institutions; cultural policy and social structure; culture as a property of social groups; conflict and accommodation over efforts to change and sustain traditional culture.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 222",
+   "subject": "SOCG",
+   "num": "222",
+   "title": "Social Movements",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An examination of theories accounting for the causes and consequences of social movements, including a discussion of the strengths and weaknesses of such theories for understanding historically specific revolutions, rebellions, and violent and nonviolent forms of protest in various parts of the world.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 224",
+   "subject": "SOCG",
+   "num": "224",
+   "title": "Populism: Then and Now",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The rise of radical right-wing, authoritarian populism in democratic societies is one of the most remarkable features of our time. It inevitably awakens the memory of fascism in the 1930s. We will examine their distinct features, such as leadership cult, xenophobia, mockery of facts, disdain for the rule of law, and differences. Our focus will be the connection between the growth of economic inequality and racial animosity and the rise of contemporary populism in the U.S., Europe, and elsewhere.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 225",
+   "subject": "SOCG",
+   "num": "225",
+   "title": "Comparative Political Economy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An examination of the history and performance of key economic, political, and social institutions and policies in the United States and other nations. Special attention to similarities and differences across countries, and to strategies of comparative analysis.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 226",
+   "subject": "SOCG",
+   "num": "226",
+   "title": "Political Sociology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course discusses the relationship between state and society in a comparative perspective. The focus is on the interaction among states, domestic economic elites, and external economic and political processes in the determination of different developmental paths. Analytically, it includes topics such as characteristics and functions of the state in different types of society throughout history (with an emphasis on the varieties of capitalist and socialist state), the autonomy of the state and its causes in different settings, and developmental and predatory consequences of state activity. Readings will include both theoretical and empirical materials, the latter dealing mostly with nineteenth- and twentieth-century Europe and twentieth-century Latin America.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 227",
+   "subject": "SOCG",
+   "num": "227",
+   "title": "Ethnographic Film: Media Methods",
+   "units": "6",
+   "level": "Graduate",
+   "description": "Ethnographic recording of field data in written and audiovisual formats, including film, video, and CD-ROM applications. Critical assessment of ethnographies and audiovisual data in terms of styles, format, and approaches. Graduate students are required to submit a fifteen-page midterm paper comparing a written and an audiovisual ethnography and a final video ethnography with a project abstract.",
+   "prereqText": "graduate standing; SOCI 1, SOCI 2; or consent of instructor.",
+   "prereqs": [
+    [
+     "SOCI 1"
+    ],
+    [
+     "SOCI 2"
+    ]
+   ]
+  },
+  {
+   "code": "SOCG 229",
+   "subject": "SOCG",
+   "num": "229",
+   "title": "Sociology of Family and Households",
+   "units": "6",
+   "level": "Graduate",
+   "description": "The overall goal of this graduate seminar is to provide students with a working knowledge of conceptual frameworks and theories relevant to the sociological study of families. The course focuses on how families function in society and as society. In addition to engaging various micro- and macro-level theories about family form and function, students will also interrogate how demographic variables such as sex, race, sexual orientation, and socioeconomic status affect family structure and interaction.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 230",
+   "subject": "SOCG",
+   "num": "230",
+   "title": "Advanced Approaches to Sociological Theory",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course is a discussion of recent topics in sociological theory, usually focusing on a single approach, like postcolonialism, feminism, or Western Marxism. May be repeated as the topics change.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 232",
+   "subject": "SOCG",
+   "num": "232",
+   "title": "Advanced Issues in the Sociology of Knowledge",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The social construction of knowledge and the social institutions in which these processes take place are examined. Topics include relationships between knowledge and social institutions, foundations of knowledge in society, knowledge and social interactions, and contrasting folk and specialized theories.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 234",
+   "subject": "SOCG",
+   "num": "234",
+   "title": "Intellectual Foundation of the Study of Science, Technology, and Medicine",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on some classic methodological and theoretical resources upon which the sociology of science, technology, and medicine all draw. It gives special attention to relationships between knowledge and social order, and between knowledge and practice, that are common to science, technology, and medicine.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 238",
+   "subject": "SOCG",
+   "num": "238",
+   "title": "Survey of the Sociology of Scientific Knowledge",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An introduction to some enduring topics in the sociology of scientific knowledge and to some resources for addressing them. Attention is drawn to problems of accounting for scientific order and change, and to recurrent debates over the proper method for sociological accounts of science.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 243",
+   "subject": "SOCG",
+   "num": "243",
+   "title": "Sociology of Social Control",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An examination of the sociological literature on social control, looking at theoretical developments over time and examining the contemporary literature dealing with social control in historical and comparative perspective.",
+   "prereqText": "graduate standing.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 244",
+   "subject": "SOCG",
+   "num": "244",
+   "title": "Sociology of Race and Ethnicity",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Analysis of enduring topics in the study of race and ethnicity, including stratification, discrimination conflict, immigration, assimilation, and politics. Other topics include racial and ethnic identity and the social construction of race and ethnic categories. A special focus is on the role of \u201cculture\u201d and \u201cstructure\u201d for explaining race/ethnic differentiation.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 245",
+   "subject": "SOCG",
+   "num": "245",
+   "title": "Gender, Work, and the Economy",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course studies social constructions of gender within economic opportunities and constraints. We read classical sociological theory on this topic; feminist critiques; and newer research on careers, organizations, and markets.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 246",
+   "subject": "SOCG",
+   "num": "246",
+   "title": "The Welfare State",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Surveys major theories of the development and functioning of the welfare state, addressing the roles of economic development, political institutions, stratification, and culture. The course focuses on the development of the US social provision in comparison with other advanced industrial societies.",
+   "prereqText": null,
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 247",
+   "subject": "SOCG",
+   "num": "247",
+   "title": "Madness and Society",
+   "units": "4",
+   "level": "Graduate",
+   "description": "An examination of changing Western responses from the age of Bedlam to the age of Prozac. Topics include the rise and decline of the total institution; the emergence of psychiatry; changing cultural meanings of madness; and the therapeutics of mental disorder.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 252",
+   "subject": "SOCG",
+   "num": "252",
+   "title": "Research Practicum I",
+   "units": "4",
+   "level": "Graduate",
+   "description": "In this seminar students work on a research project, which might have originated in a paper written for another course. The goal is to produce the first draft of a paper that will be submitted to an academic journal.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 253",
+   "subject": "SOCG",
+   "num": "253",
+   "title": "Research Practicum II",
+   "units": "4",
+   "level": "Graduate",
+   "description": "In this seminar students revise an existing research paper (usually the one they wrote for Sociology 252) for submission to an academic journal. Emphasis is placed on conceptual development, writing style and structure, and drawing links to the existing theoretical and empirical literature.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 255A",
+   "subject": "SOCG",
+   "num": "255A",
+   "title": "Introduction to Science Studies: Part I",
+   "units": "4",
+   "level": "Graduate",
+   "description": "(Same as Phil 209A, HIGR 238, and COGR 225A.) Study and discussion of classic work in history of science, sociology of science, and philosophy of science, and of work that attempts to develop a unified science studies approach. Required for all students in the Science Studies Program.",
+   "prereqText": "enrollment in Science Studies Program.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 255B",
+   "subject": "SOCG",
+   "num": "255B",
+   "title": "Seminar in Science Studies",
+   "units": "4",
+   "level": "Graduate",
+   "description": "(Same as Phil 209B, HIGR 239, and COGR 225B.) Study and discussion of selected topics in the science studies field. Required for all students in the Science Studies Program.",
+   "prereqText": "enrollment in Science Studies Program.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 255C",
+   "subject": "SOCG",
+   "num": "255C",
+   "title": "Colloquium in Science Studies",
+   "units": "4",
+   "level": "Graduate",
+   "description": "(Same as Phil 209C, HIGR 240, and COGR 225C.) A forum for the presentation and discussion of research in progress in science studies, by graduate students, faculty, and visitors. Required of all students in the Science Studies Program.",
+   "prereqText": "enrollment in the Science Studies Program.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 255D",
+   "subject": "SOCG",
+   "num": "255D",
+   "title": "Introduction to Science Studies: Part II",
+   "units": "4",
+   "level": "Graduate",
+   "description": "(Same as COGR 225D, HIGR 241, Phil 209D.) Continuing the introduction developed in Part I, this course examines recent key topics and problem situations in science studies. Emphasis is on recent theoretical perspectives and empirical studies in communication, history, philosophy, and sociology of science and technology, and the interplay between them.",
+   "prereqText": "SOCG 255A is a prerequisite for SOCG 255D; enrollment in Science Studies Program or instructor\u2019s permission.",
+   "prereqs": [
+    [
+     "SOCG 255A"
+    ]
+   ]
+  },
+  {
+   "code": "SOCG 256",
+   "subject": "SOCG",
+   "num": "256",
+   "title": "Sociology of Religion",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course examines religion as a social institution that liberates and oppresses, serves as catalyst for and impediment to social change, and intersects with other social institutions. Students will explore the relationship between religion and the affect, behaviors, and cognition of religious people; religious organizations and organizational leadership; and the effects of religion and religiosity on other social institutions (e.g., family, politics) and individual outcomes (e.g., health).",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 258",
+   "subject": "SOCG",
+   "num": "258",
+   "title": "Institutional Change in the Contemporary World; Latin American Societies in a Comparative Perspective",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course explores institutional change in contemporary Latin America and compares this area with other transitional societies. Issues include social consequences of economic liberalization, changing forms of inequality, dynamics of civil society, conceptions of citizenship, quality and future of democracy.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 263",
+   "subject": "SOCG",
+   "num": "263",
+   "title": "Graduate Seminar in the Sociology of Art",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This seminar explores the production and interpretation of art forms in cross-cultural context. Processes of symbolic and economic exchange in art worlds will be examined from sociological and semiotic perspectives. Contemporary and popular art forms will be analyzed as types of cultural reproduction. Graduate students will be required to submit a project abstract and final research paper of twenty-seven pages.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 264",
+   "subject": "SOCG",
+   "num": "264",
+   "title": "Economic Sociology",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course provides an overview of the classical and current debates in the economic sociology literature. It presents theories of the rise of industrial economics and addresses how economic activities are constituted and influenced by institutions, culture, and social structure.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 267",
+   "subject": "SOCG",
+   "num": "267",
+   "title": "Sociology of Gender",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Course examines social construction of gender focusing on recent contributions to the field, including micro- and macro-level topics, i.e., social psychological issues in the development of gender, gender stratification in the labor force, gender and social protest, feminist methodologies.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 269",
+   "subject": "SOCG",
+   "num": "269",
+   "title": "The Citizenship Debates",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Will examine the controversies surrounding the construction of the modern citizen and the good society of the liberal outlook, and their alternatives in the communitarian, social-democratic, nationalist, feminist, and multiculturalist perspectives.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 270",
+   "subject": "SOCG",
+   "num": "270",
+   "title": "Sociology of Education",
+   "units": "4",
+   "level": "Graduate",
+   "description": "The course will begin by discussing the history and goals of education, as well as how sociologists have sought to understand this institution. We will then examine important topics including educational inequality; the dynamics of race, class, and gender in education; higher education; and social and political forces for change in educational forms.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 278",
+   "subject": "SOCG",
+   "num": "278",
+   "title": "Immigration, Assimilation, and Identity",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course focuses on theoretical and empirical approaches to the study of immigration, assimilation, and identity. The course will focus primarily on the post-1965 immigrants, but consideration will also be given to earlier waves of immigration.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 280",
+   "subject": "SOCG",
+   "num": "280",
+   "title": "Sociology of Forced Migration",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This course analyzes the origins of refugee flows, government policies, the role of nongovernmental organizations, and refugee experiences. It explores the debates about who is a refugee, how refugees decide when and where to move, the centrality of violence and persecution, and the place of refugees within the broader category of forced migration. The theoretical discussion engages concrete examples drawn from around the world in countries of origin, asylum, resettlement, and return.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 282",
+   "subject": "SOCG",
+   "num": "282",
+   "title": "Immigration and Citizen",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Alternative theories of the relations of immigrants and host societies, and an examination on the debates on, and dynamic of, immigration expansion and restriction. Comparison of the bearing of liberal, communitarian, and ethnic citizenship discourses on the inclusion and exclusion of immigrants and their descendants.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 284",
+   "subject": "SOCG",
+   "num": "284",
+   "title": "Contemporary Biomedicine",
+   "units": "4",
+   "level": "Graduate",
+   "description": "Develops central themes in medical sociology in order to understand twentieth- and twenty-first century medical practice and research. Topics include authority and expertise; health inequalities; managed care; health activism; biomedical knowledge production; and the construction of medical objects and subjects.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 288",
+   "subject": "SOCG",
+   "num": "288",
+   "title": "Knowledge Capitalism",
+   "units": "4",
+   "level": "Graduate",
+   "description": "This seminar examines the place of scientific knowledge and information and communication technology in the transformation of capitalist economy and society. The class explores new interactions between science studies and social theory of advanced capitalism.",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 290",
+   "subject": "SOCG",
+   "num": "290",
+   "title": "Graduate Seminar",
+   "units": "4",
+   "level": "Graduate",
+   "description": "A research seminar in special topics of interest to available staff, provides majors and minors in sociology with research experience in close cooperation with faculty. (S/U grades permitted.)",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 298",
+   "subject": "SOCG",
+   "num": "298",
+   "title": "Independent Study",
+   "units": "1\u20138",
+   "level": "Graduate",
+   "description": "Tutorial individual guides study and/or independent research in an area not covered by present course offerings. (S/U grades only.)",
+   "prereqText": "graduate standing in sociology; department approval.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 299",
+   "subject": "SOCG",
+   "num": "299",
+   "title": "Thesis Research",
+   "units": "1\u201312",
+   "level": "Graduate",
+   "description": "Open to graduate students engaged in thesis research. (S/U grades only.)",
+   "prereqText": "graduate standing in sociology.",
+   "prereqs": null
+  },
+  {
+   "code": "SOCG 500",
+   "subject": "SOCG",
+   "num": "500",
+   "title": "Apprentice Teaching",
+   "units": "2\u20134",
+   "level": "Graduate",
+   "description": "Supervised teaching in lower-division contact classes, supplemented by seminar on methods in teaching sociology. (S/U grades only.)",
+   "prereqText": "graduate standing in sociology. Technology done under the direction of a faculty member. College stamp required. Pass/Not Pass grade only.",
+   "prereqs": null
+  }
+ ]
+}

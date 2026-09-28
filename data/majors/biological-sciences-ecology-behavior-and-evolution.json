@@ -1,0 +1,156 @@
+{
+ "program": {
+  "major": "Ecology, Behavior and Evolution",
+  "degree": "B.S.",
+  "department": "Biological Sciences"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "Verified against catalog. Approx. 57-60 lower-division and 48 upper-division units. Upper-division bio lab may be satisfied by BISP 196/197/199.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/BIOL-ug.html",
+  "https://catalog.ucsd.edu/courses/BIOL.html",
+  "https://biology.ucsd.edu/education/undergrad/major-minor-programs/majors/requirements/bioinformatics/index.html"
+ ],
+ "buckets": [
+  {
+   "label": "Introductory Biology",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "BILD 1",
+    "BILD 2",
+    "BILD 3",
+    "BILD 4",
+    "BILD 5"
+   ],
+   "note": "All five required."
+  },
+  {
+   "label": "General Chemistry",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "CHEM 6A",
+    "CHEM 6B",
+    "CHEM 6C"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "MATH 10A",
+    "MATH 10B",
+    "MATH 11",
+    "MATH 20A",
+    "MATH 20B"
+   ],
+   "note": "Complete MATH 10A-B + 11, OR MATH 20A-B + 11."
+  },
+  {
+   "label": "Physics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "PHYS 1A",
+    "PHYS 1AL",
+    "PHYS 1B",
+    "PHYS 1BL",
+    "PHYS 1C",
+    "PHYS 1CL",
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C"
+   ],
+   "note": "Complete PHYS 1A/1AL, 1B/1BL, 1C/1CL (with labs), OR PHYS 2A-B-C."
+  },
+  {
+   "label": "Genetics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BICD 100"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Introductory Ecology",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIEB 102"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Evolution",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIEB 150"
+   ],
+   "note": "Required."
+  },
+  {
+   "label": "Upper-division BIEB courses",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "BIEB 100-199"
+   ],
+   "note": "Four upper-division BIEB courses, at least four units each (beyond BIEB 102 and 150)."
+  },
+  {
+   "label": "BIEB laboratory or field course",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BIEB 100-199"
+   ],
+   "note": "Complete one upper-division BIEB lab or field course."
+  },
+  {
+   "label": "Upper-division biology laboratory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "BILD 100-199",
+    "BICD 100-199",
+    "BIMM 100-199",
+    "BIBC 100-199",
+    "BIPN 100-199",
+    "BIEB 100-199"
+   ],
+   "note": "One additional upper-division biology lab, at least four units; BISP 196/197/199 acceptable."
+  },
+  {
+   "label": "Major electives",
+   "division": "upper",
+   "kind": "units",
+   "needed": 10,
+   "courses": [
+    "BILD 100-199",
+    "BICD 100-199",
+    "BIMM 100-199",
+    "BIBC 100-199",
+    "BIPN 100-199",
+    "BIEB 100-199"
+   ],
+   "note": "At least ten to twelve units of approved upper-division major electives."
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "program": {
+  "major": "Studio",
+  "degree": "B.A.",
+  "department": "Visual Arts"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "UCSD General Catalog major code VA28. Letter grade, C- or better required; two-thirds residency at UCSD. Total: 6 lower-division + 12 upper-division courses. Studio honors sequence VIS 110M-N counts as one advanced course. VIS 110A-K captured as a range string. VERIFIED against catalog requirements page; all buckets confirmed.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/VIS-ug.html",
+  "https://visarts.ucsd.edu/undergrad/major-req/index.html",
+  "https://catalog.ucsd.edu/courses/VIS.html"
+ ],
+ "buckets": [
+  {
+   "label": "Required lower-division core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "VIS 11",
+    "VIS 22",
+    "VIS 22R",
+    "VIS 80"
+   ],
+   "note": "VIS 11, VIS 22 or 22R (counts once), and VIS 80 all required."
+  },
+  {
+   "label": "Lower-division art making",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 1",
+    "VIS 2",
+    "VIS 3",
+    "VIS 41",
+    "VIS 42",
+    "VIS 60",
+    "VIS 70N"
+   ],
+   "note": "Choose 2."
+  },
+  {
+   "label": "Lower-division history",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 12R",
+    "VIS 20",
+    "VIS 21A",
+    "VIS 21B",
+    "VIS 21C",
+    "VIS 83",
+    "VIS 83R",
+    "VIS 84",
+    "VIS 84B",
+    "VIS 85A",
+    "VIS 85B"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "Intermediate: Group A studio",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "VIS 104A",
+    "VIS 105A",
+    "VIS 106A",
+    "VIS 107A"
+   ],
+   "note": "Choose 3 (Performance, Drawing, Painting, Sculpture - A level)."
+  },
+  {
+   "label": "Intermediate: Group B studio",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 104B",
+    "VIS 105B",
+    "VIS 106B",
+    "VIS 107B"
+   ],
+   "note": "Choose 2 (B level)."
+  },
+  {
+   "label": "Intermediate: interdisciplinary",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 100",
+    "VIS 101",
+    "VIS 102",
+    "VIS 133",
+    "VIS 134",
+    "VIS 142",
+    "VIS 147A",
+    "VIS 163",
+    "VIS 164",
+    "VIS 165",
+    "VIS 165A",
+    "VIS 165B",
+    "VIS 174"
+   ],
+   "note": "Choose 1."
+  },
+  {
+   "label": "History and Theory",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "VIS 120-129",
+    "VIS 150-159",
+    "VIS 194S"
+   ],
+   "note": "Choose 3 from any upper-division art history (VIS 120-129) or media history (VIS 150-159, 194S)."
+  },
+  {
+   "label": "Advanced: art making",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "VIS 104C",
+    "VIS 105C",
+    "VIS 106C",
+    "VIS 107C"
+   ],
+   "note": "Choose 1 (C level)."
+  },
+  {
+   "label": "Advanced: interdisciplinary",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "VIS 100A",
+    "VIS 101A",
+    "VIS 108",
+    "VIS 110A-110K",
+    "VIS 110M",
+    "VIS 110N",
+    "VIS 130",
+    "VIS 131",
+    "VIS 132",
+    "VIS 133A",
+    "VIS 143A",
+    "VIS 143B",
+    "VIS 145A",
+    "VIS 145B",
+    "VIS 146A",
+    "VIS 146B",
+    "VIS 147B",
+    "VIS 149",
+    "VIS 167",
+    "VIS 168",
+    "VIS 169A",
+    "VIS 169B",
+    "VIS 198",
+    "VIS 199"
+   ],
+   "note": "Choose 2. Studio honors sequence VIS 110M-N counts as one course."
+  }
+ ]
+}

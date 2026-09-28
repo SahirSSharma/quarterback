@@ -1,0 +1,313 @@
+{
+ "program": {
+  "major": "Electrical Engineering and Society",
+  "degree": "BA",
+  "department": "Electrical and Computer Engineering (ECE)"
+ },
+ "catalogYear": "2025-2026",
+ "confidence": "medium",
+ "found": true,
+ "notes": "Verified against catalog: EE technical core and the four social-sciences/humanities depth sequences (History, Economics, Political Science, Sociology) are corroborated on the page, including specific HISC/HILD/HIUS/ECON/POLI/SOCI course numbers. Lower-division 72 units; upper-division 68 units; 140 units in major. Confidence kept medium because the intricate per-concentration selection rules (e.g., sociology concentration sub-groups, economics Track A vs B splits) are complex and only partially itemized in a quick fetch; exact course-count sub-rules should be reconfirmed against the department's page.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ECE-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Mathematics (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "MATH 18",
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 20E"
+   ],
+   "note": "24 units"
+  },
+  {
+   "label": "Physics (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 4,
+   "courses": [
+    "PHYS 2A",
+    "PHYS 2B",
+    "PHYS 2C",
+    "PHYS 2D",
+    "PHYS 4A",
+    "PHYS 4B",
+    "PHYS 4C",
+    "PHYS 4D",
+    "PHYS 4E"
+   ],
+   "note": "16-20 units; PHYS 2A-B-C-D or 4A-B-C-D-E"
+  },
+  {
+   "label": "Programming (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECE 15"
+   ],
+   "note": "4 units"
+  },
+  {
+   "label": "Electrical Engineering (lower-division)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "ECE 25",
+    "ECE 30",
+    "ECE 35",
+    "ECE 45",
+    "ECE 65"
+   ],
+   "note": "20 units"
+  },
+  {
+   "label": "Social Sciences/Humanities prerequisites",
+   "division": "lower",
+   "kind": "units",
+   "needed": 8,
+   "courses": [
+    "HILD 2",
+    "HILD 7",
+    "HILD 10",
+    "HILD 11",
+    "HILD 12",
+    "ECON 1",
+    "ECON 4",
+    "POLI 10",
+    "POLI 11",
+    "POLI 12",
+    "POLI 13",
+    "POLI 30",
+    "SOCI 1",
+    "SOCI 2",
+    "SOCI 30"
+   ],
+   "note": "8 units; prerequisites for the chosen upper-division depth (examples listed)"
+  },
+  {
+   "label": "Breadth courses (upper-division)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "ECE 100",
+    "ECE 101",
+    "ECE 102",
+    "ECE 103",
+    "ECE 107",
+    "ECE 109"
+   ],
+   "note": "24 units"
+  },
+  {
+   "label": "Design course (upper-division)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "ECE 191",
+    "ECE 190",
+    "ECE 111",
+    "ECE 118",
+    "ECE 155B",
+    "ECE 155C"
+   ],
+   "note": "4 units; ECE 191, or 190/111/118/155B/155C with departmental approval; may relate to a social-sciences/humanities project"
+  },
+  {
+   "label": "Technical electives (upper-division)",
+   "division": "upper",
+   "kind": "units",
+   "needed": 16,
+   "courses": [
+    "ECE 100-199",
+    "MATH 100-199",
+    "PHYS 100-199"
+   ],
+   "note": "Two upper-division engineering/math/physics courses plus two upper/lower-division engineering/math/physics/chemistry/biology"
+  },
+  {
+   "label": "Depth: History Studies",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "HISC 105",
+    "HISC 106",
+    "HISC 107",
+    "HISC 108",
+    "HISC 111",
+    "HISC 115",
+    "HISC 131",
+    "HISC 173",
+    "HILD 2A",
+    "HILD 7A",
+    "HILD 10",
+    "HILD 11",
+    "HILD 12",
+    "HIUS 140",
+    "HIUS 148",
+    "HIUS 151",
+    "HIUS 187",
+    "HIEU 143",
+    "HIGR 222",
+    "HILA 102"
+   ],
+   "note": "24 units, 6 courses; min four in a specific history field, at least one in history of science/technology, at least one colloquium"
+  },
+  {
+   "label": "Depth: Economics Studies Track A (Finance)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "ECON 100A",
+    "ECON 100B",
+    "ECON 100C",
+    "ECON 173A",
+    "ECON 173B",
+    "ECON 104",
+    "ECON 105",
+    "ECON 109",
+    "ECON 113",
+    "ECON 119",
+    "ECON 120B",
+    "ECON 141",
+    "ECON 142",
+    "ECON 143",
+    "ECON 147",
+    "ECON 150",
+    "ECON 151",
+    "ECON 155",
+    "ECON 171",
+    "ECON 172A"
+   ],
+   "note": "24 units, 6 courses; required ECON 100A-B-C, 173A-B, plus one elective from the remaining listed"
+  },
+  {
+   "label": "Depth: Economics Studies Track B (Data Analysis)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 7,
+   "courses": [
+    "ECON 100A",
+    "ECON 100B",
+    "ECON 100C",
+    "ECON 120B",
+    "ECON 120C",
+    "ECON 104",
+    "ECON 105",
+    "ECON 109",
+    "ECON 119",
+    "ECON 121",
+    "ECON 125",
+    "ECON 150",
+    "ECON 151",
+    "ECON 152",
+    "ECON 155",
+    "ECON 173A",
+    "ECON 173B",
+    "ECON 174",
+    "ECON 176",
+    "ECON 178"
+   ],
+   "note": "28 units, 7 courses; required ECON 100A-B-C, 120B-C, plus two electives from the remaining listed"
+  },
+  {
+   "label": "Depth: Political Science Studies",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 6,
+   "courses": [
+    "POLI 160AA",
+    "POLI 160AB",
+    "POLI 162",
+    "POLI 163",
+    "POLI 165",
+    "POLI 168",
+    "POLI 170A",
+    "POLI 100H",
+    "POLI 102J",
+    "POLI 103A",
+    "POLI 103B",
+    "POLI 103C",
+    "POLI 125A",
+    "POLI 126AA",
+    "POLI 142A",
+    "POLI 142J",
+    "POLI 142M"
+   ],
+   "note": "24 units, 6 courses; min four from the Policy Analysis group (160AA,160AB,162,163,165,168,170A); min two from the Additional group"
+  },
+  {
+   "label": "Depth: Sociology Studies",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 8,
+   "courses": [
+    "SOCI 1",
+    "SOCI 2",
+    "SOCI 30",
+    "SOCI 112",
+    "SOCI 113",
+    "SOCI 121",
+    "SOCI 125",
+    "SOCI 130",
+    "SOCI 132",
+    "SOCI 134A",
+    "SOCI 135",
+    "SOCI 136E",
+    "SOCI 136F",
+    "SOCI 137",
+    "SOCI 138",
+    "SOCI 139",
+    "SOCI 140",
+    "SOCI 140F",
+    "SOCI 141",
+    "SOCI 142",
+    "SOCI 143",
+    "SOCI 145",
+    "SOCI 147",
+    "SOCI 148",
+    "SOCI 148E",
+    "SOCI 149",
+    "SOCI 151",
+    "SOCI 152",
+    "SOCI 153",
+    "SOCI 157",
+    "SOCI 158",
+    "SOCI 159",
+    "SOCI 160E",
+    "SOCI 163",
+    "SOCI 167",
+    "SOCI 168E",
+    "SOCI 169",
+    "SOCI 176",
+    "SOCI 177",
+    "SOCI 178",
+    "SOCI 179",
+    "SOCI 180",
+    "SOCI 181",
+    "SOCI 182",
+    "SOCI 185",
+    "SOCI 187",
+    "SOCI 188D",
+    "SOCI 188E",
+    "SOCI 188F",
+    "SOCI 188G",
+    "SOCI 188J",
+    "SOCI 189"
+   ],
+   "note": "32 units, 8 courses; two lower-division from SOCI 1/2/30 plus six upper-division from ONE concentration: Science and Medicine, Law and Society, Economy and Society, International Studies, or General Sociology"
+  }
+ ]
+}

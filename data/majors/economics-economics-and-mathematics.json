@@ -1,0 +1,134 @@
+{
+ "program": {
+  "major": "Economics and Mathematics (Joint Major)",
+  "degree": "B.S.",
+  "department": "Economics"
+ },
+ "catalogYear": "2024-2025",
+ "confidence": "high",
+ "found": true,
+ "notes": "MA33. Verified against catalog.ucsd.edu/curric/ECON-ug.html. Joint major administered by both the Mathematics and Economics departments. Upper-division requires 15 courses total, with a minimum of 7 from one department and 8 from the other. Several requirements are choose-one-of chains. Confidence raised from medium to high after catalog corroboration; all buckets match the catalog exactly.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/ECON-ug.html",
+  "https://economics.ucsd.edu/undergraduate-program/major-minor-requirements/economics-major-ba.html",
+  "https://economics.ucsd.edu/undergraduate-program/major-minor-requirements/BusEcon.html",
+  "https://math.ucsd.edu/students/undergraduate/ma33-joint-major-in-math-econ"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division Mathematics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 5,
+   "courses": [
+    "MATH 20A",
+    "MATH 20B",
+    "MATH 20C",
+    "MATH 20D",
+    "MATH 18",
+    "MATH 31AH",
+    "MATH 31BH"
+   ],
+   "note": "MATH 20A-B-C-D plus MATH 18 (linear algebra); the honors path MATH 31AH-BH with MATH 20D may substitute. Effectively 5 lower-division math courses forming the calculus + linear algebra foundation."
+  },
+  {
+   "label": "Lower-division Economics",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ECON 1",
+    "ECON 3"
+   ],
+   "note": "ECON 1 and ECON 3, both required."
+  },
+  {
+   "label": "Real analysis / advanced calculus foundation",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 109"
+   ],
+   "note": "MATH 109 (mathematical reasoning) required; may be substituted with a four-unit upper-division MATH elective if MATH 31CH was completed."
+  },
+  {
+   "label": "Applied linear algebra / probability elective",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 102",
+    "MATH 170A",
+    "MATH 100A",
+    "MATH 100B"
+   ],
+   "note": "One course from MATH 102, MATH 170A, or the MATH 100A-B sequence."
+  },
+  {
+   "label": "Real analysis (first course)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 140A",
+    "MATH 142A"
+   ],
+   "note": "One course from MATH 140A or MATH 142A."
+  },
+  {
+   "label": "Analysis / topology (second course)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "MATH 130",
+    "MATH 140B",
+    "MATH 142B"
+   ],
+   "note": "One course from MATH 130, MATH 140B, or MATH 142B."
+  },
+  {
+   "label": "Intermediate Microeconomics",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECON 100A",
+    "ECON 100B",
+    "ECON 100C"
+   ]
+  },
+  {
+   "label": "Econometrics / probability-statistics option",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "ECON 120A",
+    "ECON 120B",
+    "ECON 120C",
+    "MATH 180A",
+    "MATH 181A",
+    "MATH 181B"
+   ],
+   "note": "Choose one option: (a) ECON 120A-B-C; OR (b) MATH 180A + ECON 120B-C; OR (c) MATH 180A + MATH 181A-B + ECON 120C. 'needed' counts a representative 3-course path; the third option totals more courses."
+  },
+  {
+   "label": "Macroeconomics / mathematical modeling option",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 2,
+   "courses": [
+    "ECON 110A",
+    "ECON 110B",
+    "MATH 171A",
+    "MATH 171B",
+    "ECON 172A",
+    "ECON 172B",
+    "ECON 171"
+   ],
+   "note": "Choose one option: ECON 110A-B; OR MATH 171A-B; OR ECON 172A-B; OR ECON 171 + ECON 172A."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "page": "SEV",
+ "name": "Seventh College",
+ "courses": [
+  {
+   "code": "SEV 20",
+   "subject": "SEV",
+   "num": "20",
+   "title": "First-Year Honors Seminar",
+   "units": "1",
+   "level": null,
+   "description": "This course introduces students to UC San Diego\u2019s vibrant intellectual community through weekly seminars and field trips led by faculty and invited speakers. Students learn about the innovative research and other artistic and scientific endeavors taking place across campus and in the surrounding community.",
+   "prereqText": "department approval required. May be taken for credit up to three times.",
+   "prereqs": null
+  },
+  {
+   "code": "SEV 195",
+   "subject": "SEV",
+   "num": "195",
+   "title": "Instructional Apprenticeship",
+   "units": "4",
+   "level": null,
+   "description": "Students, under the direction of the instructor, lead discussion sections, attend lectures, and meet regularly with the instructor to help prepare course materials.",
+   "prereqText": "department approval required.",
+   "prereqs": null
+  },
+  {
+   "code": "SEV 500",
+   "subject": "SEV",
+   "num": "500",
+   "title": "Apprentice Teaching",
+   "units": "4",
+   "level": null,
+   "description": "This course, designed for graduate students serving as teaching assistants in Seventh College courses, provides training in teaching methods, classroom management, and evaluation/grading.",
+   "prereqText": "department approval required. Students will have an application process for this course.",
+   "prereqs": null
+  }
+ ]
+}

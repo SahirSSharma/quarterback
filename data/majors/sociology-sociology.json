@@ -1,0 +1,82 @@
+{
+ "program": {
+  "major": "Sociology",
+  "degree": "B.A.",
+  "department": "Sociology"
+ },
+ "catalogYear": "",
+ "confidence": "high",
+ "found": true,
+ "notes": "General Sociology major. 4 lower-division + 12 upper-division courses. The 12 upper-division = SOCI 100 + one methods course + 10 additional upper-division sociology courses (48+ units). No concentration list applies. Fully corroborated against catalog.ucsd.edu/curric/SOC-ug.html.",
+ "sourceUrls": [
+  "https://catalog.ucsd.edu/curric/SOC-ug.html"
+ ],
+ "buckets": [
+  {
+   "label": "Lower-division required core",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 3,
+   "courses": [
+    "SOCI 1",
+    "SOCI 2",
+    "SOCI 60"
+   ],
+   "note": "All three required."
+  },
+  {
+   "label": "Lower-division elective (choose one)",
+   "division": "lower",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "SOCI 10",
+    "SOCI 20",
+    "SOCI 30",
+    "SOCI 40",
+    "SOCI 50",
+    "SOCI 70"
+   ],
+   "note": "One course from this group."
+  },
+  {
+   "label": "Sociological theory (required)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "SOCI 100"
+   ]
+  },
+  {
+   "label": "Methods course (choose one)",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 1,
+   "courses": [
+    "SOCI 102",
+    "SOCI 103M",
+    "SOCI 104",
+    "SOCI 104Q",
+    "SOCI 105",
+    "SOCI 106",
+    "SOCI 106M",
+    "SOCI 108",
+    "SOCI 109",
+    "SOCI 109M",
+    "SOCI 110"
+   ],
+   "note": "One methods course."
+  },
+  {
+   "label": "Upper-division sociology electives",
+   "division": "upper",
+   "kind": "courses",
+   "needed": 10,
+   "courses": [
+    "SOCI 100-199"
+   ],
+   "note": "Any 10 additional upper-division sociology courses beyond SOCI 100 and the methods course; 12 upper-division total, 48+ units."
+  }
+ ]
+}
