@@ -17,20 +17,22 @@ eval frozen Oct 18; video Oct 24; submit Wed Oct 28. Dates in the log are UTC, a
 2. OK to publish TritonPlan's structured public data and pure engine modules in this MIT repo? (Done under
    that assumption — `data/` and `lib/vendor/tritonplan/`; `rmp.json` and instructor data excluded.)
 3. Check the ITS conflict-of-interest question with his supervisor, or proceed?
-4. ~~Create a Vercel Blob store for the `quarterback` project.~~ Done: the private store works from inside
-   Vercel (verified 2026-09-27); its token is refused from a laptop, so local dev uses `QB_DATA_DIR=.data`.
-5. Production deploy + public URL: his explicit OK per change. **Pending:** the alias
-   https://quarterback-delta.vercel.app still serves the scaffold; the Stage B commit is verified on a preview.
-6. TritonPlan import page: pull request open on the TritonPlan repository (branch `quarterback-import`),
-   staging mirror at https://sahirssharma.github.io/tritonplan-staging/tools/quarterback-import; merge only on
-   his OK. Should demo and replay runs point their import link at the staging mirror (production tritonplan.com
-   needs a ucsd.edu sign-in)? Today the link targets tritonplan.com.
-7. New: in production, "why not?" on a demo student is a real Lightning call (≈ 600 prompt tokens, under
-   $0.0001, budget-guarded) — the one runtime Token Factory call a judge can trigger on a recorded demo. Keep
-   it live, or replay it?
-8. New: `notes/screens/` holds 82 PNGs (51 MB) from the browser verification pass. Keep them in git, or move
-   them out before the next commit?
-9. New: the two "confirm or cut" lines in `devpost/SUBMISSION.md` (Inspiration).
+4. **Promote to production.** The Stage D commit (`ff49d41`) is verified on a Vercel preview end to end
+   (live planning 11 s / $0.017, stress-test 44 s, signed import link, .ics, save, delete). The public alias
+   https://quarterback-delta.vercel.app still serves the empty scaffold. To ship, from `~/Desktop/Hackathons/quarterback`:
+   `vercel deploy --prod --yes` (his explicit OK per change).
+5. TritonPlan import page: PR https://github.com/SahirSSharma/tritonlink/pull/23 (branch `quarterback-import`),
+   live on the staging mirror https://sahirssharma.github.io/tritonplan-staging/tools/quarterback-import and
+   verified with a real signed link from the preview. Merge + `scripts/deploy.sh` only on his OK. Demo and
+   replayed runs already link to the staging mirror (production tritonplan.com needs a ucsd.edu sign-in);
+   live pasted runs link to tritonplan.com.
+6. Nebius Builders Program (https://dev.nebius.com/builders): the second $25 Token Factory credit and $25 of
+   Tavily credit; not yet applied for.
+7. The two "confirm or cut" lines in `devpost/SUBMISSION.md` (Inspiration).
+
+Resolved without him: the private Blob store works from inside Vercel (token refused locally → `QB_DATA_DIR=.data`);
+"why not?" on a demo student stays a real Lightning call (≈ $0.0001, budget-guarded); browser screenshots
+(`notes/screens/`, `notes/verify/`) are git-ignored.
 
 ## Log
 
@@ -76,3 +78,12 @@ eval frozen Oct 18; video Oct 24; submit Wed Oct 28. Dates in the log are UTC, a
   `devpost/*`, the Stage 1 checklist and `eval/README.md`. **Open:** re-record the three demos with the new
   planner (≈ $0.10–0.15) and refresh the four tests that read the old recordings; production promotion;
   TritonPlan import PR.
+- **2026-09-28 (Stage D)** — Rejected drafts carry the department row as evidence; a code-built fallback plan
+  guarantees a valid plan when every model draft fails; demo/replay runs link to the TritonPlan staging mirror;
+  UI copy made truthful; the three demos re-recorded with the shipped planner ($0.15) and replaying bit-for-bit;
+  Ultra critic max_tokens raised to 16,384 after a verdict-less run. Independent verification: 453 tests, tsc,
+  eslint and build clean; all three demo flows driven in Chromium at 390 and 1336 px; live paste-path run 3 plans
+  in 20.7 s for $0.024. Preview deployment of `ff49d41` driven live through the routes: plans in 11 s ($0.017,
+  Lightning cache hits 21–23k tokens per draft, Super repaired the fastest draft in 3 s), stress-test 44 s,
+  approval → signed staging-mirror link (534-char token) → .ics with 14 events → save → delete. Production
+  promotion awaits Sahir.
