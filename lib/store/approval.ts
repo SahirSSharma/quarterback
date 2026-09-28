@@ -12,13 +12,14 @@
 //                                           (a demo student or a replayed run), or QB_IMPORT_BASE when set
 //   planHash(plan)                        → sha256 hex of the plan's canonical JSON (sorted keys)
 //
-// Token format: `base64url(JSON.stringify(payload)) + '.' + base64url(signature)`. The signature is ECDSA
-// P-256 over SHA-256 of the UTF-8 bytes of the FIRST SEGMENT exactly as it appears in the token (the JSON is
-// not canonicalized; the receiver verifies the bytes it was given, then parses). It is the raw 64-byte r||s
-// form (`dsaEncoding: 'ieee-p1363'` in node:crypto), which is what WebCrypto's ECDSA verify consumes, so the
-// TritonPlan page can check it with `crypto.subtle.verify({name:'ECDSA', hash:'SHA-256'}, key, sig,
-// new TextEncoder().encode(segment))` against the SPKI public key in lib/keys/import-public.json.
-// verifyImportToken() here uses that same WebCrypto path so the browser's code path is what the tests cover.
+// Token format: `base64url(payloadBytes) + '.' + base64url(signature)` where payloadBytes are the UTF-8 bytes
+// of JSON.stringify(payload). The signature is ECDSA P-256 over SHA-256 of payloadBytes — the DECODED bytes,
+// not the base64url text — exactly as TritonPlan's app/js/quarterback-import.js verifies them (it decodes the
+// first segment, verifies those bytes, then parses). The JSON is not canonicalized. The signature is the raw
+// 64-byte r||s form (`dsaEncoding: 'ieee-p1363'` in node:crypto), which is what WebCrypto's ECDSA verify
+// consumes, so the page checks it with `crypto.subtle.verify({name:'ECDSA', hash:'SHA-256'}, key, sig, data)`
+// against the public key in lib/keys/import-public.json. verifyImportToken() here uses the same WebCrypto path.
+// (2026-09-28: the first version signed the base64url text and every real link was refused by the page.)
 import { createHash, createPrivateKey, sign } from 'node:crypto';
 import { loadEnv } from '../env';
 import { canonicalJson } from '../tavily/client';
@@ -35,8 +36,11 @@ export const OVERRIDE_PHRASE = 'I understand';
 export type StoredApproval = ApprovalRecord & { runId: string };
 
 export class ApprovalError extends Error {
-  constructor(public readonly status: 400 | 409, message: string) {
+  readonly status: 400 | 409;
+  // No parameter property: Node's strip-only TypeScript (used by scripts/) cannot run one.
+  constructor(status: 400 | 409, message: string) {
     super(message);
+    this.status = status;
     this.name = 'ApprovalError';
   }
 }
@@ -92,10 +96,10 @@ export function importPayload(record: ApprovalRecord, plan: Plan): ImportPayload
 const b64url = (bytes: Uint8Array | string): string => Buffer.from(bytes).toString('base64url');
 
 export function signImportToken(payload: ImportPayload, privateKeyPkcs8Base64 = signingKey()): string {
-  const segment = b64url(JSON.stringify(payload));
+  const payloadBytes = Buffer.from(JSON.stringify(payload), 'utf8');
   const key = createPrivateKey({ key: Buffer.from(privateKeyPkcs8Base64, 'base64'), format: 'der', type: 'pkcs8' });
-  const sig = sign('sha256', Buffer.from(segment), { key, dsaEncoding: 'ieee-p1363' });
-  return `${segment}.${b64url(sig)}`;
+  const sig = sign('sha256', payloadBytes, { key, dsaEncoding: 'ieee-p1363' });
+  return `${payloadBytes.toString('base64url')}.${b64url(sig)}`;
 }
 
 export async function verifyImportToken(token: string, spkiBase64: string): Promise<ImportPayload | null> {
@@ -105,11 +109,12 @@ export async function verifyImportToken(token: string, spkiBase64: string): Prom
     const key = await globalThis.crypto.subtle.importKey(
       'spki', Buffer.from(spkiBase64, 'base64'), { name: 'ECDSA', namedCurve: 'P-256' }, false, ['verify'],
     );
+    const payloadBytes = Buffer.from(segment, 'base64url');
     const valid = await globalThis.crypto.subtle.verify(
-      { name: 'ECDSA', hash: 'SHA-256' }, key, Buffer.from(sig, 'base64url'), new TextEncoder().encode(segment),
+      { name: 'ECDSA', hash: 'SHA-256' }, key, Buffer.from(sig, 'base64url'), payloadBytes,
     );
     if (!valid) return null;
-    const payload = JSON.parse(Buffer.from(segment, 'base64url').toString('utf8')) as ImportPayload;
+    const payload = JSON.parse(payloadBytes.toString('utf8')) as ImportPayload;
     return payload.v === 1 && typeof payload.approvalId === 'string' && Array.isArray(payload.plan) ? payload : null;
   } catch {
     return null;
