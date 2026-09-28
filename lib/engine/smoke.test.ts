@@ -1,0 +1,23 @@
+import { describe, it, expect } from 'vitest';
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
+
+const root = path.resolve(__dirname, '../..');
+
+describe('data snapshot', () => {
+  it('ships the verified Fall 2026 registrar deadlines', () => {
+    const cal = JSON.parse(readFileSync(path.join(root, 'data/registrar-calendar.json'), 'utf8'));
+    expect(cal.terms.FA26.dropWithoutW).toBe('2026-10-23');
+    expect(cal.terms.FA26.dropWithW).toBe('2026-11-06');
+    expect(cal.terms.WI27.dropWithoutW).toBe('2027-01-29');
+  });
+  it('ships every major and college file with buckets', () => {
+    const fs = require('node:fs') as typeof import('node:fs');
+    const majors = fs.readdirSync(path.join(root, 'data/majors')).filter((f: string) => f.endsWith('.json'));
+    expect(majors.length).toBe(144);
+    for (const f of majors) {
+      const m = JSON.parse(fs.readFileSync(path.join(root, 'data/majors', f), 'utf8'));
+      expect(Array.isArray(m.buckets)).toBe(true);
+    }
+  });
+});

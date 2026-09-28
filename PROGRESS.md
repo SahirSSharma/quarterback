@@ -28,3 +28,11 @@ eval frozen Oct 18; video Oct 24; submit Wed Oct 28.
   Department offering pages verified (CSE sheet → CSV, MATH and ECE tables, COGS index). Repo scaffolded
   (Next.js 16, TypeScript, Tailwind 4, Vitest); TritonPlan data snapshot and pure engine modules copied;
   DESIGN.md written.
+- **2026-09-27 (late)** — Public repo live at github.com/SahirSSharma/quarterback (MIT). Vercel project
+  `quarterback` created and linked; API keys set for preview/production/development. **Incident:** the very
+  first deployment of the new project landed as *Production* even with `--target=preview` (the flag is
+  honoured from the second deploy on, verified). It is the empty Next.js scaffold, nothing else; noted in
+  memory so it does not recur. Deployment protection switched from "all deployments" to "preview only" so the
+  production alias can be public for judges; the alias currently returns a Vercel `MIDDLEWARE_INVOCATION_FAILED`
+  500 while the deployment URL itself serves 200 — under investigation. Vitest wired (`npm test`), first
+  data-snapshot tests green.
