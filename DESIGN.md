@@ -62,9 +62,13 @@ Nebius removed three `nvidia/` models from serverless on Aug 31 with little noti
 5. **Review & approve** — recommended vs refused plans side by side, verifier checks as a checklist,
    consequence summary, model ledger (model, ms, tokens, cents, cache hits). **Approve** writes an
    approval record and mints a signed one-time token that every action requires:
-   - *Send to TritonPlan*: opens `tritonplan.com/tools/import?plan=<token>`; TritonPlan verifies the
-     Ed25519 signature in the browser and loads the plan into the Degree Planner (signed-in → Firestore,
-     signed-out → localStorage), with one-click restore of the previous plan.
+   - *Send to TritonPlan*: opens `tritonplan.com/tools/quarterback-import?plan=<token>` where
+     `token = base64url(JSON ImportPayload) + "." + base64url(ECDSA P-256 / SHA-256 signature)`; the page
+     verifies the signature in the browser with WebCrypto against the embedded public key (P-256 chosen over
+     Ed25519 for universal WebCrypto support), shows the plan, and on confirm writes it into the Degree
+     Planner store (`{ [quarterId]: [courseKey…] }`, signed-in → account sync, signed-out → localStorage)
+     with one-click restore of the previous plan. The private key lives only in the Quarterback server env
+     (`QB_SIGNING_KEY`).
    - *Download .ics*: deadlines, planned courses per term, collision flags.
    - *Draft advisor email*: `mailto:` prefilled; the student sends it.
 
@@ -186,6 +190,14 @@ change the decision. TritonPlan is the data source and the write target, not the
 
 RAG (the whole slice fits in context; E2 measures the gap), a database, auth, Sandboxes (no code execution
 in this product), fine-tuning (Nemotron cannot be fine-tuned on Token Factory), a chat interface.
+
+## Deployment
+
+Vercel project `quarterback` (team sss-4bfd). Public production alias: **https://quarterback-delta.vercel.app**
+(also quarterback-sss-4bfd.vercel.app). Deployment protection is preview-only, so previews need a Vercel login
+and production is public. Staging = `vercel deploy --yes --target=preview`; production = Sahir's explicit OK.
+Env vars (`NEBIUS_API_KEY`, `TAVILY_API_KEY`) are set for all environments; `QB_MODE` defaults to `mock`
+locally and must be `live` in production with `QB_DAILY_CAP_USD` / `QB_TOTAL_CAP_USD` set.
 
 ## Decisions log
 

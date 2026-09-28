@@ -1,0 +1,14 @@
+{
+  "alg": "ES256",
+  "curve": "P-256",
+  "hash": "SHA-256",
+  "spkiBase64": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEc+VqLpVpod5msYINCnPdAiBve0z3im/I7xLAlZG7pqECpyWjefC0VkgFajREsWfEzzNCXf4ySqZK6s/OLyITUw==",
+  "jwk": {
+    "kty": "EC",
+    "x": "c-VqLpVpod5msYINCnPdAiBve0z3im_I7xLAlZG7pqE",
+    "y": "Aqclo3nwtFZIBWo0RLFnxM8zQl3-MkqmSurPzi8iE1M",
+    "crv": "P-256"
+  },
+  "createdAt": "2026-09-28T02:08:59.066Z",
+  "purpose": "Verifies Quarterback → TritonPlan import tokens in the browser (WebCrypto verify)."
+}
