@@ -17,18 +17,29 @@ eval frozen Oct 18; video Oct 24; submit Wed Oct 28. Dates in the log are UTC, a
 2. OK to publish TritonPlan's structured public data and pure engine modules in this MIT repo? (Done under
    that assumption — `data/` and `lib/vendor/tritonplan/`; `rmp.json` and instructor data excluded.)
 3. Check the ITS conflict-of-interest question with his supervisor, or proceed?
-4. **Promote to production.** The Stage D commit (`ff49d41`) is verified on a Vercel preview end to end
-   (live planning 11 s / $0.017, stress-test 44 s, signed import link, .ics, save, delete). The public alias
-   https://quarterback-delta.vercel.app still serves the empty scaffold. To ship, from `~/Desktop/Hackathons/quarterback`:
-   `vercel deploy --prod --yes` (his explicit OK per change).
+4. **Promote to production (one word from him).** Commit `5132760` is verified on a Vercel preview end to end
+   (live planning 11–14 s / $0.017–0.032, stress-test 44 s, signed import link accepted and loaded on the
+   TritonPlan staging mirror, .ics, save, delete). The public alias https://quarterback-delta.vercel.app still
+   serves the empty scaffold. On his OK the orchestrator runs the production build from a clean clone of that
+   exact commit (`vercel deploy --prod --yes` — never from the working tree, never `vercel promote` of a
+   preview, because a demo student must replay at $0 only when `VERCEL_ENV=production`), then re-runs the
+   end-to-end script against the alias and checks that a demo run comes back with `mode: 'replay'` and the
+   ledger does not move.
 5. TritonPlan import page: PR https://github.com/SahirSSharma/tritonlink/pull/23 (branch `quarterback-import`),
-   live on the staging mirror https://sahirssharma.github.io/tritonplan-staging/tools/quarterback-import and
-   verified with a real signed link from the preview. Merge + `scripts/deploy.sh` only on his OK. Demo and
-   replayed runs already link to the staging mirror (production tritonplan.com needs a ucsd.edu sign-in);
-   live pasted runs link to tritonplan.com.
+   live on the staging mirror https://sahirssharma.github.io/tritonplan-staging/tools/quarterback-import. Verified
+   2026-09-28 with a link signed by the deployed preview (after fixing the signer, which had signed the base64url
+   text instead of the decoded bytes and was refused by the page): signature accepted, plan rendered, Load wrote
+   the three quarters to the Degree Planner store, Restore offered. Note: `scripts/build-staging.sh` was run from
+   the branch, so the staging mirror currently reflects `quarterback-import`, not `main`. Merge + `scripts/deploy.sh`
+   only on his OK. Demo and replayed runs link to the staging mirror (production tritonplan.com needs a ucsd.edu
+   sign-in); live pasted runs link to tritonplan.com.
 6. Nebius Builders Program (https://dev.nebius.com/builders): the second $25 Token Factory credit and $25 of
    Tavily credit; not yet applied for.
 7. The two "confirm or cut" lines in `devpost/SUBMISSION.md` (Inspiration).
+8. Did the $25 promo code (emailed 2026-09-27) get redeemed in the Token Factory console? Live spend so far
+   (all Nemotron on Token Factory, 2026-09-27 → 28): about $2.60 — probes < $0.01, first demo recordings
+   $0.38, route-level live check $0.10, planner configuration measurement $1.64, second demo recordings
+   $0.22, verification smoke $0.06, preview runs on Vercel $0.20. Tavily: 7 of the 1,000 free monthly credits.
 
 Resolved without him: the private Blob store works from inside Vercel (token refused locally → `QB_DATA_DIR=.data`);
 "why not?" on a demo student stays a real Lightning call (≈ $0.0001, budget-guarded); browser screenshots
