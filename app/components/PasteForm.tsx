@@ -32,6 +32,14 @@ export function PasteForm() {
       <label htmlFor="history" className="text-sm font-medium text-ink">
         Paste your Academic History from TritonLink
       </label>
+      <details className="text-xs text-ink-2">
+        <summary className="qb-summary cursor-pointer font-medium text-accent underline-offset-2 hover:underline">How to copy your Academic History from TSS</summary>
+        <ol className="mt-1.5 list-decimal space-y-0.5 pl-5 leading-5">
+          <li>In TritonLink, open the <span className="font-medium text-ink">Academic History</span> page.</li>
+          <li>Select all on the page (⌘A on a Mac, Ctrl+A on Windows) and copy.</li>
+          <li>Paste it into the box below and continue.</li>
+        </ol>
+      </details>
       <textarea
         id="history"
         name="history"

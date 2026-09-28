@@ -62,3 +62,42 @@ Classes URL. A `_meta` block in the file would let the engine stop hard-coding t
   W/NP/F/I/U.
 - `remainingCourses()` candidates are filtered to codes that resolve in the catalog, so college tokens such as
   `MATH 10A-10C` or `BILD X13` never reach the planner.
+
+## Intake pre-normalizer (`lib/engine/paste.ts`, 2026-09-28) — what changed and what other owners should know
+
+`fromAcademicHistory()` now runs the paste through `joinWrappedRows()` before the vendored parser. The vendored
+`ROW` matches one course per physical line; a browser copy or PDF text extraction wraps long rows, so a row
+whose title continued on the next line ("CSE 29 Systems Programming" / "and Software Tools 4.00 A 16.00"), whose
+units/grade tail dropped to the next line, or that took three lines, was silently lost. The normalizer joins a
+head-shaped line (subject + number, no complete tail) with up to two following lines and commits the join only
+when the result is a complete row; a continuation is never head-shaped, a section label or blank, so two complete
+rows are never merged and the transfer block is untouched. `lib/vendor/tritonplan/parse-academic-history.js` is
+not edited; `paste.ts` carries a byte-identical copy of its `ROW` regex (marked as such) — if upstream changes
+`ROW`, change both. Not handled: the tail on the first line with the rest of the title orphaned on the second;
+that row already parses (with a shortened title), so recall is unaffected.
+
+E4 (mock, seed 1, 30 pastes): `wrapped` row recall 40.8% → 100%, `all` 87.2% → 95.7%; every other layout
+unchanged (web / pdf / double-major / transfer 100%, precision 100% throughout).
+
+### eval/ — two assertions and two paragraphs now describe fixed behaviour (eval owner's files, not edited)
+
+- `eval/e4.test.ts:58` `expect(got.courses.length).toBeLessThan(s.courses.length)` and `eval/e4.test.ts:91`
+  `expect(all.recall).toBeLessThan(100)` encode the old one-row-per-line limit and now fail. Suggested
+  replacements: line 58 → `expect(scoreIntake(s, got)).toMatchObject({ recall: 1, precision: 1 })`; line 91 →
+  `expect(summary.find((s) => s.layout === 'wrapped')!.recall).toBe(100)` (with seed 1, n = 12 both reordered
+  cases are already 100%, so `all` is exactly 100 there).
+- `eval/README.md` lines 119–120 and `notes/eval.md` lines 16–17 ("the `wrapped` layout loses every wrapped
+  row … recall 27–50%") are out of date.
+
+### `reordered` (76.0% recall) — diagnosed, not fixed: a different class
+
+All of the loss is E4 paste #26 (33 rows → 2; the other four reordered pastes are 100%). It is the only reordered
+paste with transfer rows, and the layout prints `Academic Events`, then `Transfer Courses`, then the `Term:`
+blocks. In the vendored parser's quarter loop, `transferStarted` is set by a `Transfer Courses` / `UCSD Approx`
+line and cleared only by an `Academic Events` line, so every course row after a transfer block that is not
+followed by an events heading is skipped (`if (transferStarted) continue;`). The two surviving rows are the XFER
+equivalents. This is section-state, not wrapping, so the pre-normalizer does not touch it. The upstream one-liner
+is to also clear `transferStarted` on a `Term:` header (the `th` branch already ends the transfer block visually);
+the pre-normalizer alternative is a guarded block move (when a `Term:` line follows the transfer heading, move
+the transfer block — heading through the line before that `Term:` — to the end of the paste), about ten lines
+in `paste.ts`, if the orchestrator wants it done here rather than upstream.

@@ -154,3 +154,35 @@ engine rule behind that), Lightning appears in no route trace (explain/intake ar
 - Live check of demo (a) through the routes on 2026-09-27: $0.1032 (Super 7 calls $0.0819 / 104.8 s, Ultra 1 call
   $0.0214 / 13.5 s), 2 plans passed, 1 draft rejected, verdict recommended p-fastest, no refusal, 0 cache hits, no
   fallback model.
+
+---
+
+# UI polish pass (app/ owner, 2026-09-27, later)
+
+Details and measurements in `notes/ui-polish.md`. Requests and things other owners should know:
+
+- **engine (`lib/types.ts` `Violation`)** — please add `evidence?: OfferingEvidence` to the violations the verifier
+  emits for `not-offered` / `assumed-offered`. The "What the code rejected" panel (`app/components/RejectedDrafts.tsx`)
+  reads it structurally today (quote, source link, fetched date) and falls back to the message text, which for
+  `not-offered` embeds the quote and URL as prose. No recorded draft carries one yet (demo a's rejected draft fails on
+  `already-earned` and `prereq-unsatisfied`).
+- **New route `POST /api/explain {runId, code}` → `{code, text, entry}`** (`app/api/explain/route.ts`,
+  `ExplainResponse` in `app/lib/contracts.ts`). It rebuilds the planner's eligibility table from the stored run
+  (`buildPlannerContext(run.state, run.action, run.impact, {horizonTerms: run.options?.horizonTerms})`), calls
+  `whyNot` with `applyAction(run.state, run.action)`, appends the Lightning entry to `run.ledger`, and answers 400 for a
+  malformed or unknown course code, 503 with a hint (`fixtureFor(...).explain.code`) on `MissingFixtureError`, 502 on
+  any other failure. Its test depends on the recorded fixture the same way `lib/agents/demo-replay.test.ts` does: a
+  prompt or table change re-keys it (re-record with `scripts/record-demos.ts`).
+- **agents / deployment** — in production (`QB_MODE=live`) "why not?" on a demo student is a real Lightning call
+  (`chat()` reads `mode()`, not `serveMode(run)`), ≈ 600 prompt tokens, under $0.0001; the budget guard applies. That
+  is the one runtime Token Factory call a judge can trigger on a recorded demo. Say so if you would rather it replay.
+- **routes** — `RunRecord.rejectedDrafts` is no longer read by the UI; the panel derives from `reports` (`ok:false`).
+  The field stays in the contract. `GET /api/trace`'s `retry: 30000` is what a browser reconnect waits; 5–10 s would
+  make a dropped stream recover visibly faster.
+- **store** — resolved: the client-side FNV fingerprint is gone; the UI shows `approval.planHash.slice(0, 8)` (title
+  attribute carries the full sha256) on the review line, the approved notice and the actions panel.
+- `app/lib/planHash.ts` and its test were deleted; new pure helpers with tests: `app/lib/trace.ts` (`collapseTools`,
+  `elapsedMs`, `formatElapsed`, `stepTier`, `inFlight`) and `deadlineHeadline` / `icsCoverage` in `app/lib/deadlines.ts`;
+  new reducer messages `trace-reset`, `trace-connection`, `ledger` in `app/lib/flow.ts`.
+- The ledger table, About page live figures and the actions captions all show replayed calls as replayed; no cache
+  savings are claimed anywhere (0 cache hits in every recording).

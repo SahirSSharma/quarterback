@@ -57,8 +57,14 @@ const CELLS: Omit<E1Config, 'name'>[] = [
 ];
 export const MATRIX: E1Config[] = CELLS.map((c) => ({ ...c, name: configName(c) }));
 
-/** The agents' injection point carries the ablation: model id from the registry, thinking per config. `base` is for tests. */
+/**
+ * The agents' injection point carries the ablation: model id from the registry, thinking per config. `base` is for tests.
+ * The shipped row runs planRun's own defaults (Lightning drafts in parallel, Super repair — lib/agents/planner.ts
+ * DEFAULT_OPTIONS), which is what the recorded demo fixtures replay; the other cells force one model and one
+ * thinking setting on every call, as before.
+ */
 export function plannerTf(cfg: E1Config, base: PlannerTF = { toolLoop, forcedTool }): PlannerTF {
+  if (cfg.planner === 'super' && cfg.reasoningBudget === SHIPPED_BUDGET) return base;
   const model = cfg.planner === 'super' ? SUPER : LIGHTNING;
   const thinking: Thinking = cfg.planner === 'super' && cfg.reasoningBudget > 0 ? { enable: true, budget: cfg.reasoningBudget } : { enable: false };
   const wrappedForced: typeof forcedTool = (role, opts) => base.forcedTool(role, { ...opts, model, thinking });

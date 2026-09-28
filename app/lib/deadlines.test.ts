@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { currentTermFromCalendar, deadlinesFor, termStart } from './deadlines';
+import { currentTermFromCalendar, deadlineHeadline, deadlinesFor, icsCoverage, termStart } from './deadlines';
 
 describe('deadlinesFor', () => {
   it('reads the verified Fall 2026 dates for the requested term', () => {
@@ -36,5 +36,34 @@ describe('deadlinesFor', () => {
     expect(currentTermFromCalendar(new Date('2026-12-20T20:00:00Z'))).toBe('WI27'); // between quarters → next
     expect(currentTermFromCalendar(new Date('2027-02-01T20:00:00Z'))).toBe('WI27');
     expect(currentTermFromCalendar(new Date('2027-08-01T20:00:00Z'))).toBe('SP27'); // past the calendar → last known
+  });
+});
+
+describe('deadlineHeadline', () => {
+  const before = deadlinesFor('FA26', new Date('2026-10-01T20:00:00Z'));
+  const afterNoW = deadlinesFor('FA26', new Date('2026-10-30T20:00:00Z'));
+  const afterAll = deadlinesFor('FA26', new Date('2026-11-10T20:00:00Z'));
+
+  it('says nothing while the relevant deadline is ahead', () => {
+    expect(deadlineHeadline('drop', before)).toBeNull();
+    expect(deadlineHeadline('pnp', before)).toBeNull();
+    expect(deadlineHeadline('keep', afterAll)).toBeNull();
+  });
+
+  it('names the passed drop deadline and what a drop now means', () => {
+    expect(deadlineHeadline('drop', afterNoW)).toBe('The drop-without-a-W deadline passed on Oct 23, 2026; a drop before Nov 6, 2026 records a W.');
+    expect(deadlineHeadline('drop', afterAll)).toBe('Both drop deadlines for Fall 2026 have passed (Oct 23, 2026 and Nov 6, 2026); a drop now needs college approval.');
+  });
+
+  it('names the passed grading-option deadline for P/NP', () => {
+    expect(deadlineHeadline('pnp', afterNoW)).toBeNull(); // Nov 6 is still ahead on Oct 30
+    expect(deadlineHeadline('pnp', afterAll)).toBe('The grading-option deadline for Fall 2026 passed on Nov 6, 2026.');
+  });
+});
+
+describe('icsCoverage', () => {
+  it('splits planned terms into dated (on the calendar) and listed-only', () => {
+    expect(icsCoverage(['WI27', 'SP27', 'FA27'])).toEqual({ dated: ['WI27', 'SP27'], undated: ['FA27'] });
+    expect(icsCoverage([])).toEqual({ dated: [], undated: [] });
   });
 });

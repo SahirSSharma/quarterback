@@ -48,5 +48,13 @@ export interface LedgerSummary {
   stressTests: { today: number; cap: number };
 }
 
+/** POST /api/explain {runId, code} — "why not <code>?" answered by the extraction model over the run's eligibility table. */
+export interface ExplainResponse {
+  code: string;
+  text: string;
+  /** The call's ledger line, also appended to the run's ledger. Null only if the model emitted no usage. */
+  entry: LedgerEntry | null;
+}
+
 /** Titles for plan courses, GET /api/catalog?codes=… (Plan carries codes only). */
 export type CatalogTitles = Record<string, { title: string; units: string }>;

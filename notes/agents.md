@@ -1,107 +1,163 @@
-# Notes from the lib/agents owner (planner, critic, explain, intake; scripts/record-demos.ts)
+# Notes from the lib/agents owner (planner, critic, explain, intake; scripts/record-demos.ts, scripts/measure-planner.ts)
+
+_2026-09-28: the planner was restructured (parallel drafts → verify → repair). The sections below supersede the
+2026-09-27 notes; what still holds from them is repeated here rather than referenced._
 
 ## How to call it (app/ owner)
 
-- `planRun({state, action, impact, options?: {horizonTerms?}, onEvent?, tf?})` in `lib/agents/planner.ts` →
-  `{plans, reports, rejectedDrafts, rounds, ledger}`. `plans` are only the verifier-passing ones; `reports` has
-  one entry per submitted draft (failing ones `ok:false`), so the UI can say "the code rejected N drafts".
-  Events: `step`, `model`, `tool_call`, `tool_result`, `verifier`, then `done` / `error`, all with `step:'plan'`.
-- `stressTest({state, action?, plans, reports, evidenceIndex, onEvent?, tf?})` in `lib/agents/critic.ts` → `Verdict`.
-  Build `evidenceIndex` with `buildEvidenceIndex(plans, horizonTerms(state))` from `lib/agents/context.ts`; cache
-  the verdict under `verdictCacheKey(plans, evidenceIndex)` (sha256 of the plan set + evidence ids). Pass the
-  `action` so the critic sees the record after a drop. Refusal quotes are always the stored `OfferingEvidence`.
-- `whyNot({state, code, eligibility, onEvent?})` in `lib/agents/explain.ts` → string. `eligibility` is
-  `buildPlannerContext(state, action, impact).eligibility`; pass `applyAction(state, action)` as the state.
-- `aiIntake(text, {currentTerm})` in `lib/agents/intake.ts` → `StudentState` (`source:'ai-intake'`,
-  `confidence:'medium'` when a major file matched, else `'low'`; `warnings` list what to confirm). Call it only
-  when `fromAcademicHistory()` returns `confidence:'low'`; read `currentTerm` from the calendar, never a constant.
-- The planner plans against the record AFTER the action (`applyAction`: a drop removes the in-progress row, so
-  the course can be retaken and no longer satisfies prerequisites; P/NP and keep change nothing). `RunRecord.state`
-  should stay the original state; the plans and reports are relative to the post-action record.
-- `fixtures/runs/demo-{a,b,c}.json` (written by `scripts/record-demos.ts`) is a RunRecord-like object:
-  `{demo, recordedAt, now, state, action, impact, plans, reports, rejectedDrafts, rounds, verdict, ledger,
-  events: {t: msSinceStart, event: TraceEvent}[], explain?: {code, text}, intake?: {file, state}}`. The impact was
-  computed with `now = 2026-10-01T12:00:00-07:00`; recompute `impact.deadlines` (and the deadline notes) at request
-  time as the app mock already does. Replay the `events` with their `t` offsets for the trace panel.
-- Ledger entries are collected from `model` events (`planRun` returns them; the critic emits one). Steps are
-  `plan`, `stress-test`, `explain`, `intake`.
+- `planRun({state, action, impact, options?, onEvent?, tf?})` in `lib/agents/planner.ts` →
+  `{plans, reports, rejectedDrafts, rounds, ledger}`. Three phases:
+  1. **DRAFT** — the three strategies (`fastest` / `balanced` / `lightest`) are drafted **concurrently**, one call each on
+     the draft role (`'extract'` = Lightning, thinking off — the default), with at most ONE round of lookups
+     (`eligible_courses` / `check_prereqs` / `offering_status`) before `submit_plan`; a draft that ends without a valid
+     `submit_plan` call is forced to make one. Unit arithmetic and requirement progress are in the context pack, not
+     tools (`unit_check`, `requirement_progress`, `grade_history` are gone).
+  2. **VERIFY** — `lib/engine` `verify()` on every draft; a failing draft is never returned as a plan.
+  3. **REPAIR** — only failing drafts, concurrently, on the repair role (`'plan'` = Super, **thinking off** by default) as
+     a fresh request: same prefix and suffix, then the rejected attempt, its violations and — per bad slot — a
+     replacement menu that code computed under the verifier's own rules (`replacementMenu()` in `context.ts`). At most
+     `maxRepairRounds` (2) rounds; a draft still failing counts in `rejectedDrafts` and its report (`ok:false`) is kept.
+- `options`: `{draftRole, repairRole, reasoningEffort, maxRepairRounds, horizonTerms}`; defaults `DEFAULT_OPTIONS`
+  (`extract` / `plan` / `'none'` / 2) chosen by the measurement below; env `QB_DRAFT_ROLE=extract|plan` and
+  `QB_REPAIR_EFFORT=none|low|medium|high` override the defaults (read per run; an unknown value throws).
+  `reasoningEffort` applies to every `'plan'`-role call; `'none'` is thinking off, anything else is thinking on with that
+  `reasoning_effort` — see the measurements before turning it on.
+- `plans` come back in strategy order (fastest, balanced, lightest), only the verifier-passing ones. Plan ids are
+  `p-<label>` for the draft and `p-<label>-2` / `p-<label>-3` for its repairs, so `reports` (one per verified draft, draft
+  phase first, then each repair round) tell the story of every strategy. `rejectedDrafts === reports.filter(!ok).length`
+  still holds. `rounds` is now 1 + repair rounds run (1–3). A draft whose model call failed outright (a Token Factory
+  error that is not the spend cap) is a report with `rule: 'model-error'`, never a crash of the whole run; the spend cap
+  (`BudgetExceededError`) and a missing fixture still end the run with an `error` event.
+- Events: the same types as before (`step` / `model` / `tool_call` / `tool_result` / `verifier` / `waiting` / `done` /
+  `error`, all `step:'plan'`), plus a `step` per phase with elapsed ms — see "What the UI should render differently".
+  Every model call now emits a `model` event (`forcedTool` got an `onEvent`), so `planRun().ledger` is complete.
+- `stressTest(...)` (`critic.ts`), `whyNot(...)` (`explain.ts`) and `aiIntake(...)` (`intake.ts`) are unchanged; call them as
+  the 2026-09-27 notes said (evidence index from `buildEvidenceIndex(plans, horizonTerms(state))`, the critic sees
+  the record after the action, `aiIntake` only on `confidence:'low'`).
+- `fixtures/runs/demo-{a,b,c}.json` keep their shape (`{demo, recordedAt, now, state, action, impact, plans, reports,
+  rejectedDrafts, rounds, verdict, ledger, events, errors, explain?, intake?}`); the impact was computed at
+  `now = 2026-10-01T12:00:00-07:00`, recompute `impact.deadlines` at request time as the app already does. Replay the
+  `events` with their `t` offsets; concurrent drafts interleave in the recording exactly as they happened.
 
-## Requests / conflicts for other modules
+## What the UI should render differently
 
-- **engine (verifier) — refusals are rare by design under today's rule.** `verify()` fails a plan on
-  `not_offered` from a *department page* (`rule:'not-offered'`, error), so a plan with a blank-cell placement never
-  reaches the critic. The critic refuses only when a load-bearing course sits in a quarter whose evidence is
-  `not_offered` or `unknown (not on dept page)` — the department page covers that quarter and simply has no row
-  for the course (CSE 15L in WI27) — and the planner is told to avoid exactly those placements. Plain `unknown`
-  (FA27, beyond every published sheet; departments with no page) is a risk, never a refusal — that is my reading
-  of "not_offered or unknown on a tentative page"; the alternative (refuse on any FA27 unknown) refused all
-  three plans in a recorded attempt. Result: **none of the three recorded demos contains a refusal**
-  (a: 2 plans, 1 rejected draft, verdict recommends p-balanced; b: 3/0, p-fastest; c: 3/0, p-balanced), so the
-  DESIGN.md headline ("refuses the fastest plan and quotes the page") is not in any fixture. `notes/app.md`
-  assumed a blank cell on the tentative sheet would be a *warning* (`assumed-offered`); if the verifier adopts
-  that, a plan like the app mock's (CSE 194 in WI27) reaches the critic and gets refused with the sheet's own row
-  as the quote — then re-record everything (`QB_MODE=live QB_RECORD=1 node --import ./scripts/node-ts.ts
-  scripts/record-demos.ts`, ≈ $0.25).
-- **app** — `app/_mock/mock.test.ts` asserts `rejectedDrafts > 0` for every demo, a refusal in (a), and a
-  Lightning entry in every trace. The real recordings differ: rejected drafts 1 / 0 / 0, no refusals, and
-  Lightning appears only in (a) (explain + intake). Adjust the UI copy and that test when swapping the mock for
-  `fixtures/runs/*` ("the code rejected N drafts" must tolerate N = 0).
-- **engine** — `applyAction()` in `lib/agents/context.ts` duplicates the "after" record that `impact()` builds
-  inline. If the engine exports it, the planner will import it.
-- **engine / data** — any change to `data/catalog-overrides.json`, `data/offerings/*.json`, the requirement files or
-  `offeringStatus()` quotes changes the planner prefix / tool results and therefore the fixture keys: re-record.
-  The prefix is a pure function of `(majorFile, collegeFile, currentTerm, horizon, data snapshot)`.
-- **tf** — `forcedTool()` does not emit a `model` TraceEvent (only `toolLoop` does), so the planner and critic
-  emit one from `result.entry`. When `forcedTool()` / `structured()` retry internally, that first call reaches
-  the ledger sink but no event, so `planRun().ledger` undercounts by that call; an `onEvent` on both helpers (or
-  a returned `entries[]`) would close the gap. Exporting `forHistory()` would let the planner stop stripping
-  `reasoning` itself when it appends the rejected `submit_plans` turn to the history.
-- **tf (terminal tool)** — `toolLoop()` has no notion of a terminal tool, so `submit_plans` is kept out of the
-  loop's tool list and the model is told so; in demo (c) Super called it anyway once, got `Error: unknown tool
-  submit_plans` back, and reached the forced call one round later (recorded that way; replay is deterministic). A
-  `terminal: string[]` option on `toolLoop` (return when the model calls one of these) would save that round.
-- **types** — nothing needed. (`PlanTerm.partTime`, `OfferingsFile`, `LedgerEntry.fallback` are already there.)
+1. **Parallel drafting step.** The first `step` still starts `Context pack built: …` (the routes test pins that) and now
+   continues `… Drafting 3 plans in parallel on Nemotron 3.5 Lightning (thinking off), one lookup round allowed before
+   submit_plan.` Treat it as the phase header; the `model` / `tool_call` / `tool_result` / `verifier` events that follow,
+   up to the step `Drafted 3 plans in N ms: k passed the verifier, m rejected.`, belong to the draft phase. The three
+   drafts run at once, so their events interleave; the `verifier` event's `report.planId` (`p-fastest`, `p-balanced`,
+   `p-lightest`) is the only per-draft key — `tool_call` / `model` events carry no draft id (TraceEvent has none).
+2. **Repair step.** `Round 1: the verifier rejected k of 3 drafts; repairing fastest, balanced on Nemotron 3 Super
+   (thinking off).` opens it; `verifier` events for `p-<label>-2` follow; `Repair round 1 done in N ms: k passed, m still
+   failing.` closes it; a second round reads `Round 2: … of k repaired drafts …` and yields `p-<label>-3`. The last step
+   before `done` is the summary (`3 plans passed the verifier in N ms; 1 draft rejected.` or `No plan passed …`). The
+   eval's first-pass metric keys on `^Round \d+: the verifier rejected`, so that prefix is stable.
+3. **Per-draft status** = the latest verifier report per label: strip the `-N` suffix of `planId` to get the strategy;
+   `ok:true` → shown plan (its `Plan.label` is the strategy, its id may carry the suffix), `ok:false` with a later report of
+   the same label → repaired, `ok:false` with no later report → rejected for good (`RejectedDrafts` can list the rules).
+   A `model-error` violation means the model produced no plan for that slot.
+4. **Timing copy.** Live planning is now ≈ 6–15 s for the demo students (measured below), not 90–170 s; "About ten
+   seconds" is right again. Replay gaps stay capped at 1.5 s in the pipeline.
+5. **Ledger rows.** With three calls in flight, two `model` entries can share the same `at` millisecond; dedupe by index
+   (or `(at, model, promptTokens)`), not by `at` alone. Plan-step entries are now mostly Lightning with a Super entry per
+   repair; the model badge already handles both. `cacheHitTokens` is non-zero on Lightning calls (16–23k of a 24k prompt
+   once the prefix is warm) — the "no cache hits" copy can go.
+6. **Rejected-draft copy.** `rejectedDrafts` counts every failing verified draft including repair attempts, so "the code
+   rejected N drafts" is still true; N is larger than before (1–5 on the demos).
 
-## Design notes
+## Requests / conflicts for other modules (2026-09-28)
 
-- Context pack (demo a): shared prefix ≈ 7.7k tokens, suffix ≈ 2.6k at the agreed 4 chars/token; (b) 4.3k + 1.5k;
-  (c) 6.9k + 2.2k — the test caps the whole pack at 24k estimated (target ≤ 30k). Measured on Token Factory the
-  ratio is closer to 2 chars/token for this content (course codes, punctuation): demo (a)'s first Super request
-  billed 21.8k prompt tokens including the six tool schemas — still under 30k, but the estimate is optimistic by
-  ~2×. Per-bucket shortlist caps: 20 candidates per major bucket, 8 per college bucket, ordered
-  student-independently (offered somewhere in the horizon → fewer prerequisite groups → code); the rest are one
-  `eligible_courses(term)` call away.
-- Two kinds of `unknown`, rendered as data everywhere the model reads (table cells, `offering_status` tool,
-  critic evidence rows): `unknown (not on dept page)` — the department's page covers the quarter and has no row
-  for the course (CSE 15L in WI27); plain `unknown` — nobody publishes anything for that quarter (FA27, or HUM).
-  The planner treats the first like not_offered unless nothing else fits; the critic may refuse on it, and only
-  flags the second as a risk. `departmentPageTerms()` / `statusText()` in `lib/agents/context.ts`.
-- Live spend on 2026-09-27: $0.383 over five runs (three attempts at demo a while the prompts were tuned:
-  $0.078, $0.067, $0.101; demo b $0.065; demo c $0.072). The fixtures on disk are the last a, b and c: $0.239,
-  23 Token Factory calls (Super 18, Ultra 3, Lightning 2). Per demo: a 10 calls / $0.101 (7 Super rounds incl. one
-  verifier correction), b 8 / $0.065, c 5 / $0.072.
-- Measured model behaviour that shaped the settings (2026-09-27, three live runs of demo a, $0.25 in total):
-  Ultra with `reasoning_effort:'high'` and no budget deliberated past 6000 tokens over 45 evidence rows, with the
-  reasoning in `content` and no tool call (`finish_reason:'length'`) — now `reasoning_budget:3072`,
-  `max_tokens:8192`. Super's `reasoning_budget:4096` is advisory: one loop turn spent 6000 reasoning tokens and
-  hit the cap without a tool call — `max_tokens` raised to 8192 so an overshoot still leaves room for the calls.
-  Super only calls tools when the procedure says the FIRST reply must be tool calls; "stop calling tools when
-  done" alone produced a one-line reply and no tool use.
-- **Prompt cache did not engage** (for devpost/feedback.md): seven consecutive Super calls within 2.5 minutes,
-  each starting with the same 22k-token byte-identical prefix, all returned
-  `prompt_tokens_details: {cached_tokens: 0, created_cache_tokens: 0}` and `prompt_cache_hit_tokens: 0`
-  (see any Super fixture from `fixtures/runs/demo-a.json`'s ledger). Either the cache needs an opt-in we have
-  not found or it is not active on this model; the prefix design costs nothing either way, but the README
-  should not claim cache savings until a hit is observed.
-- Intake mapping: TritonLink prints the grade-points cell (`0.00`) next to in-progress rows; Lightning copied it
-  into `grade` and left `inProgress` false. `toStudentState()` treats anything that is not a grade as "no grade
-  yet" (in progress), so the mapping — not the prompt — carries that rule and the recorded fixture stays valid.
-- Nothing time-dependent reaches a prompt or a tool result: deadline `passed` flags and the engine's "has passed"
-  notes are left out of the suffix (the dates come from the calendar), evidence `fetchedAt` comes from data files.
-- Evidence ids are `ev_<CODE without space>_<TERM>` (`ev_CSE194_WI27`), derivable from the course and term, so the
-  critic can cite any cell of the table and the resolver can re-derive an id the model mangled.
-- `submit_plans` is not in the tool loop's tool list (toolLoop has no terminal-tool notion); the prompt tells the
-  model to stop calling tools and it is then forced. Correction rounds are forced calls only (the violations name
-  rule, course and term); ≤ 3 submit rounds, ≤ 6 tool rounds.
-- Demo actions: (a) drop CSE 29, (b) drop COGS 109, (c) drop CSE 101 — each a prerequisite for later courses on
-  the record's path, so the impact card and the re-plan have something to say.
+- **app (`app/_mock/mock.test.ts`)** — two assertions no longer hold for the re-recorded demos: "plan-step ledger entries
+  are all Super" (they are Lightning plus Super repairs) and "the planner trace calls tools" (Lightning may submit
+  directly; the recordings do call `eligible_courses`, but do not rely on it). Reported, not fixed.
+- **eval (`eval/e1.test.ts`)** — the replay test's recorded numbers for demo (a) (plans 2 / rejected 1 / first pass 3→2 /
+  6 tool calls / progress 12 of 17 / ≥ 8 calls) belong to the old recording. `eval/e1.ts` got one knob plumbed: the
+  shipped row (`super-b4096…`) now passes `base` through, i.e. runs `planRun`'s defaults, which is what the fixtures
+  replay; the other cells still force one model and one thinking setting on every call (they now override the draft
+  and the repair alike). The `MATRIX` names ("b4096") describe the old planner; renaming is the eval owner's call.
+- **README / DESIGN / devpost** — the planner row of the model table (Super, `reasoning_budget:4096`, tools, ≤ 3 rounds),
+  the tool list (`unit_check`, `requirement_progress`, `grade_history`, `submit_plans`) and `devpost/VIDEO.md`'s
+  "unit_check" line describe the old planner. New facts: Lightning drafts three plans in parallel with the shared
+  prefix cached, Super (thinking off) repairs from a code-computed menu, `submit_plan` (singular) is the terminal tool.
+- **tf (`lib/tf/helpers.ts`, additive, done here)** — `toolLoop({terminal: string[]})` returns `{…, terminal: ToolCall}`
+  when the model calls one of the named tools (nothing in that reply is run); `forcedTool({onEvent})` emits a `model`
+  event per call, retry included. Both requested in the 2026-09-27 notes; tests in `helpers.test.ts`.
+- **engine** — nothing new. `applyAction()` still duplicates the engine's "after" record.
+- **types** — nothing needed. A `draft?: string` on `tool_call` / `model` events would let the trace panel group the
+  interleaved events per draft; until then the verifier's `planId` is the key.
+
+## Measured (2026-09-28, live, scripts/measure-planner.ts)
+
+`scripts/measure-planner.ts` ran the three demos plus synthetic students from `eval/synth.ts` (seed 3, distinct
+major/college pairs) through four configurations; rows in `eval/results/planner-configs-2026-09-28.jsonl`, table in
+`eval/results.md` ("Planner configuration (measured)"; re-render at $0 with `--render <jsonl>`). The run was stopped
+after 12 students (46 runs, $1.041): all four configs on 11 students, A and C on the twelfth. Order per student was
+A (cold), C, D (cache-warm repeats of the same Lightning draft requests), then B.
+
+| Config | Drafts + repair | Students | First-pass validity | Final plans / student | ≥ 1 plan | 3 plans | Wall-clock mean / p50 / max | $ / student | Cache-hit tokens |
+|---|---|---:|---:|---:|---:|---:|---|---:|---:|
+| **A (default)** | Lightning drafts + Super repair, thinking off | 12 | 22.2% | 1.75 | 83.3% | 33.3% | 23.9 s / 27.0 s / 37.2 s | $0.0249 | 733,600 (12/12 runs) |
+| B | Super drafts, thinking off + Super repair, thinking off | 11 | 30.3% | 1.82 | 90.9% | 18.2% | 52.7 s / 50.2 s / 112.0 s | $0.0502 | 0 |
+| C | Lightning drafts, no repair | 12 | 13.9% | 0.42 | 25.0% | 8.3% | 6.7 s / 5.5 s / 16.2 s | $0.0061 | 899,184 |
+| D | Lightning drafts + Lightning repair | 11 | 15.2% | 1.18 | 90.9% | 0% | 13.4 s / 11.9 s / 24.7 s | $0.0106 | 1,433,664 |
+
+**Choice: A.** By the rule (final validity, then latency, then cost) B edges A on validity by one student (10/11 vs 10/12
+with ≥ 1 plan; 1.82 vs 1.75 plans per student, n = 11–12, within noise) but takes 2.2× longer (52.7 s mean, 112 s max —
+Super with thinking off rambles to the 1,200-token cap on ~2 of 3 draft calls before the forced submit) and costs 2×.
+Lightning drafts are not markedly worse on validity, so A is the default: `DEFAULT_OPTIONS = {draftRole:'extract',
+repairRole:'plan', reasoningEffort:'none', maxRepairRounds:2}`. D is the cheapest way to get *a* plan (90.9% ≥ 1) but
+never three, and its repairs mostly resubmit the same plan. The three demos under A: (a) 3 plans, 8.5 s, $0.0169;
+(b) 2 plans of 7 drafts, 14.1 s, $0.0203; (c) 3 plans, 8.0 s, $0.0140 — the synthetic students (unfamiliar majors, five
+courses a quarter) are what pushes A's mean to 24 s: two repair rounds of up to three concurrent Super calls at ≈ 9 s a
+round. Note the 30 s goal is met on the demos and at the p50 (27 s) but not at the max (37 s).
+
+Token Factory behaviour measured on the way (2026-09-28, live, $0.59 before the table above; total live spend $1.64):
+
+- `reasoning_effort: 'low'` does **not** bound Super's reasoning for this task: 19 of 19 thinking-on Super calls (effort
+  low, with and without `reasoning_budget: 512`) ran to the 1,200-token `max_tokens` (`finish_reason: 'length'`, no tool
+  call, 6.3–6.7 s alone, 12.4–14.3 s with three calls in flight). The pilot with the task's intended config (Lightning
+  drafts + Super repair at effort low) gave 1 plan in 34.5 s; Super drafts at effort low gave 0 plans in 55.9 s
+  (`planner-configs-2026-09-28-pilot.jsonl`). `reasoning_effort: 'none'` gives 0 reasoning tokens every time.
+- Lightning's prompt cache engages on the shared prefix, including across the three **concurrent** drafts: 16,768–23,056
+  cached of ≈ 24,000 prompt tokens on demo (a) once the prefix is warm (the first ever call of a prefix misses); on the
+  warm repeat (config C) every run had cache hits. Prompt tokens billed are ≈ 2.3× the 4-chars/token estimate.
+- Super with thinking off generates ≈ 250–330 tokens for a `submit_plan` call in 2.1–2.5 s alone, 4–7 s when three
+  calls share the account; with `tool_choice: auto` and tools present it ran to 1,200 tokens of prose on 2 of 3 draft
+  calls (config B's 37–72 s draft phases).
+- Repair prompts: given its own `submit_plan` call in the history, Super (thinking off) resubmitted the identical plan
+  (0/2); as a fresh request listing violations only, 1/8; with the code-computed replacement menu per bad slot, 5/5 on
+  the demos and 1.75 plans per student over the synthetic set. Lightning as the repairer resubmits the same plan
+  (0/12 without the menu, 2/3 then 0/1 with it) — cheap, but not a repairer.
+- Lightning drafts: with the first prompt, 33% first-pass validity on demo (a) (unit-cap from 6–8 courses a quarter,
+  prerequisite chains, already-earned courses); after the mechanical rendering (units and the needed prerequisite next
+  to each eligible course, course counts per strategy, quarters to avoid) 50% on demo (a), 22% over the harder
+  synthetic set. Every draft spent its one lookup round on `eligible_courses(WI27)` (1.4–1.9 s), then submitted in
+  1.5–4.9 s; a draft is 2 Lightning calls, ≈ $0.003, and the phase is ≈ 6 s.
+
+**Status (2026-09-28, end of this pass):** the three demos have **not** been re-recorded with the new planner yet;
+`fixtures/runs/demo-*.json` and `fixtures/tf` still hold the 2026-09-27 Super recordings, so `lib/agents/demo-replay.test.ts`
+and the E1 replay test fail with `MissingFixtureError` until `QB_MODE=live QB_RECORD=1 QB_FIXTURES_DIR=<new dir>
+node --import ./scripts/node-ts.ts scripts/record-demos.ts` is run (≈ $0.10–0.15), the five probe fixtures
+(`0460c550`, `122ce1f0`, `88ca93ae`, `c2d72fa8`, `f5c2bca5`) plus the new set replace the old `fixtures/tf`, and
+`node --import ./scripts/node-ts.ts scripts/record-demos.ts` (mock) prints "replay matches" for all three.
+
+## Design notes (still true, from 2026-09-27, plus what changed)
+
+- Context pack: shared prefix ≈ 8.0k / 4.6k / 7.3k estimated tokens for demos a / b / c at 4 chars/token; Token Factory
+  bills ≈ 19k / 8k / 17k for it (≈ 2.3 chars/token for course codes), plus a student suffix of ≈ 3–5k. The prefix is a
+  pure function of `(majorFile, collegeFile, currentTerm, horizon, data snapshot)` and is byte-identical across
+  students of the same major and college (tests in `context.test.ts` and `planner.test.ts`); the suffix is identical
+  across a student's three drafts, only the closing `## Your draft` brief differs, so Lightning's prompt cache covers
+  prefix + suffix from the second draft on.
+- The suffix now carries what a no-thinking model needs mechanically: per course in the "Eligible from" lists its units,
+  the prerequisite it still needs planned in an earlier quarter, and the horizon quarters it is `not_offered` in;
+  course counts per strategy (5 / 4 / 3 courses a quarter) in the briefs; the unit rule spelled out in the constraints.
+  Each addition removed a class of first-pass failure seen live (unit-cap from 6–8 courses, prereq chains, not_offered
+  placements, 10-unit quarters).
+- Two kinds of `unknown` (`unknown (not on dept page)` vs plain `unknown`), evidence ids `ev_<CODE>_<TERM>`, and the
+  critic's refusal rule are unchanged from the 2026-09-27 notes; none of the three recorded demos contains a refusal.
+- Nothing time-dependent reaches a prompt or a tool result (deadline `passed` flags and "has passed" notes are left out;
+  `fetchedAt` comes from data files), so fixture keys are stable across days. A second repair of an unchanged plan
+  carries the round number in its brief so it is never the byte-identical request of the first (the fixture would be
+  overwritten and replay would drift).
+- Demo actions: (a) drop CSE 29, (b) drop COGS 109, (c) drop CSE 101.

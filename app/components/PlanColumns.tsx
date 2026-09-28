@@ -7,24 +7,21 @@ import { Tag } from './ui';
 export const planLabel = (label: string) => label.charAt(0).toUpperCase() + label.slice(1);
 
 export function PlanColumns({
-  plans, reports, verdict, titles, rejectedDrafts, selectedPlanId, onSelect, overrides,
+  plans, reports, verdict, titles, selectedPlanId, onSelect, overrides,
 }: {
   plans: Plan[];
   reports: VerifierReport[];
   verdict: Verdict | null;
   titles: CatalogTitles;
-  rejectedDrafts: number;
   selectedPlanId: string | null;
   onSelect: (planId: string) => void;
   overrides: ApprovalRecord['overrides'];
 }) {
   return (
     <div className="space-y-4">
-      <p className="text-sm text-ink-2">
-        {plans.length} plan{plans.length === 1 ? '' : 's'} passed every check.
-        {rejectedDrafts > 0 && <> The code rejected <span className="font-medium text-ink">{rejectedDrafts} draft{rejectedDrafts === 1 ? '' : 's'}</span> before you saw them.</>}
-      </p>
-      <fieldset className="space-y-4">
+      <p className="text-sm text-ink-2">{plans.length === 0 ? 'No plans to show.' : `${plans.length} plan${plans.length === 1 ? '' : 's'} passed every check.`}</p>
+      {/* min-w-0: a fieldset defaults to min-inline-size: min-content, and a nowrap course title would widen it past a phone. */}
+      <fieldset className="min-w-0 space-y-4">
         <legend className="sr-only">Choose a plan</legend>
         {plans.map((plan) => {
           const report = reports.find((r) => r.planId === plan.id);
@@ -69,9 +66,9 @@ export function PlanColumns({
                 </div>
               </div>
 
-              <div className="mt-4 grid gap-3 sm:grid-cols-3">
+              <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
                 {plan.terms.map((t) => (
-                  <section key={t.term} aria-label={termName(t.term)} className="rounded-lg border border-line bg-bg/60 p-3">
+                  <section key={t.term} aria-label={termName(t.term)} className="min-w-0 rounded-lg border border-line bg-bg/60 p-3">
                     <header className="flex items-baseline justify-between gap-2">
                       <h4 className="text-sm font-medium text-ink">{termName(t.term)}</h4>
                       <span className="text-xs tabular-nums text-ink-2">{formatUnits(t.units)}</span>

@@ -2,207 +2,288 @@
 
 _Plan of record for the Nebius x NVIDIA Global AI Hackathon entry (Best Apps and Agents track). Every module
 below is a contract: an agent implementing a module may not change another module's interface without
-updating this file in the same commit._
+updating this file in the same commit. Updated 2026-09-28 (UTC) to describe the code as it exists; anything
+not yet built is marked as a target._
 
 ## The one sentence
 
 Before UC San Diego's drop deadline, Quarterback reads a student's academic record, shows exactly what
 dropping or P/NP-ing a class does to their graduation, re-plans the degree with deterministic code holding
-the veto over every model proposal, refuses the fastest plan when a department page says a course is only
-tentative (and quotes the page), and hands the approved plan to TritonPlan, the planner 9,500 UCSD students
-already use, only after the student clicks approve.
+the veto over every model proposal (a rejected draft is shown with its rule ids and, for an offering
+violation, the department page's verbatim row), stress-tests the surviving plans against the department
+offering evidence, and hands the approved plan to TritonPlan, the planner about 9,500 UCSD students have
+accounts on, only after the student clicks approve.
 
 ## Why this shape wins
 
 - **Dated, real problem.** Fall 2026: drop without a W by **Fri Oct 23**; change units / grading option /
   drop with W by **Fri Nov 6** (official Enrollment Calendar, `data/registrar-calendar.json`). Students guess.
-- **Real audience with a channel.** A link inside TritonPlan (9,564 registered UCSD accounts) before Oct 23
-  gives the video a real usage number, which almost no hackathon entry has.
-- **LLM proposes, code disposes.** A deterministic engine (vendored from TritonPlan, 100% unit-tested) decides
-  prerequisite chains, unit floors, requirement progress and plan validity. Nemotron proposes, explains and
-  refuses; it never gets to be wrong about a fact the engine knows.
-- **Refuses its own optimum with a quote.** The fastest plan is rejected when its key course is blank on a
-  department's tentative-offerings page. The refusal shows the quoted line, its URL and when it was fetched.
-- **Three Nemotron models, each with a measured reason** (ablation table in the README), on Nebius Token
-  Factory; Tavily discovers and extracts the department pages that carry offering evidence.
+- **Real audience with a channel.** A link inside TritonPlan (9,564 registered UCSD accounts, TritonPlan's own
+  registry) before Oct 23 gives the video a real usage number, which almost no hackathon entry has. Target:
+  the import page is a pull request on the TritonPlan repository (branch `quarterback-import`), not merged.
+- **LLM proposes, code disposes.** A deterministic engine (requirement modules vendored from TritonPlan, the
+  rest written here, all unit-tested) decides prerequisite chains, unit floors, requirement progress and plan
+  validity. Nemotron drafts, repairs, explains and stress-tests; it never gets to be wrong about a fact the
+  engine knows.
+- **The refusal is the code's, with a quote.** The verifier rejects any draft that places a course in a
+  quarter the department page marks as not offered, and its message carries the page's verbatim row, URL and
+  fetch time. The critic refuses a plan only when it hinges on a course the department's page covers but does
+  not list for that quarter, citing stored evidence by id; otherwise it records risks. The three recorded
+  demos show verifier rejections and critic risks, not critic refusals.
+- **Three Nemotron models, each with a measured reason** (planner configuration table in `eval/results.md`),
+  on Nebius Token Factory; Tavily discovers the department pages that carry the offering evidence.
 
 ## Nemotron model map (Token Factory, `https://api.tokenfactory.nebius.com/v1`)
 
-| Role | Model id | Settings | Why |
+| Role | Model id | Settings | Why (measured) |
 |---|---|---|---|
-| Extraction & explanation | `nvidia/Nemotron-3_5-Lightning` | `chat_template_kwargs:{enable_thinking:false}` + `reasoning_effort:"none"`, `response_format: json_schema` where structured | 1M context, $0.06/$0.24 per 1M, 350–400 ms answers. With thinking on its reasoning leaks into `content` on Token Factory and json_schema collapses; thinking off is verified 100% schema-valid. Fallback `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`. |
-| Planner | `nvidia/nemotron-3-super-120b-a12b` | `chat_template_kwargs:{enable_thinking:true, reasoning_budget:4096}`, `tools`, final answer via forced `submit_plans` tool call | Judgment over trade-offs with verified tool round-trips; $0.30/$0.90 keeps a 2-round plan ≈ $0.05; prompt-cache fields present. Fallback Ultra with budget 2048. |
-| Critic ("Stress-test") | `nvidia/Nemotron-3-Ultra-550b-a55b` | `reasoning_effort:"high"`, forced `submit_verdict` tool call | Cross-quarter feasibility under uncertainty; only place the $1/$3 model is spent; click-gated, cached, rate-limited. Fallback Super. |
+| Drafts, extraction, explanation (`extract`) | `nvidia/Nemotron-3_5-Lightning` | `chat_template_kwargs:{enable_thinking:false}` + `reasoning_effort:"none"` forced by the client for this role; `response_format: json_schema` for the intake fallback; tools + terminal `submit_plan` for the three parallel plan drafts | 1M context, $0.06/$0.24 per 1M, 600 RPM / 400k TPM. Thinking off is schema- and tool-call-valid in every run made; with thinking on its reasoning leaks into `content` on Token Factory and json_schema collapses. Its prompt cache engages on the shared prefix (33,536 of 37,732 tokens cached on the second identical-prefix call, 1,653 → ≈ 590 ms; 16,768–23,056 of ≈ 22–32k per draft on demo (a) once warm, 8,384 of ≈ 12k on demo (b); hits on 12/12 measured runs). Fallback `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`. |
+| Repair (`plan`) | `nvidia/nemotron-3-super-120b-a12b` | Thinking **off** (`enable_thinking:false` + `reasoning_effort:"none"`), forced `submit_plan`, `max_tokens: 1200`; a fresh request per repair with the rejected attempt, its violations and a code-computed replacement menu | $0.30/$0.90 per 1M; 5/5 repairs on the demos from the menu, 2.0–2.5 s per call alone. Thinking on is not used here: `reasoning_effort:"low"`, with or without `reasoning_budget: 512`, ran 19 of 19 calls to the 1,200-token cap with no tool call; `reasoning_budget` is advisory (4096 → 2,016–6,013 reasoning tokens per call in the recorded demo). Super's prompt cache never hit (0 of 23 calls with a byte-identical 22k prefix). Fallback Ultra (same request on the fallback model). |
+| Critic ("Stress-test", `critic`) | `nvidia/Nemotron-3-Ultra-550b-a55b` | `enable_thinking:true`, `reasoning_effort:"high"`, `reasoning_budget: 3072` (advisory: the recorded demo (a) call spent 6,865 reasoning tokens), forced `submit_verdict`, `max_tokens: 8192` | Cross-quarter feasibility under uncertainty; the only place the $1/$3 model is spent: click-gated, one live call per run, cached per plan set (`critic-cache/`), 20 live calls a day. Fallback Super. |
 
 Verified on 2026-09-27 with our key: tool calling round-trips (thinking on/off), streamed tool-call deltas,
 json_schema with thinking off, `chat_template_kwargs` pass-through, `reasoning_effort:"none"`, 600 RPM /
-400k TPM base limits, prompt-cache usage fields on Super.
+400k TPM on Lightning. Prompt-cache usage fields are present on Super's responses but report 0 cached tokens;
+Lightning's report the hits. Measured 2026-09-28: the planner configuration table in `eval/results.md`.
 
 Model ids live in **one** registry (`lib/tf/models.ts`) with a fallback order; a test exercises the fallback.
 Nebius removed three `nvidia/` models from serverless on Aug 31 with little notice.
 
-## User flow (v1)
+## User flow (v1, as built)
 
-1. **Start** — paste the TSS *Academic History* page, or pick a demo student (replay). Deterministic parse
-   (`lib/vendor/tritonplan/parse-academic-history.js` + `program-match.js`) → `StudentState`. If the parser
-   cannot find the major/college or the paste is unstructured, Lightning (thinking off, json_schema) reads it
-   and the UI shows what it inferred for confirmation. Nothing is stored until Save.
+1. **Start** — paste the TritonLink *Academic History* page, or pick one of three demo students (replay).
+   Deterministic parse (`lib/engine/paste.ts` re-joins wrapped rows, then the vendored
+   `parse-academic-history.js` + `program-match.js`) → `StudentState`. When the parser reports low confidence
+   or no major file, Lightning (thinking off, json_schema) reads the paste and the UI shows the warnings for
+   confirmation (`source: 'ai-intake'`, never `confidence: 'high'`).
 2. **Situation** — pick a current-term course and an action: *drop*, *switch to P/NP*, or *keep*. The
-   **Impact card** is instant and $0: downstream courses this unlocks/blocks (prereq graph), when each is
-   next offered (offerings evidence + CAPE history), delay in quarters, 12-unit full-time floor, P/NP
-   eligibility for the requirement bucket (rule-based; "check with your department" when the file is
-   silent, never a guess), deadline chips (Oct 23 / Nov 6 from the calendar for the current term),
-   requirement-progress delta.
-3. **Re-plan** — Super proposes up to three plans (fastest-to-degree / balanced / lightest) for the next
-   N quarters (default WI27, SP27, FA27) using tools; the deterministic **verifier** rejects invalid plans
-   with rule ids; Super iterates ≤3 rounds. A plan that fails verification is never shown.
-4. **Stress-test** (button) — Ultra reads the plans plus offering evidence and either recommends or
-   **refuses** a plan with `{reason, quote, url, fetched_at}`. Overriding a refusal requires typing
-   "I understand" and a reason; it is logged.
-5. **Review & approve** — recommended vs refused plans side by side, verifier checks as a checklist,
-   consequence summary, model ledger (model, ms, tokens, cents, cache hits). **Approve** writes an
-   approval record and mints a signed one-time token that every action requires:
-   - *Send to TritonPlan*: opens `tritonplan.com/tools/quarterback-import?plan=<token>` where
-     `token = base64url(JSON ImportPayload) + "." + base64url(ECDSA P-256 / SHA-256 signature)`; the page
-     verifies the signature in the browser with WebCrypto against the embedded public key (P-256 chosen over
-     Ed25519 for universal WebCrypto support), shows the plan, and on confirm writes it into the Degree
-     Planner store (`{ [quarterId]: [courseKey…] }`, signed-in → account sync, signed-out → localStorage)
-     with one-click restore of the previous plan. The private key lives only in the Quarterback server env
-     (`QB_SIGNING_KEY`).
-   - *Download .ics*: deadlines, planned courses per term, collision flags.
-   - *Draft advisor email*: `mailto:` prefilled; the student sends it.
+   **Impact card** is instant and $0: downstream courses (direct and transitive dependents in the student's
+   requirement set) and which are delayed by this alone, next listed quarter per course with its evidence row,
+   delay in quarters, units against the 12-unit floor, P/NP eligibility for the requirement bucket (rule-based;
+   "check with your department" when the file is silent, never a guess), deadline chips for the current term
+   from the calendar, requirement-progress delta, longest remaining chain, graduation risk.
+3. **Re-plan** — `planRun()`: Lightning drafts the three strategies (fastest / balanced / lightest) for the
+   next three main quarters (default WI27, SP27, FA27) **in parallel**, one call each with at most one lookup
+   round (`eligible_courses`, `check_prereqs`, `offering_status`) before the terminal `submit_plan`; the
+   deterministic **verifier** judges every draft; failing drafts are repaired concurrently by Super (thinking
+   off) from a fresh request carrying the violations and a code-computed replacement menu, at most two rounds.
+   A plan that fails verification is never shown; the rejected drafts are listed with their rule ids.
+4. **Stress-test** (button) — Ultra reads the plans plus offering evidence and either recommends a plan with
+   risks or **refuses** one, citing evidence ids that the code resolves to stored `{quote, url, fetchedAt}`
+   rows (a refusal with no stored evidence is downgraded to a risk). Overriding a refusal requires typing
+   "I understand" and a reason; it is recorded on the approval.
+5. **Review & approve** — recommended plan next to an alternative (or the refused plan), verifier checks as a
+   checklist, consequence summary, model ledger (model, ms, tokens in / out / reasoning, cache hits, cost,
+   replayed tag). **Approve** writes an approval record (sha256 of the plan's canonical JSON) and mints a
+   signed one-time token:
+   - *Send to TritonPlan*: opens `https://tritonplan.com/tools/quarterback-import?plan=<token>` where
+     `token = base64url(JSON ImportPayload) + "." + base64url(ECDSA P-256 / SHA-256 signature, raw r||s)`; the
+     page verifies the signature in the browser with WebCrypto against the public key in
+     `lib/keys/import-public.json` (P-256 chosen over Ed25519 for universal WebCrypto support), shows the plan,
+     and on confirm writes it into the Degree Planner store with a restore of the previous plan. The private
+     key lives only in the server env (`QB_SIGNING_KEY`). Target: production tritonplan.com requires a ucsd.edu
+     sign-in, so demo and replay runs should point at the staging mirror
+     (https://sahirssharma.github.io/tritonplan-staging/tools/quarterback-import); today `IMPORT_BASE` is the
+     production host.
+   - *Download .ics*: the current term's deadlines and one all-day event per planned course on each dated
+     term's first day of instruction; a term the calendar does not cover is named in an `X-QB-NOTE` line.
+   - *Draft advisor email*: `mailto:` with no recipient, body under 1,500 characters; the student sends it.
+6. **"Why not X?"** — after the plans, a course code gets a Lightning answer over the same eligibility table
+   the planner saw, with its ledger line (`POST /api/explain`).
 
-Cross-cutting: a **trace panel** streams every agent step over SSE (model badge, ms, tokens, cents, cache
-hits, tool calls). `QB_MODE=live|mock|replay`. A spend cap flips live mode to replay with a banner so the
-demo never dies during judging (Dec 1–15). Term and deadlines are parameters, never constants: in December
-the live flow plans Winter 2027 against the schedule that publishes in November.
+Cross-cutting: a **trace panel** streams every step over SSE (`GET /api/trace/[runId]` performs the planning
+work; `POST /api/plan` only creates the run); the browser reconnects on a dropped stream and the server
+replays the stored trace. `QB_MODE=live|mock|replay`. Daily and total spend caps flip a live demo student to
+its recording with a banner; a pasted record over the cap gets an error. In production a demo student always
+replays, so judging never spends on it. Term and deadlines are parameters, never constants.
 
-## Tavily (load-bearing, `lib/tavily`)
+## Tavily (load-bearing, `lib/tavily` + `lib/offerings`)
 
-Two facts change the decision and live only on the web:
+Whether a course runs in a given quarter lives only on the department pages
+(`data/offerings/sources.json`: CSE, MATH, ECE, COGS), and they move yearly.
 
-1. **Offering status by quarter** — department pages (`data/offerings/sources.json`): CSE (Google Sheet
-   behind the page, exported as CSV), MATH and ECE (HTML tables), COGS (index → sub-pages). Nightly:
-   `/search` re-discovers the pages (they move yearly), `/extract` (advanced) pulls the tables, a hash gate
-   skips unchanged pages, Lightning (thinking off, json_schema) emits
-   `{course, term, status: offered|tentative|not_offered|unknown, quote, url, fetched_at}`. `unknown` is
-   never upgraded. This is the quote Ultra cites in a refusal.
-2. **Public syllabus / course site** (stretch) — when the student wants grade projection and did not paste
-   weights: `/search` (include_domains ucsd.edu, github.io) + `/extract`; Lightning extracts weights and
-   exam windows with quotes.
+- `/search` re-discovers each page (`<DEPT> tentative course offerings 2026-2027 site:ucsd.edu`); the known URL
+  wins when the results still contain it.
+- Fetching follows the source shape: CSE and COGS embed a published Google Sheet that `/extract` cannot read,
+  so the sheet's CSV export is found in the page HTML and fetched directly; MATH is fetched as HTML directly
+  because Tavily's markdown drops empty `<td>` cells (a one-lecture-a-year course could not be placed in a
+  quarter); ECE's table is served by `/extract` as markdown (status-faithful: 0 of 555 cells differ).
+- A sha256 content hash skips unchanged sources. Parsing is deterministic (`lib/offerings/parse-*.ts`, no
+  model): a filled cell is `offered`, a blank cell `not_offered`, only FA26 / WI27 / SP27 are emitted, and the
+  page's own caveat is kept verbatim in `disclaimer`. `unknown` is never upgraded.
+- The rows feed the Impact card's evidence links, the verifier's `not-offered` rule (which quotes the row),
+  the planner's course table (status + evidence id per quarter) and the critic's evidence table.
+- Every call sets `include_usage:true`; credits land in the spend ledger and the About page. Discovery on
+  2026-09-27 cost 4 credits over 5 calls; budget ≈ 900 credits over the period against 1,000/month.
+- Target, not built: a scheduled refresh (`scripts/refresh-offerings.ts` is run by hand) and the stretch use
+  (public syllabus weights for grade projection).
 
-Every call sets `include_usage:true`; a live credit meter sits in the ledger. Budget ≈ 900 credits over the
-period against 1,000/month free plus the Builders credit.
+## Deterministic core (`lib/engine`, no model)
 
-## Deterministic core (`lib/engine`, no model, 100% unit-tested)
-
-- `StudentState` — `{ college, majors[], catalogYear, courses[{code, term, units, grade, status: earned|inProgress|planned}], transfer, apIb }`.
-- `prereqGraph` — from `data/catalog/*.json` (`prereqs` = AND of OR-groups, `prereqText` for prose flags).
-  `blockedBy(code)`, `unlocks(code)`, `satisfied(code, earnedSet)`, `chain(code)`.
-- `impact(state, action)` — prereq chain, next offering per blocked course, delay in quarters, unit floor,
-  P/NP eligibility (bucket rule + campus 25% P/NP cap flag), deadlines for the term, progress delta.
-- `requirements` — thin wrapper over vendored `allocate` / `prepareBands` / `courseProgress`.
-- `verifier(plan, state, data)` → `{ ok, violations:[{rule, message, course?, term?}] }`. Rules: prereqs
-  satisfied by the term they are needed, offering status not `not_offered`, unit min 12 / max per term,
-  no duplicates, no course already earned, bucket double-counting per engine, graduation feasibility
-  (longest remaining prerequisite chain ≤ quarters left), no "assumed offered".
-- `terms` — `qStep`, ordering, registrar deadlines lookup by term code.
+- `StudentState` — `lib/types.ts`: `{ college, collegeFile, major, majors[], majorFile, catalogYear?, courses[{code, title?, term, units, grade, status: earned|wip|planned}], transfer, gpa, currentTerm, source, confidence, warnings }`.
+- `paste` — `joinWrappedRows()` re-joins course rows a browser copy or PDF wrapped over two or three lines
+  before the vendored parser sees them (E4 wrapped-layout recall 40.8% → 100%).
+- `prereqs` — from `data/catalog/*.json` via `catalogByCode()` (`prereqs` = AND of OR-groups; the hand-checked
+  `data/catalog-overrides.json` replaces mis-parsed rows). `prereqGroups`, `satisfied`, `missingGroups`,
+  `dependents`, `transitiveDependents`, `chainQuarters`.
+- `impact(state, action, now)` — dependents and delay per course, next listed quarter with evidence, unit
+  floor, P/NP eligibility (bucket rule + the campus P/NP cap note), deadlines for the term, progress delta,
+  longest remaining chain before / after, graduation risk, and a `notes` line for every judgment.
+- `requirements` — thin wrapper over the vendored `prepareBands` / `allocate` / `courseProgress`.
+- `offerings` — `offeringStatus(code, term)`: department page row, else the FA26 Schedule of Classes snapshot
+  (`offered`), else CAPE history (`unknown`), else `unknown` with a "no source found" quote; `nextOffered`.
+- `verifier(plan, state)` → `{ planId, ok, violations:[{rule, message, course?, term?, severity}] }`, `ok` when
+  no error-severity violation. Rules: `prereq-unsatisfied` (error; a prerequisite must be complete in an
+  earlier quarter), `not-offered` (error; message quotes the row, URL and fetch time), `assumed-offered`
+  (warning; no evidence for the quarter), `unit-floor` (error below 12 unless the term is `partTime`),
+  `unit-cap` (warning above 19.5, error above 22), `duplicate`, `already-earned` (errors), `double-count`
+  (warning), `graduation-infeasible` (error). Units come from the catalog whenever every course has a fixed
+  value. The planner adds `model-error` for a draft whose model call failed.
+- `terms` — main-quarter arithmetic over the vendored `quarters.js`, `deadlinesFor(term, now)` from the
+  registrar calendar with `passed` judged on the Pacific calendar day.
 
 ## Token Factory client (`lib/tf`)
 
-- `chat(req)` thin fetch wrapper: model registry + fallback order, `chat_template_kwargs` at the top level
-  of the body, json_schema helper (`{name, schema, strict}`), forced-tool helper, streaming with tool-call
-  delta assembly, retries on 429 honouring `Retry-After`, per-request **ledger** entry
-  `{model, ms, promptTokens, completionTokens, reasoningTokens, cacheHitTokens, usd}` computed from the
-  registry prices.
-- Record/replay: in `mock` mode every request is keyed by `sha256(canonical request)` and served from
-  `fixtures/tf/`; unknown keys fail loudly (no silent fallbacks). `record` writes fixtures from live.
-- Budget guard: daily and total caps from env; over cap → `QB_MODE=replay` behaviour + banner.
+- `chat(req)` / `chatStream(req)`: model registry + fallback order, `chat_template_kwargs` at the top level of
+  the body, the `extract` role forced to thinking off, streaming with tool-call delta assembly, up to 3 retries
+  on 429 / 5xx / network errors honouring `Retry-After` (capped at 20 s), 120 s timeout per attempt, one retry
+  on the role's fallback model when a model is gone or keeps rate-limiting (ledger entry marked `fallback`),
+  per-request **ledger** entry `{model, ms, promptTokens, completionTokens, reasoningTokens, cacheHitTokens,
+  usd, replayed}` priced from the registry. No TPM queue and no `waiting` event are implemented.
+- Helpers: `structured()` (json_schema, thinking off, one correction retry), `forcedTool()` (forced tool call,
+  one correction retry, emits a `model` event per call), `toolLoop()` (assistant ↔ tool rounds; `terminal`
+  tool names end the loop without running).
+- Record/replay: in `mock` and `replay` mode every request is keyed by `sha256(stable JSON of model, messages,
+  tools, tool_choice, response_format, chat_template_kwargs, reasoning_effort, temperature, max_tokens)` and
+  served from `fixtures/tf/`; unknown keys throw `MissingFixtureError`. `QB_RECORD=1` in live mode writes
+  fixtures.
+- Budget guard: `QB_DAILY_CAP_USD` / `QB_TOTAL_CAP_USD` from env, checked against the persistent ledger's
+  non-replayed spend before every live call; `BudgetExceededError` is what the routes catch.
 
 ## Agents (`lib/agents`)
 
-- `intake` (Lightning, fallback only) → `StudentState` candidates.
-- `planner` (Super) — tools: `eligible_courses(term)`, `check_prereqs(code, term)`,
-  `requirement_progress(plan)`, `offering_status(code, term)`, `unit_check(plan)`, `grade_history(code)`,
-  `submit_plans(plans)`. Context pack ≤ 30k tokens: byte-identical shared prefix (system + major/college
-  requirement text + eligibility table) then the student suffix, so Super's prompt cache hits.
-- `critic` (Ultra) — input: plans, verifier reports, offering evidence with quotes, prereq DAG for the next
-  three quarters; output via forced `submit_verdict`.
-- `explain` (Lightning) — "why not CSE 105?" over the shortlist + eligibility table, sub-second.
+- `intake` (Lightning, fallback only) → `StudentState` with `source: 'ai-intake'`.
+- `planner` — `planRun({state, action, impact, options?, onEvent?, tf?})` → `{plans, reports, rejectedDrafts,
+  rounds, ledger}`. Phases DRAFT (three concurrent Lightning calls, tools `eligible_courses(term, planned)`,
+  `check_prereqs(code, term, planned)`, `offering_status(code, term)`, terminal `submit_plan(terms, rationale,
+  graduationTerm)`), VERIFY, REPAIR (Super, thinking off, `repairBrief` with `replacementMenu()` per bad slot,
+  ≤ 2 rounds). Options `{draftRole, repairRole, reasoningEffort, maxRepairRounds, horizonTerms}` with env
+  overrides `QB_DRAFT_ROLE`, `QB_REPAIR_EFFORT`; defaults from the measurement. Context pack: byte-identical
+  shared prefix (system + requirement buckets + course table with units, prerequisites and an evidence id per
+  quarter, a pure function of major file, college file, current term, horizon and data snapshot) then the
+  student suffix; tests assert prefix identity across students of one major/college. Plan ids `p-<label>`,
+  `p-<label>-2`, `p-<label>-3` for draft and repairs.
+- `critic` (Ultra) — input: plans, verifier reports, the evidence index (every planned course × horizon term,
+  `ev_<CODE>_<TERM>`), the student after the action, prerequisite satisfaction per planned course, the
+  department pages' caveats; output via forced `submit_verdict`; `resolveVerdict` drops unknown ids, downgrades
+  unsupported refusals to risks and only recommends a shown, non-refused plan.
+- `explain` (Lightning) — "why not CSE 105?" over the eligibility row, the record and alternatives for the
+  same requirement; ≤ 3 sentences, `max_tokens: 220`.
 
-## Storage
+## Storage (`lib/store`)
 
-No database. Vercel Blob (`BLOB_READ_WRITE_TOKEN`) holds runs, approval records, the spend ledger,
-offerings cache and replay traces as small JSON blobs; without the token (local dev, CI) the same interface
-writes to `.data/` on disk. Pasted history is processed in memory and stored only on Save (random id,
-delete button). Telemetry is aggregate only.
+No database. One `ObjectStore` interface: private Vercel Blob when `BLOB_READ_WRITE_TOKEN` is set (the token
+is accepted only from inside Vercel; locally it is refused), else `QB_DATA_DIR` or `.data/` on disk. Keys:
+`runs/<runId>`, `saved/<qb_id>`, `approvals/<apr_id>`, `traces/<runId>`, `ledger/<UTC day>/<ulid>`,
+`critic-cache/<sha256>`, `critic-quota/<UTC day>`. Only write-once keys are served from the process-local
+cache (a stale-run bug seen on the Vercel preview). The pasted text is parsed in memory; the parsed record is
+written with the run when planning starts (a serverless request has to read it back), Save copies the run to a
+shareable random id, Delete removes the run, its saved copy, its trace and its approvals. Telemetry is
+aggregate only.
 
 ## Repo layout
 
 ```
 app/                Next.js 16 App Router (TypeScript, Tailwind 4)
-  page.tsx          start (paste / demo students)
-  plan/[id]/        impact → plans → stress-test → review & approve
-  api/…             route handlers, SSE trace
+  page.tsx          start (paste / three demo students)
+  plan/             /plan?demo=a&course=CSE%2029&action=drop; plan/[id] = saved run
+  about/            how it works, model table, live spend figures, sources
+  api/…             intake, impact, plan, trace (SSE, does the work), run, stress, explain, approve, ics,
+                    save, catalog, ledger/summary
 lib/engine/         deterministic core + tests
-lib/tf/             Token Factory client, registry, ledger, record/replay
-lib/tavily/         discovery, extraction, offerings cache
-lib/agents/         intake, planner, critic, explain
-lib/vendor/tritonplan/  pure engine modules copied from TritonPlan (MIT; see NOTICE)
-data/               public UCSD data snapshot (majors 144, college GE 8, catalog 92 files/15,249 courses,
-                    CAPE grades 2,750, FA26 sections 2,267 courses, registrar calendar, offerings)
-fixtures/           recorded Token Factory / Tavily responses for mock mode
-eval/               synthetic students, eval runners, results.md
-devpost/            SUBMISSION.md (paste-ready), gallery, video run sheet, feedback.md
-scripts/            refresh-offerings, export-data, record-fixtures
+lib/tf/             Token Factory client, registry, ledger, budget, record/replay, helpers
+lib/tavily/         Tavily client (search / extract / map) with credit ledger
+lib/offerings/      discovery and the per-source parsers that write data/offerings/<DEPT>.json
+lib/agents/         intake, planner (context pack, tools), critic, explain
+lib/store/          Blob/disk store, runs, approvals + signed import token, ledger sink, .ics, mailto
+lib/vendor/tritonplan/  seven pure engine modules copied from TritonPlan (MIT; see NOTICE)
+data/               public UCSD data snapshot: 90 catalog subject files (15,249 entries), 142 major files
+                    (index: 124 high / 16 medium confidence), 8 college GE files, CAPE grades 2,750 courses,
+                    FA26 sections 2,267 courses, registrar calendar, offerings (CSE, MATH, ECE, COGS), 3 demo
+                    students, catalog prerequisite overrides
+fixtures/           recorded Token Factory (tf/) and Tavily responses, the three recorded demo runs (runs/)
+eval/               synthetic students, E1 and E4 runners, greedy optimum, results.md
+scripts/            record-demos, measure-planner, refresh-offerings, tf-probe, audit-prereqs, node-ts preload
+devpost/            SUBMISSION.md (paste-ready), GALLERY.md, VIDEO.md, feedback.md, docs.test.ts
+notes/              module owners' hand-offs and requests
 ```
 
-## Evaluation (README table, losing configs kept)
+## Evaluation (tables in `eval/results.md`; losing configs kept)
 
-- **E1 plan validity and optimality** — 200 synthetic students from the 126 high-confidence major files ×
-  8 colleges plus 40 planted-risk cases (tentative offerings, not-offered courses, heavy loads). Configs:
-  Lightning-only planner; Lightning+Super; +Ultra critic on a subset; Super `reasoning_budget` 0/2k/8k.
-  Metrics: validity first pass and after ≤3 rounds, rounds to green, progress per quarter vs a brute-force
-  optimum on the same requirement sets, refusal precision/recall on planted risks, tool-call success,
-  cache-hit ratio, $ and latency per plan.
-- **E2 recall by context length** — whole-slice reads at 100k/200k/300k on Lightning vs a RAG arm
-  (`Qwen/Qwen3-Embedding-8B`, top-20 chunks) with the same judge; measured prefill latency at 250k.
-- **E3 Tavily ablation** — plans with vs without offering evidence; % placing a course in a quarter where
-  the department page says it is not offered.
-- **E4 intake accuracy** — 30 synthetic Academic History formats.
-- **E5 live telemetry** — sessions, plans approved, verifier rejections per round, refusals shown/overridden,
-  cache-hit rate, total spend.
+- **Planner configuration** — measured live 2026-09-28: 12 students (3 demos + 9 synthetic, 12 major/college
+  pairs) × 4 configs, 46 runs, $1.04. A (Lightning drafts + Super repair, thinking off) shipped: 1.75 plans per
+  student, 83.3% of students with a plan, 23.9 s mean / 27.0 s p50 / 37.2 s max, $0.0249 per student.
+- **E1 plan validity and optimality** — target: synthetic students from the 124 high-confidence major files ×
+  8 colleges plus planted-risk cases (not-offered, unknown-on-page, heavy load). Metrics: validity first pass
+  and after repair, rounds, progress per quarter vs a greedy optimum, refusal precision and plant recall,
+  tool-call success, cache hits, $ and latency. Run so far: mock only, replaying the three old recordings.
+- **E2 recall by context length** — target: whole-slice reads on Lightning vs a RAG arm
+  (`Qwen/Qwen3-Embedding-8B`, top-20 chunks) with the same judge. Not run.
+- **E3 Tavily ablation** — target: plans with vs without offering evidence; share placing a course in a
+  quarter the department page marks not offered. Not run.
+- **E4 intake accuracy** — measured 2026-09-28, mock: 30 synthetic Academic History pastes in six layouts; row
+  precision 100%, recall 95.7% overall (100% on five layouts, 76.0% on `reordered` from one paste whose
+  transfer block precedes the quarters — upstream parser state), major file 96.7%.
+- **E5 live telemetry** — target: sessions, plans approved, verifier rejections, refusals shown / overridden,
+  cache-hit rate, total spend. Aggregate only. Not started.
 
-Deterministic tests (Vitest, target ≥150, CI at $0 in mock mode) cover the engine, verifier, schemas,
-forced-tool parsing and retry, approval state machine (no write without token), token signing, .ics,
-TPM queue, registry fallback, no-think-leak assertion on every Lightning path, and mock end-to-end snapshots.
+Deterministic tests (Vitest, CI at $0 in mock mode): 435 tests in 50 files on 2026-09-28 (430 pass, 1 skipped
+gated live run, 4 known failures pending the demo re-recording and two stale E4 assertions), plus
+`devpost/docs.test.ts`. `npx tsc --noEmit` clean.
 
 ## Stage 1 compliance
 
-Runtime Token Factory calls from the live demo (three Nemotron models, named identically in README,
-Devpost, Built With and the video audio); genuine multi-step tool-chaining workflow with a real action
-behind an approval gate; fresh public MIT repo with meaningful history; working public demo URL that
-survives Dec 1–15 (replay default, live capped); ≤3-minute YouTube video with audio; required written
-feedback on Nebius/NVIDIA tools drawn from day-1 measurements; Tavily `/search` + `/extract` calls that
-change the decision. TritonPlan is the data source and the write target, not the product.
+Runtime Token Factory calls from the live demo (three Nemotron models, named identically in README, Devpost,
+Built With and the video audio); genuine multi-step tool-chaining workflow with a real action behind an
+approval gate; fresh public MIT repo with meaningful history; working public demo URL that survives Dec 1–15
+(demo students replay in production, live capped); ≤3-minute YouTube video with audio; required written
+feedback on Nebius/NVIDIA tools drawn from measurements; Tavily `/search` + `/extract` calls that change the
+decision. TritonPlan is the data source and the write target, not the product.
 
 ## What we deliberately do not build
 
-RAG (the whole slice fits in context; E2 measures the gap), a database, auth, Sandboxes (no code execution
-in this product), fine-tuning (Nemotron cannot be fine-tuned on Token Factory), a chat interface.
+RAG (the whole slice fits in context; E2 is to measure the gap), a database, auth, Sandboxes (no code
+execution in this product), fine-tuning (Nemotron cannot be fine-tuned on Token Factory), a chat interface.
 
 ## Deployment
 
 Vercel project `quarterback` (team sss-4bfd). Public production alias: **https://quarterback-delta.vercel.app**
 (also quarterback-sss-4bfd.vercel.app). Deployment protection is preview-only, so previews need a Vercel login
-and production is public. Staging = `vercel deploy --yes --target=preview`; production = Sahir's explicit OK.
-Env vars (`NEBIUS_API_KEY`, `TAVILY_API_KEY`) are set for all environments; `QB_MODE` defaults to `mock`
-locally and must be `live` in production with `QB_DAILY_CAP_USD` / `QB_TOTAL_CAP_USD` set.
+and production is public. Staging = `vercel deploy --yes --target=preview` from a clean clone of the committed
+tree; production = Sahir's explicit OK per change. As of 2026-09-28 the alias still serves the scaffold; the
+Stage B commit is verified on a preview (SSE streamed live from `GET /api/trace`, `maxDuration = 300`
+honoured, private Blob overwrite and read-back verified from inside Vercel). Env vars: `NEBIUS_API_KEY`,
+`TAVILY_API_KEY` (all environments), `BLOB_READ_WRITE_TOKEN` (works only inside Vercel; local dev uses
+`QB_DATA_DIR=.data`), `QB_SIGNING_KEY`, and in production `QB_MODE=live` with `QB_DAILY_CAP_USD` /
+`QB_TOTAL_CAP_USD`. `QB_MODE` defaults to `mock` locally.
 
 ## Decisions log
 
 - 2026-09-27 — Chosen from a 16-proposal, 5-judge panel; runner-up "Registrar" (compile prose degree
   requirements into tested rule files) shares 60% of this data layer and is the pivot if UCSD-facing work
   becomes impossible. Postgres, Serverless Job and the nightly whole-cohort Lightning read were cut from v1
-  (Vercel Cron + on-demand slice reads instead). Registrar deadlines and department offering pages verified
-  against primary sources the same day.
+  (on-demand slice reads instead). Registrar deadlines and department offering pages verified against
+  primary sources the same day.
+- 2026-09-27 — MATH offerings parsed from the page HTML, not Tavily's markdown (empty cells dropped); COGS
+  found to be a Google Sheet like CSE, read as CSV via the iframe discovered in the page HTML; ECE via
+  `/extract`. Offering rows parsed deterministically; the earlier plan to have Lightning emit them was not
+  needed.
+- 2026-09-27 — Import token is ECDSA P-256 (WebCrypto-verifiable in every browser), not Ed25519; import URL
+  is `/tools/quarterback-import`.
+- 2026-09-28 — Planner restructured from one Super tool loop (thinking on, `reasoning_budget: 4096`, ≤ 3
+  rounds, tools `unit_check` / `requirement_progress` / `grade_history`) to parallel Lightning drafts →
+  verify → Super repair (thinking off) from a code-computed menu, chosen by the measured table (A vs B within
+  noise on validity, 2.2× faster, half the cost). Reason: `reasoning_effort:"low"` and `reasoning_budget` do
+  not bound Super's reasoning on this task, and Super's prompt cache never hits while Lightning's does.
+- 2026-09-28 — Store serves only write-once keys from the process cache (stale run seen on the preview).
+- 2026-09-28 — Intake pre-normalizer for wrapped rows (E4 wrapped recall 40.8% → 100%).

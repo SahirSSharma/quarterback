@@ -1,6 +1,6 @@
 // Typed fetch helpers for the route contracts. Errors carry the server's message when it sent one.
 import type { Action, ApprovalRecord, Impact, StudentState, Verdict } from '@/lib/types';
-import type { ApproveResponse, CatalogTitles, DemoId, RunRecord, SaveResponse } from './contracts';
+import type { ApproveResponse, CatalogTitles, DemoId, ExplainResponse, LedgerSummary, RunRecord, SaveResponse } from './contracts';
 
 async function call<T>(url: string, init?: RequestInit): Promise<T> {
   const res = await fetch(url, init);
@@ -25,4 +25,6 @@ export const api = {
   save: (runId: string) => post<SaveResponse>('/api/save', { runId }),
   remove: (runId: string) => call<{ ok: true }>(`/api/run/${encodeURIComponent(runId)}`, { method: 'DELETE' }),
   titles: (codes: string[]) => call<CatalogTitles>(`/api/catalog?codes=${encodeURIComponent(codes.join(','))}`),
+  explain: (runId: string, code: string) => post<ExplainResponse>('/api/explain', { runId, code }),
+  ledgerSummary: () => call<LedgerSummary>('/api/ledger/summary', { cache: 'no-store' }),
 };

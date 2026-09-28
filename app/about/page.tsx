@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { LiveFigures } from '../components/LiveFigures';
 
 export const metadata: Metadata = { title: 'About' };
 
@@ -50,6 +51,15 @@ export default function About() {
             </tbody>
           </table>
         </div>
+      </section>
+
+      <section className="mt-12" aria-labelledby="spend">
+        <h2 id="spend" className="text-xl font-semibold tracking-tight">What it has spent</h2>
+        <p className="mt-3 leading-7 text-ink-2">
+          Live figures: every model call this deployment has made, priced from the registry, against its daily and total caps.
+          When a cap is reached, demo students show their recorded run instead.
+        </p>
+        <div className="mt-4"><LiveFigures /></div>
       </section>
 
       <section className="mt-12">

@@ -44,3 +44,4 @@ next-env.d.ts
 .data/
 .env.hackathon
 eval/results/*.jsonl
+notes/screens/

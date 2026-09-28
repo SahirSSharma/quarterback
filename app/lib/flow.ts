@@ -1,6 +1,6 @@
 // The plan flow's state machine, in one place and pure so it can be tested without a browser.
 // PlanFlow.tsx owns the effects (fetches, SSE) and dispatches these messages.
-import type { Action, ApprovalRecord, Impact, StudentState, TraceEvent, Verdict } from '@/lib/types';
+import type { Action, ApprovalRecord, Impact, LedgerEntry, StudentState, TraceEvent, Verdict } from '@/lib/types';
 import type { ApproveResponse, CatalogTitles, RunRecord, SaveResponse } from './contracts';
 
 export type Kind = Action['kind'];
@@ -18,6 +18,8 @@ export interface Flow {
   planning: boolean;
   trace: TraceEvent[];
   traceDone: boolean;
+  /** The browser lost the trace stream and is retrying; the server replays or waits, so nothing is lost. */
+  traceReconnecting: boolean;
   run: RunRecord | null;
   titles: CatalogTitles;
   verdict: Verdict | null;
@@ -41,6 +43,9 @@ export type Msg =
   | { type: 'impact'; impact: Impact }
   | { type: 'plan-start'; runId: string }
   | { type: 'trace'; event: TraceEvent }
+  | { type: 'trace-reset' }
+  | { type: 'trace-connection'; reconnecting: boolean }
+  | { type: 'ledger'; entry: LedgerEntry }
   | { type: 'run'; run: RunRecord }
   | { type: 'titles'; titles: CatalogTitles }
   | { type: 'stress-start' }
@@ -56,7 +61,7 @@ export type Msg =
 
 /** Everything that depends on the chosen course and action; changing either wipes it. */
 const downstream = {
-  impact: null, impactLoading: false, runId: null, planning: false, trace: [], traceDone: false, run: null,
+  impact: null, impactLoading: false, runId: null, planning: false, trace: [], traceDone: false, traceReconnecting: false, run: null,
   verdict: null, stressing: false, selectedPlanId: null, overrides: [], approving: false, approval: null, saved: null, error: null,
 } satisfies Partial<Flow>;
 
@@ -95,9 +100,21 @@ export function reduce(s: Flow, m: Msg): Flow {
     case 'impact':
       return { ...s, impact: m.impact, impactLoading: false };
     case 'plan-start':
-      return { ...s, runId: m.runId, planning: true, trace: [], traceDone: false, run: null, verdict: null, selectedPlanId: null, overrides: [], approval: null, saved: null, error: null };
+      return { ...s, runId: m.runId, planning: true, trace: [], traceDone: false, traceReconnecting: false, run: null, verdict: null, selectedPlanId: null, overrides: [], approval: null, saved: null, error: null };
     case 'trace':
       return { ...s, trace: [...s.trace, m.event], traceDone: s.traceDone || m.event.type === 'done' || m.event.type === 'error' };
+    case 'trace-reset':
+      // A reconnected stream replays the stored trace from its first event.
+      return { ...s, trace: [] };
+    case 'trace-connection':
+      return { ...s, traceReconnecting: m.reconnecting };
+    case 'ledger':
+      // A model call made after planning (a "why not?" answer): one more trace row and ledger line.
+      return {
+        ...s,
+        trace: [...s.trace, { type: 'model', step: m.entry.step, at: m.entry.at, entry: m.entry }],
+        run: s.run ? { ...s.run, ledger: [...s.run.ledger, m.entry] } : s.run,
+      };
     case 'run':
       return { ...s, run: m.run, planning: false, verdict: m.run.verdict ?? s.verdict, selectedPlanId: s.selectedPlanId ?? m.run.verdict?.recommend ?? null };
     case 'titles':

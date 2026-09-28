@@ -3,7 +3,6 @@
 import { useEffect, useRef } from 'react';
 import type { ApprovalRecord, Impact, Plan, Verdict, VerifierReport } from '@/lib/types';
 import { formatUnits, termName } from '@/app/lib/format';
-import { planHash } from '@/app/lib/planHash';
 import { planLabel } from './PlanColumns';
 import { VerifierChecklist } from './VerifierChecklist';
 import { btn } from './ui';
@@ -38,8 +37,7 @@ export function ApproveDialog({ open, plan, report, impact, verdict, overrides, 
       <form method="dialog" onSubmit={(e) => { e.preventDefault(); if (!blocked) onConfirm(); }} className="p-6">
         <h2 id="approve-title" className="text-xl font-semibold tracking-tight">Approve the {planLabel(plan.label)} plan</h2>
         <p className="mt-1 text-sm text-ink-2">
-          Plan <span className="font-mono text-xs">{planHash(plan.terms)}</span>
-          {plan.graduationTerm ? ` · graduates ${termName(plan.graduationTerm)}` : ''}
+          {plan.graduationTerm ? `Graduates ${termName(plan.graduationTerm)}. ` : ''}The approval record carries the fingerprint of this plan.
         </p>
 
         <ul className="mt-4 divide-y divide-line rounded-lg border border-line text-sm">

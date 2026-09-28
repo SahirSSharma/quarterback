@@ -13,7 +13,7 @@ Scripts run with the repo's Node preload (`node --import ./scripts/node-ts.ts �
 
 | File | What |
 |---|---|
-| `synth.ts` | `makeStudents({n, seed, majors?, currentTerm?})` → deterministic `StudentState[]` from the high-confidence major files (124 in `data/majors/index.json`; DESIGN.md says 126) × the 8 college files. `plantedRisks(students)` → not_offered / unknown / heavy-load variants. `chooseAction(state)` → the drop E1 plans against. |
+| `synth.ts` | `makeStudents({n, seed, majors?, currentTerm?})` → deterministic `StudentState[]` from the high-confidence major files (124 in `data/majors/index.json`) × the 8 college files. `plantedRisks(students)` → not_offered / unknown / heavy-load variants. `chooseAction(state)` → the drop E1 plans against. |
 | `optimum.ts` | `optimum(state, terms, {unitCap})` — greedy reference plan under the verifier's hard rules; `planProgress(state, plan)` scores any plan the same way. |
 | `e1.ts` | E1 runner and its matrix; `plannerTf(cfg)` carries the model / thinking ablation through `planRun({tf})`. |
 | `e4.ts` | Academic History paste generator (six layouts), `scoreIntake(expected, got)`, E4 runner. |
@@ -50,15 +50,21 @@ QB_MODE=live node --import ./scripts/node-ts.ts eval/e1.ts --budget-usd 5 \
 ```
 
 Configs (`MATRIX` in `e1.ts`): planner `super` × reasoning budget `4096` (shipped) `0` `2048` `8192` × critic on/off,
-plus `lightning-only` × critic on/off — 10 in all. Budget `0` means thinking **off** (`enable_thinking:false`);
+plus `lightning-only` × critic on/off — 10 in all. The names describe the planner as it was on 2026-09-27 (one
+Super tool loop). Since the 2026-09-28 restructure the shipped row (`super-b4096…`) runs `planRun`'s own defaults
+(three parallel Lightning drafts, Super repair with thinking off; `DEFAULT_OPTIONS` in `lib/agents/planner.ts`),
+which is what the demo fixtures are meant to replay; every other cell still forces one model and one thinking
+setting on every call (drafts and repairs alike). Budget `0` means thinking **off** (`enable_thinking:false`);
 Lightning always runs thinking off. The override travels through the agents' `tf` seam
-(`planRun({tf: plannerTf(cfg)})` sets `model` and `thinking` on every `toolLoop` / `forcedTool` call), so no env
-var is needed and the critic keeps its own model.
+(`planRun({tf: plannerTf(cfg)})`), so no env var is needed and the critic keeps its own model.
 
 Mock mode replays the three recorded demo runs (`fixtures/runs/demo-{a,b,c}.json`). Fixture keys include the
 model, `chat_template_kwargs` and `max_tokens`, so only the shipped config (`super-b4096+critic` and its
-critic-off twin) replays; every other cell is a `no-fixture` row at $0 — the table still renders with all ten
-configs, which is what the mock run is for. `--students N` switches to synthetic students in any mode.
+critic-off twin) can replay; every other cell is a `no-fixture` row at $0 — the table still renders with all ten
+configs, which is what the mock run is for. As of 2026-09-28 the recordings predate the planner restructure, so
+the shipped row also ends `no-fixture` (and `e1.test.ts`'s replay assertion fails) until the demos are
+re-recorded with `scripts/record-demos.ts`; the E1 section of `results.md` is the 2026-09-28T05:00Z run against
+the old recordings. `--students N` switches to synthetic students in any mode.
 
 Metrics per run (JSONL fields in brackets):
 
@@ -84,16 +90,20 @@ Metrics per run (JSONL fields in brackets):
   which undercounts internal retries); replayed runs carry the recording's price and latency with `replayed: true`
   and cost nothing now.
 
-Expected cost of a full live E1, from the three recorded ledgers (`fixtures/runs/*.json`): a Super plan run
-averages **$0.054** (range $0.043–0.073, 4–7 calls, ~114 k prompt + ~22 k completion tokens, ~115 s wall); an
-Ultra stress-test **$0.025** (range $0.019–0.029, ~17 s); Lightning at the same token volume ≈ **$0.012**. One
-student through all ten configs ≈ 8 × $0.054 + 5 × $0.025 + 2 × $0.012 ≈ **$0.59** and ≈ 20 minutes serial.
-DESIGN.md's 200 + 40 students ≈ **$140** and ≈ 3 days of wall time — run slices instead:
-`--students 20 --planted 10` (30 students) ≈ $18 and ≈ 10 h; `--configs super-b4096+critic,super-b0+critic`
-narrows further. No prompt-cache saving is assumed (0 hits in every recording).
+Expected cost of a full live E1. From the three recorded ledgers (`fixtures/runs/*.json`, old Super planner): a
+Super plan run averaged **$0.054** (range $0.043–0.073, 4–7 calls, ~114 k prompt + ~22 k completion tokens,
+~115 s wall); an Ultra stress-test **$0.025** (range $0.019–0.029, ~17 s). The shipped planner measured on
+2026-09-28 (`results.md`, "Planner configuration (measured)") costs **$0.025** per student and ≈ 24 s mean, so
+the shipped row is now about half the old estimate; the other Super cells still cost what the recordings did.
+One student through all ten configs ≈ 7 × $0.054 + $0.025 + 5 × $0.025 + 2 × $0.012 ≈ **$0.55** and ≈ 15
+minutes serial. DESIGN.md's 200 + 40 students ≈ **$130** and ≈ 2.5 days of wall time — run slices instead:
+`--students 20 --planted 10` (30 students) ≈ $17 and ≈ 8 h; `--configs super-b4096+critic,super-b0+critic`
+narrows further. Prompt-cache savings exist only on Lightning calls (16–23k cached of ≈ 22–32k per draft on demo (a) once
+the prefix is warm; 8k of 12k on demo (b)); Super recorded 0 cache hits on every call, so no Super saving is assumed.
 
-Not run live here. The Lightning-only arm has never been exercised on a forced `submit_plans` call; expect
-`forcedTool` failures to show up as `error` rows, which is itself the ablation result.
+Not run live here. The Lightning-only arm has never been exercised on a forced `submit_plan` call in this
+matrix (the 2026-09-28 measurement's config D — Lightning drafts + Lightning repair — is the closest data point:
+1.18 plans per student, never three).
 
 ## E4 — intake accuracy
 
@@ -115,11 +125,14 @@ paste goes through `fromAcademicHistory()` and is scored against the student it 
   call Lightning's `aiIntake`. Mock mode counts them (`ai: 'skipped (mock)'`); live mode runs and scores them too
   (`ai-intake row recall`).
 
-Mock result (seed 1, 30 pastes): see the E4 section of `results.md`. Row precision 100%; recall 100% on web,
-pdf, double-major and transfer layouts; the `wrapped` layout loses every wrapped row (the parser needs one row
-per line — recall 27–50%); a `reordered` paste whose transfer block precedes the quarters loses all quarter rows
-(the parser's transfer state never resets); one major is ambiguous in the index itself ("Cognitive and Behavioral
-Neuroscience (B.S.)" appears under two files). Details in `notes/eval.md`.
+Mock result (seed 1, 30 pastes, 2026-09-28T05:24Z): see the E4 section of `results.md`. Row precision 100% on
+every layout; recall 100% on web, wrapped, pdf, double-major and transfer layouts (the `wrapped` layout was
+40.8% until `lib/engine/paste.ts` started re-joining wrapped rows before the vendored parser; the earlier run
+is kept as `e4-2026-09-28T05-19-02Z.jsonl`); `reordered` 76.0%, all of it one paste whose transfer block
+precedes the quarters and loses every later course row (the vendored parser's transfer state is reset only by an
+`Academic Events` heading — diagnosed in `notes/engine.md`, not fixed); overall recall 95.7%; one major is
+ambiguous in the index itself ("Cognitive and Behavioral Neuroscience (B.S.)" appears under two files), so one
+paste reads at low confidence. Details in `notes/eval.md` and `notes/engine.md`.
 
 ## Tests
 
@@ -127,4 +140,7 @@ Neuroscience (B.S.)" appears under two files). Details in `notes/eval.md`.
 npx vitest run eval
 ```
 
-36 tests, $0, network stubbed where a Token Factory call could occur.
+36 tests, $0, network stubbed where a Token Factory call could occur. On 2026-09-28 three fail for known
+reasons: `e4.test.ts:58` and `:91` still assert the wrapped-row limitation the pre-normalizer removed
+(replacements in `notes/engine.md`), and `e1.test.ts`'s replay of demo (a) needs the demos re-recorded with the
+restructured planner.

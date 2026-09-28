@@ -1,9 +1,10 @@
 // Records the three demo runs end to end and writes fixtures/runs/demo-{a,b,c}.json for replay mode.
 //
 //   QB_MODE=live QB_RECORD=1 node --import ./scripts/node-ts.ts scripts/record-demos.ts
-//       LIVE: Super plans, the verifier judges, Ultra stress-tests, Lightning explains / reads the paste; every
-//       Token Factory call is recorded under fixtures/tf and the run files are (re)written. Budget: QB_TOTAL_CAP_USD
-//       defaults to 1.00 here; the client refuses calls once the cap is reached.
+//       LIVE: the planner drafts three plans in parallel (planRun defaults), the verifier judges, Super repairs what
+//       failed, Ultra stress-tests, Lightning explains / reads the paste; every Token Factory call is recorded under
+//       fixtures/tf (QB_FIXTURES_DIR redirects) and the run files are (re)written. Budget: QB_TOTAL_CAP_USD defaults
+//       to 1.00 here; the client refuses calls once the cap is reached.
 //   node --import ./scripts/node-ts.ts scripts/record-demos.ts
 //       MOCK: the whole flow replays from fixtures/tf at $0 and is compared with the stored run files.
 //   Add `--demo a` to run one demo.
@@ -71,6 +72,8 @@ for (const demo of DEMOS) {
 
   const imp = impact(state, demo.action, NOW);
   const run = await planRun({ state, action: demo.action, impact: imp, onEvent });
+  const planMs = Date.now() - t0;
+  console.log(`  planner: ${run.plans.length} plans, ${run.rejectedDrafts} rejected, ${run.rounds} round(s), ${planMs} ms wall, $${run.ledger.reduce((n, e) => n + e.usd, 0).toFixed(4)}`);
 
   // The record is written after every expensive step so a failure in a later, cheaper step never loses the
   // Super spend; in live mode the fixtures are on disk and the run file is the durable summary of them.
@@ -134,8 +137,12 @@ for (const demo of DEMOS) {
   if (live) {
     console.log(`  wrote ${path.relative(process.cwd(), file)}: ${run.plans.length} plans, ${run.rejectedDrafts} rejected, verdict ${verdict ? (verdict.recommend ?? 'no recommendation') : 'none'}${(record.errors as string[]).length ? `, ${(record.errors as string[]).length} step(s) failed` : ''}`);
   } else if (existsSync(file)) {
-    const stored = JSON.parse(readFileSync(file, 'utf8')) as Record<string, unknown> & { plans: unknown; verdict: unknown; rejectedDrafts: number };
-    const same = stableStringify(stored.plans) === stableStringify(run.plans) && stableStringify(stored.verdict) === stableStringify(verdict) && stored.rejectedDrafts === run.rejectedDrafts;
+    const stored = JSON.parse(readFileSync(file, 'utf8')) as Record<string, unknown> & { plans: unknown; reports: unknown; verdict: unknown; rejectedDrafts: number };
+    const same =
+      stableStringify(stored.plans) === stableStringify(run.plans) &&
+      stableStringify(stored.reports) === stableStringify(run.reports) &&
+      stableStringify(stored.verdict) === stableStringify(verdict) &&
+      stored.rejectedDrafts === run.rejectedDrafts;
     console.log(same ? `  replay matches ${path.relative(process.cwd(), file)}` : `  DRIFT: replay differs from ${path.relative(process.cwd(), file)}`);
     if (!same) process.exitCode = 1;
     // The explain text and the intake state are code's reading of recorded model output; a matching replay

@@ -66,3 +66,26 @@ describe('plan flow reducer', () => {
     expect(s).toMatchObject({ stressing: false, approving: false, busy: false, error: 'nope' });
   });
 });
+
+describe('trace stream housekeeping', () => {
+  const started = play([{ type: 'student', state: f.state, course: 'CSE 29', kind: 'drop' }, { type: 'plan-start', runId: 'run_1' }]);
+
+  it('drops the events on a reconnect (the server replays from the start) without ending the trace', () => {
+    let s = reduce(started, { type: 'trace', event: { type: 'step', step: 'plan', at: 'now', message: 'first' } });
+    s = reduce(s, { type: 'trace-connection', reconnecting: true });
+    expect(s.traceReconnecting).toBe(true);
+    s = reduce(s, { type: 'trace-reset' });
+    s = reduce(s, { type: 'trace-connection', reconnecting: false });
+    expect(s).toMatchObject({ trace: [], traceDone: false, traceReconnecting: false, runId: 'run_1' });
+  });
+
+  it('adds a later model call to both the trace and the run ledger', () => {
+    const entry = { ...f.ledger[0], step: 'explain', at: 'later' };
+    let s = reduce(started, { type: 'trace', event: { type: 'done', step: 'plan', at: 'now' } });
+    s = reduce(s, { type: 'run', run });
+    s = reduce(s, { type: 'ledger', entry });
+    expect(s.trace.at(-1)).toEqual({ type: 'model', step: 'explain', at: 'later', entry });
+    expect(s.run?.ledger).toEqual([entry]);
+    expect(s.traceDone).toBe(true);
+  });
+});

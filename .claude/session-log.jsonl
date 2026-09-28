@@ -215,3 +215,35 @@
 {"t":"2026-09-28T05:00:47.721Z","session":"574b0488","kind":"edit","target":"notes/eval.md","note":"## Requests","repo":"quarterback"}
 {"t":"2026-09-28T05:01:05.693Z","session":"574b0488","kind":"test","target":null,"note":"QB_MODE=mock npx vitest run eval 2>&1 | grep -E \"Test Files|Tests |FAIL\" ; echo \"--- whole repo:\"; QB_MODE=mock npx vitest run 2>&1 | grep -E \"Test Files|Tests…","failed":false,"repo":"quarterback"}
 {"t":"2026-09-28T05:01:59.331Z","session":"574b0488","kind":"test","target":null,"note":"QB_MODE=mock npm test 2>&1 | grep -E \"Test Files|Tests |^ℹ (tests|pass|fail)\"","failed":false,"repo":"quarterback"}
+{"t":"2026-09-28T05:07:22.574Z","session":"574b0488","kind":"commit","target":null,"note":"cd ~/Desktop/Hackathons/quarterback && git add -A && git commit -q -m \"Stage B: Nemotron agents, storage + approval + signed import tokens, real routes with SS…","repo":"quarterback"}
+{"t":"2026-09-28T05:23:45.822Z","session":"574b0488","kind":"write","target":"lib/engine/paste.ts","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:24:09.528Z","session":"574b0488","kind":"write","target":"lib/engine/paste.test.ts","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:24:11.968Z","session":"574b0488","kind":"commit","target":null,"note":"cd ~/Desktop/Hackathons/quarterback && python3 - <<'EOF' p='lib/store/blob.test.ts'; s=open(p).read() old=\"\"\" vi.mocked(blobGet).mockResolvedValueOnce(null); e…","repo":"quarterback"}
+{"t":"2026-09-28T05:24:20.648Z","session":"574b0488","kind":"write","target":"lib/engine/fixtures/academic-history-demo-wrapped.txt","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:24:23.252Z","session":"574b0488","kind":"edit","target":"lib/engine/student.ts","note":"import { collegesIndex, majorsIndex, normalizeCode, type ProgramIndexEntry } from './data'; export { normalizeCode };","repo":"quarterback"}
+{"t":"2026-09-28T05:24:25.760Z","session":"574b0488","kind":"edit","target":"lib/engine/student.ts","note":"export function fromAcademicHistory(text: string, opts: { currentTerm: TermCode }): StudentState { const p = parseAcademicHistory(text) as unknown as Parsed;","repo":"quarterback"}
+{"t":"2026-09-28T05:24:29.823Z","session":"574b0488","kind":"edit","target":"lib/engine/student.test.ts","note":"import { demoStudents, earnedCodes, fromAcademicHistory, inProgress } from './student'; const fixture = () => readFileSync(path.join(process.cwd(), 'lib/engine…","repo":"quarterback"}
+{"t":"2026-09-28T05:24:33.147Z","session":"574b0488","kind":"edit","target":"lib/engine/student.test.ts","note":"it('returns a low-confidence state with warnings for an empty paste', () => {","repo":"quarterback"}
+{"t":"2026-09-28T05:25:02.098Z","session":"574b0488","kind":"write","target":"app/lib/trace.ts","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:25:20.652Z","session":"574b0488","kind":"write","target":"app/lib/trace.test.ts","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:26:51.864Z","session":"574b0488","kind":"write","target":"app/components/ModelBadge.tsx","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:27:18.757Z","session":"574b0488","kind":"write","target":"app/components/TracePanel.tsx","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:27:35.735Z","session":"574b0488","kind":"write","target":"app/components/Ledger.tsx","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:27:51.268Z","session":"574b0488","kind":"write","target":"app/components/RejectedDrafts.tsx","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:28:07.267Z","session":"574b0488","kind":"write","target":"app/components/ActionsPanel.tsx","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:28:22.939Z","session":"574b0488","kind":"write","target":"app/components/WhyNot.tsx","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:28:34.136Z","session":"574b0488","kind":"write","target":"app/components/LiveFigures.tsx","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:29:31.538Z","session":"574b0488","kind":"write","target":"lib/agents/tools.ts","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:31:09.585Z","session":"574b0488","kind":"write","target":"lib/agents/planner.ts","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:35:27.822Z","session":"574b0488","kind":"write","target":"lib/agents/planner.test.ts","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:39:33.990Z","session":"574b0488","kind":"write","target":"scripts/measure-planner.ts","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T05:59:03.874Z","session":"574b0488","kind":"write","target":"notes/ui-polish.md","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T06:12:20.180Z","session":"574b0488","kind":"write","target":"notes/agents.md","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T06:30:01.159Z","session":"574b0488","kind":"write","target":"README.md","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T06:42:25.855Z","session":"574b0488","kind":"write","target":"DESIGN.md","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T06:44:05.425Z","session":"574b0488","kind":"write","target":"CHANGELOG.md","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T06:44:44.801Z","session":"574b0488","kind":"write","target":"PROGRESS.md","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T06:45:43.119Z","session":"574b0488","kind":"write","target":"devpost/SUBMISSION.md","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T06:46:53.860Z","session":"574b0488","kind":"write","target":"devpost/feedback.md","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T06:47:43.553Z","session":"574b0488","kind":"write","target":"devpost/VIDEO.md","note":"created/replaced","repo":"quarterback"}
+{"t":"2026-09-28T06:48:12.080Z","session":"574b0488","kind":"write","target":"notes/stage1-checklist.md","note":"created/replaced","repo":"quarterback"}

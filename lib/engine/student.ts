@@ -5,6 +5,7 @@ import { parseAcademicHistory } from '../vendor/tritonplan/parse-academic-histor
 import { MATCH, indexPrograms, isConfident, matchCollege, matchProgram, splitPrograms } from '../vendor/tritonplan/program-match.js';
 import type { CourseCode, StudentCourse, StudentState, TermCode } from '../types';
 import { collegesIndex, majorsIndex, normalizeCode, type ProgramIndexEntry } from './data';
+import { joinWrappedRows } from './paste';
 
 export { normalizeCode };
 
@@ -22,7 +23,8 @@ interface Match {
 }
 
 export function fromAcademicHistory(text: string, opts: { currentTerm: TermCode }): StudentState {
-  const p = parseAcademicHistory(text) as unknown as Parsed;
+  // The vendored parser reads one course per line; a browser copy or PDF text wraps long rows over two or three.
+  const p = parseAcademicHistory(joinWrappedRows(text)) as unknown as Parsed;
   const currentTerm = String(opts.currentTerm).toUpperCase();
   const warnings: string[] = [];
 

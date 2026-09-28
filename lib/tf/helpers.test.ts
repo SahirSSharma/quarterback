@@ -149,6 +149,22 @@ describe('forcedTool', () => {
   });
 });
 
+describe('forcedTool onEvent', () => {
+  const plans = z.object({ plans: z.array(z.object({ label: z.string(), courses: z.array(z.string()) })) });
+  const good = { plans: [{ label: 'balanced', courses: ['CSE 8B'] }] };
+  it('emits one model event per call made, the correction retry included', async () => {
+    deps.fetch = scriptedFetch([
+      json(completion({ content: 'I ran out of' }, undefined, 'length')),
+      json(completion({ tool_calls: [toolCall('submit_plans', good)] })),
+    ]).fn;
+    const events: TraceEvent[] = [];
+    await forcedTool('plan', { messages: [{ role: 'user', content: 'plan it' }], tool: { name: 'submit_plans', schema: plans }, step: 'plan', onEvent: (e) => events.push(e) });
+    expect(events.map((e) => e.type)).toEqual(['model', 'model']);
+    expect(events.map((e) => (e.type === 'model' ? e.entry : null))).toEqual(ledger.entries);
+    expect(events.every((e) => e.step === 'plan')).toBe(true);
+  });
+});
+
 describe('toolLoop', () => {
   const offering = {
     def: {
@@ -201,5 +217,27 @@ describe('toolLoop', () => {
     expect(round2[2].content).toMatch(/^Error: arguments are not valid JSON/);
     expect(round2[3]).toMatchObject({ role: 'tool', tool_call_id: 'call_c', content: 'Error: unknown tool nope' });
     expect(out.messages.at(-1)).toMatchObject({ role: 'tool', tool_call_id: 'call_c' });
+  });
+
+  it('returns a terminal tool call without running it, leaving the history ready for a follow-up', async () => {
+    const submit = { def: { type: 'function' as const, function: { name: 'submit_plan', parameters: { type: 'object' } } }, run: vi.fn(() => { throw new Error('never run'); }) };
+    const lookup = toolCall('offering_status', { course: 'CSE 100' }, 'call_a');
+    const done = toolCall('submit_plan', { terms: [] }, 'call_b');
+    const { fn, calls } = scriptedFetch([
+      json(completion({ tool_calls: [lookup] }, undefined, 'tool_calls')),
+      json(completion({ tool_calls: [done, lookup], reasoning: 'r' }, undefined, 'tool_calls')),
+    ]);
+    deps.fetch = fn;
+    const events: TraceEvent[] = [];
+    const runsBefore = offering.run.mock.calls.length;
+    const out = await toolLoop('plan', { messages, tools: [offering, submit], maxRounds: 3, terminal: ['submit_plan'], onEvent: (e) => events.push(e) });
+    expect(out.terminal).toEqual(done);
+    expect(out.rounds).toBe(2);
+    expect(out.exhausted).toBe(false);
+    expect(submit.run).not.toHaveBeenCalled();
+    expect(offering.run.mock.calls.length).toBe(runsBefore + 1); // the lookup beside the terminal call is not run
+    expect(calls).toHaveLength(2);
+    expect(out.messages.at(-1)).toEqual({ role: 'assistant', content: null, tool_calls: [done, lookup] }); // reasoning stripped
+    expect(events.map((e) => e.type)).toEqual(['model', 'tool_call', 'tool_result', 'model']);
   });
 });

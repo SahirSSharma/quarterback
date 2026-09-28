@@ -39,7 +39,7 @@ export function StepHeading({ n, title, hint, id }: { n: number; title: string; 
         {n}
       </span>
       <div>
-        <h2 id={id} className="text-lg font-semibold tracking-tight text-ink">{title}</h2>
+        <h2 id={id} tabIndex={-1} className="rounded text-lg font-semibold tracking-tight text-ink">{title}</h2>
         {hint && <p className="mt-0.5 text-sm text-ink-2">{hint}</p>}
       </div>
     </div>

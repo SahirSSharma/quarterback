@@ -3,6 +3,7 @@ import type { Action, StudentState } from '../types';
 import { impact } from '../engine/impact';
 import { offeringStatus } from '../engine/offerings';
 import { demoStudents } from '../engine/student';
+import { verify } from '../engine/verifier';
 import {
   applyAction,
   buildEvidenceIndex,
@@ -13,7 +14,11 @@ import {
   evidenceId,
   horizonTerms,
   parseEvidenceId,
+  repairBrief,
+  replacementMenu,
+  STRATEGIES,
   statusText,
+  strategyBrief,
 } from './context';
 
 const NOW = '2026-10-01T12:00:00-07:00';
@@ -106,17 +111,33 @@ describe('student suffix', () => {
     expect(cse29.earliestTerm).toBe('WI27');
     // CSE 30 needs CSE 29 again, so it moves to the quarter after the retake.
     expect(eligibility.find((r) => r.code === 'CSE 30')!.earliestTerm).toBe('SP27');
-    expect(suffix).toMatch(/Eligible from SP27 \(after a WI27 prerequisite from this table\): .*CSE 30/);
+    expect(suffix).toMatch(/Eligible from SP27 \(only with the named prerequisite planned in an earlier quarter\): .*CSE 30 \(4u, needs CSE 15L\|CSE 29\|ECE 15 planned earlier\)/);
+    expect(suffix).toMatch(/Eligible from WI27 \(prerequisites met by the record\): .*CSE 29 \(4u\)/);
+    // A course eligible now but not offered later says which quarters to avoid, so the model never has to read the table for it.
+    expect(suffix).toMatch(/CSE 194 \(4u; not in SP27\)|CSE 194 \(4u\)/);
+    expect(suffix).toMatch(/Place a course no earlier than its "Eligible from" quarter/);
   });
-  it('lists only delayed downstream courses, the constraints and the tool procedure', () => {
-    const { suffix } = packA();
+  it('lists only delayed downstream courses and the constraints; the strategy brief is appended per draft', () => {
+    const { prefix, suffix } = packA();
     expect(suffix).toMatch(/Downstream courses delayed: CSE 30 \(\+1 quarter; next listed WI27\)/);
     expect(suffix).not.toMatch(/\+0 quarter/);
     expect(suffix).toMatch(/12 units minimum per quarter/);
     expect(suffix).toMatch(/above 22 is rejected/);
-    expect(suffix).toMatch(/fastest, balanced and lightest/);
-    expect(suffix).toMatch(/asked to call submit_plans/);
+    expect(suffix).toMatch(/Submit one plan for the requested strategy/);
     expect(suffix).toMatch(/Registrar deadlines FA26: Drop without a W 2026-10-23/);
+    expect(suffix).not.toMatch(/## Your draft/);
+    // The unit arithmetic lives in the prompt: there is no unit tool any more.
+    expect(prefix).toMatch(/there is no unit tool: three 4-unit courses are 12 units/);
+    expect(prefix).toMatch(/ONE round of lookups/);
+    expect(prefix).not.toMatch(/unit_check|requirement_progress|grade_history/);
+    expect(STRATEGIES).toEqual(['fastest', 'balanced', 'lightest']);
+    const briefs = STRATEGIES.map(strategyBrief);
+    expect(new Set(briefs).size).toBe(3);
+    for (const [i, b] of briefs.entries()) {
+      expect(b).toMatch(new RegExp(`^## Your draft\\nDraft the ${STRATEGIES[i].toUpperCase()} plan`));
+      expect(b).toMatch(/call submit_plan now; make one round of lookups first/);
+      expect(b).toMatch(/Pick every course from the "Eligible from" lists/);
+    }
   });
   it('does not depend on the clock: the same impact computed on another day renders the same suffix', () => {
     const early = buildPlannerContext(demoA, dropA, impact(demoA, dropA, '2026-10-01T12:00:00-07:00'));
@@ -165,5 +186,45 @@ describe('eligibilityRows', () => {
     const rows = eligibilityRows(after, ['CSE 29', 'CSE 21', 'CSE 30', 'CSE 100', 'CSE 101', 'CSE 110'], horizonTerms(after));
     // CSE 110 needs CSE 100, which needs CSE 21 and CSE 29: three quarters deep.
     expect(Object.fromEntries(rows.map((r) => [r.code, r.earliestTerm]))).toEqual({ 'CSE 29': 'WI27', 'CSE 21': 'WI27', 'CSE 30': 'SP27', 'CSE 100': 'SP27', 'CSE 101': 'SP27', 'CSE 110': 'FA27' });
+  });
+});
+
+describe('repairBrief', () => {
+  const after = applyAction(demoA, dropA);
+  const plan = {
+    id: 'p-fastest', label: 'fastest', rationale: '', graduationTerm: null,
+    terms: [
+      { term: 'WI27', courses: ['CSE 21', 'MATH 18', 'HUM 4', 'CSE 194'], units: 16 },
+      { term: 'SP27', courses: ['CSE 100', 'CSE 30', 'COGS 9'], units: 12 },
+      { term: 'FA27', courses: ['CSE 101', 'CSE 151A'], units: 8 },
+    ],
+  };
+  it('lists the rejected attempt and, per error, a replacement menu computed by code that the verifier would accept', () => {
+    const report = verify(plan, after);
+    expect(report.ok).toBe(false);
+    const text = repairBrief('fastest', plan, report, after);
+    expect(text).toMatch(/^## Previous fastest attempt — REJECTED by the verifier\nWI27 \(16u\): CSE 21, MATH 18, HUM 4, CSE 194/);
+    expect(text).toMatch(/\[not-offered\] CSE 194 in WI27: .* → replace CSE 194 in WI27 with one of: .*; or move it to FA27; or drop it if WI27 keeps 12\+ units\./); // not offered in SP27 either
+    expect(text).toMatch(/\[not-offered\] COGS 9 in SP27: .* → replace COGS 9 in SP27 with one of: (?:[A-Z]+ \d+[A-Z]* \(4u\), ){4}/); // 4-unit picks come first
+    expect(text).toMatch(/\[prereq-unsatisfied\] CSE 100 in SP27: .* → replace CSE 100 in SP27 with one of: /);
+    expect(text).toMatch(/\[already-earned\] COGS 9 in SP27: .* → replace COGS 9 in SP27 with one of: /);
+    expect(text).toMatch(/\[unit-floor\] in FA27: .* → add to FA27 one of: /);
+    expect(text).not.toMatch(/assumed-offered|double-count/); // warnings are not repaired
+    // The menu for WI27 never offers a course on the record, in the plan, not offered then, or with unmet prerequisites.
+    const menu = replacementMenu(after, plan, 'WI27', ['CSE 194']);
+    expect(menu.length).toBeGreaterThan(0);
+    expect(menu.length).toBeLessThanOrEqual(8);
+    const record = new Set(after.courses.map((c) => c.code));
+    const inPlan = new Set(plan.terms.flatMap((t) => t.courses));
+    for (const m of menu) {
+      expect(record.has(m.code), m.code).toBe(false);
+      expect(inPlan.has(m.code), m.code).toBe(false);
+      expect(offeringStatus(m.code, 'WI27').status).not.toBe('not_offered');
+      expect(verify({ ...plan, terms: [{ term: 'WI27', courses: ['CSE 21', 'MATH 18', 'HUM 4', m.code], units: 16 }] }, after).violations.filter((v) => v.severity === 'error' && v.course === m.code)).toEqual([]);
+    }
+    // SP27's menu may chain through WI27's planned courses (CSE 21 there makes CSE 101 eligible) but never repeats one.
+    const sp = replacementMenu(after, plan, 'SP27', ['CSE 100', 'COGS 9']);
+    expect(sp.map((m) => m.code)).not.toContain('CSE 21');
+    expect(sp.every((m) => !inPlan.has(m.code))).toBe(true);
   });
 });

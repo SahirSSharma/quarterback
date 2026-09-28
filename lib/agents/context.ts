@@ -3,6 +3,7 @@
 // Factory's prompt cache hits on Super, and a student SUFFIX (record, action, impact, eligibility, constraints).
 //
 //   buildPlannerContext(state, action, impact, {horizonTerms}) → { prefix, suffix, eligibility }
+//   STRATEGIES / strategyBrief(label) / repairBrief(label, plan, report) → the three drafts' closing briefs, and the repair's
 //   eligibilityRows(state, codes, terms)                       → EligibilityRow[] for any codes (explain uses it)
 //   evidenceId(code, term) / parseEvidenceId(id)               → 'ev_CSE100_WI27' ⇄ {code, term}
 //   buildEvidenceIndex(plans, terms)                           → id → OfferingEvidence for every planned course
@@ -10,13 +11,13 @@
 //
 // Nothing here reads the clock: `Impact.deadlines[].passed` and the engine's deadline notes depend on `now`,
 // so they are left out (dates are rendered from the calendar instead) — a fixture key is the request bytes.
-import type { Action, CourseCode, Impact, OfferingEvidence, OfferingStatus, Plan, StudentState, TermCode } from '../types';
+import type { Action, CourseCode, Impact, OfferingEvidence, OfferingStatus, Plan, StudentState, TermCode, VerifierReport } from '../types';
 import { catalogByCode, catalogUnits, loadCollege, loadMajor, normalizeCode } from '../engine/data';
 import { offeringStatus } from '../engine/offerings';
 import { missingGroups, prereqGroups, satisfied } from '../engine/prereqs';
 import { type Band, type BucketProgress, bucketProgress, remainingCourses } from '../engine/requirements';
 import { earnedCodes, inProgress } from '../engine/student';
-import { deadlinesFor, label, mainQuartersAfter } from '../engine/terms';
+import { compare, deadlinesFor, label, mainQuartersAfter } from '../engine/terms';
 import { readOfferingsFile } from '../offerings/build';
 
 export const DEFAULT_HORIZON = 3;
@@ -137,15 +138,17 @@ function renderTable(codes: CourseCode[], terms: TermCode[]): string {
   return lines.join('\n');
 }
 
-const SYSTEM = `You are Quarterback's degree planner for a UC San Diego undergraduate. You propose up to three quarter-by-quarter plans; deterministic code (the verifier) then checks every plan and rejects any with an error, so plans must be exactly right about prerequisites, units, offerings and requirements.
+const SYSTEM = `You are Quarterback's degree planner for a UC San Diego undergraduate. You draft ONE quarter-by-quarter plan of the strategy named at the end of the request (fastest, balanced or lightest; the other two are drafted in parallel by someone else). Deterministic code (the verifier) then checks the plan and rejects it if it has an error, so the plan must be exactly right about prerequisites, units, offerings and requirements.
 
 Facts you may rely on are in this prompt and in tool results. Never invent a course, a prerequisite, a unit count or an offering. Course codes are upper case with one space (CSE 100). Quarter codes are FA/WI/SP + two-digit year (WI27).
 
 Offering evidence: each course/quarter cell below carries a status and an evidence id (ev_<CODE without space>_<QUARTER>). "offered" and "tentative" come from a department page or the Schedule of Classes; "not_offered" means the department page has no instructor for that quarter — never place a course there; "unknown (not on dept page)" means the department's page covers that quarter and has no row for the course at all — very likely not running, so treat it like not_offered unless nothing else fills the requirement; plain "unknown" means nobody publishes anything for that quarter (a quarter beyond the published year, or a department with no page) — allowed, say so in the rationale. When two courses fill the same requirement, prefer the one with "offered" evidence. Refer to evidence by id, never by retyping a quote.
 
-The three plans: "fastest" reaches graduation earliest — every quarter carries as much major-chain progress as it can (up to 19.5 units), college requirements wait; "balanced" is about 16 units a quarter mixing major courses with college requirements; "lightest" is 12–13 units a quarter, the minimum full-time load, major chain first. The three must differ in at least one course per quarter, and each rationale is written for the student: why this plan and what it assumes, never a description of your edits.
+Strategies: "fastest" reaches graduation earliest — every quarter carries as much major-chain progress as it can (up to 19.5 units), college requirements wait; "balanced" is about 16 units a quarter mixing major courses with college requirements; "lightest" is 12–13 units a quarter, the minimum full-time load, major chain first. The rationale is written for the student: why this plan and what it assumes, never a description of your edits.
 
-Tools: eligible_courses(term) lists every course that could fill an open requirement in that quarter; check_prereqs(code, term, planned) says what is still missing given the courses planned in earlier quarters; offering_status(code, term) returns the evidence row; requirement_progress(plan) and unit_check(plan) score a draft; grade_history(code) gives the CAPE average. Your first reply must consist of tool calls only — several in one reply is fine — and you keep calling tools until every draft passes its checks. A reply without tool calls ends the checking phase, so never send one before the checks pass. submit_plans is not in the tool list while you are checking; once the checks pass you reply with one short line and are then asked to call submit_plans.`;
+Units: every course in the table carries its catalog units, e.g. "(4u)". Add them yourself per quarter — there is no unit tool: three 4-unit courses are 12 units (the minimum full-time load), four are 16, five are 20 (above the 19.5 flag); above 22 is rejected.
+
+Tools: the table and the student sections already answer almost everything. If something is missing you may make ONE round of lookups — several calls in one reply — before submitting: eligible_courses(term, planned) lists every course that could fill an open requirement in that quarter; check_prereqs(code, term, planned) says what is still missing given the courses planned in earlier quarters; offering_status(code, term) returns the evidence row. submit_plan(terms, rationale, graduationTerm) is how you finish. Every reply is tool calls only; a reply without a tool call is wasted.`;
 
 // ---------------------------------------------------------------------------------------------
 // Student view
@@ -242,13 +245,19 @@ function renderStudentBuckets(state: StudentState, shown: Set<CourseCode>): stri
 function renderEligibility(rows: EligibilityRow[], terms: TermCode[]): string {
   const lines: string[] = [];
   for (const [i, t] of terms.entries()) {
-    const codes = rows.filter((r) => r.earliestTerm === t).map((r) => r.code);
-    const how = i === 0 ? 'prerequisites met by the record' : `after a ${terms[i - 1]} prerequisite from this table`;
+    const ready = rows.filter((r) => r.earliestTerm === t);
+    // From the second quarter on, a course is only eligible if the prerequisite it still lacks is planned in an
+    // EARLIER quarter of the same plan; naming that prerequisite is what lets a no-thinking model place both.
+    const codes = ready.map((r) => {
+      const avoid = terms.filter((x) => compare(x, t) > 0 && r.evidence[x].status === 'not_offered');
+      return `${r.code} (${r.units ?? '?'}u${i === 0 || !r.missing.length ? '' : `, needs ${renderPrereqs(r.missing)} planned earlier`}${avoid.length ? `; not in ${avoid.join('/')}` : ''})`;
+    });
+    const how = i === 0 ? 'prerequisites met by the record' : `only with the named prerequisite planned in an earlier quarter`;
     lines.push(`Eligible from ${t} (${how}): ${codes.join(', ') || 'none'}.`);
   }
   const blocked = rows.filter((r) => !r.onRecord && r.earliestTerm === null);
   if (blocked.length) {
-    lines.push(`Not reachable in the horizon: ${blocked.map((r) => `${r.code} (needs ${renderPrereqs(r.missing) || 'an offered quarter'})`).join('; ')}.`);
+    lines.push(`Not reachable in the horizon (never plan): ${blocked.map((r) => `${r.code} (needs ${renderPrereqs(r.missing) || 'an offered quarter'})`).join('; ')}.`);
   }
   const onRecord = rows.filter((r) => r.onRecord).map((r) => r.code);
   if (onRecord.length) lines.push(`Already on the record (do not plan): ${onRecord.join(', ')}.`);
@@ -258,20 +267,96 @@ function renderEligibility(rows: EligibilityRow[], terms: TermCode[]): string {
 function renderConstraints(terms: TermCode[]): string {
   return [
     `- Plan exactly these quarters, in order: ${terms.join(', ')}. Every plan lists every quarter.`,
-    '- 12 units minimum per quarter (or mark the quarter partTime:true and say why) and at most 19.5 (16 is typical); above 19.5 is flagged, above 22 is rejected. Units are catalog units.',
+    '- 12 units minimum per quarter (or mark the quarter partTime:true and say why) and at most 19.5 (16 is typical); above 19.5 is flagged, above 22 is rejected. Units are catalog units: add the (Nu) values. In practice: three courses for 12–13 units, four for 16, five for 19.5–20; NEVER more than five courses in a quarter.',
     '- Never plan a course that is earned or in progress; never plan a course twice.',
-    '- A prerequisite must be complete in an EARLIER quarter: earned, in progress now, or planned in an earlier quarter of the same plan. Same-quarter does not count: CSE 15L in WI27 does not satisfy CSE 30 in WI27; CSE 30 must wait for SP27.',
+    '- A prerequisite must be complete in an EARLIER quarter: earned, in progress now, or planned in an earlier quarter of the same plan. Same-quarter does not count: CSE 15L in WI27 does not satisfy CSE 30 in WI27; CSE 30 must wait for SP27. Place a course no earlier than its "Eligible from" quarter above, and only if you also plan the prerequisite it names in an earlier quarter.',
     '- Never place a course in a quarter whose status is not_offered, and avoid "unknown (not on dept page)" unless nothing else fills the requirement. Plain "unknown" is allowed but name it in the rationale.',
     '- Use only codes from the table or from eligible_courses. Fill open requirements first; a course that fills two buckets is counted once.',
-    '- Return three plans labelled fastest, balanced and lightest that differ as described above, each with a two-sentence rationale for the student and your estimated graduationTerm (quarter code or null).',
+    '- Submit one plan for the requested strategy with every quarter listed, a two-sentence rationale for the student and your estimated graduationTerm (quarter code or null).',
   ].join('\n');
 }
 
-const PROCEDURE = `Procedure, in order:
-1. Draft the three plans privately.
-2. FIRST REPLY = tool calls only, no prose: unit_check(plan) and requirement_progress(plan) for each draft; check_prereqs(code, term, planned) for every planned course that has prerequisites, with planned = the courses in that draft's earlier quarters; offering_status(code, term) for every course placed in a quarter whose table status is not "offered".
-3. Fix the drafts from the results and call the tools again on anything you changed.
-4. Only when every check passes, reply with one short line and no tool calls — you will then be asked to call submit_plans, which is how you finish.`;
+export const STRATEGIES = ['fastest', 'balanced', 'lightest'] as const;
+export type Strategy = (typeof STRATEGIES)[number];
+
+const STRATEGY_BRIEF: Record<Strategy, string> = {
+  fastest: 'FASTEST plan: reach graduation earliest — exactly five courses in every quarter (about 19.5 units), major-chain courses first so that later quarters unlock; college requirements only fill the remaining seats.',
+  balanced: 'BALANCED plan: exactly four courses in every quarter (about 16 units), mixing major-chain courses with college requirements.',
+  lightest: 'LIGHTEST plan: three 4-unit courses in every quarter (12 units, the minimum full-time load; add a fourth only if one of them is worth fewer than 4 units), major chain first.',
+};
+
+/** The per-draft closing section of the user message; everything before it is shared by the three drafts. */
+export function strategyBrief(label: Strategy): string {
+  return (
+    `## Your draft\nDraft the ${STRATEGY_BRIEF[label]} ` +
+    'Pick every course from the "Eligible from" lists above, in a quarter at or after the one it is listed under, with the prerequisite it names planned in an earlier quarter; never a course marked already on the record. ' +
+    'Reply with tool calls only. The table and the lists above are complete for the courses they show, so call submit_plan now; make one round of lookups first (several in one reply) only when a requirement has no eligible course listed.'
+  );
+}
+
+const MENU_CAP = 8;
+
+/**
+ * What a rejected slot in `term` can become: courses that fill a requirement still open once the rest of the plan
+ * counts (minus `exclude`, the courses being replaced), with prerequisites met by the record plus the plan's EARLIER
+ * quarters, not on the record, not already in the plan, and not not_offered (or absent from a covering department
+ * page) in `term`. Offered evidence first, then fewer prerequisite groups, then code. The same rules the verifier
+ * applies, so a pick from the menu cannot fail on them.
+ */
+export function replacementMenu(state: StudentState, plan: Plan, term: TermCode, exclude: CourseCode[] = []): { code: CourseCode; units: number | null }[] {
+  const t = String(term).toUpperCase();
+  const out = new Set(exclude.map(normalizeCode));
+  const inPlan = new Set(plan.terms.flatMap((x) => x.courses.map(normalizeCode)));
+  const onRecord = new Set(state.courses.map((c) => normalizeCode(c.code)));
+  const kept = plan.terms.flatMap((x) => x.courses.map(normalizeCode)).filter((c) => !out.has(c) && !onRecord.has(c));
+  const scored: StudentState = { ...state, courses: [...state.courses, ...kept.map((code) => ({ code, term: t, units: catalogUnits(code) ?? 4, grade: null, status: 'earned' as const }))] };
+  const earlier = plan.terms.filter((x) => compare(x.term, t) < 0).flatMap((x) => x.courses.map(normalizeCode));
+  const done = new Set([...earnedCodes(state), ...inProgress(state).map((c) => c.code), ...earlier]);
+  const seen = new Set<CourseCode>();
+  for (const b of remainingCourses(scored)) {
+    for (const c of b.candidates) {
+      if (seen.has(c) || inPlan.has(c) || onRecord.has(c) || !satisfied(c, done)) continue;
+      const ev = offeringStatus(c, t);
+      if (ev.status === 'not_offered' || statusText(ev) === 'unknown (not on dept page)') continue;
+      seen.add(c);
+    }
+  }
+  // Full-unit courses first: a 1- or 2-unit pick to replace a 4-unit course drops the quarter under the floor.
+  const ranked = shortlist([...seen], [t], MENU_CAP * 2).map((code) => ({ code, units: catalogUnits(code) }));
+  return [...ranked.filter((m) => (m.units ?? 4) >= 4), ...ranked.filter((m) => (m.units ?? 4) < 4)].slice(0, MENU_CAP);
+}
+
+const menuText = (menu: { code: CourseCode; units: number | null }[]) => (menu.length ? menu.map((m) => `${m.code} (${m.units ?? '?'}u)`).join(', ') : 'nothing else fits this quarter');
+
+/**
+ * The repair prompt's closing section: the rejected attempt, then every error with the concrete move that fixes it —
+ * a replacement menu computed by code for the slot, a quarter to move to, or what to remove. Nothing else changes.
+ */
+export function repairBrief(label: Strategy, plan: Plan, report: VerifierReport, state: StudentState, round = 1): string {
+  const attempt = plan.terms.map((t) => `${t.term} (${t.units}u): ${t.courses.join(', ') || '(empty)'}`).join('\n');
+  const terms = plan.terms.map((t) => String(t.term).toUpperCase());
+  const errors = report.violations.filter((v) => v.severity === 'error');
+  const badIn = (term: string) => errors.filter((v) => v.term === term && v.course).map((v) => v.course as CourseCode);
+  const lines = errors.map((v) => {
+    const where = v.term ? String(v.term).toUpperCase() : '';
+    const head = `- [${v.rule}]${v.course ? ` ${v.course}` : ''}${where ? ` in ${where}` : ''}: ${v.message}`;
+    if (v.rule === 'unit-cap') return `${head} → remove courses from ${where} until it has five or fewer.`;
+    if (v.rule === 'unit-floor') return `${head} → add to ${where} one of: ${menuText(replacementMenu(state, plan, where))}.`;
+    if (v.rule === 'graduation-infeasible') return `${head} → set graduationTerm later, or null.`;
+    if (!v.course || !where) return head;
+    const menu = menuText(replacementMenu(state, plan, where, badIn(where)));
+    const elsewhere = v.rule === 'not-offered' ? terms.filter((x) => x !== where && compare(x, where) > 0 && offeringStatus(v.course as string, x).status !== 'not_offered') : [];
+    return `${head} → replace ${v.course} in ${where} with one of: ${menu}${elsewhere.length ? `; or move it to ${elsewhere.join(' or ')}` : ''}; or drop it if ${where} keeps 12+ units.`;
+  });
+  return [
+    // The round number keeps a second repair of an unchanged plan from being the byte-identical request (fixture key).
+    `## Previous ${label} attempt${round > 1 ? ` (repair ${round - 1} of ${round - 1})` : ''} — REJECTED by the verifier`,
+    attempt,
+    'Violations, each with the fix that code has already checked:',
+    ...lines,
+    `Apply exactly those fixes, keep every other course where it is, keep every quarter at 12+ units, and call submit_plan now with the corrected ${label} plan and a rationale written for the student (why this plan, what it assumes), not a description of the fix.`,
+  ].join('\n');
+}
 
 // ---------------------------------------------------------------------------------------------
 
@@ -312,7 +397,6 @@ export function buildPlannerContext(
     '## Open requirements for this student', renderStudentBuckets(after, codes),
     '## Eligibility for this student (table courses)', renderEligibility(eligibility, terms),
     '## Constraints', renderConstraints(terms),
-    PROCEDURE,
   ].join('\n\n');
 
   return { prefix, suffix, eligibility };

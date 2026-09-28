@@ -66,8 +66,8 @@ describe.skipIf(!recorded)('recorded demo (a) replays at $0', () => {
     for (const r of out.reports) if (!r.ok) expect(out.plans.map((p) => p.id)).not.toContain(r.planId);
     expect(events[0]).toMatchObject({ type: 'step', step: 'plan' });
     expect(events.at(-1)).toMatchObject({ type: 'done', step: 'plan' });
-    expect(events.some((e) => e.type === 'tool_call')).toBe(true);
     expect(events.filter((e) => e.type === 'verifier').length).toBe(out.reports.length);
+    expect(out.rejectedDrafts).toBe(out.reports.filter((r) => !r.ok).length);
 
     const index = buildEvidenceIndex(out.plans, horizonTerms(run.state));
     const verdict = await stressTest({ state: run.state, action: run.action, plans: out.plans, reports: out.reports, evidenceIndex: index, onEvent: (e) => events.push(e) });
@@ -80,9 +80,10 @@ describe.skipIf(!recorded)('recorded demo (a) replays at $0', () => {
       for (const e of r.evidence) expect(e.quote).toBe(offeringStatus(e.course, e.term).quote);
     }
 
-    // Every call replayed, priced from the registry, on a registry model. The sink may hold more entries than
-    // the run's ledger: forcedTool's internal correction retry lands in the sink without a 'model' event.
-    expect(ledger.entries.length).toBeGreaterThanOrEqual(out.ledger.length + 1);
+    // Every call replayed, priced from the registry, on a registry model. The planner's ledger sees every planner
+    // call (toolLoop and forcedTool both emit 'model' events); the critic's internal retry, if any, only reaches the sink.
+    expect(ledger.entries.length).toBeGreaterThanOrEqual(out.ledger.length + 1); // + the critic's call
+    expect(ledger.entries.filter((e) => e.step === 'plan')).toHaveLength(out.ledger.length);
     for (const e of ledger.entries) {
       expect(e.replayed).toBe(true);
       expect(MODELS[e.model]).toBeDefined();

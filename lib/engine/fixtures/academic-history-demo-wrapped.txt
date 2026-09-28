@@ -1,0 +1,60 @@
+Academic History
+***This is Not an Official Transcript***
+Student: Rivera, Alex
+PID: A18000001
+Student Level: SO
+College: Revelle College
+Major: Artificial Intelligence
+Intended Degree: Bachelor of Science
+Grade Option UC-Crdts Attm Crdts Pssd UC-GPA Crdts UC-Grade Points UC-GPA
+Letter 48.00 48.00 48.00 160.60 3.346
+P/NP 6.00 6.00 0.00 0.00 0.000
+TOTAL 54.00 54.00 48.00 160.60 3.346
+Term: Fall Qtr 2025
+Subject Course Course Title Units Grade Points Repeat
+CSE 11 Intro to Programming:
+Accelerated 4.00 A 16.00
+MATH 20A Calculus/Science & Engineering
+4.00 B+ 13.20
+HUM 1 Ancient Mediterranean World 6.00 B 18.00
+COGS 9 Introduction to Data Science 4.00 P 0.00
+Term Credits Passed: 18.00 Term GPA: 3.371
+Term Grade Points: 47.20 Term GPA Credits: 14.00
+Academic Status: Good Standing
+Term: Winter Qtr 2026
+Subject Course Course Title Units Grade Points Repeat
+CSE 12 Basic Data Struct & OO Design 4.00
+A- 14.80
+MATH 20B Calculus/Science & Engineering 4.00 B 12.00
+HUM 2 Rome and the
+Medieval World
+6.00 B+ 19.80
+ECON 1 Principles of Microeconomics 4.00 B+ 13.20
+Term Credits Passed: 18.00 Term GPA: 3.322
+Term Grade Points: 59.80 Term GPA Credits: 18.00
+Academic Status: Good Standing
+Term: Spring Qtr 2026
+Subject Course Course Title Units Grade Points Repeat
+CSE 25 Introduction to Artificial Intelligence 4.00 A- 14.80
+PHYS 2A Physics - Mechanics 4.00 B 12.00
+CHEM 11 The Periodic Table 4.00 B- 10.80
+COGS 10 Cognitive Consequences of
+Technology 4.00 A 16.00
+CSE 89 Intro to CSE Seminar
+2.00 P 0.00
+Term Credits Passed: 18.00 Term GPA: 3.350
+Term Grade Points: 53.60 Term GPA Credits: 16.00
+Academic Status: Good Standing
+Term: Fall Qtr 2026
+Subject Course Course Title Units Grade Points Repeat
+CSE 29 Systems Programming and
+Software Tools 4.00 0.00
+CSE 20 Discrete Mathematics 4.00 0.00
+MATH 20C Calculus & Analytic Geometry 4.00 0.00
+HUM 3 Renaissance, Reformation, Early Modern
+4.00 0.00
+Academic Events
+Event Date
+UC ENTRLVL WRITNG REQT SATISFD 09/10/2025
+Not an Official Transcript
+page 1 of 1

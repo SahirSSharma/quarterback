@@ -4,13 +4,15 @@
 //   structured(role, {system, user, schema, name, maxTokens})
 //       → zod-validated object via response_format json_schema with thinking OFF; on invalid JSON it retries
 //         once with the validation error appended, then throws.
-//   forcedTool(role, {messages, tool:{name, description, schema}, thinking, maxTokens})
+//   forcedTool(role, {messages, tool:{name, description, schema}, thinking, maxTokens, onEvent})
 //       → { args, result } where args are the zod-validated arguments of the forced tool call; retries once
 //         when the reply has no call or the arguments fail validation, then throws with finish_reason.
-//   toolLoop(role, {messages, tools:[{def, run}], maxRounds, thinking, onEvent})
+//         `onEvent` receives a 'model' TraceEvent for every call made, the correction retry included.
+//   toolLoop(role, {messages, tools:[{def, run}], maxRounds, thinking, onEvent, terminal})
 //       → runs assistant ↔ tool rounds until a reply without tool calls or maxRounds; emits TraceEvents
 //         ('model', 'tool_call', 'tool_result'); returns the final message and the full message history so
-//         a caller can finish with forcedTool on it.
+//         a caller can finish with forcedTool on it. `terminal` names tools that END the loop: a reply that
+//         calls one is appended to the history and returned as `terminal` without running anything.
 //   jsonSchemaOf(zodSchema) → JSON schema for tools / response_format (zod 4, `$schema` stripped)
 //
 // Thinking: { enable:false } sends enable_thinking:false + reasoning_effort:'none'; { enable:true, budget,
@@ -114,10 +116,19 @@ export interface ForcedToolSpec<S extends ZodType> {
 
 export async function forcedTool<S extends ZodType>(
   role: ModelRole,
-  opts: { messages: ChatMessage[]; tool: ForcedToolSpec<S>; thinking?: Thinking; maxTokens?: number; step?: string; model?: string },
+  opts: {
+    messages: ChatMessage[];
+    tool: ForcedToolSpec<S>;
+    thinking?: Thinking;
+    maxTokens?: number;
+    step?: string;
+    model?: string;
+    onEvent?: (event: TraceEvent) => void;
+  },
 ): Promise<{ args: z.output<S>; result: ChatResult }> {
   const { name } = opts.tool;
   const step = opts.step ?? name;
+  const emit = opts.onEvent ?? (() => {});
   const def: ToolDef = {
     type: 'function',
     function: { name, description: opts.tool.description, parameters: jsonSchemaOf(opts.tool.schema) },
@@ -132,6 +143,7 @@ export async function forcedTool<S extends ZodType>(
     max_tokens: opts.maxTokens,
   };
   let res = await chat(req, { step });
+  emit({ type: 'model', step, at: res.entry.at, entry: res.entry });
   let parsed = parseCall(res, name, opts.tool.schema);
   if (parsed.ok) return { args: parsed.value, result: res };
 
@@ -145,6 +157,7 @@ export async function forcedTool<S extends ZodType>(
       ]
     : [{ role: 'user' as const, content: `You must answer by calling the ${name} tool. ${parsed.error}` }];
   res = await chat({ ...req, messages: [...opts.messages, ...feedback] }, { step });
+  emit({ type: 'model', step, at: res.entry.at, entry: res.entry });
   parsed = parseCall(res, name, opts.tool.schema);
   if (parsed.ok) return { args: parsed.value, result: res };
   throw new Error(
@@ -179,6 +192,8 @@ export interface ToolLoopResult {
   rounds: number;
   /** True when maxRounds ended the loop before the model produced a final message. */
   exhausted: boolean;
+  /** The call to a `terminal` tool that ended the loop (not run; its arguments are the caller's to validate). */
+  terminal?: ToolCall;
 }
 
 export async function toolLoop(
@@ -192,12 +207,15 @@ export async function toolLoop(
     onEvent?: (event: TraceEvent) => void;
     step?: string;
     model?: string;
+    /** Tool names that end the loop when called (the answer itself, e.g. submit_plan). */
+    terminal?: string[];
   },
 ): Promise<ToolLoopResult> {
   const step = opts.step ?? 'tool-loop';
   const maxRounds = opts.maxRounds ?? 3;
   const emit = opts.onEvent ?? (() => {});
   const byName = new Map(opts.tools.map((t) => [t.def.function.name, t]));
+  const terminal = new Set(opts.terminal ?? []);
   const messages = [...opts.messages];
   let last: AssistantMessage = { role: 'assistant', content: null };
   for (let round = 1; round <= maxRounds; round++) {
@@ -210,6 +228,8 @@ export async function toolLoop(
     messages.push(forHistory(res.message));
     const calls = res.message.tool_calls ?? [];
     if (!calls.length) return { message: res.message, messages, rounds: round, exhausted: false };
+    const done = calls.find((c) => terminal.has(c.function.name));
+    if (done) return { message: res.message, messages, rounds: round, exhausted: false, terminal: done };
     for (const call of calls) messages.push(await runTool(call, byName, step, emit));
   }
   return { message: last, messages, rounds: maxRounds, exhausted: true };

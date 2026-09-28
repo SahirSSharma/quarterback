@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
+import { parseAcademicHistory } from '../vendor/tritonplan/parse-academic-history.js';
 import { demoStudents, earnedCodes, fromAcademicHistory, inProgress } from './student';
 
 const fixture = () => readFileSync(path.join(process.cwd(), 'lib/engine/fixtures/academic-history-demo.txt'), 'utf8');
+const wrappedFixture = () => readFileSync(path.join(process.cwd(), 'lib/engine/fixtures/academic-history-demo-wrapped.txt'), 'utf8');
 
 describe('fromAcademicHistory', () => {
   it('parses the demo paste into the demo (a) student', () => {
@@ -59,6 +61,13 @@ describe('fromAcademicHistory', () => {
   it('warns when in-progress rows are not in the current term', () => {
     const s = fromAcademicHistory(fixture(), { currentTerm: 'WI27' });
     expect(s.warnings.join(' ')).toMatch(/recorded under FA26, not the current term WI27/);
+  });
+  it('reads the wrapped copy of the demo paste (rows over two or three lines) to the same StudentState', () => {
+    const wrapped = wrappedFixture();
+    expect(wrapped).not.toBe(fixture());
+    // The vendored parser alone drops every wrapped row; the pre-normalizer is what restores them.
+    expect((parseAcademicHistory(wrapped) as { courses: unknown[] }).courses.length).toBeLessThan(17);
+    expect(fromAcademicHistory(wrapped, { currentTerm: 'FA26' })).toEqual(fromAcademicHistory(fixture(), { currentTerm: 'FA26' }));
   });
   it('returns a low-confidence state with warnings for an empty paste', () => {
     const s = fromAcademicHistory('', { currentTerm: 'FA26' });
