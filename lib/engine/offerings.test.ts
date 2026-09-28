@@ -23,9 +23,16 @@ describe('offeringStatus', () => {
     if (hasDeptRow('CSE 29', 'WI27')) {
       expect(ev.source).toBe('department-page');
     } else {
+      // No source at all: the type has no value for it, so 'cape-history' stands in and the quote says so.
       expect(ev).toMatchObject({ status: 'unknown', source: 'cape-history' });
-      expect(ev.quote).toMatch(/no CAPE history/);
+      expect(ev.quote).toMatch(/^CSE 29: no source found — .*no WI27 section.*no CAPE history/);
     }
+  });
+  it('says plainly when no source was found at all (source stays cape-history; the type has no value for none)', () => {
+    // No department page covers NOPE, sections exist for FA26 only, and CAPE has no such row.
+    const ev = offeringStatus('NOPE 1', 'WI27');
+    expect(ev).toMatchObject({ course: 'NOPE 1', term: 'WI27', status: 'unknown', source: 'cape-history' });
+    expect(ev.quote).toBe('NOPE 1: no source found — no department page row, no WI27 section, no CAPE history');
   });
   it('prefers the department page row whenever the offerings module has written one', () => {
     for (const [code, byTerm] of offeringsRows()) {

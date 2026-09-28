@@ -1,12 +1,10 @@
 import { NextResponse } from 'next/server';
-import type { Action, StudentState } from '@/lib/types';
-import { computeImpact } from '../_lib/impact';
+import { impact } from '@/lib/engine/impact';
+import { situation } from '../_lib/situation';
 
-/** POST /api/impact {state, action} → Impact */
+/** POST /api/impact {state, action} → Impact. Deterministic and $0; deadlines are judged against now. */
 export async function POST(req: Request) {
-  const body = (await req.json().catch(() => null)) as { state?: StudentState; action?: Action } | null;
-  if (!body?.state || !body.action) return NextResponse.json({ error: 'Send {state, action}.' }, { status: 400 });
-  const impact = computeImpact(body.state, body.action);
-  if (!impact) return NextResponse.json({ error: `${body.action.course} is not one of your ${body.state.currentTerm} courses.` }, { status: 400 });
-  return NextResponse.json(impact);
+  const s = situation(await req.json().catch(() => null));
+  if ('error' in s) return NextResponse.json({ error: s.error }, { status: 400 });
+  return NextResponse.json(impact(s.state, s.action, new Date()));
 }

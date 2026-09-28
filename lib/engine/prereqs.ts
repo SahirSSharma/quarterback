@@ -1,5 +1,6 @@
-// Prerequisite graph over the catalog: `prereqs` is an AND of OR-groups. The graph is faithful to the data —
-// a mis-parsed catalog row (see notes/engine.md) shows up here as-is rather than being patched in code.
+// Prerequisite graph over the catalog: `prereqs` is an AND of OR-groups. Nothing is patched in code — the graph
+// reads catalogByCode(), where the hand-checked rows in data/catalog-overrides.json replace mis-parsed groups
+// (see notes/engine-fixes.md).
 import type { CourseCode } from '../types';
 import { catalogByCode, normalizeCode } from './data';
 

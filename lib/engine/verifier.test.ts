@@ -6,7 +6,7 @@ import { verify } from './verifier';
 
 const demoA = () => demoStudents()[0];
 const NOW = '2026-10-01T12:00:00-07:00';
-const plan = (terms: (PlanTerm & { partTime?: boolean })[], graduationTerm: string | null = null): Plan =>
+const plan = (terms: PlanTerm[], graduationTerm: string | null = null): Plan =>
   ({ id: 'p1', label: 'balanced', terms, rationale: 'test', graduationTerm });
 const rules = (p: Plan, severity?: 'error' | 'warning') =>
   verify(p, demoA(), { now: NOW }).violations.filter((v) => !severity || v.severity === severity).map((v) => v.rule);
@@ -49,6 +49,12 @@ describe('verify: each rule', () => {
     const same = verify(plan([{ term: 'WI27', courses: ['CSE 21', 'CSE 100', 'MATH 18', 'HUM 4'], units: 16 }]), demoA(), { now: NOW });
     expect(same.violations.find((v) => v.rule === 'prereq-unsatisfied')!.message).toMatch(/CSE 100 in WI27 still needs CSE 21 or MATH 154/);
   });
+  it('lets demo (a) retake CSE 29 after dropping it (the snapshot’s spurious CSE 15L group is overridden)', () => {
+    const s = demoA();
+    s.courses = s.courses.filter((c) => c.code !== 'CSE 29');
+    const r = verify(plan([{ term: 'WI27', courses: ['CSE 29', 'CSE 21', 'MATH 18', 'HUM 4'], units: 16 }]), s, { now: NOW });
+    expect(r.violations.filter((v) => v.rule === 'prereq-unsatisfied')).toEqual([]);
+  });
   it('not-offered cites the department quote (runs once the offerings module has a not_offered row)', () => {
     let found: { code: string; term: string; quote: string } | null = null;
     for (const [code, byTerm] of offeringsRows()) {
@@ -73,6 +79,7 @@ describe('verify: each rule', () => {
   it('unit-floor unless the term is marked part-time', () => {
     expect(rules(plan([{ term: 'WI27', courses: ['CSE 21', 'CSE 30'], units: 8 }]), 'error')).toContain('unit-floor');
     expect(rules(plan([{ term: 'WI27', courses: ['CSE 21', 'CSE 30'], units: 8, partTime: true }]))).not.toContain('unit-floor');
+    expect(rules(plan([{ term: 'WI27', courses: ['CSE 21', 'CSE 30'], units: 8, partTime: false }]), 'error')).toContain('unit-floor');
     // Units are summed from the catalog when the plan leaves them at 0.
     expect(rules(plan([{ term: 'WI27', courses: ['CSE 21', 'CSE 30'], units: 0 }]), 'error')).toContain('unit-floor');
     // …and the catalog overrides a plan that claims 16 units for two 4-unit courses.

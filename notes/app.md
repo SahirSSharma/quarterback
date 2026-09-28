@@ -63,3 +63,94 @@ embedded newline of its quoted cell).
 - `next dev` warns that a `package-lock.json` in `/Users/sahir` sits outside the repo and suggests `turbopack.root`.
 - Mid-task `npx tsc --noEmit` failed in `lib/offerings/parse-sheet-csv.test.ts` (missing `./parse-cse-csv`); it was
   clean again by the time I finished, so no action needed.
+
+---
+
+# Routes are wired to the real pipeline (agents/routes owner, 2026-09-27)
+
+Everything above describes the stub build; where this section differs, it supersedes it. Nothing in `app/components`
+or `app/page.tsx` was edited. Edits outside `app/api/**`: `app/lib/contracts.ts` (two optional `RunRecord` fields and a
+`LedgerSummary` type), `app/lib/flow.test.ts` (one line: `f.impact` for `f.impacts[…]`), `app/_mock/*`.
+
+## What changed under the routes
+
+- `app/api/_lib/store.ts` and `_lib/impact.ts` are gone: runs live in `lib/store` (Vercel Blob with
+  `BLOB_READ_WRITE_TOKEN`, else `QB_DATA_DIR || .data/` on disk), impacts come from `lib/engine`'s `impact()`.
+- `app/api/_lib/mock.ts` keeps its exports (`demo`, `demoIds`, `demoCards`) but now loads the RECORDED runs
+  `fixtures/runs/demo-{a,b,c}.json` (static JSON imports, bundled by Next). The authored `app/_mock/demo-*.json` are
+  deleted; `app/_mock/mock.test.ts` asserts the recorded fixtures' invariants against the engine and the model registry.
+- `app/api/_lib/pipeline.ts` installs the persistent ledger sink at module scope, decides the serving mode, runs or
+  replays the planner and keeps `traces/<runId>`, `critic-cache/<key>` and `critic-quota/<UTC day>` beside a run.
+- New route: `GET /api/ledger/summary` → `LedgerSummary` (`app/lib/contracts.ts`): live (non-replayed) spend by model
+  and step, Tavily credits, today's and total spend against `QB_DAILY_CAP_USD` / `QB_TOTAL_CAP_USD`, live stress-tests
+  today against the cap of 20. For the About page and the video's numbers card.
+- Route tests: `app/api/routes.test.ts` runs all three demo flows through the real handlers in mock mode (intake → impact
+  → plan → trace SSE → run → stress → approve → ics → save → delete), the 409/400 approval gate, the live→replay
+  fallbacks and the reconnect guard; `app/api/intake/route.test.ts` covers the Lightning fallback branch;
+  `app/api/live.e2e.test.ts` is the gated live run (`QB_LIVE_E2E=1 QB_MODE=live …`, ≈ $0.10).
+
+## The demo students changed
+
+The recorded runs use `data/demo`: (a) Revelle · Artificial Intelligence, drop CSE 29; (b) **Marshall · Cognitive
+Science, drop COGS 109**; (c) **Sixth · Mathematics–Computer Science (transfer), drop CSE 101**. `demoCards` derives the
+cards from the fixtures, so the Start page needs no change. Real recordings differ from the authored mock:
+rejected drafts 1 / 0 / 0 (the "code rejected N drafts" copy already hides N = 0), **no refusal in any verdict** (the
+RefusalCard / override flow is exercised only by the constructed verdict in `routes.test.ts`; see notes/agents.md for the
+engine rule behind that), Lightning appears in no route trace (explain/intake are not part of the flow).
+
+## What the UI must render differently
+
+1. **`POST /api/plan` only creates the run; `GET /api/trace/[runId]` performs the work.** `run.plans` is `[]` until the
+   stream ends with `done`. The `es.onerror` branch in `PlanFlow.tsx` ("the stub's plans are complete as soon as the run
+   exists") is now wrong: on a dropped connection it fetches an empty run and shows "0 plans passed". Let `EventSource`
+   reconnect instead of closing on error — the server replays the stored events for a finished run, and for a run still
+   being planned it emits a step ("Planning is already in progress…"), waits for the other request, then replays. Only
+   a `done` or `error` event should end the stream. Live planning takes 90–170 s (recorded: a 144 s, b 89 s, c 111 s,
+   live check 105 s), so the "About ten seconds" hint needs a rewrite; a replay takes ≈ 11 s / 11 s / 6 s (gaps capped at
+   1.5 s).
+2. **`RunRecord.mode`** is `'live'` or `'replay'` once the trace has run (absent before). Show a banner for `'replay'`:
+   in `QB_MODE=replay|mock`, for a demo student in production (`VERCEL_ENV=production` never spends on a recorded demo),
+   and after a live failure — the spend cap (`BudgetExceededError`) or a Token Factory error — in which case a `step`
+   event in the trace says "Live mode is paused for the day: … Showing the recorded run for this demo student." A pasted
+   record with no recording ends in an `error` event with that message instead. `RunRecord.options` carries
+   `{horizonTerms}` when the client sent it (the UI does not today).
+3. **Replayed ledger entries carry `replayed: true`** (Ledger.tsx already shows the "replay" tag) with `at` stamped on
+   the replay's clock (start + recorded offset), so `at` stays unique per entry — `PlanFlow.stress()` dedupes by it.
+   Live entries are real: 0 cache hits every time so far (do not claim cache savings).
+4. **Only the recorded situation replays.** For a demo student the picker is still live; another course/action gives:
+   mock → `GET /api/trace` responds 500 JSON (`error` names the missing recording); replay → a single `error` event;
+   live (incl. production) → a real Super run, which costs money. Consider locking the picker to the card's headline for
+   demo students in production, or accept the spend.
+5. **Stress-test.** Replay returns the recorded verdict (and its Ultra ledger entry, replayed). Live: cached per plan
+   set (`critic-cache/`), at most one live call per run (`run.verdict` is final) and 20 per day; over the cap or after a
+   failure a recorded demo gets its verdict with a note appended to `summary`; a pasted record gets a placeholder
+   `{recommend: null, refused: [], risks: [], summary: 'The daily limit … Try again tomorrow…'}` that is NOT stored — the
+   flow currently hides the button after any verdict, so a placeholder blocks a retry until reload; the UI could keep the
+   button when `recommend === null && refused.length === 0`.
+6. **Approve.** 400 for an unknown plan or one that failed verification, 409 for a refused plan without an exact
+   `{refusalPlanId, reason, phrase: 'I understand'}` override, 500 with an explicit message when `QB_SIGNING_KEY` is
+   unset (the approval record is still written). `importUrl` is the ECDSA P-256 signed
+   `https://tritonplan.com/tools/quarterback-import?plan=<token>`; `mailto` comes from `lib/store/mailto` (no recipient,
+   ≤ 1,500 chars); `icsUrl` serves `lib/store/ics` — one all-day event per course on the term's first day of instruction,
+   and an `X-QB-NOTE` line for terms the calendar does not cover (every demo plan's FA27); calendar apps hide X- lines, so
+   say it next to the download link. `ApprovalRecord.planHash` is the 64-char sha256 (pre-existing mismatch with the
+   8-char FNV in `ApproveDialog`/`PlanFlow`; store owner's suggestion: show `planHash.slice(0, 8)` or compute sha256
+   client-side).
+7. **Intake.** `{text}` runs the deterministic parser; when confidence is `low` or the major file is null, Lightning
+   reads the paste (`source: 'ai-intake'`, `confidence: 'medium' | 'low'`, `warnings` say what to confirm). If that call
+   is unavailable (mock mode, cap, outage) the parser's result comes back with an extra warning. `{demo}` returns the
+   `data/demo` record. `Impact.notes` from the engine can run to 20+ lines (demo a); the card may want a cap.
+8. **`DELETE /api/run/[id]`** also removes the stored trace; `GET /api/run/[id]` accepts a runId or a saved `qb_` id.
+
+## Deployment and local-dev flags
+
+- Production: `QB_MODE=live`, `QB_DAILY_CAP_USD`, `QB_TOTAL_CAP_USD`, `QB_SIGNING_KEY`, a VALID `BLOB_READ_WRITE_TOKEN`.
+  `VERCEL_ENV=production` (set by Vercel) makes demo situations replay at $0.
+- Local: the `BLOB_READ_WRITE_TOKEN` currently in `.env.local` is refused by Vercel Blob ("Access denied") — with it
+  present every store call (and so every route) fails under `next dev`; remove it or create the project's Blob store.
+  The tests never hit Blob (`setStore(createStore({dir}))`).
+- `next build` (2026-09-27) succeeds; it warns that `lib/store/blob.ts`'s `path.resolve(process.cwd(), QB_DATA_DIR ||
+  '.data')` makes Turbopack trace the whole project into the server bundle — store owner's file, see the report.
+- Live check of demo (a) through the routes on 2026-09-27: $0.1032 (Super 7 calls $0.0819 / 104.8 s, Ultra 1 call
+  $0.0214 / 13.5 s), 2 plans passed, 1 draft rejected, verdict recommended p-fastest, no refusal, 0 cache hits, no
+  fallback model.

@@ -40,9 +40,11 @@ export function offeringStatus(code: CourseCode, term: TermCode): OfferingEviden
       url: CAPE_URL, fetchedAt, source: 'cape-history',
     };
   }
+  // No evidence at all. OfferingEvidence.source has no value for that, so this keeps the last source consulted
+  // ('cape-history', with its URL) and the quote is the discriminator: it starts with "no source found".
   return {
     course, term: t, status: 'unknown',
-    quote: `${course}: no department page row, no ${t} section and no CAPE history`,
+    quote: `${course}: no source found — no department page row, no ${t} section, no CAPE history`,
     url: CAPE_URL, fetchedAt, source: 'cape-history',
   };
 }

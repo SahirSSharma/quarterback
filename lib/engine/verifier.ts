@@ -1,6 +1,6 @@
 // verify(plan, state): the deterministic veto over every proposed plan. Rules run in a fixed order — per term
 // chronologically, per course in listed order, then plan-wide — so two runs over the same input are identical.
-import type { Plan, PlanTerm, StudentState, VerifierReport, Violation } from '../types';
+import type { Plan, StudentState, VerifierReport, Violation } from '../types';
 import { catalogByCode, catalogUnits, normalizeCode } from './data';
 import { offeringStatus } from './offerings';
 import { missingGroups } from './prereqs';
@@ -14,9 +14,6 @@ export const UNIT_CAP_ERROR = 22;
 /** ASSUMPTION: 19.5 is the standard cap during initial enrollment; not verified against a primary source. */
 export const UNIT_CAP_WARNING = 19.5;
 
-// PlanTerm has no part-time flag yet (requested in notes/engine.md); a plan may set it structurally.
-type PlanTermExt = PlanTerm & { partTime?: boolean };
-
 export function verify(plan: Plan, state: StudentState, _opts: { now?: Date | string } = {}): VerifierReport {
   const violations: Violation[] = [];
   const add = (rule: string, severity: Violation['severity'], message: string, course?: string, term?: string) =>
@@ -29,7 +26,7 @@ export function verify(plan: Plan, state: StudentState, _opts: { now?: Date | st
   const placed = new Map<string, string>();
   const terms = [...plan.terms].sort((a, b) => compare(a.term, b.term));
 
-  for (const t of terms as PlanTermExt[]) {
+  for (const t of terms) {
     const term = String(t.term).toUpperCase();
     const codes = t.courses.map(normalizeCode);
     for (const code of codes) {

@@ -1,0 +1,2675 @@
+{
+  "demo": "a",
+  "recordedAt": "2026-09-28T04:13:28.568Z",
+  "now": "2026-10-01T12:00:00-07:00",
+  "state": {
+    "college": "Revelle College",
+    "collegeFile": "revelle-college.json",
+    "major": "Artificial Intelligence",
+    "majors": [
+      "Artificial Intelligence"
+    ],
+    "majorFile": "computer-science-and-engineering-artificial-intelligence.json",
+    "courses": [
+      {
+        "code": "CSE 11",
+        "title": "Intro to Programming: Accelerated",
+        "term": "FA25",
+        "units": 4,
+        "grade": "A",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 20A",
+        "title": "Calculus/Science & Engineering",
+        "term": "FA25",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "HUM 1",
+        "title": "Ancient Mediterranean World",
+        "term": "FA25",
+        "units": 6,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 9",
+        "title": "Introduction to Data Science",
+        "term": "FA25",
+        "units": 4,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 12",
+        "title": "Basic Data Struct & OO Design",
+        "term": "WI26",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 20B",
+        "title": "Calculus/Science & Engineering",
+        "term": "WI26",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "HUM 2",
+        "title": "Rome and the Medieval World",
+        "term": "WI26",
+        "units": 6,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "ECON 1",
+        "title": "Principles of Microeconomics",
+        "term": "WI26",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 25",
+        "title": "Introduction to Artificial Intelligence",
+        "term": "SP26",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "PHYS 2A",
+        "title": "Physics - Mechanics",
+        "term": "SP26",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "CHEM 11",
+        "title": "The Periodic Table",
+        "term": "SP26",
+        "units": 4,
+        "grade": "B-",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 10",
+        "title": "Cognitive Consequences of Technology",
+        "term": "SP26",
+        "units": 4,
+        "grade": "A",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 89",
+        "title": "Intro to CSE Seminar",
+        "term": "SP26",
+        "units": 2,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 29",
+        "title": "Systems Programming and Software Tools",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "CSE 20",
+        "title": "Discrete Mathematics",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "MATH 20C",
+        "title": "Calculus & Analytic Geometry",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "HUM 3",
+        "title": "Renaissance, Reformation, Early Modern",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      }
+    ],
+    "transfer": [],
+    "gpa": 3.346,
+    "currentTerm": "FA26",
+    "source": "demo",
+    "confidence": "high",
+    "warnings": []
+  },
+  "action": {
+    "kind": "drop",
+    "course": "CSE 29"
+  },
+  "impact": {
+    "action": {
+      "kind": "drop",
+      "course": "CSE 29"
+    },
+    "course": {
+      "code": "CSE 29",
+      "title": "Systems Programming and Software Tools",
+      "units": 4
+    },
+    "blocks": [
+      {
+        "code": "CSE 30",
+        "title": "Computer Organization",
+        "buckets": [
+          "Computer organization (CSE 30)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 30",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-030,Computer Organization,Dean Tullsen,Leo Porter,Jishen Zhao",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Leo Porter",
+          "source": "department-page"
+        },
+        "delayQuarters": 1
+      },
+      {
+        "code": "CSE 140L",
+        "title": "Digital Systems Laboratory",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 140L",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "CSE 140L: last CAPE-evaluated offering SP23; 64 quarters on record",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 1
+      },
+      {
+        "code": "CSE 100",
+        "title": "Advanced Data Structures",
+        "buckets": [
+          "Data structures (upper-division)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 100",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-100,Advanced Data Structures,Paul Cao,Niema Moshiri,\"Debashis Sahoo\nPaul Cao\"",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Niema Moshiri",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 100R",
+        "title": "Advanced Data Structures",
+        "buckets": [
+          "Data structures (upper-division)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 100R",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-100R,Advanced Data Structures,,Niema Moshiri,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Niema Moshiri",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 109",
+        "title": "Introduction to Programming Contests",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 109",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-109,Intro to Programming Contests,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 120",
+        "title": "Operating Systems Principles",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 120",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-120,Operating Systems Principles,Geoffrey Voelker,Bryan Chin,Amy Ousterhout",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Bryan Chin",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 123",
+        "title": "Computer Networks",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 123",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-123,Computer Networks,Alex Snoeren,Aaron Shalev,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Aaron Shalev",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 124",
+        "title": "Networked Services",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 124",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-124,Networked Services,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 150A",
+        "title": "Introduction to Artificial Intelligence: Probabilistic Reasoning and Decision-Making",
+        "buckets": [
+          "Artificial intelligence core",
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "CSE 150A",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "CSE-150A,Introduction to Artificial Intelligence: Probabilistic Reasoning and Decision-Making,Trevor Bonjour,,Trevor Bonjour",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Trevor Bonjour",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 150B",
+        "title": "Introduction to Artificial Intelligence: Search and Reasoning",
+        "buckets": [
+          "Artificial intelligence core",
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 150B",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-150B,Introduction to Artificial Intelligence: Search and Reasoning,Loris D'Antoni,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 151A",
+        "title": "Machine Learning: Learning Algorithms",
+        "buckets": [
+          "Machine learning (CSE 151A)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 151A",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-151A,Machine Learning: Learning Algorithms ,Jingbo Shang,Yoav Freund,Taylor Berg-Kirkpatrick",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Yoav Freund",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 152A",
+        "title": "Introduction to Computer Vision I",
+        "buckets": [
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 152A",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-152A,Intro to Computer Vision I,Benjamin Ochoa,Manmohan Chandraker,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Manmohan Chandraker",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 153",
+        "title": "Machine Learning for Music",
+        "buckets": [
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 153",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-153,Machine Learning for Music,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 153R",
+        "title": "Machine Learning for Music",
+        "buckets": [
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 153R",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-153R,Machine Learning for Music,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 156",
+        "title": "Statistical Natural Language Processing",
+        "buckets": [
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "CSE 156",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "CSE-156,Statistical NLP,,,Lianhui Qin",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Lianhui Qin",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 158",
+        "title": "Recommender Systems and Web Mining",
+        "buckets": [
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 158",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-158,Recommender Sys&Web Mining,Julian Mcauley,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 158R",
+        "title": "Recommender Systems and Web Mining",
+        "buckets": [
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 158R",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-158R,Recommender Sys&Web Mining,Julian Mcauley,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 55",
+        "title": "Foundations of Artificial Intelligence and Machine Learning",
+        "buckets": [
+          "AI lower-division core"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 55",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-055,Foundations of Artificial Intelligence and Machine Learning,,Ndapandula Nakashole,Ndapandula Nakashole",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Ndapandula Nakashole",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "DSC 148",
+        "title": "Introduction to Data Mining",
+        "buckets": [
+          "AI electives (12 units)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "DSC 148",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "DSC 148: last CAPE-evaluated offering WI23; 1 quarters on record",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 110",
+        "title": "Software Engineering",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 110",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-110,Software Engineering,Michael Coblenz,William Griswold,Thomas Powell",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "William Griswold",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 130",
+        "title": "Programming Languages: Principles and Paradigms",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 130",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-130,Progrmng Lang:Princpl&Paradigm,,Ranjit Jhala,Nadia Polikarpova",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Ranjit Jhala",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 131",
+        "title": "Compiler Construction",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 131",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-131,Compiler Construction,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 132A",
+        "title": "Database System Principles",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 132A",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-132A,Database System Principles,,Alin Deutsch,Alin Deutsch",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Alin Deutsch",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 134B",
+        "title": "Web Client Languages",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 134B",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-134B,Web Client Languages,Thomas Powell,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 135",
+        "title": "Online Database Analytics Applications",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 135",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-135,Online Database Analytics Applications,,Thomas Powell,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Thomas Powell",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 142",
+        "title": "Introduction to Computer Architecture: A Software Perspective",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "CSE 142",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "CSE-142,Introduction to Computer Architecture: A Software Perspective,,,Steven Swanson",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Steven Swanson",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 142L",
+        "title": "Software Project for Computer Architecture",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 142L",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "CSE 142L: last CAPE-evaluated offering S222; 4 quarters on record",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 160",
+        "title": "Introduction to Parallel Computing",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 160",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-160,Intro to Parallel Computing,,Ryan Kastner,Bryan Chin",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Ryan Kastner",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 166",
+        "title": "Image Processing",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 166",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-166,Image Processing,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 167",
+        "title": "Computer Graphics",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 167",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-167,Computer Graphics,Tzu Mao Li,Albert Chern,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Albert Chern",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 167R",
+        "title": "Computer Graphics",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 167R",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-167R,Computer Graphics,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 181",
+        "title": "Molecular Sequence Analysis",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 181",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-181,Molecular Sequence Analysis,,Pavel Pevzner,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Pavel Pevzner",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 181R",
+        "title": "Molecular Sequence Analysis",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 181R",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-181R,Molecular Sequence Analysis,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 182",
+        "title": "Biological Databases",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "CSE 182",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "CSE-182,Biological Databases,,,Vineet Bafna",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Vineet Bafna",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 121",
+        "title": "Real-World Operating Systems",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 121",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "CSE 121: no source found — no department page row, no WI27 section, no CAPE history",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 127",
+        "title": "Introduction to Computer Security",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 127",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-127,Intro to Computer Security,Stefan Savage,Deepak Kumar,Deian Stefan",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Deepak Kumar",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 118B",
+        "title": "Introduction to Machine Learning",
+        "buckets": [
+          "AI electives (12 units)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "COGS 118B",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "COGS 118B,,,Fleischer,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Fleischer",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 182",
+        "title": "Introduction to Reinforcement Learning",
+        "buckets": [
+          "AI electives (12 units)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "COGS 182",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "COGS 182,,,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 181",
+        "title": "Neural Networks and Deep Learning",
+        "buckets": [
+          "AI electives (12 units)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "COGS 181",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "COGS 181,,Tu,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Tu",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 151B",
+        "title": "Deep Learning",
+        "buckets": [
+          "Artificial intelligence core",
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 151B",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-151B,Deep Learning,Sadhika Malladi,Marc Niethammer,Rose Yu",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Marc Niethammer",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 152B",
+        "title": "Introduction to Computer Vision II",
+        "buckets": [
+          "AI electives (12 units)",
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "CSE 152B",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "CSE-152B,Intro to Computer Vision II,,,Manmohan Chandraker",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Manmohan Chandraker",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 118A",
+        "title": "Supervised Machine Learning Algorithms",
+        "buckets": [
+          "AI electives (12 units)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "COGS 118A",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "COGS 118A,Tu,,Fleischer,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Fleischer",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 122",
+        "title": "Wireless Networks",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 122",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-122,Wireless Networks,,Patrick Pannuto,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Patrick Pannuto",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 140",
+        "title": "Components and Design Techniques for Digital Systems",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 140",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-140,Component&Desgn Tech/Digtl Sys,Alex Orailoglu,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 141",
+        "title": "Introduction to Computer Architecture",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "CSE 141",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "CSE-141,Intro/Computer Architecture,Patrick Pannuto,,Hadi Esmaeilzadeh",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Hadi Esmaeilzadeh",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 141L",
+        "title": "Project in Computer Architecture",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 141L",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "CSE 141L: last CAPE-evaluated offering SP23; 59 quarters on record",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 147",
+        "title": "Introduction to Embedded Systems",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 147",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-147,Introduction to Embedded Systems,,Tajana Rosing,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Tajana Rosing",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 184",
+        "title": "Computational Molecular Biology",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 184",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "CSE 184: no source found — no department page row, no WI27 section, no CAPE history",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 112",
+        "title": "Advanced Software Engineering",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 112",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-112,Advanced Software Engineering,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 176A",
+        "title": "Health Care Robotics",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "CSE 176A",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "CSE-176A,Healthcare Robotics,,,Laurel Riek",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Laurel Riek",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 118",
+        "title": "Ubiquitous Computing",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 118",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-118,Ubiquitous Computing,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 132B",
+        "title": "Database Systems Applications",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 132B",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "CSE 132B: last CAPE-evaluated offering SP23; 15 quarters on record",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 132C",
+        "title": "Database System Implementation",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 132C",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "CSE 132C: last CAPE-evaluated offering SP23; 4 quarters on record",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 136",
+        "title": "Enterprise-Class Web Applications",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 136",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-136,Enterprise-class Web Applcatns,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 148",
+        "title": "Advanced Processor Architecture Design Project",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 148",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-148,Adv Processor Arch Design Proj,,Dean Tullsen,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Dean Tullsen",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 163",
+        "title": "Advanced Computer Graphics",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 163",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-163,Advanced Computer Graphics,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 165",
+        "title": "3-D User Interaction",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "CSE 165",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "CSE-165,3-D User Interaction,,,Nadir Weibel",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Nadir Weibel",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 168",
+        "title": "Computer Graphics II: Rendering",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "CSE 168",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "CSE-168,Computer Graphics II: Rendering,,,Ravi Ramamoorthi",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Ravi Ramamoorthi",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 168R",
+        "title": "Computer Graphics II: Rendering",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 168R",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-168R,Computer Graphics II: Rendering,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 169",
+        "title": "Computer Animation",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 169",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-169,Computer Animation,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 188",
+        "title": "Artificial Intelligence Algorithms",
+        "buckets": [
+          "AI electives (12 units)",
+          "Social Science"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "COGS 188",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "COGS 188,Fleischer,,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 185",
+        "title": "Advanced Machine Learning Methods",
+        "buckets": [
+          "AI electives (12 units)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "COGS 185",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "COGS 185,,Tu,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Tu",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 143",
+        "title": "Microelectronic System Design",
+        "buckets": [
+          "Upper-division electives (32 units with breadth distribution)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 143",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-143,Microelectronic System Design,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      }
+    ],
+    "unitsAfter": 12,
+    "fullTimeFloor": 12,
+    "belowFullTime": false,
+    "pnpAllowed": "unknown",
+    "pnpNote": "CSE 29 fills \"Software tools / systems programming\" for the major. Courses taken P/NP generally may not satisfy major requirements; confirm with Computer Science and Engineering (CSE) advising before changing the grading option. UC San Diego also caps P/NP at one-quarter of your UC San Diego units.",
+    "deadlines": [
+      {
+        "key": "dropWithoutW",
+        "label": "Drop without a W",
+        "date": "2026-10-23",
+        "term": "FA26",
+        "passed": false
+      },
+      {
+        "key": "changeUnits",
+        "label": "Change units",
+        "date": "2026-11-06",
+        "term": "FA26",
+        "passed": false
+      },
+      {
+        "key": "changeGradingOption",
+        "label": "Change grading option (P/NP)",
+        "date": "2026-11-06",
+        "term": "FA26",
+        "passed": false
+      },
+      {
+        "key": "dropWithW",
+        "label": "Drop with a W",
+        "date": "2026-11-06",
+        "term": "FA26",
+        "passed": false
+      }
+    ],
+    "progressDelta": [
+      {
+        "bucket": "Software tools / systems programming",
+        "band": "major",
+        "before": 1,
+        "after": 0,
+        "needed": 1
+      }
+    ],
+    "chainQuartersBefore": 2,
+    "chainQuartersAfter": 2,
+    "graduationRisk": "possible",
+    "notes": [
+      "\"Software tools / systems programming\" (major) goes from 1 to 0 of 1.",
+      "CSE 100 is not delayed by this alone: it still needs CSE 21 or MATH 154 or MATH 158 or … (earliest Spring 2027).",
+      "CSE 100R is not delayed by this alone: it still needs CSE 21 or MATH 154 or MATH 158 or … (earliest Fall 2027).",
+      "CSE 120 is not delayed by this alone: it still needs CSE 30; CSE 100 or CSE 100R; CSE 101 (earliest Fall 2027).",
+      "CSE 123 is not delayed by this alone: it still needs CSE 101; CSE 110 (earliest Winter 2028).",
+      "CSE 124 is not delayed by this alone: it still needs CSE 101; CSE 110 (earliest Winter 2028).",
+      "CSE 150A is not delayed by this alone: it still needs COGS 118D or CSE 103 or ECE 109 or …; MATH 18 or MATH 31AH (earliest Spring 2027).",
+      "CSE 150B is not delayed by this alone: it still needs COGS 118D or CSE 103 or ECE 109 or …; CSE 100 or CSE 100R (earliest Fall 2027).",
+      "CSE 151A is not delayed by this alone: it still needs COGS 118D or CSE 103 or ECE 109 or …; MATH 18 or MATH 31AH (earliest Spring 2027).",
+      "CSE 152A is not delayed by this alone: it still needs MATH 18 or MATH 31AH (earliest Fall 2027).",
+      "CSE 153 is not delayed by this alone: it still needs BENG 100 or BENG 134 or COGS 118D or … (earliest Fall 2027).",
+      "CSE 153R is not delayed by this alone: it still needs BENG 100 or BENG 134 or COGS 118D or … (earliest Fall 2027).",
+      "CSE 156 is not delayed by this alone: it still needs BENG 134 or COGS 118D or CSE 103 or … (earliest Spring 2027).",
+      "CSE 158 is not delayed by this alone: it still needs BENG 100 or BENG 134 or COGS 118D or … (earliest Fall 2027).",
+      "CSE 158R is not delayed by this alone: it still needs BENG 100 or BENG 134 or COGS 118D or … (earliest Fall 2027).",
+      "CSE 30: earliest Winter 2027 → Spring 2027 (+1 quarter).",
+      "CSE 55 is not delayed by this alone: it still needs MATH 18 or MATH 31AH (earliest Spring 2027).",
+      "DSC 148 is not delayed by this alone: it still needs MATH 180A or MATH 180B or MATH 181A or … (earliest Spring 2027).",
+      "CSE 140L: earliest Spring 2027 → Fall 2027 (+1 quarter).",
+      "CSE 29 itself is next listed for Winter 2027 (department-page: \"CSE-029,Systems Programming and Software Tools,Aaron Shalev,Bryan Chin,Joe Politz\").",
+      "Quarters with no offering evidence were treated as possible, never as confirmed offered.",
+      "Dropping CSE 29 (4 units) leaves 12 units in Fall 2026.",
+      "Longest remaining prerequisite chain: 2 → 2 quarters. About 8 quarters remain at 15 units/quarter to 180 units (66 banked), so graduation risk is \"possible\"."
+    ]
+  },
+  "plans": [
+    {
+      "id": "p-balanced",
+      "label": "balanced",
+      "terms": [
+        {
+          "term": "WI27",
+          "courses": [
+            "CSE 29",
+            "CSE 21",
+            "MATH 18",
+            "HUM 4"
+          ],
+          "units": 16
+        },
+        {
+          "term": "SP27",
+          "courses": [
+            "CSE 30",
+            "CSE 55",
+            "CSE 100",
+            "ECE 109"
+          ],
+          "units": 16
+        },
+        {
+          "term": "FA27",
+          "courses": [
+            "CSE 101",
+            "CSE 151A",
+            "HUM 5",
+            "COGS 108"
+          ],
+          "units": 16
+        }
+      ],
+      "rationale": "Balances major progress with college humanities, relying on FA27 offerings being confirmed later.",
+      "graduationTerm": "FA27"
+    },
+    {
+      "id": "p-lightest",
+      "label": "lightest",
+      "terms": [
+        {
+          "term": "WI27",
+          "courses": [
+            "CSE 29",
+            "CSE 21",
+            "MATH 18"
+          ],
+          "units": 12
+        },
+        {
+          "term": "SP27",
+          "courses": [
+            "CSE 30",
+            "CSE 55",
+            "ECE 109"
+          ],
+          "units": 12
+        },
+        {
+          "term": "FA27",
+          "courses": [
+            "CSE 101",
+            "CSE 151A",
+            "COGS 108"
+          ],
+          "units": 12
+        }
+      ],
+      "rationale": "Keeps load at minimum full-time while completing core sequences, assuming FA27 courses will be offered.",
+      "graduationTerm": "FA27"
+    }
+  ],
+  "reports": [
+    {
+      "planId": "p-fastest",
+      "ok": false,
+      "violations": [
+        {
+          "rule": "already-earned",
+          "message": "CSE 89 is already earned (P, SP26).",
+          "severity": "error",
+          "course": "CSE 89",
+          "term": "WI27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CSE 101 in FA27 has no offering evidence: CSE 101: last CAPE-evaluated offering SP23; 66 quarters on record.",
+          "severity": "warning",
+          "course": "CSE 101",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CSE 151A in FA27 has no offering evidence: CSE 151A: last CAPE-evaluated offering SP23; 9 quarters on record.",
+          "severity": "warning",
+          "course": "CSE 151A",
+          "term": "FA27"
+        },
+        {
+          "rule": "prereq-unsatisfied",
+          "message": "CSE 151B in FA27 still needs COGS 118A or COGS 118B or COGS 188 or CSE 151A or DSC 140B or ECE 175A.",
+          "severity": "error",
+          "course": "CSE 151B",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CSE 151B in FA27 has no offering evidence: CSE 151B: last CAPE-evaluated offering SP23; 6 quarters on record.",
+          "severity": "warning",
+          "course": "CSE 151B",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "PHIL 174 in FA27 has no offering evidence: PHIL 174: last CAPE-evaluated offering WI23; 2 quarters on record.",
+          "severity": "warning",
+          "course": "PHIL 174",
+          "term": "FA27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 100 is credited to \"Data structures (upper-division)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 100",
+          "term": "SP27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 101 is credited to \"Algorithms (CSE 101)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 101",
+          "term": "FA27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 151A is credited to \"Machine learning (CSE 151A)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 151A",
+          "term": "FA27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 151B is credited to \"Artificial intelligence core\" only; \"AI electives (12 units)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 151B",
+          "term": "FA27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 151B is credited to \"Artificial intelligence core\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 151B",
+          "term": "FA27"
+        }
+      ]
+    },
+    {
+      "planId": "p-balanced",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "HUM 4 in WI27 has no offering evidence: HUM 4: last CAPE-evaluated offering WI23; 42 quarters on record.",
+          "severity": "warning",
+          "course": "HUM 4",
+          "term": "WI27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CSE 101 in FA27 has no offering evidence: CSE 101: last CAPE-evaluated offering SP23; 66 quarters on record.",
+          "severity": "warning",
+          "course": "CSE 101",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CSE 151A in FA27 has no offering evidence: CSE 151A: last CAPE-evaluated offering SP23; 9 quarters on record.",
+          "severity": "warning",
+          "course": "CSE 151A",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "HUM 5 in FA27 has no offering evidence: HUM 5: last CAPE-evaluated offering SP23; 43 quarters on record.",
+          "severity": "warning",
+          "course": "HUM 5",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 108 in FA27 has no offering evidence: COGS 108: last CAPE-evaluated offering SP23; 16 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 108",
+          "term": "FA27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 100 is credited to \"Data structures (upper-division)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 100",
+          "term": "SP27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 101 is credited to \"Algorithms (CSE 101)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 101",
+          "term": "FA27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 151A is credited to \"Machine learning (CSE 151A)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 151A",
+          "term": "FA27"
+        }
+      ]
+    },
+    {
+      "planId": "p-lightest",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "CSE 101 in FA27 has no offering evidence: CSE 101: last CAPE-evaluated offering SP23; 66 quarters on record.",
+          "severity": "warning",
+          "course": "CSE 101",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CSE 151A in FA27 has no offering evidence: CSE 151A: last CAPE-evaluated offering SP23; 9 quarters on record.",
+          "severity": "warning",
+          "course": "CSE 151A",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 108 in FA27 has no offering evidence: COGS 108: last CAPE-evaluated offering SP23; 16 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 108",
+          "term": "FA27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 101 is credited to \"Algorithms (CSE 101)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 101",
+          "term": "FA27"
+        },
+        {
+          "rule": "double-count",
+          "message": "CSE 151A is credited to \"Machine learning (CSE 151A)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+          "severity": "warning",
+          "course": "CSE 151A",
+          "term": "FA27"
+        }
+      ]
+    }
+  ],
+  "rejectedDrafts": 1,
+  "rounds": 1,
+  "verdict": {
+    "recommend": "p-balanced",
+    "refused": [],
+    "risks": [
+      "p-lightest places CSE 101, CSE 151A, and COGS 108 in FA27, which is beyond the CSE, COGS, and ECE departments' published tentative schedules; confirm offerings when the Schedule of Classes is released."
+    ],
+    "summary": "Both plans rely on FA27 offerings that are beyond the departments' published tentative schedules, but neither has a placement in a quarter where a department page explicitly shows the course is not offered. The balanced plan has more evidenced placements in WI27 and SP27 and includes the college humanities sequence, so it is the safer choice. Re-check all FA27 courses and HUM 4/WI27 and HUM 5/FA27 when the Schedule of Classes publishes."
+  },
+  "ledger": [
+    {
+      "at": "2026-09-28T04:11:18.199Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 13841,
+      "promptTokens": 22161,
+      "completionTokens": 2173,
+      "reasoningTokens": 2016,
+      "cacheHitTokens": 0,
+      "usd": 0.008604,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:11:44.733Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 26528,
+      "promptTokens": 22413,
+      "completionTokens": 5767,
+      "reasoningTokens": 5724,
+      "cacheHitTokens": 0,
+      "usd": 0.011914200000000002,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:11:46.810Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 2072,
+      "promptTokens": 22598,
+      "completionTokens": 150,
+      "reasoningTokens": 106,
+      "cacheHitTokens": 0,
+      "usd": 0.006914399999999999,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:12:18.685Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 31871,
+      "promptTokens": 22777,
+      "completionTokens": 6174,
+      "reasoningTokens": 6013,
+      "cacheHitTokens": 0,
+      "usd": 0.0123897,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:12:48.688Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 29998,
+      "promptTokens": 23033,
+      "completionTokens": 5995,
+      "reasoningTokens": 5840,
+      "cacheHitTokens": 0,
+      "usd": 0.0123054,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:13:00.835Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 12144,
+      "promptTokens": 23283,
+      "completionTokens": 2516,
+      "reasoningTokens": 2364,
+      "cacheHitTokens": 0,
+      "usd": 0.009249299999999998,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:13:28.267Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 27428,
+      "promptTokens": 22941,
+      "completionTokens": 5448,
+      "reasoningTokens": 4791,
+      "cacheHitTokens": 0,
+      "usd": 0.0117855,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:13:48.953Z",
+      "step": "stress-test",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "ms": 20380,
+      "promptTokens": 6546,
+      "completionTokens": 7062,
+      "reasoningTokens": 6865,
+      "cacheHitTokens": 0,
+      "usd": 0.027732,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:13:50.231Z",
+      "step": "explain",
+      "model": "nvidia/Nemotron-3_5-Lightning",
+      "ms": 1179,
+      "promptTokens": 567,
+      "completionTokens": 32,
+      "reasoningTokens": 0,
+      "cacheHitTokens": 0,
+      "usd": 0.0000417,
+      "replayed": false
+    }
+  ],
+  "events": [
+    {
+      "t": 395,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T04:11:04.357Z",
+        "message": "Context pack built: 176 courses in the table across WI27, SP27, FA27; shared prefix ≈ 8.0k tokens, student suffix ≈ 2.6k tokens."
+      }
+    },
+    {
+      "t": 14240,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:11:18.199Z",
+        "entry": {
+          "at": "2026-09-28T04:11:18.199Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 13841,
+          "promptTokens": 22161,
+          "completionTokens": 2173,
+          "reasoningTokens": 2016,
+          "cacheHitTokens": 0,
+          "usd": 0.008604,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 14240,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:11:18.202Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "CSE 15L",
+                "CSE 21",
+                "MATH 18",
+                "CSE 89"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "CSE 30",
+                "CSE 55",
+                "CSE 100",
+                "CSE 101"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "CSE 151A",
+                "CSE 151B",
+                "ECE 109",
+                "PHIL 174"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 14243,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:11:18.205Z",
+        "name": "unit_check",
+        "ms": 3,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 40775,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:11:44.733Z",
+        "entry": {
+          "at": "2026-09-28T04:11:44.733Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 26528,
+          "promptTokens": 22413,
+          "completionTokens": 5767,
+          "reasoningTokens": 5724,
+          "cacheHitTokens": 0,
+          "usd": 0.011914200000000002,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 40775,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:11:44.737Z",
+        "name": "offering_status",
+        "args": {
+          "code": "CSE 29",
+          "term": "WI27"
+        }
+      }
+    },
+    {
+      "t": 40776,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:11:44.738Z",
+        "name": "offering_status",
+        "ms": 1,
+        "summary": "{\"id\":\"ev_CSE29_WI27\",\"course\":\"CSE 29\",\"term\":\"WI27\",\"status\":\"offered\",\"quote\":\"CSE-029,Systems Programming and Software Tools,Aaron Shalev,Bryan Chin,Joe Politz\",\"url\":\"https://cse.ucsd.edu/undergr"
+      }
+    },
+    {
+      "t": 42851,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:11:46.810Z",
+        "entry": {
+          "at": "2026-09-28T04:11:46.810Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 2072,
+          "promptTokens": 22598,
+          "completionTokens": 150,
+          "reasoningTokens": 106,
+          "cacheHitTokens": 0,
+          "usd": 0.006914399999999999,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 42852,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:11:46.813Z",
+        "name": "offering_status",
+        "args": {
+          "code": "CSE 15L",
+          "term": "WI27"
+        }
+      }
+    },
+    {
+      "t": 42852,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:11:46.814Z",
+        "name": "offering_status",
+        "ms": 0,
+        "summary": "{\"id\":\"ev_CSE15L_WI27\",\"course\":\"CSE 15L\",\"term\":\"WI27\",\"status\":\"unknown\",\"quote\":\"CSE 15L: last CAPE-evaluated offering WI23; 59 quarters on record\",\"url\":\"https://classplanner.apps.ucsd.edu\",\"fetch"
+      }
+    },
+    {
+      "t": 74727,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:12:18.685Z",
+        "entry": {
+          "at": "2026-09-28T04:12:18.685Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 31871,
+          "promptTokens": 22777,
+          "completionTokens": 6174,
+          "reasoningTokens": 6013,
+          "cacheHitTokens": 0,
+          "usd": 0.0123897,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 74727,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:12:18.689Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "CSE 15L",
+                "CSE 21",
+                "MATH 18",
+                "CSE 42",
+                "HUM 4"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "CSE 30",
+                "CSE 55",
+                "CSE 100",
+                "HUM 5"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "CSE 101",
+                "CSE 151A",
+                "CSE 151B",
+                "PHIL 174"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 74728,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:12:18.690Z",
+        "name": "unit_check",
+        "ms": 1,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":5,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 104728,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:12:48.688Z",
+        "entry": {
+          "at": "2026-09-28T04:12:48.688Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 29998,
+          "promptTokens": 23033,
+          "completionTokens": 5995,
+          "reasoningTokens": 5840,
+          "cacheHitTokens": 0,
+          "usd": 0.0123054,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 104728,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:12:48.690Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "CSE 29",
+                "CSE 21",
+                "MATH 18",
+                "HUM 4"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "CSE 30",
+                "CSE 55",
+                "CSE 100",
+                "ECE 109"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "CSE 101",
+                "CSE 151A",
+                "CSE 151B",
+                "PHIL 174"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 104729,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:12:48.691Z",
+        "name": "unit_check",
+        "ms": 1,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 116875,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:13:00.835Z",
+        "entry": {
+          "at": "2026-09-28T04:13:00.835Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 12144,
+          "promptTokens": 23283,
+          "completionTokens": 2516,
+          "reasoningTokens": 2364,
+          "cacheHitTokens": 0,
+          "usd": 0.009249299999999998,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 116875,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:13:00.837Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "CSE 15L",
+                "CSE 21",
+                "MATH 18",
+                "CSE 89"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "CSE 30",
+                "CSE 55",
+                "CSE 100",
+                "HUM 4"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "CSE 101",
+                "CSE 152A",
+                "ECE 109",
+                "HUM 5"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 116876,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:13:00.838Z",
+        "name": "unit_check",
+        "ms": 1,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 144311,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:13:28.267Z",
+        "entry": {
+          "at": "2026-09-28T04:13:28.267Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 27428,
+          "promptTokens": 22941,
+          "completionTokens": 5448,
+          "reasoningTokens": 4791,
+          "cacheHitTokens": 0,
+          "usd": 0.0117855,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 144429,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T04:13:28.391Z",
+        "report": {
+          "planId": "p-fastest",
+          "ok": false,
+          "violations": [
+            {
+              "rule": "already-earned",
+              "message": "CSE 89 is already earned (P, SP26).",
+              "severity": "error",
+              "course": "CSE 89",
+              "term": "WI27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CSE 101 in FA27 has no offering evidence: CSE 101: last CAPE-evaluated offering SP23; 66 quarters on record.",
+              "severity": "warning",
+              "course": "CSE 101",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CSE 151A in FA27 has no offering evidence: CSE 151A: last CAPE-evaluated offering SP23; 9 quarters on record.",
+              "severity": "warning",
+              "course": "CSE 151A",
+              "term": "FA27"
+            },
+            {
+              "rule": "prereq-unsatisfied",
+              "message": "CSE 151B in FA27 still needs COGS 118A or COGS 118B or COGS 188 or CSE 151A or DSC 140B or ECE 175A.",
+              "severity": "error",
+              "course": "CSE 151B",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CSE 151B in FA27 has no offering evidence: CSE 151B: last CAPE-evaluated offering SP23; 6 quarters on record.",
+              "severity": "warning",
+              "course": "CSE 151B",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "PHIL 174 in FA27 has no offering evidence: PHIL 174: last CAPE-evaluated offering WI23; 2 quarters on record.",
+              "severity": "warning",
+              "course": "PHIL 174",
+              "term": "FA27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 100 is credited to \"Data structures (upper-division)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 100",
+              "term": "SP27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 101 is credited to \"Algorithms (CSE 101)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 101",
+              "term": "FA27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 151A is credited to \"Machine learning (CSE 151A)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 151A",
+              "term": "FA27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 151B is credited to \"Artificial intelligence core\" only; \"AI electives (12 units)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 151B",
+              "term": "FA27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 151B is credited to \"Artificial intelligence core\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 151B",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 144517,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T04:13:28.479Z",
+        "report": {
+          "planId": "p-balanced",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "HUM 4 in WI27 has no offering evidence: HUM 4: last CAPE-evaluated offering WI23; 42 quarters on record.",
+              "severity": "warning",
+              "course": "HUM 4",
+              "term": "WI27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CSE 101 in FA27 has no offering evidence: CSE 101: last CAPE-evaluated offering SP23; 66 quarters on record.",
+              "severity": "warning",
+              "course": "CSE 101",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CSE 151A in FA27 has no offering evidence: CSE 151A: last CAPE-evaluated offering SP23; 9 quarters on record.",
+              "severity": "warning",
+              "course": "CSE 151A",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "HUM 5 in FA27 has no offering evidence: HUM 5: last CAPE-evaluated offering SP23; 43 quarters on record.",
+              "severity": "warning",
+              "course": "HUM 5",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 108 in FA27 has no offering evidence: COGS 108: last CAPE-evaluated offering SP23; 16 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 108",
+              "term": "FA27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 100 is credited to \"Data structures (upper-division)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 100",
+              "term": "SP27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 101 is credited to \"Algorithms (CSE 101)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 101",
+              "term": "FA27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 151A is credited to \"Machine learning (CSE 151A)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 151A",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 144606,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T04:13:28.568Z",
+        "report": {
+          "planId": "p-lightest",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "CSE 101 in FA27 has no offering evidence: CSE 101: last CAPE-evaluated offering SP23; 66 quarters on record.",
+              "severity": "warning",
+              "course": "CSE 101",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CSE 151A in FA27 has no offering evidence: CSE 151A: last CAPE-evaluated offering SP23; 9 quarters on record.",
+              "severity": "warning",
+              "course": "CSE 151A",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 108 in FA27 has no offering evidence: COGS 108: last CAPE-evaluated offering SP23; 16 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 108",
+              "term": "FA27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 101 is credited to \"Algorithms (CSE 101)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 101",
+              "term": "FA27"
+            },
+            {
+              "rule": "double-count",
+              "message": "CSE 151A is credited to \"Machine learning (CSE 151A)\" only; \"Upper-division electives (32 units with breadth distribution)\" also lists it but the engine will not count it twice.",
+              "severity": "warning",
+              "course": "CSE 151A",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 144606,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T04:13:28.568Z",
+        "message": "2 plans passed the verifier; 1 draft rejected."
+      }
+    },
+    {
+      "t": 144606,
+      "event": {
+        "type": "done",
+        "step": "plan",
+        "at": "2026-09-28T04:13:28.568Z"
+      }
+    },
+    {
+      "t": 144607,
+      "event": {
+        "type": "step",
+        "step": "stress-test",
+        "at": "2026-09-28T04:13:28.569Z",
+        "message": "Stress-testing 2 plans against 36 evidence rows."
+      }
+    },
+    {
+      "t": 164993,
+      "event": {
+        "type": "model",
+        "step": "stress-test",
+        "at": "2026-09-28T04:13:48.953Z",
+        "entry": {
+          "at": "2026-09-28T04:13:48.953Z",
+          "step": "stress-test",
+          "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+          "ms": 20380,
+          "promptTokens": 6546,
+          "completionTokens": 7062,
+          "reasoningTokens": 6865,
+          "cacheHitTokens": 0,
+          "usd": 0.027732,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 164993,
+      "event": {
+        "type": "step",
+        "step": "stress-test",
+        "at": "2026-09-28T04:13:48.955Z",
+        "message": "Recommends p-balanced; refused 0; 1 risk."
+      }
+    },
+    {
+      "t": 164993,
+      "event": {
+        "type": "done",
+        "step": "stress-test",
+        "at": "2026-09-28T04:13:48.955Z"
+      }
+    },
+    {
+      "t": 166270,
+      "event": {
+        "type": "model",
+        "step": "explain",
+        "at": "2026-09-28T04:13:50.231Z",
+        "entry": {
+          "at": "2026-09-28T04:13:50.231Z",
+          "step": "explain",
+          "model": "nvidia/Nemotron-3_5-Lightning",
+          "ms": 1179,
+          "promptTokens": 567,
+          "completionTokens": 32,
+          "reasoningTokens": 0,
+          "cacheHitTokens": 0,
+          "usd": 0.0000417,
+          "replayed": false
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "explain": {
+    "code": "CSE 105",
+    "text": "You cannot enroll; you are missing MATH 184 or MATH 188. The earliest quarter it fits is FA27."
+  },
+  "intake": {
+    "file": "lib/engine/fixtures/academic-history-demo.txt",
+    "state": {
+      "college": "Revelle College",
+      "collegeFile": "revelle-college.json",
+      "major": "Artificial Intelligence",
+      "majors": [
+        "Artificial Intelligence"
+      ],
+      "majorFile": "computer-science-and-engineering-artificial-intelligence.json",
+      "courses": [
+        {
+          "code": "CSE 11",
+          "title": "Intro to Programming: Accelerated",
+          "term": "FA25",
+          "units": 4,
+          "grade": "A",
+          "status": "earned"
+        },
+        {
+          "code": "MATH 20A",
+          "title": "Calculus/Science & Engineering",
+          "term": "FA25",
+          "units": 4,
+          "grade": "B+",
+          "status": "earned"
+        },
+        {
+          "code": "HUM 1",
+          "title": "Ancient Mediterranean World",
+          "term": "FA25",
+          "units": 6,
+          "grade": "B",
+          "status": "earned"
+        },
+        {
+          "code": "COGS 9",
+          "title": "Introduction to Data Science",
+          "term": "FA25",
+          "units": 4,
+          "grade": "P",
+          "status": "earned"
+        },
+        {
+          "code": "CSE 12",
+          "title": "Basic Data Struct & OO Design",
+          "term": "WI26",
+          "units": 4,
+          "grade": "A-",
+          "status": "earned"
+        },
+        {
+          "code": "MATH 20B",
+          "title": "Calculus/Science & Engineering",
+          "term": "WI26",
+          "units": 4,
+          "grade": "B",
+          "status": "earned"
+        },
+        {
+          "code": "HUM 2",
+          "title": "Rome and the Medieval World",
+          "term": "WI26",
+          "units": 6,
+          "grade": "B+",
+          "status": "earned"
+        },
+        {
+          "code": "ECON 1",
+          "title": "Principles of Microeconomics",
+          "term": "WI26",
+          "units": 4,
+          "grade": "B+",
+          "status": "earned"
+        },
+        {
+          "code": "CSE 25",
+          "title": "Introduction to Artificial Intelligence",
+          "term": "SP26",
+          "units": 4,
+          "grade": "A-",
+          "status": "earned"
+        },
+        {
+          "code": "PHYS 2A",
+          "title": "Physics - Mechanics",
+          "term": "SP26",
+          "units": 4,
+          "grade": "B",
+          "status": "earned"
+        },
+        {
+          "code": "CHEM 11",
+          "title": "The Periodic Table",
+          "term": "SP26",
+          "units": 4,
+          "grade": "B-",
+          "status": "earned"
+        },
+        {
+          "code": "COGS 10",
+          "title": "Cognitive Consequences of Technology",
+          "term": "SP26",
+          "units": 4,
+          "grade": "A",
+          "status": "earned"
+        },
+        {
+          "code": "CSE 89",
+          "title": "Intro to CSE Seminar",
+          "term": "SP26",
+          "units": 2,
+          "grade": "P",
+          "status": "earned"
+        },
+        {
+          "code": "CSE 29",
+          "title": "Systems Programming and Software Tools",
+          "term": "FA26",
+          "units": 4,
+          "grade": null,
+          "status": "wip"
+        },
+        {
+          "code": "CSE 20",
+          "title": "Discrete Mathematics",
+          "term": "FA26",
+          "units": 4,
+          "grade": null,
+          "status": "wip"
+        },
+        {
+          "code": "MATH 20C",
+          "title": "Calculus & Analytic Geometry",
+          "term": "FA26",
+          "units": 4,
+          "grade": null,
+          "status": "wip"
+        },
+        {
+          "code": "HUM 3",
+          "title": "Renaissance, Reformation, Early Modern",
+          "term": "FA26",
+          "units": 4,
+          "grade": null,
+          "status": "wip"
+        }
+      ],
+      "transfer": [],
+      "gpa": 3.346,
+      "currentTerm": "FA26",
+      "source": "ai-intake",
+      "confidence": "medium",
+      "warnings": [
+        "Confirm the major: the record reads \"Artificial Intelligence\", matched to the \"Artificial Intelligence\" requirement set.",
+        "A model read this paste, not the parser: confirm the 17 course rows (codes, quarters, units, grades) before planning."
+      ]
+    }
+  }
+}

@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest';
 import { readdirSync } from 'node:fs';
 import path from 'node:path';
 import {
-  catalogByCode, catalogEntries, catalogUnits, collegesIndex, grades, gradingRestrictions, loadCollege, loadMajor,
-  majorsIndex, normalizeCode, offeringsRows, registrarCalendar, sectionsByCode,
+  catalogByCode, catalogEntries, catalogOverrides, catalogUnits, collegesIndex, grades, gradingRestrictions, loadCollege,
+  loadMajor, majorsIndex, normalizeCode, offeringsRows, registrarCalendar, sectionsByCode,
 } from './data';
 
 describe('normalizeCode', () => {
@@ -47,6 +47,20 @@ describe('catalog', () => {
     expect(catalogUnits('HUM 1')).toBe(6);
     expect(catalogUnits('CSE 15L')).toBe(2);
     expect(catalogUnits('NOPE 1')).toBeNull();
+  });
+  it('applies data/catalog-overrides.json over a mis-parsed snapshot row, leaving the raw entries as scraped', () => {
+    // CSE 29: "…; two units of credit offered for CSE 29 if CSE 15L taken previously" is not a prerequisite.
+    expect(catalogByCode().get('CSE 29')!.prereqs).toEqual([['CSE 11', 'CSE 8B', 'ECE 15']]);
+    // MATH 180A: "Math 20C or MATH 31BH" — the lower-case mention was dropped upstream.
+    expect(catalogByCode().get('MATH 180A')!.prereqs).toEqual([['MATH 20C', 'MATH 31BH']]);
+    const raw = catalogEntries().find((c) => c.code === 'CSE 29' && c.prereqText)!;
+    expect(raw.prereqs).toEqual([['CSE 11', 'CSE 8B', 'ECE 15'], ['CSE 15L']]);
+    // Every override names a real catalog course and is normalized.
+    for (const [code, groups] of catalogOverrides()) {
+      expect(catalogByCode().has(code)).toBe(true);
+      expect(catalogByCode().get(code)!.prereqs).toEqual(groups);
+      for (const g of groups) for (const m of g) expect(m).toBe(normalizeCode(m));
+    }
   });
   it('exposes catalog grading restrictions keyed by normalized code', () => {
     const r = gradingRestrictions();

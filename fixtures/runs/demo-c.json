@@ -1,0 +1,1282 @@
+{
+  "demo": "c",
+  "recordedAt": "2026-09-28T04:20:20.705Z",
+  "now": "2026-10-01T12:00:00-07:00",
+  "state": {
+    "college": "Sixth College",
+    "collegeFile": "sixth-college.json",
+    "major": "Mathematics-Computer Science",
+    "majors": [
+      "Mathematics-Computer Science"
+    ],
+    "majorFile": "mathematics-mathematics-computer-science.json",
+    "courses": [
+      {
+        "code": "CSE 20",
+        "title": "Discrete Mathematics",
+        "term": "FA25",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 20D",
+        "title": "Introduction to Differential Equations",
+        "term": "FA25",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 29",
+        "title": "Systems Programming and Software Tools",
+        "term": "FA25",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "CAT 125",
+        "title": "Public Rhetoric and Practical Communication",
+        "term": "FA25",
+        "units": 4,
+        "grade": "A",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 21",
+        "title": "Mathematics for Algorithms and Systems",
+        "term": "WI26",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 109",
+        "title": "Mathematical Reasoning",
+        "term": "WI26",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 30",
+        "title": "Computer Organization",
+        "term": "WI26",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 20E",
+        "title": "Vector Calculus",
+        "term": "WI26",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 100",
+        "title": "Advanced Data Structures",
+        "term": "SP26",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 103A",
+        "title": "Modern Algebra I",
+        "term": "SP26",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 154",
+        "title": "Discrete Mathematics and Graph Theory",
+        "term": "SP26",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 105",
+        "title": "Theory of Computability",
+        "term": "SP26",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 101",
+        "title": "Design and Analysis of Algorithms",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "MATH 103B",
+        "title": "Modern Algebra II",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "MATH 180A",
+        "title": "Introduction to Probability",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "MATH 170A",
+        "title": "Introduction to Numerical Analysis: Linear Algebra",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "MATH 20A",
+        "title": "MATH 20A (transfer credit)",
+        "term": "XFER",
+        "units": 0,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 20B",
+        "title": "MATH 20B (transfer credit)",
+        "term": "XFER",
+        "units": 0,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 20C",
+        "title": "MATH 20C (transfer credit)",
+        "term": "XFER",
+        "units": 0,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 18",
+        "title": "MATH 18 (transfer credit)",
+        "term": "XFER",
+        "units": 0,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 11",
+        "title": "CSE 11 (transfer credit)",
+        "term": "XFER",
+        "units": 0,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "CSE 12",
+        "title": "CSE 12 (transfer credit)",
+        "term": "XFER",
+        "units": 0,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "PHYS 2A",
+        "title": "PHYS 2A (transfer credit)",
+        "term": "XFER",
+        "units": 0,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "PSYC 1",
+        "title": "PSYC 1 (transfer credit)",
+        "term": "XFER",
+        "units": 0,
+        "grade": "P",
+        "status": "earned"
+      }
+    ],
+    "transfer": [
+      {
+        "subject": "MATH",
+        "number": "1A",
+        "title": "Calculus I",
+        "from": "De Anza College",
+        "units": 7.5,
+        "grade": "P",
+        "term": "SP24",
+        "level": "LD",
+        "approx": [
+          "MATH 20A"
+        ]
+      },
+      {
+        "subject": "MATH",
+        "number": "1B",
+        "title": "Calculus II",
+        "from": "De Anza College",
+        "units": 7.5,
+        "grade": "P",
+        "term": "S124",
+        "level": "LD",
+        "approx": [
+          "MATH 20B"
+        ]
+      },
+      {
+        "subject": "MATH",
+        "number": "1C",
+        "title": "Calculus III",
+        "from": "De Anza College",
+        "units": 7.5,
+        "grade": "P",
+        "term": "FA24",
+        "level": "LD",
+        "approx": [
+          "MATH 20C"
+        ]
+      },
+      {
+        "subject": "MATH",
+        "number": "2B",
+        "title": "Linear Algebra",
+        "from": "De Anza College",
+        "units": 7.5,
+        "grade": "P",
+        "term": "WI25",
+        "level": "LD",
+        "approx": [
+          "MATH 18"
+        ]
+      },
+      {
+        "subject": "CIS",
+        "number": "22A",
+        "title": "Beginning Programming Methodologies in C++",
+        "from": "De Anza College",
+        "units": 6.75,
+        "grade": "P",
+        "term": "FA24",
+        "level": "LD",
+        "approx": [
+          "CSE 11"
+        ]
+      },
+      {
+        "subject": "CIS",
+        "number": "22B",
+        "title": "Intermediate Programming Methodologies in C++",
+        "from": "De Anza College",
+        "units": 6.75,
+        "grade": "P",
+        "term": "WI25",
+        "level": "LD",
+        "approx": [
+          "CSE 12"
+        ]
+      },
+      {
+        "subject": "CIS",
+        "number": "22C",
+        "title": "Data Abstraction and Structures",
+        "from": "De Anza College",
+        "units": 6.75,
+        "grade": "P",
+        "term": "SP25",
+        "level": "LD",
+        "approx": []
+      },
+      {
+        "subject": "PHYS",
+        "number": "4A",
+        "title": "Physics for Scientists and Engineers: Mechanics",
+        "from": "De Anza College",
+        "units": 7.5,
+        "grade": "P",
+        "term": "SP25",
+        "level": "LD",
+        "approx": [
+          "PHYS 2A"
+        ]
+      },
+      {
+        "subject": "EWRT",
+        "number": "1A",
+        "title": "Composition and Reading",
+        "from": "De Anza College",
+        "units": 7.5,
+        "grade": "P",
+        "term": "FA23",
+        "level": "LD",
+        "approx": []
+      },
+      {
+        "subject": "PHIL",
+        "number": "4",
+        "title": "Critical Thinking",
+        "from": "De Anza College",
+        "units": 6,
+        "grade": "P",
+        "term": "WI24",
+        "level": "LD",
+        "approx": []
+      },
+      {
+        "subject": "HIST",
+        "number": "17A",
+        "title": "History of the United States",
+        "from": "De Anza College",
+        "units": 6,
+        "grade": "P",
+        "term": "SP24",
+        "level": "LD",
+        "approx": []
+      },
+      {
+        "subject": "ECON",
+        "number": "1A",
+        "title": "Principles of Macroeconomics",
+        "from": "De Anza College",
+        "units": 6,
+        "grade": "P",
+        "term": "FA23",
+        "level": "LD",
+        "approx": []
+      },
+      {
+        "subject": "PSYC",
+        "number": "1",
+        "title": "General Psychology",
+        "from": "De Anza College",
+        "units": 6,
+        "grade": "P",
+        "term": "WI24",
+        "level": "LD",
+        "approx": [
+          "PSYC 1"
+        ]
+      }
+    ],
+    "gpa": 3.358,
+    "currentTerm": "FA26",
+    "source": "demo",
+    "confidence": "high",
+    "warnings": []
+  },
+  "action": {
+    "kind": "drop",
+    "course": "CSE 101"
+  },
+  "impact": {
+    "action": {
+      "kind": "drop",
+      "course": "CSE 101"
+    },
+    "course": {
+      "code": "CSE 101",
+      "title": "Design and Analysis of Algorithms",
+      "units": 4
+    },
+    "blocks": [
+      {
+        "code": "CSE 107",
+        "title": "Introduction to Modern Cryptography",
+        "buckets": [
+          "Computational electives (eight units)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 107",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-107,Introduction to Modern Cryptography,Mihir Bellare,Hovav Shacham,Adam Suhl",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Hovav Shacham",
+          "source": "department-page"
+        },
+        "delayQuarters": 1
+      },
+      {
+        "code": "CSE 120",
+        "title": "Operating Systems Principles",
+        "buckets": [
+          "Computational electives (eight units)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 120",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-120,Operating Systems Principles,Geoffrey Voelker,Bryan Chin,Amy Ousterhout",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Bryan Chin",
+          "source": "department-page"
+        },
+        "delayQuarters": 1
+      },
+      {
+        "code": "CSE 121",
+        "title": "Real-World Operating Systems",
+        "buckets": [
+          "Computational electives (eight units)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 121",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "CSE 121: no source found — no department page row, no WI27 section, no CAPE history",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 1
+      },
+      {
+        "code": "CSE 127",
+        "title": "Introduction to Computer Security",
+        "buckets": [
+          "Computational electives (eight units)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 127",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-127,Intro to Computer Security,Stefan Savage,Deepak Kumar,Deian Stefan",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Deepak Kumar",
+          "source": "department-page"
+        },
+        "delayQuarters": 1
+      },
+      {
+        "code": "CSE 123",
+        "title": "Computer Networks",
+        "buckets": [
+          "Computational electives (eight units)"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "CSE 123",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "CSE-123,Computer Networks,Alex Snoeren,Aaron Shalev,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "instructor": "Aaron Shalev",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "CSE 124",
+        "title": "Networked Services",
+        "buckets": [
+          "Computational electives (eight units)"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "CSE 124",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "CSE-124,Networked Services,,,",
+          "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+          "fetchedAt": "2026-09-28T01:45:36.006Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      }
+    ],
+    "unitsAfter": 12,
+    "fullTimeFloor": 12,
+    "belowFullTime": false,
+    "pnpAllowed": "unknown",
+    "pnpNote": "CSE 101 fills \"Design and Analysis of Algorithms\" for the major. Courses taken P/NP generally may not satisfy major requirements; confirm with Mathematics advising before changing the grading option. UC San Diego also caps P/NP at one-quarter of your UC San Diego units.",
+    "deadlines": [
+      {
+        "key": "dropWithoutW",
+        "label": "Drop without a W",
+        "date": "2026-10-23",
+        "term": "FA26",
+        "passed": false
+      },
+      {
+        "key": "changeUnits",
+        "label": "Change units",
+        "date": "2026-11-06",
+        "term": "FA26",
+        "passed": false
+      },
+      {
+        "key": "changeGradingOption",
+        "label": "Change grading option (P/NP)",
+        "date": "2026-11-06",
+        "term": "FA26",
+        "passed": false
+      },
+      {
+        "key": "dropWithW",
+        "label": "Drop with a W",
+        "date": "2026-11-06",
+        "term": "FA26",
+        "passed": false
+      }
+    ],
+    "progressDelta": [
+      {
+        "bucket": "Design and Analysis of Algorithms",
+        "band": "major",
+        "before": 1,
+        "after": 0,
+        "needed": 1
+      }
+    ],
+    "chainQuartersBefore": 2,
+    "chainQuartersAfter": 2,
+    "graduationRisk": "possible",
+    "notes": [
+      "\"Design and Analysis of Algorithms\" (major) goes from 1 to 0 of 1.",
+      "CSE 107: earliest Winter 2027 → Spring 2027 (+1 quarter).",
+      "CSE 120: earliest Winter 2027 → Spring 2027 (+1 quarter).",
+      "CSE 123 is not delayed by this alone: it still needs CSE 110 (earliest Fall 2027).",
+      "CSE 124 is not delayed by this alone: it still needs CSE 110 (earliest Fall 2027).",
+      "CSE 121: earliest Spring 2027 → Fall 2027 (+1 quarter).",
+      "CSE 127: earliest Spring 2027 → Fall 2027 (+1 quarter).",
+      "CSE 101 itself is next listed for Winter 2027 (department-page: \"CSE-101,Design and Analysis of Algorithms,Miles Jones,\"Benjamin Ochoa\nDaniel Kane\",\"June Vuong\nQipeng Liu\"\").",
+      "Quarters with no offering evidence were treated as possible, never as confirmed offered.",
+      "Dropping CSE 101 (4 units) leaves 12 units in Fall 2026.",
+      "Longest remaining prerequisite chain: 2 → 2 quarters. About 3 quarters remain at 15 units/quarter to 180 units (149.25 banked), so graduation risk is \"possible\"."
+    ]
+  },
+  "plans": [
+    {
+      "id": "p-fastest",
+      "label": "fastest",
+      "terms": [
+        {
+          "term": "WI27",
+          "courses": [
+            "CSE 101",
+            "MATH 170B",
+            "MATH 158",
+            "CAT 1"
+          ],
+          "units": 16
+        },
+        {
+          "term": "SP27",
+          "courses": [
+            "CSE 107",
+            "MATH 170C",
+            "CSE 110",
+            "CAT 2"
+          ],
+          "units": 18
+        },
+        {
+          "term": "FA27",
+          "courses": [
+            "MATH 140A",
+            "MATH 163",
+            "COGS 1",
+            "DSGN 1"
+          ],
+          "units": 16
+        }
+      ],
+      "rationale": "This plan front-loads major requirements to keep the student on track for the core CS/Math sequence while beginning the CAT writing sequence. It assumes all listed courses are offered as indicated by the department pages or Schedule of Classes.",
+      "graduationTerm": null
+    },
+    {
+      "id": "p-balanced",
+      "label": "balanced",
+      "terms": [
+        {
+          "term": "WI27",
+          "courses": [
+            "CSE 101",
+            "MATH 170B",
+            "CAT 1",
+            "COGS 17"
+          ],
+          "units": 16
+        },
+        {
+          "term": "SP27",
+          "courses": [
+            "CSE 107",
+            "MATH 170C",
+            "CAT 2",
+            "COGS 1"
+          ],
+          "units": 18
+        },
+        {
+          "term": "FA27",
+          "courses": [
+            "MATH 140A",
+            "MATH 163",
+            "DSGN 1",
+            "MUS 1A"
+          ],
+          "units": 16
+        }
+      ],
+      "rationale": "Balances major progress with college requirements each quarter, completing the CAT sequence and starting natural science and art-making requirements. It assumes the listed courses are offered according to the department evidence.",
+      "graduationTerm": null
+    },
+    {
+      "id": "p-lightest",
+      "label": "lightest",
+      "terms": [
+        {
+          "term": "WI27",
+          "courses": [
+            "CSE 101",
+            "MATH 170B",
+            "CAT 1"
+          ],
+          "units": 12
+        },
+        {
+          "term": "SP27",
+          "courses": [
+            "CSE 107",
+            "MATH 170C",
+            "CAT 2"
+          ],
+          "units": 14
+        },
+        {
+          "term": "FA27",
+          "courses": [
+            "MATH 140A",
+            "MATH 163",
+            "DSGN 1"
+          ],
+          "units": 12
+        }
+      ],
+      "rationale": "Keeps the load at the minimum full-time level while satisfying prerequisites and advancing major and CAT requirements. It assumes the courses are offered as shown in the department tables.",
+      "graduationTerm": null
+    }
+  ],
+  "reports": [
+    {
+      "planId": "p-fastest",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+          "severity": "warning",
+          "course": "CAT 1",
+          "term": "WI27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+          "severity": "warning",
+          "course": "CAT 2",
+          "term": "SP27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 140A",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 163",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 1 in FA27 has no offering evidence: COGS 1: last CAPE-evaluated offering SP23; 48 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 1",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
+          "severity": "warning",
+          "course": "DSGN 1",
+          "term": "FA27"
+        }
+      ]
+    },
+    {
+      "planId": "p-balanced",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+          "severity": "warning",
+          "course": "CAT 1",
+          "term": "WI27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+          "severity": "warning",
+          "course": "CAT 2",
+          "term": "SP27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 140A",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 163",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
+          "severity": "warning",
+          "course": "DSGN 1",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MUS 1A in FA27 has no offering evidence: MUS 1A: last CAPE-evaluated offering S122; 18 quarters on record.",
+          "severity": "warning",
+          "course": "MUS 1A",
+          "term": "FA27"
+        }
+      ]
+    },
+    {
+      "planId": "p-lightest",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+          "severity": "warning",
+          "course": "CAT 1",
+          "term": "WI27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+          "severity": "warning",
+          "course": "CAT 2",
+          "term": "SP27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 140A",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+          "severity": "warning",
+          "course": "MATH 163",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
+          "severity": "warning",
+          "course": "DSGN 1",
+          "term": "FA27"
+        }
+      ]
+    }
+  ],
+  "rejectedDrafts": 0,
+  "rounds": 1,
+  "verdict": {
+    "recommend": "p-balanced",
+    "refused": [],
+    "risks": [
+      "p-fastest: CAT 1 in WI27 (ev_CAT1_WI27), CAT 2 in SP27 (ev_CAT2_SP27), MATH 140A in FA27 (ev_MATH140A_FA27), MATH 163 in FA27 (ev_MATH163_FA27), COGS 1 in FA27 (ev_COGS1_FA27), and DSGN 1 in FA27 (ev_DSGN1_FA27) have no offering evidence beyond historical CAPE records; re-check when the Schedule of Classes publishes.",
+      "p-lightest: CAT 1 in WI27 (ev_CAT1_WI27), CAT 2 in SP27 (ev_CAT2_SP27), MATH 140A in FA27 (ev_MATH140A_FA27), MATH 163 in FA27 (ev_MATH163_FA27), and DSGN 1 in FA27 (ev_DSGN1_FA27) have no offering evidence beyond historical CAPE records; re-check when the Schedule of Classes publishes.",
+      "p-balanced: CAT 1 in WI27 (ev_CAT1_WI27), CAT 2 in SP27 (ev_CAT2_SP27), MATH 140A in FA27 (ev_MATH140A_FA27), MATH 163 in FA27 (ev_MATH163_FA27), DSGN 1 in FA27 (ev_DSGN1_FA27), and MUS 1A in FA27 (ev_MUS1A_FA27) have no offering evidence beyond historical CAPE records; re-check when the Schedule of Classes publishes."
+    ],
+    "summary": "All three plans place core CS and math courses in quarters where department pages confirm offerings, so none are refused. The balanced plan (p-balanced) is recommended because it ties for the most evidenced placements and better distributes college requirements across quarters. The student should verify the CAT writing sequence, MATH 140A, MATH 163, DSGN 1, and MUS 1A in FA27 when the Schedule of Classes is published."
+  },
+  "ledger": [
+    {
+      "at": "2026-09-28T04:18:42.538Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 13254,
+      "promptTokens": 19195,
+      "completionTokens": 2128,
+      "reasoningTokens": 1941,
+      "cacheHitTokens": 0,
+      "usd": 0.0076736999999999994,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:19:15.335Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 32789,
+      "promptTokens": 19483,
+      "completionTokens": 6330,
+      "reasoningTokens": 6311,
+      "cacheHitTokens": 0,
+      "usd": 0.011541899999999999,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:19:53.505Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 38166,
+      "promptTokens": 19523,
+      "completionTokens": 8192,
+      "reasoningTokens": 8192,
+      "cacheHitTokens": 0,
+      "usd": 0.0132297,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:20:20.651Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 27139,
+      "promptTokens": 18942,
+      "completionTokens": 5354,
+      "reasoningTokens": 4672,
+      "cacheHitTokens": 0,
+      "usd": 0.0105012,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:20:40.476Z",
+      "step": "stress-test",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "ms": 19768,
+      "promptTokens": 6877,
+      "completionTokens": 7434,
+      "reasoningTokens": 6905,
+      "cacheHitTokens": 0,
+      "usd": 0.029179,
+      "replayed": false
+    }
+  ],
+  "events": [
+    {
+      "t": 122,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T04:18:29.282Z",
+        "message": "Context pack built: 164 courses in the table across WI27, SP27, FA27; shared prefix ≈ 7.3k tokens, student suffix ≈ 2.2k tokens."
+      }
+    },
+    {
+      "t": 13382,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:18:42.538Z",
+        "entry": {
+          "at": "2026-09-28T04:18:42.538Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 13254,
+          "promptTokens": 19195,
+          "completionTokens": 2128,
+          "reasoningTokens": 1941,
+          "cacheHitTokens": 0,
+          "usd": 0.0076736999999999994,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 13383,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:18:42.543Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "CSE 101",
+                "MATH 170B",
+                "MATH 158",
+                "MATH 102"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "CAT 1",
+                "CAT 2",
+                "CSE 107",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "CSE 110",
+                "MATH 110",
+                "COGS 1",
+                "DSGN 1",
+                "MUS 1A",
+                "CAT 124",
+                "AAS 10R",
+                "ECON 158",
+                "ANTH 10"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 13386,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:18:42.546Z",
+        "name": "unit_check",
+        "ms": 3,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":18,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":9,\"units\":36,\"floor\":\"ok\",\"cap\":\"above "
+      }
+    },
+    {
+      "t": 46178,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:19:15.335Z",
+        "entry": {
+          "at": "2026-09-28T04:19:15.335Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 32789,
+          "promptTokens": 19483,
+          "completionTokens": 6330,
+          "reasoningTokens": 6311,
+          "cacheHitTokens": 0,
+          "usd": 0.011541899999999999,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 46178,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:19:15.338Z",
+        "name": "submit_plans",
+        "args": {}
+      }
+    },
+    {
+      "t": 46178,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:19:15.338Z",
+        "name": "submit_plans",
+        "ms": 0,
+        "summary": "Error: unknown tool submit_plans"
+      }
+    },
+    {
+      "t": 84349,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:19:53.505Z",
+        "entry": {
+          "at": "2026-09-28T04:19:53.505Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 38166,
+          "promptTokens": 19523,
+          "completionTokens": 8192,
+          "reasoningTokens": 8192,
+          "cacheHitTokens": 0,
+          "usd": 0.0132297,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 111498,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:20:20.651Z",
+        "entry": {
+          "at": "2026-09-28T04:20:20.651Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 27139,
+          "promptTokens": 18942,
+          "completionTokens": 5354,
+          "reasoningTokens": 4672,
+          "cacheHitTokens": 0,
+          "usd": 0.0105012,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 111522,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T04:20:20.682Z",
+        "report": {
+          "planId": "p-fastest",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+              "severity": "warning",
+              "course": "CAT 1",
+              "term": "WI27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+              "severity": "warning",
+              "course": "CAT 2",
+              "term": "SP27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 140A",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 163",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 1 in FA27 has no offering evidence: COGS 1: last CAPE-evaluated offering SP23; 48 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 1",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
+              "severity": "warning",
+              "course": "DSGN 1",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 111534,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T04:20:20.694Z",
+        "report": {
+          "planId": "p-balanced",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+              "severity": "warning",
+              "course": "CAT 1",
+              "term": "WI27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+              "severity": "warning",
+              "course": "CAT 2",
+              "term": "SP27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 140A",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 163",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
+              "severity": "warning",
+              "course": "DSGN 1",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MUS 1A in FA27 has no offering evidence: MUS 1A: last CAPE-evaluated offering S122; 18 quarters on record.",
+              "severity": "warning",
+              "course": "MUS 1A",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 111545,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T04:20:20.705Z",
+        "report": {
+          "planId": "p-lightest",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "CAT 1 in WI27 has no offering evidence: CAT 1: last CAPE-evaluated offering S122; 18 quarters on record.",
+              "severity": "warning",
+              "course": "CAT 1",
+              "term": "WI27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "CAT 2 in SP27 has no offering evidence: CAT 2: last CAPE-evaluated offering WI23; 19 quarters on record.",
+              "severity": "warning",
+              "course": "CAT 2",
+              "term": "SP27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 140A in FA27 has no offering evidence: MATH 140A: last CAPE-evaluated offering WI23; 30 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 140A",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "MATH 163 in FA27 has no offering evidence: MATH 163: last CAPE-evaluated offering SP23; 16 quarters on record.",
+              "severity": "warning",
+              "course": "MATH 163",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "DSGN 1 in FA27 has no offering evidence: DSGN 1: last CAPE-evaluated offering SP23; 17 quarters on record.",
+              "severity": "warning",
+              "course": "DSGN 1",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 111545,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T04:20:20.705Z",
+        "message": "3 plans passed the verifier; 0 drafts rejected."
+      }
+    },
+    {
+      "t": 111545,
+      "event": {
+        "type": "done",
+        "step": "plan",
+        "at": "2026-09-28T04:20:20.705Z"
+      }
+    },
+    {
+      "t": 111546,
+      "event": {
+        "type": "step",
+        "step": "stress-test",
+        "at": "2026-09-28T04:20:20.706Z",
+        "message": "Stress-testing 3 plans against 42 evidence rows."
+      }
+    },
+    {
+      "t": 131316,
+      "event": {
+        "type": "model",
+        "step": "stress-test",
+        "at": "2026-09-28T04:20:40.476Z",
+        "entry": {
+          "at": "2026-09-28T04:20:40.476Z",
+          "step": "stress-test",
+          "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+          "ms": 19768,
+          "promptTokens": 6877,
+          "completionTokens": 7434,
+          "reasoningTokens": 6905,
+          "cacheHitTokens": 0,
+          "usd": 0.029179,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 131316,
+      "event": {
+        "type": "step",
+        "step": "stress-test",
+        "at": "2026-09-28T04:20:40.476Z",
+        "message": "Recommends p-balanced; refused 0; 3 risks."
+      }
+    },
+    {
+      "t": 131316,
+      "event": {
+        "type": "done",
+        "step": "stress-test",
+        "at": "2026-09-28T04:20:40.476Z"
+      }
+    }
+  ],
+  "errors": []
+}

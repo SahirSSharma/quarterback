@@ -1,0 +1,2487 @@
+{
+  "demo": "b",
+  "recordedAt": "2026-09-28T04:18:17.321Z",
+  "now": "2026-10-01T12:00:00-07:00",
+  "state": {
+    "college": "Thurgood Marshall College",
+    "collegeFile": "thurgood-marshall-college.json",
+    "major": "Cognitive Science",
+    "majors": [
+      "Cognitive Science"
+    ],
+    "majorFile": "cognitive-science-cognitive-science-2.json",
+    "courses": [
+      {
+        "code": "COGS 1",
+        "title": "Introduction to Cognitive Science",
+        "term": "FA24",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 20A",
+        "title": "Calculus for Science and Engineering",
+        "term": "FA24",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "DOC 1",
+        "title": "Dimensions of Culture: Diversity",
+        "term": "FA24",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 10",
+        "title": "Cognitive Consequences of Technology",
+        "term": "FA24",
+        "units": 4,
+        "grade": "A",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 14A",
+        "title": "Introduction to Research Methods",
+        "term": "WI25",
+        "units": 4,
+        "grade": "A",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 20B",
+        "title": "Calculus for Science and Engineering",
+        "term": "WI25",
+        "units": 4,
+        "grade": "B-",
+        "status": "earned"
+      },
+      {
+        "code": "DOC 2",
+        "title": "Dimensions of Culture: Justice",
+        "term": "WI25",
+        "units": 6,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 17",
+        "title": "Neurobiology of Cognition",
+        "term": "WI25",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 14B",
+        "title": "Introduction to Statistical Analysis",
+        "term": "SP25",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "MATH 18",
+        "title": "Linear Algebra",
+        "term": "SP25",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "DOC 3",
+        "title": "Dimensions of Culture: Imagination",
+        "term": "SP25",
+        "units": 6,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 18",
+        "title": "Introduction to Python",
+        "term": "SP25",
+        "units": 4,
+        "grade": "A",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 13",
+        "title": "Field Methods: Studying Cognition in the Wild",
+        "term": "FA25",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "BILD 1",
+        "title": "The Cell",
+        "term": "FA25",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "PSYC 1",
+        "title": "Psychology",
+        "term": "FA25",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "MUS 4",
+        "title": "Introduction to Western Music",
+        "term": "FA25",
+        "units": 4,
+        "grade": "P",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 101A",
+        "title": "Sensation and Perception",
+        "term": "WI26",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "CHEM 6A",
+        "title": "General Chemistry I",
+        "term": "WI26",
+        "units": 4,
+        "grade": "B-",
+        "status": "earned"
+      },
+      {
+        "code": "ETHN 1",
+        "title": "Introduction to Ethnic Studies: Land and Labor",
+        "term": "WI26",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 107A",
+        "title": "Neuroanatomy and Physiology",
+        "term": "WI26",
+        "units": 4,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 101B",
+        "title": "Learning, Memory, and Attention",
+        "term": "SP26",
+        "units": 4,
+        "grade": "A-",
+        "status": "earned"
+      },
+      {
+        "code": "PHYS 1A",
+        "title": "Mechanics",
+        "term": "SP26",
+        "units": 3,
+        "grade": "B",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 108",
+        "title": "Data Science in Practice",
+        "term": "SP26",
+        "units": 4,
+        "grade": "A",
+        "status": "earned"
+      },
+      {
+        "code": "ANTH 1",
+        "title": "Introduction to Culture",
+        "term": "SP26",
+        "units": 4,
+        "grade": "B+",
+        "status": "earned"
+      },
+      {
+        "code": "COGS 100",
+        "title": "Cyborgs Now and in the Future",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "COGS 107B",
+        "title": "Systems Neuroscience",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "COGS 109",
+        "title": "Modeling and Data Analysis",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      },
+      {
+        "code": "COGS 101C",
+        "title": "Language",
+        "term": "FA26",
+        "units": 4,
+        "grade": null,
+        "status": "wip"
+      }
+    ],
+    "transfer": [],
+    "gpa": 3.389,
+    "currentTerm": "FA26",
+    "source": "demo",
+    "confidence": "high",
+    "warnings": []
+  },
+  "action": {
+    "kind": "drop",
+    "course": "COGS 109"
+  },
+  "impact": {
+    "action": {
+      "kind": "drop",
+      "course": "COGS 109"
+    },
+    "course": {
+      "code": "COGS 109",
+      "title": "Modeling and Data Analysis",
+      "units": 4
+    },
+    "blocks": [
+      {
+        "code": "COGS 183",
+        "title": "Generative AI",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "COGS 183",
+          "term": "WI27",
+          "status": "unknown",
+          "quote": "COGS 183: no source found — no department page row, no WI27 section, no CAPE history",
+          "url": "https://classplanner.apps.ucsd.edu",
+          "fetchedAt": "2026-08-13T00:00:00.000Z",
+          "source": "cape-history"
+        },
+        "delayQuarters": 1
+      },
+      {
+        "code": "COGS 118A",
+        "title": "Supervised Machine Learning Algorithms",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "COGS 118A",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "COGS 118A,Tu,,Fleischer,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Fleischer",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 118B",
+        "title": "Introduction to Machine Learning",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "COGS 118B",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "COGS 118B,,,Fleischer,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Fleischer",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 118C",
+        "title": "Neural Signal Processing",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "COGS 118C",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "COGS 118C,,Mukamel,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Mukamel",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 118D",
+        "title": "Computational Modeling and Analysis of Human Behavior",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": "SP27",
+        "evidence": {
+          "course": "COGS 118D",
+          "term": "SP27",
+          "status": "offered",
+          "quote": "COGS 118D,Lai,,Lai,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Lai",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 182",
+        "title": "Introduction to Reinforcement Learning",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "COGS 182",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "COGS 182,,,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 186",
+        "title": "Genetic Algorithms",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "COGS 186",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "COGS 186,,,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 188",
+        "title": "Artificial Intelligence Algorithms",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": null,
+        "evidence": {
+          "course": "COGS 188",
+          "term": "WI27",
+          "status": "not_offered",
+          "quote": "COGS 188,Fleischer,,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 189",
+        "title": "Brain Computer Interfaces",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "COGS 189",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "COGS 189,,de Sa,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "de Sa",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 181",
+        "title": "Neural Networks and Deep Learning",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "COGS 181",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "COGS 181,,Tu,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Tu",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 185",
+        "title": "Advanced Machine Learning Methods",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "COGS 185",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "COGS 185,,Tu,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Tu",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      },
+      {
+        "code": "COGS 138",
+        "title": "Neural Data Science",
+        "buckets": [
+          "Upper-division electives"
+        ],
+        "nextOffered": "WI27",
+        "evidence": {
+          "course": "COGS 138",
+          "term": "WI27",
+          "status": "offered",
+          "quote": "COGS 138,,Khosla,,,",
+          "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+          "fetchedAt": "2026-09-28T02:31:26.168Z",
+          "instructor": "Khosla",
+          "source": "department-page"
+        },
+        "delayQuarters": 0
+      }
+    ],
+    "unitsAfter": 12,
+    "fullTimeFloor": 12,
+    "belowFullTime": false,
+    "pnpAllowed": "unknown",
+    "pnpNote": "COGS 109 fills \"Core: Computation (COGS 108 or 109)\", \"Upper-division electives\" for the major. Courses taken P/NP generally may not satisfy major requirements; confirm with Cognitive Science advising before changing the grading option. UC San Diego also caps P/NP at one-quarter of your UC San Diego units.",
+    "deadlines": [
+      {
+        "key": "dropWithoutW",
+        "label": "Drop without a W",
+        "date": "2026-10-23",
+        "term": "FA26",
+        "passed": false
+      },
+      {
+        "key": "changeUnits",
+        "label": "Change units",
+        "date": "2026-11-06",
+        "term": "FA26",
+        "passed": false
+      },
+      {
+        "key": "changeGradingOption",
+        "label": "Change grading option (P/NP)",
+        "date": "2026-11-06",
+        "term": "FA26",
+        "passed": false
+      },
+      {
+        "key": "dropWithW",
+        "label": "Drop with a W",
+        "date": "2026-11-06",
+        "term": "FA26",
+        "passed": false
+      }
+    ],
+    "progressDelta": [
+      {
+        "bucket": "Upper-division electives",
+        "band": "major",
+        "before": 2,
+        "after": 1,
+        "needed": 6
+      }
+    ],
+    "chainQuartersBefore": 1,
+    "chainQuartersAfter": 1,
+    "graduationRisk": "possible",
+    "notes": [
+      "\"Upper-division electives\" (major) goes from 2 to 1 of 6.",
+      "COGS 118A is not delayed by this alone: it still needs MATH 20E; MATH 180A (earliest Fall 2027).",
+      "COGS 118B is not delayed by this alone: it still needs MATH 20E; ECE 109 or ECON 120A or MAE 108 or … (earliest Fall 2027).",
+      "COGS 118D is not delayed by this alone: it still needs MATH 180A or MATH 183 or MATH 186 or … (earliest Spring 2027).",
+      "COGS 182 is not delayed by this alone: it still needs MATH 180A (earliest Fall 2027).",
+      "COGS 183: earliest Winter 2027 → Spring 2027 (+1 quarter).",
+      "COGS 109 itself is next listed for Winter 2027 (department-page: \"COGS 109,Lai,Tomoschuk,Mukamel,,\").",
+      "Quarters with no offering evidence were treated as possible, never as confirmed offered.",
+      "Dropping COGS 109 (4 units) leaves 12 units in Fall 2026.",
+      "Longest remaining prerequisite chain: 1 → 1 quarters. About 5 quarters remain at 15 units/quarter to 180 units (111 banked), so graduation risk is \"possible\"."
+    ]
+  },
+  "plans": [
+    {
+      "id": "p-fastest",
+      "label": "fastest",
+      "terms": [
+        {
+          "term": "WI27",
+          "courses": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115",
+            "AAS 10",
+            "COGS 193"
+          ],
+          "units": 18
+        },
+        {
+          "term": "SP27",
+          "courses": [
+            "COGS 107C",
+            "COGS 160",
+            "COGS 171",
+            "COGS 151"
+          ],
+          "units": 16
+        },
+        {
+          "term": "FA27",
+          "courses": [
+            "ANTH 10",
+            "COGS 119",
+            "COGS 163"
+          ],
+          "units": 12
+        }
+      ],
+      "rationale": "Front-loads major electives to finish sooner; assumes offered status for unknown courses is acceptable.",
+      "graduationTerm": "FA27"
+    },
+    {
+      "id": "p-balanced",
+      "label": "balanced",
+      "terms": [
+        {
+          "term": "WI27",
+          "courses": [
+            "COGS 109",
+            "COGS 112",
+            "AAS 10"
+          ],
+          "units": 12
+        },
+        {
+          "term": "SP27",
+          "courses": [
+            "COGS 107C",
+            "COGS 160",
+            "COGS 151"
+          ],
+          "units": 12
+        },
+        {
+          "term": "FA27",
+          "courses": [
+            "ANTH 10",
+            "COGS 119",
+            "COGS 163",
+            "COGS 156"
+          ],
+          "units": 16
+        }
+      ],
+      "rationale": "Evenly spreads load while meeting requirements; assumes unknown offerings are permissible.",
+      "graduationTerm": "FA27"
+    },
+    {
+      "id": "p-lightest",
+      "label": "lightest",
+      "terms": [
+        {
+          "term": "WI27",
+          "courses": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115"
+          ],
+          "units": 12
+        },
+        {
+          "term": "SP27",
+          "courses": [
+            "COGS 107C",
+            "COGS 160",
+            "COGS 171"
+          ],
+          "units": 12
+        },
+        {
+          "term": "FA27",
+          "courses": [
+            "ANTH 10",
+            "COGS 119",
+            "COGS 163"
+          ],
+          "units": 12
+        }
+      ],
+      "rationale": "Keeps each quarter at the 12‑unit minimum; relies on unknown offerings for some courses.",
+      "graduationTerm": "FA27"
+    }
+  ],
+  "reports": [
+    {
+      "planId": "p-fastest",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 10",
+          "term": "WI27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+          "severity": "warning",
+          "course": "ANTH 10",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 119",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 163",
+          "term": "FA27"
+        }
+      ]
+    },
+    {
+      "planId": "p-balanced",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+          "severity": "warning",
+          "course": "AAS 10",
+          "term": "WI27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+          "severity": "warning",
+          "course": "ANTH 10",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 119",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 163",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 156 in FA27 has no offering evidence: COGS 156: last CAPE-evaluated offering WI23; 13 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 156",
+          "term": "FA27"
+        }
+      ]
+    },
+    {
+      "planId": "p-lightest",
+      "ok": true,
+      "violations": [
+        {
+          "rule": "assumed-offered",
+          "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+          "severity": "warning",
+          "course": "ANTH 10",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 119",
+          "term": "FA27"
+        },
+        {
+          "rule": "assumed-offered",
+          "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+          "severity": "warning",
+          "course": "COGS 163",
+          "term": "FA27"
+        }
+      ]
+    }
+  ],
+  "rejectedDrafts": 0,
+  "rounds": 1,
+  "verdict": {
+    "recommend": "p-fastest",
+    "refused": [],
+    "risks": [
+      "p-balanced: AAS 10 in WI27, ANTH 10 in FA27, COGS 119 in FA27, COGS 163 in FA27, and COGS 156 in FA27 have no offering evidence beyond historical records; re-check the Schedule of Classes for these quarters.",
+      "p-lightest: ANTH 10 in FA27, COGS 119 in FA27, and COGS 163 in FA27 have no offering evidence beyond historical records; re-check the Schedule of Classes for these quarters."
+    ],
+    "summary": "All three plans avoid quarters where a course is confirmed not offered or absent from a department page that covers that quarter. p-fastest has the most placements with direct department-page evidence (eight offered courses across WI27 and SP27), so it is the strongest bet for graduating in FA27. The remaining plans carry risk on several FA27 electives that only have historical offering records; verify those in the next Schedule of Classes."
+  },
+  "ledger": [
+    {
+      "at": "2026-09-28T04:17:01.984Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 13300,
+      "promptTokens": 12015,
+      "completionTokens": 2533,
+      "reasoningTokens": 2233,
+      "cacheHitTokens": 0,
+      "usd": 0.005884200000000001,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:17:09.016Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 7026,
+      "promptTokens": 12547,
+      "completionTokens": 1436,
+      "reasoningTokens": 489,
+      "cacheHitTokens": 0,
+      "usd": 0.0050565,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:17:14.148Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 5127,
+      "promptTokens": 14225,
+      "completionTokens": 610,
+      "reasoningTokens": 445,
+      "cacheHitTokens": 0,
+      "usd": 0.0048165,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:17:28.399Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 14247,
+      "promptTokens": 14861,
+      "completionTokens": 2788,
+      "reasoningTokens": 2349,
+      "cacheHitTokens": 0,
+      "usd": 0.0069675,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:17:54.268Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 25866,
+      "promptTokens": 15563,
+      "completionTokens": 5490,
+      "reasoningTokens": 4564,
+      "cacheHitTokens": 0,
+      "usd": 0.0096099,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:18:04.930Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 10641,
+      "promptTokens": 17127,
+      "completionTokens": 1824,
+      "reasoningTokens": 962,
+      "cacheHitTokens": 0,
+      "usd": 0.0067797,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:18:17.290Z",
+      "step": "plan",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ms": 12340,
+      "promptTokens": 18038,
+      "completionTokens": 2418,
+      "reasoningTokens": 1784,
+      "cacheHitTokens": 0,
+      "usd": 0.007587600000000001,
+      "replayed": false
+    },
+    {
+      "at": "2026-09-28T04:18:29.003Z",
+      "step": "stress-test",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "ms": 11677,
+      "promptTokens": 5543,
+      "completionTokens": 4399,
+      "reasoningTokens": 4146,
+      "cacheHitTokens": 0,
+      "usd": 0.01874,
+      "replayed": false
+    }
+  ],
+  "events": [
+    {
+      "t": 57,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T04:16:48.683Z",
+        "message": "Context pack built: 102 courses in the table across WI27, SP27, FA27; shared prefix ≈ 4.6k tokens, student suffix ≈ 1.6k tokens."
+      }
+    },
+    {
+      "t": 13359,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:17:01.984Z",
+        "entry": {
+          "at": "2026-09-28T04:17:01.984Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 13300,
+          "promptTokens": 12015,
+          "completionTokens": 2533,
+          "reasoningTokens": 2233,
+          "cacheHitTokens": 0,
+          "usd": 0.005884200000000001,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 13360,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:01.986Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "COGS 115",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 171",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 193",
+                "COGS 119"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 13362,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:01.988Z",
+        "name": "unit_check",
+        "ms": 2,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":10,\"floor\":\"below the 12-unit"
+      }
+    },
+    {
+      "t": 13362,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:01.988Z",
+        "name": "requirement_progress",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "COGS 115",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 171",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 193",
+                "COGS 119"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 13364,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:01.990Z",
+        "name": "requirement_progress",
+        "ms": 2,
+        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
+      }
+    },
+    {
+      "t": 20392,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.016Z",
+        "entry": {
+          "at": "2026-09-28T04:17:09.016Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 7026,
+          "promptTokens": 12547,
+          "completionTokens": 1436,
+          "reasoningTokens": 489,
+          "cacheHitTokens": 0,
+          "usd": 0.0050565,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 20392,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.018Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 109",
+          "term": "WI27",
+          "planned": []
+        }
+      }
+    },
+    {
+      "t": 20393,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.019Z",
+        "name": "check_prereqs",
+        "ms": 1,
+        "summary": "{\"code\":\"COGS 109\",\"term\":\"WI27\",\"satisfied\":true,\"prereqs\":[[\"COGS 14B\"],[\"MATH 18\",\"MATH 31AH\"],[\"COGS 18\",\"CSE 7\",\"CSE 8A\",\"CSE 11\"]],\"missing\":[],\"prereqText\":\"COGS 14B, MATH 18 or MATH 31AH, and "
+      }
+    },
+    {
+      "t": 20393,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.019Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 112",
+          "term": "WI27",
+          "planned": []
+        }
+      }
+    },
+    {
+      "t": 20393,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.019Z",
+        "name": "check_prereqs",
+        "ms": 0,
+        "summary": "{\"code\":\"COGS 112\",\"term\":\"WI27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"upper-division standing.\"}"
+      }
+    },
+    {
+      "t": 20393,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.019Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 115",
+          "term": "WI27",
+          "planned": []
+        }
+      }
+    },
+    {
+      "t": 20393,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.019Z",
+        "name": "check_prereqs",
+        "ms": 0,
+        "summary": "{\"code\":\"COGS 115\",\"term\":\"WI27\",\"satisfied\":true,\"prereqs\":[[\"BILD 10\",\"BILD 12\",\"COGS 107A\",\"COGS 107B\",\"COGS 17\"]],\"missing\":[],\"prereqText\":\"BILD 10 or BILD 12 or COGS 107A or COGS 107B or COGS 17"
+      }
+    },
+    {
+      "t": 20393,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.019Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 107C",
+          "term": "SP27",
+          "planned": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115",
+            "AAS 10"
+          ]
+        }
+      }
+    },
+    {
+      "t": 20393,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.019Z",
+        "name": "check_prereqs",
+        "ms": 0,
+        "summary": "{\"code\":\"COGS 107C\",\"term\":\"SP27\",\"satisfied\":true,\"prereqs\":[[\"COGS 107B\"]],\"missing\":[],\"prereqText\":\"COGS 107B and its prerequisites.\"}"
+      }
+    },
+    {
+      "t": 20393,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.019Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 160",
+          "term": "SP27",
+          "planned": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115",
+            "AAS 10"
+          ]
+        }
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "ms": 1,
+        "summary": "{\"code\":\"COGS 160\",\"term\":\"SP27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"department approval.\"}"
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 171",
+          "term": "SP27",
+          "planned": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115",
+            "AAS 10"
+          ]
+        }
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "ms": 0,
+        "summary": "{\"code\":\"COGS 171\",\"term\":\"SP27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"upper-division standing.\"}"
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 151",
+          "term": "SP27",
+          "planned": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115",
+            "AAS 10"
+          ]
+        }
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "ms": 0,
+        "summary": "{\"code\":\"COGS 151\",\"term\":\"SP27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"upper-division standing.\"}"
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "ANTH 10",
+          "term": "FA27",
+          "planned": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115",
+            "AAS 10",
+            "COGS 107C",
+            "COGS 160",
+            "COGS 171",
+            "COGS 151"
+          ]
+        }
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "ms": 0,
+        "summary": "{\"code\":\"ANTH 10\",\"term\":\"FA27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":null}"
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 193",
+          "term": "FA27",
+          "planned": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115",
+            "AAS 10",
+            "COGS 107C",
+            "COGS 160",
+            "COGS 171",
+            "COGS 151"
+          ]
+        }
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "ms": 0,
+        "summary": "{\"code\":\"COGS 193\",\"term\":\"FA27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"junior and senior standing.\"}"
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 119",
+          "term": "FA27",
+          "planned": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115",
+            "AAS 10",
+            "COGS 107C",
+            "COGS 160",
+            "COGS 171",
+            "COGS 151"
+          ]
+        }
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "ms": 0,
+        "summary": "{\"code\":\"COGS 119\",\"term\":\"FA27\",\"satisfied\":true,\"prereqs\":[[\"COGS 14B\",\"MATH 11\",\"PSYC 60\"]],\"missing\":[],\"prereqText\":\"COGS 14B or MATH 11 or PSYC 60.\"}"
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "args": {
+          "code": "COGS 163",
+          "term": "FA27",
+          "planned": [
+            "COGS 109",
+            "COGS 112",
+            "COGS 115",
+            "AAS 10",
+            "COGS 107C",
+            "COGS 160",
+            "COGS 171",
+            "COGS 151"
+          ]
+        }
+      }
+    },
+    {
+      "t": 20394,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:09.020Z",
+        "name": "check_prereqs",
+        "ms": 0,
+        "summary": "{\"code\":\"COGS 163\",\"term\":\"FA27\",\"satisfied\":true,\"prereqs\":[],\"missing\":[],\"prereqText\":\"upper-division standing.\"}"
+      }
+    },
+    {
+      "t": 25525,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:17:14.148Z",
+        "entry": {
+          "at": "2026-09-28T04:17:14.148Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 5127,
+          "promptTokens": 14225,
+          "completionTokens": 610,
+          "reasoningTokens": 445,
+          "cacheHitTokens": 0,
+          "usd": 0.0048165,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 25525,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:14.151Z",
+        "name": "offering_status",
+        "args": {
+          "code": "AAS 10",
+          "term": "WI27"
+        }
+      }
+    },
+    {
+      "t": 25525,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:14.151Z",
+        "name": "offering_status",
+        "ms": 0,
+        "summary": "{\"id\":\"ev_AAS10_WI27\",\"course\":\"AAS 10\",\"term\":\"WI27\",\"status\":\"unknown\",\"quote\":\"AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record\",\"url\":\"https://classplanner.apps.ucsd.edu\",\"fetchedA"
+      }
+    },
+    {
+      "t": 25525,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:14.151Z",
+        "name": "offering_status",
+        "args": {
+          "code": "ANTH 10",
+          "term": "FA27"
+        }
+      }
+    },
+    {
+      "t": 25525,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:14.151Z",
+        "name": "offering_status",
+        "ms": 0,
+        "summary": "{\"id\":\"ev_ANTH10_FA27\",\"course\":\"ANTH 10\",\"term\":\"FA27\",\"status\":\"unknown\",\"quote\":\"ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record\",\"url\":\"https://classplanner.apps.ucsd.edu\",\"fetche"
+      }
+    },
+    {
+      "t": 25526,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:14.152Z",
+        "name": "offering_status",
+        "args": {
+          "code": "COGS 193",
+          "term": "FA27"
+        }
+      }
+    },
+    {
+      "t": 25526,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:14.152Z",
+        "name": "offering_status",
+        "ms": 0,
+        "summary": "{\"id\":\"ev_COGS193_FA27\",\"course\":\"COGS 193\",\"term\":\"FA27\",\"status\":\"unknown\",\"quote\":\"COGS 193: no source found — no department page row, no FA27 section, no CAPE history\",\"url\":\"https://classplanner."
+      }
+    },
+    {
+      "t": 25526,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:14.152Z",
+        "name": "offering_status",
+        "args": {
+          "code": "COGS 119",
+          "term": "FA27"
+        }
+      }
+    },
+    {
+      "t": 25526,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:14.152Z",
+        "name": "offering_status",
+        "ms": 0,
+        "summary": "{\"id\":\"ev_COGS119_FA27\",\"course\":\"COGS 119\",\"term\":\"FA27\",\"status\":\"unknown\",\"quote\":\"COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record\",\"url\":\"https://classplanner.apps.ucsd.edu\",\"fet"
+      }
+    },
+    {
+      "t": 39775,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:17:28.399Z",
+        "entry": {
+          "at": "2026-09-28T04:17:28.399Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 14247,
+          "promptTokens": 14861,
+          "completionTokens": 2788,
+          "reasoningTokens": 2349,
+          "cacheHitTokens": 0,
+          "usd": 0.0069675,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 39775,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:28.401Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "COGS 115",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 171",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 193",
+                "COGS 119",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 39775,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:28.401Z",
+        "name": "unit_check",
+        "ms": 0,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":14,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 39775,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:28.401Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 193",
+                "COGS 119",
+                "COGS 156"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 39775,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:28.401Z",
+        "name": "unit_check",
+        "ms": 0,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":14,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 39775,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:28.401Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 193",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 39775,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:28.401Z",
+        "name": "unit_check",
+        "ms": 0,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":14,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 65646,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.268Z",
+        "entry": {
+          "at": "2026-09-28T04:17:54.268Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 25866,
+          "promptTokens": 15563,
+          "completionTokens": 5490,
+          "reasoningTokens": 4564,
+          "cacheHitTokens": 0,
+          "usd": 0.0096099,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 65646,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.272Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "COGS 115",
+                "AAS 10",
+                "COGS 193"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 171",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163",
+                "COGS 156"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 65647,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.273Z",
+        "name": "unit_check",
+        "ms": 1,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":5,\"units\":18,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 65647,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.273Z",
+        "name": "requirement_progress",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "COGS 115",
+                "AAS 10",
+                "COGS 193"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 171",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163",
+                "COGS 156"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 65653,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.279Z",
+        "name": "requirement_progress",
+        "ms": 6,
+        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
+      }
+    },
+    {
+      "t": 65653,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.279Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "AAS 10",
+                "COGS 156",
+                "COGS 193"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 171",
+                "COGS 115"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163",
+                "COGS 151"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 65653,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.279Z",
+        "name": "unit_check",
+        "ms": 0,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":5,\"units\":18,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 65653,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.279Z",
+        "name": "requirement_progress",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "AAS 10",
+                "COGS 156",
+                "COGS 193"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 171",
+                "COGS 115"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163",
+                "COGS 151"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 65658,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.284Z",
+        "name": "requirement_progress",
+        "ms": 5,
+        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
+      }
+    },
+    {
+      "t": 65658,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.284Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "COGS 119",
+                "ANTH 10",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 65659,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.285Z",
+        "name": "unit_check",
+        "ms": 1,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 65659,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.285Z",
+        "name": "requirement_progress",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "COGS 119",
+                "ANTH 10",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 65662,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:17:54.288Z",
+        "name": "requirement_progress",
+        "ms": 3,
+        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
+      }
+    },
+    {
+      "t": 76308,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.930Z",
+        "entry": {
+          "at": "2026-09-28T04:18:04.930Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 10641,
+          "promptTokens": 17127,
+          "completionTokens": 1824,
+          "reasoningTokens": 962,
+          "cacheHitTokens": 0,
+          "usd": 0.0067797,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 76309,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.935Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "COGS 115",
+                "AAS 10",
+                "COGS 193"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 171",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 76309,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.935Z",
+        "name": "unit_check",
+        "ms": 0,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":5,\"units\":18,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":4,\"units\":16,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 76309,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.935Z",
+        "name": "requirement_progress",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "COGS 115",
+                "AAS 10",
+                "COGS 193"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 171",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 76314,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.940Z",
+        "name": "requirement_progress",
+        "ms": 5,
+        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
+      }
+    },
+    {
+      "t": 76315,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.941Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 76315,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.941Z",
+        "name": "unit_check",
+        "ms": 0,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 76315,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.941Z",
+        "name": "requirement_progress",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "COGS 112",
+                "AAS 10"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 76318,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.944Z",
+        "name": "requirement_progress",
+        "ms": 3,
+        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
+      }
+    },
+    {
+      "t": 76318,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.944Z",
+        "name": "unit_check",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "AAS 10",
+                "COGS 193",
+                "COGS 112"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 76318,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.944Z",
+        "name": "unit_check",
+        "ms": 0,
+        "summary": "{\"terms\":[{\"term\":\"WI27\",\"courses\":4,\"units\":14,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"SP27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"},{\"term\":\"FA27\",\"courses\":3,\"units\":12,\"floor\":\"ok\",\"cap\":\"ok\"}]}"
+      }
+    },
+    {
+      "t": 76318,
+      "event": {
+        "type": "tool_call",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.944Z",
+        "name": "requirement_progress",
+        "args": {
+          "plan": [
+            {
+              "term": "WI27",
+              "courses": [
+                "COGS 109",
+                "AAS 10",
+                "COGS 193",
+                "COGS 112"
+              ]
+            },
+            {
+              "term": "SP27",
+              "courses": [
+                "COGS 107C",
+                "COGS 160",
+                "COGS 151"
+              ]
+            },
+            {
+              "term": "FA27",
+              "courses": [
+                "ANTH 10",
+                "COGS 119",
+                "COGS 163"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 76321,
+      "event": {
+        "type": "tool_result",
+        "step": "plan",
+        "at": "2026-09-28T04:18:04.947Z",
+        "name": "requirement_progress",
+        "ms": 3,
+        "summary": "{\"buckets\":[{\"band\":\"major\",\"label\":\"Upper-division electives\",\"needed\":6,\"kind\":\"courses\",\"remainingBefore\":5,\"remainingAfter\":0},{\"band\":\"college\",\"label\":\"Humanities and Cultural Studies\",\"needed\":"
+      }
+    },
+    {
+      "t": 88673,
+      "event": {
+        "type": "model",
+        "step": "plan",
+        "at": "2026-09-28T04:18:17.290Z",
+        "entry": {
+          "at": "2026-09-28T04:18:17.290Z",
+          "step": "plan",
+          "model": "nvidia/nemotron-3-super-120b-a12b",
+          "ms": 12340,
+          "promptTokens": 18038,
+          "completionTokens": 2418,
+          "reasoningTokens": 1784,
+          "cacheHitTokens": 0,
+          "usd": 0.007587600000000001,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 88683,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T04:18:17.309Z",
+        "report": {
+          "planId": "p-fastest",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 10",
+              "term": "WI27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+              "severity": "warning",
+              "course": "ANTH 10",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 119",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 163",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 88689,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T04:18:17.315Z",
+        "report": {
+          "planId": "p-balanced",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "AAS 10 in WI27 has no offering evidence: AAS 10: last CAPE-evaluated offering SP23; 11 quarters on record.",
+              "severity": "warning",
+              "course": "AAS 10",
+              "term": "WI27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+              "severity": "warning",
+              "course": "ANTH 10",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 119",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 163",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 156 in FA27 has no offering evidence: COGS 156: last CAPE-evaluated offering WI23; 13 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 156",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 88695,
+      "event": {
+        "type": "verifier",
+        "step": "plan",
+        "at": "2026-09-28T04:18:17.321Z",
+        "report": {
+          "planId": "p-lightest",
+          "ok": true,
+          "violations": [
+            {
+              "rule": "assumed-offered",
+              "message": "ANTH 10 in FA27 has no offering evidence: ANTH 10: last CAPE-evaluated offering SP23; 4 quarters on record.",
+              "severity": "warning",
+              "course": "ANTH 10",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 119 in FA27 has no offering evidence: COGS 119: last CAPE-evaluated offering SP19; 9 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 119",
+              "term": "FA27"
+            },
+            {
+              "rule": "assumed-offered",
+              "message": "COGS 163 in FA27 has no offering evidence: COGS 163: last CAPE-evaluated offering WI23; 10 quarters on record.",
+              "severity": "warning",
+              "course": "COGS 163",
+              "term": "FA27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "t": 88695,
+      "event": {
+        "type": "step",
+        "step": "plan",
+        "at": "2026-09-28T04:18:17.321Z",
+        "message": "3 plans passed the verifier; 0 drafts rejected."
+      }
+    },
+    {
+      "t": 88695,
+      "event": {
+        "type": "done",
+        "step": "plan",
+        "at": "2026-09-28T04:18:17.321Z"
+      }
+    },
+    {
+      "t": 88697,
+      "event": {
+        "type": "step",
+        "step": "stress-test",
+        "at": "2026-09-28T04:18:17.323Z",
+        "message": "Stress-testing 3 plans against 39 evidence rows."
+      }
+    },
+    {
+      "t": 100379,
+      "event": {
+        "type": "model",
+        "step": "stress-test",
+        "at": "2026-09-28T04:18:29.003Z",
+        "entry": {
+          "at": "2026-09-28T04:18:29.003Z",
+          "step": "stress-test",
+          "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+          "ms": 11677,
+          "promptTokens": 5543,
+          "completionTokens": 4399,
+          "reasoningTokens": 4146,
+          "cacheHitTokens": 0,
+          "usd": 0.01874,
+          "replayed": false
+        }
+      }
+    },
+    {
+      "t": 100380,
+      "event": {
+        "type": "step",
+        "step": "stress-test",
+        "at": "2026-09-28T04:18:29.005Z",
+        "message": "Recommends p-fastest; refused 0; 2 risks."
+      }
+    },
+    {
+      "t": 100380,
+      "event": {
+        "type": "done",
+        "step": "stress-test",
+        "at": "2026-09-28T04:18:29.006Z"
+      }
+    }
+  ],
+  "errors": []
+}

@@ -53,7 +53,7 @@ describe('chain length in quarters', () => {
   it('counts the quickest path through each AND group', () => {
     const earned = set('CSE 11', 'CSE 12', 'CSE 20', 'MATH 20A', 'MATH 20B');
     expect(chainQuarters('CSE 12', earned)).toBe(0);
-    expect(chainQuarters('CSE 29', earned)).toBe(2); // the data lists a spurious [CSE 15L] group: 15L (1) then 29
+    expect(chainQuarters('CSE 29', earned)).toBe(1); // CSE 11 is earned; the snapshot's spurious [CSE 15L] group is overridden
     expect(chainQuarters('CSE 21', earned)).toBe(1);
     expect(chainQuarters('CSE 100', earned)).toBe(2); // quickest: CSE 21 and CSE 15L (or ECE 15) in one quarter, then CSE 100
     expect(chainQuarters('CSE 141', earned)).toBe(4); // … → CSE 30 → CSE 141 (CSE 140 branch is shorter)

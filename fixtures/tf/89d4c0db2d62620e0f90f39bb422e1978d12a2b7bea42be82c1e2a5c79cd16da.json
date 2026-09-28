@@ -1,0 +1,176 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You read a UC San Diego student's pasted Academic History (TritonLink) and return it as JSON. List every course row exactly once with its quarter code, units and grade; transfer credit rows use term XFER. Copy names as written. Never invent a row, a grade or a program."
+      },
+      {
+        "role": "user",
+        "content": "Academic History\n***This is Not an Official Transcript***\nStudent: Rivera, Alex\nPID: A18000001\nStudent Level: SO\nCollege: Revelle College\nMajor: Artificial Intelligence\nIntended Degree: Bachelor of Science\nGrade Option UC-Crdts Attm Crdts Pssd UC-GPA Crdts UC-Grade Points UC-GPA\nLetter 48.00 48.00 48.00 160.60 3.346\nP/NP 6.00 6.00 0.00 0.00 0.000\nTOTAL 54.00 54.00 48.00 160.60 3.346\nTerm: Fall Qtr 2025\nSubject Course Course Title Units Grade Points Repeat\nCSE 11 Intro to Programming: Accelerated 4.00 A 16.00\nMATH 20A Calculus/Science & Engineering 4.00 B+ 13.20\nHUM 1 Ancient Mediterranean World 6.00 B 18.00\nCOGS 9 Introduction to Data Science 4.00 P 0.00\nTerm Credits Passed: 18.00 Term GPA: 3.371\nTerm Grade Points: 47.20 Term GPA Credits: 14.00\nAcademic Status: Good Standing\nTerm: Winter Qtr 2026\nSubject Course Course Title Units Grade Points Repeat\nCSE 12 Basic Data Struct & OO Design 4.00 A- 14.80\nMATH 20B Calculus/Science & Engineering 4.00 B 12.00\nHUM 2 Rome and the Medieval World 6.00 B+ 19.80\nECON 1 Principles of Microeconomics 4.00 B+ 13.20\nTerm Credits Passed: 18.00 Term GPA: 3.322\nTerm Grade Points: 59.80 Term GPA Credits: 18.00\nAcademic Status: Good Standing\nTerm: Spring Qtr 2026\nSubject Course Course Title Units Grade Points Repeat\nCSE 25 Introduction to Artificial Intelligence 4.00 A- 14.80\nPHYS 2A Physics - Mechanics 4.00 B 12.00\nCHEM 11 The Periodic Table 4.00 B- 10.80\nCOGS 10 Cognitive Consequences of Technology 4.00 A 16.00\nCSE 89 Intro to CSE Seminar 2.00 P 0.00\nTerm Credits Passed: 18.00 Term GPA: 3.350\nTerm Grade Points: 53.60 Term GPA Credits: 16.00\nAcademic Status: Good Standing\nTerm: Fall Qtr 2026\nSubject Course Course Title Units Grade Points Repeat\nCSE 29 Systems Programming and Software Tools 4.00 0.00\nCSE 20 Discrete Mathematics 4.00 0.00\nMATH 20C Calculus & Analytic Geometry 4.00 0.00\nHUM 3 Renaissance, Reformation, Early Modern 4.00 0.00\nAcademic Events\nEvent Date\nUC ENTRLVL WRITNG REQT SATISFD 09/10/2025\nNot an Official Transcript\npage 1 of 1\n"
+      }
+    ],
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "academic_record",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "college": {
+              "description": "UC San Diego college as written, e.g. \"Revelle College\"; null if absent",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "major": {
+              "description": "Major as written; null if absent",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "degree": {
+              "description": "e.g. \"Bachelor of Science\"; null if absent",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "gpa": {
+              "description": "Cumulative UC GPA; null if absent",
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "courses": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "code": {
+                    "type": "string",
+                    "description": "Subject and number with one space, e.g. \"CSE 100\""
+                  },
+                  "title": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "term": {
+                    "type": "string",
+                    "description": "Quarter code: FA25, WI26, SP26, S126 (Summer Session I 2026); XFER for transfer credit"
+                  },
+                  "units": {
+                    "type": "number"
+                  },
+                  "grade": {
+                    "description": "Letter grade, P, NP, W, or null while in progress",
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "inProgress": {
+                    "type": "boolean",
+                    "description": "True for the current quarter's rows (no grade yet)"
+                  }
+                },
+                "required": [
+                  "code",
+                  "title",
+                  "term",
+                  "units",
+                  "grade",
+                  "inProgress"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "college",
+            "major",
+            "degree",
+            "gpa",
+            "courses"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      }
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "reasoning_effort": "none",
+    "max_tokens": 6000,
+    "model": "nvidia/Nemotron-3_5-Lightning"
+  },
+  "response": {
+    "id": "chatcmpl-2b24656b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"college\": \"Revelle College\", \"major\": \"Artificial Intelligence\", \"degree\": \"Bachelor of Science\", \"gpa\": 3.346, \"courses\": [{\"code\": \"CSE 11\", \"title\": \"Intro to Programming: Accelerated\", \"term\": \"Fall Qtr 2025\", \"units\": 4.00, \"grade\": \"A\", \"inProgress\": false}, {\"code\": \"MATH 20A\", \"title\": \"Calculus/Science & Engineering\", \"term\": \"Fall Qtr 2025\", \"units\": 4.00, \"grade\": \"B+\", \"inProgress\": false}, {\"code\": \"HUM 1\", \"title\": \"Ancient Mediterranean World\", \"term\": \"Fall Qtr 2025\", \"units\": 6.00, \"grade\": \"B\", \"inProgress\": false}, {\"code\": \"COGS 9\", \"title\": \"Introduction to Data Science\", \"term\": \"Fall Qtr 2025\", \"units\": 4.00, \"grade\": \"P\", \"inProgress\": false}, {\"code\": \"CSE 12\", \"title\": \"Basic Data Struct & OO Design\", \"term\": \"Winter Qtr 2026\", \"units\": 4.00, \"grade\": \"A-\", \"inProgress\": false}, {\"code\": \"MATH 20B\", \"title\": \"Calculus/Science & Engineering\", \"term\": \"Winter Qtr 2026\", \"units\": 4.00, \"grade\": \"B\", \"inProgress\": false}, {\"code\": \"HUM 2\", \"title\": \"Rome and the Medieval World\", \"term\": \"Winter Qtr 2026\", \"units\": 6.00, \"grade\": \"B+\", \"inProgress\": false}, {\"code\": \"ECON 1\", \"title\": \"Principles of Microeconomics\", \"term\": \"Winter Qtr 2026\", \"units\": 4.00, \"grade\": \"B+\", \"inProgress\": false}, {\"code\": \"CSE 25\", \"title\": \"Introduction to Artificial Intelligence\", \"term\": \"Spring Qtr 2026\", \"units\": 4.00, \"grade\": \"A-\", \"inProgress\": false}, {\"code\": \"PHYS 2A\", \"title\": \"Physics - Mechanics\", \"term\": \"Spring Qtr 2026\", \"units\": 4.00, \"grade\": \"B\", \"inProgress\": false}, {\"code\": \"CHEM 11\", \"title\": \"The Periodic Table\", \"term\": \"Spring Qtr 2026\", \"units\": 4.00, \"grade\": \"B-\", \"inProgress\": false}, {\"code\": \"COGS 10\", \"title\": \"Cognitive Consequences of Technology\", \"term\": \"Spring Qtr 2026\", \"units\": 4.00, \"grade\": \"A\", \"inProgress\": false}, {\"code\": \"CSE 89\", \"title\": \"Intro to CSE Seminar\", \"term\": \"Spring Qtr 2026\", \"units\": 2.00, \"grade\": \"P\", \"inProgress\": false}, {\"code\": \"CSE 29\", \"title\": \"Systems Programming and Software Tools\", \"term\": \"Fall Qtr 2026\", \"units\": 4.00, \"grade\": \"0.00\", \"inProgress\": false}, {\"code\": \"CSE 20\", \"title\": \"Discrete Mathematics\", \"term\": \"Fall Qtr 2026\", \"units\": 4.00, \"grade\": \"0.00\", \"inProgress\": false}, {\"code\": \"MATH 20C\", \"title\": \"Calculus & Analytic Geometry\", \"term\": \"Fall Qtr 2026\", \"units\": 4.00, \"grade\": \"0.00\", \"inProgress\": false}, {\"code\": \"HUM 3\", \"title\": \"Renaissance, Reformation, Early Modern\", \"term\": \"Fall Qtr 2026\", \"units\": 4.00, \"grade\": \"0.00\", \"inProgress\": false}]}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "created": 1790568830,
+    "model": "nvidia/Nemotron-3_5-Lightning",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 987,
+      "prompt_tokens": 934,
+      "total_tokens": 1921,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": null,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 934
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null
+  },
+  "recordedAt": "2026-09-28T04:13:54.732Z",
+  "usage": {
+    "completion_tokens": 987,
+    "prompt_tokens": 934,
+    "total_tokens": 1921,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 934
+  },
+  "ms": 4498
+}

@@ -1,35 +1,21 @@
 import { NextResponse } from 'next/server';
+import { impact } from '@/lib/engine/impact';
+import { createRun } from '@/lib/store/runs';
 import type { Action, StudentState } from '@/lib/types';
-import type { RunRecord } from '@/app/lib/contracts';
-import { fixtureFor } from '../_lib/mock';
-import { newId, store } from '../_lib/store';
-import { computeImpact } from '../_lib/impact';
+import { situation } from '../_lib/situation';
 
-/** POST /api/plan {state, action, options?} → {runId}. The stub fills the run at once; the trace replays. */
+export const runtime = 'nodejs';
+
+/** POST /api/plan {state, action, options?} → {runId}. Creates the run only; GET /api/trace/[runId] does the model work. */
 export async function POST(req: Request) {
   const body = (await req.json().catch(() => null)) as { state?: StudentState; action?: Action; options?: { horizonTerms?: number } } | null;
-  if (!body?.state || !body.action) return NextResponse.json({ error: 'Send {state, action}.' }, { status: 400 });
-  const impact = computeImpact(body.state, body.action);
-  if (!impact) return NextResponse.json({ error: `${body.action.course} is not one of your ${body.state.currentTerm} courses.` }, { status: 400 });
-  const f = fixtureFor(body.state);
-  const now = Date.now();
-  let t = 0;
-  const ledger = f.trace.flatMap(({ delayMs, event }) => {
-    t += delayMs;
-    return event.type === 'model' ? [{ ...event.entry, at: new Date(now + t).toISOString() }] : [];
+  const s = situation(body);
+  if ('error' in s) return NextResponse.json({ error: s.error }, { status: 400 });
+  const runId = await createRun({
+    state: s.state,
+    action: s.action,
+    impact: impact(s.state, s.action, new Date()),
+    ...(body?.options ? { options: body.options } : {}),
   });
-  const run: RunRecord = {
-    runId: newId('run'),
-    state: body.state,
-    action: body.action,
-    impact,
-    plans: f.plans,
-    reports: f.reports,
-    rejectedDrafts: f.rejectedDrafts,
-    verdict: null,
-    ledger,
-    approval: null,
-  };
-  store.runs.set(run.runId, run);
-  return NextResponse.json({ runId: run.runId });
+  return NextResponse.json({ runId });
 }

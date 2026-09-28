@@ -1,0 +1,13 @@
+{
+  "_note": "Hand-checked prerequisite groups (AND of OR-groups, normalized codes) that replace the machine-derived `prereqs` of a catalog row whose prereqText the upstream parser misread. lib/engine/data.ts catalogByCode() applies them; an override wins over data/catalog/*.json. Each entry was checked by hand against the row's prereqText; scripts/audit-prereqs.ts finds candidates and notes/engine-fixes.md records the reasoning and the courses deliberately left out.",
+  "prereqs": {
+    "CSE 29": [["CSE 11", "CSE 8B", "ECE 15"]],
+    "MATH 180A": [["MATH 20C", "MATH 31BH"]],
+    "MATH 174": [["MATH 20D", "MATH 21D"], ["MATH 20F", "MATH 31AH"]],
+    "COGR 225D": [["COGR 225A", "HIGR 238", "PHIL 209A", "SOCG 255A"]],
+    "ERC 89": [["MATH 10A", "MATH 20A"]],
+    "MUS 177": [["MUS 172", "MUS 161"]],
+    "DSC 123A": [["MATH 20C", "MATH 31BH"], ["MATH 18", "MATH 31AH"]],
+    "ECON 109": [["ECON 100C", "MATH 31CH", "MATH 109", "CSE 20"], ["ECON 100C", "MATH 31CH", "MATH 109", "MATH 20C"]]
+  }
+}

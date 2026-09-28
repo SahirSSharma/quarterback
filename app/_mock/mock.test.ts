@@ -1,69 +1,52 @@
-// The fixtures are the contract the UI is built against; these checks keep them honest.
-import { describe, it, expect } from 'vitest';
-import { readFileSync } from 'node:fs';
-import path from 'node:path';
-import { demo, demoIds } from '@/app/api/_lib/mock';
-import type { OfferingEvidence } from '@/lib/types';
+// The recorded demo runs (fixtures/runs/demo-*.json) are what replay mode shows judges; these checks keep them
+// honest against the engine and the model registry, so a data or price change that invalidates them fails here.
+import { describe, expect, it } from 'vitest';
+import { demo, demoCards, demoIds, fixtureFor } from '@/app/api/_lib/mock';
+import { applyAction } from '@/lib/agents/context';
+import { catalogUnits } from '@/lib/engine/data';
+import { offeringStatus } from '@/lib/engine/offerings';
+import { demoStudents, earnedCodes } from '@/lib/engine/student';
+import { deadlinesFor } from '@/lib/engine/terms';
+import { verify } from '@/lib/engine/verifier';
+import { MODELS, price } from '@/lib/tf/models';
 
-const root = path.resolve(__dirname, '../..');
-const sources: Record<string, string> = {
-  'cse.ucsd.edu': readFileSync(path.join(root, 'data/offerings/raw-cse-2026-27.csv'), 'utf8').replace(/\r\n/g, '\n'),
-  'math.ucsd.edu': readFileSync(path.join(root, 'data/offerings/raw-math-2026-27.md'), 'utf8'),
-};
-
-const pageMap = JSON.parse(readFileSync(path.join(root, 'data/catalog/_page-map.json'), 'utf8')).map as Record<string, { page: string }>;
-
-function catalogUnits(code: string): number | null {
-  const subject = code.split(' ')[0];
-  const file = path.join(root, 'data/catalog', `${pageMap[subject]?.page ?? subject}.json`);
-  const { courses } = JSON.parse(readFileSync(file, 'utf8')) as { courses: { code: string; units: string }[] };
-  const hit = courses.find((c) => c.code === code);
-  if (!hit || !/^\d+(\.\d+)?$/.test(hit.units)) return null;
-  return Number(hit.units);
-}
-
-function everyEvidence(id: 'a' | 'b' | 'c'): OfferingEvidence[] {
-  const f = demo(id);
-  const out: OfferingEvidence[] = [];
-  for (const impact of Object.values(f.impacts)) for (const b of impact.blocks) if (b.evidence) out.push(b.evidence);
-  for (const r of f.verdict.refused) out.push(...r.evidence);
-  return out;
-}
-
-describe.each(demoIds)('demo %s', (id) => {
+describe.each(demoIds)('recorded demo %s', (id) => {
   const f = demo(id);
 
-  it('has a current-term situation to choose from and a headline impact for it', () => {
+  it('is the demo student the Start page offers, in the situation its card names', () => {
+    expect(f.demo).toBe(id);
+    expect(demoStudents()).toContainEqual(f.state);
+    const card = demoCards.find((c) => c.id === id)!;
+    expect(card.headline).toEqual({ kind: f.action.kind, course: f.action.course });
     const wip = f.state.courses.filter((c) => c.term === f.state.currentTerm && c.status === 'wip');
     expect(wip.length).toBeGreaterThanOrEqual(3);
-    expect(wip.map((c) => c.code)).toContain(f.card.headline.course);
-    const impact = f.impacts[`${f.card.headline.kind}:${f.card.headline.course}`];
-    expect(impact).toBeDefined();
-    expect(impact.unitsAfter).toBe(wip.reduce((s, c) => s + c.units, 0) - (f.card.headline.kind === 'drop' ? impact.course.units : 0));
-    expect(impact.belowFullTime).toBe(impact.unitsAfter < 12);
-    for (const code of wip.map((c) => c.code)) expect(f.pnp[code], `pnp rule for ${code}`).toBeDefined();
+    expect(wip.map((c) => c.code)).toContain(f.action.course);
+    for (const code of wip.map((c) => c.code)) expect(card.blurb).toContain(code);
+    expect(fixtureFor(f.state, f.action)).toBe(f);
+    expect(fixtureFor(f.state, { kind: 'pnp', course: f.action.course })).toBeNull();
+    expect(fixtureFor({ ...f.state, source: 'paste' }, f.action)).toBeNull();
   });
 
-  it('shows only plans the verifier passed, each with a report, and recommends one of them', () => {
-    const ids = f.plans.map((p) => p.id);
-    expect(new Set(ids).size).toBe(ids.length);
+  it('shows only plans the verifier still passes against the post-action record, and counts the rejected drafts', () => {
+    const after = applyAction(f.state, f.action);
+    expect(f.plans.length).toBeGreaterThanOrEqual(1);
+    expect(new Set(f.plans.map((p) => p.id)).size).toBe(f.plans.length);
     for (const p of f.plans) {
-      const report = f.reports.find((r) => r.planId === p.id);
-      expect(report, `report for ${p.id}`).toBeDefined();
-      expect(report!.ok).toBe(true);
-      expect(report!.violations.every((v) => v.severity === 'warning')).toBe(true);
+      const stored = f.reports.find((r) => r.planId === p.id);
+      expect(stored?.ok, `stored report for ${p.id}`).toBe(true);
+      const fresh = verify(p, after);
+      expect(fresh.violations.filter((v) => v.severity === 'error'), `${p.id} re-verified`).toEqual([]);
+      expect(fresh.ok).toBe(true);
     }
-    expect(ids).toContain(f.verdict.recommend);
-    for (const r of f.verdict.refused) expect(ids).toContain(r.planId);
-    expect(f.verdict.refused.map((r) => r.planId)).not.toContain(f.verdict.recommend);
-    expect(f.rejectedDrafts).toBeGreaterThan(0);
+    expect(f.rejectedDrafts).toBe(f.reports.filter((r) => !r.ok).length);
+    for (const r of f.reports) if (!r.ok) expect(f.plans.map((p) => p.id)).not.toContain(r.planId);
   });
 
   it('sums term units from the catalog and never plans a course already earned', () => {
-    const earned = new Set(f.state.courses.filter((c) => c.status === 'earned').map((c) => c.code));
+    const earned = earnedCodes(f.state);
     for (const p of f.plans) {
       for (const t of p.terms) {
-        const units = t.courses.map(catalogUnits);
+        const units = t.courses.map((c) => catalogUnits(c));
         expect(units, `${p.id} ${t.term} ${t.courses.join(',')}`).not.toContain(null);
         expect(units.reduce((s, u) => s! + u!, 0)).toBe(t.units);
         for (const c of t.courses) expect(earned.has(c), `${c} already earned`).toBe(false);
@@ -71,53 +54,49 @@ describe.each(demoIds)('demo %s', (id) => {
     }
   });
 
-  it('quotes department pages verbatim', () => {
-    const evidence = everyEvidence(id);
-    expect(evidence.length).toBeGreaterThan(0);
-    for (const e of evidence) {
-      const host = Object.keys(sources).find((h) => e.url.includes(h));
-      expect(host, `known source for ${e.url}`).toBeDefined();
-      expect(sources[host!].includes(e.quote), `verbatim: ${e.quote}`).toBe(true);
-      expect(e.fetchedAt.startsWith('2026-09-27')).toBe(true);
+  it('recommends a shown plan and quotes only stored offering evidence in refusals', () => {
+    const ids = f.plans.map((p) => p.id);
+    expect(f.verdict.recommend === null || ids.includes(f.verdict.recommend)).toBe(true);
+    expect(f.verdict.summary.length).toBeGreaterThan(20);
+    for (const r of f.verdict.refused) {
+      expect(ids).toContain(r.planId);
+      expect(r.planId).not.toBe(f.verdict.recommend);
+      expect(r.evidence.length).toBeGreaterThanOrEqual(1);
+      // Vacuous today: no recorded verdict refuses a plan (notes/agents.md). Kept so a re-recording is checked.
+      for (const e of r.evidence) expect(e.quote).toBe(offeringStatus(e.course, e.term).quote);
     }
   });
 
-  it('scripts a trace of 8–12 events, ~300–1500 ms apart, that ends with done', () => {
-    expect(f.trace.length).toBeGreaterThanOrEqual(8);
-    expect(f.trace.length).toBeLessThanOrEqual(12);
-    for (const { delayMs } of f.trace) {
-      expect(delayMs).toBeGreaterThanOrEqual(300);
-      expect(delayMs).toBeLessThanOrEqual(1500);
+  it('prices every ledger entry from lib/tf/models.ts on a registry model', () => {
+    expect(f.ledger.length).toBeGreaterThanOrEqual(2);
+    for (const e of f.ledger) {
+      expect(MODELS[e.model], e.model).toBeDefined();
+      expect(e.usd).toBeCloseTo(price(e.model, { prompt_tokens: e.promptTokens, completion_tokens: e.completionTokens }), 9);
+      expect(e.promptTokens).toBeGreaterThan(0);
+      expect(e.ms).toBeGreaterThan(0);
     }
-    expect(f.trace.at(-1)!.event.type).toBe('done');
-    expect(f.trace.filter((t) => t.event.type === 'done')).toHaveLength(1);
-    const models = f.trace.flatMap((t) => (t.event.type === 'model' ? [t.event.entry.model] : []));
-    expect(models.some((m) => /super/i.test(m))).toBe(true);
-    expect(models.some((m) => /lightning/i.test(m))).toBe(true);
-    expect(/ultra/i.test(f.stressLedger.model)).toBe(true);
+    expect(f.ledger.filter((e) => e.step === 'plan').every((e) => /super/i.test(e.model))).toBe(true);
+    expect(f.ledger.filter((e) => e.step === 'stress-test').map((e) => e.model)).toEqual([expect.stringMatching(/ultra/i)]);
   });
 
-  it('prices ledger entries from the published Token Factory rates', () => {
-    const rates: [RegExp, number, number][] = [[/lightning/i, 0.06, 0.24], [/super/i, 0.3, 0.9], [/ultra/i, 1, 3]];
-    const entries = [...f.trace.flatMap((t) => (t.event.type === 'model' ? [t.event.entry] : [])), f.stressLedger];
-    for (const e of entries) {
-      const [, inRate, outRate] = rates.find(([re]) => re.test(e.model))!;
-      const usd = (e.promptTokens * inRate + (e.completionTokens + e.reasoningTokens) * outRate) / 1e6;
-      expect(Math.abs(e.usd - usd), `${e.step} usd`).toBeLessThan(0.00002);
-    }
+  it('recorded a planner trace that starts with a step, calls tools, verifies every draft and ends with done', () => {
+    const plan = f.events.filter((e) => e.event.step === 'plan');
+    expect(plan[0].event.type).toBe('step');
+    expect(plan.some((e) => e.event.type === 'tool_call')).toBe(true);
+    expect(plan.filter((e) => e.event.type === 'verifier')).toHaveLength(f.reports.length);
+    expect(plan.filter((e) => e.event.type === 'done')).toHaveLength(1);
+    expect(plan.at(-1)!.event.type).toBe('done');
+    expect(plan.some((e) => e.event.type === 'error')).toBe(false);
+    for (let i = 1; i < f.events.length; i++) expect(f.events[i].t).toBeGreaterThanOrEqual(f.events[i - 1].t);
+    const modelEntries = f.events.flatMap((e) => (e.event.type === 'model' && e.event.step === 'plan' ? [e.event.entry] : []));
+    expect(modelEntries).toEqual(f.ledger.filter((e) => e.step === 'plan'));
+    expect(f.errors).toEqual([]);
   });
-});
 
-it('the Revelle AI demo refuses the fastest plan over a blank Winter 2027 row on the CSE sheet', () => {
-  const f = demo('a');
-  const refused = f.verdict.refused[0];
-  expect(refused.planId).toBe('p-fastest');
-  const e = refused.evidence[0];
-  expect(e.term).toBe('WI27');
-  expect(e.status).toBe('not_offered');
-  expect(e.url).toBe('https://cse.ucsd.edu/undergraduate/tentative-course-offerings');
-  const fastest = f.plans.find((p) => p.id === 'p-fastest')!;
-  expect(fastest.terms.find((t) => t.term === 'WI27')!.courses).toContain(e.course);
-  const impact = f.impacts['drop:CSE 29'];
-  expect(impact.blocks.map((b) => b.code)).toEqual(expect.arrayContaining(['CSE 30', 'CSE 100']));
+  it('carries an impact for the current term whose deadlines the calendar still reproduces', () => {
+    expect(f.impact.action).toEqual(f.action);
+    expect(f.impact.course.code).toBe(f.action.course);
+    expect(f.impact.deadlines.map((d) => d.term)).toEqual(f.impact.deadlines.map(() => f.state.currentTerm));
+    expect(deadlinesFor(f.state.currentTerm, f.now)).toEqual(f.impact.deadlines);
+  });
 });

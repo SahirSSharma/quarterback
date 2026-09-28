@@ -97,7 +97,22 @@ export const catalogEntries = memo((): CatalogCourse[] => {
   return out;
 });
 
-/** One entry per code. A cross-listed course prefers the page of its own subject (CSE 282 from CSE, not BENG). */
+/**
+ * data/catalog-overrides.json: hand-checked AND-of-OR groups that replace a catalog row's machine-derived
+ * `prereqs` where the upstream parser misread the prereqText (scripts/audit-prereqs.ts finds candidates;
+ * notes/engine-fixes.md records each decision). Keys and members are normalized like the catalog.
+ */
+export const catalogOverrides = memo((): Map<CourseCode, string[][]> => {
+  const json = readJson<{ prereqs: Record<string, string[][]> }>('catalog-overrides.json');
+  const map = new Map<CourseCode, string[][]>();
+  for (const [code, groups] of Object.entries(json.prereqs)) map.set(normalizeCode(code), groups.map((g) => g.map(normalizeCode)));
+  return map;
+});
+
+/**
+ * One entry per code. A cross-listed course prefers the page of its own subject (CSE 282 from CSE, not BENG);
+ * an override from catalogOverrides() wins over the snapshot's prereqs.
+ */
 export const catalogByCode = memo((): Map<CourseCode, CatalogCourse> => {
   const map = new Map<CourseCode, CatalogCourse>();
   for (const c of catalogEntries()) {
@@ -106,6 +121,11 @@ export const catalogByCode = memo((): Map<CourseCode, CatalogCourse> => {
     if (!cur) { map.set(c.code, c); continue; }
     if (bare) continue;
     if (cur.page !== cur.subject && c.page === c.subject) map.set(c.code, c);
+  }
+  // A new object per overridden entry, so catalogEntries() still shows the snapshot as scraped (the audit reads it).
+  for (const [code, prereqs] of catalogOverrides()) {
+    const c = map.get(code);
+    if (c) map.set(code, { ...c, prereqs });
   }
   return map;
 });

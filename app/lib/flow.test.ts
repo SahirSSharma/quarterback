@@ -4,7 +4,7 @@ import type { RunRecord } from './contracts';
 import { demo } from '@/app/api/_lib/mock';
 
 const f = demo('a');
-const impact = { ...f.impacts['drop:CSE 29'], deadlines: [] };
+const impact = { ...f.impact, deadlines: [] };
 const run: RunRecord = {
   runId: 'run_1', state: f.state, action: { kind: 'drop', course: 'CSE 29' }, impact, plans: f.plans, reports: f.reports,
   rejectedDrafts: f.rejectedDrafts, verdict: null, ledger: [], approval: null,

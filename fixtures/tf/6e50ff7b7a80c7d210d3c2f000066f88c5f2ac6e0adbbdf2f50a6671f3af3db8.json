@@ -1,0 +1,83 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You answer a UC San Diego student who asks why a course is or is not available to them in the next quarters. Answer in at most three plain sentences: whether they can take it, what is missing, and the earliest quarter it fits. Use only the facts given — never invent a prerequisite, an offering or a requirement; name courses by their codes; if the facts say the course does not fit within the quarters listed, say exactly that and do not name a later quarter. No preamble, no bullet points."
+      },
+      {
+        "role": "user",
+        "content": "Course: CSE 105 — Theory of Computability (4 units).\nFills: Upper-division electives (32 units with breadth distribution) (major).\nPrerequisites: CSE 12; and CSE 20 or MATH 109 or MATH 15A or MATH 31CH; and CSE 21 or MATH 100A or MATH 103A or MATH 154 or MATH 158 or MATH 184 or MATH 188.\nMissing for this student: CSE 21 or MATH 100A or MATH 103A or MATH 154 or MATH 158 or MATH 184 or MATH 188.\nStudent has earned: CHEM 11, COGS 10, COGS 9, CSE 11, CSE 12, CSE 25, CSE 89, ECON 1, HUM 1, HUM 2, MATH 20A, MATH 20B, PHYS 2A; in progress in FA26: CSE 20, MATH 20C, HUM 3.\nEarliest quarter it fits: FA27.\nOffering evidence: WI27 offered, SP27 not_offered, FA27 unknown.\nAlternatives for the same requirement: CSE 100 (from SP27), CSE 100R (from FA27), CSE 101 (from SP27), CSE 103 (from FA27), CSE 106 (from SP27), CSE 110 (from FA27), CSE 125 (from SP27), CSE 127 (not in horizon), CSE 132A (from FA27), CSE 135 (from FA27)."
+      }
+    ],
+    "max_tokens": 220,
+    "model": "nvidia/Nemotron-3_5-Lightning",
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "reasoning_effort": "none"
+  },
+  "response": {
+    "id": "chatcmpl-47761593",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "You cannot enroll; you are missing MATH 184 or MATH 188. The earliest quarter it fits is FA27.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "created": 1790568829,
+    "model": "nvidia/Nemotron-3_5-Lightning",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 567,
+      "total_tokens": 599,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": null,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 567
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null
+  },
+  "recordedAt": "2026-09-28T04:13:50.231Z",
+  "usage": {
+    "completion_tokens": 32,
+    "prompt_tokens": 567,
+    "total_tokens": 599,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 567
+  },
+  "ms": 1179
+}
