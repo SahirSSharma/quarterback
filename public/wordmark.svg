@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" width="220" height="40" role="img" aria-label="Quarterback">
+  <rect width="40" height="40" rx="10" fill="#0f5f4c"/>
+  <circle cx="19.5" cy="18" r="8.5" fill="none" stroke="#ffffff" stroke-width="3.5"/>
+  <path d="M24.5 23 31 29.5" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="52" y="27" font-family="Geist, ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="600" fill="#1c1917" letter-spacing="-0.4">Quarterback</text>
+</svg>

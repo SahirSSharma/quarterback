@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Light theme, one deep accent. Neutral warm grays keep the tone calm; the accent carries every action. */
+@theme {
+  --color-bg: #faf9f7;
+  --color-surface: #ffffff;
+  --color-ink: #1c1917;
+  --color-ink-2: #57534e;
+  --color-ink-3: #8a8580;
+  --color-line: #e7e5e4;
+  --color-line-2: #d6d3d1;
+  --color-accent: #0f5f4c;
+  --color-accent-2: #0b4a3b;
+  --color-accent-soft: #e6f2ee;
+  --color-warn: #8a5a00;
+  --color-warn-soft: #fff4d6;
+  --color-danger: #a8231b;
+  --color-danger-soft: #fdecea;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  color-scheme: light;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Native <details> markers are hidden where a summary is styled as a button. */
+summary.qb-summary::-webkit-details-marker { display: none; }
+summary.qb-summary { list-style: none; }
+
+dialog::backdrop {
+  background: rgb(28 25 23 / 0.45);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
 }

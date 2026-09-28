@@ -1,0 +1,2596 @@
+{
+  "dept": "COGS",
+  "sourceUrl": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+  "fetchedAt": "2026-09-28T02:31:26.168Z",
+  "contentHash": "8b518085f953a28fb61cb243dc83e5911ebbf65060a05bd9e82c13fce62fda87",
+  "disclaimer": "These are tentative schedules. Classes and/or instructors may change or be canceled.",
+  "terms": [
+    "FA26",
+    "WI27",
+    "SP27"
+  ],
+  "rows": [
+    {
+      "course": "COGS 1",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 1,Barrera,Boyle,Deak,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Barrera",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 1",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 1,Barrera,Boyle,Deak,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Boyle",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 1",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 1,Barrera,Boyle,Deak,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Deak",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 2",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 2,Boyle,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Boyle",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 2",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 2,Boyle,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 2",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 2,Boyle,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 3",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 3,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 3",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 3,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 3",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 3,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 8",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 8,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 8",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 8,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 8",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 8,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 9",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 9,Tomoschuk,Lai,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Tomoschuk",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 9",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 9,Tomoschuk,Lai,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Lai",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 9",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 9,Tomoschuk,Lai,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 10",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 10,Fox,,Fox,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fox",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 10",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 10,Fox,,Fox,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 10",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 10,Fox,,Fox,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fox",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 11",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 11,Boroditsky,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Boroditsky",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 11",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 11,Boroditsky,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 11",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 11,Boroditsky,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 12",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 12,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 12",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 12,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 12",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 12,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 13",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 13,,,Rossano,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 13",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 13,,,Rossano,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 13",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 13,,,Rossano,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Rossano",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 14A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 14A,Creel,Barrera,Barrera,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Creel",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 14A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 14A,Creel,Barrera,Barrera,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Barrera",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 14A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 14A,Creel,Barrera,Barrera,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Barrera",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 14B",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 14B,Walker,Walker,Walker,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Walker",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 14B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 14B,Walker,Walker,Walker,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Walker",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 14B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 14B,Walker,Walker,Walker,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Walker",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 15",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 15,Bergen,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Bergen",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 15",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 15,Bergen,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 15",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 15,Bergen,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 17",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 17,Johnson,Johnson,Johnson,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Johnson",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 17",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 17,Johnson,Johnson,Johnson,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Johnson",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 17",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 17,Johnson,Johnson,Johnson,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Johnson",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 18",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 18 A00,Morgan,Morgan,Ellis,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Morgan",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 18",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 18 A00,Morgan,Morgan,Ellis,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Morgan",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 18",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 18 A00,Morgan,Morgan,Ellis,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Ellis",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 20",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 20,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 20",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 20,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 20",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 20,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 87",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 87,,Deak,Deak,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 87",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 87,,Deak,Deak,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Deak",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 87",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 87,,Deak,Deak,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Deak",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 88",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 88,Rangel,Walker,Rangel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Rangel",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 88",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 88,Rangel,Walker,Rangel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Walker",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 88",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 88,Rangel,Walker,Rangel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Rangel",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 90",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 90,,,Staff,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 90",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 90,,,Staff,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 90",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 90,,,Staff,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Staff",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 100",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 100,,Morgan,Morgan,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 100",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 100,,Morgan,Morgan,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Morgan",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 100",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 100,,Morgan,Morgan,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Morgan",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 101A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 101A,Barrera,Gepshtein,Morgan,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Barrera",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 101A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 101A,Barrera,Gepshtein,Morgan,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Gepshtein",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 101A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 101A,Barrera,Gepshtein,Morgan,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Morgan",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 101B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 101B,,,Walker,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 101B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 101B,,,Walker,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 101B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 101B,,,Walker,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Walker",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 101C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 101C,,Cooperrider,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 101C",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 101C,,Cooperrider,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Cooperrider",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 101C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 101C,,Cooperrider,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 102A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 102A,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 102A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 102A,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 102A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 102A,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 102B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 102B,,Fox,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 102B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 102B,,Fox,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fox",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 102B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 102B,,Fox,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 102C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 102C,,,Fox,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 102C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 102C,,,Fox,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 102C",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 102C,,,Fox,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fox",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 107A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 107A,Mooshagian,Mooshagian,Rangel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Mooshagian",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 107A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 107A,Mooshagian,Mooshagian,Rangel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Mooshagian",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 107A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 107A,Mooshagian,Mooshagian,Rangel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Rangel",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 107B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 107B,,Nitz,Mooshagian,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 107B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 107B,,Nitz,Mooshagian,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Nitz",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 107B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 107B,,Nitz,Mooshagian,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Mooshagian",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 107C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 107C,,,Chiba,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 107C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 107C,,,Chiba,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 107C",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 107C,,,Chiba,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Chiba",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 108",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 108 A00,Ellis,Fleischer,Tomoschuk,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Ellis",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 108",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 108 A00,Ellis,Fleischer,Tomoschuk,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fleischer",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 108",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 108 A00,Ellis,Fleischer,Tomoschuk,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Tomoschuk",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 109",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 109,Lai,Tomoschuk,Mukamel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Lai",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 109",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 109,Lai,Tomoschuk,Mukamel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Tomoschuk",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 109",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 109,Lai,Tomoschuk,Mukamel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Mukamel",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 110",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 110,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 110",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 110,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 110",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 110,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 111",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 111,Walker,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Walker",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 111",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 111,Walker,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 111",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 111,Walker,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 112",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 112,,Walker,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 112",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 112,,Walker,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Walker",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 112",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 112,,Walker,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 115",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 115,Deak,Deak,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Deak",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 115",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 115,Deak,Deak,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Deak",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 115",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 115,Deak,Deak,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 116",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 116,Greene,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Greene",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 116",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 116,Greene,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 116",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 116,Greene,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 117",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 117,Zettersten,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Zettersten",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 117",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 117,Zettersten,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 117",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 117,Zettersten,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 118A,Tu,,Fleischer,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Tu",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 118A,Tu,,Fleischer,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 118A,Tu,,Fleischer,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fleischer",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 118B,,,Fleischer,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 118B,,,Fleischer,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 118B,,,Fleischer,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fleischer",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 118C,,Mukamel,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118C",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 118C,,Mukamel,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Mukamel",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 118C,,Mukamel,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118D",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 118D,Lai,,Lai,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Lai",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118D",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 118D,Lai,,Lai,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 118D",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 118D,Lai,,Lai,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Lai",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 119",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 119,,Zettersten,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 119",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 119,,Zettersten,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Zettersten",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 119",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 119,,Zettersten,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 120",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 120,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 120",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 120,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 120",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 120,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 121",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 121,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 121",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 121,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 121",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 121,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 122",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 122,,Dow,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 122",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 122,,Dow,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Dow",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 122",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 122,,Dow,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 123",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 123,Dow,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Dow",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 123",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 123,Dow,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 123",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 123,Dow,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 124",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 124,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 124",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 124,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 124",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 124,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 125",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 125,,,Klemmer,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 125",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 125,,,Klemmer,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 125",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 125,,,Klemmer,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Klemmer",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 126",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 126,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 126",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 126,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 126",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 126,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 127",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 127,,,Guo,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 127",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 127,,,Guo,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 127",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 127,,,Guo,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Guo",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 128",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 128,Fox,,Ellis,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fox",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 128",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 128,Fox,,Ellis,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 128",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 128,Fox,,Ellis,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Ellis",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 137",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 137,Ellis,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Ellis",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 137",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 137,Ellis,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 137",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 137,Ellis,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 138",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 138,,Khosla,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 138",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 138,,Khosla,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Khosla",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 138",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 138,,Khosla,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 142",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 142,,Rossano,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 142",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 142,,Rossano,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Rossano",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 142",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 142,,Rossano,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 143",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 143,Johnson,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Johnson",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 143",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 143,Johnson,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 143",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 143,Johnson,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 144",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 144,,,Rossano,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 144",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 144,,,Rossano,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 144",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 144,,,Rossano,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Rossano",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 150",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 150,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 150",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 150,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 150",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 150,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 151",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 151,,,Coulson,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 151",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 151,,,Coulson,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 151",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 151,,,Coulson,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Coulson",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 152",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 152,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 152",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 152,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 152",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 152,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 153",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 153,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 153",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 153,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 153",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 153,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 154",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 154,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 154",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 154,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 154",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 154,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 155",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 155,Cooperrider,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Cooperrider",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 155",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 155,Cooperrider,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 155",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 155,Cooperrider,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 156",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 156,,Creel,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 156",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 156,,Creel,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Creel",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 156",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 156,,Creel,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 157",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 157,,,Creel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 157",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 157,,,Creel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 157",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 157,,,Creel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Creel",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 158",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 158,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 158",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 158,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 158",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 158,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 160",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 160 B00,Saygin,,Saygin,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Saygin",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 160",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 160 A00,,Kirsh,Kirsh,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Kirsh",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 160",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 160 A00,,Kirsh,Kirsh,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Kirsh; Saygin",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 163",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 163,,Boyle,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 163",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 163,,Boyle,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Boyle",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 163",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 163,,Boyle,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 164",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 164,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 164",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 164,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 164",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 164,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 165",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 165,Kiyonaga,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Kiyonaga",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 165",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 165,Kiyonaga,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 165",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 165,Kiyonaga,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 169",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 169,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 169",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 169,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 169",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 169,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 170",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 170,,,Rangel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 170",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 170,,,Rangel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 170",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 170,,,Rangel,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Rangel",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 171",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 171,Saygin,Saygin,Saygin,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Saygin",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 171",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 171,Saygin,Saygin,Saygin,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Saygin",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 171",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 171,Saygin,Saygin,Saygin,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Saygin",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 171GS",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 171GS,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 171GS",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 171GS,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 171GS",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 171GS,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 172",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 172,,Greene,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 172",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 172,,Greene,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Greene",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 172",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 172,,Greene,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 173",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 173,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 173",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 173,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 173",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 173,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 174",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 174,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 174",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 174,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 174",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 174,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 174GS",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 174GS,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 174GS",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 174GS,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 174GS",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 174GS,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 175",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 175,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 175",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 175,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 175",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 175,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 176",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 176,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 176",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 176,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 176",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 176,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 177",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 177,,Nitz,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 177",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 177,,Nitz,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Nitz",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 177",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 177,,Nitz,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 178",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 178,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 178",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 178,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 178",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 178,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 179",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 179,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 179",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 179,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 179",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 179,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 180",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 180,,Lai,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 180",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 180,,Lai,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Lai",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 180",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 180,,Lai,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 181",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 181,,Tu,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 181",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 181,,Tu,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Tu",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 181",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 181,,Tu,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 182",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 182,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 182",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 182,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 182",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 182,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 184",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 184,,,Johnson,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 184",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 184,,,Johnson,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 184",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "COGS 184,,,Johnson,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Johnson",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 185",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 185,,Tu,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 185",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 185,,Tu,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Tu",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 185",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 185,,Tu,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 186",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 186,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 186",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 186,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 186",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 186,,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 187A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 187A,Kirsh,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Kirsh",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 187A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 187A,Kirsh,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 187A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 187A,Kirsh,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 187B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 187B,,Kirsh,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 187B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 187B,,Kirsh,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Kirsh",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 187B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 187B,,Kirsh,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 188",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "COGS 188,Fleischer,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fleischer",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 188",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "COGS 188,Fleischer,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 188",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 188,Fleischer,,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 189",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 189,,de Sa,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 189",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 189,,de Sa,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "de Sa",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 189",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 189,,de Sa,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 193",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "COGS 193,,Fox,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 193",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "COGS 193,,Fox,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "instructor": "Fox",
+      "source": "department-page"
+    },
+    {
+      "course": "COGS 193",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "COGS 193,,Fox,,,",
+      "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+      "fetchedAt": "2026-09-28T02:31:26.168Z",
+      "source": "department-page"
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "college": "Sixth College",
+  "collegeFile": "sixth-college.json",
+  "major": "Mathematics-Computer Science",
+  "majors": [
+    "Mathematics-Computer Science"
+  ],
+  "majorFile": "mathematics-mathematics-computer-science.json",
+  "courses": [
+    {
+      "code": "CSE 20",
+      "title": "Discrete Mathematics",
+      "term": "FA25",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 20D",
+      "title": "Introduction to Differential Equations",
+      "term": "FA25",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 29",
+      "title": "Systems Programming and Software Tools",
+      "term": "FA25",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "CAT 125",
+      "title": "Public Rhetoric and Practical Communication",
+      "term": "FA25",
+      "units": 4,
+      "grade": "A",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 21",
+      "title": "Mathematics for Algorithms and Systems",
+      "term": "WI26",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 109",
+      "title": "Mathematical Reasoning",
+      "term": "WI26",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 30",
+      "title": "Computer Organization",
+      "term": "WI26",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 20E",
+      "title": "Vector Calculus",
+      "term": "WI26",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 100",
+      "title": "Advanced Data Structures",
+      "term": "SP26",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 103A",
+      "title": "Modern Algebra I",
+      "term": "SP26",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 154",
+      "title": "Discrete Mathematics and Graph Theory",
+      "term": "SP26",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 105",
+      "title": "Theory of Computability",
+      "term": "SP26",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 101",
+      "title": "Design and Analysis of Algorithms",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "MATH 103B",
+      "title": "Modern Algebra II",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "MATH 180A",
+      "title": "Introduction to Probability",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "MATH 170A",
+      "title": "Introduction to Numerical Analysis: Linear Algebra",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "MATH 20A",
+      "title": "MATH 20A (transfer credit)",
+      "term": "XFER",
+      "units": 0,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 20B",
+      "title": "MATH 20B (transfer credit)",
+      "term": "XFER",
+      "units": 0,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 20C",
+      "title": "MATH 20C (transfer credit)",
+      "term": "XFER",
+      "units": 0,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 18",
+      "title": "MATH 18 (transfer credit)",
+      "term": "XFER",
+      "units": 0,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 11",
+      "title": "CSE 11 (transfer credit)",
+      "term": "XFER",
+      "units": 0,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 12",
+      "title": "CSE 12 (transfer credit)",
+      "term": "XFER",
+      "units": 0,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "PHYS 2A",
+      "title": "PHYS 2A (transfer credit)",
+      "term": "XFER",
+      "units": 0,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "PSYC 1",
+      "title": "PSYC 1 (transfer credit)",
+      "term": "XFER",
+      "units": 0,
+      "grade": "P",
+      "status": "earned"
+    }
+  ],
+  "transfer": [
+    {
+      "subject": "MATH",
+      "number": "1A",
+      "title": "Calculus I",
+      "from": "De Anza College",
+      "units": 7.5,
+      "grade": "P",
+      "term": "SP24",
+      "level": "LD",
+      "approx": [
+        "MATH 20A"
+      ]
+    },
+    {
+      "subject": "MATH",
+      "number": "1B",
+      "title": "Calculus II",
+      "from": "De Anza College",
+      "units": 7.5,
+      "grade": "P",
+      "term": "S124",
+      "level": "LD",
+      "approx": [
+        "MATH 20B"
+      ]
+    },
+    {
+      "subject": "MATH",
+      "number": "1C",
+      "title": "Calculus III",
+      "from": "De Anza College",
+      "units": 7.5,
+      "grade": "P",
+      "term": "FA24",
+      "level": "LD",
+      "approx": [
+        "MATH 20C"
+      ]
+    },
+    {
+      "subject": "MATH",
+      "number": "2B",
+      "title": "Linear Algebra",
+      "from": "De Anza College",
+      "units": 7.5,
+      "grade": "P",
+      "term": "WI25",
+      "level": "LD",
+      "approx": [
+        "MATH 18"
+      ]
+    },
+    {
+      "subject": "CIS",
+      "number": "22A",
+      "title": "Beginning Programming Methodologies in C++",
+      "from": "De Anza College",
+      "units": 6.75,
+      "grade": "P",
+      "term": "FA24",
+      "level": "LD",
+      "approx": [
+        "CSE 11"
+      ]
+    },
+    {
+      "subject": "CIS",
+      "number": "22B",
+      "title": "Intermediate Programming Methodologies in C++",
+      "from": "De Anza College",
+      "units": 6.75,
+      "grade": "P",
+      "term": "WI25",
+      "level": "LD",
+      "approx": [
+        "CSE 12"
+      ]
+    },
+    {
+      "subject": "CIS",
+      "number": "22C",
+      "title": "Data Abstraction and Structures",
+      "from": "De Anza College",
+      "units": 6.75,
+      "grade": "P",
+      "term": "SP25",
+      "level": "LD",
+      "approx": []
+    },
+    {
+      "subject": "PHYS",
+      "number": "4A",
+      "title": "Physics for Scientists and Engineers: Mechanics",
+      "from": "De Anza College",
+      "units": 7.5,
+      "grade": "P",
+      "term": "SP25",
+      "level": "LD",
+      "approx": [
+        "PHYS 2A"
+      ]
+    },
+    {
+      "subject": "EWRT",
+      "number": "1A",
+      "title": "Composition and Reading",
+      "from": "De Anza College",
+      "units": 7.5,
+      "grade": "P",
+      "term": "FA23",
+      "level": "LD",
+      "approx": []
+    },
+    {
+      "subject": "PHIL",
+      "number": "4",
+      "title": "Critical Thinking",
+      "from": "De Anza College",
+      "units": 6,
+      "grade": "P",
+      "term": "WI24",
+      "level": "LD",
+      "approx": []
+    },
+    {
+      "subject": "HIST",
+      "number": "17A",
+      "title": "History of the United States",
+      "from": "De Anza College",
+      "units": 6,
+      "grade": "P",
+      "term": "SP24",
+      "level": "LD",
+      "approx": []
+    },
+    {
+      "subject": "ECON",
+      "number": "1A",
+      "title": "Principles of Macroeconomics",
+      "from": "De Anza College",
+      "units": 6,
+      "grade": "P",
+      "term": "FA23",
+      "level": "LD",
+      "approx": []
+    },
+    {
+      "subject": "PSYC",
+      "number": "1",
+      "title": "General Psychology",
+      "from": "De Anza College",
+      "units": 6,
+      "grade": "P",
+      "term": "WI24",
+      "level": "LD",
+      "approx": [
+        "PSYC 1"
+      ]
+    }
+  ],
+  "gpa": 3.358,
+  "currentTerm": "FA26",
+  "source": "demo",
+  "confidence": "high",
+  "warnings": []
+}

@@ -1,0 +1,241 @@
+{
+  "college": "Thurgood Marshall College",
+  "collegeFile": "thurgood-marshall-college.json",
+  "major": "Cognitive Science",
+  "majors": [
+    "Cognitive Science"
+  ],
+  "majorFile": "cognitive-science-cognitive-science-2.json",
+  "courses": [
+    {
+      "code": "COGS 1",
+      "title": "Introduction to Cognitive Science",
+      "term": "FA24",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 20A",
+      "title": "Calculus for Science and Engineering",
+      "term": "FA24",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "DOC 1",
+      "title": "Dimensions of Culture: Diversity",
+      "term": "FA24",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 10",
+      "title": "Cognitive Consequences of Technology",
+      "term": "FA24",
+      "units": 4,
+      "grade": "A",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 14A",
+      "title": "Introduction to Research Methods",
+      "term": "WI25",
+      "units": 4,
+      "grade": "A",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 20B",
+      "title": "Calculus for Science and Engineering",
+      "term": "WI25",
+      "units": 4,
+      "grade": "B-",
+      "status": "earned"
+    },
+    {
+      "code": "DOC 2",
+      "title": "Dimensions of Culture: Justice",
+      "term": "WI25",
+      "units": 6,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 17",
+      "title": "Neurobiology of Cognition",
+      "term": "WI25",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 14B",
+      "title": "Introduction to Statistical Analysis",
+      "term": "SP25",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 18",
+      "title": "Linear Algebra",
+      "term": "SP25",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "DOC 3",
+      "title": "Dimensions of Culture: Imagination",
+      "term": "SP25",
+      "units": 6,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 18",
+      "title": "Introduction to Python",
+      "term": "SP25",
+      "units": 4,
+      "grade": "A",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 13",
+      "title": "Field Methods: Studying Cognition in the Wild",
+      "term": "FA25",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "BILD 1",
+      "title": "The Cell",
+      "term": "FA25",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "PSYC 1",
+      "title": "Psychology",
+      "term": "FA25",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "MUS 4",
+      "title": "Introduction to Western Music",
+      "term": "FA25",
+      "units": 4,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 101A",
+      "title": "Sensation and Perception",
+      "term": "WI26",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "CHEM 6A",
+      "title": "General Chemistry I",
+      "term": "WI26",
+      "units": 4,
+      "grade": "B-",
+      "status": "earned"
+    },
+    {
+      "code": "ETHN 1",
+      "title": "Introduction to Ethnic Studies: Land and Labor",
+      "term": "WI26",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 107A",
+      "title": "Neuroanatomy and Physiology",
+      "term": "WI26",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 101B",
+      "title": "Learning, Memory, and Attention",
+      "term": "SP26",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "PHYS 1A",
+      "title": "Mechanics",
+      "term": "SP26",
+      "units": 3,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 108",
+      "title": "Data Science in Practice",
+      "term": "SP26",
+      "units": 4,
+      "grade": "A",
+      "status": "earned"
+    },
+    {
+      "code": "ANTH 1",
+      "title": "Introduction to Culture",
+      "term": "SP26",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 100",
+      "title": "Cyborgs Now and in the Future",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "COGS 107B",
+      "title": "Systems Neuroscience",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "COGS 109",
+      "title": "Modeling and Data Analysis",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "COGS 101C",
+      "title": "Language",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    }
+  ],
+  "transfer": [],
+  "gpa": 3.389,
+  "currentTerm": "FA26",
+  "source": "demo",
+  "confidence": "high",
+  "warnings": []
+}

@@ -1,0 +1,63 @@
+{
+  "endpoint": "search",
+  "request": {
+    "query": "COGS tentative course offerings 2026-2027 site:ucsd.edu",
+    "max_results": 5,
+    "search_depth": "basic",
+    "include_usage": true
+  },
+  "response": {
+    "query": "COGS tentative course offerings 2026-2027",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://cogsci.ucsd.edu/undergraduates/courses/index.html",
+        "title": "Courses",
+        "content": "1. HOME\n2. Undergraduates\n3. Courses\n\n# Tentative Course Offerings\n\nThese are tentative schedules. Classes and/or instructors may change or be canceled. Please consult the official Schedule of Classes on Triton Student System (TSS) each quarter.\n\n## COGS Course Offerings 2026-27\n\n## DSGN Course Offerings 2026-27\n\n## Featured Courses\n\n## COGS 160: Seminars in Special Topics - Fall 2026\n\nCOGS 160 (002-000): Cinema and Cognitive Science| Professor Ayse Saygin [...] This course emphasizes career readiness, with a focus on practical training in professional skills, networking, and career development. The course concludes with the development of a career action plan to help students advance academic and career goals.\n\n2 units, P/NP grade.  Meets Tuesdays 10:00am-11:50am at CSB 003.\n\nPrerequisites: junior and senior standing.\n\n## COGS 87: First-year Seminar - Spring 2027 [...] Why do humans, individually and in groups, attribute natural events to supernatural agents? How does the human brain accept religious beliefs, even in the face of contradictory evidence? We will examine how cognitive, developmental, and cultural factors work together to cause humans to believe in the supernatural.\n\n## COGS 193: Cognitive Science Career Seminar - Winter 2027\n\n#### COGS 193: Cognitive Science Career Seminar | Professor Amy Fox",
+        "score": 0.910998,
+        "raw_content": null,
+        "id": "0cd2a8-00"
+      },
+      {
+        "url": "https://hdsciences.ucsd.edu/courses/course-offerings/index.html",
+        "title": "HDS Annual Course Offerings 2026-27",
+        "content": "| Course | Title | Fall | Winter | Spring |\n ---  --- \n| COGS 154 | Communication Disorders in Children and Adults | Check COGS website |\n| COMM 100A | Communication, the Person, and Everyday Life | Fall |  |  |\n| COMM 168 | Bilingual Communication | Winter |\n| LIGN119/EDS 119 | First and Second Language Learning - From Childhood Through Adolescence | Winter |\n| LIGN 179 | Second Language Acquisition | Not offered 2026-27 | [...] | BILD 38 | Dementia, Science, and Society | Not Offered 2026-27 |\n| COGS 17 | Neurobiology of Cognition | Fall | Winter | Spring |\n| BA Option Only |\n| BILD 7 | The Beginning of Life | Not Offered 2026-27 |\n| BILD 10 | Modern Biology | Fall |\n| BILD 18 | Human Impact on the Environment | Not Offered 2026-27 |\n| COGS 11 | Cognitive Science: Minds and Brains | Fall | Winter |\n| PSYC 2 | General Psychology: Biological Foundations | Fall | Winter | [...] | BICD 112 | Stem Cells and Regeneration | Spring |\n| BICD 130 | Embryos, Genes, and Development | Fall |\n| BIPN 134 | Human Reproduction | Spring |\n| BIPN 144 | Developmental Neurobiology | Spring |\n| BIPN 148 | Cellular Basis of Learning and Memory | Fall |\n| BIMM 128 | Introduction to the Modern Biology of Aging | Spring |\n| COGS 115 | Neurological Development and Cognitive Change | Check COGS website |\n| COGS 184 | Modeling the Evolution of Cognition | Check COGS website |",
+        "score": 0.8449346,
+        "raw_content": null,
+        "id": "2034b7-01"
+      },
+      {
+        "url": "https://datascience.ucsd.edu/current-students/course-offerings",
+        "title": "Course Offerings",
+        "content": "| DSC-599 (.5 IWC) | Teaching Methods in Data Science | Fall 2026 |\n| DSC-010 | Principles of Data Science | Winter 2027 |\n| DSC-020 | Programming and Basic Data Structures for Data Science | Winter 2027 |\n| DSC-030 | Data Structures and Algorithms for Data Science | Winter 2027 |\n| DSC-040A | Theoretical Foundations of Data Science I | Winter 2027 |\n| DSC-040B | Theoretical Foundations of Data Science II | Winter 2027 |\n| DSC-080 | The Practice and Application of Data Science | Winter 2027 | [...] | Course # | Title | Quarter |\n --- \n| DSC-010 | Principles of Data Science | Fall 2026 |\n| DSC-020 | Programming and Basic Data Structures for Data Science | Fall 2026 |\n| DSC-030 | Data Structures and Algorithms for Data Science | Fall 2026 |\n| DSC-040A | Theoretical Foundations of Data Science I | Fall 2026 |\n| DSC-040B | Theoretical Foundations of Data Science II | Fall 2026 |\n| DSC-080 | The Practice and Application of Data Science | Fall 2026 | [...] | DSC-100 | Introduction to Data Management | Winter 2027 |\n| DSC-123B | Optimization for Data Science II | Winter 2027 |\n| DSC-140A | Probabilistic Modeling and Machine Learning | Winter 2027 |\n| DSC-140B | Representation Learning | Winter 2027 |\n| DSC-176 | IoT and Sensors | Winter 2027 |\n| DSC-180B | Data Science Project II\\\\ | Winter 2027 |\n| DSC-190/291 | Data Science in Biomedicine | Winter 2027 |\n| DSC-190 | Generative AI | Winter 2027 |",
+        "score": 0.81770587,
+        "raw_content": null,
+        "id": "0342e7-02"
+      },
+      {
+        "url": "https://cogsci.ucsd.edu/graduates/courses/index.html",
+        "title": "Current Course Offerings",
+        "content": "1. HOME\n2. Graduates\n3. Courses\n\n# Tentative Course Offerings\n\nThese are tentative schedules. Classes and/or instructors may change or be canceled. Please consult the official Schedule of Classes on TritonLink each quarter.\n\n## COGS Course Offerings 2025-26\n\n## COGS Course Offerings 2026-27\n\n## Featured Courses\n\n## Cogs 260: Seminar on Special Topics - Winter 2026\n\nCOGS ​2​60 (A00): Scientific Writing Workshop | Professor Anastasia Kiyonaga [...] Restrictions: Majors Allowed: Cognitive Science (CG75), Cog Sci w/Spec Anthropogeny (CG84), Cog Sci w/Spec in Hmn-Cntr Des (CG85), CogSci w/Spec in Comp Soc Sci (CG86)\n\nClass meets MWF 11:00am - 11:50am in COA B30\n\n## Cogs 260: Seminar on Special Topics - Spring 2026\n\nCOGS ​2​60 (A00): Interacting \"like a human being” | Professor Federico Rossano",
+        "score": 0.77405477,
+        "raw_content": null,
+        "id": "087973-03"
+      },
+      {
+        "url": "https://cse.ucsd.edu/graduate/tentative-2026-2027-cse-graduate-course-offerings",
+        "title": "Tentative 2026-2027 CSE Graduate Course Offerings | Computer Science",
+        "content": "Computer Science & Engineering Department\n\nJacobs School of Engineering UC San Diego\n\n# Tentative 2026-2027 CSE Graduate Course Offerings\n\nUpdated July 22, 2026\n\n\\\\\\This page is tentative and subject to change. Course availability, instructors, and scheduling details are not final.\n\nPlease refer to the following resources for official information:",
+        "score": 0.6862234,
+        "raw_content": null,
+        "id": "0f926e-04"
+      }
+    ],
+    "response_time": 1.96,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "2a8f23a2-28df-425c-a426-2f82d8218912"
+  },
+  "recordedAt": "2026-09-28T02:28:44.900Z"
+}

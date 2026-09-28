@@ -1,0 +1,54 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "In exactly 20 words, explain what a course prerequisite is."
+      }
+    ],
+    "max_tokens": 80,
+    "model": "nvidia/Nemotron-3_5-Lightning",
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "reasoning_effort": "none"
+  },
+  "response": {
+    "object": "chat.completion",
+    "model": "nvidia/Nemotron-3_5-Lightning",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "A course prerequisite is a requirement that must be completed before enrolling in a more advanced class."
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 30,
+      "total_tokens": 50,
+      "completion_tokens": 20,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 30
+    }
+  },
+  "recordedAt": "2026-09-28T02:25:00.180Z",
+  "usage": {
+    "prompt_tokens": 30,
+    "total_tokens": 50,
+    "completion_tokens": 20,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 30
+  },
+  "ms": 408
+}

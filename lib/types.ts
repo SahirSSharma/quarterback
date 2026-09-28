@@ -110,6 +110,18 @@ export interface OfferingEvidence {
   source: 'department-page' | 'schedule-of-classes' | 'cape-history';
 }
 
+/** One department's offerings file: data/offerings/<DEPT>.json (written by lib/offerings, read by lib/engine). */
+export interface OfferingsFile {
+  dept: string;
+  sourceUrl: string;
+  fetchedAt: string;
+  contentHash: string;
+  terms: TermCode[];
+  rows: OfferingEvidence[];
+  /** The page's own tentative-schedule disclaimer, quoted verbatim. */
+  disclaimer?: string;
+}
+
 // ---------------------------------------------------------------------------------------------
 // Plans, verification, verdicts
 
@@ -117,6 +129,8 @@ export interface PlanTerm {
   term: TermCode;
   courses: CourseCode[];
   units: number;
+  /** The student chose a reduced load for this term; the verifier waives the 12-unit floor. */
+  partTime?: boolean;
 }
 
 export interface Plan {
@@ -194,6 +208,8 @@ export interface LedgerEntry {
   usd: number;
   /** Served from fixtures (mock/replay) rather than a live call. */
   replayed: boolean;
+  /** The call ran on the role's fallback model after the primary failed. */
+  fallback?: boolean;
 }
 
 export type TraceEvent =

@@ -1,0 +1,5173 @@
+{
+  "dept": "ECE",
+  "sourceUrl": "https://ece.ucsd.edu/ece-tentative-course-list",
+  "fetchedAt": "2026-09-28T01:45:36.012Z",
+  "contentHash": "646cd15f6b351b9ff9b41097233527b88c16924d2492371cd8e5cc8e338e70c1",
+  "disclaimer": "Please note if you see a professor's name in a box below, it means the course is being offered the quarter listed. If there is a blank box, then the course is not being offered that quarter.",
+  "terms": [
+    "FA26",
+    "WI27",
+    "SP27"
+  ],
+  "rows": [
+    {
+      "course": "ECE 5",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 005 Experience ECE: Making, Breaking, Hacking Stuff | MORRIS | MORRIS |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MORRIS",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 5",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 005 Experience ECE: Making, Breaking, Hacking Stuff | MORRIS | MORRIS |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MORRIS",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 5",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 005 Experience ECE: Making, Breaking, Hacking Stuff | MORRIS | MORRIS |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 15",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 015 Engineering Computation | SCHURGERS | SAHAY | SAHAY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SCHURGERS",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 15",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 015 Engineering Computation | SCHURGERS | SAHAY | SAHAY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SAHAY",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 15",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 015 Engineering Computation | SCHURGERS | SAHAY | SAHAY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SAHAY",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 17",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 017 Object-Oriented Programming: Design and Development with C++ | SAHAY |  | SAHAY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SAHAY",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 17",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 017 Object-Oriented Programming: Design and Development with C++ | SAHAY |  | SAHAY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 17",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 017 Object-Oriented Programming: Design and Development with C++ | SAHAY |  | SAHAY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SAHAY",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 18",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 018 Python Programming | SAHAY |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SAHAY",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 18",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 018 Python Programming | SAHAY |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 18",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 018 Python Programming | SAHAY |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 25",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 025 Introduction to Digital Design | LIU | MAKRIS | DEY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LIU",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 25",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 025 Introduction to Digital Design | LIU | MAKRIS | DEY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MAKRIS",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 25",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 025 Introduction to Digital Design | LIU | MAKRIS | DEY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "DEY",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 30",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 030 Introduction to Computer Engineering | MIRARAB |  | MIRARAB | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MIRARAB",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 30",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 030 Introduction to Computer Engineering | MIRARAB |  | MIRARAB | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 30",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 030 Introduction to Computer Engineering | MIRARAB |  | MIRARAB | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MIRARAB",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 35",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 035 Introduction to Analog Design | SCHURGERS | SCHURGERS | NDAO | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SCHURGERS",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 35",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 035 Introduction to Analog Design | SCHURGERS | SCHURGERS | NDAO | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SCHURGERS",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 35",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 035 Introduction to Analog Design | SCHURGERS | SCHURGERS | NDAO | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NDAO",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 45",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 045 Circuits & Systems | ANTIPA | HEATH | ZEGER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ANTIPA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 45",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 045 Circuits & Systems | ANTIPA | HEATH | ZEGER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "HEATH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 45",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 045 Circuits & Systems | ANTIPA | HEATH | ZEGER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ZEGER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 65",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 065 Components & Circuits Laboratory | BAGHDADCHI | BAGHDADCHI | BAGHDADCHI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "BAGHDADCHI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 65",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 065 Components & Circuits Laboratory | BAGHDADCHI | BAGHDADCHI | BAGHDADCHI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "BAGHDADCHI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 65",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 065 Components & Circuits Laboratory | BAGHDADCHI | BAGHDADCHI | BAGHDADCHI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "BAGHDADCHI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 100",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 100 Linear Electronic Systems | BAGHDADCHI |  | BAGHDADCHI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "BAGHDADCHI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 100",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 100 Linear Electronic Systems | BAGHDADCHI |  | BAGHDADCHI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 100",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 100 Linear Electronic Systems | BAGHDADCHI |  | BAGHDADCHI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "BAGHDADCHI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 101",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 101 Linear Systems Fundamentals | FRANCESCHETTI | BAGHDADCHI | SIEGEL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "FRANCESCHETTI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 101",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 101 Linear Systems Fundamentals | FRANCESCHETTI | BAGHDADCHI | SIEGEL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "BAGHDADCHI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 101",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 101 Linear Systems Fundamentals | FRANCESCHETTI | BAGHDADCHI | SIEGEL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SIEGEL",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 102",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 102 Introduction to Active Circuit Design | HSUEH | LE |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "HSUEH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 102",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 102 Introduction to Active Circuit Design | HSUEH | LE |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LE",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 102",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 102 Introduction to Active Circuit Design | HSUEH | LE |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 103",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 103 Fundamentals of Devices & Materials | NG | LO | KUZUM | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 103",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 103 Fundamentals of Devices & Materials | NG | LO | KUZUM | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LO",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 103",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 103 Fundamentals of Devices & Materials | NG | LO | KUZUM | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KUZUM",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 107",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 107 | FULLERTON | LOMAKIN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "FULLERTON",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 107",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 107 | FULLERTON | LOMAKIN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LOMAKIN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 107",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 107 | FULLERTON | LOMAKIN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 108",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 108 Digital Circuits | TURAKHIA |  | KANG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "TURAKHIA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 108",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 108 Digital Circuits | TURAKHIA |  | KANG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 108",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 108 Digital Circuits | TURAKHIA |  | KANG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KANG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 109",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 109 Engineering Probability & Statistics | ZEGER | ZEGER | ORLITSKY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ZEGER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 109",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 109 Engineering Probability & Statistics | ZEGER | ZEGER | ORLITSKY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ZEGER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 109",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 109 Engineering Probability & Statistics | ZEGER | ZEGER | ORLITSKY | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ORLITSKY",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 111",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "Advanced Digital Design Project | KOUSHANFAR | ELDON | TBD | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KOUSHANFAR",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 111",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "Advanced Digital Design Project | KOUSHANFAR | ELDON | TBD | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ELDON",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 111",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "Advanced Digital Design Project | KOUSHANFAR | ELDON | TBD | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "TBD",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 115",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 115 Fast Prototyping |  | YIP | YIP | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 115",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 115 Fast Prototyping |  | YIP | YIP | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "YIP",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 115",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 115 Fast Prototyping |  | YIP | YIP | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "YIP",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 116",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 116 Advanced Hardware and Software Design | WANG, E. |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "WANG, E.",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 116",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 116 Advanced Hardware and Software Design | WANG, E. |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 116",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 116 Advanced Hardware and Software Design | WANG, E. |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 121A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 121A Power Systems Analysis and Fundamentals | ESMAILI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ESMAILI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 121A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 121A Power Systems Analysis and Fundamentals | ESMAILI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 121A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 121A Power Systems Analysis and Fundamentals | ESMAILI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 121B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 121B Energy Conversion |  | ESMAILI |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 121B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 121B Energy Conversion |  | ESMAILI |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ESMAILI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 121B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 121B Energy Conversion |  | ESMAILI |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 123",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 123 Antenna Systems Engineering |  |  | SIEVENPIPER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 123",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 123 Antenna Systems Engineering |  |  | SIEVENPIPER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 123",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 123 Antenna Systems Engineering |  |  | SIEVENPIPER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SIEVENPIPER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 125A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 125A Power Electronics I |  | LE |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 125A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 125A Power Electronics I |  | LE |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LE",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 125A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 125A Power Electronics I |  | LE |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 125B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 125B Power Electronics II |  |  | ESMAILI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 125B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 125B Power Electronics II |  |  | ESMAILI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 125B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 125B Power Electronics II |  |  | ESMAILI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ESMAILI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 128A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 128A Real World Power Grid Operation | ESMAILI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ESMAILI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 128A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 128A Real World Power Grid Operation | ESMAILI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 128A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 128A Real World Power Grid Operation | ESMAILI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 128B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 128B Power Grid Modernization |  | ESMAILI |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 128B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 128B Power Grid Modernization |  | ESMAILI |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ESMAILI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 128B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 128B Power Grid Modernization |  | ESMAILI |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 128C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 128C Power Grid Resiliency |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 128C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 128C Power Grid Resiliency |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 128C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 128C Power Grid Resiliency |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 129",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 129 Renewable and Energy Storage Resources |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 129",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 129 Renewable and Energy Storage Resources |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 129",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 129 Renewable and Energy Storage Resources |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 134",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 134 Electronic Materials Science of Integrated Circuits |  |  | NG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 134",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 134 Electronic Materials Science of Integrated Circuits |  |  | NG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 134",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 134 Electronic Materials Science of Integrated Circuits |  |  | NG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 135A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 135A Semiconductor Physics | KUZUM |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KUZUM",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 135A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 135A Semiconductor Physics | KUZUM |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 135A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 135A Semiconductor Physics | KUZUM |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 135B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 135B Electronic Devices |  | DAYEH |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 135B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 135B Electronic Devices |  | DAYEH |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "DAYEH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 135B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 135B Electronic Devices |  | DAYEH |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 136L",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 136L Microelectronics Laboratory |  |  | DAYEH | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 136L",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 136L Microelectronics Laboratory |  |  | DAYEH | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 136L",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 136L Microelectronics Laboratory |  |  | DAYEH | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "DAYEH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 139",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 139 Semiconductor Device Design & Modeling |  |  | NOMURA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 139",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 139 Semiconductor Device Design & Modeling |  |  | NOMURA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 139",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 139 Semiconductor Device Design & Modeling |  |  | NOMURA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NOMURA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 140A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 140A The Art of Product Engineering I |  | KHOSHABEH/GESSNER |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 140A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 140A The Art of Product Engineering I |  | KHOSHABEH/GESSNER |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KHOSHABEH/GESSNER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 140A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 140A The Art of Product Engineering I |  | KHOSHABEH/GESSNER |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 140B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 140B The Art of Product Engineering II |  |  | KHOSHABEH/GESSNER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 140B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 140B The Art of Product Engineering II |  |  | KHOSHABEH/GESSNER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 140B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 140B The Art of Product Engineering II |  |  | KHOSHABEH/GESSNER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KHOSHABEH/GESSNER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 141A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 141A Software Foundations I |  | GESSENER |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 141A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 141A Software Foundations I |  | GESSENER |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "GESSENER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 141A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 141A Software Foundations I |  | GESSENER |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 141B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 141B Software Foundations II |  |  | GESSNER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 141B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 141B Software Foundations II |  |  | GESSNER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 141B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 141B Software Foundations II |  |  | GESSNER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "GESSNER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 143",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 143 Programming for Data Analysis |  | UNPINGCO | UNPINGCO | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 143",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 143 Programming for Data Analysis |  | UNPINGCO | UNPINGCO | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "UNPINGCO",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 143",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 143 Programming for Data Analysis |  | UNPINGCO | UNPINGCO | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "UNPINGCO",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 144",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 144 LabVIEW Programming |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 144",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 144 LabVIEW Programming |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 144",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 144 LabVIEW Programming |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 148",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 148 Introduction to Autonomous Vehicles | SILBERMAN | SILBERMAN | SILBERMAN | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SILBERMAN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 148",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 148 Introduction to Autonomous Vehicles | SILBERMAN | SILBERMAN | SILBERMAN | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SILBERMAN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 148",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 148 Introduction to Autonomous Vehicles | SILBERMAN | SILBERMAN | SILBERMAN | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SILBERMAN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 150",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 150 Entrepreneurship for Engineers |  |  | WANG, E. | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 150",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 150 Entrepreneurship for Engineers |  |  | WANG, E. | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 150",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 150 Entrepreneurship for Engineers |  |  | WANG, E. | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "WANG, E.",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 153",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 153 Probability & Random Processes for Engineers |  |  | NAGHIZADEH | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 153",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 153 Probability & Random Processes for Engineers |  |  | NAGHIZADEH | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 153",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 153 Probability & Random Processes for Engineers |  |  | NAGHIZADEH | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NAGHIZADEH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 155",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 155 Digital Communications Theory | PRELCIC |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "PRELCIC",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 155",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 155 Digital Communications Theory | PRELCIC |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 155",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 155 Digital Communications Theory | PRELCIC |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 157A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 157A Communications Systems Laboratory I |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 157A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 157A Communications Systems Laboratory I |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 157A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 157A Communications Systems Laboratory I |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 157B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 157B Communications Systems Laboratory II |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 157B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 157B Communications Systems Laboratory II |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 157B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 157B Communications Systems Laboratory II |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 158A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 158A Data Networks I | FRANCESCHETTI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "FRANCESCHETTI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 158A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 158A Data Networks I | FRANCESCHETTI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 158A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 158A Data Networks I | FRANCESCHETTI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 158B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 158B Data Networks II |  | ZHANG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 158B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 158B Data Networks II |  | ZHANG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ZHANG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 158B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 158B Data Networks II |  | ZHANG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 159",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 159 Introduction to Data Processing and Information Theory |  | TBD |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 159",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 159 Introduction to Data Processing and Information Theory |  | TBD |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "TBD",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 159",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 159 Introduction to Data Processing and Information Theory |  | TBD |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 161A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 161A Introduction to Digital Signal Processing | VASCONCELOS. M. |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "VASCONCELOS. M.",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 161A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 161A Introduction to Digital Signal Processing | VASCONCELOS. M. |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 161A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 161A Introduction to Digital Signal Processing | VASCONCELOS. M. |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 161B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 161B Digital Signal Processing I |  | NGUYEN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 161B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 161B Digital Signal Processing I |  | NGUYEN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NGUYEN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 161B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 161B Digital Signal Processing I |  | NGUYEN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 161C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 161C Applications of Digital Signal Processing |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 161C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 161C Applications of Digital Signal Processing |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 161C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 161C Applications of Digital Signal Processing |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 163",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 163 Electronic Circuits & Systems |  |  | HSUEH | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 163",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 163 Electronic Circuits & Systems |  |  | HSUEH | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 163",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 163 Electronic Circuits & Systems |  |  | HSUEH | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "HSUEH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 164",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 164 Analog Integrated Circuit Design | HALL |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "HALL",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 164",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 164 Analog Integrated Circuit Design | HALL |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 164",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 164 Analog Integrated Circuit Design | HALL |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 165",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 165 Digital Integrated Circuit Design |  |  | MERCIER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 165",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 165 Digital Integrated Circuit Design |  |  | MERCIER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 165",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 165 Digital Integrated Circuit Design |  |  | MERCIER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MERCIER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 166",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 166 Microwave Systems & Circuits | REBEIZ |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "REBEIZ",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 166",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 166 Microwave Systems & Circuits | REBEIZ |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 166",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 166 Microwave Systems & Circuits | REBEIZ |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 171A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 171A Linear Control System Theory |  |  | ZHENG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 171A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 171A Linear Control System Theory |  |  | ZHENG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 171A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 171A Linear Control System Theory |  |  | ZHENG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ZHENG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 171B",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 171B Linear Control System Theory | SHI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SHI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 171B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 171B Linear Control System Theory | SHI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 171B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 171B Linear Control System Theory | SHI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 172A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 172A Introduction to Intelligent Systems |  |  | PARHI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 172A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 172A Introduction to Intelligent Systems |  |  | PARHI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 172A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 172A Introduction to Intelligent Systems |  |  | PARHI | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "PARHI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 174",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 174 Introduction to Linear & Nonlinear Optimization with Applications | PAL |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "PAL",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 174",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 174 Introduction to Linear & Nonlinear Optimization with Applications | PAL |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 174",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 174 Introduction to Linear & Nonlinear Optimization with Applications | PAL |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 175A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 175A Elements of Machine Intelligence: Pattern Recognition & Machine Learning |  | VASCONCELOS, M. |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 175A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 175A Elements of Machine Intelligence: Pattern Recognition & Machine Learning |  | VASCONCELOS, M. |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "VASCONCELOS, M.",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 175A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 175A Elements of Machine Intelligence: Pattern Recognition & Machine Learning |  | VASCONCELOS, M. |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 175B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 175B Elements of Machine Intelligence: Probabilistic Reasoning & Graphical Models |  |  | XIE | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 175B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 175B Elements of Machine Intelligence: Probabilistic Reasoning & Graphical Models |  |  | XIE | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 175B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 175B Elements of Machine Intelligence: Probabilistic Reasoning & Graphical Models |  |  | XIE | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "XIE",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 176",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 176 Introduction to Deep Learning and Applications |  |  | XIE | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 176",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 176 Introduction to Deep Learning and Applications |  |  | XIE | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 176",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 176 Introduction to Deep Learning and Applications |  |  | XIE | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "XIE",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 180",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 180 Topics in Electrical & Computer Engineering |  |  | LIN | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 180",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 180 Topics in Electrical & Computer Engineering |  |  | LIN | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 180",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 180 Topics in Electrical & Computer Engineering |  |  | LIN | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LIN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 181",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 181 Physical Optics & Fourier Optics | ANTIPA |  | ANTIPA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ANTIPA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 181",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 181 Physical Optics & Fourier Optics | ANTIPA |  | ANTIPA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 181",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 181 Physical Optics & Fourier Optics | ANTIPA |  | ANTIPA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ANTIPA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 182",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 182 Electromagnetic Optics, Guided-Wave, & Fiber Optics |  | FAINMAN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 182",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 182 Electromagnetic Optics, Guided-Wave, & Fiber Optics |  | FAINMAN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "FAINMAN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 182",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 182 Electromagnetic Optics, Guided-Wave, & Fiber Optics |  | FAINMAN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 183",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 183 Optical Electronics |  |  | MOOKHERJEA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 183",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 183 Optical Electronics |  |  | MOOKHERJEA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 183",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 183 Optical Electronics |  |  | MOOKHERJEA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MOOKHERJEA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 184",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 184 Optical Information Processing & Holography |  | FAINMAN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 184",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 184 Optical Information Processing & Holography |  | FAINMAN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "FAINMAN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 184",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 184 Optical Information Processing & Holography |  | FAINMAN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 185",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 185 Lasers & Modulators |  |  | RUBIN | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 185",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 185 Lasers & Modulators |  |  | RUBIN | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 185",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 185 Lasers & Modulators |  |  | RUBIN | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "RUBIN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 187",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 187 Introduction to Biomedical Imaging & Sensing |  | LIU |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 187",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 187 Introduction to Biomedical Imaging & Sensing |  | LIU |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LIU",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 187",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 187 Introduction to Biomedical Imaging & Sensing |  | LIU |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 188",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 188 Special Topics in Electrical Engineering with Lab |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 188",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 188 Special Topics in Electrical Engineering with Lab |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 188",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 188 Special Topics in Electrical Engineering with Lab |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 189",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 189 Technical Public Speaking |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 189",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 189 Technical Public Speaking |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 189",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 189 Technical Public Speaking |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 190",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 190 Engineering Design |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 190",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 190 Engineering Design |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 190",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 190 Engineering Design |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 191",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 191 Engineering Group Design Project | FAINMAN | NDAO |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "FAINMAN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 191",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 191 Engineering Group Design Project | FAINMAN | NDAO |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NDAO",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 191",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 191 Engineering Group Design Project | FAINMAN | NDAO |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 196",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 196 Engineering Hands-On Group Project |  |  | MORRIS | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 196",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 196 Engineering Hands-On Group Project |  |  | MORRIS | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 196",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 196 Engineering Hands-On Group Project |  |  | MORRIS | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MORRIS",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 201",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 201 Introduction to Biophysics | LO |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LO",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 201",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 201 Introduction to Biophysics | LO |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 201",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 201 Introduction to Biophysics | LO |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 202",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 202 Medical Devices and Interfaces |  | KUZUM |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 202",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 202 Medical Devices and Interfaces |  | KUZUM |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KUZUM",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 202",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 202 Medical Devices and Interfaces |  | KUZUM |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 203",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 203 Biomedical Integrated Circuits and Systems | MERCIER |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MERCIER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 203",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 203 Biomedical Integrated Circuits and Systems | MERCIER |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 203",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 203 Biomedical Integrated Circuits and Systems | MERCIER |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 204",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 204 Statistical Learning in Bioinformatics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 204",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 204 Statistical Learning in Bioinformatics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 204",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 204 Statistical Learning in Bioinformatics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 207A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 207A Principles of Medical Imaging | LIU/McVEIGH |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LIU/McVEIGH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 207A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 207A Principles of Medical Imaging | LIU/McVEIGH |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 207A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 207A Principles of Medical Imaging | LIU/McVEIGH |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 208",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 208 Computational Evolutionary Biology |  |  | MIRARAB | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 208",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 208 Computational Evolutionary Biology |  |  | MIRARAB | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 208",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 208 Computational Evolutionary Biology |  |  | MIRARAB | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MIRARAB",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 209",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 209 Statistical Learning for Biosignal Processing |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 209",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 209 Statistical Learning for Biosignal Processing |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 209",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 209 Statistical Learning for Biosignal Processing |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 212AN",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 212AN Principles of Nanoscience & Nanotechnology | NOMURA |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NOMURA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 212AN",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 212AN Principles of Nanoscience & Nanotechnology | NOMURA |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 212AN",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 212AN Principles of Nanoscience & Nanotechnology | NOMURA |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 212BN",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 212BN Nanoelectronics |  | NG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 212BN",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 212BN Nanoelectronics |  | NG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 212BN",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 212BN Nanoelectronics |  | NG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 212CN",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 212CN Nanophotonics |  |  | LIU | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 212CN",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 212CN Nanophotonics |  |  | LIU | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 212CN",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 212CN Nanophotonics |  |  | LIU | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LIU",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 213",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 213 Parallel Computing in Bioinformatics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 213",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 213 Parallel Computing in Bioinformatics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 213",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 213 Parallel Computing in Bioinformatics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 221",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 221 Magnetic Materials: Principles and Applications |  | FULLERTON |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 221",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 221 Magnetic Materials: Principles and Applications |  | FULLERTON |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "FULLERTON",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 221",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 221 Magnetic Materials: Principles and Applications |  | FULLERTON |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 222A Antennas & Their System Applications | REBEIZ |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "REBEIZ",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 222A Antennas & Their System Applications | REBEIZ |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 222A Antennas & Their System Applications | REBEIZ |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 222B Applied Electromagnetic Theory- Electromagnetics |  | LOMAKIN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 222B Applied Electromagnetic Theory- Electromagnetics |  | LOMAKIN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LOMAKIN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 222B Applied Electromagnetic Theory- Electromagnetics |  | LOMAKIN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 222C Applied Electromagnetic Theory- Computational Methods for Electromagnetics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 222C Applied Electromagnetic Theory- Computational Methods for Electromagnetics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 222C Applied Electromagnetic Theory- Computational Methods for Electromagnetics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222D",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 222D Advanced Antenna Design |  |  | SIEVENPIPER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222D",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 222D Advanced Antenna Design |  |  | SIEVENPIPER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 222D",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 222D Advanced Antenna Design |  |  | SIEVENPIPER | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SIEVENPIPER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 225A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 225A Probability and Statistics for Data Science | ORLITSKY |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ORLITSKY",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 225A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 225A Probability and Statistics for Data Science | ORLITSKY |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 225A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 225A Probability and Statistics for Data Science | ORLITSKY |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 225B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 225B Universal Probability and Applications in Data Science |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 225B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 225B Universal Probability and Applications in Data Science |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 225B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 225B Universal Probability and Applications in Data Science |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 226",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 226 Optimization and Acceleration of Deep Learning on Various Hardware Platforms | KOUSHANFAR |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KOUSHANFAR",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 226",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 226 Optimization and Acceleration of Deep Learning on Various Hardware Platforms | KOUSHANFAR |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 226",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 226 Optimization and Acceleration of Deep Learning on Various Hardware Platforms | KOUSHANFAR |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 227",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 227 Big Network Data |  | FRANCESCHETTI |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 227",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 227 Big Network Data |  | FRANCESCHETTI |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "FRANCESCHETTI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 227",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 227 Big Network Data |  | FRANCESCHETTI |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 228",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 228 Machine Learning for Physical Applications |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 228",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 228 Machine Learning for Physical Applications |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 228",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 228 Machine Learning for Physical Applications |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 229",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 229 Computational Data Analysis and Product Development |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 229",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 229 Computational Data Analysis and Product Development |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 229",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 229 Computational Data Analysis and Product Development |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 230A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 230A Solid State Electronics I | NOMURA |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NOMURA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 230A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 230A Solid State Electronics I | NOMURA |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 230A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 230A Solid State Electronics I | NOMURA |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 230B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 230B Solid State Electronics II |  | NOMURA |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 230B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 230B Solid State Electronics II |  | NOMURA |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NOMURA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 230B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 230B Solid State Electronics II |  | NOMURA |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 230C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 230C Solid State Electronics III |  | YU |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 230C",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 230C Solid State Electronics III |  | YU |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "YU",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 230C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 230C Solid State Electronics III |  | YU |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 235",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 235 Nanometer-Scale VLSI Devices |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 235",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 235 Nanometer-Scale VLSI Devices |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 235",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 235 Nanometer-Scale VLSI Devices |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 236A III-V Compound Semiconductor Materials | DAYEH |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "DAYEH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 236A III-V Compound Semiconductor Materials | DAYEH |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 236A III-V Compound Semiconductor Materials | DAYEH |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 236B Optical Processes in Semiconductors |  |  | LO | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 236B Optical Processes in Semiconductors |  |  | LO | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 236B Optical Processes in Semiconductors |  |  | LO | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LO",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 236C Heterojunction Field Effect Transistors |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 236C Heterojunction Field Effect Transistors |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 236C Heterojunction Field Effect Transistors |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236D",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 236D Heterojunction Bipolar Transistors |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236D",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 236D Heterojunction Bipolar Transistors |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 236D",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 236D Heterojunction Bipolar Transistors |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 238A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 238A Thermodynamics of Solids | LUO (MAE) |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LUO (MAE)",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 238A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 238A Thermodynamics of Solids | LUO (MAE) |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 238A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 238A Thermodynamics of Solids | LUO (MAE) |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 238B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 238B Solid State Diffusion & Reaction Kinetics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 238B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 238B Solid State Diffusion & Reaction Kinetics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 238B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 238B Solid State Diffusion & Reaction Kinetics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 240A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 240A Lasers & Optics | NDAO |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NDAO",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 240A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 240A Lasers & Optics | NDAO |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 240A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 240A Lasers & Optics | NDAO |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 240B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 240B Optical Information Processing |  | RUBIN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 240B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 240B Optical Information Processing |  | RUBIN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "RUBIN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 240B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 240B Optical Information Processing |  | RUBIN |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 240C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 240C Optical Modulation & Detection |  |  | MOOKHERJEA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 240C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 240C Optical Modulation & Detection |  |  | MOOKHERJEA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 240C",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 240C Optical Modulation & Detection |  |  | MOOKHERJEA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MOOKHERJEA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 241A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 241A Nonlinear Optics | RUBIN |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "RUBIN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 241A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 241A Nonlinear Optics | RUBIN |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 241A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 241A Nonlinear Optics | RUBIN |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 241B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 241B Integrated Photonics |  | MOOKHERJEA |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 241B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 241B Integrated Photonics |  | MOOKHERJEA |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MOOKHERJEA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 241B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 241B Integrated Photonics |  | MOOKHERJEA |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 241C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 241C Holographic Optical Elements |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 241C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 241C Holographic Optical Elements |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 241C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 241C Holographic Optical Elements |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 243B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 243B Optical Fiber Communication |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 243B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 243B Optical Fiber Communication |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 243B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 243B Optical Fiber Communication |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 244A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 244A Statistical Optics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 244A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 244A Statistical Optics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 244A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 244A Statistical Optics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 247A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 247A Advanced BioPhotonics | SHI (BENG) |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SHI (BENG)",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 247A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 247A Advanced BioPhotonics | SHI (BENG) |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 247A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 247A Advanced BioPhotonics | SHI (BENG) |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 247B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 247B BioElectronics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 247B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 247B BioElectronics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 247B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 247B BioElectronics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 247C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 247C BioNanotechnology |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 247C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 247C BioNanotechnology |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 247C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 247C BioNanotechnology |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 250",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 250 Random Processes | NAGHIZADEH | SIEGEL |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NAGHIZADEH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 250",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 250 Random Processes | NAGHIZADEH | SIEGEL |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SIEGEL",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 250",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 250 Random Processes | NAGHIZADEH | SIEGEL |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 251A Digital Signal Processing I |  | MEYER |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 251A Digital Signal Processing I |  | MEYER |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "MEYER",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 251A Digital Signal Processing I |  | MEYER |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 251B Digital Signal Processing II |  |  | VASCONCELOS, M. | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 251B Digital Signal Processing II |  |  | VASCONCELOS, M. | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 251B Digital Signal Processing II |  |  | VASCONCELOS, M. | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "VASCONCELOS, M.",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251C",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 251C Filter Banks & Wavelets | PARHI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "PARHI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 251C Filter Banks & Wavelets | PARHI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 251C Filter Banks & Wavelets | PARHI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251D",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 251D Array Processing |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251D",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 251D Array Processing |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 251D",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 251D Array Processing |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 252A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 252A Speech Compression |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 252A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 252A Speech Compression |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 252A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 252A Speech Compression |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 252B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 252B Speech Recognition |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 252B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 252B Speech Recognition |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 252B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 252B Speech Recognition |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 253",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 253 Fundamentals of Digital Image Processing | NGUYEN |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "NGUYEN",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 253",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 253 Fundamentals of Digital Image Processing | NGUYEN |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 253",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 253 Fundamentals of Digital Image Processing | NGUYEN |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 254",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 254 Detection Theory |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 254",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 254 Detection Theory |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 254",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 254 Detection Theory |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 255A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 255A Information Theory | ORLITSKY |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ORLITSKY",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 255A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 255A Information Theory | ORLITSKY |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 255A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 255A Information Theory | ORLITSKY |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 255B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 255B Source Coding I |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 255B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 255B Source Coding I |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 255B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 255B Source Coding I |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 255C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 255C Network Information Theory |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 255C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 255C Network Information Theory |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 255C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 255C Network Information Theory |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 257A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 257A Modern Communication Networks |  |  | ZHANG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 257A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 257A Modern Communication Networks |  |  | ZHANG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 257A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 257A Modern Communication Networks |  |  | ZHANG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ZHANG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 257B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 257B Principles of Wireless Networks |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 257B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 257B Principles of Wireless Networks |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 257B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 257B Principles of Wireless Networks |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 257C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 257C Stochastic Wireless Networks Models |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 257C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 257C Stochastic Wireless Networks Models |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 257C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 257C Stochastic Wireless Networks Models |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 258A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 258A Digital Communication | HEATH |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "HEATH",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 258A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 258A Digital Communication | HEATH |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 258A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 258A Digital Communication | HEATH |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 258B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 258B Digital Communication |  | PRELCIC |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 258B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 258B Digital Communication |  | PRELCIC |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "PRELCIC",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 258B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 258B Digital Communication |  | PRELCIC |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 259A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 259A Algebraic Coding |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 259A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 259A Algebraic Coding |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 259A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 259A Algebraic Coding |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 259B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 259B Probabilistic Coding |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 259B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 259B Probabilistic Coding |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 259B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 259B Probabilistic Coding |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 259C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 259C Advanced Topics in Coding |  |  | SIEGEL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 259C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 259C Advanced Topics in Coding |  |  | SIEGEL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 259C",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 259C Advanced Topics in Coding |  |  | SIEGEL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "SIEGEL",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 260A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 260A VLSI Digital System Algorithms & Architectures | ELDON |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ELDON",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 260A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 260A VLSI Digital System Algorithms & Architectures | ELDON |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 260A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 260A VLSI Digital System Algorithms & Architectures | ELDON |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 260B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 260B VLSI Integrated Circuits & Systems Design |  | KANG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 260B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 260B VLSI Integrated Circuits & Systems Design |  | KANG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KANG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 260B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 260B VLSI Integrated Circuits & Systems Design |  | KANG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 260C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 260C VLSI Advanced Topics |  |  | KAHNG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 260C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 260C VLSI Advanced Topics |  |  | KAHNG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 260C",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 260C VLSI Advanced Topics |  |  | KAHNG | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KAHNG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 263",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 263 Power Management Integrated Circuits Design | LE |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "LE",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 263",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 263 Power Management Integrated Circuits Design | LE |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 263",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 263 Power Management Integrated Circuits Design | LE |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 264A CMOS Analog Integrated Circuits & Systems I |  | GALTON |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 264A CMOS Analog Integrated Circuits & Systems I |  | GALTON |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "GALTON",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 264A CMOS Analog Integrated Circuits & Systems I |  | GALTON |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 264B CMOS Analog Integrated Circuits & Systems II |  |  | GALTON | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 264B CMOS Analog Integrated Circuits & Systems II |  |  | GALTON | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 264B CMOS Analog Integrated Circuits & Systems II |  |  | GALTON | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "GALTON",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264C",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 264C CMOS Analog Integrated Circuits & Systems II I | GALTON |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "GALTON",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 264C CMOS Analog Integrated Circuits & Systems II I | GALTON |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 264C CMOS Analog Integrated Circuits & Systems II I | GALTON |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264D",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 264D CMOS Analog Integrated Circuits & Systems IV |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264D",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 264D CMOS Analog Integrated Circuits & Systems IV |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 264D",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 264D CMOS Analog Integrated Circuits & Systems IV |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 265A Communication Circuit Design I |  | GUDEM |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 265A Communication Circuit Design I |  | GUDEM |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "GUDEM",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 265A Communication Circuit Design I |  | GUDEM |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 265B Communication Circuit Design II |  |  | GUDEM | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 265B Communication Circuit Design II |  |  | GUDEM | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 265B Communication Circuit Design II |  |  | GUDEM | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "GUDEM",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265C",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 265C Power Amplifiers for Wireless Communications | PRESTI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "PRESTI",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 265C Power Amplifiers for Wireless Communications | PRESTI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 265C Power Amplifiers for Wireless Communications | PRESTI |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265D",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 265D Communication Circuits III |  | GUDEM |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265D",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 265D Communication Circuits III |  | GUDEM |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "GUDEM",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 265D",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 265D Communication Circuits III |  | GUDEM |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 266A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 266A Integrated Circuit Laboratory I |  |  | HALL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 266A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 266A Integrated Circuit Laboratory I |  |  | HALL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 266A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 266A Integrated Circuit Laboratory I |  |  | HALL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "HALL",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 266B",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 266B Integrated Circuit Laboratory II | HALL |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "HALL",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 266B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 266B Integrated Circuit Laboratory II | HALL |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 266B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 266B Integrated Circuit Laboratory II | HALL |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 267",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 267 Network/Graph Algorithms and Analysis |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 267",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 267 Network/Graph Algorithms and Analysis |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 267",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 267 Network/Graph Algorithms and Analysis |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 268",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 268 Security of Hardware Embedded Systems |  | KOUSHANFAR |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 268",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 268 Security of Hardware Embedded Systems |  | KOUSHANFAR |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "KOUSHANFAR",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 268",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 268 Security of Hardware Embedded Systems |  | KOUSHANFAR |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 269",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 269 Linear Algebra |  | PAL |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 269",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 269 Linear Algebra |  | PAL |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "PAL",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 269",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 269 Linear Algebra |  | PAL |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 271A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 271A Statistical Learning I | VASCONCELOS, N. |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "VASCONCELOS, N.",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 271A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 271A Statistical Learning I | VASCONCELOS, N. |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 271A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 271A Statistical Learning I | VASCONCELOS, N. |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 271B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 271B Statistical Learning II |  | VASCONCELOS, M. |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 271B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 271B Statistical Learning II |  | VASCONCELOS, M. |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "VASCONCELOS, M.",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 271B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 271B Statistical Learning II |  | VASCONCELOS, M. |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 271C",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 271C Deep Learning and Applications |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 271C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 271C Deep Learning and Applications |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 271C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 271C Deep Learning and Applications |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 272A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 272A Stochastic Processes in Dynamic Systems I |  |  | POVEDA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 272A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 272A Stochastic Processes in Dynamic Systems I |  |  | POVEDA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 272A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 272A Stochastic Processes in Dynamic Systems I |  |  | POVEDA | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "POVEDA",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 272B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 272B Stochastic Processes in Dynamic Systems II |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 272B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 272B Stochastic Processes in Dynamic Systems II |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 272B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 272B Stochastic Processes in Dynamic Systems II |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 273",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 273 Convex Optimization & Applications |  |  | WANG, J. | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 273",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 273 Convex Optimization & Applications |  |  | WANG, J. | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 273",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 273 Convex Optimization & Applications |  |  | WANG, J. | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "WANG, J.",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 275A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 275A Parameter Estimation I |  |  | PAL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 275A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 275A Parameter Estimation I |  |  | PAL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 275A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 275A Parameter Estimation I |  |  | PAL | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "PAL",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 275B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 275B Parameter Estimation II |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 275B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 275B Parameter Estimation II |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 275B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 275B Parameter Estimation II |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 276A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 276A Sensing & Estimation Robotics |  | ATANASOV |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 276A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 276A Sensing & Estimation Robotics |  | ATANASOV |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ATANASOV",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 276A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 276A Sensing & Estimation Robotics |  | ATANASOV |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 276B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 276B Planning & Learning in Robotics |  | ZHENG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 276B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 276B Planning & Learning in Robotics |  | ZHENG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "ZHENG",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 276B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 276B Planning & Learning in Robotics |  | ZHENG |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 276C",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 276C Robot Manipulation and Control | YIP |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "YIP",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 276C",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 276C Robot Manipulation and Control | YIP |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 276C",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 276C Robot Manipulation and Control | YIP |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 277",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 277 GPU Programming |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 277",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 277 GPU Programming |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 277",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 277 GPU Programming |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 278",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 278 Math Topics for MS Comp Exam |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 278",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 278 Math Topics for MS Comp Exam |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 278",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 278 Math Topics for MS Comp Exam |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 279",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 279 Technical Communications |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 279",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 279 Technical Communications |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 279",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 279 Technical Communications |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 280",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 280 Special Topics in Electronic Devices & Materials/Applied Physics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 280",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 280 Special Topics in Electronic Devices & Materials/Applied Physics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 280",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 280 Special Topics in Electronic Devices & Materials/Applied Physics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 281",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 281 Special Topics in Nanoscience/Nanotechnology |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 281",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 281 Special Topics in Nanoscience/Nanotechnology |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 281",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 281 Special Topics in Nanoscience/Nanotechnology |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 282",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 282 Special Topics in Photonics/Applied Optics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 282",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 282 Special Topics in Photonics/Applied Optics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 282",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 282 Special Topics in Photonics/Applied Optics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 283",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 283 Special Topics in Electronic Circuits & Systems |  | (High-Speed Wireline Communication Circuits & Systems) |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 283",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 283 Special Topics in Electronic Circuits & Systems |  | (High-Speed Wireline Communication Circuits & Systems) |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "(High-Speed Wireline Communication Circuits & Systems)",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 283",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 283 Special Topics in Electronic Circuits & Systems |  | (High-Speed Wireline Communication Circuits & Systems) |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 284",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 284 Special Topics in Computer Engineering | (Low-power VLSI Implementation for Machine Learning) |  | (Advanced Computer Architecture) --- WANG, E. (Digital Health Device Design) | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "(Low-power VLSI Implementation for Machine Learning)",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 284",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 284 Special Topics in Computer Engineering | (Low-power VLSI Implementation for Machine Learning) |  | (Advanced Computer Architecture) --- WANG, E. (Digital Health Device Design) | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 284",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 284 Special Topics in Computer Engineering | (Low-power VLSI Implementation for Machine Learning) |  | (Advanced Computer Architecture) --- WANG, E. (Digital Health Device Design) | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "(Advanced Computer Architecture) --- WANG, E. (Digital Health Device Design)",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 285",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 285 Special Topics in Signal & Image Processing/Robotics & Control Systems | (Ethics and Economics of AI) --- (Deep Generative Models) --- (Semidefinite and sum-of-squares optimization) | (Elements of Functional Analysis in Data Science) |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "(Ethics and Economics of AI) --- (Deep Generative Models) --- (Semidefinite and sum-of-squares optimization)",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 285",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "ECE 285 Special Topics in Signal & Image Processing/Robotics & Control Systems | (Ethics and Economics of AI) --- (Deep Generative Models) --- (Semidefinite and sum-of-squares optimization) | (Elements of Functional Analysis in Data Science) |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "(Elements of Functional Analysis in Data Science)",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 285",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 285 Special Topics in Signal & Image Processing/Robotics & Control Systems | (Ethics and Economics of AI) --- (Deep Generative Models) --- (Semidefinite and sum-of-squares optimization) | (Elements of Functional Analysis in Data Science) |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 286",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 286 State-of-the-Art Topics in Computational Statistics & Machine Learning |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 286",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 286 State-of-the-Art Topics in Computational Statistics & Machine Learning |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 286",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 286 State-of-the-Art Topics in Computational Statistics & Machine Learning |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 287",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "ECE 287 Special Topics in Communication Theory & Systems | (IT MIMO) |  | (Wireless for ML) | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "(IT MIMO)",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 287",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 287 Special Topics in Communication Theory & Systems | (IT MIMO) |  | (Wireless for ML) | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 287",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "ECE 287 Special Topics in Communication Theory & Systems | (IT MIMO) |  | (Wireless for ML) | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "instructor": "(Wireless for ML)",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 289",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 289 Special Topics in Electrical & Computer Engineering |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 289",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 289 Special Topics in Electrical & Computer Engineering |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 289",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 289 Special Topics in Electrical & Computer Engineering |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 290",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 290 Graduate Seminar on Current ECE Research |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 290",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 290 Graduate Seminar on Current ECE Research |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 290",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 290 Graduate Seminar on Current ECE Research |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 291",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 291 Industry Sponsored Engineering Design Project |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 291",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 291 Industry Sponsored Engineering Design Project |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 291",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 291 Industry Sponsored Engineering Design Project |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 292",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 292 Graduate Seminar in Electronic Circuits and Systems |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 292",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 292 Graduate Seminar in Electronic Circuits and Systems |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 292",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 292 Graduate Seminar in Electronic Circuits and Systems |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 293",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 293 Graduate Seminar in Communication Theory and Systems |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 293",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 293 Graduate Seminar in Communication Theory and Systems |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 293",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 293 Graduate Seminar in Communication Theory and Systems |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 294",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 294 Graduate Seminar in Electronic Devices & Materials/Applied Physics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 294",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 294 Graduate Seminar in Electronic Devices & Materials/Applied Physics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 294",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 294 Graduate Seminar in Electronic Devices & Materials/Applied Physics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 295",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 295 Graduate Seminar in Signal & Image Processing/Robotics & Control Systems |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 295",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 295 Graduate Seminar in Signal & Image Processing/Robotics & Control Systems |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 295",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 295 Graduate Seminar in Signal & Image Processing/Robotics & Control Systems |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 296",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 296 Graduate Seminar in Photonics/Applied Optics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 296",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 296 Graduate Seminar in Photonics/Applied Optics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 296",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 296 Graduate Seminar in Photonics/Applied Optics |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 297",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "ECE 297 Graduate Seminar in Nanoscience/ Nanotechnology |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 297",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "ECE 297 Graduate Seminar in Nanoscience/ Nanotechnology |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    },
+    {
+      "course": "ECE 297",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "ECE 297 Graduate Seminar in Nanoscience/ Nanotechnology |  |  |  | ",
+      "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+      "fetchedAt": "2026-09-28T01:45:36.012Z",
+      "source": "department-page"
+    }
+  ]
+}

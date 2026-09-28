@@ -1,0 +1,153 @@
+{
+  "college": "Revelle College",
+  "collegeFile": "revelle-college.json",
+  "major": "Artificial Intelligence",
+  "majors": [
+    "Artificial Intelligence"
+  ],
+  "majorFile": "computer-science-and-engineering-artificial-intelligence.json",
+  "courses": [
+    {
+      "code": "CSE 11",
+      "title": "Intro to Programming: Accelerated",
+      "term": "FA25",
+      "units": 4,
+      "grade": "A",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 20A",
+      "title": "Calculus/Science & Engineering",
+      "term": "FA25",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "HUM 1",
+      "title": "Ancient Mediterranean World",
+      "term": "FA25",
+      "units": 6,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 9",
+      "title": "Introduction to Data Science",
+      "term": "FA25",
+      "units": 4,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 12",
+      "title": "Basic Data Struct & OO Design",
+      "term": "WI26",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "MATH 20B",
+      "title": "Calculus/Science & Engineering",
+      "term": "WI26",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "HUM 2",
+      "title": "Rome and the Medieval World",
+      "term": "WI26",
+      "units": 6,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "ECON 1",
+      "title": "Principles of Microeconomics",
+      "term": "WI26",
+      "units": 4,
+      "grade": "B+",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 25",
+      "title": "Introduction to Artificial Intelligence",
+      "term": "SP26",
+      "units": 4,
+      "grade": "A-",
+      "status": "earned"
+    },
+    {
+      "code": "PHYS 2A",
+      "title": "Physics - Mechanics",
+      "term": "SP26",
+      "units": 4,
+      "grade": "B",
+      "status": "earned"
+    },
+    {
+      "code": "CHEM 11",
+      "title": "The Periodic Table",
+      "term": "SP26",
+      "units": 4,
+      "grade": "B-",
+      "status": "earned"
+    },
+    {
+      "code": "COGS 10",
+      "title": "Cognitive Consequences of Technology",
+      "term": "SP26",
+      "units": 4,
+      "grade": "A",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 89",
+      "title": "Intro to CSE Seminar",
+      "term": "SP26",
+      "units": 2,
+      "grade": "P",
+      "status": "earned"
+    },
+    {
+      "code": "CSE 29",
+      "title": "Systems Programming and Software Tools",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "CSE 20",
+      "title": "Discrete Mathematics",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "MATH 20C",
+      "title": "Calculus & Analytic Geometry",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    },
+    {
+      "code": "HUM 3",
+      "title": "Renaissance, Reformation, Early Modern",
+      "term": "FA26",
+      "units": 4,
+      "grade": null,
+      "status": "wip"
+    }
+  ],
+  "transfer": [],
+  "gpa": 3.346,
+  "currentTerm": "FA26",
+  "source": "demo",
+  "confidence": "high",
+  "warnings": []
+}

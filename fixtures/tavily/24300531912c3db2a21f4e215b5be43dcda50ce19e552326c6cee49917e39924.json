@@ -1,0 +1,63 @@
+{
+  "endpoint": "search",
+  "request": {
+    "query": "MATH tentative course offerings 2026-2027 site:ucsd.edu",
+    "max_results": 5,
+    "search_depth": "basic",
+    "include_usage": true
+  },
+  "response": {
+    "query": "MATH tentative course offerings 2026-2027",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://hdsciences.ucsd.edu/courses/course-offerings/index.html",
+        "title": "HDS Annual Course Offerings 2026-27",
+        "content": "| Course | Title | Fall | Winter | Spring |\n ---  --- \n| Calculus: at least one required for the BS |\n| MATH 10A | Calculus | Fall | Winter | Spring |\n| MATH 10B | Calculus | Fall | Winter | Spring |\n| MATH 10C | Calculus | Fall | Winter | Spring |\n| MATH 20A | Calculus & Analytical Geometry | Fall | Winter | Spring |\n| MATH 20B | Calculus & Analytical Geometry | Fall | Winter | Spring |\n| MATH 20C | Calculus & Analytical Geometry | Fall | Winter | Spring |\n| Additional Non-Calculus Options | [...] 1. HOME\n2. Courses\n3. Current Course Offerings\n\n# HDS Annual Course Offerings 2026-27\n\n#### Note: Course schedules are tentative and subject to change!\n\n#### Note: Courses are displayed in TSS with leading zeros--they are still the same class! Please note the zeros and hyphen when searching for classes in TSS. Examples:\n\n HDS 1 appears as HDS-001 in TSS\n HDS 60 appears as HDS-060in TSS\n HDS 191 appears as HDS-191 in TSS\n\n#### HDS Subject Codes\n\n## 2026-2027 HDS Courses [...] ## 2026 - 2027 HDS Courses\n\n#### Note: Course schedules are tentative and subject to change!",
+        "score": 0.85008353,
+        "raw_content": null,
+        "id": "60e407-00"
+      },
+      {
+        "url": "https://cse.ucsd.edu/node/1657",
+        "title": "2026-2027 TENTATIVE Course Offerings - Computer Science",
+        "content": "Computer Science & Engineering Department\n\nJacobs School of Engineering UC San Diego\n\n# 2026-2027 TENTATIVE Course Offerings\n\nButton Name\n\n2026-2027 TENTATIVE Course Offerings\n\nPage:\n\nUndergrad Course\n\nButton Description\n\nTentatively planned CSE course offerings: Fall 2026 - Spring 2027\n\nButton Link\n\nCourses Page Section:\n\nWhat is being offered?\n\nButton Order\n\n4",
+        "score": 0.725824,
+        "raw_content": null,
+        "id": "addf91-01"
+      },
+      {
+        "url": "https://math.ucsd.edu/students/planned-course-offerings",
+        "title": "Planned Course Offerings | Department of Mathematics",
+        "content": "← Previous Year Current Next Year →\n\n### 2026-2027\n\n Lower Division\n Upper Division\n Graduate Level [...] | MATH 278C | Seminar in Optimization | 001 | Nie, Jiawang | Nie, Jiawang | Nie, Jiawang |\n| MATH 279 | Projects In Computational & Applied Math | 001 | Staff, Staff |\n| MATH 280A | Probability Theory | 001 | Fitzsimmons, Pat |\n| MATH 280B | Probability Theory | 001 | Fitzsimmons, Pat |\n| MATH 280C | Probability Theory | 001 | Fitzsimmons, Pat |\n| MATH 281A | Mathematical Statistics | 001 | Lou, Zhipeng |\n| MATH 281B | Mathematical Statistics | 001 | Zhang, Danna | [...] | MATH 270B | Numerical Mathematics | 001 | Li, Bo |\n| MATH 270C | Numerical Mathematics | 001 | Li, Bo |\n| MATH 271A | Numerical Optimization | 001 | Ding, Lijun |\n| MATH 271B | Numerical Optimization | 001 | Nie, Jiawang |\n| MATH 272A | Numerical Partial Differential Equations I | 001 | Tian, Xiaochuan |\n| MATH 272B | Numerical Partial Differential Equations | 001 | Tian, Xiaochuan |\n| MATH 272C | Numerical Partial Differential Equations | 001 | Tian, Xiaochuan |",
+        "score": 0.709684,
+        "raw_content": null,
+        "id": "03361e-02"
+      },
+      {
+        "url": "https://ece.ucsd.edu/ece-tentative-course-list",
+        "title": "ECE Tentative Course List",
+        "content": "| COURSE | FALL 26 | WINTER 27 | SPRING 27 | SU27 (TBD) |\n ---  --- \n| ECE 005  Experience ECE: Making, Breaking, Hacking Stuff | MORRIS | MORRIS |  |  |\n| ECE 015  Engineering Computation | SCHURGERS | SAHAY | SAHAY |  |\n| ECE 017  Object-Oriented Programming: Design and Development with C++ | SAHAY |  | SAHAY |  |\n| ECE 018  Python Programming | SAHAY |  |  |  |\n| ECE 025  Introduction to Digital Design | LIU | MAKRIS | DEY |  | [...] | ECE 266B  Integrated Circuit Laboratory II | HALL |  |  |  |\n| ECE 267  Network/Graph Algorithms and Analysis |  |  |  |  |\n| ECE 268  Security of Hardware Embedded Systems |  | KOUSHANFAR |  |  |\n| ECE 269  Linear Algebra |  | PAL |  |  |\n| ECE 271A  Statistical Learning I | VASCONCELOS, N. |  |  |  |\n| ECE 271B  Statistical Learning II |  | VASCONCELOS, M. |  |  |\n| ECE 271C  Deep Learning and Applications |  |  |  |  | [...] | ECE 277  GPU Programming |  |  |  |  |\n| ECE 278  Math Topics for MS Comp Exam |  |  |  |  |\n| ECE 279  Technical Communications |  |  |  |  |\n| ECE 280  Special Topics in Electronic Devices & Materials/Applied Physics |  |  |  |  |\n| ECE 281  Special Topics in Nanoscience/Nanotechnology |  |  |  |  |\n| ECE 282  Special Topics in Photonics/Applied Optics |  |  |  |  |\n| ECE 283  Special Topics in Electronic Circuits & Systems |  | (High-Speed Wireline Communication Circuits & Systems) |  |  |",
+        "score": 0.6889923,
+        "raw_content": null,
+        "id": "137b83-03"
+      },
+      {
+        "url": "https://rady.ucsd.edu/programs/undergraduate/resources/courses.html",
+        "title": "Undergraduate Course Schedule",
+        "content": "1. HOME\n2. Programs\n3. Undergraduate Programs\n4. Resources for Current Students\n5. Undergraduate Course Schedule\n\n# Course Schedule\n\nOnline Advising\n\n## Tentative Course Schedule\n\nSummer 2026 – Spring 2027\n\nFor up-to-date scheduling information, visit the Schedule of Classes on Tritonlink. To verify which classes are accepted for each Rady minor and major, click here.\n\nClick on a course’s title to view prerequisites and course descriptions. [...] | Course Number | Course Title | Summer 2026 Session 1 | Summer 2026 Session 2 | Fall 2026 | Winter 2027 | Spring 2027 |\n ---  ---  --- [...] | MGT-119 | Topics in Business MGT-119 is a rotating topics course. Students can repeat MGT-119 with different topics 3 times or up to 12 units of credit.     Click here for course descriptions of each course topic.    Fall 2026 ---------------------------  • Strategic Communications: Storytelling and Data Presentation  • Startup Nation: Innovation and Entrepreneurship in Israel    Winter 2027 ---------------------------  • Leading & Teaming with AI  • Management Consulting Project    Spring",
+        "score": 0.65597594,
+        "raw_content": null,
+        "id": "32a531-04"
+      }
+    ],
+    "response_time": 2.07,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "61ed8e5f-d8cb-44a4-9920-9f2bfe017d5c"
+  },
+  "recordedAt": "2026-09-28T02:28:42.276Z"
+}

@@ -7,9 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run",
+    "test": "vitest run && node --test devpost/docs.test.ts",
     "test:watch": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:docs": "node --test devpost/docs.test.ts",
+    "offerings:offline": "node --import ./scripts/node-ts.ts scripts/refresh-offerings.ts --offline",
+    "tf:probe": "node scripts/tf-probe.ts"
   },
   "dependencies": {
     "@vercel/blob": "^2.8.0",

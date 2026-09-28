@@ -1,0 +1,151 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a UCSD degree planner. Answer only by calling submit_plans with exactly one plan."
+      },
+      {
+        "role": "user",
+        "content": "A student has completed CSE 8A and MATH 20A. Propose one WI27 plan of three courses chosen from: CSE 8B, MATH 20B, CSE 12, CSE 15L, COGS 1. Label it \"balanced\"."
+      }
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "submit_plans",
+          "description": "Submit the proposed plans.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "plans": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "courses": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "courses"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "plans"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "tool_choice": {
+      "type": "function",
+      "function": {
+        "name": "submit_plans"
+      }
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": true,
+      "reasoning_budget": 256
+    },
+    "max_tokens": 400,
+    "model": "nvidia/nemotron-3-super-120b-a12b"
+  },
+  "response": {
+    "id": "chatcmpl-bdd2291f755dc66a",
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [
+            {
+              "id": "chatcmpl-tool-b86b40b4f26bb4d8",
+              "function": {
+                "arguments": "{\"plans\": [{\"label\": \"balanced\", \"courses\": [\"CSE 8B\", \"MATH 20B\", \"CSE 12\"]}]}",
+                "name": "submit_plans"
+              },
+              "type": "function"
+            }
+          ],
+          "reasoning": "We need to output a single plan label balanced with three courses from list. Student already did CSE8A and MATH20A. Choose maybe CSE8B, MATH20B, CSE12? That's three. Provide JSON via submit_plans.",
+          "reasoning_content": "We need to output a single plan label balanced with three courses from list. Student already did CSE8A and MATH20A. Choose maybe CSE8B, MATH20B, CSE12? That's three. Provide JSON via submit_plans."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1790562297,
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g5001743e3-dp2-9bbaa064",
+    "usage": {
+      "completion_tokens": 116,
+      "prompt_tokens": 507,
+      "total_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 58,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 507
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "recordedAt": "2026-09-28T02:24:58.435Z",
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 507,
+    "total_tokens": 623,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 58,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": null
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 507
+  },
+  "ms": 1283
+}

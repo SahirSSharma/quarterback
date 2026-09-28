@@ -1,0 +1,118 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract the courses from this UCSD academic history. Course codes are upper case with one space (CSE 100). grade is the letter grade, or IP when in progress."
+      },
+      {
+        "role": "user",
+        "content": "CSE 8A   Intro to Programming 1     4.00   A-\nMATH 20A Calculus/Sci & Engineering 4.00   B+\nCSE 12   Basic Data Struct & OO Des 4.00   IP"
+      }
+    ],
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "academic_record",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "courses": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "code": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "code",
+                  "grade"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "courses"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      }
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "reasoning_effort": "none",
+    "max_tokens": 300,
+    "model": "nvidia/Nemotron-3_5-Lightning"
+  },
+  "response": {
+    "id": "chatcmpl-d254ad67",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"courses\": [{\"code\": \"CSE 8A\", \"grade\": \"A-\"}, {\"code\": \"MATH 20A\", \"grade\": \"B+\"}, {\"code\": \"CSE 12\", \"grade\": \"IP\"}]}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "created": 1790562296,
+    "model": "nvidia/Nemotron-3_5-Lightning",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 116,
+      "total_tokens": 174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": null,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 116
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null
+  },
+  "recordedAt": "2026-09-28T02:24:57.147Z",
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 116,
+    "total_tokens": 174,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 116
+  },
+  "ms": 2676
+}

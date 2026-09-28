@@ -1,0 +1,63 @@
+{
+  "endpoint": "search",
+  "request": {
+    "query": "CSE tentative course offerings 2026-2027 site:ucsd.edu",
+    "max_results": 5,
+    "search_depth": "basic",
+    "include_usage": true
+  },
+  "response": {
+    "query": "CSE tentative course offerings 2026-2027",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+      {
+        "url": "https://cse.ucsd.edu/node/1657",
+        "title": "2026-2027 TENTATIVE Course Offerings | Computer Science",
+        "content": "Computer Science & Engineering Department\n\nJacobs School of Engineering UC San Diego\n\n# 2026-2027 TENTATIVE Course Offerings\n\nButton Name\n\n2026-2027 TENTATIVE Course Offerings\n\nPage:\n\nUndergrad Course\n\nButton Description\n\nTentatively planned CSE course offerings: Fall 2026 - Spring 2027\n\nButton Link\n\nCourses Page Section:\n\nWhat is being offered?\n\nButton Order\n\n4",
+        "score": 0.929036,
+        "raw_content": null,
+        "id": "c53b5d-00"
+      },
+      {
+        "url": "https://cse.ucsd.edu/graduate/tentative-2026-2027-cse-graduate-course-offerings",
+        "title": "Tentative 2026-2027 CSE Graduate Course Offerings | Computer Science",
+        "content": "Computer Science & Engineering Department\n\nJacobs School of Engineering UC San Diego\n\n# Tentative 2026-2027 CSE Graduate Course Offerings\n\nUpdated July 22, 2026\n\n\\\\\\This page is tentative and subject to change. Course availability, instructors, and scheduling details are not final.\n\nPlease refer to the following resources for official information: [...] Enrollment and Booking Calendar – Enrollment/booking dates and deadlines\n Be sure to read CSE Graduate Courses home page for quarter-by-quarter updates and view the CSE Course Catalog page for a description of the course.\n\nInstructor Listings:\n\n If an instructor is listed as \"Staff,\" it typically means a visiting lecturer will be hired. Lecturer names will be posted once the hire is official.\n If no instructor is listed, the course will not be offered.",
+        "score": 0.9055316,
+        "raw_content": null,
+        "id": "079ba3-01"
+      },
+      {
+        "url": "https://cse.ucsd.edu/graduate/graduate-courses-and-enrollment-information",
+        "title": "Graduate Courses and Enrollment Information | Computer Science",
+        "content": "UCSD Enrollment and Booking Calendar 2026-2027\n\nConcurrent Enrollment\n\nfor non-UCSD students\n\n### What is being offered?\n\nFall 2026 Graduate Course Updates\n\nLearn enrollment policies and procedures and prerequisite information for the available courses in the quarter.\n\nApplicable to both CSE and non-Majors\n\nCSE Course Catalog\n\nHelps graduate students understand each graduate course offered in the current quarter.\n\nTentative 2026-2027 Course Offerings\n\nReview tentative offerings for the year [...] Historical Data: Past Course Offerings  \n (for historical reference only)\n\nHistorical Data: Course Descriptions and Recommended Preparation\n\nView course information from previous quarters (for reference only).\n\nBeginning Fall 2026, course descriptions will no longer be published [...] Computer Science & Engineering Department\n\nJacobs School of Engineering UC San Diego\n\n# Graduate Courses and Enrollment Information\n\nUpdated September 3, 2026",
+        "score": 0.8488849,
+        "raw_content": null,
+        "id": "3dffa3-02"
+      },
+      {
+        "url": "https://cse.ucsd.edu/undergraduate/undergraduate-information-homepage",
+        "title": "Undergraduate Homepage | Computer Science",
+        "content": "Tentatively planned CSE course offerings: Fall 2026 - Spring 2027\n\n#### CSE Electives and Technical Electives\n\nCourses for the 2025-2026 academic year\n\n#### CSE Course Prerequisites\n\nThe CSE Department enforces all prerequisites\n\n#### Undergraduate Course Home Page (Summer Session 2- 2026)\n\nThis page contains links to the CSE undergraduate class home pages for Summer Session 2- 2026. Please note that some class web pages may still be under construction.\n\n## What should I take? [...] Computer Science & Engineering Department\n\nJacobs School of Engineering UC San Diego\n\n# Undergraduate Homepage\n\n## What is being offered?\n\n#### Fall 2026 Updates\n\nEnrollment/booking information for Fall 2026: waitlist details, seat availability, and enrollment/booking status\n\n#### Summer 2026 Updates\n\nEnrollment/booking information for Spring 2026: waitlist details, seat availability, and enrollment/booking status\n\n#### 2026-2027 TENTATIVE Course Offerings",
+        "score": 0.8409005,
+        "raw_content": null,
+        "id": "f9d50d-03"
+      },
+      {
+        "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+        "title": "CSE Tentative Undergraduate Course Offerings | Computer Science",
+        "content": "Computer Science & Engineering Department\n\nJacobs School of Engineering UC San Diego\n\n# CSE Tentative Undergraduate Course Offerings\n\nUpdated: July 8th, 2026\n\n\\\\\\For information on Summer 2026 course offerings, visit the Summer 2026 Preview of Classes.\\\\\\\n\nThis page is tentative and subject to change. Course availability, instructors, and scheduling details are not final. Please refer to the following resources for official information:",
+        "score": 0.79769903,
+        "raw_content": null,
+        "id": "c0a0f6-04"
+      }
+    ],
+    "response_time": 1.76,
+    "usage": {
+      "credits": 1
+    },
+    "request_id": "45fc66a0-5370-4311-8abf-63c00163e860"
+  },
+  "recordedAt": "2026-09-28T02:27:16.256Z"
+}

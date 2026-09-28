@@ -1,0 +1,166 @@
+{
+  "id": "a",
+  "card": {
+    "title": "Revelle · Artificial Intelligence · 2nd year",
+    "blurb": "Taking CSE 29, CSE 101, MATH 18 and HUM 4 this fall. Thinking about dropping CSE 29.",
+    "headline": { "kind": "drop", "course": "CSE 29" }
+  },
+  "state": {
+    "college": "Revelle College",
+    "collegeFile": "revelle-college.json",
+    "major": "Artificial Intelligence",
+    "majors": ["Artificial Intelligence"],
+    "majorFile": "computer-science-and-engineering-artificial-intelligence.json",
+    "catalogYear": "2025-2026",
+    "courses": [
+      { "code": "CSE 11", "title": "Introduction to Programming and Computational Problem-Solving: Accelerated Pace", "term": "FA25", "units": 4, "grade": "A-", "status": "earned" },
+      { "code": "MATH 20A", "title": "Calculus for Science and Engineering", "term": "FA25", "units": 4, "grade": "B+", "status": "earned" },
+      { "code": "HUM 1", "title": "The Ancient Mediterranean World", "term": "FA25", "units": 6, "grade": "B", "status": "earned" },
+      { "code": "CSE 12", "title": "Basic Data Structures and Object-Oriented Design", "term": "WI26", "units": 4, "grade": "B+", "status": "earned" },
+      { "code": "CSE 20", "title": "Discrete Mathematics", "term": "WI26", "units": 4, "grade": "A", "status": "earned" },
+      { "code": "MATH 20B", "title": "Calculus for Science and Engineering", "term": "WI26", "units": 4, "grade": "B", "status": "earned" },
+      { "code": "HUM 2", "title": "Rome and the Medieval World", "term": "WI26", "units": 6, "grade": "B+", "status": "earned" },
+      { "code": "CSE 21", "title": "Mathematics for Algorithms and Systems", "term": "SP26", "units": 4, "grade": "B", "status": "earned" },
+      { "code": "MATH 20C", "title": "Calculus and Analytic Geometry for Science and Engineering", "term": "SP26", "units": 4, "grade": "B-", "status": "earned" },
+      { "code": "HUM 3", "title": "Renaissance, Reformation, and Early Modern Europe", "term": "SP26", "units": 4, "grade": "A-", "status": "earned" },
+      { "code": "PHYS 2A", "title": "Physics—Mechanics", "term": "SP26", "units": 4, "grade": "B", "status": "earned" },
+      { "code": "CSE 29", "title": "Systems Programming and Software Tools", "term": "FA26", "units": 4, "grade": null, "status": "wip" },
+      { "code": "CSE 101", "title": "Design and Analysis of Algorithms", "term": "FA26", "units": 4, "grade": null, "status": "wip" },
+      { "code": "MATH 18", "title": "Linear Algebra", "term": "FA26", "units": 4, "grade": null, "status": "wip" },
+      { "code": "HUM 4", "title": "Enlightenment, Romanticism, Revolution", "term": "FA26", "units": 4, "grade": null, "status": "wip" }
+    ],
+    "transfer": [],
+    "gpa": 3.42,
+    "currentTerm": "FA26",
+    "source": "demo",
+    "confidence": "high",
+    "warnings": []
+  },
+  "impacts": {
+    "drop:CSE 29": {
+      "action": { "kind": "drop", "course": "CSE 29" },
+      "course": { "code": "CSE 29", "title": "Systems Programming and Software Tools", "units": 4 },
+      "blocks": [
+        {
+          "code": "CSE 30", "title": "Computer Organization", "buckets": ["Computer organization (CSE 30)"], "nextOffered": "WI27", "delayQuarters": 1,
+          "evidence": { "course": "CSE 30", "term": "WI27", "status": "offered", "quote": "CSE-030,Computer Organization,Dean Tullsen,Leo Porter,Jishen Zhao", "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings", "fetchedAt": "2026-09-27T17:42:00Z", "instructor": "Leo Porter", "source": "department-page" }
+        },
+        {
+          "code": "CSE 100", "title": "Advanced Data Structures", "buckets": ["Data structures (upper-division)"], "nextOffered": "WI27", "delayQuarters": 1,
+          "evidence": { "course": "CSE 100", "term": "WI27", "status": "offered", "quote": "CSE-100,Advanced Data Structures,Paul Cao,Niema Moshiri,\"Debashis Sahoo\nPaul Cao\"", "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings", "fetchedAt": "2026-09-27T17:42:00Z", "instructor": "Niema Moshiri", "source": "department-page" }
+        },
+        {
+          "code": "CSE 151A", "title": "Machine Learning: Learning Algorithms", "buckets": ["Machine learning (CSE 151A)"], "nextOffered": "WI27", "delayQuarters": 1,
+          "evidence": { "course": "CSE 151A", "term": "WI27", "status": "offered", "quote": "CSE-151A,Machine Learning: Learning Algorithms ,Jingbo Shang,Yoav Freund,Taylor Berg-Kirkpatrick", "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings", "fetchedAt": "2026-09-27T17:42:00Z", "instructor": "Yoav Freund", "source": "department-page" }
+        },
+        {
+          "code": "CSE 150B", "title": "Introduction to Artificial Intelligence: Search and Reasoning", "buckets": ["Artificial intelligence core", "AI electives (12 units)"], "nextOffered": null, "delayQuarters": 3,
+          "evidence": { "course": "CSE 150B", "term": "WI27", "status": "not_offered", "quote": "CSE-150B,Introduction to Artificial Intelligence: Search and Reasoning,Loris D'Antoni,,", "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings", "fetchedAt": "2026-09-27T17:42:00Z", "source": "department-page" }
+        }
+      ],
+      "unitsAfter": 12,
+      "fullTimeFloor": 12,
+      "belowFullTime": false,
+      "pnpAllowed": "no",
+      "pnpNote": "Not part of a drop. For reference: CSE requires a letter grade in every course applied to the major, so CSE 29 could not be switched to P/NP either.",
+      "progressDelta": [
+        { "bucket": "Software tools / systems programming", "band": "major", "before": 1, "after": 0, "needed": 1 }
+      ],
+      "chainQuartersBefore": 4,
+      "chainQuartersAfter": 5,
+      "graduationRisk": "possible",
+      "notes": [
+        "CSE 29 is the only course on your record that satisfies the CSE 15L / CSE 29 prerequisite. It gates CSE 30, CSE 100 and CSE 151A directly, and CSE 150B through CSE 100.",
+        "CSE 29 is listed for Winter 2027 (Bryan Chin) on the CSE tentative offerings sheet. Retaking it then makes Spring 2027 the earliest quarter for CSE 30 and CSE 100.",
+        "CSE 150B is listed only for Fall 2026 this year. If that pattern holds, the next chance is Fall 2027.",
+        "12 units after the drop is exactly the full-time floor. Dropping anything else this quarter would put you below it."
+      ]
+    }
+  },
+  "pnp": {
+    "CSE 29": { "pnpAllowed": "no", "pnpNote": "CSE requires a letter grade in every course applied to the major. On P/NP, CSE 29 would not count toward Software tools / systems programming.", "bucket": { "name": "Software tools / systems programming", "band": "major" } },
+    "CSE 101": { "pnpAllowed": "no", "pnpNote": "CSE requires a letter grade in every course applied to the major. On P/NP, CSE 101 would not count toward Algorithms (CSE 101).", "bucket": { "name": "Algorithms (CSE 101)", "band": "major" } },
+    "MATH 18": { "pnpAllowed": "no", "pnpNote": "MATH 18 fills the AI major's linear algebra requirement, which CSE requires for a letter grade.", "bucket": { "name": "Linear algebra", "band": "major" } },
+    "HUM 4": { "pnpAllowed": "unknown", "pnpNote": "Revelle's requirement file does not state a grading rule for the Humanities sequence. Check with Revelle advising before Nov 6." }
+  },
+  "plans": [
+    {
+      "id": "p-fastest",
+      "label": "fastest",
+      "terms": [
+        { "term": "WI27", "courses": ["CSE 29", "CSE 105", "CSE 194", "MATH 183"], "units": 16 },
+        { "term": "SP27", "courses": ["CSE 30", "CSE 100", "CSE 151A", "HUM 5"], "units": 16 },
+        { "term": "FA27", "courses": ["CSE 150B", "CSE 110", "CSE 152A", "COGS 1"], "units": 16 }
+      ],
+      "rationale": "Front-loads Ethics (CSE 194) and Theory (CSE 105) into Winter while CSE 29 is retaken, so Spring opens CSE 30, CSE 100 and CSE 151A together and the AI core starts in Fall 2027. Finishes one quarter early if every Winter course runs.",
+      "graduationTerm": "WI29"
+    },
+    {
+      "id": "p-balanced",
+      "label": "balanced",
+      "terms": [
+        { "term": "WI27", "courses": ["CSE 29", "CSE 105", "MATH 183", "HUM 5"], "units": 16 },
+        { "term": "SP27", "courses": ["CSE 30", "CSE 100", "CSE 151A", "COGS 1"], "units": 16 },
+        { "term": "FA27", "courses": ["CSE 150B", "CSE 194", "CSE 110", "ETHN 1"], "units": 16 }
+      ],
+      "rationale": "Same Winter as the fastest plan minus Ethics, which moves to Fall 2027 where CSE 194 ran this year. Every course sits in a quarter its department lists it, and Revelle requirements (HUM 5, social science, DEI) fill the fourth slot each quarter.",
+      "graduationTerm": "SP29"
+    },
+    {
+      "id": "p-lightest",
+      "label": "lightest",
+      "terms": [
+        { "term": "WI27", "courses": ["CSE 29", "MATH 183", "HUM 5"], "units": 12 },
+        { "term": "SP27", "courses": ["CSE 30", "CSE 100", "COGS 1"], "units": 12 },
+        { "term": "FA27", "courses": ["CSE 105", "CSE 151A", "CSE 194"], "units": 12 }
+      ],
+      "rationale": "Stays at the 12-unit floor every quarter. CSE 105 and CSE 151A wait until Fall 2027, which costs one to two quarters at the end.",
+      "graduationTerm": "FA29"
+    }
+  ],
+  "reports": [
+    {
+      "planId": "p-fastest",
+      "ok": true,
+      "violations": [
+        { "rule": "assumed-offered", "severity": "warning", "course": "CSE 194", "term": "WI27", "message": "CSE 194 in Winter 2027 has no instructor on the CSE tentative offerings sheet (fetched Sep 27, 2026), and the sheet says a course with no instructor listed will not be offered. The plan assumes it runs." }
+      ]
+    },
+    { "planId": "p-balanced", "ok": true, "violations": [] },
+    { "planId": "p-lightest", "ok": true, "violations": [] }
+  ],
+  "rejectedDrafts": 2,
+  "verdict": {
+    "recommend": "p-balanced",
+    "refused": [
+      {
+        "planId": "p-fastest",
+        "reason": "The fastest plan only saves a quarter if CSE 194 runs in Winter 2027, and the department's own sheet lists no instructor for it that quarter or in Spring. If it does not run, the plan collapses to the balanced one with an empty slot in Winter. Ethics can wait for Fall 2027, when CSE 194 ran this year, or be met by PHIL 174 or POLI 121D.",
+        "evidence": [
+          { "course": "CSE 194", "term": "WI27", "status": "not_offered", "quote": "CSE-194,\"Race, Gender, and Computing\",Imani Munyaka,,", "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings", "fetchedAt": "2026-09-27T17:42:00Z", "source": "department-page" }
+        ]
+      }
+    ],
+    "risks": [
+      "CSE 150B was listed only for Fall 2026 this year. If Fall 2027 follows the same pattern and you miss it, the AI core slips a full year; CSE 150A (listed for Spring 2027) is the fallback.",
+      "Fall 2027 is beyond the 2026–27 offerings sheet. Every Fall 2027 placement follows this year's pattern and should be re-checked when the 2027–28 sheet appears.",
+      "The Winter 2027 Schedule of Classes publishes in November. Re-check CSE 29, CSE 105 and MATH 183 then; a section-time collision would change the Winter load."
+    ],
+    "summary": "Balanced is the plan whose every course sits in a quarter its department lists it. It reaches the same Spring 2027 (CSE 30, CSE 100, CSE 151A) as the fastest plan and defers only Ethics."
+  },
+  "trace": [
+    { "delayMs": 300, "event": { "type": "step", "step": "plan", "at": "2026-09-27T19:00:00Z", "message": "Context pack built: 21 requirement buckets, 43 courses eligible across WI27–FA27, 18 offering rows from the CSE sheet. Shared prefix 18.9k tokens." } },
+    { "delayMs": 900, "event": { "type": "tool_call", "step": "plan", "at": "2026-09-27T19:00:01Z", "name": "offering_status", "args": { "code": "CSE 194", "term": "WI27" } } },
+    { "delayMs": 300, "event": { "type": "tool_result", "step": "plan", "at": "2026-09-27T19:00:01Z", "name": "offering_status", "ms": 14, "summary": "not_offered — no instructor listed for Winter 2027 on the CSE tentative offerings sheet (fetched Sep 27, 2026)" } },
+    { "delayMs": 1500, "event": { "type": "model", "step": "plan", "at": "2026-09-27T19:00:03Z", "entry": { "at": "2026-09-27T19:00:03Z", "step": "plan · round 1", "model": "nvidia/nemotron-3-super-120b-a12b", "ms": 6420, "promptTokens": 21830, "completionTokens": 1880, "reasoningTokens": 3110, "cacheHitTokens": 0, "usd": 0.01104, "replayed": true } } },
+    { "delayMs": 400, "event": { "type": "verifier", "step": "plan", "at": "2026-09-27T19:00:03Z", "report": { "planId": "draft-1", "ok": false, "violations": [ { "rule": "prereq-unsatisfied", "severity": "error", "course": "CSE 30", "term": "WI27", "message": "CSE 30 needs CSE 29 (or CSE 15L / ECE 15) completed before Winter 2027; CSE 29 is planned for the same quarter." } ] } } },
+    { "delayMs": 300, "event": { "type": "verifier", "step": "plan", "at": "2026-09-27T19:00:04Z", "report": { "planId": "draft-2", "ok": false, "violations": [ { "rule": "unit-cap", "severity": "error", "term": "SP27", "message": "Spring 2027 carries 20 units; the cap without college approval is 19.5." }, { "rule": "assumed-offered", "severity": "warning", "course": "CSE 105", "term": "SP27", "message": "CSE 105 has no Spring 2027 instructor on the CSE tentative offerings sheet." } ] } } },
+    { "delayMs": 1500, "event": { "type": "model", "step": "plan", "at": "2026-09-27T19:00:05Z", "entry": { "at": "2026-09-27T19:00:05Z", "step": "plan · round 2", "model": "nvidia/nemotron-3-super-120b-a12b", "ms": 4910, "promptTokens": 24610, "completionTokens": 1520, "reasoningTokens": 2380, "cacheHitTokens": 19200, "usd": 0.01089, "replayed": true } } },
+    { "delayMs": 400, "event": { "type": "verifier", "step": "plan", "at": "2026-09-27T19:00:06Z", "report": { "planId": "p-fastest", "ok": true, "violations": [ { "rule": "assumed-offered", "severity": "warning", "course": "CSE 194", "term": "WI27", "message": "CSE 194 in Winter 2027 has no instructor on the CSE tentative offerings sheet (fetched Sep 27, 2026), and the sheet says a course with no instructor listed will not be offered. The plan assumes it runs." } ] } } },
+    { "delayMs": 300, "event": { "type": "verifier", "step": "plan", "at": "2026-09-27T19:00:06Z", "report": { "planId": "p-balanced", "ok": true, "violations": [] } } },
+    { "delayMs": 300, "event": { "type": "verifier", "step": "plan", "at": "2026-09-27T19:00:06Z", "report": { "planId": "p-lightest", "ok": true, "violations": [] } } },
+    { "delayMs": 500, "event": { "type": "model", "step": "explain", "at": "2026-09-27T19:00:07Z", "entry": { "at": "2026-09-27T19:00:07Z", "step": "explain", "model": "nvidia/Nemotron-3_5-Lightning", "ms": 380, "promptTokens": 3180, "completionTokens": 260, "reasoningTokens": 0, "cacheHitTokens": 0, "usd": 0.00025, "replayed": true } } },
+    { "delayMs": 300, "event": { "type": "done", "step": "plan", "at": "2026-09-27T19:00:07Z" } }
+  ],
+  "stressLedger": { "at": "2026-09-27T19:00:20Z", "step": "stress-test", "model": "nvidia/Nemotron-3-Ultra-550b-a55b", "ms": 11840, "promptTokens": 14220, "completionTokens": 910, "reasoningTokens": 5230, "cacheHitTokens": 0, "usd": 0.03264, "replayed": true }
+}

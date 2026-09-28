@@ -1,0 +1,2620 @@
+{
+  "dept": "CSE",
+  "sourceUrl": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+  "fetchedAt": "2026-09-28T01:45:36.006Z",
+  "contentHash": "828c07a9457a93ec0efa94d7fc4fd7faacb2b582515df55a0d7cadcf6076a03c",
+  "disclaimer": "This page is tentative and subject to change. If no instructor is listed, the course will not be offered.",
+  "terms": [
+    "FA26",
+    "WI27",
+    "SP27"
+  ],
+  "rows": [
+    {
+      "course": "CSE 3",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-003,Fluency/Information Technology,Christine Alvarado,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Christine Alvarado",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 3",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-003,Fluency/Information Technology,Christine Alvarado,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 3",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-003,Fluency/Information Technology,Christine Alvarado,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 4GS",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-004GS,Mathematical Beauty in Rome,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 4GS",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-004GS,Mathematical Beauty in Rome,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 4GS",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-004GS,Mathematical Beauty in Rome,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 5",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-005,Principles and Practice of Artificial Intelligence,Ismael Villegas Molina,,Dan Fu",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Ismael Villegas Molina",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 5",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-005,Principles and Practice of Artificial Intelligence,Ismael Villegas Molina,,Dan Fu",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 5",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-005,Principles and Practice of Artificial Intelligence,Ismael Villegas Molina,,Dan Fu",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Dan Fu",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 5R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-005R,Principles and Practice of Artificial Intelligence,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 5R",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-005R,Principles and Practice of Artificial Intelligence,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 5R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-005R,Principles and Practice of Artificial Intelligence,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 6GS",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-006GS,Mathematical Beauty in Rome - Lab,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 6GS",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-006GS,Mathematical Beauty in Rome - Lab,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 6GS",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-006GS,Mathematical Beauty in Rome - Lab,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 6R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-006R,Intro/CompSci&Obj-Ori:Python,,,Imani Munyaka",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 6R",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-006R,Intro/CompSci&Obj-Ori:Python,,,Imani Munyaka",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 6R",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-006R,Intro/CompSci&Obj-Ori:Python,,,Imani Munyaka",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Imani Munyaka",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 8A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-008A,Intro to Programming & Computational Problem-Solving I,Leo Porter,Paul Cao,Paul Cao",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Leo Porter",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 8A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-008A,Intro to Programming & Computational Problem-Solving I,Leo Porter,Paul Cao,Paul Cao",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Paul Cao",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 8A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-008A,Intro to Programming & Computational Problem-Solving I,Leo Porter,Paul Cao,Paul Cao",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Paul Cao",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 11",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-011,Intro to Programming & Computational Problem-Solving: Accelerated Pace,\"Benjamin Ochoa\nJoe Politz\",Adalbert Gerald Soosai Raj,Benjamin Ochoa",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Benjamin Ochoa; Joe Politz",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 11",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-011,Intro to Programming & Computational Problem-Solving: Accelerated Pace,\"Benjamin Ochoa\nJoe Politz\",Adalbert Gerald Soosai Raj,Benjamin Ochoa",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Adalbert Gerald Soosai Raj",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 11",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-011,Intro to Programming & Computational Problem-Solving: Accelerated Pace,\"Benjamin Ochoa\nJoe Politz\",Adalbert Gerald Soosai Raj,Benjamin Ochoa",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Benjamin Ochoa",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 12",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-012,Basic Data Struct & OO Design,Paul Cao,Paul Cao,Adalbert Gerald Soosai Raj",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Paul Cao",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 12",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-012,Basic Data Struct & OO Design,Paul Cao,Paul Cao,Adalbert Gerald Soosai Raj",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Paul Cao",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 12",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-012,Basic Data Struct & OO Design,Paul Cao,Paul Cao,Adalbert Gerald Soosai Raj",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Adalbert Gerald Soosai Raj",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 20",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-020,Discrete Mathematics,Mia Minnes,Mia Minnes,Miles Jones",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 20",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-020,Discrete Mathematics,Mia Minnes,Mia Minnes,Miles Jones",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 20",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-020,Discrete Mathematics,Mia Minnes,Mia Minnes,Miles Jones",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Miles Jones",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 21",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-021,Mathematics for Algorithms and Systems,Miles Jones,Miles Jones,Miles Jones",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Miles Jones",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 21",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-021,Mathematics for Algorithms and Systems,Miles Jones,Miles Jones,Miles Jones",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Miles Jones",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 21",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-021,Mathematics for Algorithms and Systems,Miles Jones,Miles Jones,Miles Jones",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Miles Jones",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 25",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-025,Introduction to Artificial Intelligence,,Christine Alvarado,Trevor Bonjour",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 25",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-025,Introduction to Artificial Intelligence,,Christine Alvarado,Trevor Bonjour",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Christine Alvarado",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 25",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-025,Introduction to Artificial Intelligence,,Christine Alvarado,Trevor Bonjour",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Trevor Bonjour",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 29",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-029,Systems Programming and Software Tools,Aaron Shalev,Bryan Chin,Joe Politz",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Aaron Shalev",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 29",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-029,Systems Programming and Software Tools,Aaron Shalev,Bryan Chin,Joe Politz",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Bryan Chin",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 29",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-029,Systems Programming and Software Tools,Aaron Shalev,Bryan Chin,Joe Politz",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Joe Politz",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 30",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-030,Computer Organization,Dean Tullsen,Leo Porter,Jishen Zhao",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Dean Tullsen",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 30",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-030,Computer Organization,Dean Tullsen,Leo Porter,Jishen Zhao",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Leo Porter",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 30",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-030,Computer Organization,Dean Tullsen,Leo Porter,Jishen Zhao",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Jishen Zhao",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 55",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-055,Foundations of Artificial Intelligence and Machine Learning,,Ndapandula Nakashole,Ndapandula Nakashole",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 55",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-055,Foundations of Artificial Intelligence and Machine Learning,,Ndapandula Nakashole,Ndapandula Nakashole",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Ndapandula Nakashole",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 55",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-055,Foundations of Artificial Intelligence and Machine Learning,,Ndapandula Nakashole,Ndapandula Nakashole",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Ndapandula Nakashole",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 87",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-087,Introduction to Computer Science and Engineering Seminar,Joe Politz,Niema Moshiri,Niema Moshiri",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Joe Politz",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 87",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-087,Introduction to Computer Science and Engineering Seminar,Joe Politz,Niema Moshiri,Niema Moshiri",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Niema Moshiri",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 87",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-087,Introduction to Computer Science and Engineering Seminar,Joe Politz,Niema Moshiri,Niema Moshiri",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Niema Moshiri",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 88",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-088,\"Learning Sustainable Well-Being: Compassion for Self and Others, a Computing Perspective\",Imani Munyaka,Imani Munyaka,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Imani Munyaka",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 88",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-088,\"Learning Sustainable Well-Being: Compassion for Self and Others, a Computing Perspective\",Imani Munyaka,Imani Munyaka,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Imani Munyaka",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 88",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-088,\"Learning Sustainable Well-Being: Compassion for Self and Others, a Computing Perspective\",Imani Munyaka,Imani Munyaka,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 89",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-089,Introduction to Computer Science and Engineering Seminar,Joe Politz,Joe Politz,Joe Politz",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Joe Politz",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 89",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-089,Introduction to Computer Science and Engineering Seminar,Joe Politz,Joe Politz,Joe Politz",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Joe Politz",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 89",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-089,Introduction to Computer Science and Engineering Seminar,Joe Politz,Joe Politz,Joe Politz",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Joe Politz",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 90",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-090,Undergraduate Seminar,Steven Swanson,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Steven Swanson",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 90",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-090,Undergraduate Seminar,Steven Swanson,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 90",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-090,Undergraduate Seminar,Steven Swanson,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 95",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-095,Tutor Apprentice,Mia Minnes,Mia Minnes,Christine Alvarado",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 95",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-095,Tutor Apprentice,Mia Minnes,Mia Minnes,Christine Alvarado",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 95",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-095,Tutor Apprentice,Mia Minnes,Mia Minnes,Christine Alvarado",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Christine Alvarado",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 100",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-100,Advanced Data Structures,Paul Cao,Niema Moshiri,\"Debashis Sahoo\nPaul Cao\"",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Paul Cao",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 100",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-100,Advanced Data Structures,Paul Cao,Niema Moshiri,\"Debashis Sahoo\nPaul Cao\"",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Niema Moshiri",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 100",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-100,Advanced Data Structures,Paul Cao,Niema Moshiri,\"Debashis Sahoo\nPaul Cao\"",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Debashis Sahoo; Paul Cao",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 100R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-100R,Advanced Data Structures,,Niema Moshiri,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 100R",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-100R,Advanced Data Structures,,Niema Moshiri,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Niema Moshiri",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 100R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-100R,Advanced Data Structures,,Niema Moshiri,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 101",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-101,Design and Analysis of Algorithms,Miles Jones,\"Benjamin Ochoa\nDaniel Kane\",\"June Vuong\nQipeng Liu\"",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Miles Jones",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 101",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-101,Design and Analysis of Algorithms,Miles Jones,\"Benjamin Ochoa\nDaniel Kane\",\"June Vuong\nQipeng Liu\"",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Benjamin Ochoa; Daniel Kane",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 101",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-101,Design and Analysis of Algorithms,Miles Jones,\"Benjamin Ochoa\nDaniel Kane\",\"June Vuong\nQipeng Liu\"",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "June Vuong; Qipeng Liu",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 103",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-103,Practical Intro/Prob & Stats,Yoav Freund,Miles Jones,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Yoav Freund",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 103",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-103,Practical Intro/Prob & Stats,Yoav Freund,Miles Jones,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Miles Jones",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 103",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-103,Practical Intro/Prob & Stats,Yoav Freund,Miles Jones,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 105",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-105,Theory of Computability,Daniele Micciancio,Shachar Lovett,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Daniele Micciancio",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 105",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-105,Theory of Computability,Daniele Micciancio,Shachar Lovett,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Shachar Lovett",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 105",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-105,Theory of Computability,Daniele Micciancio,Shachar Lovett,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 106",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-106,Discrete and Continuous Optimization,,,Ramamohan Paturi",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 106",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-106,Discrete and Continuous Optimization,,,Ramamohan Paturi",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 106",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-106,Discrete and Continuous Optimization,,,Ramamohan Paturi",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Ramamohan Paturi",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 107",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-107,Introduction to Modern Cryptography,Mihir Bellare,Hovav Shacham,Adam Suhl",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mihir Bellare",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 107",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-107,Introduction to Modern Cryptography,Mihir Bellare,Hovav Shacham,Adam Suhl",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Hovav Shacham",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 107",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-107,Introduction to Modern Cryptography,Mihir Bellare,Hovav Shacham,Adam Suhl",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Adam Suhl",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 108",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-108,TBD,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 108",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-108,TBD,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 108",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-108,TBD,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 108R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-108R,TBD,,,Pavel Pevzner",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 108R",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-108R,TBD,,,Pavel Pevzner",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 108R",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-108R,TBD,,,Pavel Pevzner",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Pavel Pevzner",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 109",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-109,Intro to Programming Contests,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 109",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-109,Intro to Programming Contests,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 109",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-109,Intro to Programming Contests,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 110",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-110,Software Engineering,Michael Coblenz,William Griswold,Thomas Powell",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Michael Coblenz",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 110",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-110,Software Engineering,Michael Coblenz,William Griswold,Thomas Powell",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "William Griswold",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 110",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-110,Software Engineering,Michael Coblenz,William Griswold,Thomas Powell",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Thomas Powell",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 112",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-112,Advanced Software Engineering,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 112",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-112,Advanced Software Engineering,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 112",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-112,Advanced Software Engineering,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 114",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-114,TBD,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 114",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-114,TBD,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 114",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-114,TBD,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 115",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-115,TBD,,Joe Politz,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 115",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-115,TBD,,Joe Politz,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Joe Politz",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 115",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-115,TBD,,Joe Politz,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 115R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-115R,TBD,,Nadia Polikarpova,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 115R",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-115R,TBD,,Nadia Polikarpova,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Nadia Polikarpova",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 115R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-115R,TBD,,Nadia Polikarpova,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 118",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-118,Ubiquitous Computing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 118",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-118,Ubiquitous Computing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 118",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-118,Ubiquitous Computing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 120",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-120,Operating Systems Principles,Geoffrey Voelker,Bryan Chin,Amy Ousterhout",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Geoffrey Voelker",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 120",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-120,Operating Systems Principles,Geoffrey Voelker,Bryan Chin,Amy Ousterhout",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Bryan Chin",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 120",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-120,Operating Systems Principles,Geoffrey Voelker,Bryan Chin,Amy Ousterhout",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Amy Ousterhout",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 122",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-122,Wireless Networks,,Patrick Pannuto,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 122",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-122,Wireless Networks,,Patrick Pannuto,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Patrick Pannuto",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 122",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-122,Wireless Networks,,Patrick Pannuto,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 123",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-123,Computer Networks,Alex Snoeren,Aaron Shalev,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Alex Snoeren",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 123",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-123,Computer Networks,Alex Snoeren,Aaron Shalev,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Aaron Shalev",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 123",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-123,Computer Networks,Alex Snoeren,Aaron Shalev,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 124",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-124,Networked Services,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 124",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-124,Networked Services,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 124",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-124,Networked Services,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 125",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-125,Software Sys Design & Implemnt,,,Geoffrey Voelker",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 125",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-125,Software Sys Design & Implemnt,,,Geoffrey Voelker",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 125",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-125,Software Sys Design & Implemnt,,,Geoffrey Voelker",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Geoffrey Voelker",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 127",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-127,Intro to Computer Security,Stefan Savage,Deepak Kumar,Deian Stefan",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Stefan Savage",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 127",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-127,Intro to Computer Security,Stefan Savage,Deepak Kumar,Deian Stefan",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Deepak Kumar",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 127",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-127,Intro to Computer Security,Stefan Savage,Deepak Kumar,Deian Stefan",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Deian Stefan",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 130",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-130,Progrmng Lang:Princpl&Paradigm,,Ranjit Jhala,Nadia Polikarpova",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 130",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-130,Progrmng Lang:Princpl&Paradigm,,Ranjit Jhala,Nadia Polikarpova",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Ranjit Jhala",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 130",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-130,Progrmng Lang:Princpl&Paradigm,,Ranjit Jhala,Nadia Polikarpova",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Nadia Polikarpova",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 131",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-131,Compiler Construction,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 131",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-131,Compiler Construction,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 131",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-131,Compiler Construction,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 132A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-132A,Database System Principles,,Alin Deutsch,Alin Deutsch",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 132A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-132A,Database System Principles,,Alin Deutsch,Alin Deutsch",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Alin Deutsch",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 132A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-132A,Database System Principles,,Alin Deutsch,Alin Deutsch",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Alin Deutsch",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 134B",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-134B,Web Client Languages,Thomas Powell,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Thomas Powell",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 134B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-134B,Web Client Languages,Thomas Powell,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 134B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-134B,Web Client Languages,Thomas Powell,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 135",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-135,Online Database Analytics Applications,,Thomas Powell,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 135",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-135,Online Database Analytics Applications,,Thomas Powell,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Thomas Powell",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 135",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-135,Online Database Analytics Applications,,Thomas Powell,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 136",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-136,Enterprise-class Web Applcatns,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 136",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-136,Enterprise-class Web Applcatns,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 136",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-136,Enterprise-class Web Applcatns,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 140",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-140,Component&Desgn Tech/Digtl Sys,Alex Orailoglu,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Alex Orailoglu",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 140",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-140,Component&Desgn Tech/Digtl Sys,Alex Orailoglu,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 140",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-140,Component&Desgn Tech/Digtl Sys,Alex Orailoglu,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 140R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-140R,TBD,,Tajana Rosing,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 140R",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-140R,TBD,,Tajana Rosing,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Tajana Rosing",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 140R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-140R,TBD,,Tajana Rosing,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 141",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-141,Intro/Computer Architecture,Patrick Pannuto,,Hadi Esmaeilzadeh",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Patrick Pannuto",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 141",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-141,Intro/Computer Architecture,Patrick Pannuto,,Hadi Esmaeilzadeh",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 141",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-141,Intro/Computer Architecture,Patrick Pannuto,,Hadi Esmaeilzadeh",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Hadi Esmaeilzadeh",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 142",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-142,Introduction to Computer Architecture: A Software Perspective,,,Steven Swanson",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 142",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-142,Introduction to Computer Architecture: A Software Perspective,,,Steven Swanson",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 142",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-142,Introduction to Computer Architecture: A Software Perspective,,,Steven Swanson",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Steven Swanson",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 143",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-143,Microelectronic System Design,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 143",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-143,Microelectronic System Design,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 143",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-143,Microelectronic System Design,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 145",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-145,Embedded System Design Project,,,Ryan Kastner",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 145",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-145,Embedded System Design Project,,,Ryan Kastner",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 145",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-145,Embedded System Design Project,,,Ryan Kastner",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Ryan Kastner",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 147",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-147,Introduction to Embedded Systems,,Tajana Rosing,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 147",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-147,Introduction to Embedded Systems,,Tajana Rosing,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Tajana Rosing",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 147",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-147,Introduction to Embedded Systems,,Tajana Rosing,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 148",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-148,Adv Processor Arch Design Proj,,Dean Tullsen,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 148",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-148,Adv Processor Arch Design Proj,,Dean Tullsen,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Dean Tullsen",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 148",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-148,Adv Processor Arch Design Proj,,Dean Tullsen,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 150A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-150A,Introduction to Artificial Intelligence: Probabilistic Reasoning and Decision-Making,Trevor Bonjour,,Trevor Bonjour",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Trevor Bonjour",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 150A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-150A,Introduction to Artificial Intelligence: Probabilistic Reasoning and Decision-Making,Trevor Bonjour,,Trevor Bonjour",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 150A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-150A,Introduction to Artificial Intelligence: Probabilistic Reasoning and Decision-Making,Trevor Bonjour,,Trevor Bonjour",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Trevor Bonjour",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 150B",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-150B,Introduction to Artificial Intelligence: Search and Reasoning,Loris D'Antoni,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Loris D'Antoni",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 150B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-150B,Introduction to Artificial Intelligence: Search and Reasoning,Loris D'Antoni,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 150B",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-150B,Introduction to Artificial Intelligence: Search and Reasoning,Loris D'Antoni,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 151A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-151A,Machine Learning: Learning Algorithms ,Jingbo Shang,Yoav Freund,Taylor Berg-Kirkpatrick",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Jingbo Shang",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 151A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-151A,Machine Learning: Learning Algorithms ,Jingbo Shang,Yoav Freund,Taylor Berg-Kirkpatrick",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Yoav Freund",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 151A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-151A,Machine Learning: Learning Algorithms ,Jingbo Shang,Yoav Freund,Taylor Berg-Kirkpatrick",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Taylor Berg-Kirkpatrick",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 151B",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-151B,Deep Learning,Sadhika Malladi,Marc Niethammer,Rose Yu",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Sadhika Malladi",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 151B",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-151B,Deep Learning,Sadhika Malladi,Marc Niethammer,Rose Yu",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Marc Niethammer",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 151B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-151B,Deep Learning,Sadhika Malladi,Marc Niethammer,Rose Yu",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Rose Yu",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 152A",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-152A,Intro to Computer Vision I,Benjamin Ochoa,Manmohan Chandraker,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Benjamin Ochoa",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 152A",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-152A,Intro to Computer Vision I,Benjamin Ochoa,Manmohan Chandraker,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Manmohan Chandraker",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 152A",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-152A,Intro to Computer Vision I,Benjamin Ochoa,Manmohan Chandraker,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 152B",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-152B,Intro to Computer Vision II,,,Manmohan Chandraker",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 152B",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-152B,Intro to Computer Vision II,,,Manmohan Chandraker",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 152B",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-152B,Intro to Computer Vision II,,,Manmohan Chandraker",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Manmohan Chandraker",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 153",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-153,Machine Learning for Music,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 153",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-153,Machine Learning for Music,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 153",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-153,Machine Learning for Music,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 153R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-153R,Machine Learning for Music,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 153R",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-153R,Machine Learning for Music,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 153R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-153R,Machine Learning for Music,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 156",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-156,Statistical NLP,,,Lianhui Qin",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 156",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-156,Statistical NLP,,,Lianhui Qin",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 156",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-156,Statistical NLP,,,Lianhui Qin",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Lianhui Qin",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 158",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-158,Recommender Sys&Web Mining,Julian Mcauley,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Julian Mcauley",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 158",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-158,Recommender Sys&Web Mining,Julian Mcauley,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 158",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-158,Recommender Sys&Web Mining,Julian Mcauley,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 158R",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-158R,Recommender Sys&Web Mining,Julian Mcauley,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Julian Mcauley",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 158R",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-158R,Recommender Sys&Web Mining,Julian Mcauley,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 158R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-158R,Recommender Sys&Web Mining,Julian Mcauley,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 160",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-160,Intro to Parallel Computing,,Ryan Kastner,Bryan Chin",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 160",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-160,Intro to Parallel Computing,,Ryan Kastner,Bryan Chin",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Ryan Kastner",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 160",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-160,Intro to Parallel Computing,,Ryan Kastner,Bryan Chin",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Bryan Chin",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 162",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-162,TBD,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 162",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-162,TBD,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 162",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-162,TBD,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 163",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-163,Advanced Computer Graphics,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 163",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-163,Advanced Computer Graphics,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 163",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-163,Advanced Computer Graphics,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 165",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-165,3-D User Interaction,,,Nadir Weibel",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 165",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-165,3-D User Interaction,,,Nadir Weibel",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 165",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-165,3-D User Interaction,,,Nadir Weibel",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Nadir Weibel",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 166",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-166,Image Processing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 166",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-166,Image Processing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 166",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-166,Image Processing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 167",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-167,Computer Graphics,Tzu Mao Li,Albert Chern,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Tzu Mao Li",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 167",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-167,Computer Graphics,Tzu Mao Li,Albert Chern,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Albert Chern",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 167",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-167,Computer Graphics,Tzu Mao Li,Albert Chern,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 167R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-167R,Computer Graphics,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 167R",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-167R,Computer Graphics,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 167R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-167R,Computer Graphics,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 168",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-168,Computer Graphics II: Rendering,,,Ravi Ramamoorthi",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 168",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-168,Computer Graphics II: Rendering,,,Ravi Ramamoorthi",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 168",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-168,Computer Graphics II: Rendering,,,Ravi Ramamoorthi",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Ravi Ramamoorthi",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 168R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-168R,Computer Graphics II: Rendering,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 168R",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-168R,Computer Graphics II: Rendering,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 168R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-168R,Computer Graphics II: Rendering,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 169",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-169,Computer Animation,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 169",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-169,Computer Animation,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 169",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-169,Computer Animation,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 170",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-170,Interaction Design,Kristen Vaccaro,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Kristen Vaccaro",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 170",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-170,Interaction Design,Kristen Vaccaro,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 170",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-170,Interaction Design,Kristen Vaccaro,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 175",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-175,Entrepreneurship for Engineers,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 175",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-175,Entrepreneurship for Engineers,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 175",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-175,Entrepreneurship for Engineers,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 176A",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-176A,Healthcare Robotics,,,Laurel Riek",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 176A",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-176A,Healthcare Robotics,,,Laurel Riek",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 176A",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-176A,Healthcare Robotics,,,Laurel Riek",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Laurel Riek",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 176E",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-176E,Robotic Sys Design & Implemnt,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 176E",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-176E,Robotic Sys Design & Implemnt,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 176E",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-176E,Robotic Sys Design & Implemnt,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 180",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-180,Biology Meets Computing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 180",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-180,Biology Meets Computing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 180",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-180,Biology Meets Computing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 180R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-180R,Biology Meets Computing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 180R",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-180R,Biology Meets Computing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 180R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-180R,Biology Meets Computing,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 181",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-181,Molecular Sequence Analysis,,Pavel Pevzner,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 181",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-181,Molecular Sequence Analysis,,Pavel Pevzner,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Pavel Pevzner",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 181",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-181,Molecular Sequence Analysis,,Pavel Pevzner,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 181R",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-181R,Molecular Sequence Analysis,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 181R",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-181R,Molecular Sequence Analysis,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 181R",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-181R,Molecular Sequence Analysis,,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 182",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-182,Biological Databases,,,Vineet Bafna",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 182",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-182,Biological Databases,,,Vineet Bafna",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 182",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-182,Biological Databases,,,Vineet Bafna",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Vineet Bafna",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 185",
+      "term": "FA26",
+      "status": "not_offered",
+      "quote": "CSE-185,Advanced Bioinformatics Lab,,,Niema Moshiri",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 185",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-185,Advanced Bioinformatics Lab,,,Niema Moshiri",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 185",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-185,Advanced Bioinformatics Lab,,,Niema Moshiri",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Niema Moshiri",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 190",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-190,Topics/Computer Sci & Engineer,\"Adalbert Gerald Soosai Raj\nDaniel Grier\nDeepak Kumar\nSanjoy Dasgupta\",\"Adalbert Gerald Soosai Raj\nBarna Saha\nJulian Mcauley\nMichael Coblenz\nNuno Bandeira\",",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Adalbert Gerald Soosai Raj; Daniel Grier; Deepak Kumar; Sanjoy Dasgupta",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 190",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-190,Topics/Computer Sci & Engineer,\"Adalbert Gerald Soosai Raj\nDaniel Grier\nDeepak Kumar\nSanjoy Dasgupta\",\"Adalbert Gerald Soosai Raj\nBarna Saha\nJulian Mcauley\nMichael Coblenz\nNuno Bandeira\",",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Adalbert Gerald Soosai Raj; Barna Saha; Julian Mcauley; Michael Coblenz; Nuno Bandeira",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 190",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-190,Topics/Computer Sci & Engineer,\"Adalbert Gerald Soosai Raj\nDaniel Grier\nDeepak Kumar\nSanjoy Dasgupta\",\"Adalbert Gerald Soosai Raj\nBarna Saha\nJulian Mcauley\nMichael Coblenz\nNuno Bandeira\",",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 191",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-191,Semnr/Computer Sci & Engineer,Mia Minnes,Mia Minnes,Mia Minnes",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 191",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-191,Semnr/Computer Sci & Engineer,Mia Minnes,Mia Minnes,Mia Minnes",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 191",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-191,Semnr/Computer Sci & Engineer,Mia Minnes,Mia Minnes,Mia Minnes",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 193",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-193,Introduction to CS Research,Trevor Bonjour,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Trevor Bonjour",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 193",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-193,Introduction to CS Research,Trevor Bonjour,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 193",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-193,Introduction to CS Research,Trevor Bonjour,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 194",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-194,\"Race, Gender, and Computing\",Imani Munyaka,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Imani Munyaka",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 194",
+      "term": "WI27",
+      "status": "not_offered",
+      "quote": "CSE-194,\"Race, Gender, and Computing\",Imani Munyaka,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 194",
+      "term": "SP27",
+      "status": "not_offered",
+      "quote": "CSE-194,\"Race, Gender, and Computing\",Imani Munyaka,,",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 197",
+      "term": "FA26",
+      "status": "offered",
+      "quote": "CSE-197,Field Study/Computer Sci&Engin,Mia Minnes,Mia Minnes,Mia Minnes",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 197",
+      "term": "WI27",
+      "status": "offered",
+      "quote": "CSE-197,Field Study/Computer Sci&Engin,Mia Minnes,Mia Minnes,Mia Minnes",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    },
+    {
+      "course": "CSE 197",
+      "term": "SP27",
+      "status": "offered",
+      "quote": "CSE-197,Field Study/Computer Sci&Engin,Mia Minnes,Mia Minnes,Mia Minnes",
+      "url": "https://cse.ucsd.edu/undergraduate/tentative-course-offerings",
+      "fetchedAt": "2026-09-28T01:45:36.006Z",
+      "instructor": "Mia Minnes",
+      "source": "department-page"
+    }
+  ]
+}

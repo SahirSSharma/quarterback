@@ -1,0 +1,820 @@
+{
+  "hadDepartmentRows": true,
+  "course": {
+    "code": "CSE 29",
+    "title": "Systems Programming and Software Tools",
+    "units": 4
+  },
+  "unitsAfter": 12,
+  "belowFullTime": false,
+  "pnpAllowed": "unknown",
+  "deadlines": [
+    [
+      "dropWithoutW",
+      "2026-10-23",
+      false
+    ],
+    [
+      "changeUnits",
+      "2026-11-06",
+      false
+    ],
+    [
+      "changeGradingOption",
+      "2026-11-06",
+      false
+    ],
+    [
+      "dropWithW",
+      "2026-11-06",
+      false
+    ]
+  ],
+  "progressDelta": [
+    {
+      "bucket": "Software tools / systems programming",
+      "band": "major",
+      "before": 1,
+      "after": 0,
+      "needed": 1
+    }
+  ],
+  "chainQuartersBefore": 2,
+  "chainQuartersAfter": 2,
+  "graduationRisk": "possible",
+  "blocks": [
+    {
+      "code": "CSE 30",
+      "buckets": [
+        "Computer organization (CSE 30)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 1,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 140L",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 1,
+      "evidence": {
+        "source": "cape-history",
+        "status": "unknown"
+      }
+    },
+    {
+      "code": "CSE 100",
+      "buckets": [
+        "Data structures (upper-division)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 100R",
+      "buckets": [
+        "Data structures (upper-division)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 109",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 120",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 123",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 124",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 150A",
+      "buckets": [
+        "Artificial intelligence core",
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 150B",
+      "buckets": [
+        "Artificial intelligence core",
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 151A",
+      "buckets": [
+        "Machine learning (CSE 151A)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 152A",
+      "buckets": [
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 153",
+      "buckets": [
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 153R",
+      "buckets": [
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 156",
+      "buckets": [
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 158",
+      "buckets": [
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 158R",
+      "buckets": [
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 55",
+      "buckets": [
+        "AI lower-division core"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "DSC 148",
+      "buckets": [
+        "AI electives (12 units)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "cape-history",
+        "status": "unknown"
+      }
+    },
+    {
+      "code": "CSE 110",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 130",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 131",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 132A",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 134B",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 135",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 142",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 142L",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "cape-history",
+        "status": "unknown"
+      }
+    },
+    {
+      "code": "CSE 160",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 166",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 167",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 167R",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 181",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 181R",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 182",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 121",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "cape-history",
+        "status": "unknown"
+      }
+    },
+    {
+      "code": "CSE 127",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "COGS 118B",
+      "buckets": [
+        "AI electives (12 units)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "COGS 182",
+      "buckets": [
+        "AI electives (12 units)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "COGS 181",
+      "buckets": [
+        "AI electives (12 units)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 151B",
+      "buckets": [
+        "Artificial intelligence core",
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 152B",
+      "buckets": [
+        "AI electives (12 units)",
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "COGS 118A",
+      "buckets": [
+        "AI electives (12 units)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 122",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 140",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 141",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 141L",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "cape-history",
+        "status": "unknown"
+      }
+    },
+    {
+      "code": "CSE 147",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 184",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "cape-history",
+        "status": "unknown"
+      }
+    },
+    {
+      "code": "CSE 112",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 176A",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 118",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 132B",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "cape-history",
+        "status": "unknown"
+      }
+    },
+    {
+      "code": "CSE 132C",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "cape-history",
+        "status": "unknown"
+      }
+    },
+    {
+      "code": "CSE 136",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 148",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 163",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 165",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 168",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": "SP27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 168R",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "CSE 169",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "COGS 188",
+      "buckets": [
+        "AI electives (12 units)",
+        "Social Science"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    },
+    {
+      "code": "COGS 185",
+      "buckets": [
+        "AI electives (12 units)"
+      ],
+      "nextOffered": "WI27",
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "offered"
+      }
+    },
+    {
+      "code": "CSE 143",
+      "buckets": [
+        "Upper-division electives (32 units with breadth distribution)"
+      ],
+      "nextOffered": null,
+      "delayQuarters": 0,
+      "evidence": {
+        "source": "department-page",
+        "status": "not_offered"
+      }
+    }
+  ]
+}
