@@ -13,8 +13,8 @@ describe('data snapshot', () => {
   });
   it('ships every major and college file with buckets', () => {
     const fs = require('node:fs') as typeof import('node:fs');
-    const majors = fs.readdirSync(path.join(root, 'data/majors')).filter((f: string) => f.endsWith('.json'));
-    expect(majors.length).toBe(144);
+    const majors = fs.readdirSync(path.join(root, 'data/majors')).filter((f: string) => f.endsWith('.json') && !['index.json', 'uncovered.json'].includes(f));
+    expect(majors.length).toBe(142);
     for (const f of majors) {
       const m = JSON.parse(fs.readFileSync(path.join(root, 'data/majors', f), 'utf8'));
       expect(Array.isArray(m.buckets)).toBe(true);
