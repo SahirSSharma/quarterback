@@ -51,26 +51,39 @@ describe('LRU in front of the backend', () => {
   beforeAll(() => { dir = mkdtempSync(path.join(os.tmpdir(), 'qb-lru-')); });
   afterAll(() => rmSync(dir, { recursive: true, force: true }));
 
-  it('serves a warm key without touching the backend, and del evicts it', async () => {
+  it('serves a warm write-once key without touching the backend, and del evicts it', async () => {
     const s = createStore({ dir });
-    await s.put('runs/warm', { v: 1 });
-    rmSync(path.join(dir, 'runs/warm.json')); // behind the store's back
-    expect(await s.get('runs/warm')).toEqual({ v: 1 }); // still cached
-    await s.del('runs/warm');
-    expect(await s.get('runs/warm')).toBeNull();
+    await s.put('ledger/2026-09-27/warm', { v: 1 });
+    rmSync(path.join(dir, 'ledger/2026-09-27/warm.json')); // behind the store's back
+    expect(await s.get('ledger/2026-09-27/warm')).toEqual({ v: 1 }); // still cached
+    await s.del('ledger/2026-09-27/warm');
+    expect(await s.get('ledger/2026-09-27/warm')).toBeNull();
+  });
+
+  it('never caches mutable keys: a run rewritten behind this process reads back fresh', async () => {
+    const s = createStore({ dir });
+    await s.put('runs/k', { v: 1 });
+    expect(await s.get('runs/k')).toEqual({ v: 1 });
+    writeFileSync(path.join(dir, 'runs/k.json'), JSON.stringify({ v: 2 })); // another instance stored the plans
+    expect(await s.get('runs/k')).toEqual({ v: 2 });
+    for (const key of ['saved/x', 'traces/x']) {
+      await s.put(key, { v: 1 });
+      writeFileSync(path.join(dir, `${key}.json`), JSON.stringify({ v: 9 }));
+      expect(await s.get(key)).toEqual({ v: 9 });
+    }
   });
 
   it('a put replaces the cached value; a get after an external write re-reads only once evicted', async () => {
     const s = createStore({ dir });
-    await s.put('runs/k', { v: 1 });
-    await s.put('runs/k', { v: 2 });
-    expect(await s.get('runs/k')).toEqual({ v: 2 });
-    for (let i = 0; i < 200; i++) await s.put(`runs/fill-${i}`, { i }); // 200 newer keys push runs/k out
-    writeFileSync(path.join(dir, 'runs/k.json'), JSON.stringify({ v: 3 }));
-    expect(await s.get('runs/k')).toEqual({ v: 3 });
+    await s.put('approvals/k', { v: 1 });
+    await s.put('approvals/k', { v: 2 });
+    expect(await s.get('approvals/k')).toEqual({ v: 2 });
+    for (let i = 0; i < 200; i++) await s.put(`approvals/fill-${i}`, { i }); // 200 newer keys push approvals/k out
+    writeFileSync(path.join(dir, 'approvals/k.json'), JSON.stringify({ v: 3 }));
+    expect(await s.get('approvals/k')).toEqual({ v: 3 });
     // The most recent filler key is still warm even though its file is gone.
-    rmSync(path.join(dir, 'runs/fill-199.json'));
-    expect(await s.get('runs/fill-199')).toEqual({ i: 199 });
+    rmSync(path.join(dir, 'approvals/fill-199.json'));
+    expect(await s.get('approvals/fill-199')).toEqual({ i: 199 });
   });
 
   it('hands out fresh objects: mutating what you got or what you put does not change the store', async () => {
@@ -140,8 +153,10 @@ describe('Vercel Blob backend (SDK mocked)', () => {
     expect(blobGet).toHaveBeenCalledWith('runs/x.json', { access: 'private', useCache: false });
     vi.mocked(blobGet).mockResolvedValueOnce(null);
     expect(await store().get('runs/missing')).toBeNull();
-    expect(await store().get('runs/x')).toEqual({ n: 7 }); // warm: no second SDK call
-    expect(blobGet).toHaveBeenCalledTimes(2);
+    // Runs are mutable, so every read goes back to Blob (another instance may have stored the plans).
+    vi.mocked(blobGet).mockResolvedValueOnce({ statusCode: 200, stream: new Blob(['{"n":8}']).stream() } as never);
+    expect(await store().get('runs/x')).toEqual({ n: 8 });
+    expect(blobGet).toHaveBeenCalledTimes(3);
   });
 
   it('follows list pagination and strips the extension; del removes the pathname', async () => {

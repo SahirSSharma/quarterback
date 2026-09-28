@@ -38,9 +38,18 @@ interface Backend {
 
 const LRU_SIZE = 200;
 
+/**
+ * Only write-once keys may be served from the process-local cache. Runs, saved copies and traces are
+ * overwritten by other requests, which on Vercel land on other function instances: a warm instance that
+ * cached `runs/<id>` at creation kept returning the empty run after the trace had stored the plans
+ * (seen on the 2026-09-27 preview). Ledger entries, approvals and critic verdicts never change once written.
+ */
+export const CACHEABLE_KEY = /^(ledger|approvals|critic-cache)\//;
+
 function withLru(backend: Backend): ObjectStore {
   const cache = new Map<string, string>();
   const remember = (key: string, text: string) => {
+    if (!CACHEABLE_KEY.test(key)) return;
     cache.delete(key);
     cache.set(key, text);
     if (cache.size > LRU_SIZE) cache.delete(cache.keys().next().value as string);
